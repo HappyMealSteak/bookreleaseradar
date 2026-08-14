@@ -10,14 +10,14 @@ function buildGenreQueries(genre: Genre): string[] {
   const yr = new Date().getFullYear();
   const nextYr = yr + 1;
   const base: Record<Genre, string[]> = {
-    fiction:      ['literary fiction novel', 'debut fiction novel'],
-    thriller:     ['thriller novel', 'psychological thriller'],
-    mystery:      ['mystery novel', 'detective mystery'],
-    fantasy:      ['fantasy novel', 'epic fantasy'],
-    'sci-fi':     ['science fiction novel', 'sci-fi novel'],
-    romance:      ['romance novel new releases', 'contemporary romance'],
-    'self-help':  ['self-help book', 'personal development book'],
-    'non-fiction':['nonfiction book', 'narrative nonfiction'],
+    fiction:      ['literary fiction novel', 'debut fiction novel', 'contemporary fiction'],
+    thriller:     ['thriller novel', 'psychological thriller', 'crime thriller'],
+    mystery:      ['mystery novel', 'detective mystery', 'cozy mystery'],
+    fantasy:      ['fantasy novel', 'epic fantasy', 'urban fantasy', 'dark fantasy'],
+    'sci-fi':     ['science fiction novel', 'sci-fi novel', 'space opera', 'hard science fiction'],
+    romance:      ['romance novel new releases', 'contemporary romance', 'historical romance'],
+    'self-help':  ['self-help book', 'personal development book', 'productivity book', 'mindset book'],
+    'non-fiction':['nonfiction book', 'narrative nonfiction', 'popular science book', 'history book'],
   };
   const terms = base[genre];
   // Generate year-targeted and "new releases" variants for each base term
