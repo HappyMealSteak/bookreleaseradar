@@ -89,8 +89,15 @@ export default async function BookPage({ params }: Props) {
                   sizes="200px"
                 />
               ) : (
-                <div className="absolute inset-0 cover-placeholder flex items-center justify-center p-4 text-center">
-                  <span className="text-[var(--text-faint)] text-sm">{book.title}</span>
+                <div className="absolute inset-0 cover-placeholder flex flex-col items-center justify-center gap-3 p-4 text-center">
+                  <svg width="48" height="48" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="5" y="3" width="18" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
+                    <rect x="8" y="3" width="15" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
+                    <line x1="11" y1="10" x2="20" y2="10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                    <line x1="11" y1="14" x2="20" y2="14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                    <line x1="11" y1="18" x2="16" y2="18" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                  </svg>
+                  <span className="text-[var(--text-faint)] text-xs font-semibold tracking-wider uppercase opacity-70">Cover not yet released</span>
                 </div>
               )}
             </div>

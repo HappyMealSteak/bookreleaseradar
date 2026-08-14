@@ -22,7 +22,20 @@ export const metadata: Metadata = {
     template: '%s | BookReleaseRadar',
   },
   description:
-    'Track upcoming book releases by genre, author, and date. Find the next must-read before it hits shelves.',
+    'Track upcoming book releases 2025–2027 by genre, author, and date. Thriller, mystery, fantasy, romance, sci-fi — find your next read before it hits shelves.',
+  keywords: [
+    'upcoming book releases',
+    'new book releases 2026',
+    'new book releases 2027',
+    'books releasing soon',
+    'upcoming thriller novels',
+    'upcoming fantasy books',
+    'upcoming romance novels',
+    'new mystery books',
+    'upcoming sci-fi books',
+    'book release dates',
+    'pre-order books',
+  ],
   metadataBase: new URL('https://bookreleaseradar.com'),
   openGraph: {
     siteName: 'BookReleaseRadar',
