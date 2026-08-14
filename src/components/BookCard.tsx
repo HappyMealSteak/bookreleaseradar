@@ -87,7 +87,7 @@ export default function BookCard({ book, size = 'md' }: BookCardProps) {
           className="mt-2 flex items-center justify-center gap-1 w-full py-1.5 px-2 rounded bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors"
         >
           <ExternalLink size={11} />
-          Buy on Amazon
+          {book.publishedDate && new Date(book.publishedDate) > new Date() ? 'Pre-order Now' : 'Buy on Amazon'}
         </a>
       </div>
     </article>

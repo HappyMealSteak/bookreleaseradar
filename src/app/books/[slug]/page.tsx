@@ -123,7 +123,7 @@ export default async function BookPage({ params }: Props) {
               className="flex items-center justify-center gap-2 w-full max-w-[200px] mx-auto md:mx-0 py-3 px-4 rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] font-semibold text-sm hover:bg-[var(--accent-hover)] transition-colors"
             >
               <ExternalLink size={14} />
-              Buy on Amazon
+              {book.publishedDate && new Date(book.publishedDate) > new Date() ? 'Pre-order on Amazon' : 'Buy on Amazon'}
             </a>
 
             {book.googleUrl && (
