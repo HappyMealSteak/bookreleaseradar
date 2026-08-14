@@ -33,6 +33,13 @@ export const GENRE_DESCRIPTIONS: Record<Genre, string> = {
   'non-fiction': 'True stories, expert insights, and real-world knowledge. Browse upcoming non-fiction releases covering history, science, memoir, journalism, and current events.',
 };
 
+export interface BookEdition {
+  publishedDate: string | null;
+  publisher?: string | null;
+  amazonUrl: string;
+  slug: string;
+}
+
 export interface Book {
   id: string;
   isbn: string | null;
@@ -47,6 +54,7 @@ export interface Book {
   publisher: string | null;
   amazonUrl: string;
   googleUrl: string | null;
+  editions?: BookEdition[];
 }
 
 // Raw Google Books API shape

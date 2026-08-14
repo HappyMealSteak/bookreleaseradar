@@ -1,16 +1,11 @@
 import { ImageResponse } from 'next/og';
-import { getBooksLike, ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
+import { getBooksLike } from '@/lib/recommendations';
 
-export const runtime = 'edge';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 interface Props {
   params: Promise<{ slug: string }>;
-}
-
-export function generateStaticParams() {
-  return ALL_BOOKS_LIKE_SLUGS.map((slug) => ({ slug }));
 }
 
 export default async function BooksLikeOGImage({ params }: Props) {

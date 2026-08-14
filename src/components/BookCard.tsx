@@ -76,19 +76,51 @@ export default function BookCard({ book, size = 'md' }: BookCardProps) {
           ))}
         </div>
 
-        <p className="text-[10px] text-[var(--text-faint)] mt-auto pt-1">
-          {formatReleaseDate(book.publishedDate)}
-        </p>
-
-        <a
-          href={book.amazonUrl}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className="mt-2 flex items-center justify-center gap-1 w-full py-1.5 px-2 rounded bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors"
-        >
-          <ExternalLink size={11} />
-          {book.publishedDate && new Date(book.publishedDate) > new Date() ? 'Pre-order Now' : 'Buy on Amazon'}
-        </a>
+        {/* Edition dates */}
+        {book.editions && book.editions.length > 0 ? (
+          <div className="mt-auto pt-1 flex flex-col gap-1">
+            <a
+              href={book.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="flex items-center justify-between w-full px-2 py-1 rounded bg-[var(--surface-raised)] border border-[var(--border)] hover:border-[var(--accent)] transition-colors group/ed"
+            >
+              <span className="text-[10px] text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors">
+                {formatReleaseDate(book.publishedDate)}
+              </span>
+              <ExternalLink size={9} className="text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors shrink-0" />
+            </a>
+            {book.editions.map((ed) => (
+              <a
+                key={ed.slug}
+                href={ed.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="flex items-center justify-between w-full px-2 py-1 rounded bg-[var(--surface-raised)] border border-[var(--border)] hover:border-[var(--accent)] transition-colors group/ed"
+              >
+                <span className="text-[10px] text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors">
+                  {formatReleaseDate(ed.publishedDate)}
+                </span>
+                <ExternalLink size={9} className="text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors shrink-0" />
+              </a>
+            ))}
+          </div>
+        ) : (
+          <>
+            <p className="text-[10px] text-[var(--text-faint)] mt-auto pt-1">
+              {formatReleaseDate(book.publishedDate)}
+            </p>
+            <a
+              href={book.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="mt-2 flex items-center justify-center gap-1 w-full py-1.5 px-2 rounded bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors"
+            >
+              <ExternalLink size={11} />
+              {book.publishedDate && new Date(book.publishedDate) > new Date() ? 'Pre-order Now' : 'Buy on Amazon'}
+            </a>
+          </>
+        )}
       </div>
     </article>
   );

@@ -1,5 +1,6 @@
 import BookCard from './BookCard';
 import type { Book } from '@/lib/types';
+import { deduplicateBooks } from '@/lib/utils';
 
 interface BookGridProps {
   books: Book[];
@@ -16,9 +17,11 @@ export default function BookGrid({ books, emptyMessage = 'No books found.' }: Bo
     );
   }
 
+  const deduped = deduplicateBooks(books);
+
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-      {books.map((book) => (
+      {deduped.map((book) => (
         <BookCard key={book.id} book={book} />
       ))}
     </div>

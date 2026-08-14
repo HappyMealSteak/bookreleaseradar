@@ -129,3 +129,46 @@ export function isUpcoming(dateStr: string | null): boolean {
 export function authorSlug(name: string): string {
   return slugify(name);
 }
+
+/**
+ * Merge duplicate editions (hardcover/paperback) of the same book into one entry.
+ * Picks the best primary (has cover > earliest date), attaches others as `editions`.
+ */
+export function deduplicateBooks(books: Book[]): Book[] {
+  const normalizeTitle = (t: string) =>
+    t.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim().slice(0, 80);
+
+  const groups = new Map<string, Book[]>();
+  for (const book of books) {
+    const key = `${normalizeTitle(book.title)}||${book.authors[0]?.toLowerCase() ?? ''}`;
+    const grp = groups.get(key);
+    if (grp) grp.push(book);
+    else groups.set(key, [book]);
+  }
+
+  const result: Book[] = [];
+  for (const group of groups.values()) {
+    if (group.length === 1) {
+      result.push(group[0]);
+      continue;
+    }
+    // Pick primary: prefer has cover, then earliest valid date
+    const sorted = [...group].sort((a, b) => {
+      const aCover = a.coverUrl ? 0 : 1;
+      const bCover = b.coverUrl ? 0 : 1;
+      if (aCover !== bCover) return aCover - bCover;
+      const aDate = a.publishedDate ?? '9999';
+      const bDate = b.publishedDate ?? '9999';
+      return aDate < bDate ? -1 : aDate > bDate ? 1 : 0;
+    });
+    const [primary, ...others] = sorted;
+    const editions = others.map((o) => ({
+      publishedDate: o.publishedDate,
+      publisher: o.publisher,
+      amazonUrl: o.amazonUrl,
+      slug: o.slug,
+    }));
+    result.push({ ...primary, editions });
+  }
+  return result;
+}
