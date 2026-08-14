@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight, ExternalLink, BookOpen, Clock } from 'lucide-react';
 import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { getReadingOrder, getReadingOrderBooksWithUrls, ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 
 export const revalidate = 2592000;
 
@@ -50,6 +51,7 @@ export default async function ReadingOrderPage({ params }: Props) {
 
   const books = getReadingOrderBooksWithUrls(order);
   const mainBooks = books.filter((b) => !b.isOptional);
+  const hasBooksLike = ALL_BOOKS_LIKE_SLUGS.includes(slug);
   const optionalBooks = books.filter((b) => b.isOptional);
 
   const breadcrumbJsonLd = {
@@ -233,7 +235,7 @@ export default async function ReadingOrderPage({ params }: Props) {
         </section>
 
         {/* Links back */}
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3 mb-4">
           <Link
             href={`/series/${slug}`}
             className="flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
@@ -247,6 +249,14 @@ export default async function ReadingOrderPage({ params }: Props) {
           >
             Browse All Series
           </Link>
+          {hasBooksLike && (
+            <Link
+              href={`/books-like/${slug}`}
+              className="flex items-center gap-1.5 px-4 py-2.5 rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] text-sm font-semibold hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+            >
+              Books Like {series.shortName ?? series.name} →
+            </Link>
+          )}
         </div>
 
         {/* Affiliate disclosure */}

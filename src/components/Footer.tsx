@@ -79,6 +79,16 @@ export default function Footer() {
                   Popular Series
                 </Link>
               </li>
+              <li>
+                <Link href={`/releases/${new Date().getFullYear()}`} className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  New Books {new Date().getFullYear()}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/releases/${new Date().getFullYear() + 1}`} className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  Books {new Date().getFullYear() + 1}
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -87,7 +97,7 @@ export default function Footer() {
               Popular Series
             </p>
             <ul className="space-y-2">
-              {SERIES.slice(0, 6).map((s) => (
+              {SERIES.slice(0, 5).map((s) => (
                 <li key={s.slug}>
                   <Link
                     href={`/series/${s.slug}`}
@@ -97,6 +107,22 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/series/acotar/reading-order"
+                  className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
+                >
+                  ACOTAR Reading Order
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/books-like/acotar"
+                  className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
+                >
+                  Books Like ACOTAR
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

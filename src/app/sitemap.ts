@@ -3,6 +3,7 @@ import { getAllBooks, getPublishedMonths } from '@/lib/db';
 import { GENRES } from '@/lib/types';
 import { SERIES } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { authorSlug } from '@/lib/utils';
 
 const BASE = 'https://bookreleaseradar.com';
@@ -58,6 +59,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
     { url: `${BASE}/releases/${currentYear}`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.85 },
     { url: `${BASE}/releases/${currentYear + 1}`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+    ...ALL_BOOKS_LIKE_SLUGS.map((slug) => ({
+      url: `${BASE}/books-like/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.88,
+    })),
   ];
 
   return [

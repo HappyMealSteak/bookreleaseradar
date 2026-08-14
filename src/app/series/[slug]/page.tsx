@@ -6,6 +6,7 @@ import BookGrid from '@/components/BookGrid';
 import { getBooksByAuthorName } from '@/lib/db';
 import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { authorSlug } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -52,6 +53,7 @@ export default async function SeriesPage({ params }: Props) {
   const books = await getBooksByAuthorName(series.authorQuery, 36);
   const year = new Date().getFullYear();
   const hasReadingOrder = ALL_READING_ORDER_SLUGS.includes(slug);
+  const hasBooksLike = ALL_BOOKS_LIKE_SLUGS.includes(slug);
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -119,16 +121,27 @@ export default async function SeriesPage({ params }: Props) {
               {series.author}
             </Link>
           </p>
-          {hasReadingOrder && (
-            <Link
-              href={`/series/${slug}/reading-order`}
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[var(--surface-raised)] border border-[var(--border)] text-sm font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors mb-3"
-            >
-              <ListOrdered size={14} />
-              Reading Order
-              <ChevronRight size={13} />
-            </Link>
-          )}
+          <div className="flex flex-wrap gap-2 mb-3">
+            {hasReadingOrder && (
+              <Link
+                href={`/series/${slug}/reading-order`}
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[var(--surface-raised)] border border-[var(--border)] text-sm font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+              >
+                <ListOrdered size={14} />
+                Reading Order
+                <ChevronRight size={13} />
+              </Link>
+            )}
+            {hasBooksLike && (
+              <Link
+                href={`/books-like/${slug}`}
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[var(--surface-raised)] border border-[var(--border)] text-sm font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+              >
+                Books Like {series.shortName ?? series.name}
+                <ChevronRight size={13} />
+              </Link>
+            )}
+          </div>
           {upcoming.length > 0 && (
             <p className="text-sm text-[var(--text-muted)] mt-2">
               <span className="font-semibold text-[var(--accent)]">{upcoming.length} upcoming</span>
