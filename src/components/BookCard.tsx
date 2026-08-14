@@ -30,9 +30,16 @@ export default function BookCard({ book, size = 'md' }: BookCardProps) {
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 200px"
           />
         ) : (
-          <div className="absolute inset-0 cover-placeholder flex flex-col items-center justify-center p-4 text-center">
-            <span className="text-[var(--text-faint)] text-xs font-medium leading-tight">
-              {book.title}
+          <div className="absolute inset-0 cover-placeholder flex flex-col items-center justify-center gap-2 p-3 text-center">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="5" y="3" width="18" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[var(--text-faint)]" opacity="0.4"/>
+              <rect x="8" y="3" width="15" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-[var(--text-faint)]" opacity="0.6"/>
+              <line x1="11" y1="10" x2="20" y2="10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="text-[var(--text-faint)]" opacity="0.5"/>
+              <line x1="11" y1="14" x2="20" y2="14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="text-[var(--text-faint)]" opacity="0.5"/>
+              <line x1="11" y1="18" x2="16" y2="18" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" className="text-[var(--text-faint)]" opacity="0.5"/>
+            </svg>
+            <span className="text-[var(--text-faint)] text-[9px] font-semibold tracking-wider uppercase leading-tight opacity-70">
+              Cover not<br />yet released
             </span>
           </div>
         )}

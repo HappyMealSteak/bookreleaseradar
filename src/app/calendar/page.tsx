@@ -104,8 +104,15 @@ export default async function CalendarPage() {
                             sizes="(max-width: 640px) 33vw, (max-width: 1024px) 16vw, 120px"
                           />
                         ) : (
-                          <div className="absolute inset-0 cover-placeholder flex items-center justify-center p-2 text-center">
-                            <span className="text-[var(--text-faint)] text-[10px] leading-tight">{book.title}</span>
+                          <div className="absolute inset-0 cover-placeholder flex flex-col items-center justify-center gap-1 p-2 text-center">
+                            <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                              <rect x="5" y="3" width="18" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
+                              <rect x="8" y="3" width="15" height="26" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6"/>
+                              <line x1="11" y1="10" x2="20" y2="10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                              <line x1="11" y1="14" x2="20" y2="14" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                              <line x1="11" y1="18" x2="16" y2="18" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+                            </svg>
+                            <span className="text-[var(--text-faint)] text-[8px] leading-tight opacity-70">TBR</span>
                           </div>
                         )}
                         {book.publishedDate && book.publishedDate.length >= 10 && (
