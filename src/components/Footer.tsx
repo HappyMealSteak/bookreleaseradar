@@ -81,9 +81,14 @@ export default function Footer() {
           <p className="text-xs text-[var(--text-faint)]">
             © {new Date().getFullYear()} BookReleaseRadar. All rights reserved.
           </p>
-          <p className="text-xs text-[var(--text-faint)]">
-            As an Amazon Associate, BookReleaseRadar earns from qualifying purchases.
-          </p>
+          <div className="flex items-center gap-4">
+            <p className="text-xs text-[var(--text-faint)]">
+              As an Amazon Associate, BookReleaseRadar earns from qualifying purchases.
+            </p>
+            <Link href="/disclosure" className="text-xs text-[var(--text-faint)] hover:text-[var(--accent)] transition-colors whitespace-nowrap">
+              Disclosure &amp; Privacy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
