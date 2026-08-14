@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllBooks, getPublishedMonths } from '@/lib/db';
 import { GENRES } from '@/lib/types';
 import { SERIES } from '@/lib/series';
+import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { authorSlug } from '@/lib/utils';
 
 const BASE = 'https://bookreleaseradar.com';
@@ -40,6 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  const currentYear = new Date().getFullYear();
   const seriesUrls: MetadataRoute.Sitemap = [
     { url: `${BASE}/series`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     ...SERIES.map((s) => ({
@@ -48,6 +50,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly' as const,
       priority: 0.85,
     })),
+    ...ALL_READING_ORDER_SLUGS.map((slug) => ({
+      url: `${BASE}/series/${slug}/reading-order`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    })),
+    { url: `${BASE}/releases/${currentYear}`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.85 },
+    { url: `${BASE}/releases/${currentYear + 1}`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
   ];
 
   return [

@@ -53,8 +53,6 @@ function rowToBook(row: Record<string, unknown>): Book {
 
 export async function upsertBook(book: Book) {
   const db = getClient();
-  // Guarantee slug uniqueness: if a slug collision exists for a different book id,
-  // append the first 6 chars of the Google Books id to differentiate.
   const existing = await db.execute({
     sql: 'SELECT id FROM books WHERE slug = ? LIMIT 1',
     args: [book.slug],
@@ -113,7 +111,7 @@ export async function getBookBySlug(slug: string): Promise<Book | null> {
 export async function getBooksByGenre(genre: string, limit = 24, offset = 0): Promise<Book[]> {
   const db = getClient();
   const today = new Date().toISOString().slice(0, 10);
-  const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const currentYear = new Date().getFullYear().toString();
   const result = await db.execute({
     sql: `SELECT * FROM books
@@ -128,14 +126,13 @@ export async function getBooksByGenre(genre: string, limit = 24, offset = 0): Pr
         CASE WHEN published_date >= ? THEN published_date END ASC,
         published_date DESC
       LIMIT ? OFFSET ?`,
-    args: [`%"${genre}"%`, sixMonthsAgo, currentYear, today, today, limit, offset],
+    args: [`%"${genre}"%`, oneYearAgo, currentYear, today, today, limit, offset],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
 export async function getBooksByAuthorSlug(authorSlug: string, limit = 24): Promise<Book[]> {
   const db = getClient();
-  // Match author by reconstructing the slug pattern
   const result = await db.execute({
     sql: `SELECT * FROM books WHERE authors LIKE ? ORDER BY published_date DESC LIMIT ?`,
     args: [`%${authorSlug.replace(/-/g, '%')}%`, limit],
@@ -143,20 +140,35 @@ export async function getBooksByAuthorSlug(authorSlug: string, limit = 24): Prom
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
+export async function getBooksByAuthorName(authorName: string, limit = 36): Promise<Book[]> {
+  const db = getClient();
+  const like = `%${authorName}%`;
+  const today = new Date().toISOString().slice(0, 10);
+  const result = await db.execute({
+    sql: `SELECT * FROM books WHERE authors LIKE ?
+      ORDER BY
+        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
+        CASE WHEN published_date >= ? THEN published_date END ASC,
+        published_date DESC
+      LIMIT ?`,
+    args: [like, today, today, limit],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
 export async function getUpcomingBooks(limit = 18): Promise<Book[]> {
   const db = getClient();
   const today = new Date().toISOString().slice(0, 10);
-  const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  // Show soonest-upcoming books first (nearest release date), then recently released, then undated
+  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const result = await db.execute({
     sql: `SELECT * FROM books
       WHERE (published_date >= ? OR (published_date >= ? AND published_date < ?))
-         OR (LENGTH(published_date) = 4 AND CAST(published_date AS INTEGER) >= 2026)
+         OR (LENGTH(published_date) = 4 AND CAST(published_date AS INTEGER) >= 2025)
       ORDER BY
         CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
         published_date ASC
       LIMIT ?`,
-    args: [today, sixMonthsAgo, today, today, limit],
+    args: [today, oneYearAgo, today, today, limit],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
@@ -166,6 +178,19 @@ export async function getAllBooks(limit = 1000): Promise<Book[]> {
   const result = await db.execute({
     sql: 'SELECT * FROM books ORDER BY published_date DESC LIMIT ?',
     args: [limit],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
+export async function getBooksByYear(year: number, limit = 200): Promise<Book[]> {
+  const db = getClient();
+  const prefix = `${year}-`;
+  const result = await db.execute({
+    sql: `SELECT * FROM books
+      WHERE published_date LIKE ? OR published_date = ?
+      ORDER BY published_date ASC
+      LIMIT ?`,
+    args: [`${prefix}%`, String(year), limit],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
@@ -245,7 +270,6 @@ export async function getPublishedMonths(): Promise<Array<{ year: number; month:
 export async function cleanupPlaceholderBooks(): Promise<number> {
   const db = getClient();
   let removed = 0;
-  // Remove books with placeholder titles common from Google Books API
   const clauses = [
     `title LIKE '%Untitled%'`,
     `title LIKE '%To Be Announced%'`,
@@ -263,22 +287,6 @@ export async function cleanupPlaceholderBooks(): Promise<number> {
   return removed;
 }
 
-export async function getBooksByAuthorName(authorName: string, limit = 36): Promise<Book[]> {
-  const db = getClient();
-  const like = `%${authorName}%`;
-  const today = new Date().toISOString().slice(0, 10);
-  const result = await db.execute({
-    sql: `SELECT * FROM books WHERE authors LIKE ?
-      ORDER BY
-        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
-        CASE WHEN published_date >= ? THEN published_date END ASC,
-        published_date DESC
-      LIMIT ?`,
-    args: [like, today, today, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
-}
-
 export async function getBookCount(): Promise<number> {
   const db = getClient();
   const result = await db.execute('SELECT COUNT(*) as count FROM books');
@@ -287,7 +295,7 @@ export async function getBookCount(): Promise<number> {
 
 export async function getBookCountByGenre(genre: string): Promise<number> {
   const db = getClient();
-  const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const currentYear = new Date().getFullYear().toString();
   const result = await db.execute({
     sql: `SELECT COUNT(*) as count FROM books
@@ -297,7 +305,7 @@ export async function getBookCountByGenre(genre: string): Promise<number> {
           OR published_date >= ?
           OR (LENGTH(published_date) = 4 AND published_date >= ?)
         )`,
-    args: [`%"${genre}"%`, sixMonthsAgo, currentYear],
+    args: [`%"${genre}"%`, oneYearAgo, currentYear],
   });
   return Number((result.rows[0] as Record<string, unknown>).count);
 }

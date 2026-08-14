@@ -6,7 +6,14 @@ import { ArrowLeft, ExternalLink, Calendar, BookOpen, User } from 'lucide-react'
 import { getBookBySlug, getAllBooks, getRelatedBooks } from '@/lib/db';
 import { formatReleaseDate, authorSlug } from '@/lib/utils';
 import { GENRE_LABELS, type Genre } from '@/lib/types';
+import { SERIES } from '@/lib/series';
 import BookGrid from '@/components/BookGrid';
+
+function findSeriesForBook(authors: string[]) {
+  return SERIES.filter((s) =>
+    authors.some((a) => a.toLowerCase().includes(s.authorQuery.toLowerCase()))
+  );
+}
 
 export const revalidate = 86400;
 
@@ -48,6 +55,7 @@ export default async function BookPage({ params }: Props) {
   ]);
 
   if (!book) notFound();
+  const bookSeries = findSeriesForBook(book.authors);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -209,6 +217,21 @@ export default async function BookPage({ params }: Props) {
 
             {book.isbn && (
               <p className="mt-6 text-xs text-[var(--text-faint)]">ISBN-13: {book.isbn}</p>
+            )}
+
+            {/* Series cross-links */}
+            {bookSeries.length > 0 && (
+              <div className="mt-5 flex flex-wrap gap-2">
+                {bookSeries.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/series/${s.slug}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-raised)] text-xs font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+                  >
+                    {s.shortName ? `${s.shortName}: ` : ''}{s.name} Series →
+                  </Link>
+                ))}
+              </div>
             )}
           </div>
         </div>

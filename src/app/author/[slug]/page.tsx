@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import BookGrid from '@/components/BookGrid';
 import { getBooksByAuthorSlug, getAllBooks } from '@/lib/db';
 import { authorSlug } from '@/lib/utils';
+import { getAuthorBio } from '@/lib/author-bios';
+import { SERIES } from '@/lib/series';
 
 export const revalidate = 86400;
 
@@ -40,6 +43,10 @@ export default async function AuthorPage({ params }: Props) {
   if (!books.length) notFound();
 
   const authorName = books[0].authors.find((a) => authorSlug(a) === slug) ?? books[0].authors[0];
+  const bio = getAuthorBio(authorName);
+  const authorSeries = SERIES.filter((s) =>
+    authorName.toLowerCase().includes(s.authorQuery.toLowerCase())
+  );
 
   const now = new Date();
   const upcoming = books.filter((b) => b.publishedDate && new Date(b.publishedDate) >= now);
@@ -54,18 +61,45 @@ export default async function AuthorPage({ params }: Props) {
     ],
   };
 
+  const personJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: authorName,
+    url: `https://bookreleaseradar.com/author/${slug}`,
+    description: bio?.bio,
+    knowsAbout: bio?.knownFor,
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
         <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Author</p>
         <h1 className="font-[family-name:var(--font-playfair)] text-3xl sm:text-4xl text-[var(--text)] mb-2">
           {authorName}
         </h1>
-        <p className="text-[var(--text-muted)]">
-          {books.length} title{books.length !== 1 ? 's' : ''} tracked
-        </p>
+        {bio ? (
+          <p className="text-[var(--text-muted)] text-sm leading-relaxed max-w-2xl mb-3">{bio.bio}</p>
+        ) : (
+          <p className="text-[var(--text-muted)] mb-3">
+            {books.length} title{books.length !== 1 ? 's' : ''} tracked
+          </p>
+        )}
+        {authorSeries.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-3">
+            {authorSeries.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/series/${s.slug}`}
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface)] text-xs font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+              >
+                {s.shortName ?? s.name} Series →
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
 
       {upcoming.length > 0 && (

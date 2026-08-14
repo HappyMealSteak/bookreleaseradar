@@ -50,9 +50,31 @@ export default async function GenrePage({ params }: Props) {
     ],
   };
 
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Upcoming ${label} Books ${year}`,
+    numberOfItems: books.length,
+    itemListElement: books.slice(0, 20).map((book, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: book.title,
+      url: `https://bookreleaseradar.com/books/${book.slug}`,
+      item: {
+        '@type': 'Book',
+        name: book.title,
+        author: book.authors.map((a) => ({ '@type': 'Person', name: a })),
+        datePublished: book.publishedDate ?? undefined,
+        image: book.coverUrl ?? undefined,
+        url: `https://bookreleaseradar.com/books/${book.slug}`,
+      },
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
         <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Genre</p>
