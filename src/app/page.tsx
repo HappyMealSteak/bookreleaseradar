@@ -28,7 +28,7 @@ export default async function HomePage() {
     ...GENRES.map((g) => getBooksByGenre(g as Genre, 6)),
   ]);
 
-  const featuredGenres = GENRES as Genre[];
+  const featuredGenres = [...GENRES] as Genre[];
 
   return (
     <>
