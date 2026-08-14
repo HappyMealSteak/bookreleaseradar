@@ -1,8 +1,10 @@
 import Link from 'next/link';
-import { ChevronRight, TrendingUp, Zap, Library, BookMarked } from 'lucide-react';
+import Image from 'next/image';
+import { ChevronRight, TrendingUp, Zap, Library, BookMarked, ExternalLink } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
 import { getUpcomingBooks, getBooksByGenre, getReleasingThisWeek } from '@/lib/db';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
+import { getNytList } from '@/lib/nyt';
 
 const SPOTLIGHT_SERIES = [
   { slug: 'acotar', label: 'ACOTAR', sub: 'Sarah J. Maas' },
@@ -31,9 +33,10 @@ export default async function HomePage() {
       'query-input': 'required name=search_term_string',
     },
   };
-  const [upcoming, thisWeek, ...genreSamples] = await Promise.all([
+  const [upcoming, thisWeek, trendingList, ...genreSamples] = await Promise.all([
     getUpcomingBooks(18),
     getReleasingThisWeek(),
+    getNytList('young-adult-hardcover'),
     ...GENRES.map((g) => getBooksByGenre(g as Genre, 6)),
   ]);
 
@@ -138,6 +141,72 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* Trending on BookTok */}
+      {trendingList && trendingList.books.length > 0 && (
+        <section>
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <TrendingUp size={16} className="text-[var(--gold)]" />
+              <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+                Trending on BookTok
+              </h2>
+              <span className="text-[10px] font-bold tracking-wider uppercase text-[var(--gold)] bg-[var(--gold-light)] px-2 py-0.5 rounded-full">
+                NYT YA
+              </span>
+            </div>
+            <Link
+              href="/trending"
+              className="text-xs font-semibold text-[var(--accent)] hover:underline flex items-center gap-0.5"
+            >
+              Full charts <ChevronRight size={13} />
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+            {trendingList.books.slice(0, 5).map((book) => (
+              <a
+                key={book.isbn13 || book.title}
+                href={book.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="group flex flex-col bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden hover:border-[var(--accent)] hover:shadow-md transition-all duration-200"
+              >
+                <div className="relative bg-[var(--surface-raised)]" style={{ aspectRatio: '2/3' }}>
+                  {book.coverUrl && (
+                    <Image
+                      src={book.coverUrl}
+                      alt={book.title}
+                      fill
+                      className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 200px"
+                    />
+                  )}
+                  <div className="absolute top-2 left-2 w-7 h-7 rounded-full bg-[var(--accent)] flex items-center justify-center shadow">
+                    <span className="text-[11px] font-bold text-[var(--accent-fg)]">#{book.rank}</span>
+                  </div>
+                  {book.weeksOnList === 1 && (
+                    <div className="absolute top-2 right-2 bg-[var(--gold)] text-[var(--accent-fg)] text-[9px] font-bold px-1.5 py-0.5 rounded">
+                      NEW
+                    </div>
+                  )}
+                </div>
+                <div className="p-2.5 flex flex-col flex-1 gap-0.5">
+                  <p className="font-[family-name:var(--font-playfair)] font-semibold text-xs leading-snug line-clamp-2 text-[var(--text)]">
+                    {book.title}
+                  </p>
+                  <p className="text-[10px] text-[var(--text-muted)] line-clamp-1">{book.author}</p>
+                  <div className="mt-auto pt-2 flex items-center justify-between">
+                    <span className="text-[9px] text-[var(--text-faint)]">
+                      {book.weeksOnList === 1 ? 'New' : `${book.weeksOnList}wk`}
+                    </span>
+                    <ExternalLink size={10} className="text-[var(--text-faint)] group-hover:text-[var(--accent)] transition-colors" />
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Genre sections */}
       {featuredGenres.map((genre, i) => {

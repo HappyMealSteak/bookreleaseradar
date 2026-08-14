@@ -60,6 +60,11 @@ export default function Footer() {
             </p>
             <ul className="space-y-2">
               <li>
+                <Link href="/trending" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  Trending on BookTok
+                </Link>
+              </li>
+              <li>
                 <Link href="/most-anticipated" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
                   Most Anticipated
                 </Link>
