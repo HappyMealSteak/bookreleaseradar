@@ -63,7 +63,7 @@ export default async function GenrePage({ params }: Props) {
       item: {
         '@type': 'Book',
         name: book.title,
-        author: book.authors.map((a) => ({ '@type': 'Person', name: a })),
+        author: { '@type': 'Person', name: book.authors[0] ?? '' },
         datePublished: book.publishedDate ?? undefined,
         image: book.coverUrl ?? undefined,
         url: `https://bookreleaseradar.com/books/${book.slug}`,

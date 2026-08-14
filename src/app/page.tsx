@@ -15,23 +15,22 @@ const SPOTLIGHT_SERIES = [
 
 export const revalidate = 86400; // refresh every 24h
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'BookReleaseRadar',
-  url: 'https://bookreleaseradar.com',
-  description: 'Track upcoming book releases by genre, author, and date.',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://bookreleaseradar.com/search?q={search_term_string}',
-    },
-    'query-input': 'required name=search_term_string',
-  },
-};
-
 export default async function HomePage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'BookReleaseRadar',
+    url: 'https://bookreleaseradar.com',
+    description: 'Track upcoming book releases by genre, author, and date.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://bookreleaseradar.com/search?q={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
   const [upcoming, thisWeek, ...genreSamples] = await Promise.all([
     getUpcomingBooks(18),
     getReleasingThisWeek(),
@@ -110,17 +109,17 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 mb-5">
-          {SPOTLIGHT_SERIES.map(({ slug, label, sub }) => (
+          {SPOTLIGHT_SERIES.map((s) => (
             <Link
-              key={slug}
-              href={`/series/${slug}`}
+              key={s.slug}
+              href={`/series/${s.slug}`}
               className="group flex flex-col items-center text-center p-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/50 hover:bg-[var(--surface-raised)] transition-all"
             >
               <div className="w-10 h-10 rounded-full bg-[var(--accent-light)] flex items-center justify-center mb-2">
                 <BookMarked size={18} className="text-[var(--accent)]" />
               </div>
-              <span className="text-xs font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors leading-tight mb-0.5">{label}</span>
-              <span className="text-[10px] text-[var(--text-faint)] leading-tight">{sub}</span>
+              <span className="text-xs font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors leading-tight mb-0.5">{s.label}</span>
+              <span className="text-[10px] text-[var(--text-faint)] leading-tight">{s.sub}</span>
             </Link>
           ))}
         </div>
