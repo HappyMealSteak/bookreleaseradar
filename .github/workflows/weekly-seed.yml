@@ -26,13 +26,12 @@ jobs:
           NEXT_PUBLIC_AMAZON_TAG: bookreleaseradar-20
         run: npx tsx src/scripts/seed.ts
 
-      - name: Seed series books
+      - name: Seed series books (Open Library, no quota)
         env:
-          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
           NEXT_PUBLIC_AMAZON_TAG: bookreleaseradar-20
-        run: npx tsx src/scripts/seed-series.ts
+        run: npx tsx src/scripts/seed-series-ol.ts
 
       # ISR revalidate=86400 means new books surface within 24h automatically.
       # No redeploy needed — Turso update is enough.

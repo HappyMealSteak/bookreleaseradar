@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "npx tsx src/scripts/seed.ts",
+    "seed:series": "npx tsx src/scripts/seed-series-ol.ts",
     "db:init": "npx tsx -e \"import('./src/lib/db.ts').then(m => m.initDb().then(() => { console.log('DB initialized'); process.exit(0); }))\""
   },
   "dependencies": {
