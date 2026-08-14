@@ -189,6 +189,38 @@ export async function getRelatedBooks(book: Book, limit = 6): Promise<Book[]> {
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
+export async function getBooksByMonth(year: number, month: number): Promise<Book[]> {
+  const db = getClient();
+  const prefix = `${year}-${String(month).padStart(2, '0')}`;
+  const result = await db.execute({
+    sql: `SELECT * FROM books
+      WHERE published_date LIKE ?
+      ORDER BY published_date ASC
+      LIMIT 200`,
+    args: [`${prefix}%`],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
+export async function getPublishedMonths(): Promise<Array<{ year: number; month: number; count: number }>> {
+  const db = getClient();
+  const result = await db.execute(`
+    SELECT
+      CAST(SUBSTR(published_date, 1, 4) AS INTEGER) AS year,
+      CAST(SUBSTR(published_date, 6, 2) AS INTEGER) AS month,
+      COUNT(*) AS count
+    FROM books
+    WHERE LENGTH(published_date) >= 7
+    GROUP BY year, month
+    ORDER BY year, month
+  `);
+  return result.rows.map((r) => ({
+    year: Number((r as Record<string, unknown>).year),
+    month: Number((r as Record<string, unknown>).month),
+    count: Number((r as Record<string, unknown>).count),
+  }));
+}
+
 export async function getBookCount(): Promise<number> {
   const db = getClient();
   const result = await db.execute('SELECT COUNT(*) as count FROM books');

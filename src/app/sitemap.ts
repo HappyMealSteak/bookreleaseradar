@@ -1,12 +1,12 @@
 import type { MetadataRoute } from 'next';
-import { getAllBooks } from '@/lib/db';
+import { getAllBooks, getPublishedMonths } from '@/lib/db';
 import { GENRES } from '@/lib/types';
 import { authorSlug } from '@/lib/utils';
 
 const BASE = 'https://bookreleaseradar.com';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const books = await getAllBooks(1000);
+  const [books, months] = await Promise.all([getAllBooks(1000), getPublishedMonths()]);
 
   const bookUrls: MetadataRoute.Sitemap = books.map((book) => ({
     url: `${BASE}/books/${book.slug}`,
@@ -32,11 +32,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  const monthUrls: MetadataRoute.Sitemap = months.map(({ year, month }) => ({
+    url: `${BASE}/releases/${year}/${String(month).padStart(2, '0')}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
     { url: `${BASE}/calendar`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.8 },
     { url: `${BASE}/search`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     ...genreUrls,
+    ...monthUrls,
     ...authorUrls,
     ...bookUrls,
   ];

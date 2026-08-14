@@ -74,9 +74,9 @@ export default async function CalendarPage() {
             return (
               <section key={monthKey}>
                 <div className="flex items-center gap-3 mb-5">
-                  <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+                  <Link href={`/releases/${monthKey.slice(0,4)}/${monthKey.slice(5)}`} className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)] hover:text-[var(--accent)] transition-colors">
                     {monthLabel(monthKey)}
-                  </h2>
+                  </Link>
                   {isCurrentMonth && (
                     <span className="px-2 py-0.5 rounded-full text-xs font-bold bg-[var(--accent)] text-[var(--accent-fg)]">
                       This Month
