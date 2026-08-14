@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { ChevronRight, TrendingUp } from 'lucide-react';
+import { ChevronRight, TrendingUp, Zap } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
-import { getUpcomingBooks, getBooksByGenre } from '@/lib/db';
+import { getUpcomingBooks, getBooksByGenre, getReleasingThisWeek } from '@/lib/db';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
 export const revalidate = 86400; // refresh every 24h
@@ -23,8 +23,9 @@ const jsonLd = {
 };
 
 export default async function HomePage() {
-  const [upcoming, ...genreSamples] = await Promise.all([
+  const [upcoming, thisWeek, ...genreSamples] = await Promise.all([
     getUpcomingBooks(18),
+    getReleasingThisWeek(),
     ...GENRES.map((g) => getBooksByGenre(g as Genre, 6)),
   ]);
 
@@ -64,6 +65,27 @@ export default async function HomePage() {
           </div>
         )}
       </section>
+
+      {/* Releasing This Week */}
+      {thisWeek.length > 0 && (
+        <section>
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Zap size={16} className="text-[var(--gold)]" />
+              <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+                Releasing This Week
+              </h2>
+            </div>
+            <Link
+              href={`/releases/${new Date().getFullYear()}/${String(new Date().getMonth() + 1).padStart(2, '0')}`}
+              className="text-xs font-semibold text-[var(--accent)] hover:underline flex items-center gap-0.5"
+            >
+              See full month <ChevronRight size={13} />
+            </Link>
+          </div>
+          <BookGrid books={thisWeek} />
+        </section>
+      )}
 
       {/* Genre sections */}
       {featuredGenres.map((genre, i) => {

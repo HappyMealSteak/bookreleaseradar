@@ -196,6 +196,20 @@ export async function getRelatedBooks(book: Book, limit = 6): Promise<Book[]> {
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
+export async function getReleasingThisWeek(): Promise<Book[]> {
+  const db = getClient();
+  const today = new Date().toISOString().slice(0, 10);
+  const nextWeek = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const result = await db.execute({
+    sql: `SELECT * FROM books
+      WHERE published_date >= ? AND published_date <= ?
+      ORDER BY published_date ASC
+      LIMIT 12`,
+    args: [today, nextWeek],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
 export async function getBooksByMonth(year: number, month: number): Promise<Book[]> {
   const db = getClient();
   const prefix = `${year}-${String(month).padStart(2, '0')}`;
