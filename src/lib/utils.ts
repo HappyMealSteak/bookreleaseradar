@@ -91,6 +91,25 @@ export function formatReleaseDate(dateStr: string | null): string {
   }
 }
 
+// Filter out placeholder/TBA titles that Google Books returns for unannounced books
+const PLACEHOLDER_PATTERNS = [
+  /\b(untitled|tba|tbd|to be announced|to be confirmed)\b/i,
+  /\bnovel\s+\d{4}\b/i,          // "Author Novel 2027"
+  /\bbook\s+\d{4}\b/i,           // "Author Book 2027"
+  /\btitle\s+to\s+be\b/i,        // "Title to Be Announced"
+  /\buntitled\s+\w+\s+\d{4}\b/i, // "Untitled Name 2027"
+  /^\w[\w\s]*\s+\d{4}$/i,        // Bare "Author Name 2027" (title is just author + year)
+];
+
+export function hasQualityTitle(title: string): boolean {
+  for (const pattern of PLACEHOLDER_PATTERNS) {
+    if (pattern.test(title)) return false;
+  }
+  // Titles shorter than 3 chars or longer than 200 are suspicious
+  if (title.trim().length < 3 || title.length > 200) return false;
+  return true;
+}
+
 export function isUpcoming(dateStr: string | null): boolean {
   if (!dateStr) return true;
   // Year-only dates: only include recent/future years (2023+)

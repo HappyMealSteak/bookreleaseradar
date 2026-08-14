@@ -221,6 +221,27 @@ export async function getPublishedMonths(): Promise<Array<{ year: number; month:
   }));
 }
 
+export async function cleanupPlaceholderBooks(): Promise<number> {
+  const db = getClient();
+  let removed = 0;
+  // Remove books with placeholder titles common from Google Books API
+  const clauses = [
+    `title LIKE '%Untitled%'`,
+    `title LIKE '%To Be Announced%'`,
+    `title LIKE '% TBA'`,
+    `title LIKE '%TBA %'`,
+    `title LIKE '%Novel 2025%' OR title LIKE '%Novel 2026%' OR title LIKE '%Novel 2027%' OR title LIKE '%Novel 2028%'`,
+    `title LIKE '%Book 2025%' OR title LIKE '%Book 2026%' OR title LIKE '%Book 2027%' OR title LIKE '%Book 2028%'`,
+    `title LIKE '%Title to Be%'`,
+    `LENGTH(title) < 3`,
+  ];
+  for (const clause of clauses) {
+    const result = await db.execute(`DELETE FROM books WHERE ${clause}`);
+    removed += Number(result.rowsAffected ?? 0);
+  }
+  return removed;
+}
+
 export async function getBookCount(): Promise<number> {
   const db = getClient();
   const result = await db.execute('SELECT COUNT(*) as count FROM books');

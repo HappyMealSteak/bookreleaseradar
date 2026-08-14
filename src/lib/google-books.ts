@@ -1,5 +1,5 @@
 import type { GBResponse, GBVolume, Genre } from './types';
-import { volumeToBook, isUpcoming } from './utils';
+import { volumeToBook, isUpcoming, hasQualityTitle } from './utils';
 import type { Book } from './types';
 
 const BASE = 'https://www.googleapis.com/books/v1/volumes';
@@ -79,6 +79,7 @@ export async function fetchUpcomingByGenre(genre: Genre, pages = 1): Promise<Boo
         if (!vol.volumeInfo?.title) continue;
         const book = volumeToBook(vol);
         if (!isUpcoming(book.publishedDate)) continue;
+        if (!hasQualityTitle(book.title)) continue;
         // Force-tag with the query genre — Google Books categories are often
         // just ["Fiction"] even for mystery/thriller/etc.
         if (!book.genres.includes(genre)) {

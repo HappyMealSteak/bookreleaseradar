@@ -8,13 +8,17 @@ import path from 'path';
 // Next.js uses .env.local; dotenv/config only reads .env by default
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 dotenv.config({ path: path.resolve(process.cwd(), '.env') });
-import { initDb, upsertBook, getBookCount } from '../lib/db';
+import { initDb, upsertBook, getBookCount, cleanupPlaceholderBooks } from '../lib/db';
 import { fetchUpcomingByGenre } from '../lib/google-books';
 import { GENRES, type Genre } from '../lib/types';
 
 async function seed() {
   console.log('Initializing database...');
   await initDb();
+
+  console.log('Removing placeholder titles...');
+  const removed = await cleanupPlaceholderBooks();
+  console.log(`  Removed ${removed} placeholder books`);
 
   const before = await getBookCount();
   console.log(`Books in DB before seed: ${before}`);
