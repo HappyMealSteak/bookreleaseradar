@@ -6,15 +6,36 @@ import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
 export const revalidate = 86400; // refresh every 24h
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'BookReleaseRadar',
+  url: 'https://bookreleaseradar.com',
+  description: 'Track upcoming book releases by genre, author, and date.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://bookreleaseradar.com/search?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export default async function HomePage() {
   const [upcoming, ...genreSamples] = await Promise.all([
     getUpcomingBooks(18),
-    ...GENRES.slice(0, 4).map((g) => getBooksByGenre(g as Genre, 6)),
+    ...GENRES.map((g) => getBooksByGenre(g as Genre, 6)),
   ]);
 
-  const featuredGenres = GENRES.slice(0, 4) as Genre[];
+  const featuredGenres = GENRES as Genre[];
 
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-14">
       {/* Hero */}
       <section>
@@ -93,5 +114,6 @@ export default async function HomePage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

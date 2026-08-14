@@ -1,11 +1,13 @@
 'use client';
 import { useState, useEffect, useRef, useTransition } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { Search, X } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
 import type { Book } from '@/lib/types';
 
 export default function SearchPage() {
-  const [query, setQuery] = useState('');
+  const searchParams = useSearchParams();
+  const [query, setQuery] = useState(searchParams.get('q') ?? '');
   const [results, setResults] = useState<Book[]>([]);
   const [isPending, startTransition] = useTransition();
   const inputRef = useRef<HTMLInputElement>(null);
