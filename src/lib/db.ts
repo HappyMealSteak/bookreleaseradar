@@ -112,6 +112,7 @@ export async function getBookBySlug(slug: string): Promise<Book | null> {
 
 export async function getBooksByGenre(genre: string, limit = 24, offset = 0): Promise<Book[]> {
   const db = getClient();
+  const today = new Date().toISOString().slice(0, 10);
   const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const currentYear = new Date().getFullYear().toString();
   const result = await db.execute({
@@ -122,9 +123,12 @@ export async function getBooksByGenre(genre: string, limit = 24, offset = 0): Pr
           OR published_date >= ?
           OR (LENGTH(published_date) = 4 AND published_date >= ?)
         )
-      ORDER BY published_date DESC
+      ORDER BY
+        CASE WHEN published_date IS NULL OR published_date >= ? THEN 0 ELSE 1 END ASC,
+        CASE WHEN published_date >= ? THEN published_date END ASC,
+        published_date DESC
       LIMIT ? OFFSET ?`,
-    args: [`%"${genre}"%`, sixMonthsAgo, currentYear, limit, offset],
+    args: [`%"${genre}"%`, sixMonthsAgo, currentYear, today, today, limit, offset],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
@@ -141,15 +145,18 @@ export async function getBooksByAuthorSlug(authorSlug: string, limit = 24): Prom
 
 export async function getUpcomingBooks(limit = 18): Promise<Book[]> {
   const db = getClient();
+  const today = new Date().toISOString().slice(0, 10);
   const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  // Show soonest-upcoming books first (nearest release date), then recently released, then undated
   const result = await db.execute({
     sql: `SELECT * FROM books
-      WHERE published_date IS NULL
-         OR published_date >= ?
-         OR (LENGTH(published_date) = 4 AND CAST(published_date AS INTEGER) >= 2023)
-      ORDER BY published_date DESC
+      WHERE (published_date >= ? OR (published_date >= ? AND published_date < ?))
+         OR (LENGTH(published_date) = 4 AND CAST(published_date AS INTEGER) >= 2026)
+      ORDER BY
+        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
+        published_date ASC
       LIMIT ?`,
-    args: [sixMonthsAgo, limit],
+    args: [today, sixMonthsAgo, today, today, limit],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
