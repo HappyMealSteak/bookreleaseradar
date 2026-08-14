@@ -263,6 +263,22 @@ export async function cleanupPlaceholderBooks(): Promise<number> {
   return removed;
 }
 
+export async function getBooksByAuthorName(authorName: string, limit = 36): Promise<Book[]> {
+  const db = getClient();
+  const like = `%${authorName}%`;
+  const today = new Date().toISOString().slice(0, 10);
+  const result = await db.execute({
+    sql: `SELECT * FROM books WHERE authors LIKE ?
+      ORDER BY
+        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
+        CASE WHEN published_date >= ? THEN published_date END ASC,
+        published_date DESC
+      LIMIT ?`,
+    args: [like, today, today, limit],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
 export async function getBookCount(): Promise<number> {
   const db = getClient();
   const result = await db.execute('SELECT COUNT(*) as count FROM books');

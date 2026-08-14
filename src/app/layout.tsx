@@ -35,6 +35,13 @@ export const metadata: Metadata = {
     'upcoming sci-fi books',
     'book release dates',
     'pre-order books',
+    'ACOTAR new book',
+    'Fourth Wing new book',
+    'Winds of Winter release date',
+    'Sarah J Maas new book',
+    'Rebecca Yarros new book',
+    'Colleen Hoover new book',
+    'Brandon Sanderson new book',
   ],
   metadataBase: new URL('https://bookreleaseradar.com'),
   openGraph: {

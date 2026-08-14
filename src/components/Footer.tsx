@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { BookOpen } from 'lucide-react';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
+import { SERIES } from '@/lib/series';
 
 export default function Footer() {
   return (
@@ -73,6 +74,29 @@ export default function Footer() {
                   Search Books
                 </Link>
               </li>
+              <li>
+                <Link href="/series" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  Popular Series
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-xs font-bold tracking-widest uppercase text-[var(--text-faint)] mb-3">
+              Popular Series
+            </p>
+            <ul className="space-y-2">
+              {SERIES.slice(0, 6).map((s) => (
+                <li key={s.slug}>
+                  <Link
+                    href={`/series/${s.slug}`}
+                    className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
+                  >
+                    {s.shortName ?? s.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
