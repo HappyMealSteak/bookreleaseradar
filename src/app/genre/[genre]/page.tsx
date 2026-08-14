@@ -1,0 +1,59 @@
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import BookGrid from '@/components/BookGrid';
+import { getBooksByGenre } from '@/lib/db';
+import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
+
+export const revalidate = 86400;
+
+interface Props {
+  params: Promise<{ genre: string }>;
+}
+
+export async function generateStaticParams() {
+  return GENRES.map((genre) => ({ genre }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { genre } = await params;
+  if (!GENRES.includes(genre as Genre)) return {};
+
+  const label = GENRE_LABELS[genre as Genre];
+  const year = new Date().getFullYear();
+  const title = `Upcoming ${label} Books ${year}`;
+  const description = `Browse the latest upcoming ${label.toLowerCase()} book releases for ${year}. Find new ${label.toLowerCase()} titles with release dates and buy on Amazon.`;
+
+  return {
+    title,
+    description,
+    openGraph: { title, description },
+  };
+}
+
+export default async function GenrePage({ params }: Props) {
+  const { genre } = await params;
+  if (!GENRES.includes(genre as Genre)) notFound();
+
+  const books = await getBooksByGenre(genre, 48);
+  const label = GENRE_LABELS[genre as Genre];
+  const year = new Date().getFullYear();
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+      <div className="mb-8">
+        <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Genre</p>
+        <h1 className="font-[family-name:var(--font-playfair)] text-3xl sm:text-4xl text-[var(--text)] mb-2">
+          Upcoming {label} Books
+        </h1>
+        <p className="text-[var(--text-muted)]">
+          New {label.toLowerCase()} releases for {year} and beyond.
+        </p>
+      </div>
+
+      <BookGrid
+        books={books}
+        emptyMessage={`No upcoming ${label.toLowerCase()} books found. Check back after running the seed script.`}
+      />
+    </div>
+  );
+}

@@ -1,69 +1,97 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { ChevronRight, TrendingUp } from 'lucide-react';
+import BookGrid from '@/components/BookGrid';
+import { getUpcomingBooks, getBooksByGenre } from '@/lib/db';
+import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
-export default function Home() {
+export const revalidate = 86400; // refresh every 24h
+
+export default async function HomePage() {
+  const [upcoming, ...genreSamples] = await Promise.all([
+    getUpcomingBooks(18),
+    ...GENRES.slice(0, 4).map((g) => getBooksByGenre(g as Genre, 6)),
+  ]);
+
+  const featuredGenres = GENRES.slice(0, 4) as Genre[];
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-14">
+      {/* Hero */}
+      <section>
+        <div className="mb-6">
+          <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">
+            {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+          </p>
+          <h1 className="text-3xl sm:text-4xl font-[family-name:var(--font-playfair)] text-[var(--text)] mb-2">
+            Upcoming Book Releases
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-[var(--text-muted)] text-base max-w-xl">
+            The next great reads, tracked before they hit shelves. Browse by genre, author, or release date.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+        <BookGrid books={upcoming} emptyMessage="Run the seed script to populate books from Google Books API." />
+
+        {upcoming.length > 0 && (
+          <div className="mt-6 text-center">
+            <Link
+              href="/search"
+              className="inline-flex items-center gap-1.5 text-sm text-[var(--accent)] hover:underline font-medium"
+            >
+              Browse all books <ChevronRight size={14} />
+            </Link>
+          </div>
+        )}
+      </section>
+
+      {/* Genre sections */}
+      {featuredGenres.map((genre, i) => {
+        const books = genreSamples[i] ?? [];
+        if (!books.length) return null;
+        return (
+          <section key={genre}>
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <TrendingUp size={16} className="text-[var(--accent)]" />
+                <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+                  New in {GENRE_LABELS[genre]}
+                </h2>
+              </div>
+              <Link
+                href={`/genre/${genre}`}
+                className="text-xs font-semibold text-[var(--accent)] hover:underline flex items-center gap-0.5"
+              >
+                See all <ChevronRight size={13} />
+              </Link>
+            </div>
+            <BookGrid books={books} />
+          </section>
+        );
+      })}
+
+      {/* CTA banner */}
+      <section className="rounded-xl bg-[var(--accent-light)] border border-[var(--border)] p-8 text-center">
+        <h2 className="font-[family-name:var(--font-playfair)] text-2xl mb-2 text-[var(--text)]">
+          Never miss a release
+        </h2>
+        <p className="text-[var(--text-muted)] text-sm mb-4 max-w-md mx-auto">
+          Browse by genre or use the calendar view to see everything releasing this month and beyond.
+        </p>
+        <div className="flex gap-3 justify-center flex-wrap">
+          <Link
+            href="/calendar"
+            className="px-5 py-2.5 rounded-lg bg-[var(--accent)] text-[var(--accent-fg)] text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
           >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            View Calendar
+          </Link>
+          <Link
+            href="/search"
+            className="px-5 py-2.5 rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] text-sm font-semibold hover:border-[var(--accent)] transition-colors"
           >
-            Documentation
-          </a>
+            Search Books
+          </Link>
         </div>
-      </main>
+      </section>
     </div>
   );
 }
