@@ -61,12 +61,26 @@ export default async function BookPage({ params }: Props) {
     publisher: book.publisher ? { '@type': 'Organization', name: book.publisher } : undefined,
   };
 
+  const primaryGenre = book.genres[0];
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
+      ...(primaryGenre ? [{
+        '@type': 'ListItem',
+        position: 2,
+        name: `${GENRE_LABELS[primaryGenre as Genre] ?? primaryGenre} Books`,
+        item: `https://bookreleaseradar.com/genre/${primaryGenre}`,
+      }] : []),
+      { '@type': 'ListItem', position: primaryGenre ? 3 : 2, name: book.title, item: `https://bookreleaseradar.com/books/${book.slug}` },
+    ],
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
         <Link
           href="/"

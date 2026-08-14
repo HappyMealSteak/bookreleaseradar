@@ -45,7 +45,18 @@ export default async function AuthorPage({ params }: Props) {
   const upcoming = books.filter((b) => b.publishedDate && new Date(b.publishedDate) >= now);
   const past = books.filter((b) => !upcoming.includes(b));
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
+      { '@type': 'ListItem', position: 2, name: authorName, item: `https://bookreleaseradar.com/author/${slug}` },
+    ],
+  };
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
         <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Author</p>
@@ -75,5 +86,6 @@ export default async function AuthorPage({ params }: Props) {
         </section>
       )}
     </div>
+    </>
   );
 }

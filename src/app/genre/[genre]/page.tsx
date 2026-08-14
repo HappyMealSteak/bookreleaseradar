@@ -38,7 +38,18 @@ export default async function GenrePage({ params }: Props) {
   const label = GENRE_LABELS[genre as Genre];
   const year = new Date().getFullYear();
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
+      { '@type': 'ListItem', position: 2, name: `${label} Books`, item: `https://bookreleaseradar.com/genre/${genre}` },
+    ],
+  };
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
         <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Genre</p>
@@ -55,5 +66,6 @@ export default async function GenrePage({ params }: Props) {
         emptyMessage={`No upcoming ${label.toLowerCase()} books found. Check back after running the seed script.`}
       />
     </div>
+    </>
   );
 }

@@ -24,7 +24,7 @@ async function seed() {
   for (const genre of GENRES) {
     console.log(`\nFetching ${genre}...`);
     try {
-      const books = await fetchUpcomingByGenre(genre as Genre, 2);
+      const books = await fetchUpcomingByGenre(genre as Genre, 3);
       console.log(`  Found ${books.length} upcoming books`);
 
       for (const book of books) {
