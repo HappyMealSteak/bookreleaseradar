@@ -18,7 +18,11 @@ export function slugify(text: string): string {
 export function buildAmazonUrl(isbn: string | null, title: string, authors: string[]): string {
   const tag = process.env.NEXT_PUBLIC_AMAZON_TAG ?? 'bookreleaseradar-20';
   if (isbn) {
-    return `https://www.amazon.com/dp/${isbn}?tag=${tag}`;
+    // /dp/ only works with ISBN-10 (10 chars) or ASIN — ISBN-13 must use search
+    if (isbn.length === 10) {
+      return `https://www.amazon.com/dp/${isbn}?tag=${tag}`;
+    }
+    return `https://www.amazon.com/s?k=${isbn}&i=stripbooks&tag=${tag}`;
   }
   const query = encodeURIComponent(`${title} ${authors[0] ?? ''}`.trim());
   return `https://www.amazon.com/s?k=${query}&i=stripbooks&tag=${tag}`;
