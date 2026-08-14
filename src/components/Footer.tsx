@@ -123,6 +123,14 @@ export default function Footer() {
                   Books Like ACOTAR
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/books-like"
+                  className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
+                >
+                  All Recommendations →
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

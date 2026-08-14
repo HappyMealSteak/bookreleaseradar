@@ -47,7 +47,8 @@ export default async function BooksLikePage({ params }: Props) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
-      { '@type': 'ListItem', position: 2, name: `Books Like ${name}`, item: `https://bookreleaseradar.com/books-like/${slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Books Like…', item: 'https://bookreleaseradar.com/books-like' },
+      { '@type': 'ListItem', position: 3, name: `Books Like ${name}`, item: `https://bookreleaseradar.com/books-like/${slug}` },
     ],
   };
 
@@ -79,7 +80,9 @@ export default async function BooksLikePage({ params }: Props) {
         <nav className="flex items-center gap-1.5 text-xs text-[var(--text-faint)] mb-6 flex-wrap">
           <Link href="/" className="hover:text-[var(--accent)] transition-colors">Home</Link>
           <ChevronRight size={12} />
-          <span className="text-[var(--text-muted)]">Books Like {name}</span>
+          <Link href="/books-like" className="hover:text-[var(--accent)] transition-colors">Books Like…</Link>
+          <ChevronRight size={12} />
+          <span className="text-[var(--text-muted)]">{name}</span>
         </nav>
 
         {/* Hero */}
@@ -160,9 +163,12 @@ export default async function BooksLikePage({ params }: Props) {
 
         {/* Explore other recommendations */}
         <section>
-          <h2 className="font-[family-name:var(--font-playfair)] text-lg text-[var(--text)] mb-4">
-            More Reading Recommendations
-          </h2>
+          <div className="flex items-baseline justify-between mb-4">
+            <h2 className="font-[family-name:var(--font-playfair)] text-lg text-[var(--text)]">
+              More Reading Recommendations
+            </h2>
+            <Link href="/books-like" className="text-xs text-[var(--accent)] hover:underline">View all →</Link>
+          </div>
           <div className="grid sm:grid-cols-2 gap-3">
             {RECOMMENDATIONS.filter((r) => r.slug !== slug).slice(0, 4).map((r) => (
               <Link

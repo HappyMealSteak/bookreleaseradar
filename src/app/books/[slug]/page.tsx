@@ -67,6 +67,16 @@ export default async function BookPage({ params }: Props) {
     image: book.coverUrl,
     isbn: book.isbn,
     publisher: book.publisher ? { '@type': 'Organization', name: book.publisher } : undefined,
+    numberOfPages: book.pageCount ?? undefined,
+    offers: {
+      '@type': 'Offer',
+      url: book.amazonUrl,
+      priceCurrency: 'USD',
+      availability: book.publishedDate && new Date(book.publishedDate) > new Date()
+        ? 'https://schema.org/PreOrder'
+        : 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: 'Amazon' },
+    },
   };
 
   const primaryGenre = book.genres[0];

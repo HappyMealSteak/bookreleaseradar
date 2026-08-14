@@ -18,7 +18,7 @@ export default async function MostAnticipatedPage() {
   // Show the next 48 upcoming books — sorted by date, they're the most imminent/anticipated
   const books = await getUpcomingBooks(48);
 
-  const jsonLd = {
+  const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
@@ -27,9 +27,30 @@ export default async function MostAnticipatedPage() {
     ],
   };
 
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Most Anticipated Books ${year}`,
+    description: `The biggest upcoming book releases of ${year}`,
+    numberOfItems: books.slice(0, 20).length,
+    itemListElement: books.slice(0, 20).map((book, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: book.title,
+      item: {
+        '@type': 'Book',
+        name: book.title,
+        author: { '@type': 'Person', name: book.authors?.[0] ?? '' },
+        datePublished: book.publishedDate ?? undefined,
+        url: `https://bookreleaseradar.com/books/${book.slug}`,
+      },
+    })),
+  };
+
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Editor&apos;s Pick</p>

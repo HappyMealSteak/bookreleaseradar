@@ -1,8 +1,17 @@
 import Link from 'next/link';
-import { ChevronRight, TrendingUp, Zap } from 'lucide-react';
+import { ChevronRight, TrendingUp, Zap, Library, BookMarked } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
 import { getUpcomingBooks, getBooksByGenre, getReleasingThisWeek } from '@/lib/db';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
+
+const SPOTLIGHT_SERIES = [
+  { slug: 'acotar', label: 'ACOTAR', sub: 'Sarah J. Maas' },
+  { slug: 'fourth-wing', label: 'Fourth Wing', sub: 'Rebecca Yarros' },
+  { slug: 'colleen-hoover', label: 'Colleen Hoover', sub: 'CoHo picks' },
+  { slug: 'a-song-of-ice-and-fire', label: 'Game of Thrones', sub: 'George R.R. Martin' },
+  { slug: 'stormlight-archive', label: 'Stormlight', sub: 'Brandon Sanderson' },
+  { slug: 'mistborn', label: 'Mistborn', sub: 'Brandon Sanderson' },
+];
 
 export const revalidate = 86400; // refresh every 24h
 
@@ -86,6 +95,50 @@ export default async function HomePage() {
           <BookGrid books={thisWeek} />
         </section>
       )}
+
+      {/* Popular Series Spotlight */}
+      <section>
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-2">
+            <Library size={16} className="text-[var(--accent)]" />
+            <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+              Popular Series
+            </h2>
+          </div>
+          <Link href="/series" className="text-xs font-semibold text-[var(--accent)] hover:underline flex items-center gap-0.5">
+            All series <ChevronRight size={13} />
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 mb-5">
+          {SPOTLIGHT_SERIES.map(({ slug, label, sub }) => (
+            <Link
+              key={slug}
+              href={`/series/${slug}`}
+              className="group flex flex-col items-center text-center p-4 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/50 hover:bg-[var(--surface-raised)] transition-all"
+            >
+              <div className="w-10 h-10 rounded-full bg-[var(--accent-light)] flex items-center justify-center mb-2">
+                <BookMarked size={18} className="text-[var(--accent)]" />
+              </div>
+              <span className="text-xs font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors leading-tight mb-0.5">{label}</span>
+              <span className="text-[10px] text-[var(--text-faint)] leading-tight">{sub}</span>
+            </Link>
+          ))}
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/series/acotar/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            ACOTAR Reading Order →
+          </Link>
+          <Link href="/series/fourth-wing/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Fourth Wing Reading Order →
+          </Link>
+          <Link href="/books-like/acotar" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Books Like ACOTAR →
+          </Link>
+          <Link href="/books-like" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            All Recommendations →
+          </Link>
+        </div>
+      </section>
 
       {/* Genre sections */}
       {featuredGenres.map((genre, i) => {
