@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import BookGrid from '@/components/BookGrid';
 import { getBooksByGenre, getBookCountByGenre } from '@/lib/db';
-import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
+import { GENRES, GENRE_LABELS, GENRE_DESCRIPTIONS, type Genre } from '@/lib/types';
 
 export const revalidate = 86400;
 
@@ -59,8 +59,11 @@ export default async function GenrePage({ params }: Props) {
         <h1 className="font-[family-name:var(--font-playfair)] text-3xl sm:text-4xl text-[var(--text)] mb-2">
           Upcoming {label} Books
         </h1>
-        <p className="text-[var(--text-muted)]">
+        <p className="text-[var(--text-muted)] mb-3">
           {count > 0 ? `${count} upcoming ` : ''}{label.toLowerCase()} releases for {year} and beyond.
+        </p>
+        <p className="text-sm text-[var(--text-muted)] max-w-2xl leading-relaxed">
+          {GENRE_DESCRIPTIONS[genre as Genre]}
         </p>
       </div>
 
