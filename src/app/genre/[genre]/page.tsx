@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import BookGrid from '@/components/BookGrid';
-import { getBooksByGenre } from '@/lib/db';
+import { getBooksByGenre, getBookCountByGenre } from '@/lib/db';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
 export const revalidate = 86400;
@@ -34,7 +34,10 @@ export default async function GenrePage({ params }: Props) {
   const { genre } = await params;
   if (!GENRES.includes(genre as Genre)) notFound();
 
-  const books = await getBooksByGenre(genre, 48);
+  const [books, count] = await Promise.all([
+    getBooksByGenre(genre, 100),
+    getBookCountByGenre(genre),
+  ]);
   const label = GENRE_LABELS[genre as Genre];
   const year = new Date().getFullYear();
 
@@ -57,7 +60,7 @@ export default async function GenrePage({ params }: Props) {
           Upcoming {label} Books
         </h1>
         <p className="text-[var(--text-muted)]">
-          New {label.toLowerCase()} releases for {year} and beyond.
+          {count > 0 ? `${count} upcoming ` : ''}{label.toLowerCase()} releases for {year} and beyond.
         </p>
       </div>
 

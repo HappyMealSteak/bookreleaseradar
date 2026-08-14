@@ -154,7 +154,7 @@ export async function getUpcomingBooks(limit = 18): Promise<Book[]> {
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
-export async function getAllBooks(limit = 500): Promise<Book[]> {
+export async function getAllBooks(limit = 1000): Promise<Book[]> {
   const db = getClient();
   const result = await db.execute({
     sql: 'SELECT * FROM books ORDER BY published_date DESC LIMIT ?',
@@ -192,5 +192,22 @@ export async function getRelatedBooks(book: Book, limit = 6): Promise<Book[]> {
 export async function getBookCount(): Promise<number> {
   const db = getClient();
   const result = await db.execute('SELECT COUNT(*) as count FROM books');
+  return Number((result.rows[0] as Record<string, unknown>).count);
+}
+
+export async function getBookCountByGenre(genre: string): Promise<number> {
+  const db = getClient();
+  const sixMonthsAgo = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const currentYear = new Date().getFullYear().toString();
+  const result = await db.execute({
+    sql: `SELECT COUNT(*) as count FROM books
+      WHERE genres LIKE ?
+        AND (
+          published_date IS NULL
+          OR published_date >= ?
+          OR (LENGTH(published_date) = 4 AND published_date >= ?)
+        )`,
+    args: [`%"${genre}"%`, sixMonthsAgo, currentYear],
+  });
   return Number((result.rows[0] as Record<string, unknown>).count);
 }
