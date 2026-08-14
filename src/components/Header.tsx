@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BookOpen, Search, Calendar } from 'lucide-react';
+import { BookOpen, Search, Calendar, Star } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
@@ -23,6 +23,18 @@ export default function Header() {
           </Link>
 
           <nav className="flex items-center gap-1">
+            <Link
+              href="/most-anticipated"
+              className={cn(
+                'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+                pathname === '/most-anticipated'
+                  ? 'bg-[var(--accent-light)] text-[var(--accent)]'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
+              )}
+            >
+              <Star size={15} />
+              Most Anticipated
+            </Link>
             <Link
               href="/calendar"
               className={cn(

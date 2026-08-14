@@ -59,6 +59,11 @@ export default function Footer() {
             </p>
             <ul className="space-y-2">
               <li>
+                <Link href="/most-anticipated" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  Most Anticipated
+                </Link>
+              </li>
+              <li>
                 <Link href="/calendar" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
                   Release Calendar
                 </Link>
