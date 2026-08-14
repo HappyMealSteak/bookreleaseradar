@@ -48,6 +48,11 @@ export const metadata: Metadata = {
   verification: {
     google: '0beSyglhpQGifSqVe0b_FVeMGDkoSyPZmnCZ7BQVpY0',
   },
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://bookreleaseradar.com/feed.xml',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
