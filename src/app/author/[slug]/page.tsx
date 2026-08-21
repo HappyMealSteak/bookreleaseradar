@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, BookOpen } from 'lucide-react';
 import { getBooksByAuthorName, getAllAuthors } from '@/lib/db';
 import { authorSlug } from '@/lib/utils';
+import { getAuthorBio } from '@/lib/author-bios';
+import { GENRE_LABELS, type Genre } from '@/lib/types';
 import BookGrid from '@/components/BookGrid';
 
 export const revalidate = 86400;
@@ -29,8 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const name = slugToName(slug, authors);
   if (!name) return {};
 
+  const bio = getAuthorBio(name);
   const title = `${name} — Books, New Releases & Upcoming Titles`;
-  const description = `Browse all books by ${name}. See upcoming releases, new titles, and complete book list on BookReleaseRadar.`;
+  const description = bio
+    ? bio.bio.slice(0, 155)
+    : `Browse all books by ${name}. See upcoming releases, new titles, and complete book list on BookReleaseRadar.`;
 
   return {
     title,
@@ -45,18 +50,23 @@ export default async function AuthorPage({ params }: Props) {
   const name = slugToName(slug, authors);
   if (!name) notFound();
 
-  const books = await getBooksByAuthorName(name, 48);
+  const [books] = await Promise.all([getBooksByAuthorName(name, 48)]);
   if (!books.length) notFound();
 
+  const bio = getAuthorBio(name);
   const today = new Date().toISOString().slice(0, 10);
   const upcoming = books.filter((b) => b.publishedDate && b.publishedDate >= today);
   const past = books.filter((b) => !b.publishedDate || b.publishedDate < today);
+
+  const allGenres = [...new Set(books.flatMap((b) => b.genres))].slice(0, 5);
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name,
+    description: bio?.bio,
     url: `https://bookreleaseradar.com/author/${slug}`,
+    sameAs: [],
   };
 
   return (
@@ -70,14 +80,53 @@ export default async function AuthorPage({ params }: Props) {
           <ArrowLeft size={14} /> Back to releases
         </Link>
 
+        {/* Header */}
         <div className="mb-10">
           <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Author</p>
-          <h1 className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl font-bold mb-3 leading-tight">
+          <h1 className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl font-bold mb-4 leading-tight">
             {name}
           </h1>
-          <p className="text-[var(--text-muted)] text-base">
-            {books.length} book{books.length !== 1 ? 's' : ''} tracked on BookReleaseRadar
-          </p>
+
+          {/* Genre tags */}
+          {allGenres.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-5">
+              {allGenres.map((genre) => (
+                <Link
+                  key={genre}
+                  href={`/genre/${genre}`}
+                  className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-[var(--accent-light)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] transition-colors"
+                >
+                  {GENRE_LABELS[genre as Genre] ?? genre}
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* Bio */}
+          {bio ? (
+            <div className="max-w-3xl">
+              <p className="text-[var(--text-muted)] text-base leading-relaxed mb-3">{bio.bio}</p>
+              {bio.knownFor.length > 0 && (
+                <div className="flex items-center gap-2 flex-wrap">
+                  <BookOpen size={13} className="text-[var(--text-faint)] shrink-0" />
+                  <span className="text-xs text-[var(--text-faint)]">Known for:</span>
+                  {bio.knownFor.map((s) => (
+                    <span key={s} className="text-xs text-[var(--text-muted)] font-medium">{s}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : (
+            <p className="text-[var(--text-muted)] text-base">
+              {books.length} book{books.length !== 1 ? 's' : ''} tracked on BookReleaseRadar
+            </p>
+          )}
+
+          {bio && (
+            <p className="text-sm text-[var(--text-faint)] mt-3">
+              {books.length} book{books.length !== 1 ? 's' : ''} tracked on BookReleaseRadar
+            </p>
+          )}
         </div>
 
         {upcoming.length > 0 && (
