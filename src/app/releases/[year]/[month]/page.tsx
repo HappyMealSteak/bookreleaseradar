@@ -66,9 +66,33 @@ export default async function MonthlyReleasesPage({ params }: Props) {
   const nextMonth = monthNum === 12 ? { year: yearNum + 1, month: 1 } : { year: yearNum, month: monthNum + 1 };
   const pad = (n: number) => String(n).padStart(2, '0');
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What books are releasing in ${monthName} ${year}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `BookReleaseRadar tracks ${books.length > 0 ? `${books.length} book releases` : 'upcoming titles'} for ${monthName} ${year}. Each listing includes the exact release date and an Amazon link for pre-ordering or buying on release day.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How can I pre-order books releasing in ${monthName} ${year}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Every book on this page has an Amazon link for pre-ordering. Pre-orders ship on the release date, and Amazon adjusts your charge if the price drops before publication.`,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <Link
           href="/calendar"

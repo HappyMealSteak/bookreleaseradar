@@ -211,7 +211,11 @@ export default async function ReadingOrderPage({ params }: Props) {
                       Buy
                     </a>
                   ) : (
-                    <span className="shrink-0 px-3 py-1.5 text-xs text-[var(--text-faint)] font-medium">TBA</span>
+                    <span className="shrink-0 px-3 py-1.5 text-xs text-[var(--gold)] font-medium">
+                      {book.note?.match(/\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+\d{4}/i)?.[0]
+                        ?? book.note?.match(/\d{4}/)?.[0]
+                        ?? 'Coming Soon'}
+                    </span>
                   )}
                 </li>
               );

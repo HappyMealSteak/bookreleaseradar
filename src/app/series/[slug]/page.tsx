@@ -83,10 +83,57 @@ export default async function SeriesPage({ params }: Props) {
     (b) => b.publishedDate && new Date(b.publishedDate) >= new Date()
   );
 
+  const name = series.shortName ?? series.name;
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `How many books are in the ${series.name} series?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `There are ${books.length} books tracked for ${series.name} by ${series.author}. ${hasReadingOrder ? `Visit the ${name} reading order page for the complete list in publication order.` : ''}`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What order should I read ${name} in?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: hasReadingOrder
+            ? `The recommended reading order for ${series.name} starts with the first book in the series. Visit the ${name} reading order page on BookReleaseRadar for the complete guide including where to start and which companion novels are optional.`
+            : `Start with the first book in the ${series.name} series and read in publication order. Check the series page on BookReleaseRadar for all books with release dates.`,
+        },
+      },
+      ...(upcoming.length > 0
+        ? [
+            {
+              '@type': 'Question',
+              name: `When is the next ${name} book coming out?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `The next ${series.name} book is scheduled for ${upcoming[0].publishedDate}. Pre-order on Amazon to guarantee you receive it on release day.`,
+              },
+            },
+          ]
+        : []),
+      {
+        '@type': 'Question',
+        name: `What is ${series.name} about?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: series.description,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(bookSeriesJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-[var(--text-faint)] mb-6">

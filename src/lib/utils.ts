@@ -95,7 +95,7 @@ export function formatReleaseDate(dateStr: string | null): string {
   }
 }
 
-// Filter out placeholder/TBA titles that Google Books returns for unannounced books
+// Filter out placeholder/TBA titles and non-fiction junk that Google Books returns
 const PLACEHOLDER_PATTERNS = [
   /\b(untitled|tba|tbd|to be announced|to be confirmed)\b/i,
   /\bnovel\s+\d{4}\b/i,          // "Author Novel 2027"
@@ -103,6 +103,43 @@ const PLACEHOLDER_PATTERNS = [
   /\btitle\s+to\s+be\b/i,        // "Title to Be Announced"
   /\buntitled\s+\w+\s+\d{4}\b/i, // "Untitled Name 2027"
   /^\w[\w\s]*\s+\d{4}$/i,        // Bare "Author Name 2027" (title is just author + year)
+  // Box sets and anthology series
+  /\bbox set\b/i,
+  /^harlequin\b/i,
+  /\blove inspired\b/i,
+  /\bBest American\b.*\b(mystery|science fiction|fantasy)\b/i,
+  // Children's non-fiction identifiers
+  /^(Let'?s Look Inside|Why Do|Do Fish|Can a |Being a Good Listener|Do Dogs)/i,
+  // "Born In XXXX" tracking books
+  /^Born In \d{4}$/i,
+  // Academic/literary criticism in title
+  /\bHandbook of\b/i,
+  /\bPalgrave\b/i,
+  // Author-to-be-announced placeholders
+  /author to be announced/i,
+  // Harlequin anthology monthly bindings
+  /^Modern Romance\s+\w+\s+\d{4}\b/i,
+  // Series-label subtitles (not individual novels)
+  /:\s+A High-Stakes\b.*\bSeries\b/i,
+  // Literary criticism and academic suffixes
+  /\bSartorial Spaces\b/i,
+  /\bMale World of Cold War\b/i,
+  /\bGolden Age Crime Writing\b/i,
+  // Exam prep, study guides, CDL manuals
+  /\bExam Prep\b/i,
+  /\bExam Study Guide\b/i,
+  /\bCDL Exam\b/i,
+  /\bCertification Exam\b/i,
+  // Media tie-ins and promotional guides
+  /\bMovie Guide\b/i,
+  // Trade catalogs
+  /^Buzz Books\b/i,
+  // Large print and special editions (duplicates of existing books)
+  /\bLarge Print\b/i,
+  /\bDeluxe.*Edition\b/i,
+  /\bSpecial Edition\b.*\bBook\b/i,
+  // Companion-only or novelization labels in titles that signal low quality
+  /\bNovelization\b/i,
 ];
 
 export function hasQualityTitle(title: string): boolean {

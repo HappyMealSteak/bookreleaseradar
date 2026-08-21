@@ -27,6 +27,13 @@ const SERIES_AUTHORS = [
   { name: 'Leigh Bardugo',      genre: 'fantasy' },
   { name: 'Emily Henry',        genre: 'romance' },
   { name: 'Taylor Jenkins Reid', genre: 'fiction' },
+  { name: 'Suzanne Collins',    genre: 'fiction' },
+  { name: 'Cassandra Clare',    genre: 'fantasy' },
+  { name: 'Rick Riordan',       genre: 'fantasy' },
+  { name: 'Diana Gabaldon',     genre: 'fiction' },
+  { name: 'Holly Black',        genre: 'fantasy' },
+  { name: 'V.E. Schwab',        genre: 'fantasy' },
+  { name: 'Pierce Brown',       genre: 'sci-fi' },
 ];
 
 interface OLDoc {

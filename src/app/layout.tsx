@@ -38,10 +38,20 @@ export const metadata: Metadata = {
     'ACOTAR new book',
     'Fourth Wing new book',
     'Winds of Winter release date',
+    'Doors of Stone release date',
+    'Bridgerton books in order',
     'Sarah J Maas new book',
     'Rebecca Yarros new book',
     'Colleen Hoover new book',
     'Brandon Sanderson new book',
+    'Jennifer L Armentrout new book',
+    'From Blood and Ash series',
+    'Inheritance Games new book',
+    'Sunrise on the Reaping release date',
+    'Hunger Games new book 2026',
+    'Wheel of Time reading order',
+    'R.F. Kuang new book',
+    'Stephen King Dark Tower',
   ],
   metadataBase: new URL('https://bookreleaseradar.com'),
   openGraph: {
@@ -62,9 +72,30 @@ export const metadata: Metadata = {
   },
 };
 
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+const ADSENSE_ID = 'ca-pub-5947043421820182';
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} h-full`}>
+      <head>
+        {GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname});`,
+              }}
+            />
+          </>
+        )}
+        <meta name="google-adsense-account" content={ADSENSE_ID} />
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-[var(--bg)] text-[var(--text)] antialiased">
         <Header />
         <main className="flex-1">{children}</main>

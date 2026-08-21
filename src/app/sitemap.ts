@@ -9,7 +9,7 @@ import { authorSlug } from '@/lib/utils';
 const BASE = 'https://bookreleaseradar.com';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [books, months] = await Promise.all([getAllBooks(1000), getPublishedMonths()]);
+  const [books, months] = await Promise.all([getAllBooks(2000), getPublishedMonths()]);
 
   const bookUrls: MetadataRoute.Sitemap = books.map((book) => ({
     url: `${BASE}/books/${book.slug}`,
@@ -68,16 +68,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   ];
 
+  const bestBookUrls: MetadataRoute.Sitemap = [2025, 2026, 2027].flatMap((year) => [
+    { url: `${BASE}/best-books/${year}`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.88 },
+    ...GENRES.map((genre) => ({
+      url: `${BASE}/best-books/${year}/${genre}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    })),
+  ]);
+
   return [
     { url: BASE, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
+    { url: `${BASE}/new-releases`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.95 },
     { url: `${BASE}/most-anticipated`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
     { url: `${BASE}/trending`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.88 },
     { url: `${BASE}/calendar`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.8 },
     { url: `${BASE}/search`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE}/disclosure`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
     ...seriesUrls,
     ...genreUrls,
     ...monthUrls,
     ...authorUrls,
     ...bookUrls,
+    ...bestBookUrls,
   ];
 }

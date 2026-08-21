@@ -221,6 +221,44 @@ export async function getRelatedBooks(book: Book, limit = 6): Promise<Book[]> {
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
 }
 
+export async function getSmartRelatedBooks(book: Book, limit = 6): Promise<{
+  byAuthor: Book[];
+  byGenre: Book[];
+}> {
+  const db = getClient();
+  const genre = book.genres[0] ?? 'fiction';
+  const author = book.authors[0];
+
+  const [authorResult, genreResult] = await Promise.all([
+    author
+      ? db.execute({
+          sql: `SELECT * FROM books
+            WHERE id != ? AND authors LIKE ?
+            ORDER BY
+              CASE WHEN cover_url IS NOT NULL AND description IS NOT NULL THEN 0 ELSE 1 END ASC,
+              published_date DESC
+            LIMIT ?`,
+          args: [book.id, `%${author}%`, limit],
+        })
+      : Promise.resolve({ rows: [] }),
+    db.execute({
+      sql: `SELECT * FROM books
+        WHERE id != ? AND genres LIKE ?
+          AND (? IS NULL OR authors NOT LIKE ?)
+          AND cover_url IS NOT NULL
+          AND description IS NOT NULL
+        ORDER BY published_date DESC
+        LIMIT ?`,
+      args: [book.id, `%"${genre}"%`, author ?? null, author ? `%${author}%` : null, limit],
+    }),
+  ]);
+
+  return {
+    byAuthor: authorResult.rows.map((r) => rowToBook(r as Record<string, unknown>)),
+    byGenre: genreResult.rows.map((r) => rowToBook(r as Record<string, unknown>)),
+  };
+}
+
 export async function getReleasingThisWeek(): Promise<Book[]> {
   const db = getClient();
   const today = new Date().toISOString().slice(0, 10);
@@ -233,6 +271,45 @@ export async function getReleasingThisWeek(): Promise<Book[]> {
     args: [today, nextWeek],
   });
   return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
+export async function getRecentAndUpcomingBooks(): Promise<{
+  justReleased: Book[];
+  thisWeek: Book[];
+  comingSoon: Book[];
+}> {
+  const db = getClient();
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  const past14 = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const next7 = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const next60 = new Date(now.getTime() + 60 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
+  const [recentResult, upcomingResult] = await Promise.all([
+    db.execute({
+      sql: `SELECT * FROM books
+        WHERE published_date >= ? AND published_date < ?
+        ORDER BY published_date DESC
+        LIMIT 40`,
+      args: [past14, today],
+    }),
+    db.execute({
+      sql: `SELECT * FROM books
+        WHERE published_date >= ? AND published_date <= ?
+        ORDER BY published_date ASC
+        LIMIT 60`,
+      args: [today, next60],
+    }),
+  ]);
+
+  const recent = recentResult.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const upcoming = upcomingResult.rows.map((r) => rowToBook(r as Record<string, unknown>));
+
+  return {
+    justReleased: recent,
+    thisWeek: upcoming.filter((b) => b.publishedDate && b.publishedDate <= next7),
+    comingSoon: upcoming.filter((b) => b.publishedDate && b.publishedDate > next7),
+  };
 }
 
 export async function getBooksByMonth(year: number, month: number): Promise<Book[]> {
@@ -279,12 +356,71 @@ export async function cleanupPlaceholderBooks(): Promise<number> {
     `title LIKE '%Book 2025%' OR title LIKE '%Book 2026%' OR title LIKE '%Book 2027%' OR title LIKE '%Book 2028%'`,
     `title LIKE '%Title to Be%'`,
     `LENGTH(title) < 3`,
+    // Box sets and anthology series (not individual novels)
+    `title LIKE '%Box Set%' OR title LIKE 'Harlequin%' OR title LIKE '%Love Inspired%'`,
+    // Academic/textbook titles
+    `title LIKE '%Handbook of%' OR title LIKE '%Palgrave%' OR title LIKE '%Young Adult Literature in Action%'`,
+    // Children's non-fiction identifiers
+    `title LIKE 'Let%s Look Inside%' OR title LIKE 'Why Do%' OR title LIKE 'Do Fish%' OR title LIKE 'Can a %' OR title LIKE 'Being a Good%'`,
+    // "Born in XXXX" series (year-tracking books, not novels)
+    `title LIKE 'Born In 19%' OR title LIKE 'Born In 20%'`,
+    // Best-of annual anthologies
+    `title LIKE 'The Best American%' OR title LIKE 'Griffin Poetry Prize%' OR title LIKE 'Best Debut Short Stories%'`,
+    // Author to be announced / placeholder author credit
+    `title LIKE '%Author to be Announced%'`,
+    // Harlequin monthly anthology bindings
+    `title LIKE 'Modern Romance %'`,
+    // Series-label subtitles (catalogue placeholders, not individual books)
+    `title LIKE '%: A High-Stakes%Series%'`,
+    // Literary criticism / academic suffixes
+    `title LIKE '%Sartorial Spaces%' OR title LIKE '%Male World of Cold War%' OR title LIKE '%Golden Age Crime Writing%'`,
+    // Exam prep and study guides
+    `title LIKE '%Exam Prep%' OR title LIKE '%Exam Study Guide%' OR title LIKE '%CDL Exam%' OR title LIKE '%Certification Exam%'`,
+    // Movie and media guides
+    `title LIKE '%Movie Guide%' OR title LIKE '%MOVIE GUIDE%'`,
+    // Trade catalogs
+    `title LIKE 'Buzz Books%'`,
+    // Large print and special edition duplicates
+    `title LIKE '%Large Print%' OR title LIKE '%Deluxe%Edition%' OR title LIKE '%Novelization%'`,
+    // No-author entries
+    `authors = '[]'`,
   ];
   for (const clause of clauses) {
     const result = await db.execute(`DELETE FROM books WHERE ${clause}`);
     removed += Number(result.rowsAffected ?? 0);
   }
   return removed;
+}
+
+export async function getBestBooksByGenreYear(genre: string, year: number, limit = 36): Promise<Book[]> {
+  const db = getClient();
+  const prefix = `${year}-`;
+  const result = await db.execute({
+    sql: `SELECT * FROM books
+      WHERE genres LIKE ? AND published_date LIKE ?
+      ORDER BY
+        CASE WHEN cover_url IS NOT NULL AND description IS NOT NULL THEN 0 ELSE 1 END ASC,
+        CASE WHEN cover_url IS NOT NULL THEN 0 ELSE 1 END ASC,
+        published_date ASC
+      LIMIT ?`,
+    args: [`%${genre}%`, `${prefix}%`, limit],
+  });
+  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+}
+
+export async function getAllAuthors(): Promise<Array<{ name: string; bookCount: number }>> {
+  const db = getClient();
+  const result = await db.execute('SELECT authors FROM books');
+  const counts = new Map<string, number>();
+  for (const row of result.rows) {
+    const authors: string[] = JSON.parse((row as Record<string, unknown>).authors as string);
+    for (const a of authors) {
+      if (a) counts.set(a, (counts.get(a) ?? 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .map(([name, bookCount]) => ({ name, bookCount }))
+    .sort((a, b) => b.bookCount - a.bookCount);
 }
 
 export async function getBookCount(): Promise<number> {

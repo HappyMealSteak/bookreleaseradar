@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BookOpen, Search, Calendar, Star, Library } from 'lucide-react';
+import { BookOpen, Search, Calendar, Star, Library, TrendingUp, Heart, Flame } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 
@@ -22,54 +22,90 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav className="flex items-center gap-1">
+          <nav className="flex items-center gap-0.5 overflow-x-auto scrollbar-none">
             <Link
               href="/series"
               className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
                 pathname === '/series' || pathname.startsWith('/series/')
                   ? 'bg-[var(--accent-light)] text-[var(--accent)]'
                   : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
               )}
             >
-              <Library size={15} />
-              Series
+              <Library size={14} />
+              <span className="hidden sm:inline">Series</span>
+            </Link>
+            <Link
+              href="/books-like"
+              className={cn(
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
+                pathname === '/books-like' || pathname.startsWith('/books-like/')
+                  ? 'bg-[var(--accent-light)] text-[var(--accent)]'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
+              )}
+            >
+              <Heart size={14} />
+              <span className="hidden sm:inline">Books Like</span>
+            </Link>
+            <Link
+              href="/new-releases"
+              className={cn(
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
+                pathname === '/new-releases'
+                  ? 'bg-[var(--accent-light)] text-[var(--accent)]'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
+              )}
+            >
+              <Flame size={14} />
+              <span className="hidden sm:inline">New</span>
+            </Link>
+            <Link
+              href="/trending"
+              className={cn(
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
+                pathname === '/trending'
+                  ? 'bg-[var(--accent-light)] text-[var(--accent)]'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
+              )}
+            >
+              <TrendingUp size={14} />
+              <span className="hidden sm:inline">Trending</span>
             </Link>
             <Link
               href="/most-anticipated"
               className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
                 pathname === '/most-anticipated'
                   ? 'bg-[var(--accent-light)] text-[var(--accent)]'
                   : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
               )}
             >
-              <Star size={15} />
-              Most Anticipated
+              <Star size={14} />
+              <span className="hidden md:inline">Anticipated</span>
             </Link>
             <Link
               href="/calendar"
               className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
                 pathname === '/calendar'
                   ? 'bg-[var(--accent-light)] text-[var(--accent)]'
                   : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
               )}
             >
-              <Calendar size={15} />
-              Calendar
+              <Calendar size={14} />
+              <span className="hidden md:inline">Calendar</span>
             </Link>
             <Link
               href="/search"
               className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+                'shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-sm transition-colors',
                 pathname === '/search'
                   ? 'bg-[var(--accent-light)] text-[var(--accent)]'
                   : 'text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-raised)]'
               )}
             >
-              <Search size={15} />
-              Search
+              <Search size={14} />
+              <span className="hidden sm:inline">Search</span>
             </Link>
           </nav>
         </div>

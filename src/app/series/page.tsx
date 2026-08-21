@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, BookOpen } from 'lucide-react';
+import { ChevronRight, BookOpen, List, Heart } from 'lucide-react';
 import { SERIES } from '@/lib/series';
+import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: 'Popular Book Series — New Books & Release Dates',
   description:
-    'Track upcoming books in the most popular series: ACOTAR, Fourth Wing, GoT, Colleen Hoover, Mistborn, Stormlight Archive, and more. Release dates and pre-order links.',
+    'Track upcoming books in the most popular series: ACOTAR, Fourth Wing, GoT, Six of Crows, Percy Jackson, Red Rising, Outlander, and more. Release dates and reading orders.',
   keywords: [
     'ACOTAR new book',
     'Fourth Wing new book',
@@ -18,7 +20,28 @@ export const metadata: Metadata = {
     'Rebecca Yarros new book',
     'Colleen Hoover new book',
     'Brandon Sanderson new book',
+    'Six of Crows new book',
+    'Percy Jackson new book',
+    'Red Rising new book',
+    'Outlander new book',
+    'Shadowhunters new book',
+    'Bridgerton books in order',
+    'Doors of Stone release date',
+    'Blood and Ash new book',
+    'Inheritance Games new book',
+    'Shatter Me new book',
+    'Atlas Six new book',
+    'Tahereh Mafi new book',
+    'Olivie Blake new book',
+    'Sunrise on the Reaping release date',
+    'Hunger Games new book 2026',
+    'Wheel of Time reading order',
+    'Poppy War reading order',
+    'Dark Tower reading order',
+    'R.F. Kuang new book',
+    'Stephen King Dark Tower new book',
     'popular book series new releases',
+    'book series reading orders',
     'book series release dates',
   ],
 };
@@ -42,9 +65,41 @@ export default function SeriesIndexPage() {
     ],
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What book series can I track on BookReleaseRadar?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `BookReleaseRadar tracks ${SERIES.length} popular series including ACOTAR, Fourth Wing, Bridgerton, Six of Crows, Kingkiller Chronicle, Outlander, The Stormlight Archive, Red Rising, and more. Each series page shows upcoming release dates and pre-order links.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I find the reading order for a book series?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Each tracked series on BookReleaseRadar has a dedicated reading order page listing all books in the recommended order. Click "Order" on any series card or navigate to the series page and follow the reading order link.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I find books similar to a series I love?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Series cards on this page show a "Similar" link when there are curated book recommendations for that series. These pages list books with similar vibes, genres, and appeal — great for finding your next read while waiting for the next book in your current series.',
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Header */}
         <div className="mb-10">
@@ -62,9 +117,8 @@ export default function SeriesIndexPage() {
         {/* Series grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {SERIES.map((series) => (
-            <Link
+            <div
               key={series.slug}
-              href={`/series/${series.slug}`}
               className="group flex flex-col p-5 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/50 hover:bg-[var(--surface-raised)] transition-all"
             >
               <div className="flex items-start justify-between gap-2 mb-3">
@@ -79,9 +133,11 @@ export default function SeriesIndexPage() {
                       {GENRE_LABELS[series.genre] ?? series.genre}
                     </span>
                   </div>
-                  <h2 className="font-[family-name:var(--font-playfair)] text-lg text-[var(--text)] group-hover:text-[var(--accent)] transition-colors leading-tight">
-                    {series.name}
-                  </h2>
+                  <Link href={`/series/${series.slug}`}>
+                    <h2 className="font-[family-name:var(--font-playfair)] text-lg text-[var(--text)] group-hover:text-[var(--accent)] transition-colors leading-tight">
+                      {series.name}
+                    </h2>
+                  </Link>
                 </div>
                 <BookOpen size={18} className="shrink-0 text-[var(--text-faint)] group-hover:text-[var(--accent)] transition-colors mt-0.5" />
               </div>
@@ -91,10 +147,31 @@ export default function SeriesIndexPage() {
               <p className="text-xs text-[var(--text-faint)] leading-relaxed line-clamp-3 flex-1">
                 {series.description}
               </p>
-              <div className="mt-4 flex items-center gap-1 text-xs font-semibold text-[var(--accent)]">
-                View releases <ChevronRight size={13} />
+              <div className="mt-4 flex flex-wrap gap-2">
+                <Link
+                  href={`/series/${series.slug}`}
+                  className="flex items-center gap-1 text-xs font-semibold text-[var(--accent)] hover:underline"
+                >
+                  View releases <ChevronRight size={13} />
+                </Link>
+                {ALL_READING_ORDER_SLUGS.includes(series.slug) && (
+                  <Link
+                    href={`/series/${series.slug}/reading-order`}
+                    className="flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-semibold bg-[var(--accent-light)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] transition-colors"
+                  >
+                    <List size={10} /> Order
+                  </Link>
+                )}
+                {ALL_BOOKS_LIKE_SLUGS.includes(series.slug) && (
+                  <Link
+                    href={`/books-like/${series.slug}`}
+                    className="flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-semibold bg-[var(--surface-raised)] text-[var(--text-muted)] border border-[var(--border)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+                  >
+                    <Heart size={10} /> Similar
+                  </Link>
+                )}
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

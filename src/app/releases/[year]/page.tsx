@@ -68,9 +68,41 @@ export default async function YearPage({ params }: Props) {
     ],
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What are the best new books coming out in ${y}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `BookReleaseRadar tracks ${books.length > 0 ? `${books.length} books` : 'all major releases'} for ${y} across fantasy, thriller, romance, mystery, sci-fi, and literary fiction. Browse the full list with release dates and pre-order links on Amazon.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How do I find books releasing in a specific month of ${y}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Use the month navigation on this page to browse books releasing in any specific month of ${y}. Each month page lists all tracked releases sorted by date.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Can I pre-order ${y} book releases?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Yes — every book on BookReleaseRadar includes an Amazon pre-order link. Pre-ordering locks in the release-day price (Amazon adjusts if the price drops before publication) and ensures delivery on the day the book launches.`,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Header */}
         <div className="mb-8">

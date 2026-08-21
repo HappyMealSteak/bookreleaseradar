@@ -118,9 +118,41 @@ export default async function TrendingPage() {
     ],
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What books are trending on BookTok in ${year}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `BookReleaseRadar tracks trending books using NYT Bestseller data updated weekly. The trending page shows what BookTok is reading right now across fiction, young adult, and debut titles with Amazon links for every book.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What is the NYT Bestseller list for books?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'The New York Times Bestseller lists track the best-selling books across multiple categories including Combined Print & E-Book Fiction, Young Adult Hardcover, and more. BookReleaseRadar displays the latest NYT rankings with cover images and direct Amazon links.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What debut novels are on the bestseller list?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'BookReleaseRadar highlights debut novels making their first appearance on the NYT Bestseller lists — these are first-time appearances for books that have quickly risen to bestseller status. Check the Trending page for the current debut list.',
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Header */}
         <div className="mb-8">

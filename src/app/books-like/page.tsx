@@ -17,9 +17,26 @@ export const metadata: Metadata = {
     'books like Mistborn',
     'books like Wheel of Time',
     'books like Hunger Games',
+    'books like Six of Crows',
+    'books like Shadowhunters',
+    'books like Percy Jackson',
+    'books like Outlander',
+    'books like Emily Henry',
+    'books like Taylor Jenkins Reid',
+    'books like Red Rising',
+    'books like Bridgerton',
+    'books like Blood and Ash',
+    'books like Inheritance Games',
+    'books like Kingkiller Chronicle',
+    'books like Shatter Me',
+    'books like The Atlas Six',
+    'books like Hunger Games',
+    'books like Wheel of Time',
+    'books like The Poppy War',
+    'books like Dark Tower',
     'reading recommendations',
     'what to read next',
-    'book recommendations',
+    'book recommendations fantasy romance',
   ],
 };
 
@@ -32,10 +49,38 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked ACOTAR?',
+      acceptedAnswer: { '@type': 'Answer', text: 'If you loved A Court of Thorns and Roses, try From Blood and Ash by Jennifer L. Armentrout, An Ember in the Ashes by Sabaa Tahir, The Cruel Prince by Holly Black, or Shadow and Bone by Leigh Bardugo. Our full guide covers 8 picks with reasons why ACOTAR fans love each one.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What books are similar to Fourth Wing?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books similar to Fourth Wing include From Blood and Ash, A Court of Thorns and Roses, An Ember in the Ashes, and The Name of the Wind. Visit our Fourth Wing reading recommendations page for 8 detailed picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after finishing a Colleen Hoover book?',
+      acceptedAnswer: { '@type': 'Answer', text: 'After reading Colleen Hoover, fans often love Taylor Jenkins Reid, Emily Henry, and Tarryn Fisher. Visit our Books Like Colleen Hoover page for 8 curated picks with descriptions.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read next after Game of Thrones?',
+      acceptedAnswer: { '@type': 'Answer', text: 'After Game of Thrones, readers typically love The Name of the Wind by Patrick Rothfuss, The Way of Kings by Brandon Sanderson, The Lies of Locke Lamora by Scott Lynch, and Pillars of the Earth by Ken Follett. See our full Game of Thrones reading recommendations.' },
+    },
+  ],
+};
+
 export default function BooksLikeIndexPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-[var(--text-faint)] mb-6">

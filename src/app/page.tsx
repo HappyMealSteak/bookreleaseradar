@@ -1,18 +1,39 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ChevronRight, TrendingUp, Zap, Library, BookMarked, ExternalLink } from 'lucide-react';
+import { ChevronRight, TrendingUp, Zap, Library, BookMarked, ExternalLink, Clock } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import { getUpcomingBooks, getBooksByGenre, getReleasingThisWeek } from '@/lib/db';
 import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 import { getNytList } from '@/lib/nyt';
+import { getMostAnticipated } from '@/lib/reading-orders';
+import { getSeriesBySlug } from '@/lib/series';
 
 const SPOTLIGHT_SERIES = [
   { slug: 'acotar', label: 'ACOTAR', sub: 'Sarah J. Maas' },
   { slug: 'fourth-wing', label: 'Fourth Wing', sub: 'Rebecca Yarros' },
+  { slug: 'six-of-crows', label: 'Six of Crows', sub: 'Leigh Bardugo' },
   { slug: 'colleen-hoover', label: 'Colleen Hoover', sub: 'CoHo picks' },
+  { slug: 'percy-jackson', label: 'Percy Jackson', sub: 'Rick Riordan' },
   { slug: 'a-song-of-ice-and-fire', label: 'Game of Thrones', sub: 'George R.R. Martin' },
+  { slug: 'shadowhunters', label: 'Shadowhunters', sub: 'Cassandra Clare' },
   { slug: 'stormlight-archive', label: 'Stormlight', sub: 'Brandon Sanderson' },
+  { slug: 'red-rising', label: 'Red Rising', sub: 'Pierce Brown' },
+  { slug: 'outlander', label: 'Outlander', sub: 'Diana Gabaldon' },
+  { slug: 'folk-of-the-air', label: 'Folk of the Air', sub: 'Holly Black' },
   { slug: 'mistborn', label: 'Mistborn', sub: 'Brandon Sanderson' },
+  { slug: 'bridgerton', label: 'Bridgerton', sub: 'Julia Quinn' },
+  { slug: 'kingkiller-chronicle', label: 'Kingkiller', sub: 'Patrick Rothfuss' },
+  { slug: 'blood-and-ash', label: 'Blood & Ash', sub: 'J.L. Armentrout' },
+  { slug: 'inheritance-games', label: 'Inheritance Games', sub: 'J.L. Barnes' },
+  { slug: 'shatter-me', label: 'Shatter Me', sub: 'Tahereh Mafi' },
+  { slug: 'atlas-six', label: 'The Atlas Six', sub: 'Olivie Blake' },
+  { slug: 'twisted', label: 'Twisted Series', sub: 'Ana Huang' },
+  { slug: 'the-witcher', label: 'The Witcher', sub: 'Andrzej Sapkowski' },
+  { slug: 'hunger-games', label: 'Hunger Games', sub: 'Suzanne Collins' },
+  { slug: 'wheel-of-time', label: 'Wheel of Time', sub: 'Robert Jordan' },
+  { slug: 'poppy-war', label: 'Poppy War', sub: 'R.F. Kuang' },
+  { slug: 'dark-tower', label: 'Dark Tower', sub: 'Stephen King' },
 ];
 
 export const revalidate = 86400; // refresh every 24h
@@ -33,6 +54,46 @@ export default async function HomePage() {
       'query-input': 'required name=search_term_string',
     },
   };
+
+  const year = new Date().getFullYear();
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What new books are coming out in ${year}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `BookReleaseRadar tracks all major book releases for ${year} across fantasy, thriller, romance, sci-fi, literary fiction, and more. Browse by genre or use the calendar to see what's releasing each month. Pre-order links are included for every book.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I find out when the next book in a series comes out?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Browse the Series section on BookReleaseRadar. Each popular series has a dedicated page with all books, upcoming releases, and confirmed release dates. Series include ACOTAR, Fourth Wing, Bridgerton, Hunger Games, Wheel of Time, Kingkiller Chronicle, Blood and Ash, The Inheritance Games, The Poppy War, The Dark Tower, Shatter Me, The Atlas Six, Twisted, The Witcher, Percy Jackson, Game of Thrones, Mistborn, and more.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What are the most anticipated books coming out?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The most anticipated books include major series continuations and debut novels generating early buzz. Visit the Most Anticipated page on BookReleaseRadar for the full list with confirmed release dates for ${year} and ${year + 1}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What books are similar to ACOTAR or Fourth Wing?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'BookReleaseRadar has curated "Books Like" guides for all major series. If you loved ACOTAR, try From Blood and Ash, An Ember in the Ashes, The Cruel Prince, or Shadow and Bone. If you loved Fourth Wing, try ACOTAR, Red Rising, An Ember in the Ashes, or The Name of the Wind. Visit the Books Like section for complete recommendations.',
+        },
+      },
+    ],
+  };
   const [upcoming, thisWeek, trendingList, ...genreSamples] = await Promise.all([
     getUpcomingBooks(18),
     getReleasingThisWeek(),
@@ -44,10 +105,8 @@ export default async function HomePage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-14">
       {/* Hero */}
       <section>
@@ -111,7 +170,7 @@ export default async function HomePage() {
             All series <ChevronRight size={13} />
           </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 mb-5">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 mb-5">
           {SPOTLIGHT_SERIES.map((s) => (
             <Link
               key={s.slug}
@@ -133,14 +192,80 @@ export default async function HomePage() {
           <Link href="/series/fourth-wing/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
             Fourth Wing Reading Order →
           </Link>
+          <Link href="/series/six-of-crows/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Grishaverse Reading Order →
+          </Link>
+          <Link href="/series/percy-jackson/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Percy Jackson Reading Order →
+          </Link>
+          <Link href="/series/shadowhunters/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Shadowhunters Reading Order →
+          </Link>
+          <Link href="/series/red-rising/reading-order" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Red Rising Reading Order →
+          </Link>
           <Link href="/books-like/acotar" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
             Books Like ACOTAR →
+          </Link>
+          <Link href="/books-like/six-of-crows" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
+            Books Like Six of Crows →
           </Link>
           <Link href="/books-like" className="px-3 py-1.5 text-xs rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors">
             All Recommendations →
           </Link>
         </div>
       </section>
+
+      {/* Most Anticipated */}
+      {(() => {
+        const anticipated = getMostAnticipated();
+        if (!anticipated.length) return null;
+        return (
+          <section>
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <Clock size={16} className="text-[var(--gold)]" />
+                <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+                  Most Anticipated
+                </h2>
+                <span className="text-[10px] font-bold tracking-wider uppercase text-[var(--gold)] bg-[var(--gold-light)] px-2 py-0.5 rounded-full">
+                  Coming Soon
+                </span>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              {anticipated.map((book) => {
+                const series = getSeriesBySlug(book.seriesSlug);
+                return (
+                  <Link
+                    key={book.title}
+                    href={`/series/${book.seriesSlug}/reading-order`}
+                    className="group flex flex-col gap-2 p-4 rounded-xl border border-[var(--gold)]/30 bg-[var(--surface)] hover:border-[var(--gold)]/60 hover:bg-[var(--surface-raised)] transition-all"
+                  >
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <Clock size={12} className="text-[var(--gold)] shrink-0" />
+                      <span className="text-[10px] font-bold tracking-wider uppercase text-[var(--gold)]">
+                        {book.note && /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|\d{4})\b/i.test(book.note)
+                          ? (book.note.match(/\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+\d{4}/i) ?? book.note.match(/\d{4}/))?.[0] ?? 'TBA'
+                          : 'TBA'}
+                      </span>
+                    </div>
+                    <p className="font-[family-name:var(--font-playfair)] font-semibold text-sm leading-snug text-[var(--text)] group-hover:text-[var(--accent)] transition-colors">
+                      {book.title}
+                    </p>
+                    <p className="text-xs text-[var(--text-muted)]">{book.author}</p>
+                    {series && (
+                      <p className="text-[10px] text-[var(--text-faint)] mt-auto pt-1 border-t border-[var(--border)]">
+                        {series.name}
+                      </p>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Trending on BookTok */}
       {trendingList && trendingList.books.length > 0 && (
@@ -233,6 +358,32 @@ export default async function HomePage() {
         );
       })}
 
+      {/* Best Books of year */}
+      <section>
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-1">Editorial</p>
+            <h2 className="font-[family-name:var(--font-playfair)] text-xl text-[var(--text)]">
+              Best Books of {year}
+            </h2>
+          </div>
+          <Link href={`/best-books/${year}`} className="text-xs font-semibold text-[var(--accent)] hover:underline flex items-center gap-0.5">
+            All genres <ChevronRight size={13} />
+          </Link>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {([...GENRES] as Genre[]).map((g) => (
+            <Link
+              key={g}
+              href={`/best-books/${year}/${g}`}
+              className="px-4 py-2 rounded-lg border border-[var(--border)] bg-[var(--surface-raised)] text-sm text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+            >
+              Best {GENRE_LABELS[g]} of {year}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* CTA banner */}
       <section className="rounded-xl bg-[var(--accent-light)] border border-[var(--border)] p-8 text-center">
         <h2 className="font-[family-name:var(--font-playfair)] text-2xl mb-2 text-[var(--text)]">
@@ -257,6 +408,7 @@ export default async function HomePage() {
         </div>
       </section>
     </div>
+    <NewsletterSignup />
     </>
   );
 }

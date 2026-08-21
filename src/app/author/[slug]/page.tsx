@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import BookGrid from '@/components/BookGrid';
-import { getBooksByAuthorSlug, getAllBooks } from '@/lib/db';
+import { ArrowLeft } from 'lucide-react';
+import { getBooksByAuthorName, getAllAuthors } from '@/lib/db';
 import { authorSlug } from '@/lib/utils';
-import { getAuthorBio } from '@/lib/author-bios';
-import { SERIES } from '@/lib/series';
+import BookGrid from '@/components/BookGrid';
 
 export const revalidate = 86400;
 
@@ -13,113 +12,92 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+function slugToName(slug: string, authors: Array<{ name: string }>): string | null {
+  return authors.find((a) => authorSlug(a.name) === slug)?.name ?? null;
+}
+
 export async function generateStaticParams() {
-  const books = await getAllBooks(500);
-  const slugs = new Set<string>();
-  for (const book of books) {
-    for (const author of book.authors) {
-      slugs.add(authorSlug(author));
-    }
-  }
-  return Array.from(slugs).map((slug) => ({ slug }));
+  const authors = await getAllAuthors();
+  return authors
+    .filter((a) => a.bookCount >= 2)
+    .map((a) => ({ slug: authorSlug(a.name) }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const books = await getBooksByAuthorSlug(slug, 1);
-  if (!books.length) return {};
+  const authors = await getAllAuthors();
+  const name = slugToName(slug, authors);
+  if (!name) return {};
 
-  const authorName = books[0].authors.find((a) => authorSlug(a) === slug) ?? books[0].authors[0];
-  const title = `${authorName} — Upcoming Books & New Releases`;
-  const description = `See all upcoming books and new releases from ${authorName}. Find release dates and buy on Amazon.`;
+  const title = `${name} — Books, New Releases & Upcoming Titles`;
+  const description = `Browse all books by ${name}. See upcoming releases, new titles, and complete book list on BookReleaseRadar.`;
 
-  return { title, description, openGraph: { title, description } };
+  return {
+    title,
+    description,
+    openGraph: { title, description },
+  };
 }
 
 export default async function AuthorPage({ params }: Props) {
   const { slug } = await params;
-  const books = await getBooksByAuthorSlug(slug, 24);
+  const authors = await getAllAuthors();
+  const name = slugToName(slug, authors);
+  if (!name) notFound();
 
+  const books = await getBooksByAuthorName(name, 48);
   if (!books.length) notFound();
 
-  const authorName = books[0].authors.find((a) => authorSlug(a) === slug) ?? books[0].authors[0];
-  const bio = getAuthorBio(authorName);
-  const authorSeries = SERIES.filter((s) =>
-    authorName.toLowerCase().includes(s.authorQuery.toLowerCase())
-  );
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = books.filter((b) => b.publishedDate && b.publishedDate >= today);
+  const past = books.filter((b) => !b.publishedDate || b.publishedDate < today);
 
-  const now = new Date();
-  const upcoming = books.filter((b) => b.publishedDate && new Date(b.publishedDate) >= now);
-  const past = books.filter((b) => !upcoming.includes(b));
-
-  const breadcrumbJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
-      { '@type': 'ListItem', position: 2, name: authorName, item: `https://bookreleaseradar.com/author/${slug}` },
-    ],
-  };
-
-  const personJsonLd = {
+  const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: authorName,
+    name,
     url: `https://bookreleaseradar.com/author/${slug}`,
-    description: bio?.bio,
-    knowsAbout: bio?.knownFor,
   };
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }} />
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-      <div className="mb-8">
-        <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Author</p>
-        <h1 className="font-[family-name:var(--font-playfair)] text-3xl sm:text-4xl text-[var(--text)] mb-2">
-          {authorName}
-        </h1>
-        {bio ? (
-          <p className="text-[var(--text-muted)] text-sm leading-relaxed max-w-2xl mb-3">{bio.bio}</p>
-        ) : (
-          <p className="text-[var(--text-muted)] mb-3">
-            {books.length} title{books.length !== 1 ? 's' : ''} tracked
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1.5 text-sm text-[var(--text-muted)] hover:text-[var(--accent)] mb-8 transition-colors"
+        >
+          <ArrowLeft size={14} /> Back to releases
+        </Link>
+
+        <div className="mb-10">
+          <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Author</p>
+          <h1 className="font-[family-name:var(--font-playfair)] text-4xl sm:text-5xl font-bold mb-3 leading-tight">
+            {name}
+          </h1>
+          <p className="text-[var(--text-muted)] text-base">
+            {books.length} book{books.length !== 1 ? 's' : ''} tracked on BookReleaseRadar
           </p>
+        </div>
+
+        {upcoming.length > 0 && (
+          <section className="mb-12">
+            <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold mb-6 text-[var(--text)]">
+              Upcoming Releases
+            </h2>
+            <BookGrid books={upcoming} />
+          </section>
         )}
-        {authorSeries.length > 0 && (
-          <div className="flex flex-wrap gap-2 mt-3">
-            {authorSeries.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/series/${s.slug}`}
-                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface)] text-xs font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
-              >
-                {s.shortName ?? s.name} Series →
-              </Link>
-            ))}
-          </div>
+
+        {past.length > 0 && (
+          <section>
+            <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-semibold mb-6 text-[var(--text)]">
+              {upcoming.length > 0 ? 'Previous Releases' : 'Books'}
+            </h2>
+            <BookGrid books={past} />
+          </section>
         )}
       </div>
-
-      {upcoming.length > 0 && (
-        <section className="mb-12">
-          <h2 className="font-[family-name:var(--font-playfair)] text-xl mb-5 text-[var(--text)]">
-            Upcoming Releases
-          </h2>
-          <BookGrid books={upcoming} />
-        </section>
-      )}
-
-      {past.length > 0 && (
-        <section>
-          <h2 className="font-[family-name:var(--font-playfair)] text-xl mb-5 text-[var(--text)]">
-            Recent Releases
-          </h2>
-          <BookGrid books={past} />
-        </section>
-      )}
-    </div>
     </>
   );
 }

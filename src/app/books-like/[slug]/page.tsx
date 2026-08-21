@@ -70,10 +70,42 @@ export default async function BooksLikePage({ params }: Props) {
     })),
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What books are similar to ${entry.sourceTitle}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The best books similar to ${entry.sourceTitle} include: ${entry.recommendations.slice(0, 4).map((r) => `${r.title} by ${r.author}`).join(', ')}. ${entry.description}`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What should I read after ${name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `After finishing ${entry.sourceTitle}, readers love: ${entry.recommendations.slice(0, 3).map((r) => `${r.title} by ${r.author} — ${r.why}`).join('. ')}`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What genre is ${name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${entry.sourceTitle} is primarily ${entry.recommendations[0]?.genre ?? 'fiction'}. ${entry.tagline}`,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}

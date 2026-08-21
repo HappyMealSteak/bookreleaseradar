@@ -3,16 +3,30 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ExternalLink, Calendar, BookOpen, User } from 'lucide-react';
-import { getBookBySlug, getAllBooks, getRelatedBooks } from '@/lib/db';
+import { getBookBySlug, getAllBooks, getSmartRelatedBooks } from '@/lib/db';
 import { formatReleaseDate, authorSlug } from '@/lib/utils';
 import { GENRE_LABELS, type Genre } from '@/lib/types';
 import { SERIES } from '@/lib/series';
+import { getReadingOrder } from '@/lib/reading-orders';
 import BookGrid from '@/components/BookGrid';
 
 function findSeriesForBook(authors: string[]) {
   return SERIES.filter((s) =>
     authors.some((a) => a.toLowerCase().includes(s.authorQuery.toLowerCase()))
   );
+}
+
+function normTitle(s: string) {
+  return s.toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function findBookPosition(bookTitle: string, seriesSlug: string): { position: number; total: number } | null {
+  const order = getReadingOrder(seriesSlug);
+  if (!order) return null;
+  const nt = normTitle(bookTitle);
+  const idx = order.books.findIndex((b: { title: string }) => normTitle(b.title) === nt);
+  if (idx === -1) return null;
+  return { position: idx + 1, total: order.books.length };
 }
 
 export const revalidate = 86400;
@@ -22,7 +36,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  const books = await getAllBooks(500);
+  const books = await getAllBooks(2000);
   return books.map((b) => ({ slug: b.slug }));
 }
 
@@ -31,14 +45,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const book = await getBookBySlug(slug);
   if (!book) return {};
 
-  const title = `${book.title} by ${book.authors[0] ?? 'Unknown'} — Release Date & Info`;
+  const bookSeries = findSeriesForBook(book.authors);
+  const seriesContext = bookSeries.length > 0
+    ? (() => {
+        for (const s of bookSeries) {
+          const pos = findBookPosition(book.title, s.slug);
+          if (pos) return ` (${s.shortName ?? s.name} #${pos.position})`;
+        }
+        return ` (${bookSeries[0].shortName ?? bookSeries[0].name})`;
+      })()
+    : '';
+
+  const title = `${book.title}${seriesContext} by ${book.authors[0] ?? 'Unknown'} — Release Date`;
   const description =
     book.description?.slice(0, 155) ??
-    `Find out when ${book.title} releases, plus author info and where to buy.`;
+    `Find out when ${book.title}${seriesContext} by ${book.authors[0] ?? 'the author'} releases, plus where to pre-order or buy.`;
+
+  const keywords = [
+    `${book.title} release date`,
+    `${book.title} by ${book.authors[0]}`,
+    ...(book.authors[0] ? [`${book.authors[0]} new book`] : []),
+    ...(bookSeries.length > 0 ? [`${bookSeries[0].name} new book`, `${bookSeries[0].name} reading order`] : []),
+  ];
 
   return {
     title,
     description,
+    keywords,
     openGraph: {
       title,
       description,
@@ -49,13 +82,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BookPage({ params }: Props) {
   const { slug } = await params;
-  const [book, related] = await Promise.all([
-    getBookBySlug(slug),
-    getBookBySlug(slug).then((b) => (b ? getRelatedBooks(b, 6) : [])),
-  ]);
-
+  const book = await getBookBySlug(slug);
   if (!book) notFound();
+
+  const related = await getSmartRelatedBooks(book, 6);
   const bookSeries = findSeriesForBook(book.authors);
+  const seriesPositions = bookSeries.map((s) => ({
+    series: s,
+    pos: findBookPosition(book.title, s.slug),
+  }));
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -79,6 +114,47 @@ export default async function BookPage({ params }: Props) {
     },
   };
 
+  const isUpcomingBook = book.publishedDate && new Date(book.publishedDate) > new Date();
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `When does ${book.title} come out?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isUpcomingBook
+            ? `${book.title} by ${book.authors[0] ?? 'the author'} is scheduled for release on ${book.publishedDate ? new Date(book.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) : 'TBA'}. You can pre-order it on Amazon now.`
+            : `${book.title} by ${book.authors[0] ?? 'the author'} was released on ${book.publishedDate ? new Date(book.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) : 'an unknown date'} and is available now.`,
+        },
+      },
+      ...(book.authors[0] ? [{
+        '@type': 'Question',
+        name: `Who wrote ${book.title}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${book.title} was written by ${book.authors.join(' and ')}${book.publisher ? `, published by ${book.publisher}` : ''}.`,
+        },
+      }] : []),
+      ...(bookSeries.length > 0 ? [{
+        '@type': 'Question',
+        name: `Is ${book.title} part of a series?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: (() => {
+            const parts = seriesPositions.map(({ series: s, pos }) =>
+              pos
+                ? `${book.title} is Book ${pos.position} of ${pos.total} in the ${s.name} series by ${book.authors[0] ?? 'the author'}`
+                : `${book.title} is part of the ${s.name} series by ${book.authors[0] ?? 'the author'}`
+            );
+            return parts.join('. ') + '. Visit the series page on BookReleaseRadar for a complete reading order.';
+          })(),
+        },
+      }] : []),
+    ],
+  };
+
   const primaryGenre = book.genres[0];
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -99,6 +175,7 @@ export default async function BookPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
         <Link
           href="/"
@@ -229,30 +306,58 @@ export default async function BookPage({ params }: Props) {
               <p className="mt-6 text-xs text-[var(--text-faint)]">ISBN-13: {book.isbn}</p>
             )}
 
-            {/* Series cross-links */}
-            {bookSeries.length > 0 && (
-              <div className="mt-5 flex flex-wrap gap-2">
-                {bookSeries.map((s) => (
-                  <Link
+            {/* Series position cards */}
+            {seriesPositions.length > 0 && (
+              <div className="mt-6 space-y-2">
+                {seriesPositions.map(({ series: s, pos }) => (
+                  <div
                     key={s.slug}
-                    href={`/series/${s.slug}`}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--surface-raised)] text-xs font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+                    className="flex items-center gap-4 px-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--surface-raised)]"
                   >
-                    {s.shortName ? `${s.shortName}: ` : ''}{s.name} Series →
-                  </Link>
+                    <div className="flex-1 min-w-0">
+                      {pos && (
+                        <p className="text-xs font-bold text-[var(--gold)] tracking-wide uppercase mb-0.5">
+                          Book {pos.position} of {pos.total}
+                        </p>
+                      )}
+                      <Link
+                        href={`/series/${s.slug}`}
+                        className="text-sm font-semibold text-[var(--text)] hover:text-[var(--accent)] transition-colors truncate block"
+                      >
+                        {s.name}
+                      </Link>
+                      <p className="text-xs text-[var(--text-muted)] mt-0.5">{s.author}</p>
+                    </div>
+                    <Link
+                      href={`/series/${s.slug}/reading-order`}
+                      className="shrink-0 text-xs font-semibold text-[var(--accent)] hover:underline whitespace-nowrap"
+                    >
+                      Reading Order →
+                    </Link>
+                  </div>
                 ))}
               </div>
             )}
           </div>
         </div>
 
-        {/* Related */}
-        {related.length > 0 && (
+        {/* More by this author */}
+        {related.byAuthor.length > 0 && (
+          <section className="mb-10">
+            <h2 className="font-[family-name:var(--font-playfair)] text-xl mb-5 text-[var(--text)]">
+              More by {book.authors[0]}
+            </h2>
+            <BookGrid books={related.byAuthor} />
+          </section>
+        )}
+
+        {/* If you liked this */}
+        {related.byGenre.length > 0 && (
           <section>
             <h2 className="font-[family-name:var(--font-playfair)] text-xl mb-5 text-[var(--text)]">
-              You might also like
+              {related.byAuthor.length > 0 ? 'You might also like' : 'More books like this'}
             </h2>
-            <BookGrid books={related} />
+            <BookGrid books={related.byGenre} />
           </section>
         )}
       </div>

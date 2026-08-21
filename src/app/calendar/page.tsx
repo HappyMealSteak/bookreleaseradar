@@ -7,9 +7,55 @@ import type { Book } from '@/lib/types';
 
 export const revalidate = 86400;
 
+const year = new Date().getFullYear();
+
 export const metadata: Metadata = {
-  title: 'Book Release Calendar',
-  description: `See which books are releasing each month in ${new Date().getFullYear()}. Browse the full book release calendar with dates and covers.`,
+  title: `Book Release Calendar ${year}`,
+  description: `See which books are releasing each month in ${year}. Browse the full book release calendar with dates, covers, and pre-order links.`,
+  openGraph: {
+    title: `Book Release Calendar ${year}`,
+    description: `See which books are releasing each month in ${year}.`,
+  },
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
+    { '@type': 'ListItem', position: 2, name: `Book Release Calendar ${year}`, item: 'https://bookreleaseradar.com/calendar' },
+  ],
+};
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `What books are releasing in ${year}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `BookReleaseRadar tracks all major book releases in ${year} with confirmed publication dates. Browse the calendar to see what's releasing each month across fantasy, thriller, romance, sci-fi, and more.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How can I find out when a specific book is coming out?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Use the search feature on BookReleaseRadar to find any book by title or author. Each book page shows the confirmed release date and a link to pre-order on Amazon.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I pre-order upcoming books?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes! Every book on BookReleaseRadar includes an Amazon pre-order link. Pre-ordering ensures you get the book on release day and often locks in a discount if the price drops before release.',
+      },
+    },
+  ],
 };
 
 function groupByMonth(books: Book[]): Map<string, Book[]> {
@@ -32,7 +78,7 @@ function monthLabel(key: string): string {
 }
 
 export default async function CalendarPage() {
-  const books = await getAllBooks(1000);
+  const books = await getAllBooks(2000);
   const now = new Date();
   const sixMonthsAgo = new Date(now.getTime() - 180 * 24 * 60 * 60 * 1000);
 
@@ -51,6 +97,9 @@ export default async function CalendarPage() {
   const byMonth = groupByMonth(relevant);
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
         <p className="text-xs font-bold tracking-widest uppercase text-[var(--gold)] mb-2">Browse</p>
@@ -133,5 +182,6 @@ export default async function CalendarPage() {
         </div>
       )}
     </div>
+    </>
   );
 }
