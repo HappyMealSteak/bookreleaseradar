@@ -378,6 +378,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['An Ember in the Ashes', 'A Torch Against the Night', 'All My Rage'],
   },
+  {
+    name: 'Kiera Cass',
+    bio: "Kiera Cass is an American author best known for The Selection series, a YA dystopian romance set in a future America where 35 girls compete to marry the prince. The original trilogy (The Selection, The Elite, The One) plus two follow-up novels became international bestsellers, appealing to fans of both romance and competition-driven dystopia. Cass is known for her accessible, addictive writing style and her ability to blend fairy-tale glamour with the emotional intensity of a love triangle.",
+    genre: 'romance',
+    knownFor: ['The Selection', 'The Elite', 'The One', 'The Heir'],
+  },
+  {
+    name: 'Neal Shusterman',
+    bio: "Neal Shusterman is a National Book Award-winning American author known for dark, high-concept YA fiction that explores the moral implications of technology, society, and human nature. His breakout YA thriller Unwind introduced the concept of 'unwinding' — teenage dissassembly that is disturbingly logical in his dystopian America. The Arc of a Scythe trilogy (Scythe, Thunderhead, The Toll) imagines a world where death has been defeated and a society of arbiters decides who dies. Shusterman is one of the most philosophically ambitious YA authors working today.",
+    genre: 'sci-fi',
+    knownFor: ['Scythe', 'Unwind', 'Challenger Deep', 'Thunderhead'],
+  },
+  {
+    name: 'Tomi Adeyemi',
+    bio: "Tomi Adeyemi is a Nigerian-American author whose debut novel Children of Blood and Bone (2018) became a #1 New York Times bestseller and a cultural phenomenon. Inspired by West African mythology and fueled by the Black Lives Matter movement, Adeyemi built a magic system rooted in Yoruba religion and a world that reflects the experience of racial dispossession. Children of Blood and Bone won multiple awards and launched a bidding war for film rights before publication. The Legacy of Orïsha trilogy continues her Orïsha universe.",
+    genre: 'fantasy',
+    knownFor: ['Children of Blood and Bone', 'Children of Virtue and Vengeance', 'Legacy of Orïsha'],
+  },
+  {
+    name: 'Ally Condie',
+    bio: "Ally Condie is a New York Times bestselling American author known for the Matched trilogy, a YA dystopian romance in which the Society controls every aspect of citizens' lives — including who they marry. The Matched trilogy became an international bestseller in the early 2010s, with film rights acquired by Disney. Condie's writing is lyrical and quiet compared to other YA dystopia, more interested in the interior emotional life of her protagonist than in action set pieces. She has also written the Atlantia duology and several standalone novels.",
+    genre: 'fiction',
+    knownFor: ['Matched', 'Crossed', 'Reached', 'Atlantia'],
+  },
 ];
 
 function normalize(s: string) {
