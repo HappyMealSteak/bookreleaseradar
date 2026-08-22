@@ -248,6 +248,11 @@ export const metadata: Metadata = {
     'books like Brideshead Revisited Evelyn Waugh',
     'books like Washington Square Henry James',
     'books like A Farewell to Arms Ernest Hemingway',
+    'books like The Sun Also Rises Ernest Hemingway',
+    'books like The Power and the Glory Graham Greene',
+    'books like Decline and Fall Evelyn Waugh',
+    'books like Of Human Bondage W Somerset Maugham',
+    'books like Nostromo Joseph Conrad',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1360,6 +1365,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked A Farewell to Arms by Ernest Hemingway?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like A Farewell to Arms include The Sun Also Rises and For Whom the Bell Tolls (also by Hemingway), All Quiet on the Western Front by Erich Maria Remarque, Matterhorn by Karl Marlantes, The Things They Carried by Tim O'Brien, Slaughterhouse-Five by Kurt Vonnegut, A Separate Peace by John Knowles, and Regeneration by Pat Barker. Our full guide covers 8 picks for fans of Hemingway's WWI novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sun Also Rises by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sun Also Rises include A Farewell to Arms and For Whom the Bell Tolls (also by Hemingway), Tender Is the Night and The Great Gatsby by F. Scott Fitzgerald, A Moveable Feast by Hemingway, All Quiet on the Western Front by Remarque, and Death in the Afternoon by Hemingway. Our full guide covers 8 picks for fans of Hemingway's definitive Lost Generation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Power and the Glory by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Power and the Glory include The Quiet American and The Heart of the Matter (also by Graham Greene), Brideshead Revisited by Evelyn Waugh, The Razor's Edge by W. Somerset Maugham, The End of the Affair by Greene, Silence by Shusaku Endo, and Our Man in Havana by Greene. Our full guide covers 8 picks for fans of Greene's Catholic masterpiece about the whisky priest in Mexico." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Decline and Fall by Evelyn Waugh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Decline and Fall include Vile Bodies and A Handful of Dust (also by Evelyn Waugh), Lucky Jim by Kingsley Amis, The Code of the Woosters by P.G. Wodehouse, Scoop by Waugh, Officers and Gentlemen by Waugh, Three Men in a Boat by Jerome K. Jerome, and Brideshead Revisited by Waugh. Our full guide covers 8 picks for fans of Waugh's comic debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Of Human Bondage by W. Somerset Maugham?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Of Human Bondage include The Razor's Edge and Cakes and Ale (also by Maugham), Steppenwolf by Hermann Hesse, David Copperfield by Dickens, Sons and Lovers by D.H. Lawrence, A Portrait of the Artist as a Young Man by James Joyce, The Moon and Sixpence by Maugham, and The Remains of the Day by Kazuo Ishiguro. Our full guide covers 8 picks for fans of Maugham's great bildungsroman." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nostromo by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nostromo include Lord Jim and Heart of Darkness (also by Joseph Conrad), The Secret Agent by Conrad, The Quiet American by Graham Greene, Under the Volcano by Malcolm Lowry, One Hundred Years of Solitude by Gabriel García Márquez, The Autumn of the Patriarch by García Márquez, and Blood Meridian by Cormac McCarthy. Our full guide covers 8 picks for fans of Conrad's great political novel." },
     },
   ],
 };
