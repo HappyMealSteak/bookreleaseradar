@@ -2384,6 +2384,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "How does Hamnet relate to Shakespeare's Hamlet?", a: "The novel's final section addresses the possible connection between the death of a son named Hamnet (whose name was interchangeable with Hamlet in Elizabethan spelling) and the writing of Shakespeare's great tragedy about a son mourning a father. O'Farrell doesn't make the connection explicit, but the novel's emotional arc arrives at a specific understanding of what Agnes might have felt watching a play that bore her dead son's name." },
     ],
   },
+  {
+    slug: 'my-year-of-rest-and-relaxation',
+    intro: "Ottessa Moshfegh's My Year of Rest and Relaxation (2018) is a complete standalone novel. There is no sequel. The novel follows an unnamed narrator — thin, beautiful, recently orphaned, working at an art gallery in New York — who decides to spend a year in a chemically induced hibernation, spending her inheritance on a psychiatrist who prescribes her increasingly powerful medications. The novel is set in New York in 2000–2001 and ends just before September 11. It is a darkly comic novel about depression, privilege, nihilism, and the desire to disappear from your own life.",
+    startWith: 'My Year of Rest and Relaxation',
+    books: [
+      { title: 'My Year of Rest and Relaxation', author: 'Ottessa Moshfegh', year: 2018, note: "Standalone — a beautiful, privileged young woman in New York decides to spend a year in a chemically induced sleep; darkly comic, nihilistic, and set in the year before 9/11" },
+      { title: 'Eileen', author: 'Ottessa Moshfegh', year: 2015, note: "Moshfegh's Booker-shortlisted debut — a miserable young woman in 1960s Massachusetts working at a juvenile detention center; read for more of Moshfegh's unreliable, self-loathing female narrators", isOptional: true },
+      { title: 'McGlue', author: 'Ottessa Moshfegh', year: 2014, note: "A novella about an alcoholic sailor in 1851 accused of murder who can't remember the crime; Moshfegh's experimental debut work", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is My Year of Rest and Relaxation a standalone?', a: "Yes — My Year of Rest and Relaxation is a complete standalone novel. Moshfegh has written other novels (Eileen, Death in Her Hands, Lapvona) and story collections (Homesick for Another World), but they are entirely independent." },
+      { q: "What happens at the end of My Year of Rest and Relaxation?", a: "The narrator's year of sleeping ends and she wakes, somewhat changed — or perhaps not. The novel ends on a note of ambiguity about whether the hibernation worked, concluding with the narrator watching footage from September 11 and seeing her friend Reva in the crowd. Moshfegh has said the ending is intentionally open about whether the narrator has healed." },
+      { q: 'Why is My Year of Rest and Relaxation considered a feminist novel?', a: "My Year of Rest and Relaxation has been read as a feminist novel for its interest in the female body as a site of cultural demands — the narrator's body is described in terms of its desirability, her medications are prescribed by a male psychiatrist who treats her casually, and the novel is partly about the pressure on women to be beautiful, productive, and emotionally available. The hibernation can be read as a refusal of all those demands." },
+      { q: "Is My Year of Rest and Relaxation funny?", a: "The novel is darkly comic — its humor comes from the narrator's extreme detachment, the absurdity of her psychiatrist's prescriptions, and Moshfegh's deadpan delivery of self-loathing observations. Many readers find it genuinely funny; the comedy is inseparable from the bleakness." },
+    ],
+  },
+  {
+    slug: 'the-book-thief',
+    intro: "Markus Zusak's The Book Thief (2005) is a complete standalone novel. There is no sequel. The novel is narrated by Death and follows Liesel Meminger, a young girl living with foster parents in a small German town during World War II, who steals books and shares them with the Jewish man her family is hiding in their basement. The Book Thief has sold over 16 million copies worldwide and is one of the most celebrated YA-crossover literary novels of the 21st century.",
+    startWith: 'The Book Thief',
+    books: [
+      { title: 'The Book Thief', author: 'Markus Zusak', year: 2005, note: "Standalone — narrated by Death, follows a German girl stealing books during WWII while her family hides a Jewish man in their basement; one of the most celebrated crossover novels of the last two decades" },
+    ],
+    faq: [
+      { q: 'Is The Book Thief a standalone?', a: "Yes — The Book Thief is a complete standalone novel. Markus Zusak wrote The Messenger (also called I Am the Messenger) before The Book Thief, and Bridge of Clay after it, but none are connected. The Book Thief is entirely self-contained." },
+      { q: 'Is The Book Thief YA or adult fiction?', a: "The Book Thief was originally published as a YA novel in Australia but was marketed as adult literary fiction in the United States. It is widely taught in high schools and universities. Its narrator (Death) and some of its thematic preoccupations (the narrator's reflections on mortality, violence, and the persistence of love) read as more adult than most YA fiction." },
+      { q: 'Why is The Book Thief narrated by Death?', a: "Zusak has said in interviews that using Death as narrator allowed him to write about the Holocaust from a perspective that could hold the full weight of what happened — Death has seen everything, is not destroyed by what it witnesses, and can speak about human violence and goodness from a place of vast, exhausted experience. The choice also lets Zusak tell the reader from early in the novel who will and will not survive." },
+      { q: 'Is The Book Thief historically accurate?', a: "The Book Thief is historical fiction. The setting (Molching, Bavaria, the war years) is invented but closely based on real Bavarian towns. The events — Allied bombing, the Kristallnacht aftermath, Jews being marched through towns to concentration camps — are based on historical record. Zusak grew up hearing stories from his German-Austrian parents who lived through this period." },
+    ],
+  },
+  {
+    slug: 'behind-closed-doors',
+    intro: "B.A. Paris's Behind Closed Doors (2016) is a complete standalone novel. There is no sequel. The novel follows Grace and Jack Angel — a couple who appear to have a perfect marriage — and the secret that Grace is keeping from the world. The novel alternates between the present day, in which Grace is complicit in keeping the secret, and the recent past, in which readers learn how the secret came to be. Behind Closed Doors is one of the most-recommended entries in domestic psychological thriller since Gone Girl.",
+    startWith: 'Behind Closed Doors',
+    books: [
+      { title: 'Behind Closed Doors', author: 'B.A. Paris', year: 2016, note: "Standalone — Grace and Jack Angel appear to have the perfect marriage; what Jack has done to ensure their perfect image remains hidden drives the novel; a domestic thriller with a suffocating pace" },
+    ],
+    faq: [
+      { q: 'Is Behind Closed Doors a standalone?', a: "Yes — Behind Closed Doors is a complete standalone novel. B.A. Paris has written other thrillers (The Breakdown, Bring Me Back, The Dilemma, The Therapist, The Prisoner), but they are entirely independent of each other." },
+      { q: 'Is Behind Closed Doors similar to Gone Girl?', a: "Both are domestic psychological thrillers that take place within marriages that hide terrible secrets. The tone is different — Behind Closed Doors is more straightforward in its villainy (there's less narrative unreliability than in Gone Girl), and the suspense comes more from accumulating dread than from structural misdirection. Readers who loved Gone Girl often find Behind Closed Doors satisfying as a more stripped-back version of the same genre." },
+      { q: 'What is the dark secret in Behind Closed Doors?', a: "Without giving the full plot away: the secret concerns the nature of Jack's control over Grace and the relationship's real character beneath its perfect surface. The novel reveals the nature of that control early enough that the suspense is more about whether Grace will escape than about what is being hidden." },
+      { q: 'Is Behind Closed Doors appropriate for sensitive readers?', a: "Behind Closed Doors depicts psychological abuse and coercive control within a marriage. The abuse is central to the plot rather than peripheral. Content notes: coercive control, psychological abuse, depiction of a character with an intellectual disability in a thriller context." },
+    ],
+  },
+  {
+    slug: 'the-woman-in-the-window',
+    intro: "A.J. Finn's The Woman in the Window (2018) is a complete standalone novel. There is no sequel. The novel follows Anna Fox, an agoraphobic child psychologist who has not left her Manhattan townhouse in ten months, who watches her neighbors through her window and believes she has witnessed a crime — but who cannot be sure if what she saw was real. The novel is an explicit homage to Hitchcock's Rear Window. A.J. Finn is the pen name of Dan Mallory, a former book editor whose biography became its own controversy in 2019.",
+    startWith: 'The Woman in the Window',
+    books: [
+      { title: 'The Woman in the Window', author: 'A.J. Finn', year: 2018, note: "Standalone — an agoraphobic child psychologist who hasn't left her home in ten months believes she has witnessed a crime through her window; a Hitchcock-influenced psychological thriller" },
+    ],
+    faq: [
+      { q: 'Is The Woman in the Window a standalone?', a: "Yes — The Woman in the Window is a complete standalone novel. A.J. Finn has not published a second novel as of 2025." },
+      { q: 'Is The Woman in the Window similar to Rear Window?', a: "The Woman in the Window is an explicit homage to Hitchcock's Rear Window — the premise is nearly identical: a person confined to their home who watches their neighbors and believes they have witnessed a crime that no one else believes happened. The novel also echoes Vertigo in Anna's obsession with a woman who may not be who she says she is. Readers who love classic Hitchcock films often find it enormously satisfying." },
+      { q: 'Is The Woman in the Window based on a true story?', a: "The Woman in the Window is fiction. The novel has also been compared to a real case: in 2002, an agoraphobic woman named Julie Barnes reported witnessing her neighbor assaulted; the case bears similarities to the novel's plot and A.J. Finn has never addressed the parallel publicly. The novel was adapted into a Netflix film in 2021 starring Amy Adams." },
+      { q: 'Why is the narrator of The Woman in the Window unreliable?', a: "Anna Fox is unreliable for multiple reasons: she drinks heavily throughout the novel, she is taking a combination of psychiatric medications that affect perception, and she has experienced a trauma that the reader only learns about gradually. The question of whether she saw what she thinks she saw — and whether the woman she met was who she claimed to be — drives the thriller's central mystery." },
+    ],
+  },
+  {
+    slug: 'an-american-marriage',
+    intro: "Tayari Jones's An American Marriage (2018) is a complete standalone novel. There is no sequel. The novel follows newlyweds Celestial and Roy Hamilton — a young professional couple in Atlanta — after Roy is wrongfully convicted of rape and sentenced to twelve years in prison. Told through letters and alternating perspectives, the novel asks what love owes incarceration, what marriage can survive, and what justice means in America for a Black man. An American Marriage won the Women's Prize for Fiction in 2019 and was an Oprah's Book Club selection.",
+    startWith: 'An American Marriage',
+    books: [
+      { title: 'An American Marriage', author: 'Tayari Jones', year: 2018, note: "Standalone — newlyweds Celestial and Roy face wrongful conviction and twelve years apart; told through letters and alternating perspectives; Women's Prize for Fiction winner 2019" },
+    ],
+    faq: [
+      { q: 'Is An American Marriage a standalone?', a: "Yes — An American Marriage is a complete standalone novel. Tayari Jones has written other novels (Leaving Atlanta, The Untelling, Silver Sparrow), but they are entirely independent of An American Marriage." },
+      { q: 'Is An American Marriage a romance?', a: "An American Marriage is primarily a novel about marriage, justice, and what love can and cannot survive — the romance between Celestial and Roy is the engine, but the novel's real subject is the American criminal justice system's effect on Black families and communities. Jones has said the novel is about love in the context of injustice." },
+      { q: "How does An American Marriage deal with wrongful conviction?", a: "The novel doesn't focus on the mechanics of Roy's exoneration — it focuses on what happens to a marriage during the years between wrongful conviction and release. Jones was interested in how incarceration warps time differently for the person inside prison and the person waiting outside, and what happens to love when two people age through such different experiences of the same years." },
+      { q: 'Is An American Marriage based on true events?', a: "An American Marriage is fiction. Tayari Jones has said in interviews that she was moved to write the novel after talking to a man at a party who told her he had been wrongfully convicted and served seven years. She was struck by the way his wife responded — both women sympathizing with each other and neither entirely wrong. That conversation became the emotional seed of the novel." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

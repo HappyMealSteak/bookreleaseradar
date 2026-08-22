@@ -142,6 +142,11 @@ export const metadata: Metadata = {
     'books like It Ends with Us Colleen Hoover',
     'books like The Seven Husbands of Evelyn Hugo Taylor Jenkins Reid',
     'books like Hamnet Maggie O Farrell',
+    'books like My Year of Rest and Relaxation Ottessa Moshfegh',
+    'books like The Book Thief Markus Zusak',
+    'books like Behind Closed Doors BA Paris',
+    'books like The Woman in the Window AJ Finn',
+    'books like An American Marriage Tayari Jones',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -719,6 +724,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: "What should I read if I liked Hamnet by Maggie O'Farrell?",
       acceptedAnswer: { '@type': 'Answer', text: "Books like Hamnet include A Gentleman in Moscow by Amor Towles, All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, Homegoing by Yaa Gyasi, Pachinko by Min Jin Lee, Room by Emma Donoghue, and Shuggie Bain by Douglas Stuart. Our full guide covers 8 picks for fans of beautifully written historical fiction about women history has made invisible." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Year of Rest and Relaxation by Ottessa Moshfegh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Year of Rest and Relaxation include Normal People by Sally Rooney, A Little Life by Hanya Yanagihara, The Bell Jar by Sylvia Plath, Eileen by Ottessa Moshfegh, The Secret History by Donna Tartt, Conversations with Friends by Sally Rooney, and Eleanor Oliphant Is Completely Fine by Gail Honeyman. Our full guide covers 8 picks for fans of dark, literary, first-person fiction about depression and nihilism." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Book Thief by Markus Zusak?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Book Thief include All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, The Shadow of the Wind by Carlos Ruiz Zafón, The Diary of a Young Girl by Anne Frank, The Reader by Bernhard Schlink, Suite Française by Irène Némirovsky, and A Gentleman in Moscow by Amor Towles. Our full guide covers 8 picks for fans of WWII historical fiction with lyrical prose and emotional devastation." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Behind Closed Doors by B.A. Paris?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Behind Closed Doors include Gone Girl by Gillian Flynn, The Silent Patient by Alex Michaelides, The Woman in the Window by A.J. Finn, The Girl on the Train by Paula Hawkins, Verity by Colleen Hoover, Big Little Lies by Liane Moriarty, The Couple Next Door by Shari Lapena, and In a Dark, Dark Wood by Ruth Ware. Our full guide covers 8 picks for fans of claustrophobic domestic psychological thrillers." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Woman in the Window by A.J. Finn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woman in the Window include Gone Girl by Gillian Flynn, The Girl on the Train by Paula Hawkins, The Silent Patient by Alex Michaelides, Behind Closed Doors by B.A. Paris, Verity by Colleen Hoover, In a Dark, Dark Wood by Ruth Ware, and Dark Matter by Blake Crouch. Our full guide covers 8 picks for fans of Hitchcock-style psychological thrillers with confined unreliable narrators." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked An American Marriage by Tayari Jones?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like An American Marriage include The Vanishing Half by Brit Bennett, Homegoing by Yaa Gyasi, Just Mercy by Bryan Stevenson, Sing, Unburied, Sing by Jesmyn Ward, Pachinko by Min Jin Lee, Normal People by Sally Rooney, and Little Fires Everywhere by Celeste Ng. Our full guide covers 8 picks for fans of literary fiction about race, justice, and the limits of love." },
     },
   ],
 };
