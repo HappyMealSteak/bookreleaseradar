@@ -268,6 +268,11 @@ export const metadata: Metadata = {
     'books like Darkness at Noon Arthur Koestler',
     'books like Under Western Eyes Joseph Conrad',
     'books like The Death of Ivan Ilyich Leo Tolstoy',
+    'books like The Stranger Albert Camus',
+    'books like Crime and Punishment Fyodor Dostoevsky',
+    'books like One Hundred Years of Solitude Gabriel García Márquez',
+    'books like Doctor Faustus Thomas Mann',
+    'books like The Tin Drum Günter Grass',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1480,6 +1485,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Death of Ivan Ilyich by Leo Tolstoy?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Death of Ivan Ilyich include Anna Karenina and Hadji Murat (also by Leo Tolstoy), The Stranger by Albert Camus, A Death in the Family by James Agee, The Master and Margarita by Bulgakov, The Trial by Kafka, The Moviegoer by Walker Percy, and The Kreutzer Sonata by Tolstoy. Our full guide covers 8 picks for fans of Tolstoy's moral novella." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Stranger by Albert Camus?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Stranger include The Plague and The Fall (also by Albert Camus), Nausea by Jean-Paul Sartre, Notes from Underground by Dostoevsky, The Trial by Kafka, The Myth of Sisyphus by Camus, Invisible Man by Ralph Ellison, and Steppenwolf by Hermann Hesse. Our full guide covers 8 picks for fans of Camus's defining absurdist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Crime and Punishment by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Crime and Punishment include The Brothers Karamazov and The Idiot (also by Fyodor Dostoevsky), Notes from Underground by Dostoevsky, The Stranger by Albert Camus, Lolita by Vladimir Nabokov, The Trial by Kafka, In Cold Blood by Truman Capote, and An Inspector Calls by J.B. Priestley. Our full guide covers 8 picks for fans of Dostoevsky's psychological masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked One Hundred Years of Solitude by Gabriel García Márquez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Hundred Years of Solitude include Love in the Time of Cholera and The Autumn of the Patriarch (also by García Márquez), Pedro Páramo by Juan Rulfo, The House of the Spirits by Isabel Allende, Beloved by Toni Morrison, Midnight's Children by Salman Rushdie, Ficciones by Jorge Luis Borges, and The Tin Drum by Günter Grass. Our full guide covers 8 picks for fans of García Márquez's magical realist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Doctor Faustus by Thomas Mann?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Doctor Faustus include The Magic Mountain and Buddenbrooks (also by Thomas Mann), The Tin Drum by Günter Grass, Lolita by Vladimir Nabokov, The Possessed by Dostoevsky, The Genesis of a Doctor Faustus by Mann, The Reader by Bernhard Schlink, and Mephisto by Klaus Mann. Our full guide covers 8 picks for fans of Mann's most ambitious novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tin Drum by Günter Grass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tin Drum include Cat and Mouse and Dog Years (also by Günter Grass), Doctor Faustus by Thomas Mann, One Hundred Years of Solitude by García Márquez, Midnight's Children by Salman Rushdie, The Painted Bird by Jerzy Kosiński, The Reader by Bernhard Schlink, and If This Is a Man by Primo Levi. Our full guide covers 8 picks for fans of Grass's founding postwar German novel." },
     },
   ],
 };
