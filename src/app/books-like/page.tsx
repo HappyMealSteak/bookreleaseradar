@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Pan Knut Hamsun Norwegian forest passion novel',
+    'books like Out of Africa Isak Dinesen Karen Blixen Kenya memoir',
+    'books like Kristin Lavransdatter Undset medieval Norway trilogy',
+    'books like My Struggle Karl Ove Knausgård autobiographical novel',
+    'books like Septology Jon Fosse Norwegian painter Nobel Prize',
     'books like Ficciones Borges library of babel short stories',
     'books like Hopscotch Cortázar experimental Latin American novel',
     'books like The House of the Spirits Allende Chile magical realism',
@@ -2395,6 +2400,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pan by Knut Hamsun?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pan include Hunger and Mysteries by Knut Hamsun, The Wild Duck by Ibsen, The Metamorphosis by Kafka, The Stranger by Camus, Steppenwolf by Hesse, The Sorrows of Young Werther by Goethe, and Out of Africa by Isak Dinesen. Our full guide covers 8 picks for fans of Hamsun's Norwegian forest passion novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Out of Africa by Isak Dinesen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Out of Africa include Seven Gothic Tales and Shadows on the Grass by Dinesen, The Flame Trees of Thika by Huxley, A Grain of Wheat by Ngugi wa Thiong'o, Things Fall Apart by Achebe, The English Patient by Ondaatje, Kristin Lavransdatter by Undset, and The Sheltering Sky by Paul Bowles. Our full guide covers 8 picks for fans of Dinesen's Kenya memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kristin Lavransdatter by Sigrid Undset?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kristin Lavransdatter include The Master of Hestviken by Undset, Middlemarch by George Eliot, The Pillars of the Earth by Follett, Anna Karenina by Tolstoy, The Name of the Rose by Eco, Out of Africa by Dinesen, and The Bronze Horseman by Paullina Simons. Our full guide covers 8 picks for fans of Undset's medieval Norway trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Struggle by Karl Ove Knausgård?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Struggle include In Search of Lost Time by Proust, Speak Memory by Nabokov, The World of Yesterday by Zweig, Boyhood by J.M. Coetzee, The Liars' Club by Mary Karr, Septology by Jon Fosse, The Remains of the Day by Ishiguro, and Austerlitz by Sebald. Our full guide covers 8 picks for fans of Knausgård's autobiographical six-volume novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Septology by Jon Fosse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Septology include Morning and Evening by Fosse, My Struggle by Knausgård, The Death of Ivan Ilyich by Tolstoy, Stoner by John Williams, The Man Without Qualities by Musil, The Waves by Virginia Woolf, Austerlitz by Sebald, and Kristin Lavransdatter by Undset. Our full guide covers 8 picks for fans of Fosse's Nobel Prize-winning Norwegian novel." },
     },
     {
       '@type': 'Question',
