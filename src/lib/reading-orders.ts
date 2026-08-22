@@ -2967,6 +2967,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'How long is The Bluest Eye?', a: "The Bluest Eye is approximately 160–200 pages depending on the edition — one of Morrison's shortest novels, and one of the most intense. Morrison later said she was dissatisfied with the novel and felt she had not yet fully developed her technique as a novelist. Beloved and Song of Solomon are widely considered her masterworks, but The Bluest Eye remains one of the most devastating treatments of racism in American fiction." },
     ],
   },
+  {
+    slug: 'we',
+    intro: "Yevgeny Zamyatin's We (1924) is a complete standalone novel and the ancestor of all twentieth-century dystopian fiction. Written in 1920–21, it was the first novel banned by the Soviet censorship bureau and was not published in the Soviet Union until 1988. We follows D-503, a mathematician in the One State — a future society where citizens live in glass apartments visible to the secret police, all wear identical uniforms, and have assigned 'sex days' regulated by the state. Zamyatin's novel directly influenced Aldous Huxley's Brave New World (1932) and George Orwell's 1984 (1949). Orwell reviewed We in 1946 and confirmed he had read it before writing 1984.",
+    startWith: 'We',
+    books: [
+      { title: 'We', author: 'Yevgeny Zamyatin', year: 1924, note: "Standalone — D-503, a mathematician in the One State, a future totalitarian society of glass apartments and regulated schedules; the 1924 Russian novel that directly inspired both 1984 and Brave New World; published in English translation (the original was banned in the USSR) since 1924" },
+    ],
+    faq: [
+      { q: 'Is We a standalone?', a: "Yes — We is entirely self-contained. Zamyatin wrote no sequel. The novel was his major work and was completed in 1921; he died in Paris in 1937 after leaving the Soviet Union." },
+      { q: "What is the connection between We, 1984, and Brave New World?", a: "We (1924) is the direct ancestor of both. Aldous Huxley claimed never to have read We before writing Brave New World (1932) — a claim that literary scholars have debated, given the many structural similarities. George Orwell reviewed We in 1946 and was more forthcoming: he had read the novel, he said it was better than Brave New World, and he confirmed it influenced 1984 (1949). The three novels form a tradition of twentieth-century dystopian fiction that also includes Fahrenheit 451, The Handmaid's Tale, and many others that followed." },
+      { q: "Which translation of We is best?", a: "The standard English translations are by Mirra Ginsburg (1972), Natasha Randall (2006), and Clarence Brown (1993). The Randall translation is generally considered the most accurate and contemporary; the Ginsburg is a classic but is somewhat abridged. The Clarence Brown is also widely used in academic settings." },
+      { q: "Is We difficult to read?", a: "We is written in a stream-of-consciousness style that can initially seem disorienting — D-503 narrates his growing rebellion in fragments that sometimes break off mid-thought. The fragmentation is intentional and mirrors D-503's psychological disintegration. The novel is short (approximately 220 pages in most translations) and reads faster than its style suggests." },
+    ],
+  },
+  {
+    slug: 'november-9',
+    intro: "Colleen Hoover's November 9 (2015) is a complete standalone novel. It follows Fallon and Ben, who meet on November 9th the day Fallon is leaving Los Angeles for New York to pursue acting. They spend one day together and then agree to meet again on November 9th the following year — no contact between meetings, just one day a year for five years. The novel alternates between each November 9th and reveals, across those years, what each character is not saying.",
+    startWith: 'November 9',
+    books: [
+      { title: 'November 9', author: 'Colleen Hoover', year: 2015, note: "Standalone — Fallon and Ben meet on November 9th and agree to meet again one year later for five years, with no contact between visits; each annual meeting reveals what both are concealing; a standalone with the same emotional reveal structure as Ugly Love" },
+    ],
+    faq: [
+      { q: 'Is November 9 part of a series?', a: "No — November 9 is a standalone novel. Fallon and Ben do not appear in any other Colleen Hoover novel." },
+      { q: 'Is there a content warning for November 9?', a: "November 9 contains discussions of an injury that affects Fallon's appearance (burn scars), grief and loss, and a significant plot twist involving deception that some readers find upsetting. The novel contains explicit sexual content and is intended for adult readers." },
+      { q: 'How does November 9 compare to other Colleen Hoover books?', a: "November 9 is generally considered one of Hoover's most romantic and accessible novels — lighter in subject matter than It Ends with Us (which deals with domestic abuse) or Verity (which is a psychological thriller). It is closest in tone to Ugly Love — a love story structured around a time-based agreement, with a hidden revelation — but has a somewhat lighter emotional register overall." },
+      { q: 'What is the twist in November 9?', a: "There is a major plot revelation around the midpoint of the novel — discussing it directly would spoil the experience. The novel's structure is specifically designed to delay this revelation; readers are advised to go in as cold as possible." },
+    ],
+  },
+  {
+    slug: 'reminders-of-him',
+    intro: "Colleen Hoover's Reminders of Him (2022) is a complete standalone novel set in a small town in Colorado. It follows Kenna Rowan, a young woman who has just served five years in prison for a crime she regrets, who returns to the town where her late boyfriend Scotty grew up to try to reconnect with her four-year-old daughter Diem — who is being raised by Scotty's parents. Ledger Ward, who runs the bar Scotty's parents own and was Scotty's best friend, is drawn to Kenna despite knowing who she is.",
+    startWith: 'Reminders of Him',
+    books: [
+      { title: 'Reminders of Him', author: 'Colleen Hoover', year: 2022, note: "Standalone — Kenna, recently released from prison, tries to reconnect with her four-year-old daughter in the town where her late boyfriend grew up; dual first-person narration between Kenna and Ledger; Hoover's bestselling title for 2022-2023" },
+    ],
+    faq: [
+      { q: 'Is Reminders of Him part of a series?', a: "No — Reminders of Him is a standalone novel. Kenna and Ledger do not appear in other Colleen Hoover novels." },
+      { q: 'Is there a content warning for Reminders of Him?', a: "Reminders of Him deals with grief, loss of a partner, incarceration, and the specific trauma of a mother separated from her child by the criminal justice system. It contains explicit sexual content. Some readers find the romance between Kenna and Ledger (who was the best friend of her late partner) difficult to navigate emotionally; the novel takes considerable care with this dynamic." },
+      { q: 'How does Reminders of Him compare to other Colleen Hoover books?', a: "Reminders of Him is considered one of Hoover's more emotionally mature novels — heavier than November 9 or Ugly Love, not quite as heavy as It Ends with Us. Its focus on grief and a mother's love for her child gives it a different emotional register from most of Hoover's other work. It was a massive BookTok sensation in 2022-2023 and was the first Hoover novel to hit number one on the New York Times bestseller list." },
+      { q: 'What is the crime Kenna committed in Reminders of Him?', a: "The circumstances of Kenna's crime are revealed gradually across the novel — it is part of the story's suspense structure and is better experienced unsponsored. She is not a villain; understanding what she did, and why, is central to the reader's relationship to her character." },
+    ],
+  },
+  {
+    slug: 'song-of-solomon',
+    intro: "Toni Morrison's Song of Solomon (1977) is a complete standalone novel and her third. It follows Macon 'Milkman' Dead III, a Black man in Michigan in the 1960s, who goes south to find gold he believes his father has hidden and instead finds the story of his family — including the legend of his great-grandfather Solomon, who flew back to Africa. Song of Solomon won the National Book Critics Circle Award in 1977 and was the first novel by a Black American author selected for the Book of the Month Club since Richard Wright's Native Son in 1940.",
+    startWith: 'Song of Solomon',
+    books: [
+      { title: 'Song of Solomon', author: 'Toni Morrison', year: 1977, note: "Standalone — Milkman Dead searches for family gold in the American South and finds instead the legend of his ancestor Solomon who flew back to Africa; Morrison's breakthrough novel and National Book Critics Circle Award winner 1977" },
+    ],
+    faq: [
+      { q: 'Is Song of Solomon a standalone?', a: "Yes — Song of Solomon is entirely self-contained. Morrison's other novels are independent works set in different periods and locations." },
+      { q: "What does the title Song of Solomon mean?", a: "The title refers to the biblical Song of Solomon (also called Song of Songs), a book of erotic poetry traditionally interpreted as both a love poem and an allegory of spiritual longing. Morrison uses the title to evoke the lyrical, oral tradition of African American culture — the novel is full of song, legend, and the spoken word as a form of historical preservation. 'Flying Africans' — the legend that enslaved Africans could fly back to Africa — is a real tradition in Black American folklore that Morrison draws on for the novel's climax." },
+      { q: "Is Song of Solomon easier to read than Beloved?", a: "Most readers find Song of Solomon more accessible than Beloved — it has a clearer narrative structure (a quest story), a protagonist readers can follow chronologically, and less of the fractured, traumatic time of Beloved. Both novels use Black oral tradition and myth, but Song of Solomon is closer to a traditional novel in its form. It is an excellent entry point to Morrison's work." },
+      { q: "What is 'the flight' at the end of Song of Solomon?", a: "The novel ends with Milkman Dead leaping from a cliff toward his friend Guitar, who has become an assassin. Whether Milkman flies or falls is deliberately ambiguous — Morrison leaves the ending open. The flight refers both to the physical leap and to the legend of Solomon who flew back to Africa. Milkman has, across the novel, found the story of his ancestor; whether the literal flight is possible is less important than whether Milkman has finally understood what freedom means." },
+    ],
+  },
+  {
+    slug: 'beloved',
+    intro: "Toni Morrison's Beloved (1987) is a complete standalone novel and widely considered her masterwork. Set in Ohio in 1873, it follows Sethe, a formerly enslaved woman who escaped to Cincinnati years before, and whose house is haunted by the ghost of the daughter she killed rather than allow her to be re-enslaved. The novel is loosely based on the historical case of Margaret Garner, an enslaved woman who attempted to kill her children when recaptured in 1856. Beloved won the Pulitzer Prize for Fiction in 1988 and contributed to Morrison's Nobel Prize in Literature in 1993.",
+    startWith: 'Beloved',
+    books: [
+      { title: 'Beloved', author: 'Toni Morrison', year: 1987, note: "Standalone — Sethe, a formerly enslaved woman in post-Civil War Ohio, haunted by the ghost of the daughter she killed; Pulitzer Prize winner 1988; widely considered one of the greatest American novels; part of a loose trilogy with Jazz and Paradise" },
+      { title: 'Jazz', author: 'Toni Morrison', year: 1992, note: "Second in Morrison's loose trilogy — Harlem, 1926; a middle-aged man shoots his young girlfriend and his wife attacks the body at the funeral; written in a voice that mimics jazz improvisation; can be read independently", isOptional: true },
+      { title: 'Paradise', author: 'Toni Morrison', year: 1997, note: "Third in Morrison's loose trilogy — an all-Black Oklahoma town in 1976 attacks a nearby house of women; can be read independently but rewards reading after Beloved and Jazz", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Beloved a standalone?', a: "Beloved is self-contained and is the first in a loose thematic trilogy — Beloved, Jazz (1992), and Paradise (1997) — that together examine different aspects of African American history and community. They share no characters and can be read independently. Most readers read only Beloved; the trilogy designation is thematic rather than sequential." },
+      { q: 'What actually happens in Beloved?', a: "In 1856, Sethe escaped from Sweet Home, the Kentucky plantation where she was enslaved. When slave catchers came to reclaim her and her children in Cincinnati, she killed her infant daughter rather than allow her to be returned to slavery. Eighteen years later, Sethe lives in her haunted house at 124 Bluestone Road with her surviving daughter Denver. A mysterious young woman named Beloved arrives and Sethe comes to believe she is the incarnation of the daughter she killed. The novel moves between the present and Sethe's fragmented memories of Sweet Home and the Middle Passage." },
+      { q: "Is Beloved based on a true story?", a: "Beloved is loosely based on the case of Margaret Garner, an enslaved woman from Kentucky who escaped to Cincinnati in 1856. When slave catchers came to reclaim her under the Fugitive Slave Act, she killed one of her children with a butcher knife to prevent her return to slavery. Garner's case was a national cause — abolitionists tried to have her tried for murder in Ohio rather than returned to slavery as property under federal law; the courts ruled she was property and she was returned to the South. Morrison read about the case in The Black Book (1974), an anthology she edited while at Random House. The novel diverges significantly from the historical facts." },
+      { q: "What does 'Sixty Million and more' mean in the dedication of Beloved?", a: "The dedication of Beloved reads: 'Sixty Million and more.' The number refers to Morrison's estimate of the number of Africans who died in the Middle Passage — the transatlantic slave trade from Africa to the Americas — either during the crossing or as a direct result of the trade. Scholars have estimated the number of deaths at between 1.5 and 4 million during the crossing itself, with many more dying in raids, coffles, and shore facilities. Morrison's 'sixty million' encompasses all the deaths attributable to the trade, not just the Middle Passage. The dedication places the novel in the tradition of the Holocaust memorial — 'Never Forget.'" },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

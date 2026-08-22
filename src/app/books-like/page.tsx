@@ -182,6 +182,11 @@ export const metadata: Metadata = {
     'books like Fahrenheit 451 Ray Bradbury',
     'books like Ugly Love Colleen Hoover',
     'books like The Bluest Eye Toni Morrison',
+    'books like We Yevgeny Zamyatin',
+    'books like November 9 Colleen Hoover',
+    'books like Reminders of Him Colleen Hoover',
+    'books like Song of Solomon Toni Morrison',
+    'books like Beloved Toni Morrison',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -959,6 +964,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Bluest Eye by Toni Morrison?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Bluest Eye include Beloved and Song of Solomon and Sula (also by Toni Morrison), Their Eyes Were Watching God by Zora Neale Hurston, The Color Purple by Alice Walker, Passing by Nella Larsen, Kindred by Octavia Butler, and I Know Why the Caged Bird Sings by Maya Angelou. Our full guide covers 8 picks for fans of Morrison's examination of Black childhood, internalized racism, and Black women's inner lives." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked We by Yevgeny Zamyatin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like We include 1984 by George Orwell, Brave New World by Aldous Huxley, Fahrenheit 451 by Ray Bradbury, The Handmaid's Tale by Margaret Atwood, Lord of the Flies by William Golding, The Trial by Franz Kafka, The Road by Cormac McCarthy, and Never Let Me Go by Kazuo Ishiguro. Our full guide covers 8 picks for fans of the ancestor of all dystopian fiction and the tradition of novels about totalitarianism and individual rebellion." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked November 9 by Colleen Hoover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like November 9 include Ugly Love and It Ends with Us and Reminders of Him (also by Colleen Hoover), The Hating Game by Sally Thorne, People We Meet on Vacation and Beach Read by Emily Henry, One Day by David Nicholls, and The Time Traveler's Wife by Audrey Niffenegger. Our full guide covers 8 picks for fans of dual-timeline love stories with annual reunion structures and slow-build emotional revelations." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Reminders of Him by Colleen Hoover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Reminders of Him include It Ends with Us and November 9 and Ugly Love (also by Colleen Hoover), The Last Letter from Your Lover and Me Before You by Jojo Moyes, The Idea of You by Robinne Lee, A Little Life by Hanya Yanagihara, and The Five People You Meet in Heaven by Mitch Albom. Our full guide covers 8 picks for fans of emotionally mature contemporary romance centered on grief, second chances, and complicated love." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Song of Solomon by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Song of Solomon include Beloved and The Bluest Eye (also by Toni Morrison), Their Eyes Were Watching God by Zora Neale Hurston, Invisible Man by Ralph Ellison, Middle Passage by Charles Johnson, The Known World by Edward P. Jones, Homegoing by Yaa Gyasi, and The Water Dancer by Ta-Nehisi Coates. Our full guide covers 8 picks for fans of Morrison's mythological use of Black folklore and her portrait of Black family life." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Beloved by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Beloved include Song of Solomon and The Bluest Eye (also by Toni Morrison), Their Eyes Were Watching God by Zora Neale Hurston, Kindred by Octavia Butler, The Known World by Edward P. Jones, Homegoing by Yaa Gyasi, Roots by Alex Haley, and The Color Purple by Alice Walker. Our full guide covers 8 picks for fans of Morrison's Pulitzer Prize winner and its excavation of what slavery did to Black families." },
     },
   ],
 };
