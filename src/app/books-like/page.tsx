@@ -112,6 +112,11 @@ export const metadata: Metadata = {
     'books like Dark Matter Blake Crouch',
     'books like Where the Crawdads Sing Delia Owens',
     'books like First Fifteen Lives of Harry August Claire North',
+    'books like 7 Deaths of Evelyn Hardcastle Stuart Turton',
+    'books like Life After Life Kate Atkinson',
+    'books like Replay Ken Grimwood',
+    'books like Big Little Lies Liane Moriarty',
+    "books like Where'd You Go Bernadette Maria Semple",
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -539,6 +544,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The First Fifteen Lives of Harry August?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The First Fifteen Lives of Harry August include Recursion and Dark Matter by Blake Crouch, Replay by Ken Grimwood, Life After Life by Kate Atkinson, The Midnight Library by Matt Haig, Touch (also by Claire North), and Slaughterhouse-Five by Kurt Vonnegut. Our full Harry August guide covers 8 picks for fans of literary time-loop science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The 7½ Deaths of Evelyn Hardcastle?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The 7½ Deaths of Evelyn Hardcastle include The First Fifteen Lives of Harry August by Claire North, Replay by Ken Grimwood, Dark Matter by Blake Crouch, And Then There Were None by Agatha Christie, The Devil and the Dark Water (also by Stuart Turton), Life After Life by Kate Atkinson, and Recursion by Blake Crouch. Our full guide covers 8 picks for fans of time-loop country house mysteries." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Life After Life by Kate Atkinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Life After Life include A God in Ruins (also by Atkinson), The First Fifteen Lives of Harry August by Claire North, Replay by Ken Grimwood, The Midnight Library by Matt Haig, Station Eleven by Emily St. John Mandel, Dark Matter by Blake Crouch, and The 7½ Deaths of Evelyn Hardcastle by Stuart Turton. Our full guide covers 8 picks for fans of literary rebirth and alternate-lives fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Replay by Ken Grimwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Replay include The First Fifteen Lives of Harry August by Claire North, Dark Matter and Recursion by Blake Crouch, Life After Life by Kate Atkinson, The Midnight Library by Matt Haig, and The 7½ Deaths of Evelyn Hardcastle by Stuart Turton. Our full Replay guide covers 8 picks for fans of the foundational time-loop rebirth novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Big Little Lies by Liane Moriarty?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Big Little Lies include Nine Perfect Strangers and The Husband's Secret (also by Moriarty), Where the Crawdads Sing by Delia Owens, Little Fires Everywhere by Celeste Ng, The Secret History by Donna Tartt, The Woman in the Window by A.J. Finn, and Beartown by Fredrik Backman. Our full guide covers 8 picks for fans of dark domestic comedy and women's friendship under pressure." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Where'd You Go, Bernadette?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Where'd You Go, Bernadette include Eleanor Oliphant Is Completely Fine by Gail Honeyman, Today Will Be Different (also by Maria Semple), The Rosie Project by Graeme Simsion, A Man Called Ove by Fredrik Backman, Big Little Lies by Liane Moriarty, and The 100-Year-Old Man Who Climbed Out the Window. Our full guide covers 8 picks for fans of dark comedy about brilliant women coming apart and reassembling themselves." },
     },
   ],
 };

@@ -1955,6 +1955,77 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "What is Claire North's real name?", a: "Claire North is a pen name for Catherine Webb, a British author who has also written under the name Kate Griffin. She uses Claire North for adult literary science fiction and Kate Griffin for urban fantasy." },
     ],
   },
+  {
+    slug: 'seven-deaths-evelyn-hardcastle',
+    intro: "Stuart Turton's The 7½ Deaths of Evelyn Hardcastle (published in the US as The 7½ Deaths of Evelyn Hardcastle; published in the UK as The 7 Deaths of Evelyn Hardcastle) is a complete standalone novel published in 2018. There is no sequel. A man wakes up every morning in the body of a different guest at Blackheath House, where Evelyn Hardcastle is murdered every night — and he must solve the murder before he runs out of hosts, or he will be forced to start again from the beginning.",
+    startWith: 'The 7½ Deaths of Evelyn Hardcastle',
+    books: [
+      { title: 'The 7½ Deaths of Evelyn Hardcastle', author: 'Stuart Turton', year: 2018, note: "Standalone — a man solves an Agatha Christie–style country house murder by living the same day over and over in a different guest's body each time" },
+    ],
+    faq: [
+      { q: 'Is The 7½ Deaths of Evelyn Hardcastle a standalone?', a: "Yes — The 7½ Deaths of Evelyn Hardcastle is a complete standalone novel with no sequel or prequel. Stuart Turton has published a second novel, The Devil and the Dark Water (2020), a nautical mystery set on a 17th-century ship, which is entirely independent." },
+      { q: 'What is the difference between the UK and US title?', a: "The UK edition is titled The 7 Deaths of Evelyn Hardcastle; the US edition adds the 'half' (The 7½ Deaths) to reflect that one of the attempted hosts is discarded before the protagonist can use it. The text is otherwise identical." },
+      { q: 'Is The 7½ Deaths of Evelyn Hardcastle confusing?', a: "The 7½ Deaths of Evelyn Hardcastle has one of the most complex puzzle structures in contemporary mystery fiction. The first hundred pages require patience as the mechanism is revealed. Most readers who stick with it describe the puzzle-box satisfaction at the end as among the best they've experienced in the genre; most who find it confusing abandoned it in the first act before the rules became clear." },
+      { q: 'Is The 7½ Deaths of Evelyn Hardcastle like Agatha Christie?', a: "Turton uses the Agatha Christie country house mystery as the frame — the assembled guests, the locked room, the reveal — while adding the time-loop body-jumping mechanism. If you love Christie, you will recognize what Turton is doing and appreciate how he complicates it. If you haven't read Christie, the novel works entirely on its own terms." },
+    ],
+  },
+  {
+    slug: 'life-after-life',
+    intro: "Kate Atkinson's Life After Life (2013) is the first of two linked novels about Ursula Todd, followed by A God in Ruins (2015), which focuses on Ursula's brother Teddy in WWII. Life After Life follows Ursula, who is born in England in 1910 and keeps dying and being reborn at the same moment — with no explicit memory of her previous lives but a growing sense of rightness and wrongness about choices. A God in Ruins is a companion novel that can be read independently but is richer for having read Life After Life first.",
+    startWith: 'Life After Life',
+    books: [
+      { title: 'Life After Life', author: 'Kate Atkinson', year: 2013, note: "Ursula Todd is born in 1910 and dies and is reborn repeatedly, each time with a slightly different sense of what to do differently" },
+      { title: 'A God in Ruins', author: 'Kate Atkinson', year: 2015, note: "Companion novel about Ursula's brother Teddy, a WWII RAF pilot and its aftermath — can be read independently, richer with Life After Life read first", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read Life After Life before A God in Ruins?', a: "You can read A God in Ruins as a standalone — it follows Ursula's brother Teddy from WWII through old age and requires no knowledge of Life After Life to be comprehensible. However, Life After Life sets up the relationships and the family that A God in Ruins assumes the reader cares about, and most readers find A God in Ruins considerably more emotionally powerful having read the first book." },
+      { q: 'Is Life After Life time travel?', a: "Life After Life is not time travel in the conventional sense — Ursula doesn't choose to go back. She is simply reborn at the same moment and begins again. She has no explicit memory of previous lives but develops what she describes as a sense of dark and a sense of light about choices. The mechanism is more closely related to reincarnation than to time travel, and Atkinson never explains it." },
+      { q: 'How does Life After Life compare to The First Fifteen Lives of Harry August?', a: "Both novels use rebirth with retained experience as a mechanism for examining what a person would do differently. Harry August retains full explicit memory of previous lives and uses that to solve a mystery; Ursula retains something more like a bodily instinct or a sense of wrongness. Life After Life is more literary and impressionistic; Harry August is more plot-driven and genre-adjacent." },
+      { q: 'What is Life After Life about besides the time loop?', a: "Life After Life is primarily a novel about England in the 20th century — the Edwardian period, the First World War, the interwar years, the Blitz. Ursula lives through many of these historical moments in different ways across her multiple lives. The novel is partly a meditation on contingency: how the choices and accidents of history could have gone differently." },
+    ],
+  },
+  {
+    slug: 'replay',
+    intro: "Ken Grimwood's Replay (1987) is a complete standalone novel. There is no sequel. A 43-year-old man dies of a heart attack in 1988 and wakes up in his college dorm room in 1963 with full memory of his previous life — and has to live it again. And again. Replay won the World Fantasy Award in 1988 and is considered the foundational modern time-loop novel, directly influencing almost every subsequent novel in the genre.",
+    startWith: 'Replay',
+    books: [
+      { title: 'Replay', author: 'Ken Grimwood', year: 1987, note: "Standalone — a man dies in 1988 and wakes up in 1963 with full memory of his previous life, living and dying and replaying again and again; World Fantasy Award winner and the founding text of the time-loop novel" },
+    ],
+    faq: [
+      { q: 'Is Replay a standalone?', a: "Yes — Replay is a complete standalone novel. Ken Grimwood died in 2003 before completing a sequel he had been working on. The sequel was never published." },
+      { q: 'Is Replay still worth reading in 2024?', a: "Replay is the foundational novel of the time-loop genre — every subsequent novel (The First Fifteen Lives of Harry August, Dark Matter, Recursion, The 7½ Deaths of Evelyn Hardcastle) builds on what Grimwood established. Readers who come to it after those novels often find it feels strangely fresh for a 1988 novel, partly because Grimwood's interest was always in the emotional and philosophical stakes of replay rather than the mechanical puzzle-solving later novels tend toward." },
+      { q: 'How does Replay compare to Groundhog Day?', a: "Replay predates the film Groundhog Day (1993) by six years, and both Grimwood's novel and Harold Ramis's film draw on similar philosophical premises. The key difference is scope: Groundhog Day loops a single day; Replay loops an entire life, which means the replayer has decades to try different things, accumulate wealth, change history, find love, and eventually confront the existential question of what any of it means." },
+      { q: 'What genre is Replay?', a: "Replay is most commonly classified as literary science fiction or speculative fiction. It won the World Fantasy Award in 1988, which surprised some readers given that the novel has no supernatural or fantasy elements — the award committee was responding to its imaginative ambition rather than its genre category. It is shelved in different sections in different bookstores." },
+    ],
+  },
+  {
+    slug: 'big-little-lies',
+    intro: "Liane Moriarty's Big Little Lies (2014) is a complete standalone novel. There is no sequel. Set in an elite Sydney suburban community, the novel follows three women — Madeline, Celeste, and Jane — whose children attend the same school, and tracks the year that ends with a death at the school's trivia night. The novel moves backward and forward in time between the trivia night investigation and the events that led up to it. It was adapted into an HBO series starring Reese Witherspoon and Nicole Kidman in 2017.",
+    startWith: 'Big Little Lies',
+    books: [
+      { title: 'Big Little Lies', author: 'Liane Moriarty', year: 2014, note: "Standalone — three women's friendship in an elite Sydney school community climaxes in a death at trivia night; a mystery that works backward from the incident through the year that preceded it" },
+    ],
+    faq: [
+      { q: 'Is Big Little Lies a standalone?', a: "Yes — Big Little Lies is a complete standalone novel with no sequel. Liane Moriarty has written other novels (The Husband's Secret, Nine Perfect Strangers, Apples Never Fall), but Big Little Lies is entirely independent. The HBO TV series ran for two seasons; the second season was not based on a Moriarty novel." },
+      { q: 'Is Big Little Lies a thriller or literary fiction?', a: "Big Little Lies is primarily a domestic drama that uses a mystery structure — a death at a school trivia night — as its organizing device. It is much less plot-driven than a conventional thriller and much more interested in the relationships, humor, and social dynamics of the community it portrays. Most readers describe it as literary fiction with a mystery scaffold." },
+      { q: 'How does the TV adaptation of Big Little Lies compare to the novel?', a: "The HBO adaptation (2017, starring Reese Witherspoon and Nicole Kidman) is closely based on the novel but moves the setting from Australia to Monterey, California. Most viewers and readers find the adaptation excellent and faithful to the novel's tone. The second TV season was not based on a Moriarty book." },
+      { q: 'What is Big Little Lies really about?', a: "Big Little Lies uses its mystery structure to examine domestic abuse, the way women's friendships function under social pressure, the specific dynamics of elite school communities, and the things people protect rather than name. The mystery (who died and who killed them) is the container; the novel's real subject is the secrets people keep and the community's role in maintaining them." },
+    ],
+  },
+  {
+    slug: 'whered-you-go-bernadette',
+    intro: "Maria Semple's Where'd You Go, Bernadette (2012) is a complete standalone novel. There is no sequel. Bernadette Fox is a brilliant and agoraphobic architect who stopped practicing fifteen years ago after a career-defining disaster; her husband is a tech executive at Microsoft; her teenage daughter is the most functional member of the family. When Bernadette begins disappearing, her daughter Bee assembles the evidence — emails, letters, FBI transcripts, a psychiatrist's invoices — to figure out what happened.",
+    startWith: "Where'd You Go, Bernadette",
+    books: [
+      { title: "Where'd You Go, Bernadette", author: 'Maria Semple', year: 2012, note: "Standalone — a brilliant, agoraphobic former architect begins disappearing; her teenage daughter assembles the documentary evidence of what happened; a dark comedy about genius, collapse, and recovery" },
+    ],
+    faq: [
+      { q: "Is Where'd You Go, Bernadette a standalone?", a: "Yes — Where'd You Go, Bernadette is a complete standalone novel with no sequel. Maria Semple has written other novels (Today Will Be Different), but Where'd You Go, Bernadette is entirely independent." },
+      { q: "What is Where'd You Go, Bernadette about?", a: "Where'd You Go, Bernadette is about what happens when a person who is very good at something stops doing it — the specific kind of collapse that follows when someone abandons the work that organized their identity. Bernadette was a famous, brilliant architect who stopped after a disaster; fifteen years later, she has become someone barely functional, and her disappearance is the event that forces the question of whether she can recover what she was." },
+      { q: "Is Where'd You Go, Bernadette funny?", a: "Where'd You Go, Bernadette is structured as a satirical dark comedy — the emails and letters Bee assembles are very funny, especially the correspondence between the Seattle tech community (Microsoft wives, self-help neighbors, aggressively functional people) and Bernadette's sharp-tongued responses to all of it. The novel's second half is more straightforwardly emotional, but the comic first half is what most readers remember." },
+      { q: "Is there a film adaptation of Where'd You Go, Bernadette?", a: "Yes — Where'd You Go, Bernadette was adapted as a film in 2019, directed by Richard Linklater and starring Cate Blanchett as Bernadette. The film received mixed reviews; readers of the novel generally found the adaptation changed the novel's documentary epistolary structure in ways that reduced the comedy." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
