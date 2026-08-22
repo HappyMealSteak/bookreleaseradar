@@ -3239,6 +3239,88 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "What does A Gentleman in Moscow say about the Soviet Union?", a: "A Gentleman in Moscow is not primarily a political novel — it is a novel about how to live with grace under constraint. Towles shows the Soviet system in the background of Rostov's life: the purges, the denunciations, the cultural workers who disappeared, the shifting political winds that determine what you are allowed to read or listen to. But the novel's emotional center is Rostov's relationships within the hotel — with the staff, with the chef, with the girl Nina and the woman Sofia — rather than with the political system that confines him." },
     ],
   },
+  {
+    slug: 'the-grapes-of-wrath',
+    intro: "John Steinbeck's The Grapes of Wrath (1939) is a complete standalone novel. It follows the Joad family — tenant farmers evicted from their Oklahoma land during the Dust Bowl of the 1930s — on their long journey west on Route 66 to the promised land of California, where they find not opportunity but exploitation. One of the foundational texts of American social fiction, winner of the Pulitzer Prize in 1940 and a central reason Steinbeck was awarded the Nobel Prize in Literature in 1962.",
+    startWith: 'The Grapes of Wrath',
+    books: [
+      { title: 'The Grapes of Wrath', author: 'John Steinbeck', year: 1939, note: "Standalone — the Joad family's westward migration during the Great Depression; the canonical American novel about poverty, dispossession, and solidarity" },
+      { title: 'Of Mice and Men', author: 'John Steinbeck', year: 1937, note: "Steinbeck's companion novella — two itinerant farm workers during the same Depression era; shorter and more concentrated, but the same compassion for the dispossessed", isOptional: true },
+      { title: 'East of Eden', author: 'John Steinbeck', year: 1952, note: "Steinbeck's other major novel — a multigenerational saga in the Salinas Valley of California, covering the same Central Valley landscape; longer and more ambitious", isOptional: true },
+      { title: 'Cannery Row', author: 'John Steinbeck', year: 1945, note: "Monterey, California — Steinbeck's warmest novel; the marine biologist Doc and his waterfront friends; the same affection for the outsiders and dispossessed that runs through all his major work", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The Grapes of Wrath a standalone novel?', a: "Yes — The Grapes of Wrath is entirely self-contained and has no sequel or prequel. John Steinbeck's other major novels — East of Eden (1952), Of Mice and Men (1937), Cannery Row (1945) — are independent works set in the same California landscape but not connected in plot or character." },
+      { q: 'Is The Grapes of Wrath based on a true story?', a: "The Grapes of Wrath is fictional but closely grounded in documented reality. Steinbeck spent months in 1937 and 1938 living among Dust Bowl migrants in California and reporting on their conditions for the San Francisco News before writing the novel. The conditions he depicts — the Hoovervilles, the roadside camps, the exploitation by growers, the violence of the Associated Farmers — are all historically documented. The Joad family is composite fiction drawn from real families he met." },
+      { q: 'Why is The Grapes of Wrath controversial?', a: "The Grapes of Wrath was banned in Kern County, California (the county where the Joads arrive) immediately after publication in 1939, and burned publicly. It was seen by California growers and local officials as Communist propaganda and an attack on their industry. It has continued to be challenged in schools throughout its history, most commonly for profanity, sexuality, and its political content. The California Associated Farmers lobbied vigorously against it." },
+      { q: 'What is the ending of The Grapes of Wrath?', a: "The Grapes of Wrath ends with the Joad family sheltering in a barn during a flood in the San Joaquin Valley. Rose of Sharon, whose baby was stillborn, nurses a starving man she has never met with her breast milk — the final image of the novel. It is deliberately ambiguous: not a happy ending, not a hopeful one in any conventional sense, but an act of pure human solidarity at the moment of maximum destitution. Steinbeck described it as the novel's central moral image." },
+    ],
+  },
+  {
+    slug: 'the-vanishing-half',
+    intro: "Brit Bennett's The Vanishing Half (2020) is a complete standalone novel. It follows the Vignes twin sisters — light-skinned Black women who grow up in the fictional small Louisiana town of Mallard — as they take radically different paths: one returns to her Black community and raises a dark-skinned daughter; the other disappears and reinvents herself as a white woman in another city. The novel moves between the 1950s and 1990s and considers identity, race, family, and the costs of self-invention.",
+    startWith: 'The Vanishing Half',
+    books: [
+      { title: 'The Vanishing Half', author: 'Brit Bennett', year: 2020, note: "Standalone — twin sisters from a Louisiana Black community take opposite paths: one passes as white, the other stays; a multigenerational story spanning the 1950s to 1990s about race, identity, and what we inherit" },
+      { title: 'The Mothers', author: 'Brit Bennett', year: 2016, note: "Bennett's debut novel — a young woman's secret in a Black church community in Southern California and its long consequences; shorter than The Vanishing Half but essential for fans of her work", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The Vanishing Half a standalone?', a: "Yes — The Vanishing Half is entirely self-contained and has no sequel. Brit Bennett's debut novel, The Mothers (2016), is a separate standalone set in a different community; the novels are not connected in plot or character but share Bennett's interest in community, memory, and the long shadow of secrets." },
+      { q: 'Is The Vanishing Half about racial passing?', a: "Yes — one of the novel's central threads is Stella Vignes passing as a white woman in mid-century America, and the costs of that decision over decades. But The Vanishing Half is as much about identity and self-invention more broadly: what we choose to become, what we choose to leave behind, and what we cannot escape. Bennett is interested in how identity is constructed as much as how race is policed." },
+      { q: 'What is the time period of The Vanishing Half?', a: "The Vanishing Half moves between multiple time periods, primarily the 1950s through the 1990s. It opens in 1968 when one twin returns to Mallard with her daughter, then moves backward to the 1950s to establish the twins' childhood and adolescence, and forward through the following decades to trace the consequences of both sisters' choices into the early 1990s." },
+      { q: 'Is The Vanishing Half based on a true story?', a: "No — The Vanishing Half is entirely fictional. The town of Mallard is invented, as are all the characters. Bennett drew on the long history of racial passing in America (documented by historians including Allyson Hobbs in A Chosen Exile) but the specific story is her own." },
+    ],
+  },
+  {
+    slug: 'a-farewell-to-arms',
+    intro: "Ernest Hemingway's A Farewell to Arms (1929) is a complete standalone novel. It follows Frederic Henry, an American serving as a lieutenant in the Italian ambulance corps during World War One, who falls in love with an English nurse, Catherine Barkley. The novel traces their affair against the backdrop of the Italian campaign and the catastrophic Caporetto retreat of 1917, and ends in Switzerland with the novel's devastating final chapters. Closely autobiographical — Hemingway served as a Red Cross ambulance driver on the Italian front and was seriously wounded in 1918.",
+    startWith: 'A Farewell to Arms',
+    books: [
+      { title: 'A Farewell to Arms', author: 'Ernest Hemingway', year: 1929, note: "Standalone — Frederic Henry and Catherine Barkley in World War One Italy; love and war in the iceberg-prose style that defined Hemingway's legacy; ends devastatingly" },
+      { title: 'The Sun Also Rises', author: 'Ernest Hemingway', year: 1926, note: "Hemingway's companion novel — Lost Generation expatriates in Paris and Pamplona; the same stripped prose and the wound of the Great War in the background; either novel can be read first", isOptional: true },
+      { title: 'For Whom the Bell Tolls', author: 'Ernest Hemingway', year: 1940, note: "An American in the Spanish Civil War — Hemingway's longest novel; the same themes of love, war, and death in the 1930s political context of fascism and antifascism", isOptional: true },
+      { title: 'A Moveable Feast', author: 'Ernest Hemingway', year: 1964, note: "Hemingway's posthumous memoir of his 1920s Paris years — the biographical context for both A Farewell to Arms and The Sun Also Rises; how he learned to write, who he knew", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is A Farewell to Arms a standalone novel?', a: "Yes — A Farewell to Arms is entirely self-contained. It is not connected in plot or character to Hemingway's other novels. The Sun Also Rises (1926) is set in the same post-WWI world and reflects many of the same preoccupations but is a completely separate story." },
+      { q: 'Is A Farewell to Arms based on a true story?', a: "A Farewell to Arms is closely autobiographical. Hemingway served as a Red Cross ambulance driver on the Italian front in 1918, was severely wounded by Austrian mortar fire, and was treated in Milan where he fell in love with Agnes von Kurowsky, an American nurse. The basic situation is drawn from life; the specific plot diverges significantly from the biographical facts. The details of the Caporetto retreat are historically accurate." },
+      { q: "What is Hemingway's iceberg theory?", a: "Hemingway's 'theory of omission' holds that a writer can omit anything as long as they know it well enough, and the reader will feel the weight of what is not said. In A Farewell to Arms this means that the most important emotional content — grief, love, fear — is almost never named directly; it is shown through dialogue and concrete detail, with the emotion buried beneath the surface of the prose." },
+      { q: 'How does A Farewell to Arms end?', a: "Catherine Barkley dies after a difficult labor and a cesarean section; the baby is stillborn. Frederic Henry walks back to his hotel in the rain alone. The ending has been described as one of the most devastating in American literature. Hemingway rewrote it over forty times and considered it the hardest part of the novel." },
+    ],
+  },
+  {
+    slug: 'wolf-hall',
+    intro: "Hilary Mantel's Wolf Hall Trilogy follows Thomas Cromwell — Henry VIII's chief minister from 1532 to 1540 — through the religious and dynastic upheavals of the Tudor court. The trilogy consists of Wolf Hall (2009), Bring Up the Bodies (2012), and The Mirror & the Light (2020). The first two volumes each won the Booker Prize, making Mantel the first woman and first British author to win it twice. Read in order — each novel follows directly from the last.",
+    startWith: 'Wolf Hall',
+    books: [
+      { title: 'Wolf Hall', author: 'Hilary Mantel', year: 2009, note: "Book 1 — Cromwell rises from his blacksmith father's yard in Putney to become Henry VIII's chief minister; the fall of Cardinal Wolsey and Thomas More; the rise of Anne Boleyn; Booker Prize winner" },
+      { title: 'Bring Up the Bodies', author: 'Hilary Mantel', year: 2012, note: "Book 2 — the fall of Anne Boleyn; Henry turns to Jane Seymour; Cromwell engineers the charges against Anne and the men accused with her; tighter and more concentrated than Wolf Hall; Booker Prize winner" },
+      { title: 'The Mirror & the Light', author: 'Hilary Mantel', year: 2020, note: "Book 3 — Cromwell at the height and end of his power, 1536 to 1540, ending in his execution; the longest of the three and the most intimate portrait of Cromwell's inner life; Mantel spent ten years on this final volume" },
+    ],
+    faq: [
+      { q: 'Do I need to read Wolf Hall in order?', a: "Yes — Wolf Hall, Bring Up the Bodies, and The Mirror & the Light follow one another directly and should be read in that order. Each is self-contained enough to be followed on its own terms, but the full emotional weight of the trilogy — particularly of Cromwell's fate in The Mirror & the Light — requires the context of the previous volumes." },
+      { q: 'What is unusual about the writing style in Wolf Hall?', a: "Wolf Hall is written in close third-person present tense and uses 'he' to refer to Cromwell throughout — even in scenes where multiple male characters are present — which creates an unusual intimacy with Cromwell's perspective. Mantel wanted to put the reader inside Cromwell's head so completely that his point of view became the reader's default. Most readers adapt quickly and find it one of the most immersive techniques in contemporary literary fiction." },
+      { q: 'Did Thomas Cromwell really do all the things in Wolf Hall?', a: "Mantel was careful about the historical record and invented freely within the documented gaps. The broad outlines — Cromwell's relationship with Wolsey, his role in the annulments and executions, his fall — are historically accurate. The intimate details of his domestic life and inner thoughts are Mantel's invention. She described her method as reading widely in the primary sources and then imagining what the evidence implied about the person." },
+      { q: 'Are there other books in the Wolf Hall series beyond the trilogy?', a: "The Wolf Hall Trilogy is complete at three volumes. Hilary Mantel died in September 2022. She left behind a short story collection, The Assassination of Margaret Thatcher (2014), and a stage adaptation of Wolf Hall was produced by the Royal Shakespeare Company. There is no continuation of the trilogy." },
+    ],
+  },
+  {
+    slug: 'if-beale-street-could-talk',
+    intro: "James Baldwin's If Beale Street Could Talk (1974) is a complete standalone novel. It is narrated by Tish Rivers, a young Black woman in Harlem who is nineteen and pregnant when her childhood sweetheart Fonny Hunt is falsely imprisoned for a rape he did not commit. The novel interweaves Tish's present-tense narration of the family's struggle to free Fonny before the baby arrives with her recollections of their love. Considered one of Baldwin's most accessible novels and his most fully realized love story.",
+    startWith: 'If Beale Street Could Talk',
+    books: [
+      { title: 'If Beale Street Could Talk', author: 'James Baldwin', year: 1974, note: "Standalone — Tish and Fonny in Harlem; Fonny imprisoned on a false rape charge; Tish pregnant; the family's fight to free him before the baby is born; Baldwin's most tender novel, narrated as a love story and an indictment of American justice" },
+      { title: "Giovanni's Room", author: 'James Baldwin', year: 1956, note: "Baldwin's second novel — an American man in Paris in love with an Italian bartender; a different world from Beale Street, but the same emotional honesty and refusal to flinch from desire", isOptional: true },
+      { title: 'Go Tell It on the Mountain', author: 'James Baldwin', year: 1953, note: "Baldwin's debut novel — John Grimes in Harlem on his fourteenth birthday; more formally complex, with retrospective chapters tracing the family back through the South; the most autobiographical of his novels", isOptional: true },
+      { title: 'Another Country', author: 'James Baldwin', year: 1962, note: "Baldwin's most ambitious novel — a large cast of Black and white, straight and gay characters in New York and Paris after the suicide of a jazz musician; big, unruly, and passionate", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is If Beale Street Could Talk a standalone?', a: "Yes — If Beale Street Could Talk is entirely self-contained and has no sequel. James Baldwin's other novels — Go Tell It on the Mountain (1953), Giovanni's Room (1956), Another Country (1962), and Tell Me How Long the Train's Been Gone (1968) — are all independent works not connected in plot or character to Beale Street." },
+      { q: 'Is If Beale Street Could Talk a true story?', a: "If Beale Street Could Talk is fiction, but it is rooted in documented reality. Baldwin was close friends with Tony Maynard, a Black man who was wrongly accused of murder and spent years in prison, and he wrote extensively about that case. The novel fictionalizes these concerns rather than retelling any specific case." },
+      { q: 'How does If Beale Street Could Talk end?', a: "The novel ends inconclusively and deliberately so: Fonny is still in prison when the baby is born, and Tish's narration leaves his future uncertain. Baldwin refused to resolve the novel's central injustice with a happy ending — to do so would falsify the reality he was depicting. The final pages show Tish visiting Fonny in prison with their child, and the two of them holding onto each other." },
+      { q: 'What is the film adaptation of If Beale Street Could Talk?', a: "If Beale Street Could Talk was adapted into a film in 2018 by Barry Jenkins, who had previously directed Moonlight. The film stars KiKi Layne as Tish and Stephan James as Fonny. Regina King won the Academy Award for Best Supporting Actress for her role as Tish's mother Sharon Rivers." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

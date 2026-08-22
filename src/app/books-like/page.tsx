@@ -201,6 +201,10 @@ export const metadata: Metadata = {
     'books like Revolutionary Road Richard Yates',
     'books like Go Tell It on the Mountain James Baldwin',
     'books like A Gentleman in Moscow Amor Towles',
+    'books like The Grapes of Wrath John Steinbeck',
+    'books like A Farewell to Arms Ernest Hemingway',
+    'books like Wolf Hall Hilary Mantel',
+    'books like If Beale Street Could Talk James Baldwin',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1073,6 +1077,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked A Gentleman in Moscow by Amor Towles?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like A Gentleman in Moscow include Rules of Civility and The Lincoln Highway (also by Amor Towles), The Book Thief by Markus Zusak, All the Light We Cannot See by Anthony Doerr, Doctor Zhivago by Boris Pasternak, The Master and Margarita by Mikhail Bulgakov, Wolf Hall by Hilary Mantel, and The Elegance of the Hedgehog by Muriel Barbery. Our full guide covers 8 picks for fans of Towles's warm, elegant historical fiction about character as the only thing we truly possess." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Grapes of Wrath by John Steinbeck?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Grapes of Wrath include Of Mice and Men and East of Eden and Cannery Row (also by Steinbeck), A Fine Balance by Rohinton Mistry, Native Son by Richard Wright, Beloved by Toni Morrison, The Road by Cormac McCarthy, and The Jungle by Upton Sinclair. Our full guide covers 8 picks for fans of Steinbeck's compassionate portrait of poverty, dispossession, and solidarity during the Great Depression." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Vanishing Half by Brit Bennett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Vanishing Half include Passing by Nella Larsen, The Mothers (also by Brit Bennett), Homegoing by Yaa Gyasi, Their Eyes Were Watching God by Zora Neale Hurston, Americanah by Chimamanda Ngozi Adichie, The Underground Railroad by Colson Whitehead, An American Marriage by Tayari Jones, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Bennett's multigenerational story about race, identity, and the costs of self-invention." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Farewell to Arms by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Farewell to Arms include The Sun Also Rises and For Whom the Bell Tolls and A Moveable Feast (also by Hemingway), All Quiet on the Western Front by Erich Maria Remarque, The English Patient by Michael Ondaatje, Birdsong by Sebastian Faulks, Tender Is the Night by F. Scott Fitzgerald, and The Things They Carried by Tim O'Brien. Our full guide covers 8 picks for fans of Hemingway's iceberg prose and his understanding of love and war." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Wolf Hall by Hilary Mantel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wolf Hall include Bring Up the Bodies and The Mirror & the Light and A Place of Greater Safety (also by Hilary Mantel), Hamnet by Maggie O'Farrell, The Pillars of the Earth by Ken Follett, A Gentleman in Moscow by Amor Towles, The Name of the Rose by Umberto Eco, and Lincoln in the Bardo by George Saunders. Our full guide covers 8 picks for fans of Mantel's Booker Prize-winning Tudor portrait of Thomas Cromwell." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked If Beale Street Could Talk by James Baldwin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If Beale Street Could Talk include Go Tell It on the Mountain and Giovanni's Room and Another Country (also by James Baldwin), Their Eyes Were Watching God by Zora Neale Hurston, The Vanishing Half by Brit Bennett, An American Marriage by Tayari Jones, Beloved by Toni Morrison, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Baldwin's love story and his indictment of the American criminal justice system." },
     },
   ],
 };
