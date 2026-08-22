@@ -504,6 +504,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['A Wizard\'s Guide to Defensive Baking', 'What Moves the Dead', 'Paladin\'s Grace'],
   },
+  {
+    name: 'Jennifer Saint',
+    bio: "Jennifer Saint is a British author of feminist mythology retellings. Her debut novel Ariadne (2021) retells the myth of Theseus and the Minotaur through the eyes of the Cretan princess who gave Theseus the thread — and her sister Phaedra. Ariadne was an immediate bestseller and established Saint as a leading voice in the growing genre of literary mythology retellings. She has since published Elektra (2022), which centers on Clytemnestra, Cassandra, and Elektra during the Trojan War's aftermath, and Atalanta (2023), a retelling of the myth of the female hero who ran faster than any man. All three novels are completely standalone.",
+    genre: 'fiction',
+    knownFor: ['Ariadne', 'Elektra', 'Atalanta'],
+  },
+  {
+    name: 'Neil Gaiman',
+    bio: "Neil Gaiman is a British author of fantasy, horror, and science fiction for adults and children, widely regarded as one of the most influential fantasy writers of the past 40 years. His adult novels include American Gods (2001), Anansi Boys (2005), Neverwhere (1996), and Stardust (1999). With Terry Pratchett he co-wrote Good Omens (1990). His children's books include Coraline (2002), The Graveyard Book (2008, Newbery Medal), and The Ocean at the End of the Lane (2013). He also wrote the comic book series The Sandman (1989–1996), which defined the literary potential of the form. American Gods and Good Omens have both been adapted into successful television series.",
+    genre: 'fantasy',
+    knownFor: ['American Gods', 'Stardust', 'Good Omens', 'Coraline', 'The Sandman'],
+  },
+  {
+    name: 'Becky Chambers',
+    bio: "Becky Chambers is an American science fiction author best known for the Wayfarers series — A Long Way to a Small, Angry Planet (2014), A Closed and Common Orbit (2016), Record of a Spaceborn Few (2018), and The Galaxy, and the Ground Within (2021) — a cozy, ensemble space opera series about ordinary people living ordinary lives in a galaxy full of different species. She also writes the Monk and Robot series, which began with A Psalm for the Wild-Built (2021). Chambers is credited with establishing the genre of 'cozy sci-fi' or 'hopepunk' — science fiction interested in cooperation, found family, and the texture of daily life rather than conflict and survival. She has won multiple Hugo Awards.",
+    genre: 'sci-fi',
+    knownFor: ['A Long Way to a Small, Angry Planet', 'A Psalm for the Wild-Built', 'A Closed and Common Orbit'],
+  },
+  {
+    name: 'Evan Winter',
+    bio: "Evan Winter is a South African-Canadian author of epic fantasy. His debut novel The Rage of Dragons (2019) — originally self-published, then picked up by Orbit — drew on Xhosa culture and Zulu history for its world-building, making it one of the first major epic fantasy series rooted in African rather than European medieval culture. The novel and its sequel The Fires of Vengeance (2020) form The Burning duology, a complete story. The series is praised for its technical combat, relentless pace, and the specificity of its world-building. Winter has said the series was directly influenced by his experience of not seeing his own cultural background reflected in the fantasy genre.",
+    genre: 'fantasy',
+    knownFor: ['The Rage of Dragons', 'The Fires of Vengeance'],
+  },
 ];
 
 function normalize(s: string) {
