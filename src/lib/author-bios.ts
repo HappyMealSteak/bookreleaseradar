@@ -804,6 +804,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['An American Marriage', 'Silver Sparrow', 'Leaving Atlanta'],
   },
+  {
+    name: 'Jesmyn Ward',
+    bio: "Jesmyn Ward is an American novelist born in DeLisle, Mississippi in 1977. She is the only woman and the first Black writer to have won the National Book Award for Fiction twice — for Salvage the Bones (2011) and Sing, Unburied, Sing (2017). Ward grew up in poverty in rural Mississippi and lost five young Black men in her community to drugs, accidents, and poverty in four years — an experience she documented in her memoir Men We Reaped (2013). Her fiction is set in and around DeLisle (fictionalized as Bois Sauvage) and is consistently interested in what poverty, racism, and the American criminal justice system do to Black families in the rural South. Her novels include Where the Line Bleeds (2008), Salvage the Bones, Sing, Unburied, Sing, and Let Us Descend (2023). Ward has been compared to Toni Morrison for her use of lyrical prose and supernatural elements to carry the weight of historical trauma. She is a professor at Tulane University.",
+    genre: 'fiction',
+    knownFor: ['Sing, Unburied, Sing', 'Salvage the Bones', 'Men We Reaped', 'Let Us Descend'],
+  },
+  {
+    name: 'Amy Tan',
+    bio: "Amy Tan is an American novelist born in Oakland, California in 1952, to Chinese immigrant parents from Shanghai. She graduated from San Jose State University and worked as a language development specialist and then a freelance business writer before turning to fiction. Her debut novel The Joy Luck Club (1989) — structured as sixteen interlinked stories told by four Chinese immigrant mothers and their American-born daughters — was an immediate bestseller and was a finalist for the National Book Award and the National Book Critics Circle Award. The Joy Luck Club was adapted into a widely seen film in 1993 directed by Wayne Wang. Tan followed it with The Kitchen God's Wife (1991), The Hundred Secret Senses (1995), The Bonesetter's Daughter (2001), Saving Fish from Drowning (2005), and The Valley of Amazement (2013). She has also written a memoir, The Opposite of Fate (2003). Tan is celebrated for her exploration of the gap between Chinese immigrant mothers and their American-born daughters — the different languages, memories, and understandings of what family and sacrifice mean across generations.",
+    genre: 'fiction',
+    knownFor: ['The Joy Luck Club', 'The Kitchen God\'s Wife', 'The Bonesetter\'s Daughter'],
+  },
+  {
+    name: 'Isabel Allende',
+    bio: "Isabel Allende is a Chilean-American novelist born in Lima, Peru in 1942, the daughter of a Chilean diplomat and cousin to Salvador Allende, the Chilean president who was overthrown and killed in the 1973 coup. Allende worked as a journalist in Chile before the coup forced her into exile; she moved to Venezuela and later to the United States, where she has lived since the 1980s. She wrote The House of the Spirits (1982) as a letter to her dying grandfather — a novel about three generations of the Trueba family in an unnamed South American country through a military coup that closely mirrors Chile's. The House of the Spirits became an international bestseller and a foundational text of Latin American magical realism. Allende has since published over 25 books, including Of Love and Shadows (1984), Eva Luna (1987), The Infinite Plan (1991), Paula (1994, a memoir about her daughter's death), Portrait in Sepia (2000), Maya's Notebook (2011), In the Midst of Winter (2017), and A Long Petal of the Sea (2019). She is one of the most widely read Spanish-language authors in the world and has sold over 77 million books.",
+    genre: 'fiction',
+    knownFor: ['The House of the Spirits', 'A Long Petal of the Sea', 'Eva Luna', 'Paula'],
+  },
+  {
+    name: 'Tommy Orange',
+    bio: "Tommy Orange is a Native American novelist of Cheyenne and Arapaho descent, born and raised in Oakland, California. He attended the Institute of American Indian Arts in Santa Fe and received his MFA from there. His debut novel There There (2018) — about twelve Native American characters converging on an Oakland powwow — was a Pulitzer Prize finalist, won the PEN/Hemingway Award, the Center for Fiction First Novel Prize, and the American Book Award, and was widely described as the most important debut novel about Native American experience in decades. Orange has said he wanted to write a novel about urban Native American experience — the majority of Native Americans live in cities, not on reservations — to counter the cultural assumption that Native American life means reservation life. His second novel, Wandering Stars (2024), continues the story of There There's survivors. Orange teaches at the Institute of American Indian Arts.",
+    genre: 'fiction',
+    knownFor: ['There There', 'Wandering Stars'],
+  },
 ];
 
 function normalize(s: string) {
