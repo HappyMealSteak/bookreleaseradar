@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Outliers Malcolm Gladwell',
+    'books like Antifragile Nassim Nicholas Taleb',
+    'books like The Big Short Michael Lewis',
+    'books like The Power of Habit Charles Duhigg',
+    'books like Talking to Strangers Malcolm Gladwell',
     'books like The Tipping Point Malcolm Gladwell',
     'books like Moneyball Michael Lewis',
     'books like Nudge Richard Thaler Cass Sunstein',
@@ -2215,6 +2220,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Outliers by Malcolm Gladwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Outliers include The Tipping Point by Malcolm Gladwell, Blink by Malcolm Gladwell, Grit by Angela Duckworth, Mindset by Carol Dweck, Range by David Epstein, and David and Goliath by Malcolm Gladwell. Our full guide covers 8 picks for fans of Gladwell's success research." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Antifragile by Nassim Nicholas Taleb?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Antifragile include The Black Swan by Nassim Taleb, Fooled by Randomness by Nassim Taleb, Skin in the Game by Nassim Taleb, Thinking, Fast and Slow by Daniel Kahneman, The Big Short by Michael Lewis, and The Innovator's Dilemma by Clayton Christensen. Our full guide covers 8 picks for fans of Taleb's antifragility philosophy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Big Short by Michael Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Big Short include Moneyball by Michael Lewis, Liar's Poker by Michael Lewis, Flash Boys by Michael Lewis, The Undoing Project by Michael Lewis, Too Big to Fail by Andrew Ross Sorkin, and The Black Swan by Nassim Taleb. Our full guide covers 8 picks for fans of Lewis's financial crisis story." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Power of Habit by Charles Duhigg?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Power of Habit include Atomic Habits by James Clear, Thinking, Fast and Slow by Daniel Kahneman, Nudge by Richard Thaler, Predictably Irrational by Dan Ariely, Switch by Chip Heath, and Smarter Faster Better by Charles Duhigg. Our full guide covers 8 picks for fans of Duhigg's habit science." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Talking to Strangers by Malcolm Gladwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Talking to Strangers include Blink by Malcolm Gladwell, The Tipping Point by Malcolm Gladwell, Thinking, Fast and Slow by Daniel Kahneman, The Confidence Game by Maria Konnikova, David and Goliath by Malcolm Gladwell, and Outliers by Malcolm Gladwell. Our full guide covers 8 picks for fans of Gladwell's stranger psychology." },
     },
     {
       '@type': 'Question',

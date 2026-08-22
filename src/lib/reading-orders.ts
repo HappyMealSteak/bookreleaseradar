@@ -5992,6 +5992,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'outliers',
+    intro: "Malcolm Gladwell's Outliers: The Story of Success (2008) challenges the myth of the self-made individual — arguing that extraordinary success is not produced by innate talent or individual determination but by context, timing, cultural legacy, and the accumulation of roughly 10,000 hours of deliberate practice, a combination that is largely beyond any individual's control.",
+    startWith: 'Outliers',
+    books: [
+      { title: 'Outliers', author: 'Malcolm Gladwell', year: 2008, note: 'Start here. The complete standalone book.' },
+      { title: 'The Tipping Point', author: 'Malcolm Gladwell', year: 2000, note: "Gladwell's debut, on how social phenomena spread. Read in any order relative to Outliers." },
+      { title: 'Blink', author: 'Malcolm Gladwell', year: 2005, note: "Gladwell's second book, on rapid intuitive judgment. Read in any order." },
+      { title: 'David and Goliath', author: 'Malcolm Gladwell', year: 2013, note: "Gladwell's fifth book, on underdogs and the hidden advantages of disadvantage. Read in any order." },
+    ],
+    faq: [
+      { q: 'What is the 10,000-hour rule?', a: "Gladwell popularized the claim that it takes roughly 10,000 hours of deliberate practice to achieve mastery in any complex skill — citing research by psychologist Anders Ericsson on expert violinists and chess grandmasters. The claim was quickly adopted in popular culture as a guide to skill development. Ericsson himself later objected that Gladwell misrepresented his research: the 10,000-hour figure was an average across experts in one study, not a universal threshold, and crucially Ericsson's concept of 'deliberate practice' (structured, feedback-driven, focused on weaknesses) is quite different from mere hours of practice." },
+      { q: "What is Outliers' argument about the birthdate effect in hockey?", a: "Gladwell opens Outliers with the observation that an extraordinarily high proportion of elite Canadian hockey players are born in January, February, and March. The explanation: the cutoff date for youth hockey leagues is January 1, meaning a child born in January is almost a year older than a child born in December in the same cohort. At the age of 8 or 10, that developmental gap is enormous; the January-born children are bigger, faster, and more coordinated, so they are selected for elite development programs, given better coaching and more practice time, and become the elite players they were predicted to be — the 'relative age effect.' Gladwell uses this as an example of how context, not talent, determines who gets the opportunity to develop mastery." },
+    ],
+  },
+  {
+    slug: 'antifragile',
+    intro: "Nassim Nicholas Taleb's Antifragile: Things That Gain from Disorder (2012) is the third book of the Incerto series, developing the concept of 'antifragility' — the property of systems that benefit from volatility, stress, and disorder, improving as a result rather than merely surviving — as the constructive response to the fragility that The Black Swan documents.",
+    startWith: 'Antifragile',
+    books: [
+      { title: 'Fooled by Randomness', author: 'Nassim Nicholas Taleb', year: 2001, note: 'The intellectual foundation of the Incerto. Start here for the full argument in order.' },
+      { title: 'The Black Swan', author: 'Nassim Nicholas Taleb', year: 2007, note: 'The most widely read Incerto book. Can start here — most readers do.' },
+      { title: 'The Bed of Procrustes', author: 'Nassim Nicholas Taleb', year: 2010, note: 'A collection of philosophical aphorisms. Can be skipped or read in any order.' },
+      { title: 'Antifragile', author: 'Nassim Nicholas Taleb', year: 2012, note: 'The constructive statement of the Incerto philosophy. Read after The Black Swan.' },
+      { title: 'Skin in the Game', author: 'Nassim Nicholas Taleb', year: 2018, note: 'The fourth major Incerto volume, on the ethics and epistemics of risk. Read last.' },
+    ],
+    faq: [
+      { q: 'What is antifragility?', a: "Taleb defines antifragility as the property of systems that benefit from volatility, stress, disorder, and uncertainty rather than merely surviving them. The standard distinction is between fragile systems (harmed by shocks), robust systems (unaffected by shocks), and antifragile systems (improved by shocks). Examples: the human body is antifragile with respect to physical stress (exercise makes it stronger), entrepreneurship is antifragile (the failure of many attempts produces one huge success), and optionality is antifragile (having choices that benefit from upside without symmetric downside). Taleb argues that modern institutions consistently pursue robustness and eliminate volatility in ways that make them more fragile — by removing the small stresses that would have prepared them for large ones." },
+      { q: 'Should I read Antifragile before or after The Black Swan?', a: "Most readers start with The Black Swan (2007), which is more accessible and makes the negative case (things fail catastrophically in unpredictable ways), then read Antifragile (2012), which makes the positive case (here is how to build systems that benefit from uncertainty). However, Taleb intended the Incerto to be read in order — starting with Fooled by Randomness (2001), then The Black Swan, then Antifragile — and readers who start with Fooled by Randomness report that the later books make more sense. The Bed of Procrustes (2010) is an optional collection of philosophical aphorisms that most readers skip." },
+    ],
+  },
+  {
+    slug: 'the-big-short',
+    intro: "Michael Lewis's The Big Short: Inside the Doomsday Machine (2010) tells the story of the small group of investors who saw the 2008 financial crisis coming and bet against the mortgage bond market — providing a narrative account of how the housing bubble was inflated, why conventional wisdom missed it, and how the people who understood it profited from its collapse.",
+    startWith: 'The Big Short',
+    books: [
+      { title: 'The Big Short', author: 'Michael Lewis', year: 2010, note: 'The complete standalone book. Start here.' },
+      { title: 'Liar\'s Poker', author: 'Michael Lewis', year: 1989, note: "Lewis's debut memoir of his years as a bond salesman at Salomon Brothers in the 1980s — the Wall Street culture that The Big Short traces to its disaster. Read first for the historical backstory." },
+      { title: 'Flash Boys', author: 'Michael Lewis', year: 2014, note: "Lewis's account of high-frequency trading and the market structure it produces — the next Lewis book after The Big Short in his examination of how Wall Street works and fails." },
+    ],
+    faq: [
+      { q: 'What is a credit default swap?', a: "A credit default swap (CDS) is a financial instrument that functions like an insurance policy on a bond: the buyer pays a periodic premium, and if the bond defaults, the seller pays the buyer the bond's face value. The short sellers in The Big Short used credit default swaps on mortgage-backed securities — paying premiums to financial institutions like Goldman Sachs and Deutsche Bank who believed the housing market would never collapse — and collected enormous payouts when the housing market did collapse and the securities defaulted. The irony Lewis emphasizes is that the sellers of these swaps (the major investment banks) didn't believe the underlying securities could default, and the buyers (the short sellers) did." },
+      { q: 'Who were the real people in The Big Short?', a: "The major figures in The Big Short are Michael Burry (a one-eyed former neurologist turned hedge fund manager at Scion Capital who was among the first to recognize the housing bubble), Steve Eisman (a skeptical Wall Street analyst who ran a hedge fund called FrontPoint Partners), Charlie Ledley and Jamie Mai (two young investors who ran a tiny fund called Cornwall Capital from a garden shed), and Greg Lippmann (a Deutsche Bank trader who sold credit default swaps to Eisman and others while himself betting against the same securities he was selling). The 2015 film adaptation starred Christian Bale as Burry, Steve Carell as Eisman (renamed Mark Baum), and Ryan Gosling as a Lippmann-inspired character." },
+    ],
+  },
+  {
+    slug: 'the-power-of-habit',
+    intro: "Charles Duhigg's The Power of Habit: Why We Do What We Do in Life and Business (2012) draws on neuroscience and psychology to explain how habits are formed and changed, arguing that most human behavior is driven by the 'habit loop' — a cue that triggers a routine that delivers a reward — and that understanding this loop allows individuals and organizations to deliberately redesign their habits.",
+    startWith: 'The Power of Habit',
+    books: [
+      { title: 'The Power of Habit', author: 'Charles Duhigg', year: 2012, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'Smarter Faster Better', author: 'Charles Duhigg', year: 2016, note: "Duhigg's follow-up, on the science of productivity — how to be more productive in life and business. Read after for the applied extension of the same methodology." },
+    ],
+    faq: [
+      { q: 'What is the habit loop?', a: "Duhigg, building on neuroscience research from MIT, identifies the habit loop as a three-part cycle: a cue (a trigger that tells the brain to go into automatic mode), a routine (the behavior itself, which can be physical, mental, or emotional), and a reward (something that tells the brain whether this loop is worth remembering). He argues that habits cannot be eliminated — the neural pathways persist — but can be changed by identifying the cue and reward and inserting a different routine in between. This 'golden rule of habit change' (keep the cue and reward, change the routine) is the practical application of the neuroscience." },
+      { q: 'What is a keystone habit?', a: "Duhigg introduces the concept of 'keystone habits' — habits whose adoption tends to trigger the formation of other good habits through a cascading chain of changes. The paradigmatic example is exercise: people who begin exercising regularly tend also to start eating better, sleeping better, drinking less, and being more productive at work, even when no one tells them to. Duhigg argues that some habits are structurally more powerful than others — they create 'small wins' that reshape patterns of behavior across many areas of life — and that identifying and cultivating keystone habits is more efficient than trying to change many behaviors simultaneously." },
+    ],
+  },
+  {
+    slug: 'talking-to-strangers',
+    intro: "Malcolm Gladwell's Talking to Strangers: What We Should Know About the People We Don't Know (2019) examines why human beings are systematically bad at reading strangers — defaulting to assumptions of honesty and transparency in situations where those assumptions are wrong — and how this default produces catastrophic misunderstandings, from Neville Chamberlain's meetings with Hitler to the death of Sandra Bland.",
+    startWith: 'Talking to Strangers',
+    books: [
+      { title: 'Talking to Strangers', author: 'Malcolm Gladwell', year: 2019, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'Blink', author: 'Malcolm Gladwell', year: 2005, note: "Gladwell's earlier examination of rapid intuitive judgment — the companion examination of when first impressions work and when they fail. Read before or after in any order." },
+      { title: 'The Tipping Point', author: 'Malcolm Gladwell', year: 2000, note: "Gladwell's debut. Read in any order across Gladwell's books." },
+    ],
+    faq: [
+      { q: 'What is the central argument of Talking to Strangers?', a: "Gladwell argues that humans have a systematic default to 'truth' — we assume strangers are being honest unless they display obvious signs of deception — and a default to 'transparency' — we assume that people's emotional states are accurately reflected in their behavior. Both defaults work well enough in most situations (most people are honest most of the time, and most emotions are transparently expressed) but produce catastrophic errors in the minority of situations where they don't: a truthful person with an unusual emotional expression (like Sandra Bland) reads as suspicious, while a skilled liar with practiced honest-looking behavior (like Bernie Madoff) reads as trustworthy." },
+      { q: 'Why does Gladwell discuss Sandra Bland in Talking to Strangers?', a: "Sandra Bland was a twenty-eight-year-old Black woman who was pulled over for a minor traffic violation in Prairie View, Texas, in 2015 by state trooper Brian Encinia, and who died in her jail cell three days later. Gladwell uses the case as the final chapter of Talking to Strangers because it illustrates the interaction of all the failures he has documented: the traffic stop escalated because Encinia defaulted to the assumption that Bland's anger (a normal emotional response to a perceived injustice) was threatening rather than legitimate; his training in 'coupling' (the association of certain behaviors with danger) primed him to see danger; and Bland paid the price for his failure to recognize that her behavior was transparently expressing a real grievance, not concealing a threat." },
+    ],
+  },
+  {
     slug: 'the-tipping-point',
     intro: "Malcolm Gladwell's The Tipping Point: How Little Things Can Make a Big Difference (2000) is a landmark of popular social science arguing that social phenomena — from crime waves to fashion trends to the spread of diseases — can 'tip' from localized occurrences to epidemics through specific, predictable mechanisms: the actions of connectors, mavens, and salespeople; the stickiness of the message; the power of context.",
     startWith: 'The Tipping Point',
