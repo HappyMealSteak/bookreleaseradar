@@ -328,6 +328,11 @@ export const metadata: Metadata = {
     'books like A Passage to India E.M. Forster',
     'books like Sons and Lovers D.H. Lawrence',
     'books like A Room with a View E.M. Forster',
+    'books like Burmese Days George Orwell',
+    'books like A Portrait of the Artist as a Young Man James Joyce',
+    'books like Things Fall Apart Chinua Achebe',
+    'books like Saturday Night and Sunday Morning Alan Sillitoe',
+    'books like Housekeeping Marilynne Robinson',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1840,6 +1845,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked A Room with a View by E.M. Forster?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like A Room with a View include Howards End (also by Forster), The Age of Innocence by Edith Wharton, Enchanted April by Elizabeth von Arnim, The Remains of the Day by Kazuo Ishiguro, Where Angels Fear to Tread by E.M. Forster, Northanger Abbey by Jane Austen, The Portrait of a Lady by Henry James, and A Passage to India by E.M. Forster. Our full guide covers 8 picks for fans of Forster's sunny Edwardian comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Burmese Days by George Orwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Burmese Days include A Passage to India by E.M. Forster, Shooting an Elephant by George Orwell, Heart of Darkness by Joseph Conrad, The Quiet American by Graham Greene, Kim by Rudyard Kipling, Things Fall Apart by Chinua Achebe, The Remains of the Day by Kazuo Ishiguro, and The Raj Quartet by Paul Scott. Our full guide covers 8 picks for fans of Orwell's colonial masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Portrait of the Artist as a Young Man by James Joyce?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Portrait of the Artist as a Young Man include Sons and Lovers by D.H. Lawrence, Dubliners by James Joyce, The Catcher in the Rye by J.D. Salinger, Steppenwolf by Hermann Hesse, The Magic Mountain by Thomas Mann, Notes from Underground by Fyodor Dostoevsky, The Bell Jar by Sylvia Plath, and Hunger by Knut Hamsun. Our full guide covers 8 picks for fans of Joyce's Modernist bildungsroman." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Things Fall Apart by Chinua Achebe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Things Fall Apart include Arrow of God by Chinua Achebe, Season of Migration to the North by Tayeb Salih, Weep Not, Child by Ngũgĩ wa Thiong'o, Purple Hibiscus by Chimamanda Ngozi Adichie, A Grain of Wheat by Ngũgĩ wa Thiong'o, Half of a Yellow Sun by Chimamanda Ngozi Adichie, A Passage to India by E.M. Forster, and Petals of Blood by Ngũgĩ wa Thiong'o. Our full guide covers 8 picks for fans of Achebe's foundational African novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Saturday Night and Sunday Morning by Alan Sillitoe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Saturday Night and Sunday Morning include The Loneliness of the Long Distance Runner by Alan Sillitoe, Room at the Top by John Braine, Look Back in Anger by John Osborne, Sons and Lovers by D.H. Lawrence, This Sporting Life by David Storey, A Kind of Loving by Stan Barstow, The L-Shaped Room by Lynne Reid Banks, and Billy Liar by Keith Waterhouse. Our full guide covers 8 picks for fans of Sillitoe's working-class classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Housekeeping by Marilynne Robinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Housekeeping include Gilead (also by Robinson), The Virgin Suicides by Jeffrey Eugenides, Beloved by Toni Morrison, A Farewell to Arms by Ernest Hemingway, The God of Small Things by Arundhati Roy, The Givenness of Things by Marilynne Robinson, Housekeeping vs. the Dirt by Nick Hornby, and Mrs Dalloway by Virginia Woolf. Our full guide covers 8 picks for fans of Robinson's lyrical debut." },
     },
   ],
 };
