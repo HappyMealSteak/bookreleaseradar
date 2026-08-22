@@ -65,6 +65,9 @@ export const metadata: Metadata = {
     'books like Piranesi Susanna Clarke',
     'books like House in the Cerulean Sea',
     'books like Jonathan Strange Mr Norrell',
+    'books like Circe Madeline Miller',
+    'books like The Goblin Emperor',
+    'books like The Raven Boys Raven Cycle',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -166,6 +169,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Circe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Circe by Madeline Miller include The Song of Achilles (also by Miller), Piranesi by Susanna Clarke, Ariadne by Jennifer Saint, The Bear and the Nightingale by Katherine Arden, The Priory of the Orange Tree, and The Starless Sea. Our full Circe guide covers 8 picks for fans of lyrical feminist mythology retelling." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Goblin Emperor?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Goblin Emperor include The House in the Cerulean Sea by TJ Klune, Legends & Lattes by Travis Baldree, Piranesi by Susanna Clarke, The Name of the Wind, Six of Crows, and Circe. Our full Goblin Emperor guide covers 8 cozy and kind fantasy picks for fans of unexpected rulers and found families." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Raven Boys?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Raven Boys include Strange the Dreamer by Laini Taylor, Shadow and Bone, An Ember in the Ashes, Six of Crows, Caraval by Stephanie Garber, and The Night Circus. Our full Raven Cycle guide covers 8 atmospheric YA fantasy picks for fans of found families and slow-burn romance." },
     },
     {
       '@type': 'Question',

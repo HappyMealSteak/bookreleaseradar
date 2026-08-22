@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'circe',
+    name: 'Circe',
+    shortName: 'Circe',
+    author: 'Madeline Miller',
+    authorQuery: 'Madeline Miller',
+    genre: 'fantasy',
+    description:
+      "Madeline Miller's Circe (2018) is a standalone literary fantasy novel retelling the life of the witch from Greek mythology — the daughter of the sun god Helios who is exiled to the island of Aeaea after discovering she has the power to transform both things and people. Over millennia of exile, Circe encounters Daedalus and the Minotaur, sails with the crew of the Argonauts, hosts Odysseus, and finally comes into open conflict with the gods. Miller's prose is lyrical and precise, and the novel is as interested in what the myths say about power, gender, and divinity as it is in retelling them. Circe won the Goodreads Choice Award for Fantasy and was a New York Times bestseller.",
+    searchTerms: [
+      'Madeline Miller new book',
+      'Circe sequel',
+      'is Circe a series',
+      'Circe and Song of Achilles order',
+    ],
+  },
+  {
+    slug: 'goblin-emperor',
+    name: 'The Goblin Emperor',
+    shortName: 'Goblin Emperor',
+    author: 'Katherine Addison',
+    authorQuery: 'Katherine Addison',
+    genre: 'fantasy',
+    description:
+      "Katherine Addison's The Goblin Emperor (2014) is a standalone fantasy novel about Maia — the half-goblin, half-elf fourth son of the Emperor of the Elflands — who unexpectedly becomes Emperor when his father and three older brothers are killed in an airship accident. Raised in exile by an abusive caretaker, Maia knows nothing about court and has no allies. The novel follows his first months ruling through kindness in a court built around cruelty. The Goblin Emperor is frequently cited as one of the foundational texts of cozy fantasy. Addison also wrote The Witness for the Dead (2021) and The Grief of Stones (2022), companion novels set in the same world.",
+    searchTerms: [
+      'Katherine Addison new book',
+      'Goblin Emperor sequel',
+      'Goblin Emperor series',
+      'is Goblin Emperor a standalone',
+    ],
+  },
+  {
+    slug: 'raven-cycle',
+    name: 'Raven Cycle',
+    shortName: 'Raven Cycle',
+    author: 'Maggie Stiefvater',
+    authorQuery: 'Maggie Stiefvater',
+    genre: 'fantasy',
+    description:
+      "Maggie Stiefvater's Raven Cycle is a four-book YA fantasy series set in Henrietta, Virginia, where ley lines concentrate supernatural energy. Blue Sargent comes from a family of psychics but has no visions herself — only the ability to amplify others'. She has been told her whole life that kissing her true love will kill him. When she meets four prep school boys searching for the sleeping Welsh king Glendower along the ley lines, she becomes entangled in a quest that will cost more than any of them expected. Stiefvater's writing is distinctive — lyrical, atmospheric, and funny in the same breath — and the series has a devoted cult following.",
+    searchTerms: [
+      'Maggie Stiefvater new book',
+      'Raven Cycle reading order',
+      'Raven Boys books in order',
+      'Dreamer Trilogy reading order',
+    ],
+  },
+  {
     slug: 'piranesi',
     name: 'Piranesi',
     shortName: 'Piranesi',

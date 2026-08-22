@@ -1243,6 +1243,54 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What is Jonathan Strange & Mr Norrell about?', a: "Set in an alternate Napoleonic England where magic was once practiced but has been absent for centuries, the novel follows Mr Norrell — a reclusive scholar who has hoarded all the books of magic — and Jonathan Strange, a gentleman who discovers he has a natural gift for it. As their partnership deteriorates, they attract the attention of an ancient and dangerous fairy who has his own plans for English magic." },
     ],
   },
+  {
+    slug: 'circe',
+    intro: "Madeline Miller's Circe (2018) is a standalone novel — there is no sequel and no direct series. Miller also wrote The Song of Achilles (2011), which is set in the same Greek mythological world. Both books can be read in any order; they share mythology and occasionally characters but not a continuous story.",
+    startWith: 'Circe',
+    books: [
+      { title: 'Circe', author: 'Madeline Miller', year: 2018, note: "Standalone — the witch of Greek mythology narrates her own life, from exile to power, in lyrical literary prose" },
+      { title: 'The Song of Achilles', author: 'Madeline Miller', year: 2011, note: "Companion standalone — the Trojan War through Patroclus's eyes; same world, different story, any order" },
+    ],
+    faq: [
+      { q: 'Is Circe a series?', a: "No — Circe is a standalone novel by Madeline Miller. Miller also wrote The Song of Achilles (2011), which is set in the same Greek mythological world but tells a different story. Both books can be read in any order." },
+      { q: 'Should I read Circe or The Song of Achilles first?', a: "You can read either first. Circe and The Song of Achilles share Greek mythology and occasionally reference the same mythological events, but they are set in different periods and tell completely different stories. Most readers have a strong preference for one or the other — The Song of Achilles is more romantic and tragic; Circe is more about identity and power." },
+      { q: 'What is Circe about?', a: "Circe follows the daughter of the sun god Helios — a nymph with an unsettling voice and no apparent power — who discovers she has the ability to transform things and people. Exiled to the island of Aeaea, she slowly builds her power and her identity over millennia, encountering figures from Greek mythology — Daedalus, Odysseus, Medea — and eventually coming into conflict with the gods who control her world." },
+      { q: 'Is Circe appropriate for adults?', a: "Circe is written for adult readers. While the prose is accessible and the story engaging, it deals with adult themes including sexual violence, revenge, and the subjugation of women in mythology. Miller retells many of the more disturbing myths in Circe (including Scylla's transformation and aspects of Odysseus's travels) without sanitizing them." },
+    ],
+  },
+  {
+    slug: 'goblin-emperor',
+    intro: "Katherine Addison's The Goblin Emperor (2014) is largely a standalone novel. Addison has also written The Witness for the Dead (2021), a companion novel set in the same world with a minor character from The Goblin Emperor as the protagonist, and its sequel The Grief of Stones (2022). The Goblin Emperor can be read entirely alone; the companions add to the world but don't continue Maia's story.",
+    startWith: 'The Goblin Emperor',
+    books: [
+      { title: 'The Goblin Emperor', author: 'Katherine Addison', year: 2014, note: "Standalone — half-goblin Maia unexpectedly becomes emperor and must learn to rule while everyone around him expects him to fail" },
+      { title: 'The Witness for the Dead', author: 'Katherine Addison', year: 2021, note: "Companion — set in the same world; Thara Celehar investigates deaths using his gift for communing with the recently dead" },
+      { title: 'The Grief of Stones', author: 'Katherine Addison', year: 2022, note: "Sequel to Witness for the Dead; continues Thara's story" },
+    ],
+    faq: [
+      { q: 'Is The Goblin Emperor a series?', a: "The Goblin Emperor is largely a standalone novel. Katherine Addison has written two companion books set in the same world — The Witness for the Dead (2021) and its sequel The Grief of Stones (2022) — which follow a different character, Thara Celehar. These companions can be read independently of The Goblin Emperor." },
+      { q: 'Do I need to read The Goblin Emperor before The Witness for the Dead?', a: "You do not need to read The Goblin Emperor before The Witness for the Dead — they follow different protagonists and different plots in the same world. However, many readers find The Goblin Emperor enriches the world and its history in a way that makes the companion books more rewarding." },
+      { q: 'What is The Goblin Emperor about?', a: "Maia is the half-goblin, half-elf fourth son of the Emperor of the Elflands — raised by an abusive caretaker in a remote estate, never expected to inherit anything. When the Emperor and his three other sons die in an airship accident, Maia becomes Emperor. He knows nothing about court, has no allies, and nearly everyone in the palace wanted someone else on the throne. The novel follows his first months trying to rule by being kind in a system built around cruelty." },
+      { q: 'Is The Goblin Emperor cozy fantasy?', a: "The Goblin Emperor is often cited as one of the founding texts of cozy fantasy, alongside The House in the Cerulean Sea — though it was published before that term was coined. The novel is notable for its almost complete absence of violence, its focus on political problem-solving through kindness and coalition-building, and its deeply empathetic protagonist who refuses to become cruel despite every pressure to do so." },
+    ],
+  },
+  {
+    slug: 'raven-cycle',
+    intro: "Maggie Stiefvater's Raven Cycle is a complete four-book YA fantasy series following Blue Sargent — a girl who can amplify psychic visions but cannot have them herself — and a group of prep school boys searching for the ley lines and the sleeping Welsh king Glendower. All four books must be read in order. There is also a connected spinoff trilogy (Dreamer Trilogy) following Ronan Lynch.",
+    startWith: 'The Raven Boys',
+    books: [
+      { title: 'The Raven Boys', author: 'Maggie Stiefvater', year: 2012, note: 'Book 1 — Blue meets Gansey, Ronan, Adam, and Noah; the search for Glendower begins' },
+      { title: 'The Dream Thieves', author: 'Maggie Stiefvater', year: 2013, note: "Book 2 — Ronan's dream-pulling power and the Grey Man's arrival in Henrietta" },
+      { title: 'Blue Lily, Lily Blue', author: 'Maggie Stiefvater', year: 2014, note: "Book 3 — Blue's mother is missing; the ley lines grow dangerous" },
+      { title: 'The Raven King', author: 'Maggie Stiefvater', year: 2016, note: 'Book 4 — The series conclusion; Glendower is found and the ley lines reach crisis' },
+    ],
+    faq: [
+      { q: 'What is the Raven Cycle reading order?', a: "Read The Raven Boys (2012), The Dream Thieves (2013), Blue Lily, Lily Blue (2014), and The Raven King (2016). All four books must be read in order. Maggie Stiefvater also wrote the Dreamer Trilogy (Call Down the Hawk, Mister Impossible, Greywaren) which is a connected spinoff following Ronan Lynch." },
+      { q: 'How many Raven Cycle books are there?', a: "The Raven Cycle by Maggie Stiefvater is a complete four-book series: The Raven Boys, The Dream Thieves, Blue Lily Lily Blue, and The Raven King. There is also a connected spinoff trilogy (the Dreamer Trilogy) following Ronan Lynch through Call Down the Hawk, Mister Impossible, and Greywaren." },
+      { q: 'Is the Raven Cycle connected to the Dreamer Trilogy?', a: "Yes — the Dreamer Trilogy (Call Down the Hawk, Mister Impossible, Greywaren) follows Ronan Lynch, a main character from the Raven Cycle, in the aftermath of the main series. It is recommended to read the Raven Cycle first, though the Dreamer Trilogy is designed to be accessible to new readers." },
+      { q: 'What is The Raven Boys about?', a: "Blue Sargent comes from a family of psychics but has no powers of her own — instead she can amplify the visions of others. She has been told her whole life that if she kisses her true love, he will die. When she encounters four prep school boys searching for the ley lines and the legendary Welsh king Owen Glendower, Blue is pulled into their search — and toward the boy she may be destined to kill." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
