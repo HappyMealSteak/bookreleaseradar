@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Shoe Dog Phil Knight',
+    'books like Creativity Inc Ed Catmull',
+    'books like When Breath Becomes Air Paul Kalanithi',
+    "books like Man's Search for Meaning Viktor Frankl",
+    'books like The Body Keeps the Score Bessel van der Kolk',
     'books like Good to Great Jim Collins',
     "books like The Innovator's Dilemma Clayton Christensen",
     'books like Thinking in Systems Donella Meadows',
@@ -2240,6 +2245,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Shoe Dog by Phil Knight?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shoe Dog include The Hard Thing About Hard Things by Ben Horowitz, Losing My Virginity by Richard Branson, Open by Andre Agassi, The Ride of a Lifetime by Robert Iger, Elon Musk by Walter Isaacson, and Barbarian Days by William Finnegan. Our full guide covers 8 picks for fans of Knight's memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Creativity, Inc. by Ed Catmull?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Creativity, Inc. include The War of Art by Steven Pressfield, The Ride of a Lifetime by Robert Iger, Art and Fear by David Bayles, Originals by Adam Grant, The Innovator's Dilemma by Clayton Christensen, and The Culture Code by Daniel Coyle. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked When Breath Becomes Air by Paul Kalanithi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like When Breath Becomes Air include Being Mortal by Atul Gawande, The Year of Magical Thinking by Joan Didion, Mortality by Christopher Hitchens, H Is for Hawk by Helen Macdonald, The Emperor of All Maladies by Siddhartha Mukherjee, and Gratitude by Oliver Sacks. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Man's Search for Meaning by Viktor Frankl?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Man's Search for Meaning include The Will to Meaning by Viktor Frankl, When Breath Becomes Air by Paul Kalanithi, Tribe by Sebastian Junger, Flourishing by Martin Seligman, The Book of Joy by the Dalai Lama and Archbishop Tutu, and Night by Elie Wiesel. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Body Keeps the Score by Bessel van der Kolk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Body Keeps the Score include Trauma and Recovery by Judith Herman, Maybe You Should Talk to Someone by Lori Gottlieb, In the Realm of Hungry Ghosts by Gabor Maté, Waking the Tiger by Peter Levine, The Deepest Well by Nadine Burke Harris, and Educated by Tara Westover. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
