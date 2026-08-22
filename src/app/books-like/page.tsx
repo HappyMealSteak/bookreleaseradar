@@ -343,6 +343,11 @@ export const metadata: Metadata = {
     'books like The English Patient Michael Ondaatje',
     'books like Picnic at Hanging Rock Joan Lindsay',
     'books like The Millstone Margaret Drabble',
+    'books like Open City Teju Cole',
+    'books like White Teeth Zadie Smith',
+    'books like Regeneration Trilogy Pat Barker',
+    'books like Excellent Women Barbara Pym',
+    'books like Birdsong Sebastian Faulks',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1930,6 +1935,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Millstone by Margaret Drabble?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Millstone include The Waterfall (also by Drabble), The Women's Room by Marilyn French, Excellent Women by Barbara Pym, The Bell Jar by Sylvia Plath, Disobedience by Naomi Alderman, The Prime of Miss Jean Brodie by Muriel Spark, Lolly Willowes by Sylvia Townsend Warner, and Mrs Bridge by Evan S. Connell. Our full guide covers 8 picks for fans of Drabble's postwar feminist classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Open City by Teju Cole?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Open City include The Rings of Saturn by W.G. Sebald, Austerlitz by W.G. Sebald, Americanah by Chimamanda Ngozi Adichie, The Unconsoled by Kazuo Ishiguro, Mrs Dalloway by Virginia Woolf, Saturday by Ian McEwan, Known and Strange Things by Teju Cole, and In the Skin of a Lion by Michael Ondaatje. Our full guide covers 8 picks for fans of Cole's meditative walking novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked White Teeth by Zadie Smith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like White Teeth include NW (also by Smith), Americanah by Chimamanda Ngozi Adichie, The Satanic Verses by Salman Rushdie, Brick Lane by Monica Ali, A Fine Balance by Rohinton Mistry, The Buddha of Suburbia by Hanif Kureishi, Small Island by Andrea Levy, and On Beauty by Zadie Smith. Our full guide covers 8 picks for fans of Smith's multicultural London debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked the Regeneration Trilogy by Pat Barker?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like the Regeneration Trilogy include Birdsong by Sebastian Faulks, Goodbye to All That by Robert Graves, the war poems of Wilfred Owen, All Quiet on the Western Front by Erich Maria Remarque, A Farewell to Arms by Ernest Hemingway, Strange Meeting by Susan Hill, Testament of Youth by Vera Brittain, and The Return of the Soldier by Rebecca West. Our full guide covers 8 picks for fans of Barker's World War I trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Excellent Women by Barbara Pym?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Excellent Women include A Glass of Blessings (also by Pym), The Millstone by Margaret Drabble, The Prime of Miss Jean Brodie by Muriel Spark, Cranford by Elizabeth Gaskell, Miss Pettigrew Lives for a Day by Winifred Watson, The Diary of a Provincial Lady by E.M. Delafield, Quartet in Autumn by Barbara Pym, and Village School by Miss Read. Our full guide covers 8 picks for fans of Pym's quiet English comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Birdsong by Sebastian Faulks?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Birdsong include Regeneration by Pat Barker, A Farewell to Arms by Ernest Hemingway, All Quiet on the Western Front by Erich Maria Remarque, The English Patient by Michael Ondaatje, The Remains of the Day by Kazuo Ishiguro, Testament of Youth by Vera Brittain, Charlotte Gray by Sebastian Faulks, and Cold Mountain by Charles Frazier. Our full guide covers 8 picks for fans of Faulks's World War I novel." },
     },
   ],
 };
