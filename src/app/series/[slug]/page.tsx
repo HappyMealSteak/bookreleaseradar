@@ -201,7 +201,7 @@ export default async function SeriesPage({ params }: Props) {
         {/* Books */}
         <BookGrid
           books={books}
-          emptyMessage={`No books found yet for ${series.name}. Check back after the next seed run.`}
+          emptyMessage={hasReadingOrder ? `See the full ${series.shortName ?? series.name} reading order for all books in the series.` : `No upcoming books tracked for ${series.name} yet — check back soon.`}
         />
 
         {/* About section */}
