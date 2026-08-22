@@ -1020,6 +1020,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['A Gentleman in Moscow', 'Rules of Civility', 'The Lincoln Highway'],
   },
+  {
+    name: 'John Steinbeck',
+    bio: "John Steinbeck (1902–1968) was an American novelist born in Salinas, California — the Salinas Valley that appears in East of Eden and the surrounding Central California landscape that appears in nearly all his major fiction. He attended Stanford without graduating and worked as a manual laborer, reporter, and caretaker before his early novels began to find an audience. Tortilla Flat (1935) and In Dubious Battle (1936) established his reputation; Of Mice and Men (1937) made him nationally famous. The Grapes of Wrath (1939), based on months he spent living among Dust Bowl migrants in California and reporting for the San Francisco News, won the Pulitzer Prize in 1940 and sold a quarter of a million copies within a year of publication. It was burned in Kern County, California, immediately after publication. Steinbeck continued to write steadily throughout the 1940s and 1950s — Cannery Row (1945), East of Eden (1952), which he considered his masterwork — but his later fiction was less well received by critics, who felt his social engagement had softened into sentiment. He was awarded the Nobel Prize in Literature in 1962, with the committee citing 'his realistic and imaginative writings, combining as they do sympathetic humour and keen social perception.' He died in New York in 1968. His reputation, which dipped after his death, has recovered steadily, and The Grapes of Wrath and East of Eden are now firmly established as canonical works of American fiction.",
+    genre: 'fiction',
+    knownFor: ['The Grapes of Wrath', 'East of Eden', 'Of Mice and Men', 'Cannery Row'],
+  },
+  {
+    name: 'Hilary Mantel',
+    bio: "Hilary Mantel (1952–2022) was an English novelist born in Glossop, Derbyshire, into a working-class Catholic family. She studied law at the London School of Economics and the University of Sheffield but never practiced; she began writing fiction in the late 1970s while living in Botswana with her geologist husband. Her early novels — Every Day Is Mother's Day (1985), Fludd (1989) — were well received but not widely read. A Place of Greater Safety (1992), a novel of the French Revolution she had been writing for a decade, announced the full scope of her historical ambition. She published steadily through the 1990s and 2000s — An Experiment in Love (1995), The Giant, O'Brien (1998), Giving Up the Ghost (2003), Beyond Black (2005) — but remained a respected rather than celebrated novelist. Wolf Hall (2009), the first volume of her Thomas Cromwell trilogy, won the Booker Prize and transformed her reputation; Bring Up the Bodies (2012) won a second Booker Prize, making her the first woman and first British author to win it twice. The Mirror & the Light (2020), the trilogy's conclusion, debuted at number one in the United Kingdom and was shortlisted for the Booker Prize a third time. Mantel was appointed Dame Commander of the Order of the British Empire in 2014. She died in September 2022, widely mourned as the greatest English novelist of her generation. Her fiction is known for its formal ambition — the unusual present-tense close third-person of the Wolf Hall books — its historical research, its comedy, and its understanding of power as something felt in bodies as much as enacted in language.",
+    genre: 'fiction',
+    knownFor: ['Wolf Hall', 'Bring Up the Bodies', 'The Mirror & the Light', 'A Place of Greater Safety'],
+  },
 ];
 
 function normalize(s: string) {
