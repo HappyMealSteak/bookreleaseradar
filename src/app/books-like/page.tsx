@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Shadow Line Joseph Conrad first command novella',
+    'books like Typhoon Joseph Conrad sea comedy MacWhirr',
+    'books like Victory Joseph Conrad Malay island philosophical',
+    'books like Chance Joseph Conrad Marlow Flora de Barral',
+    "books like The Nigger of the Narcissus Joseph Conrad sea",
     'books like The Years Virginia Woolf family chronicle political',
     'books like Between the Acts Virginia Woolf final novel pageant',
     'books like Our Man in Havana Graham Greene spy comedy Cuba',
@@ -2360,6 +2365,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Shadow Line by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Shadow Line include Heart of Darkness and Lord Jim by Conrad, Typhoon by Conrad, The Old Man and the Sea by Hemingway, Nostromo by Conrad, Billy Budd by Melville, and A Farewell to Arms by Hemingway. Our full guide covers 8 picks for fans of Conrad's first-command novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Typhoon by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Typhoon include Heart of Darkness and The Shadow Line by Conrad, The Old Man and the Sea by Hemingway, Lord Jim by Conrad, Moby-Dick by Melville, Billy Budd by Melville, and The Riddle of the Sands by Erskine Childers. Our full guide covers 8 picks for fans of Conrad's sea comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Victory by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Victory include Heart of Darkness and Lord Jim by Conrad, Nostromo by Conrad, The Razor's Edge by Somerset Maugham, Siddhartha by Hermann Hesse, The Tempest by Shakespeare, and The Sun Also Rises by Hemingway. Our full guide covers 8 picks for fans of Conrad's Malay philosophical novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Chance by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Chance include Heart of Darkness and Lord Jim by Conrad, The House of Mirth by Edith Wharton, The Great Gatsby by Fitzgerald, Tess of the d'Urbervilles by Hardy, The Remains of the Day by Ishiguro, and The Wings of the Dove by Henry James. Our full guide covers 8 picks for fans of Conrad's Marlow novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Nigger of the Narcissus by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Nigger of the Narcissus include Heart of Darkness and Lord Jim by Conrad, Typhoon by Conrad, Billy Budd by Melville, Moby-Dick by Melville, The Red Badge of Courage by Stephen Crane, and Two Years Before the Mast by Richard Henry Dana. Our full guide covers 8 picks for fans of Conrad's debut sea novel." },
     },
     {
       '@type': 'Question',
