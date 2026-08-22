@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Checklist Manifesto Atul Gawande',
+    'books like The Selfish Gene Richard Dawkins',
+    'books like A Brief History of Time Stephen Hawking',
+    'books like The Power of Now Eckhart Tolle',
+    'books like Meditations Marcus Aurelius',
     'books like The Emperor of All Maladies Siddhartha Mukherjee',
     'books like Being Mortal Atul Gawande',
     'books like The Immortal Life of Henrietta Lacks Rebecca Skloot',
@@ -2250,6 +2255,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Checklist Manifesto by Atul Gawande?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Checklist Manifesto include Being Mortal by Atul Gawande, Thinking, Fast and Slow by Daniel Kahneman, Normal Accidents by Charles Perrow, An Astronaut's Guide to Life on Earth by Chris Hadfield, and The Human Factor by Kim Vicente. Our full guide covers 8 picks for fans of Gawande's performance research." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Selfish Gene by Richard Dawkins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Selfish Gene include The Blind Watchmaker by Dawkins, The Extended Phenotype by Dawkins, The Moral Animal by Robert Wright, The Origins of Virtue by Matt Ridley, Genome by Matt Ridley, The Story of the Human Body by Daniel Lieberman, and Sapiens by Yuval Harari. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Brief History of Time by Stephen Hawking?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Brief History of Time include The Universe in a Nutshell by Hawking, Cosmos by Carl Sagan, The Elegant Universe by Brian Greene, Seven Brief Lessons on Physics by Carlo Rovelli, The Order of Time by Carlo Rovelli, and Astrophysics for People in a Hurry by Neil deGrasse Tyson. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Power of Now by Eckhart Tolle?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Power of Now include A New Earth by Eckhart Tolle, The Miracle of Mindfulness by Thich Nhat Hanh, Wherever You Go There You Are by Jon Kabat-Zinn, The Untethered Soul by Michael Singer, Waking Up by Sam Harris, and Flow by Mihaly Csikszentmihalyi. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Meditations by Marcus Aurelius?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Meditations include Letters from a Stoic by Seneca, Discourses by Epictetus, The Obstacle Is the Way by Ryan Holiday, How to Think Like a Roman Emperor by Donald Robertson, A Guide to the Good Life by William Irvine, and Man's Search for Meaning by Viktor Frankl. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
