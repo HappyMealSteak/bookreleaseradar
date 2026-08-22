@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Silas Marner George Eliot Victorian moral',
+    'books like The Return of the Native Thomas Hardy Egdon Heath',
+    'books like Adam Bede George Eliot debut novel',
+    'books like Daniel Deronda George Eliot final novel',
+    'books like Hard Times Charles Dickens Utilitarianism',
     'books like Bleak House Charles Dickens Victorian novel',
     'books like The Mayor of Casterbridge Thomas Hardy',
     'books like Villette Charlotte Brontë Victorian women',
@@ -2315,6 +2320,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Silas Marner by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Silas Marner include Middlemarch and Adam Bede (also by George Eliot), Far from the Madding Crowd by Thomas Hardy, A Christmas Carol by Dickens, Cranford by Elizabeth Gaskell, The Remains of the Day by Kazuo Ishiguro, Housekeeping by Marilynne Robinson, and The Mill on the Floss by Eliot. Our full guide covers 8 picks for fans of Eliot's moral fable." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Return of the Native by Thomas Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Return of the Native include Far from the Madding Crowd and Tess of the d'Urbervilles (also by Hardy), Wuthering Heights by Emily Brontë, Anna Karenina by Tolstoy, Ethan Frome by Edith Wharton, Jude the Obscure by Hardy, Middlemarch by George Eliot, and The Mayor of Casterbridge by Hardy. Our full guide covers 8 picks for Hardy's tragic Wessex vision." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Adam Bede by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Adam Bede include Silas Marner and Middlemarch (also by George Eliot), Far from the Madding Crowd by Hardy, The Scarlet Letter by Hawthorne, Cranford by Gaskell, Gilead by Marilynne Robinson, The Mill on the Floss by Eliot, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Eliot's pastoral moral fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Daniel Deronda by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Daniel Deronda include Middlemarch by George Eliot, The Portrait of a Lady by Henry James, Anna Karenina by Tolstoy, The Awakening by Kate Chopin, Possession by A.S. Byatt, The Ambassadors by Henry James, Herzog by Saul Bellow, and Gilead by Marilynne Robinson. Our full guide covers 8 picks for fans of Eliot's final novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hard Times by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hard Times include North and South and Mary Barton by Elizabeth Gaskell, Bleak House by Dickens, The Jungle by Upton Sinclair, Germinal by Zola, The Road to Wigan Pier by George Orwell, Great Expectations by Dickens, and Brave New World by Aldous Huxley. Our full guide covers 8 picks for fans of Dickens's industrial social criticism." },
     },
     {
       '@type': 'Question',
