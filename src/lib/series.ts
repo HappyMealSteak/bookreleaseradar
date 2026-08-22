@@ -606,6 +606,72 @@ export const SERIES: SeriesDefinition[] = [
       'Selection books in order',
     ],
   },
+  {
+    slug: 'harry-potter',
+    name: 'Harry Potter',
+    shortName: 'Harry Potter',
+    author: 'J.K. Rowling',
+    authorQuery: 'J.K. Rowling',
+    genre: 'fantasy',
+    description:
+      "J.K. Rowling's Harry Potter series is the best-selling book series in history, with over 600 million copies sold worldwide. The seven novels follow Harry Potter from his discovery that he is a wizard through seven years at Hogwarts School of Witchcraft and Wizardry, culminating in his final confrontation with Lord Voldemort. The series is beloved for its richly imagined magical world, its themes of friendship, death, and love, and its ability to grow with its readers across a decade of books.",
+    searchTerms: [
+      'Harry Potter new book',
+      'Harry Potter reading order',
+      'Harry Potter books in order',
+      'J.K. Rowling new book',
+      'Hogwarts new book',
+    ],
+  },
+  {
+    slug: 'shadow-and-bone',
+    name: 'Grishaverse (Shadow and Bone)',
+    shortName: 'Shadow and Bone',
+    author: 'Leigh Bardugo',
+    authorQuery: 'Leigh Bardugo',
+    genre: 'fantasy',
+    description:
+      "Leigh Bardugo's Grishaverse is one of the most expansive fantasy universes in modern YA, spanning the Shadow and Bone trilogy, the Six of Crows duology, the King of Scars duology, and multiple novellas. The Shadow and Bone trilogy follows Alina Starkov, a soldier who discovers she is a Sun Summoner — the one person who can destroy the Fold, a swath of permanent darkness across Ravka. The world combines Eastern European folklore with a military fantasy setting and has been adapted into a major Netflix series.",
+    searchTerms: [
+      'Leigh Bardugo new book',
+      'Shadow and Bone reading order',
+      'Grishaverse reading order',
+      'Shadow and Bone books in order',
+    ],
+  },
+  {
+    slug: 'twilight',
+    name: 'Twilight Saga',
+    shortName: 'Twilight',
+    author: 'Stephenie Meyer',
+    authorQuery: 'Stephenie Meyer',
+    genre: 'romance',
+    description:
+      "Stephenie Meyer's Twilight saga is a four-book paranormal romance series that launched a cultural phenomenon. The series follows Bella Swan, who moves to the rainy town of Forks, Washington, and falls in love with Edward Cullen, a vampire who has been 17 for a century. The tension between Bella's mortality and Edward's immortality, and the rival claim of werewolf Jacob Black, drives the saga through supernatural war and a conclusion that redefined paranormal romance for a generation.",
+    searchTerms: [
+      'Stephenie Meyer new book',
+      'Twilight reading order',
+      'Twilight books in order',
+      'Twilight saga order',
+      'Midnight Sun Stephenie Meyer',
+    ],
+  },
+  {
+    slug: 'an-ember-in-the-ashes',
+    name: 'An Ember in the Ashes',
+    shortName: 'Ember in the Ashes',
+    author: 'Sabaa Tahir',
+    authorQuery: 'Sabaa Tahir',
+    genre: 'fantasy',
+    description:
+      "Sabaa Tahir's An Ember in the Ashes series is a four-book fantasy saga set in a Roman-inspired empire where Scholar slaves serve the Martial regime. The series follows two protagonists — Laia, a Scholar girl who goes undercover as a slave to save her brother, and Elias, the empire's greatest soldier who wants nothing more than to be free — as their paths collide and the revolution they never meant to start catches up with them. Known for its brutal world-building, dual-POV structure, and exceptional emotional depth.",
+    searchTerms: [
+      'Sabaa Tahir new book',
+      'Ember in the Ashes reading order',
+      'An Ember in the Ashes books in order',
+      'Sabaa Tahir series order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
