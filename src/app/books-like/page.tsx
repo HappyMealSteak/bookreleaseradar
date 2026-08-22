@@ -368,6 +368,11 @@ export const metadata: Metadata = {
     'books like I Capture the Castle Dodie Smith',
     'books like The Book of Night Women Marlon James',
     'books like Cold Comfort Farm Stella Gibbons',
+    'books like The Nickel Boys Colson Whitehead',
+    'books like A Brief History of Seven Killings Marlon James',
+    'books like Behind the Scenes at the Museum Kate Atkinson',
+    'books like The Slap Christos Tsiolkas',
+    'books like The Dew Breaker Edwidge Danticat',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -2080,6 +2085,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Cold Comfort Farm by Stella Gibbons?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Cold Comfort Farm include The Pursuit of Love by Nancy Mitford, I Capture the Castle by Dodie Smith, Excellent Women by Barbara Pym, A Handful of Dust by Evelyn Waugh, Decline and Fall by Evelyn Waugh, Scoop by Evelyn Waugh, Three Men in a Boat by Jerome K. Jerome, and Behind the Scenes at the Museum by Kate Atkinson. Our full guide covers 8 picks for fans of Gibbons's comic classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Nickel Boys by Colson Whitehead?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Nickel Boys include The Underground Railroad by Colson Whitehead, Beloved by Toni Morrison, To Kill a Mockingbird by Harper Lee, Just Mercy by Bryan Stevenson, Salvage the Bones by Jesmyn Ward, An American Marriage by Tayari Jones, and Their Eyes Were Watching God by Zora Neale Hurston. Our full guide covers 8 picks for fans of Whitehead's second Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Brief History of Seven Killings by Marlon James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Brief History of Seven Killings include The Book of Night Women by Marlon James, Beloved by Toni Morrison, The Brief Wondrous Life of Oscar Wao by Junot Díaz, In the Time of the Butterflies by Julia Alvarez, The Lonely Londoners by Sam Selvon, and White Teeth by Zadie Smith. Our full guide covers 8 picks for fans of James's Booker Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Behind the Scenes at the Museum by Kate Atkinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Behind the Scenes at the Museum include Life After Life by Kate Atkinson, Case Histories by Kate Atkinson, The Corrections by Jonathan Franzen, The Remains of the Day by Kazuo Ishiguro, The God of Small Things by Arundhati Roy, Housekeeping by Marilynne Robinson, The Virgin Suicides by Jeffrey Eugenides, and I Capture the Castle by Dodie Smith. Our full guide covers 8 picks for fans of Atkinson's Whitbread-winning debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Slap by Christos Tsiolkas?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Slap include Cloudstreet by Tim Winton, Barracuda by Christos Tsiolkas, The Corrections by Jonathan Franzen, The Virgin Suicides by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, A Fine Balance by Rohinton Mistry, and Jasper Jones by Craig Silvey. Our full guide covers 8 picks for fans of Tsiolkas's Australian novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
     },
   ],
 };
