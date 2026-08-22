@@ -774,6 +774,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Hamnet', 'I Am, I Am, I Am', 'The Hand That First Held Mine', 'The Marriage Portrait'],
   },
+  {
+    name: 'Ottessa Moshfegh',
+    bio: "Ottessa Moshfegh is an American novelist and short story writer born in Boston in 1981 to Croatian and Iranian parents. She studied at Barnard College and received her MFA from Brown University. Her debut novel Eileen (2015) was shortlisted for the Man Booker Prize and won the PEN/Hemingway Award; it established her reputation for writing with unflinching, darkly comic interiority from the perspective of deeply alienated, self-destructive women. Her short story collection Homesick for Another World (2017) confirmed her as one of the most formally inventive short fiction writers of her generation. My Year of Rest and Relaxation (2018) became her most widely read novel — a nihilistic, deadpan portrait of a beautiful, privileged young woman who attempts to sleep through a year of her life on an escalating regimen of psychiatric drugs. Moshfegh has also written Death in Her Hands (2020) and Lapvona (2022), a medieval fable that represents her most extreme formal departure. She is known for combining literary ambition with an interest in grotesque bodies, moral vacancy, and the gap between how lives look from outside and how they feel from inside.",
+    genre: 'fiction',
+    knownFor: ['My Year of Rest and Relaxation', 'Eileen', 'Homesick for Another World', 'Lapvona'],
+  },
+  {
+    name: 'Markus Zusak',
+    bio: "Markus Zusak is an Australian novelist born in Sydney in 1975 to German and Austrian parents who immigrated to Australia. He published four young adult novels before The Book Thief (2005) — The Underdog (1999), Fighting Ruben Wolfe (2000), When Dogs Cry (2001), and The Messenger (2002, called I Am the Messenger in the United States). The Book Thief was rejected by multiple publishers before being published; it was narrated by Death and told the story of a German girl during World War II. The novel became an international phenomenon — selling over 16 million copies, appearing on the New York Times bestseller list for more than ten years, and being adapted into a film in 2013. Zusak waited thirteen years to publish his follow-up, Bridge of Clay (2018), a family saga set in contemporary Australia. His work is characterized by unusual narrators, experimental structure, and a willingness to announce tragedy before it occurs as a way of shifting the reader's attention from what happens to how it happens.",
+    genre: 'fiction',
+    knownFor: ['The Book Thief', 'Bridge of Clay', 'The Messenger'],
+  },
+  {
+    name: 'B.A. Paris',
+    bio: "B.A. Paris is the pen name of Barbara Marrow, a British-French author who spent much of her adult life in France before returning to the UK. She worked in finance and later as a teacher before turning to writing thrillers. Her debut novel Behind Closed Doors (2016) was self-published before being picked up by St. Martin's Press; it became an international bestseller and established her as a leading figure in the domestic psychological thriller genre that emerged in the wake of Gone Girl. Paris has since published The Breakdown (2017), Bring Me Back (2018), The Dilemma (2019), The Therapist (2021), The Prisoner (2023), and The Skylight (2024). Her novels typically feature coercive control, manipulative marriages, and the gap between how lives look to outsiders and what they conceal within.",
+    genre: 'fiction',
+    knownFor: ['Behind Closed Doors', 'The Breakdown', 'Bring Me Back', 'The Therapist'],
+  },
+  {
+    name: 'A.J. Finn',
+    bio: "A.J. Finn is the pen name of Dan Mallory, an American author and former book editor. Mallory worked as an executive editor at William Morrow, an imprint of HarperCollins, before publishing The Woman in the Window (2018) under the name A.J. Finn. The novel was a deliberate homage to Alfred Hitchcock's Rear Window and sold millions of copies, debuting at number one on the New York Times bestseller list. In 2019, a New Yorker profile by Ian Parker revealed that Mallory had fabricated significant details of his personal history — including claims about his mother's cancer death and his own brain tumor — to people in his professional and personal life. The revelations generated significant public discussion about the novel and its author. The Woman in the Window was adapted into a Netflix film in 2021 starring Amy Adams. As of 2025, Mallory has not published a second novel.",
+    genre: 'fiction',
+    knownFor: ['The Woman in the Window'],
+  },
+  {
+    name: 'Tayari Jones',
+    bio: "Tayari Jones is an American novelist born in Atlanta, Georgia in 1970. She is the author of five novels: Leaving Atlanta (2002), The Untelling (2005), Silver Sparrow (2011), An American Marriage (2018), and Ghost (2024). Leaving Atlanta was a semi-autobiographical novel about the Atlanta child murders of 1979–1981, which happened during Jones's childhood. An American Marriage, her fourth novel, won the Women's Prize for Fiction in 2019 and was an Oprah's Book Club selection; it follows a young professional Black couple in Atlanta after the husband is wrongfully convicted of rape. Jones has said she was moved to write the novel by a conversation with a man who had been wrongfully imprisoned, and the way both he and his wife had valid but irreconcilable perspectives on what the imprisonment had meant for their relationship. An American Marriage established Jones as one of the most important voices in contemporary American literary fiction. She is a professor at Emory University.",
+    genre: 'fiction',
+    knownFor: ['An American Marriage', 'Silver Sparrow', 'Leaving Atlanta'],
+  },
 ];
 
 function normalize(s: string) {
