@@ -181,7 +181,7 @@ const AUTHOR_BIOS: AuthorBio[] = [
     knownFor: ['The Eye of the World', 'The Shadow Rising', 'A Memory of Light'],
   },
   {
-    name: 'R.F. Kuang',
+    name: 'R. F. Kuang',
     bio: "R.F. Kuang (Rebecca F. Kuang) is an American fantasy and literary fiction author whose work spans brutal military fantasy (The Poppy War trilogy), Oxford historical fantasy (Babel, 2022), and literary satire (Yellowface, 2023). A Marshall Scholar and Oxford graduate, Kuang brings deep historical and literary knowledge to genre fiction and is widely credited with opening doors for Asian voices in Anglo-American fantasy. She is one of the most acclaimed young authors working in any genre.",
     genre: 'fantasy',
     knownFor: ['The Poppy War', 'Babel', 'Yellowface'],

@@ -43,7 +43,7 @@ export default function WelcomeEmail({ email }: Props) {
           <Section>
             <Text style={footer}>
               You signed up with {email}.{' '}
-              <Link href="https://bookreleaseradar.com/unsubscribe?email={email}" style={footerLink}>
+              <Link href={`https://bookreleaseradar.com/unsubscribe?email=${encodeURIComponent(email)}`} style={footerLink}>
                 Unsubscribe
               </Link>
             </Text>

@@ -24,26 +24,30 @@ export default async function MonthlyOGImage({ params }: Props) {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-start',
-          justifyContent: 'center',
+          justifyContent: 'space-between',
           padding: '80px',
         }}
       >
-        <div style={{ width: '60px', height: '4px', background: '#d97706', marginBottom: '32px', borderRadius: '2px' }} />
-        <div style={{ fontSize: '22px', fontWeight: 700, color: '#d97706', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '20px', fontFamily: 'sans-serif' }}>
-          New Book Releases
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div style={{ display: 'flex', width: '60px', height: '4px', background: '#d97706', marginBottom: '32px', borderRadius: '2px' }} />
+          <div style={{ display: 'flex', fontSize: '22px', fontWeight: 700, color: '#d97706', letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '20px', fontFamily: 'sans-serif' }}>
+            New Book Releases
+          </div>
+          <div style={{ display: 'flex', fontSize: '72px', fontWeight: 700, color: '#f8f9fa', lineHeight: 1.0, marginBottom: '16px', fontFamily: 'serif' }}>
+            {monthName}
+          </div>
+          <div style={{ display: 'flex', fontSize: '48px', fontWeight: 400, color: '#6b7280', marginBottom: '32px', fontFamily: 'serif' }}>
+            {year}
+          </div>
+          <div style={{ display: 'flex', fontSize: '24px', color: '#9ca3af', maxWidth: '700px', fontFamily: 'sans-serif' }}>
+            Browse every book releasing this month with dates and Amazon pre-order links.
+          </div>
         </div>
-        <div style={{ fontSize: '72px', fontWeight: 700, color: '#f8f9fa', lineHeight: 1.0, marginBottom: '16px', fontFamily: 'serif' }}>
-          {monthName}
-        </div>
-        <div style={{ fontSize: '48px', fontWeight: 400, color: '#6b7280', marginBottom: '32px', fontFamily: 'serif' }}>
-          {year}
-        </div>
-        <div style={{ fontSize: '24px', color: '#9ca3af', maxWidth: '700px', fontFamily: 'sans-serif' }}>
-          Browse every book releasing this month with dates and Amazon pre-order links.
-        </div>
-        <div style={{ position: 'absolute', bottom: '48px', right: '80px', color: '#6b7280', fontSize: '20px', fontFamily: 'sans-serif' }}>
-          bookreleaseradar.com
+
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', color: '#6b7280', fontSize: '20px', fontFamily: 'sans-serif' }}>
+            bookreleaseradar.com
+          </div>
         </div>
       </div>
     ),

@@ -10,7 +10,7 @@ export default function TrendingOGImage() {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-end',
+          justifyContent: 'space-between',
           width: '100%',
           height: '100%',
           background: '#0F0F11',
@@ -18,46 +18,53 @@ export default function TrendingOGImage() {
           fontFamily: 'serif',
         }}
       >
-        <div style={{ display: 'flex', marginBottom: 12 }}>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div style={{ display: 'flex', marginBottom: 12 }}>
+            <div
+              style={{
+                display: 'flex',
+                background: '#C9A84C',
+                color: '#0F0F11',
+                fontSize: 13,
+                fontWeight: 700,
+                letterSpacing: '0.15em',
+                textTransform: 'uppercase',
+                padding: '4px 12px',
+                borderRadius: 4,
+              }}
+            >
+              BookTok + NYT Bestsellers
+            </div>
+          </div>
           <div
             style={{
-              background: '#C9A84C',
-              color: '#0F0F11',
-              fontSize: 13,
+              display: 'flex',
+              fontSize: 64,
               fontWeight: 700,
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              padding: '4px 12px',
-              borderRadius: 4,
+              color: '#F5F5F5',
+              lineHeight: 1.1,
+              marginBottom: 16,
             }}
           >
-            BookTok + NYT Bestsellers
+            Trending Books
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              fontSize: 26,
+              color: '#9CA3AF',
+              lineHeight: 1.4,
+              maxWidth: 780,
+            }}
+          >
+            What BookTok is reading right now — updated weekly
           </div>
         </div>
-        <div
-          style={{
-            fontSize: 64,
-            fontWeight: 700,
-            color: '#F5F5F5',
-            lineHeight: 1.1,
-            marginBottom: 16,
-          }}
-        >
-          Trending Books
-        </div>
-        <div
-          style={{
-            fontSize: 26,
-            color: '#9CA3AF',
-            lineHeight: 1.4,
-            maxWidth: 780,
-            marginBottom: 40,
-          }}
-        >
-          What BookTok is reading right now — updated weekly
-        </div>
-        <div style={{ fontSize: 18, color: '#6B7280', letterSpacing: '0.05em' }}>
-          bookreleaseradar.com/trending
+
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', fontSize: 18, color: '#6B7280', letterSpacing: '0.05em' }}>
+            bookreleaseradar.com/trending
+          </div>
         </div>
       </div>
     ),

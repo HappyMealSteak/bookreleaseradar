@@ -36,32 +36,35 @@ export default async function GenreOGImage({ params }: Props) {
           height: '100%',
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'flex-start',
-          justifyContent: 'center',
+          justifyContent: 'space-between',
           padding: '80px',
         }}
       >
-        {/* Accent bar */}
-        <div style={{ width: '60px', height: '4px', background: accent, marginBottom: '32px', borderRadius: '2px' }} />
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {/* Accent bar */}
+          <div style={{ display: 'flex', width: '60px', height: '4px', background: accent, marginBottom: '32px', borderRadius: '2px' }} />
 
-        {/* Genre eyebrow */}
-        <div style={{ fontSize: '22px', fontWeight: 700, color: accent, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '20px', fontFamily: 'sans-serif' }}>
-          {label}
-        </div>
+          {/* Genre eyebrow */}
+          <div style={{ display: 'flex', fontSize: '22px', fontWeight: 700, color: accent, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '20px', fontFamily: 'sans-serif' }}>
+            {label}
+          </div>
 
-        {/* Headline */}
-        <div style={{ fontSize: '64px', fontWeight: 700, color: '#f8f9fa', lineHeight: 1.1, maxWidth: '900px', marginBottom: '28px', fontFamily: 'serif' }}>
-          Upcoming {label} Books {year}
-        </div>
+          {/* Headline */}
+          <div style={{ display: 'flex', fontSize: '64px', fontWeight: 700, color: '#f8f9fa', lineHeight: 1.1, maxWidth: '900px', marginBottom: '28px', fontFamily: 'serif' }}>
+            Upcoming {label} Books {year}
+          </div>
 
-        {/* Subtext */}
-        <div style={{ fontSize: '26px', color: '#9ca3af', maxWidth: '700px', lineHeight: 1.4, fontFamily: 'sans-serif' }}>
-          New {label.toLowerCase()} releases with dates, covers, and Amazon links.
+          {/* Subtext */}
+          <div style={{ display: 'flex', fontSize: '26px', color: '#9ca3af', maxWidth: '700px', lineHeight: 1.4, fontFamily: 'sans-serif' }}>
+            New {label.toLowerCase()} releases with dates, covers, and Amazon links.
+          </div>
         </div>
 
         {/* Site name */}
-        <div style={{ position: 'absolute', bottom: '48px', right: '80px', color: '#6b7280', fontSize: '20px', fontFamily: 'sans-serif' }}>
-          bookreleaseradar.com
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', color: '#6b7280', fontSize: '20px', fontFamily: 'sans-serif' }}>
+            bookreleaseradar.com
+          </div>
         </div>
       </div>
     ),
