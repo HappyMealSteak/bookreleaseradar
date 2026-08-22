@@ -736,6 +736,38 @@ export const SERIES: SeriesDefinition[] = [
       'The Testaments reading order',
     ],
   },
+  {
+    slug: 'children-of-blood-and-bone',
+    name: 'Legacy of Orïsha',
+    shortName: 'Blood and Bone',
+    author: 'Tomi Adeyemi',
+    authorQuery: 'Tomi Adeyemi',
+    genre: 'fantasy',
+    description:
+      "Tomi Adeyemi's Legacy of Orïsha series is a West African-inspired epic fantasy set in a Nigeria where magic existed until a king ordered all Maji exterminated. Seventeen years later, Zélie Adebola discovers a scroll that could restore magic — if she can survive long enough to use it. Children of Blood and Bone became a #1 New York Times bestseller before it was published and sparked a bidding war for film rights. The series draws on Yoruba mythology to create a richly textured world that feels unlike anything else in YA fantasy.",
+    searchTerms: [
+      'Tomi Adeyemi new book',
+      'Children of Blood and Bone reading order',
+      'Legacy of Orïsha order',
+      'Tomi Adeyemi next book',
+    ],
+  },
+  {
+    slug: 'the-giver',
+    name: 'The Giver Quartet',
+    shortName: 'The Giver',
+    author: 'Lois Lowry',
+    authorQuery: 'Lois Lowry',
+    genre: 'fiction',
+    description:
+      "Lois Lowry's The Giver (1993) is one of the most widely read novels in American schools — a devastating story about a boy named Jonas who lives in a Community that has achieved perfection by eliminating memory, color, and choice from human experience. When Jonas is selected as the Receiver of Memory, he discovers the true cost of his Community's peace. Three companion novels (Gathering Blue, Messenger, Son) expand the world across different societies. The Giver won the 1994 Newbery Medal and has never been out of print.",
+    searchTerms: [
+      'Lois Lowry new book',
+      'The Giver reading order',
+      'Giver Quartet books in order',
+      'The Giver series',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

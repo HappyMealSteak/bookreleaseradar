@@ -47,6 +47,8 @@ export const metadata: Metadata = {
     'books like Legend Marie Lu',
     'books like The Selection Kiera Cass',
     'books like An Ember in the Ashes',
+    'books like The Giver Lois Lowry',
+    'books like Children of Blood and Bone',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -148,6 +150,16 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Giver?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like The Giver include Scythe by Neal Shusterman, Matched by Ally Condie, Divergent by Veronica Roth, The Hunger Games by Suzanne Collins, Brave New World by Aldous Huxley, and 1984 by George Orwell. Our full Giver guide covers 8 picks for fans of philosophical dystopias.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Children of Blood and Bone?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Children of Blood and Bone include An Ember in the Ashes by Sabaa Tahir, The Poppy War by R.F. Kuang, Shadow and Bone by Leigh Bardugo, The City of Brass by S.A. Chakraborty, and The Rage of Dragons by Evan Winter. Our full guide covers 8 picks for fans of diverse fantasy worlds.' },
     },
   ],
 };

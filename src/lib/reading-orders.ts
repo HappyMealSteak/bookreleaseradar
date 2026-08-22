@@ -995,6 +995,22 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "What is The Handmaid's Tale TV show based on?", a: "The Hulu series The Handmaid's Tale (2017-present) adapts the first novel and then continues beyond the book's ending. Seasons 1-2 roughly cover the first novel; Seasons 3-5 go well beyond it. The Testaments novel covers similar ground to later seasons but with different characters and perspectives." },
     ],
   },
+  {
+    slug: 'children-of-blood-and-bone',
+    intro: "Tomi Adeyemi's Legacy of Orïsha is a planned trilogy — two books have been published, with the third still forthcoming. The series is set in a West African-inspired world where magic was exterminated by the king, and follows Zélie Adebola's quest to restore it. Both published books must be read in order.",
+    startWith: 'Children of Blood and Bone',
+    books: [
+      { title: 'Children of Blood and Bone', author: 'Tomi Adeyemi', year: 2018, note: 'Book 1 — Zélie discovers a scroll that could restore magic; the king\'s son pursues her' },
+      { title: 'Children of Virtue and Vengeance', author: 'Tomi Adeyemi', year: 2019, note: 'Book 2 — Divided kingdoms; the reborn Maji war with those born without magic' },
+      { title: 'Children of Anguish and Anarchy', author: 'Tomi Adeyemi', year: 2025, note: 'Book 3 — The trilogy conclusion', isUpcoming: true },
+    ],
+    faq: [
+      { q: 'What is the Children of Blood and Bone reading order?', a: "Read Children of Blood and Bone (2018) first, then Children of Virtue and Vengeance (2019). The third book, Children of Anguish and Anarchy, is the trilogy conclusion. All three must be read in order." },
+      { q: 'How many Children of Blood and Bone books are there?', a: "The Legacy of Orïsha series is a planned trilogy by Tomi Adeyemi. Two books have been published: Children of Blood and Bone (2018) and Children of Virtue and Vengeance (2019). The third book, Children of Anguish and Anarchy, completes the trilogy." },
+      { q: 'Is Children of Blood and Bone a standalone?', a: "No — Children of Blood and Bone ends on a major cliffhanger that is not resolved until Children of Virtue and Vengeance. Both books must be read in order, and the trilogy requires all three books for a complete story." },
+      { q: 'What mythology is Children of Blood and Bone based on?', a: "Children of Blood and Bone draws heavily on Yoruba mythology and West African culture, particularly Nigerian history and folklore. Author Tomi Adeyemi drew on her own Nigerian heritage and conducted extensive research into Yoruba religious and mythological traditions to create the world of Orïsha." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
