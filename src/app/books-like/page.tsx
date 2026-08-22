@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Sula Toni Morrison female friendship Bottom Ohio',
+    'books like Jazz Toni Morrison Harlem Renaissance 1926',
+    'books like Tar Baby Toni Morrison Caribbean assimilation',
+    'books like Middle Passage Charles Johnson National Book Award slavery',
+    'books like The Sport of Kings CE Morgan Kentucky horse racing',
     'books like Go Down Moses William Faulkner McCaslin family',
     'books like The Known World Edward P. Jones Black slaveholder',
     'books like All the Pretty Horses Cormac McCarthy Border Trilogy',
@@ -2345,6 +2350,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sula by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sula include Beloved and Song of Solomon by Morrison, Their Eyes Were Watching God by Zora Neale Hurston, The Bluest Eye by Morrison, Tar Baby by Morrison, Jazz by Morrison, Passing by Nella Larsen, and Quicksand by Nella Larsen. Our full guide covers 8 picks exploring female friendship and Black community life." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jazz by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jazz include Beloved by Morrison, Their Eyes Were Watching God by Hurston, The Autobiography of an Ex-Colored Man by James Weldon Johnson, Invisible Man by Ralph Ellison, Sula by Morrison, Song of Solomon by Morrison, and The Souls of Black Folk by Du Bois. Our full guide covers 8 picks for fans of Morrison's Harlem Renaissance novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tar Baby by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tar Baby include Song of Solomon and Beloved by Morrison, Giovanni's Room by James Baldwin, Their Eyes Were Watching God by Hurston, Wide Sargasso Sea by Jean Rhys, The Bluest Eye by Morrison, and Sula by Morrison. Our full guide covers 8 picks for fans of Morrison's Caribbean assimilation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Middle Passage by Charles Johnson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Middle Passage include Beloved by Morrison, Moby-Dick by Melville, The Underground Railroad by Whitehead, Kindred by Octavia Butler, Go Down Moses by Faulkner, The Known World by Jones, and Sacred Hunger by Barry Unsworth. Our full guide covers 8 picks for fans of Johnson's National Book Award slave-ship novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sport of Kings by C.E. Morgan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sport of Kings include Beloved by Morrison, Blood Meridian by McCarthy, Absalom Absalom by Faulkner, The Known World by Jones, All the Pretty Horses by McCarthy, The Underground Railroad by Whitehead, and Lonesome Dove by McMurtry. Our full guide covers 8 picks for fans of Morgan's Kentucky horse-racing epic." },
     },
     {
       '@type': 'Question',
