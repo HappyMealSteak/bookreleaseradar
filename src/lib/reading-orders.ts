@@ -702,6 +702,37 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Dark Tower series finished?', a: "Yes. The main Dark Tower series concluded with Book 7, The Dark Tower (2004). The Wind Through the Keyhole (2012) is an additional story set between Books 4 and 5 but does not extend the ending. As of 2026, Stephen King has not announced a Book 9." },
     ],
   },
+  {
+    slug: 'wheel-of-time',
+    intro:
+      "Robert Jordan's Wheel of Time is one of the greatest achievements in fantasy — 14 books spanning 4 million words, with one of the most richly detailed worlds ever constructed. Jordan began the series in 1990 and passed away in 2007 before completing it; Brandon Sanderson finished the final three books from Jordan's extensive notes. The Wheel of Time series is complete and perfect for long-haul readers.",
+    startWith:
+      "Start with The Eye of the World (Book 1). Many readers also recommend the New Spring prequel novella, but it works better after Books 6–8 when you know the characters. The companion book The World of Robert Jordan's The Wheel of Time is optional reference material.",
+    books: [
+      { title: 'The Eye of the World', author: 'Robert Jordan', year: 1990, note: 'Book 1 — five villagers from Emond\'s Field discover one of them may be the Dragon Reborn' },
+      { title: 'The Great Hunt', author: 'Robert Jordan', year: 1990, note: "Book 2 — the hunt for the Horn of Valere; the world expands dramatically" },
+      { title: 'The Dragon Reborn', author: 'Robert Jordan', year: 1991, note: "Book 3 — Rand's identity is confirmed; Egwene, Nynaeve, and Mat take center stage" },
+      { title: 'The Shadow Rising', author: 'Robert Jordan', year: 1992, note: 'Book 4 — widely considered the series\' best; the Aiel Waste and Rhuidean' },
+      { title: 'The Fires of Heaven', author: 'Robert Jordan', year: 1993, note: 'Book 5 — the first to lack a prologue; Mat comes into his own as a general' },
+      { title: 'Lord of Chaos', author: 'Robert Jordan', year: 1994, note: 'Book 6 — Dumai\'s Wells; the most explosive sequence in the series' },
+      { title: 'A Crown of Swords', author: 'Robert Jordan', year: 1996, note: 'Book 7 — Ebou Dar, the Bowl of the Winds, and the Gholam' },
+      { title: 'The Path of Daggers', author: 'Robert Jordan', year: 1998, note: 'Book 8 — Rand uses the Choedan Kal; the series begins to deepen politically' },
+      { title: 'Winter\'s Heart', author: 'Robert Jordan', year: 2000, note: 'Book 9 — the Cleansing of saidin; a pivotal moment for the male half of the True Source' },
+      { title: 'Crossroads of Twilight', author: 'Robert Jordan', year: 2003, note: 'Book 10 — often cited as the slowest entry; events of Winter\'s Heart viewed from other POVs' },
+      { title: 'Knife of Dreams', author: 'Robert Jordan', year: 2005, note: 'Book 11 — Jordan\'s last solo book; the pace picks back up significantly' },
+      { title: 'The Gathering Storm', author: 'Robert Jordan & Brandon Sanderson', year: 2009, note: "Book 12 — Sanderson's first WoT; Rand's arc reaches its darkest point and then the peak" },
+      { title: 'Towers of Midnight', author: 'Robert Jordan & Brandon Sanderson', year: 2010, note: "Book 13 — Mat and Perrin's threads converge; the Last Battle approaches" },
+      { title: 'A Memory of Light', author: 'Robert Jordan & Brandon Sanderson', year: 2013, note: 'Book 14 — the series finale; the Last Battle; one of fantasy\'s most epic conclusions' },
+      { title: 'New Spring', author: 'Robert Jordan', year: 2004, note: 'Prequel novella — Moiraine and Lan in the year Rand was born; best read after Books 6–8' },
+    ],
+    faq: [
+      { q: 'What is The Wheel of Time reading order?', a: "Read the main 14-book series in order, starting with The Eye of the World. The New Spring prequel is best read after Books 6–8. The final three books (The Gathering Storm, Towers of Midnight, A Memory of Light) were completed by Brandon Sanderson from Robert Jordan's notes." },
+      { q: 'How many Wheel of Time books are there?', a: "There are 14 main series books and 1 prequel novella (New Spring). The main series is complete. Brandon Sanderson wrote the final three books (12–14) using Robert Jordan's notes and outlines after Jordan passed away in 2007." },
+      { q: 'Is it worth reading The Wheel of Time?', a: "Yes — The Wheel of Time is one of the defining epic fantasy series. The world-building is unmatched, the magic system is original, and the character depth across 4 million words rewards patient readers. Books 8–10 are often cited as slower-paced, but the series accelerates dramatically in Books 11–14." },
+      { q: 'Is The Wheel of Time finished?', a: "Yes. The Wheel of Time is completely finished. Brandon Sanderson completed the series with Books 12, 13, and 14 using Robert Jordan's detailed notes, outlines, and completed scenes. A Memory of Light (Book 14) was published in January 2013." },
+      { q: 'Does the Amazon Wheel of Time show follow the books?', a: "Amazon Prime Video's The Wheel of Time series is a loose adaptation that condenses and reorganizes plot elements from the first few books. Viewers generally recommend reading the books, as they contain substantially more depth and different story beats than the show." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
