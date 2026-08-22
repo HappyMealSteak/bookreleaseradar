@@ -5992,6 +5992,80 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-tipping-point',
+    intro: "Malcolm Gladwell's The Tipping Point: How Little Things Can Make a Big Difference (2000) is a landmark of popular social science arguing that social phenomena — from crime waves to fashion trends to the spread of diseases — can 'tip' from localized occurrences to epidemics through specific, predictable mechanisms: the actions of connectors, mavens, and salespeople; the stickiness of the message; the power of context.",
+    startWith: 'The Tipping Point',
+    books: [
+      { title: 'The Tipping Point', author: 'Malcolm Gladwell', year: 2000, note: 'The original. Start here.' },
+      { title: 'Blink', author: 'Malcolm Gladwell', year: 2005, note: "Gladwell's second book, on the psychology of rapid intuitive judgment. Read second." },
+      { title: 'Outliers', author: 'Malcolm Gladwell', year: 2008, note: "Gladwell's third book, on the factors behind extraordinary success. Read third." },
+      { title: 'What the Dog Saw', author: 'Malcolm Gladwell', year: 2009, note: "A collection of Gladwell's New Yorker essays. Read fourth." },
+      { title: 'David and Goliath', author: 'Malcolm Gladwell', year: 2013, note: "Gladwell's fifth book, on underdogs and mismatched opponents. Fifth in publication order." },
+      { title: 'Talking to Strangers', author: 'Malcolm Gladwell', year: 2019, note: "Gladwell's sixth book, on why we misunderstand strangers. Sixth in publication order." },
+      { title: 'The Bomber Mafia', author: 'Malcolm Gladwell', year: 2021, note: "A novella-length account of World War II strategic bombing. Seventh in publication order." },
+    ],
+    faq: [
+      { q: 'What are the three rules of epidemics in The Tipping Point?', a: "Gladwell identifies three factors that determine whether a social phenomenon will tip into an epidemic: the Law of the Few (the disproportionate role of connectors, mavens, and salespeople in spreading ideas), the Stickiness Factor (the specific quality that makes a message memorable and actionable rather than forgotten), and the Power of Context (the sensitivity of human behavior to environmental cues — small changes in context can produce large changes in behavior). Together these three factors explain why some ideas, products, and behaviors spread widely while similar ones do not." },
+      { q: 'Has The Tipping Point been criticized?', a: "The Tipping Point has been criticized on methodological grounds — its argument rests heavily on case studies rather than systematic evidence, and some of its specific claims (particularly about the role of connectors and the 'broken windows theory' of crime) have been disputed by social scientists. Duncan Watts, a Columbia sociologist, published a direct critique arguing that Gladwell's 'law of the few' is not supported by empirical evidence, and that the spread of social phenomena is more often driven by the readiness of the general population to adopt an idea than by the influence of specific individuals." },
+    ],
+  },
+  {
+    slug: 'moneyball',
+    intro: "Michael Lewis's Moneyball: The Art of Winning an Unfair Game (2003) tells the story of how Billy Beane, the general manager of the Oakland Athletics, used statistical analysis to build a competitive baseball team with one of the lowest payrolls in Major League Baseball — challenging a century of baseball tradition and conventional wisdom about what makes a good player.",
+    startWith: 'Moneyball',
+    books: [
+      { title: 'Moneyball', author: 'Michael Lewis', year: 2003, note: 'The complete standalone book. Start here.' },
+      { title: 'The Undoing Project', author: 'Michael Lewis', year: 2016, note: "Lewis's account of the Kahneman-Tversky partnership — the psychological research behind the statistical revolution in baseball that Moneyball describes. Read after for the scientific foundation of the Moneyball approach." },
+    ],
+    faq: [
+      { q: "What is the 'moneyball' approach?", a: "The 'moneyball' approach — more formally called sabermetrics — is the use of statistical analysis to identify undervalued players and inefficiencies in the baseball player market. Billy Beane and the Oakland Athletics' front office identified that the market was undervaluing on-base percentage relative to batting average, home runs, and stolen bases, and built a team of players with high on-base percentages at a fraction of the cost of players valued by traditional metrics. The approach has since been widely adopted across professional sports and is also applied in other fields to describe any systematic use of data to challenge conventional wisdom." },
+      { q: "What happened to the 'moneyball' era Oakland Athletics?", a: "The Oakland Athletics under Billy Beane won the American League West division in 2000, 2002, and 2003 and reached the playoffs multiple times, but never won the World Series. As other teams adopted sabermetric methods, the competitive advantage of the approach narrowed, and market inefficiencies that the A's had exploited were priced back into the player market. Beane continued as the A's general manager for many years; the team eventually relocated to Sacramento. The 2003 Athletics team's approach is now taught as a case study in business schools." },
+    ],
+  },
+  {
+    slug: 'nudge',
+    intro: "Richard H. Thaler and Cass R. Sunstein's Nudge: Improving Decisions About Health, Wealth, and Happiness (2008) is the founding text of 'choice architecture' — the argument that the way choices are presented powerfully influences which choices people make, and that we can design better institutions by using that insight to nudge people toward choices that serve their own stated goals.",
+    startWith: 'Nudge',
+    books: [
+      { title: 'Nudge', author: 'Richard H. Thaler', year: 2008, note: 'The original. Start here.' },
+      { title: 'Misbehaving', author: 'Richard H. Thaler', year: 2015, note: "Thaler's memoir of the history of behavioral economics. Read second for the full context of the research behind Nudge." },
+      { title: 'Nudge: The Final Edition', author: 'Richard H. Thaler', year: 2021, note: "A revised and updated edition of Nudge, incorporating developments in behavioral science and policy over the thirteen years since the original. Can substitute for the 2008 edition." },
+    ],
+    faq: [
+      { q: "What is 'libertarian paternalism'?", a: "Thaler and Sunstein coined 'libertarian paternalism' to describe their approach: it is libertarian in that it preserves freedom of choice (people can always opt out of the default) and paternalistic in that it uses the design of choice architectures to nudge people toward choices that the designers believe will benefit them. The paradigmatic example is automatic enrollment in retirement savings plans with opt-out: people can choose not to contribute, but the default enrollment dramatically increases participation rates because most people accept defaults, even when they would prefer the alternative if asked explicitly." },
+      { q: "Has the nudge approach been implemented in government?", a: "Yes — the UK government established the Behavioral Insights Team (nicknamed the 'nudge unit') in 2010, based partly on the research in this book; it has since been privatized and operates internationally. The Obama administration established a similar unit in 2015. Nudges have been applied to tax compliance (sending letters that say 'most people in your town pay their taxes on time'), organ donation rates, retirement savings, energy conservation, and many other domains." },
+    ],
+  },
+  {
+    slug: 'the-black-swan',
+    intro: "Nassim Nicholas Taleb's The Black Swan: The Impact of the Highly Improbable (2007) argues that rare, unpredictable, high-impact events — 'black swans' — dominate history, that our models for predicting the future systematically fail to account for them, and that we consistently construct post-hoc narratives that make the past seem more predictable than it was.",
+    startWith: 'The Black Swan',
+    books: [
+      { title: 'Fooled by Randomness', author: 'Nassim Nicholas Taleb', year: 2001, note: "Taleb's debut, on the role of chance in markets and in life — the intellectual foundation of The Black Swan. Read first for the full argument." },
+      { title: 'The Black Swan', author: 'Nassim Nicholas Taleb', year: 2007, note: 'The definitive statement of the black swan thesis. The most widely read starting point.' },
+      { title: 'Antifragile', author: 'Nassim Nicholas Taleb', year: 2012, note: "The follow-up, developing the concept of 'antifragility' — systems that benefit from disorder and randomness. Read third." },
+      { title: 'Skin in the Game', author: 'Nassim Nicholas Taleb', year: 2018, note: "The fourth book of the Incerto series, on the ethics and epistemics of risk-taking. Read fourth." },
+    ],
+    faq: [
+      { q: 'What is a black swan event?', a: "Taleb defines a black swan as an event with three attributes: it is an outlier (it lies outside the realm of regular expectations, nothing in the past pointed to its possibility), it carries an extreme impact, and after the fact human beings concoct explanations that make it appear explainable and predictable. The term comes from the historical assumption that all swans were white — a metaphor for how confident but false beliefs can be overturned by a single disconfirming event. Examples in Taleb's framing include the September 11 attacks, the rise of the internet, World War I, and the 2008 financial crisis." },
+      { q: "How does The Black Swan relate to Thinking, Fast and Slow?", a: "Taleb and Kahneman are intellectual allies: The Black Swan applies many of the cognitive biases that Kahneman and Tversky documented — the narrative fallacy, the availability heuristic, overconfidence — specifically to financial forecasting and historical explanation. Kahneman endorsed The Black Swan and wrote admiringly about Taleb's work; they share the fundamental argument that human judgment is systematically biased in ways that produce predictable and catastrophic errors in high-stakes domains." },
+    ],
+  },
+  {
+    slug: 'blink',
+    intro: "Malcolm Gladwell's Blink: The Power of Thinking Without Thinking (2005) examines the psychology of rapid judgment — the split-second decisions that experts make from minimal information, and the situations in which that 'thin-slicing' is more reliable than deliberate analysis, and the situations in which it catastrophically fails.",
+    startWith: 'Blink',
+    books: [
+      { title: 'Blink', author: 'Malcolm Gladwell', year: 2005, note: "Start here. The complete standalone book; most readers read Gladwell's books in any order." },
+      { title: 'The Tipping Point', author: 'Malcolm Gladwell', year: 2000, note: "Gladwell's debut, on how social phenomena spread. Read in any order relative to Blink." },
+      { title: 'Outliers', author: 'Malcolm Gladwell', year: 2008, note: "Gladwell's third book, on the factors behind extraordinary success. Read in any order." },
+    ],
+    faq: [
+      { q: "What is 'thin-slicing'?", a: "Thin-slicing, as Gladwell uses the term (borrowed from the psychologist Nalini Ambady), is the ability of the mind to extract accurate inferences from very brief observations — a 'thin slice' of experience. The classic example in Blink is the work of psychologist John Gottman, who can predict with remarkable accuracy whether a married couple will still be together in fifteen years after watching them interact for just fifteen minutes; the key is knowing which specific features to observe. Thin-slicing works because experts unconsciously recognize patterns that they cannot verbally articulate, and these pattern-recognition processes operate faster than conscious deliberation." },
+      { q: 'When does rapid intuitive judgment fail?', a: "Blink is not simply an argument that snap judgments are always better than deliberate analysis. Gladwell documents several cases where rapid judgment fails catastrophically: the implicit association test shows that even people who consciously reject racial bias often have strong implicit racial associations that affect their behavior; the murder of Amadou Diallo by New York police officers in 1999 shows how stress can distort rapid judgment in ways that produce terrible outcomes; and the failures of 'priming' research show how easily the context of a decision can corrupt the quality of the intuition. The book's implicit argument is about knowing when to trust snap judgments and when to scrutinize them." },
+    ],
+  },
+  {
     slug: 'this-boys-life',
     intro: "Tobias Wolff's This Boy's Life: A Memoir (1989) is a memoir of growing up with a violent, controlling stepfather in Concrete, Washington, in the late 1950s and early 1960s — written with the precision and narrative structure of fiction and widely credited as one of the foundational works of the American memoir revival that preceded Mary Karr's The Liar's Club by six years.",
     startWith: "This Boy's Life",

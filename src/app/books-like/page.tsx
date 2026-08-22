@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Tipping Point Malcolm Gladwell',
+    'books like Moneyball Michael Lewis',
+    'books like Nudge Richard Thaler Cass Sunstein',
+    'books like The Black Swan Nassim Taleb',
+    'books like Blink Malcolm Gladwell',
     "books like This Boy's Life Tobias Wolff",
     'books like The Undoing Project Michael Lewis',
     'books like Predictably Irrational Dan Ariely',
@@ -2210,6 +2215,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tipping Point by Malcolm Gladwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tipping Point include Blink by Malcolm Gladwell, Outliers by Malcolm Gladwell, Freakonomics by Steven Levitt, Thinking, Fast and Slow by Daniel Kahneman, Predictably Irrational by Dan Ariely, and Contagious by Jonah Berger. Our full guide covers 8 picks for fans of Gladwell's social science." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Moneyball by Michael Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Moneyball include The Undoing Project by Michael Lewis, The Big Short by Michael Lewis, Freakonomics by Steven Levitt, Thinking, Fast and Slow by Daniel Kahneman, The Signal and the Noise by Nate Silver, and Liar's Poker by Michael Lewis. Our full guide covers 8 picks for fans of Lewis's baseball analytics story." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nudge by Richard Thaler and Cass Sunstein?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nudge include Thinking, Fast and Slow by Daniel Kahneman, Misbehaving by Richard Thaler, Predictably Irrational by Dan Ariely, Freakonomics by Steven Levitt, Influence by Robert Cialdini, and The Black Swan by Nassim Taleb. Our full guide covers 8 picks for fans of Thaler's choice architecture." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Black Swan by Nassim Nicholas Taleb?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Black Swan include Antifragile by Nassim Taleb, Fooled by Randomness by Nassim Taleb, Thinking, Fast and Slow by Daniel Kahneman, The Undoing Project by Michael Lewis, Skin in the Game by Nassim Taleb, and Superforecasting by Philip Tetlock. Our full guide covers 8 picks for fans of Taleb's uncertainty philosophy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Blink by Malcolm Gladwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Blink include The Tipping Point by Malcolm Gladwell, Outliers by Malcolm Gladwell, Thinking, Fast and Slow by Daniel Kahneman, Predictably Irrational by Dan Ariely, The Undoing Project by Michael Lewis, and Talking to Strangers by Malcolm Gladwell. Our full guide covers 8 picks for fans of Gladwell's intuition research." },
     },
     {
       '@type': 'Question',
