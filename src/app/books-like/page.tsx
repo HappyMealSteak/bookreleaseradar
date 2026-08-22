@@ -196,6 +196,11 @@ export const metadata: Metadata = {
     'books like Native Son Richard Wright',
     'books like Passing Nella Larsen',
     'books like Lord of the Flies William Golding',
+    'books like A Fine Balance Rohinton Mistry',
+    'books like The Sun Also Rises Ernest Hemingway',
+    'books like Revolutionary Road Richard Yates',
+    'books like Go Tell It on the Mountain James Baldwin',
+    'books like A Gentleman in Moscow Amor Towles',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1043,6 +1048,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Lord of the Flies by William Golding?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Lord of the Flies include 1984 by George Orwell, Brave New World by Aldous Huxley, The Road by Cormac McCarthy, The Inheritors by William Golding, Battle Royale by Koushun Takami, We by Yevgeny Zamyatin, The Hunger Games by Suzanne Collins, and Alive by Piers Paul Read. Our full guide covers 8 picks for fans of Golding's dark view of what happens when civilization's constraints are removed." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Fine Balance by Rohinton Mistry?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Fine Balance include Such a Long Journey by Rohinton Mistry, Midnight's Children by Salman Rushdie, The God of Small Things by Arundhati Roy, Cry the Beloved Country by Alan Paton, The Kite Runner by Khaled Hosseini, A Long Way Gone by Ishmael Beah, Beloved by Toni Morrison, and The Grapes of Wrath by John Steinbeck. Our full guide covers 8 picks for fans of Mistry's compassionate witness to what caste and poverty do to people who have no power." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sun Also Rises by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sun Also Rises include A Farewell to Arms and For Whom the Bell Tolls and The Old Man and the Sea by Ernest Hemingway, The Great Gatsby by F. Scott Fitzgerald, Tender Is the Night by F. Scott Fitzgerald, All Quiet on the Western Front by Erich Maria Remarque, On the Road by Jack Kerouac, and A Moveable Feast by Hemingway. Our full guide covers 8 picks for fans of Hemingway's Lost Generation portrait and his iceberg prose." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Revolutionary Road by Richard Yates?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Revolutionary Road include The Easter Parade by Richard Yates, The Great Gatsby by F. Scott Fitzgerald, The Hours by Michael Cunningham, The Corrections by Jonathan Franzen, Revolutionary Road film by Sam Mendes, and works by John Cheever. Our full guide covers 8 picks for fans of Yates's unsparing portrait of American suburban self-deception in the 1950s." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Go Tell It on the Mountain by James Baldwin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Go Tell It on the Mountain include Giovanni's Room and If Beale Street Could Talk and Another Country and The Fire Next Time (also by James Baldwin), Their Eyes Were Watching God by Zora Neale Hurston, Invisible Man by Ralph Ellison, Beloved by Toni Morrison, and The Known World by Edward P. Jones. Our full guide covers 8 picks for fans of Baldwin's debut and its Biblical portrait of Black life in Harlem." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Gentleman in Moscow by Amor Towles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Gentleman in Moscow include Rules of Civility and The Lincoln Highway (also by Amor Towles), The Book Thief by Markus Zusak, All the Light We Cannot See by Anthony Doerr, Doctor Zhivago by Boris Pasternak, The Master and Margarita by Mikhail Bulgakov, Wolf Hall by Hilary Mantel, and The Elegance of the Hedgehog by Muriel Barbery. Our full guide covers 8 picks for fans of Towles's warm, elegant historical fiction about character as the only thing we truly possess." },
     },
   ],
 };
