@@ -229,6 +229,11 @@ export const metadata: Metadata = {
     'books like The Metamorphosis Franz Kafka',
     'books like The Castle Franz Kafka',
     'books like Life and Fate Vasily Grossman',
+    'books like The Idiot Fyodor Dostoevsky',
+    'books like Nausea Jean-Paul Sartre',
+    'books like Madame Bovary Gustave Flaubert',
+    'books like Lord Jim Joseph Conrad',
+    'books like Matterhorn Karl Marlantes',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1246,6 +1251,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Life and Fate by Vasily Grossman?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Life and Fate include War and Peace by Leo Tolstoy, Doctor Zhivago by Boris Pasternak, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, Night by Elie Wiesel, The Master and Margarita by Mikhail Bulgakov, Matterhorn by Karl Marlantes, and All Quiet on the Western Front by Erich Maria Remarque. Our full guide covers 8 picks for fans of Grossman's panoramic novel about the Battle of Stalingrad." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Idiot by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Idiot include Crime and Punishment and The Brothers Karamazov (also by Dostoevsky), Notes from Underground (also Dostoevsky), Anna Karenina by Leo Tolstoy, Lolita by Vladimir Nabokov, The Stranger by Albert Camus, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Dostoevsky's novel about Prince Myshkin, a man of Christ-like goodness entering the world." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nausea by Jean-Paul Sartre?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nausea include The Stranger by Albert Camus, The Trial and The Metamorphosis by Franz Kafka, Notes from Underground by Fyodor Dostoevsky, Steppenwolf by Hermann Hesse, The Castle by Kafka, Invisible Man by Ralph Ellison, and The Unbearable Lightness of Being by Milan Kundera. Our full guide covers 8 picks for fans of Sartre's existentialist novel about Roquentin's discovery of the contingency of existence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Madame Bovary by Gustave Flaubert?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Madame Bovary include Anna Karenina by Leo Tolstoy, The Portrait of a Lady by Henry James, The Awakening by Kate Chopin, Middlemarch by George Eliot, A Sentimental Education (also by Flaubert), Effi Briest by Theodor Fontane, The House of Mirth by Edith Wharton, and Cousin Bette by Honoré de Balzac. Our full guide covers 8 picks for fans of Flaubert's novel about Emma Bovary's romantic self-destruction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lord Jim by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lord Jim include Heart of Darkness and Nostromo (also by Conrad), The Quiet American by Graham Greene, Billy Budd by Herman Melville, Things Fall Apart by Chinua Achebe, The Power and the Glory by Graham Greene, and The Razor's Edge by W. Somerset Maugham. Our full guide covers 8 picks for fans of Conrad's novel about Jim's attempt to redeem his cowardice." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Matterhorn by Karl Marlantes?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Matterhorn include The Things They Carried by Tim O'Brien, All Quiet on the Western Front by Erich Maria Remarque, Life and Fate by Vasily Grossman, A Farewell to Arms by Ernest Hemingway, Catch-22 by Joseph Heller, Redeployment by Phil Klay, The Naked and the Dead by Norman Mailer, and Slaughterhouse-Five by Kurt Vonnegut. Our full guide covers 8 picks for fans of Marlantes's Vietnam War combat novel." },
     },
   ],
 };
