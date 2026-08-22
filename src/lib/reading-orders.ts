@@ -3321,6 +3321,81 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What is the film adaptation of If Beale Street Could Talk?', a: "If Beale Street Could Talk was adapted into a film in 2018 by Barry Jenkins, who had previously directed Moonlight. The film stars KiKi Layne as Tish and Stephan James as Fonny. Regina King won the Academy Award for Best Supporting Actress for her role as Tish's mother Sharon Rivers." },
     ],
   },
+  {
+    slug: 'all-quiet-on-the-western-front',
+    intro: "Erich Maria Remarque's All Quiet on the Western Front (1929) is a complete standalone novel. It is narrated by Paul Bäumer, a nineteen-year-old German soldier on the Western Front during World War One, who enlists with his classmates after being urged by their schoolteacher and finds not glory but systematic dehumanization and death. Published the same year as A Farewell to Arms, it is the definitive literary account of the Great War from the German side and one of the most widely read anti-war novels ever written.",
+    startWith: 'All Quiet on the Western Front',
+    books: [
+      { title: 'All Quiet on the Western Front', author: 'Erich Maria Remarque', year: 1929, note: "Standalone — Paul Bäumer and his classmates on the German Western Front; the canonical anti-war novel; originally written in German, published simultaneously with A Farewell to Arms in 1929" },
+      { title: 'The Road Back', author: 'Erich Maria Remarque', year: 1931, note: "Remarque's direct sequel — the surviving soldiers return to Germany after the Armistice and try to rebuild lives the war has made impossible; not as formally perfect as All Quiet but the essential companion", isOptional: true },
+      { title: 'Three Comrades', author: 'Erich Maria Remarque', year: 1936, note: "Remarque's third novel in this world — three veterans in Weimar Germany during the early 1930s as the Nazi movement rises; a love story and a portrait of a society destroying itself", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is All Quiet on the Western Front a standalone?', a: "All Quiet on the Western Front is self-contained, though Remarque wrote a direct sequel, The Road Back (1931), which follows the surviving soldiers back to Germany after the Armistice. The sequel is less widely read than the original; All Quiet is fully satisfying as a standalone." },
+      { q: 'Is All Quiet on the Western Front based on a true story?', a: "All Quiet on the Western Front is fiction, but Remarque served as a German soldier on the Western Front from 1916 until he was wounded in 1917 and invalided out. The novel is informed by his experience but is not directly autobiographical: Paul Bäumer is not Remarque, and the specific events of the novel are invented." },
+      { q: 'Why was All Quiet on the Western Front banned?', a: "All Quiet on the Western Front was burned by the Nazis at their famous book burning of May 1933. The Nazis saw the novel as defeatist and an insult to German soldiers. Remarque was stripped of his German citizenship in 1938 and lived in exile in Switzerland and the United States. His sister, Elfriede Scholz, was executed by the Nazis in 1943 partly in retaliation for his anti-Nazi writing." },
+      { q: 'What is the film adaptation of All Quiet on the Western Front?', a: "All Quiet on the Western Front has been adapted three times: a celebrated 1930 American film directed by Lewis Milestone that won the Academy Award for Best Picture; a 1979 American television film; and a German-language Netflix film in 2022 directed by Edward Berger, which won four Academy Awards including Best International Feature Film. The 2022 film takes significant liberties with the novel's ending but is widely regarded as the most visually powerful of the three." },
+    ],
+  },
+  {
+    slug: 'doctor-zhivago',
+    intro: "Boris Pasternak's Doctor Zhivago (1957) is a complete standalone novel. It follows Yuri Zhivago, a Russian doctor and poet, from the 1890s through the Russian Revolution, the Civil War, and into the 1940s — and his love for Lara Antipova, a woman he meets and loses and finds again against the upheavals of Russian history. The novel was suppressed in the Soviet Union and published first in Italian translation in Milan in 1957; Pasternak was awarded the Nobel Prize in Literature in 1958 but was forced under political pressure to decline it.",
+    startWith: 'Doctor Zhivago',
+    books: [
+      { title: 'Doctor Zhivago', author: 'Boris Pasternak', year: 1957, note: "Standalone — Yuri Zhivago's life across the Russian Revolution and Civil War; the great Russian novel of the twentieth century; ends with a section of Zhivago's poems, which Pasternak considered the novel's culmination" },
+    ],
+    faq: [
+      { q: 'Is Doctor Zhivago a standalone?', a: "Yes — Doctor Zhivago is entirely self-contained and has no sequel. It is Boris Pasternak's only novel; he was primarily known as a poet and translator during his lifetime." },
+      { q: 'Why was Doctor Zhivago banned in the Soviet Union?', a: "Doctor Zhivago was rejected by the Soviet literary journal Novy Mir in 1956 and refused publication in the USSR throughout Pasternak's lifetime. Soviet authorities objected to its portrayal of the Revolution as a catastrophe for individuals, its religious imagery, and its refusal to endorse the Soviet state's view of its own history. Pasternak smuggled the manuscript to the Italian publisher Feltrinelli, who published it in Italian in 1957. It was not published in the Soviet Union until 1988." },
+      { q: 'Who was Lara Antipova based on?', a: "Lara Antipova is generally believed to be based in part on Olga Ivinskaya, Pasternak's long-term companion from 1946 until his death in 1960. Ivinskaya was imprisoned by Stalin in 1949 as a hostage for Pasternak's behavior, and again in 1960 after his death. She wrote a memoir, A Captive of Time, about their relationship." },
+      { q: 'What are the poems at the end of Doctor Zhivago?', a: "The novel ends with a section titled 'The Poems of Yuri Zhivago' — twenty-five poems Pasternak wrote in the voice of Zhivago the fictional poet, including 'Hamlet,' 'August,' 'Winter Night,' and 'Mary Magdalene.' Pasternak considered the poems the culmination of the novel rather than an appendix; the prose narrative is, among other things, a preparation for the poems. The Nobel committee specifically cited the poems as central to the award." },
+    ],
+  },
+  {
+    slug: 'the-master-and-margarita',
+    intro: "Mikhail Bulgakov's The Master and Margarita (written 1930–1940, published 1967) is a complete standalone novel. It interweaves two narratives: in Moscow in the 1930s, the devil — Woland — arrives with his retinue and subjects the Soviet literary establishment to a series of supernatural humiliations; in Yershalaim (Jerusalem), Pontius Pilate oversees the execution of Yeshua Ha-Nozri. A third thread follows the Master, a novelist who has written a novel about Pilate, and Margarita, the woman who loves him. Bulgakov wrote and revised the novel secretly during the Stalinist terror, knowing it could never be published in his lifetime.",
+    startWith: 'The Master and Margarita',
+    books: [
+      { title: 'The Master and Margarita', author: 'Mikhail Bulgakov', year: 1967, note: "Standalone — Woland (the devil) in 1930s Moscow; the Master and Margarita; Pontius Pilate in Jerusalem; the great satirical novel of the Soviet period, written secretly during the Stalinist terror and published twenty-seven years after Bulgakov's death" },
+      { title: 'The Heart of a Dog', author: 'Mikhail Bulgakov', year: 1987, note: "Bulgakov's novella — a Moscow doctor implants human tissue into a stray dog, with consequences that satirize the Soviet new man; shorter and more immediately accessible than The Master and Margarita; a good entry point into Bulgakov", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The Master and Margarita a standalone?', a: "Yes — The Master and Margarita is entirely self-contained and has no sequel. It is Mikhail Bulgakov's last novel; he also wrote The Heart of a Dog (1925, published 1987) and The White Guard (1925), both standalones." },
+      { q: 'Why was The Master and Margarita not published until 1967?', a: "Bulgakov wrote The Master and Margarita between 1930 and 1940 and died in 1940 knowing it could never be published in Soviet Russia under Stalin. His wife, Elena Shilovskaya, preserved the manuscript through the Stalinist terror and the German invasion. The novel was first published in the Soviet literary magazine Moskva in 1966–1967, heavily censored; the complete text was published in the Soviet Union in 1973." },
+      { q: 'Who is Woland in The Master and Margarita?', a: "Woland is Bulgakov's version of the devil — a figure who tests corruption, reveals the lies people tell themselves, and metes out punishments that are essentially just. His name comes from Mephistopheles' self-introduction in Goethe's Faust. Bulgakov's devil is not evil in any simple sense; he is the enforcer of a kind of cosmic justice that the Soviet state has declared abolished." },
+      { q: "Is The Master and Margarita based on Goethe's Faust?", a: "The Master and Margarita is deeply in dialogue with Goethe's Faust — the novel's epigraph quotes Faust, Woland is modeled partly on Mephistopheles, and Bulgakov is using the Faust framework to interrogate Soviet atheism and the spiritual corruption produced by a state that has declared religion abolished." },
+    ],
+  },
+  {
+    slug: 'the-corrections',
+    intro: "Jonathan Franzen's The Corrections (2001) is a complete standalone novel. It follows the Lambert family — retired railroad executive Alfred, whose Parkinson's disease is advancing; his wife Enid, who wants one last Christmas with all three children home; and their adult children Chip, Gary, and Denise, each in the middle of their own crisis. The novel moves between the Lamberts' declining midwestern household and the separately spiraling lives of the children, giving each character a long, immersive section. Winner of the National Book Award.",
+    startWith: 'The Corrections',
+    books: [
+      { title: 'The Corrections', author: 'Jonathan Franzen', year: 2001, note: "Standalone — the Lambert family; Alfred with Parkinson's, Enid wanting one last Christmas, three adult children in free fall; a portrait of a midwestern family and what the American century did to it; National Book Award winner" },
+      { title: 'Freedom', author: 'Jonathan Franzen', year: 2010, note: "Franzen's second major novel — Walter and Patty Berglund in Minnesota and Washington, D.C., and their marriage slowly collapsing across three decades; a companion in ambition and structure to The Corrections but focused on the liberal professional class of the 2000s", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The Corrections a standalone?', a: "Yes — The Corrections is entirely self-contained. Jonathan Franzen's other major novels — Freedom (2010) and Crossroads (2021), the first volume of a planned trilogy — are independent works not connected in plot or character to The Corrections." },
+      { q: 'Why is The Corrections controversial?', a: "The Corrections became the center of a widely reported controversy in 2001 when Jonathan Franzen expressed ambivalence about Oprah Winfrey's selection of the novel for her book club, suggesting in an NPR interview that he was worried about the Oprah sticker on the cover. Oprah retracted her invitation to Franzen to appear on the show. The book still won the National Book Award that year." },
+      { q: 'What is The Corrections about?', a: "The Corrections is about the Lambert family in the final years of Alfred Lambert's life — his Parkinson's disease is destroying his independence and dignity while his wife Enid wants one last Christmas with all three children home. Each of the three adult children — Chip (a fired professor), Gary (a Philadelphia banker in a bad marriage), and Denise (a chef in complicated relationships) — gets a long immersive section. It is simultaneously a family drama, a social novel about American decline, and a portrait of a midwestern Protestant family watching the twentieth century dismantle everything it built." },
+      { q: 'Is The Corrections appropriate for fans of Revolutionary Road?', a: "Yes — The Corrections and Revolutionary Road occupy similar literary territory: both are novels about American families who believed in the promise of the American century and find themselves in mid-collapse. Revolutionary Road focuses on a marriage; The Corrections expands the frame to three generations and three cities. Readers who love one consistently find the other compelling." },
+    ],
+  },
+  {
+    slug: 'black-boy',
+    intro: "Richard Wright's Black Boy (1945) is a classic American autobiography. It covers Wright's childhood and adolescence in the Jim Crow South — Mississippi, Tennessee, Arkansas — from about 1912 to 1927, when he escapes north to Chicago. Originally the first half of a longer work Wright titled American Hunger, it is one of the foundational texts of twentieth-century African American literature and essential biographical context for understanding Native Son.",
+    startWith: 'Black Boy',
+    books: [
+      { title: 'Black Boy', author: 'Richard Wright', year: 1945, note: "Autobiography — Wright's childhood in Mississippi, Tennessee, and Arkansas under Jim Crow; hunger, violence, family, churches, and the slow recognition that the South has no place for what he is; one of the great American memoirs of the twentieth century" },
+      { title: 'American Hunger', author: 'Richard Wright', year: 1977, note: "The second half of Wright's autobiography — Chicago, the Communist Party, the Federal Writers' Project, and his eventual break with the Party; less widely read than Black Boy but essential for the complete picture of his formation as a writer", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Black Boy a memoir or a novel?', a: "Black Boy is an autobiography — Richard Wright's account of his own childhood and youth. It is not fiction. However, Wright shaped the material with novelistic techniques, and it is often assigned alongside fiction in literature courses and shelved with literature in libraries." },
+      { q: 'What is the relationship between Black Boy and American Hunger?', a: "Black Boy and American Hunger were originally one book titled American Hunger. The Book-of-the-Month Club, which selected the work, required Wright to omit the Chicago section and publish only the Southern childhood. The Southern portion was retitled Black Boy and published in 1945; the Chicago portion was published separately as American Hunger in 1977, after Wright's death. The Library of America edition restores the complete original text." },
+      { q: 'How does Black Boy relate to Native Son?', a: "Native Son (1940) was published five years before Black Boy (1945), but Black Boy is in part an account of the experiences that produced the imagination capable of writing Native Son. Bigger Thomas's sense of being trapped in a system that has no use for him reflects Wright's own experience growing up in the South and living in Chicago; Black Boy gives the biographical context for the novel's emotional and political content." },
+      { q: "What is the significance of Black Boy's title?", a: "Wright originally titled the autobiography American Hunger to emphasize the breadth of what he was describing — not just racial hunger but hunger for literacy, culture, and recognition in the fullest sense. The publisher retitled it Black Boy, narrowing the frame to racial identity. Wright had complex feelings about this; the phrase 'black boy' appears in the text as what white men call him — a form of condescension that refuses to acknowledge his full humanity and adulthood." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

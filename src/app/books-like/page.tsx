@@ -205,6 +205,11 @@ export const metadata: Metadata = {
     'books like A Farewell to Arms Ernest Hemingway',
     'books like Wolf Hall Hilary Mantel',
     'books like If Beale Street Could Talk James Baldwin',
+    'books like All Quiet on the Western Front Erich Maria Remarque',
+    'books like Doctor Zhivago Boris Pasternak',
+    'books like The Master and Margarita Mikhail Bulgakov',
+    'books like The Corrections Jonathan Franzen',
+    'books like Black Boy Richard Wright',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1102,6 +1107,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked If Beale Street Could Talk by James Baldwin?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like If Beale Street Could Talk include Go Tell It on the Mountain and Giovanni's Room and Another Country (also by James Baldwin), Their Eyes Were Watching God by Zora Neale Hurston, The Vanishing Half by Brit Bennett, An American Marriage by Tayari Jones, Beloved by Toni Morrison, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Baldwin's love story and his indictment of the American criminal justice system." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked All Quiet on the Western Front by Erich Maria Remarque?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like All Quiet on the Western Front include A Farewell to Arms and The Sun Also Rises by Ernest Hemingway, The Things They Carried by Tim O'Brien, Catch-22 by Joseph Heller, Slaughterhouse-Five by Kurt Vonnegut, Birdsong by Sebastian Faulks, Goodbye to All That by Robert Graves, and Regeneration by Pat Barker. Our full guide covers 8 picks for fans of Remarque's anti-war novel about the German Western Front in World War One." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Doctor Zhivago by Boris Pasternak?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Doctor Zhivago include A Gentleman in Moscow by Amor Towles, The Master and Margarita by Mikhail Bulgakov, Anna Karenina and War and Peace by Leo Tolstoy, Life and Fate by Vasily Grossman, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, The Bronze Horseman by Paullina Simons, and City of Thieves by David Benioff. Our full guide covers 8 picks for fans of Pasternak's great Russian love novel across the Revolution and Civil War." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Master and Margarita by Mikhail Bulgakov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Master and Margarita include Doctor Zhivago by Boris Pasternak, The Heart of a Dog (also by Bulgakov), One Hundred Years of Solitude by Gabriel García Márquez, The Trial by Franz Kafka, Catch-22 by Joseph Heller, Slaughterhouse-Five by Kurt Vonnegut, The Name of the Rose by Umberto Eco, and A Gentleman in Moscow by Amor Towles. Our full guide covers 8 picks for fans of Bulgakov's satirical masterpiece about the devil's visit to Soviet Moscow." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Corrections by Jonathan Franzen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Corrections include Freedom (also by Jonathan Franzen), Revolutionary Road by Richard Yates, White Noise by Don DeLillo, The Great Gatsby by F. Scott Fitzgerald, A Little Life by Hanya Yanagihara, The Interestings by Meg Wolitzer, The Hours by Michael Cunningham, and Rabbit, Run by John Updike. Our full guide covers 8 picks for fans of Franzen's National Book Award-winning family novel about the Lambert family's American unraveling." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Black Boy by Richard Wright?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Black Boy include Native Son (also by Richard Wright), Invisible Man by Ralph Ellison, I Know Why the Caged Bird Sings by Maya Angelou, The Autobiography of Malcolm X, Between the World and Me by Ta-Nehisi Coates, Just Mercy by Bryan Stevenson, Their Eyes Were Watching God by Zora Neale Hurston, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Wright's Jim Crow autobiography and its account of hunger for language and a life." },
     },
   ],
 };
