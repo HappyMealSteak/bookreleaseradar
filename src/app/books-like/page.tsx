@@ -102,6 +102,11 @@ export const metadata: Metadata = {
     'books like Station Eleven Emily Mandel',
     'books like The Midnight Library Matt Haig',
     'books like Kindred Octavia Butler',
+    'books like The Road Cormac McCarthy',
+    'books like Beloved Toni Morrison',
+    'books like The Underground Railroad Colson Whitehead',
+    'books like A Man Called Ove Fredrik Backman',
+    'books like Eleanor Oliphant Is Completely Fine',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -479,6 +484,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Kindred by Octavia Butler?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Kindred include Parable of the Sower (also by Butler), The Underground Railroad by Colson Whitehead, Beloved by Toni Morrison, The Handmaid's Tale by Margaret Atwood, The Left Hand of Darkness by Ursula Le Guin, and Their Eyes Were Watching God by Zora Neale Hurston. Our full Kindred guide covers 8 picks for fans of speculative literary fiction examining race and history." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Road by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Road include Station Eleven by Emily St. John Mandel, The Parable of the Sower by Octavia Butler, Never Let Me Go by Kazuo Ishiguro, Blindness by José Saramago, and Blood Meridian and No Country for Old Men (also by McCarthy). Our full Road guide covers 8 picks for fans of post-apocalyptic literary fiction about survival and grief." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Beloved by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Beloved include Kindred by Octavia Butler, The Underground Railroad by Colson Whitehead, Song of Solomon and Sula (also by Morrison), Their Eyes Were Watching God by Zora Neale Hurston, The Color Purple by Alice Walker, and Homegoing by Yaa Gyasi. Our full Beloved guide covers 8 essential picks for fans of American literary fiction about race, history, and survival." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Underground Railroad by Colson Whitehead?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Underground Railroad include Kindred by Octavia Butler, Beloved by Toni Morrison, The Nickel Boys (also by Whitehead), Homegoing by Yaa Gyasi, Their Eyes Were Watching God by Zora Neale Hurston, and The Water Dancer by Ta-Nehisi Coates. Our full Underground Railroad guide covers 8 picks for fans of speculative and literary historical fiction about slavery." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Man Called Ove by Fredrik Backman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Man Called Ove include Anxious People and Beartown (also by Backman), Eleanor Oliphant Is Completely Fine by Gail Honeyman, The Unlikely Pilgrimage of Harold Fry by Rachel Joyce, The Midnight Library by Matt Haig, and The Rosie Project by Graeme Simsion. Our full Ove guide covers 8 picks for fans of heartwarming literary fiction about difficult people and the communities that save them." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Eleanor Oliphant Is Completely Fine?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Eleanor Oliphant Is Completely Fine include A Man Called Ove by Fredrik Backman, The Unlikely Pilgrimage of Harold Fry by Rachel Joyce, The Midnight Library by Matt Haig, Where'd You Go Bernadette by Maria Semple, The Rosie Project by Graeme Simsion, and Anxious People by Fredrik Backman. Our full Eleanor Oliphant guide covers 8 picks for fans of British literary fiction about isolation, trauma, and unexpected connection." },
     },
   ],
 };

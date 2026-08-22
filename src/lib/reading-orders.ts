@@ -1811,6 +1811,77 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Why is Kindred so widely taught?', a: "Kindred is one of the most widely assigned novels in American university courses because it uses the science fiction premise of time travel to place a contemporary reader inside the experience of American slavery — making it visceral and immediate in a way that historical fiction cannot. Dana's modern consciousness (and her white husband, who joins her in the past) gives readers a point of identification that historical fiction set entirely in the period cannot provide." },
     ],
   },
+  {
+    slug: 'the-road',
+    intro: "Cormac McCarthy's The Road (2006) is a complete standalone novel. There is no sequel. The novel follows a man and his young son walking south through a burned America after an unspecified catastrophe, carrying fire. The Road won the Pulitzer Prize for Fiction in 2007 and is considered one of the defining American novels of the 21st century.",
+    startWith: 'The Road',
+    books: [
+      { title: 'The Road', author: 'Cormac McCarthy', year: 2006, note: "Standalone — a man and his son walk south through a burned America, carrying fire; Pulitzer Prize winner" },
+    ],
+    faq: [
+      { q: 'Is The Road a standalone?', a: "Yes — The Road is a complete standalone novel with no sequel or prequel. Cormac McCarthy has written other novels (Blood Meridian, No Country for Old Men, All the Pretty Horses, the Passenger/Stella Maris duology), but The Road is entirely independent." },
+      { q: 'What happened in The Road?', a: "The Road never specifies what caused the catastrophe — only that something burned the sky, killed most living things, and left a world of ash and cold. The focus is entirely on the man and his son: who they are, what they carry, and whether they will reach the sea." },
+      { q: 'Is The Road appropriate for all readers?', a: "The Road contains significant violence, including scenes that are among the most disturbing in contemporary American fiction. McCarthy does not soften or aestheticize the violence of a collapsed world. Most readers place it at 18 and up." },
+      { q: 'What is the meaning of "carrying the fire" in The Road?', a: "'Carrying the fire' is the novel's central metaphor for moral integrity — the man tells his son they carry fire inside them, meaning they will not do the things the bad people do even when survival seems to require it. The phrase appears throughout the novel as the man's final moral instruction to his son." },
+    ],
+  },
+  {
+    slug: 'beloved',
+    intro: "Toni Morrison's Beloved (1987) is a complete standalone novel. There is no sequel. Set in 1873 Ohio, the novel follows Sethe, a formerly enslaved woman who escaped from Kentucky and killed her infant daughter rather than let her be returned to slavery, and who now lives with the ghost of that daughter in her house. The novel won the Pulitzer Prize for Fiction in 1988 and the Nobel Prize in Literature went to Morrison in 1993, partly in recognition of it. It is widely considered one of the greatest American novels.",
+    startWith: 'Beloved',
+    books: [
+      { title: 'Beloved', author: 'Toni Morrison', year: 1987, note: "Standalone — Sethe, a formerly enslaved woman in 1873 Ohio, is haunted by the daughter she killed rather than allow to be returned to slavery; Pulitzer Prize winner" },
+    ],
+    faq: [
+      { q: 'Is Beloved a standalone?', a: "Yes — Beloved is a complete standalone novel. Toni Morrison wrote two companion novels (Jazz, 1992; Paradise, 1997) that form what some critics call the Beloved Trilogy, but each is entirely independent with no shared characters or plot." },
+      { q: 'What is Beloved about?', a: "Beloved is about the specific horror of American chattel slavery as lived experience — not as history but as a weight that deforms every relationship and every decision for the people who survived it. Sethe's choice to kill her daughter rather than let her be taken into slavery is the event the novel examines, without judging it." },
+      { q: 'Is Beloved appropriate for all readers?', a: "Beloved contains graphic depictions of slavery's violence, including sexual violence, infanticide, and psychological trauma. Morrison does not soften or aestheticize the material. The novel is widely taught in high school and university curricula; most teachers recommend it for mature readers 16 and up." },
+      { q: 'What is rememory in Beloved?', a: "Rememory is a concept Morrison develops in the novel — a kind of memory that exists in places rather than just in minds. Sethe explains to her daughter Denver that some places are so full of what happened in them that the memory persists even after the people who experienced it have left. The haunting in the novel is partly literal and partly an expression of this concept." },
+    ],
+  },
+  {
+    slug: 'underground-railroad',
+    intro: "Colson Whitehead's The Underground Railroad (2016) is a complete standalone novel. There is no sequel. The novel follows Cora, a enslaved woman on a Georgia plantation who escapes on a literal underground railroad — in Whitehead's alternate history, an actual railway system beneath the country — and makes her way through different versions of American history in each state. The novel won the Pulitzer Prize for Fiction and the National Book Award in 2017.",
+    startWith: 'The Underground Railroad',
+    books: [
+      { title: 'The Underground Railroad', author: 'Colson Whitehead', year: 2016, note: "Standalone — Cora escapes slavery on a literal underground railroad and encounters different versions of American racial history in each state she passes through; Pulitzer Prize winner" },
+    ],
+    faq: [
+      { q: 'Is The Underground Railroad a standalone?', a: "Yes — The Underground Railroad is a complete standalone novel. Colson Whitehead has written other novels (Zone One, The Intuitionist, The Nickel Boys), but each is entirely independent." },
+      { q: 'How does Whitehead use the underground railroad literally?', a: "Whitehead makes the underground railroad — which was historically a network of people and safe houses helping enslaved people escape — into an actual subterranean railroad with trains, conductors, and tracks. Each state Cora passes through represents a different historical approach to race in America: some states are more dangerous than the antebellum South in different ways; some are more superficially hospitable and more deeply insidious." },
+      { q: 'Is The Underground Railroad science fiction?', a: "The Underground Railroad is most commonly described as speculative fiction or historical fiction — it uses speculative elements (the literal railroad, alternate history) but does not engage with science fiction genre conventions. It won the Pulitzer Prize and the National Book Award in the literary fiction categories." },
+      { q: 'How is The Underground Railroad different from Kindred?', a: "Both Kindred and The Underground Railroad place contemporary sensibilities inside the experience of American slavery using speculative elements (time travel; alternate history). Kindred uses a contemporary Black woman as the POV to create identification for a modern reader; The Underground Railroad uses an enslaved woman who is entirely inside the period. Both are essential; neither replaces the other." },
+    ],
+  },
+  {
+    slug: 'a-man-called-ove',
+    intro: "Fredrik Backman's A Man Called Ove (2012) is a complete standalone novel. There is a follow-up, Anxious People (2019), set in the same Swedish universe with different characters, but it is entirely independent. A Man Called Ove follows Ove, a recently widowed 59-year-old man with rules for everything and contempt for everyone, who is planning to end his life — and is repeatedly interrupted by his new neighbors. The novel was an international bestseller and has been adapted twice into films.",
+    startWith: 'A Man Called Ove',
+    books: [
+      { title: 'A Man Called Ove', author: 'Fredrik Backman', year: 2012, note: "Standalone — a recently widowed, difficult old man plans to stop living, and is derailed by his new neighbors; Swedish/international bestseller" },
+      { title: 'Anxious People', author: 'Fredrik Backman', year: 2019, note: "Companion standalone — eight strangers held hostage in an apartment by an accidental bank robber; same Swedish world, no shared characters", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is A Man Called Ove a standalone?', a: "Yes — A Man Called Ove is a complete standalone novel. Fredrik Backman has written other novels (Anxious People, My Grandmother Asked Me to Tell You She's Sorry, Beartown), but A Man Called Ove is entirely independent with no sequel." },
+      { q: 'Is A Man Called Ove sad?', a: "A Man Called Ove deals directly with grief, loneliness, suicidal ideation, and loss. Most readers find it simultaneously one of the most emotionally difficult books they've read and one of the most uplifting — it is fundamentally a novel about community intervening in a person's life at the moment they have given up on it. Whether it is sad depends on which half of the novel you weight more." },
+      { q: 'Is A Man Called Ove translated from Swedish?', a: "Yes — A Man Called Ove was written in Swedish as En man som heter Ove and translated into English by Henning Koch. It was published in Sweden in 2012 and in English in 2014. The 2015 Swedish film adaptation and the 2022 American adaptation (A Man Called Otto, with Tom Hanks) both follow the novel closely." },
+      { q: 'What makes A Man Called Ove different from similar novels?', a: "Backman structures the novel as a double timeline — the present, in which Ove is being interrupted in his plans by his new neighbors, and the past, which explains how he became who he is. The present-day interruptions are often comic; the past is heartbreaking. The two together create the emotional architecture that makes the ending feel earned rather than manipulative." },
+    ],
+  },
+  {
+    slug: 'eleanor-oliphant',
+    intro: "Gail Honeyman's Eleanor Oliphant Is Completely Fine (2017) is a complete standalone novel. There is no sequel. The novel follows Eleanor Oliphant, 29, who has a highly regimented life (identical weekly routines, weekly vodka, frozen pizza every Wednesday, and no human contact she doesn't require for her job) and has developed a rich inner life that she has no interest in sharing with anyone. The novel is narrated in Eleanor's distinctive voice and follows the event — meeting a musician she becomes obsessed with, and befriending a coworker named Raymond — that begins to thaw her isolation.",
+    startWith: 'Eleanor Oliphant Is Completely Fine',
+    books: [
+      { title: 'Eleanor Oliphant Is Completely Fine', author: 'Gail Honeyman', year: 2017, note: "Standalone — Eleanor Oliphant's completely regimented life is disrupted by a musician she becomes obsessed with and a coworker who keeps being kind to her" },
+    ],
+    faq: [
+      { q: 'Is Eleanor Oliphant Is Completely Fine a standalone?', a: "Yes — Eleanor Oliphant Is Completely Fine is a complete standalone novel with no sequel or prequel. Gail Honeyman has not published a second novel as of 2024." },
+      { q: 'What is Eleanor Oliphant Is Completely Fine about?', a: "Eleanor Oliphant Is Completely Fine is about severe isolation and the very specific personality it produces — Eleanor is not a misanthrope but a person whose circumstances have made human connection feel impossible. The novel is about what happens when two people (a coworker and a musician she becomes infatuated with) require her to engage with the world anyway." },
+      { q: 'Is Eleanor Oliphant Is Completely Fine a dark novel?', a: "Eleanor Oliphant Is Completely Fine has a significant twist in its second half that recontextualizes Eleanor's personality and situation as something much darker than the first half suggests. The novel deals with trauma, childhood abuse, and sustained psychological damage. Most readers describe it as ultimately hopeful but earned rather than easy." },
+      { q: 'Why does Eleanor Oliphant speak the way she does?', a: "Eleanor speaks in a hyper-literal, slightly old-fashioned register that reads as odd and is often funny — she has learned language from books and has not had enough human interaction to absorb the informal patterns of everyday speech. This is one symptom of her profound isolation, and the way her voice evolves across the novel is one of the things readers most respond to." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

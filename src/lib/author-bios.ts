@@ -618,6 +618,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['The Midnight Library', 'Reasons to Stay Alive', 'The Humans'],
   },
+  {
+    name: 'Cormac McCarthy',
+    bio: "Cormac McCarthy (1933–2023) was an American novelist widely considered one of the most significant literary voices of the 20th and 21st centuries. He is best known for The Road (2006), which won the Pulitzer Prize for Fiction in 2007, and No Country for Old Men (2005), which was adapted into the Academy Award–winning film by the Coen Brothers. His other major works include Blood Meridian (1985), often cited as one of the greatest American novels, the Border Trilogy (All the Pretty Horses, The Crossing, Cities of the Plain), and his final two novels, The Passenger and Stella Maris (both 2022). McCarthy's prose is distinguished by its spare punctuation, biblical cadences, and an unflinching engagement with violence, death, and the moral landscape of the American West and South.",
+    genre: 'fiction',
+    knownFor: ['The Road', 'No Country for Old Men', 'Blood Meridian'],
+  },
+  {
+    name: 'Toni Morrison',
+    bio: "Toni Morrison (1931–2019) was an American novelist and Nobel Prize laureate widely regarded as one of the greatest writers in American literary history. Her novel Beloved (1987) won the Pulitzer Prize for Fiction in 1988 and is consistently ranked among the greatest American novels. In 1993, Morrison became the first African-American woman to be awarded the Nobel Prize in Literature. Her other major works include Song of Solomon (1977, National Book Award), Sula (1973), The Bluest Eye (1970), Jazz (1992), Paradise (1997), and A Mercy (2008). Morrison taught at Princeton University for many years. Her fiction is distinguished by its lyrical prose, deep engagement with the experience of Black Americans, and its structural innovation — Morrison repeatedly invented new forms for the material her novels required.",
+    genre: 'fiction',
+    knownFor: ['Beloved', 'Song of Solomon', 'The Bluest Eye'],
+  },
+  {
+    name: 'Colson Whitehead',
+    bio: "Colson Whitehead is an American novelist who has won the Pulitzer Prize for Fiction twice — for The Underground Railroad (2016) and The Nickel Boys (2019) — making him only the fourth author in history to win the prize twice. The Underground Railroad, which imagines a literal subterranean railroad helping enslaved people escape the antebellum South, also won the National Book Award and was adapted into a miniseries by Barry Jenkins. Whitehead is also the author of Zone One (2011), a literary zombie novel, The Intuitionist (1999), Harlem Shuffle (2021), and Crook Manifesto (2023). He is a staff writer at The New Yorker and has been described as one of the defining American novelists of his generation.",
+    genre: 'fiction',
+    knownFor: ['The Underground Railroad', 'The Nickel Boys', 'Harlem Shuffle'],
+  },
+  {
+    name: 'Fredrik Backman',
+    bio: "Fredrik Backman is a Swedish author and blogger whose debut novel A Man Called Ove (2012) became an international bestseller, selling millions of copies in more than 40 countries and being adapted into both a Swedish Oscar-nominated film (2015) and an American film starring Tom Hanks (A Man Called Otto, 2022). Backman worked as a freelance journalist and blogger before turning to fiction. His subsequent novels include My Grandmother Asked Me to Tell You She's Sorry (2013), Britt-Marie Was Here (2014), Beartown (2016, his most critically serious work), Anxious People (2019), and The Winners (2022). Backman writes character-driven literary fiction about ordinary Scandinavian communities navigating grief, community, and the question of what people owe each other.",
+    genre: 'fiction',
+    knownFor: ['A Man Called Ove', 'Anxious People', 'Beartown'],
+  },
+  {
+    name: 'Gail Honeyman',
+    bio: "Gail Honeyman is a Scottish author whose debut novel Eleanor Oliphant Is Completely Fine (2017) was an international phenomenon, selling over 4 million copies worldwide, spending over 50 weeks on the New York Times bestseller list, and winning the British Book Award for Debut Novel of the Year. The novel follows Eleanor Oliphant, a woman with an extremely regimented life and near-total social isolation, and was widely praised for its distinctive first-person voice and its careful handling of trauma and mental health. Reese Witherspoon selected it for her book club, which significantly accelerated its reach. A film adaptation has been in development for several years. As of 2024, Honeyman has not published a second novel.",
+    genre: 'fiction',
+    knownFor: ['Eleanor Oliphant Is Completely Fine'],
+  },
 ];
 
 function normalize(s: string) {
