@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Bleak House Charles Dickens Victorian novel',
+    'books like The Mayor of Casterbridge Thomas Hardy',
+    'books like Villette Charlotte Brontë Victorian women',
+    'books like The Tenant of Wildfell Hall Anne Brontë',
+    'books like Oliver Twist Charles Dickens orphan',
     'books like East of Eden John Steinbeck',
     'books like For Whom the Bell Tolls Hemingway',
     'books like Waiting for Godot Samuel Beckett',
@@ -2310,6 +2315,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bleak House by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bleak House include Great Expectations and Our Mutual Friend (also by Dickens), Middlemarch by George Eliot, The Way We Live Now by Trollope, Little Dorrit by Dickens, Les Misérables by Victor Hugo, Wolf Hall by Hilary Mantel, and The Pillars of the Earth by Ken Follett. Our full guide covers 8 picks for fans of Dickens's panoramic social satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Mayor of Casterbridge by Thomas Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Mayor of Casterbridge include Tess of the d'Urbervilles and Far from the Madding Crowd (also by Hardy), King Lear by Shakespeare, Anna Karenina by Tolstoy, The Scarlet Letter by Hawthorne, Crime and Punishment by Dostoevsky, Jude the Obscure by Hardy, and Middlemarch by George Eliot. Our full guide covers 8 picks for Hardy's tragic vision." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Villette by Charlotte Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Villette include Jane Eyre by Charlotte Brontë, Middlemarch by George Eliot, Mrs Dalloway by Virginia Woolf, The Awakening by Kate Chopin, Wide Sargasso Sea by Jean Rhys, Possession by A.S. Byatt, The Bell Jar by Sylvia Plath, and Wuthering Heights by Emily Brontë. Our full guide covers 8 picks for fans of Brontë's psychological depth." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tenant of Wildfell Hall by Anne Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tenant of Wildfell Hall include Jane Eyre by Charlotte Brontë, The Awakening by Kate Chopin, A Doll's House by Ibsen, Wide Sargasso Sea by Jean Rhys, Tess of the d'Urbervilles by Hardy, Agnes Grey by Anne Brontë, Villette by Charlotte Brontë, and Housekeeping by Marilynne Robinson. Our full guide covers 8 feminist Victorian picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Oliver Twist by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Oliver Twist include Great Expectations and David Copperfield (also by Dickens), Huckleberry Finn by Mark Twain, Les Misérables by Victor Hugo, Bleak House by Dickens, The Adventures of Tom Sawyer by Twain, A Little Princess by Frances Hodgson Burnett, and Jack Maggs by Peter Carey. Our full guide covers 8 picks for fans of Dickens's orphan stories." },
     },
     {
       '@type': 'Question',

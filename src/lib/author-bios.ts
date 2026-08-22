@@ -2436,6 +2436,12 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['The Canterbury Tales', 'Troilus and Criseyde', 'The Parliament of Fowls'],
   },
+  {
+    name: 'Anne Brontë',
+    bio: "Anne Brontë (1820–1849) was an English novelist and poet — the youngest of the three Brontë sisters — who published under the male pseudonym Acton Bell and whose two novels, Agnes Grey (1847) and The Tenant of Wildfell Hall (1848), are now recognized as among the most morally serious and formally accomplished fiction produced by the Victorian era. Born on January 17, 1820, at Thornton in the West Riding of Yorkshire, the sixth and last child of Patrick Brontë and Maria Branwell, Anne grew up at Haworth Parsonage after her mother's death in 1821 and the deaths of her two eldest sisters, Maria and Elizabeth, in 1825. Where her sisters Charlotte and Emily largely failed as governesses, Anne succeeded, working in two Yorkshire households — the Ingham family at Blake Hall (1839) and the Robinson family at Thorp Green (1840–1845) — for more than five years in total. These experiences provided direct material for Agnes Grey, a quiet, autobiographical account of a clergyman's daughter who becomes a governess in two families and must maintain her moral integrity against employers who treat her as a servant and pupils who are being ruined by indulgence. The Tenant of Wildfell Hall (1848) was far more radical: the story of Helen Graham, who flees her abusive, alcoholic husband with her young son and seeks refuge at the ruined mansion of Wildfell Hall, was one of the most explicit arguments for a woman's right to leave her husband in Victorian literature, written at a time when a wife had no legal rights to her children or her property. Charlotte Brontë suppressed the novel's republication after Anne's death, apparently finding its subject matter too raw; feminist criticism of the twentieth century recovered it as a landmark text. Anne died at Scarborough on May 28, 1849, at the age of twenty-nine, less than six months after Emily's death, of pulmonary tuberculosis — the same disease that had killed all her siblings.",
+    genre: 'fiction',
+    knownFor: ['The Tenant of Wildfell Hall', 'Agnes Grey', 'Poems by Currer Ellis and Acton Bell'],
+  },
 ];
 
 function normalize(s: string) {
