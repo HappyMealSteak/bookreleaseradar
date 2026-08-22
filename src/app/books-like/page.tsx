@@ -157,6 +157,11 @@ export const metadata: Metadata = {
     'books like Daisy Jones and the Six Taylor Jenkins Reid',
     'books like The Alchemist Paulo Coelho',
     'books like The Kite Runner Khaled Hosseini',
+    'books like A Thousand Splendid Suns Khaled Hosseini',
+    'books like The Remains of the Day Kazuo Ishiguro',
+    'books like Never Let Me Go Kazuo Ishiguro',
+    "books like The Handmaid's Tale Margaret Atwood",
+    'books like 1984 George Orwell',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -809,6 +814,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Kite Runner by Khaled Hosseini?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Kite Runner include A Thousand Splendid Suns and And the Mountains Echoed (also by Khaled Hosseini), Pachinko by Min Jin Lee, The Sympathizer by Viet Thanh Nguyen, All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, and The House of the Spirits by Isabel Allende. Our full guide covers 8 picks for fans of emotionally devastating fiction about betrayal, guilt, redemption, and historical violence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Thousand Splendid Suns by Khaled Hosseini?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Thousand Splendid Suns include The Kite Runner and And the Mountains Echoed (also by Khaled Hosseini), The Nightingale by Kristin Hannah, All the Light We Cannot See by Anthony Doerr, Pachinko by Min Jin Lee, Homegoing by Yaa Gyasi, and A Long Petal of the Sea by Isabel Allende. Our full guide covers 8 picks for fans of devastating fiction about women surviving impossible circumstances across decades of historical violence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Remains of the Day by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Remains of the Day include Never Let Me Go and Klara and the Sun (also by Kazuo Ishiguro), The Sympathizer by Viet Thanh Nguyen, A Gentleman in Moscow by Amor Towles, An Artist of the Floating World by Kazuo Ishiguro, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of elegant, devastating unreliable narrator fiction about loyalty, complicity, and what professional devotion costs." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Never Let Me Go by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Never Let Me Go include The Remains of the Day and Klara and the Sun (also by Ishiguro), The Handmaid's Tale by Margaret Atwood, 1984 by George Orwell, Station Eleven by Emily St. John Mandel, The Road by Cormac McCarthy, and Flowers for Algernon by Daniel Keyes. Our full guide covers 8 picks for fans of quiet, devastating literary science fiction about fate, identity, and what we make of the time we're given." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Handmaid's Tale by Margaret Atwood?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Handmaid's Tale include The Testaments (the sequel), 1984 by George Orwell, Never Let Me Go by Kazuo Ishiguro, The Power by Naomi Alderman, Brave New World by Aldous Huxley, Vox by Christina Dalcher, Station Eleven by Emily St. John Mandel, and Oryx and Crake by Margaret Atwood. Our full guide covers 8 picks for fans of feminist dystopia and totalitarian speculative fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked 1984 by George Orwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like 1984 include Brave New World by Aldous Huxley, The Handmaid's Tale by Margaret Atwood, Never Let Me Go by Kazuo Ishiguro, We by Yevgeny Zamyatin, Fahrenheit 451 by Ray Bradbury, Animal Farm by George Orwell, and The Man in the High Castle by Philip K. Dick. Our full guide covers 8 picks for fans of classic dystopian and totalitarian fiction." },
     },
   ],
 };

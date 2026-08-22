@@ -2604,6 +2604,77 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Kite Runner appropriate for all readers?', a: "The Kite Runner contains a scene of sexual violence against a child, extensive violence related to the Taliban period, and difficult material about ethnicity and class in Afghan society. The sexual violence scene is not described in explicit detail but is clearly depicted. The novel is adult fiction and is often taught in high school and university courses." },
     ],
   },
+  {
+    slug: 'a-thousand-splendid-suns',
+    intro: "Khaled Hosseini's A Thousand Splendid Suns (2007) is a complete standalone novel. It is entirely independent of The Kite Runner — the characters have no connection, though both novels are set in Afghanistan and span the same historical period. A Thousand Splendid Suns follows two women — Mariam, an illegitimate child from Herat, and Laila, a girl from Kabul — whose lives converge across three decades of Afghan history: the Soviet invasion, civil war, the Taliban period, and its aftermath.",
+    startWith: 'A Thousand Splendid Suns',
+    books: [
+      { title: 'A Thousand Splendid Suns', author: 'Khaled Hosseini', year: 2007, note: "Standalone — two Afghan women across three decades of conflict from the Soviet invasion through the Taliban; many readers consider it Hosseini's finest novel" },
+    ],
+    faq: [
+      { q: 'Is A Thousand Splendid Suns a standalone?', a: "Yes — A Thousand Splendid Suns is entirely independent of The Kite Runner. The two novels share no characters and are set in overlapping but different Afghan communities during the same historical period. Many readers prefer A Thousand Splendid Suns as the stronger novel." },
+      { q: 'Is A Thousand Splendid Suns a feminist novel?', a: "A Thousand Splendid Suns is deeply interested in what the Soviet invasion, civil war, and Taliban period did specifically to Afghan women — the educational restrictions, the requirement for male guardians for all movement, and the violence that became legal under the Taliban. The novel is centrally about the friendship between two women who survive together and what they do for each other in impossible circumstances." },
+      { q: 'What is the title A Thousand Splendid Suns from?', a: "The title comes from a 17th-century poem by Saib-e-Tabrizi about Kabul: 'One could not count the moons that shimmer on her roofs, / And the thousand splendid suns that hide behind her walls.' Hosseini uses the poem as a framing device — the phrase 'a thousand splendid suns' appears in the novel in a context that gives it specific emotional weight." },
+      { q: 'Is A Thousand Splendid Suns appropriate for all readers?', a: "A Thousand Splendid Suns depicts domestic violence, forced marriage, child marriage, the violence of the Taliban period including public executions, and the deaths of sympathetic characters. It is adult fiction. Some sections dealing with domestic abuse are difficult to read. The novel's emotional power depends partly on the accumulation of these horrors." },
+    ],
+  },
+  {
+    slug: 'the-remains-of-the-day',
+    intro: "Kazuo Ishiguro's The Remains of the Day (1989) is a complete standalone novel. Ishiguro has written other novels (Never Let Me Go, The Buried Giant, Klara and the Sun), but they are entirely independent. The Remains of the Day follows Stevens, an elderly English butler who takes a rare motor trip across the country in the 1950s — and reflects, as he drives, on his decades of service to a lord whose politics he now cannot fully acknowledge. It won the Booker Prize in 1989 and was adapted into a film in 1993 starring Anthony Hopkins and Emma Thompson.",
+    startWith: 'The Remains of the Day',
+    books: [
+      { title: 'The Remains of the Day', author: 'Kazuo Ishiguro', year: 1989, note: "Standalone — an English butler on a rare motor trip in the 1950s reflects on his service and the professional loyalty that allowed him to avoid confronting what his employer was doing; Booker Prize winner 1989" },
+    ],
+    faq: [
+      { q: 'Is The Remains of the Day a standalone?', a: "Yes — The Remains of the Day is entirely self-contained. Kazuo Ishiguro has written six other novels (A Pale View of Hills, An Artist of the Floating World, The Unconsoled, When We Were Orphans, Never Let Me Go, The Buried Giant, Klara and the Sun), but they are entirely independent." },
+      { q: "Who is Lord Darlington in The Remains of the Day?", a: "Lord Darlington is the employer Stevens has served for decades — an English aristocrat who believed he was acting honorably by facilitating negotiations between the British establishment and Nazi Germany in the 1930s. By the 1950s, Darlington is dead and his reputation is ruined. Stevens cannot fully acknowledge that the man he devoted his life to was morally wrong, because to do so would be to acknowledge that his own devotion was wasted." },
+      { q: "What is the romance in The Remains of the Day?", a: "Stevens had a professional relationship with Miss Kenton, the head housekeeper at Darlington Hall, that was clearly something more than professional — and that he consistently refused to allow to become anything more. The novel implies that Stevens loved Miss Kenton but chose professional dignity over human connection, and that she married another man as a consequence. His visit to her in the present day — the ostensible purpose of his trip — is the emotional climax of the novel." },
+      { q: "What is The Remains of the Day about?", a: "The novel is about the cost of repression — Stevens has suppressed his emotional life so thoroughly in service of professional dignity that he has missed everything that might have made his life meaningful. Ishiguro uses the unreliable narrator to show Stevens's self-deception: the reader can see what Stevens cannot quite let himself see. It is also about complicity — Stevens's professional loyalty allowed him to ignore what his employer was doing politically." },
+    ],
+  },
+  {
+    slug: 'never-let-me-go',
+    intro: "Kazuo Ishiguro's Never Let Me Go (2005) is a complete standalone novel. It is entirely independent of Ishiguro's other novels. Never Let Me Go follows Kathy, Tommy, and Ruth — three friends who grow up at a boarding school called Hailsham in the English countryside — and gradually reveals what Hailsham's students are for. The novel is science fiction in its premise but is written in the register of literary fiction, using the genre's central conceit to examine questions about fate, identity, and the meaning of a life. It was shortlisted for the Man Booker Prize and the National Book Critics Circle Award.",
+    startWith: 'Never Let Me Go',
+    books: [
+      { title: 'Never Let Me Go', author: 'Kazuo Ishiguro', year: 2005, note: "Standalone — three friends from a boarding school called Hailsham discover gradually what they were created for; literary science fiction about fate, identity, and the meaning of a life" },
+    ],
+    faq: [
+      { q: 'Is Never Let Me Go a standalone?', a: "Yes — Never Let Me Go is entirely self-contained. Ishiguro has written other novels, but they are entirely independent." },
+      { q: 'What is Never Let Me Go about?', a: "Without revealing the central conceit that the novel discloses gradually: Never Let Me Go is about three people who grow up knowing they have a predetermined fate and who nonetheless try to live their lives — to love, to create art, to understand themselves — within that constraint. Ishiguro is interested in what the novel has to say about all human lives, not just the specific circumstances of his characters." },
+      { q: 'Is Never Let Me Go a dystopia?', a: "Never Let Me Go is science fiction in its premise but is not a conventional dystopia — there is no resistance, no escape attempt, no political critique of the system in the text itself. Ishiguro is more interested in what people do when they accept an unjust fate than in the mechanics of how an unjust society operates. Some readers find this deeply disturbing; others find it the most interesting aspect of the novel." },
+      { q: 'Is Never Let Me Go appropriate for all readers?', a: "Never Let Me Go deals with death, loss, and a premise that some readers find extremely disturbing. The novel is not graphic but it is emotionally devastating. It is adult literary fiction recommended for readers who enjoy quiet, devastating novels that stay with them." },
+    ],
+  },
+  {
+    slug: 'the-handmaids-tale',
+    intro: "Margaret Atwood's The Handmaid's Tale (1985) is the first book in a duology, followed by The Testaments (2019). The Handmaid's Tale follows Offred, a handmaid in the theocratic Republic of Gilead — a near-future America where environmental disaster and declining birth rates have led to a totalitarian religious state in which fertile women are assigned to powerful men to bear children. The Testaments won the Booker Prize in 2019 and can be read independently.",
+    startWith: "The Handmaid's Tale",
+    books: [
+      { title: "The Handmaid's Tale", author: 'Margaret Atwood', year: 1985, note: "Begin here — Offred, a handmaid in the theocratic Republic of Gilead, tells her story; the foundational text of feminist dystopia" },
+      { title: 'The Testaments', author: 'Margaret Atwood', year: 2019, note: "Sequel set fifteen years after The Handmaid's Tale — told from three perspectives including Aunt Lydia; Booker Prize winner 2019; can technically be read independently but works best after The Handmaid's Tale" },
+    ],
+    faq: [
+      { q: "Do I need to read The Handmaid's Tale before The Testaments?", a: "The Testaments is set fifteen years after The Handmaid's Tale and can be read without having read the first book — it has different protagonists and fills in enough context that it functions independently. However, The Testaments will be more emotionally resonant if you've read The Handmaid's Tale first. If you've only seen the TV series, you know enough to read The Testaments." },
+      { q: "Is The Handmaid's Tale based on real events?", a: "Atwood has said that everything in The Handmaid's Tale is based on something that has actually happened — she invented no new forms of oppression but drew on historical precedents from various regimes and time periods, particularly the American Puritan colonies, the theocratic government of Iran after 1979, and Nazi Germany's Lebensborn program for increasing the Aryan birthrate. She has said the question of which historical events she drew on for which elements of Gilead is one she frequently answers for readers." },
+      { q: "How does The Handmaid's Tale relate to the Hulu TV series?", a: "The Hulu TV series (2017–present) adapted The Handmaid's Tale for its first season and then continued the story beyond the novel for subsequent seasons. The series follows Offred (Elisabeth Moss) into the future that the novel doesn't show. The Testaments (2019) serves as the canonical sequel to the novel and exists independently of the TV series' invented plotlines." },
+      { q: "What is Gilead in The Handmaid's Tale?", a: "Gilead is the theocratic Republic that has replaced the United States after a coup. It is a patriarchal religious dictatorship organized around the premise that women's bodies exist for the reproduction of the state. Women are divided into classes — Wives, Handmaids, Marthas, Econowives, Aunts — each with prescribed dress, roles, and restrictions. Handmaids are fertile women assigned to powerful men to produce children for their households." },
+    ],
+  },
+  {
+    slug: '1984',
+    intro: "George Orwell's Nineteen Eighty-Four (1949) is a complete standalone novel. There is no sequel. The novel follows Winston Smith, a low-ranking outer party member in the totalitarian state of Oceania, who works at the Ministry of Truth rewriting historical records and who begins to resist — secretly, then with the help of a woman named Julia, then through what he believes is an underground resistance movement. 1984 is one of the most widely read and taught novels of the 20th century and has contributed more phrases and concepts to common usage than almost any other novel of its era.",
+    startWith: '1984',
+    books: [
+      { title: '1984', author: 'George Orwell', year: 1949, note: "Standalone — Winston Smith in the totalitarian state of Oceania; the foundational text of 20th century dystopian fiction and the source of concepts including Big Brother, doublethink, thoughtcrime, and the Memory Hole" },
+    ],
+    faq: [
+      { q: 'Is 1984 a standalone?', a: "Yes — 1984 is entirely self-contained. Orwell's Animal Farm (1945) is a related political allegory about totalitarianism and revolution that many readers read alongside 1984, but the two books have no narrative connection." },
+      { q: "What is Orwell's 1984 actually about?", a: "1984 is a novel about totalitarianism — specifically about a state so total in its control that it has extended into the interior of its citizens' minds. Orwell invented the concept of doublethink (holding two contradictory beliefs simultaneously and believing both), the Memory Hole (the destruction of records to change the past), and Big Brother (the omnipresent surveillance state) to describe a system that does not merely control behavior but controls thought itself. The novel is also a love story, which makes its ending more devastating." },
+      { q: "Is 1984 or Brave New World more relevant today?", a: "Both are frequently cited as prophetic about contemporary society, but they predict different kinds of control. 1984 imagines control through pain and terror — surveillance, torture, punishment. Brave New World imagines control through pleasure — people are kept docile through entertainment, drugs, and manufactured happiness. Aldous Huxley (Brave New World's author) wrote to Orwell after reading 1984 to argue that the pleasant version of control was more likely to prevail than the painful one. Many contemporary critics think both were right about different aspects of different contemporary societies." },
+      { q: "What is Room 101 in 1984?", a: "Room 101 is the torture chamber in the Ministry of Love where prisoners are confronted with their own worst personal fear — whatever it is that breaks them specifically. The novel reveals Winston's fear in its final act. Room 101 has entered general usage as a metaphor for one's personal worst-case scenario." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
