@@ -283,6 +283,11 @@ export const metadata: Metadata = {
     'books like Hunger Knut Hamsun',
     'books like Demons Dostoevsky',
     'books like The Manchurian Candidate Richard Condon',
+    'books like Perfume Patrick Süskind',
+    'books like The Joke Milan Kundera',
+    'books like Miss Lonelyhearts Nathanael West',
+    "books like It Can't Happen Here Sinclair Lewis",
+    'books like Chocolat Joanne Harris',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1570,6 +1575,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Manchurian Candidate by Richard Condon?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Manchurian Candidate include The Spy Who Came in from the Cold by John le Carré, 1984 by George Orwell, Catch-22 by Joseph Heller, The Parallax View by Loren Singer, It Can't Happen Here by Sinclair Lewis, The Plot Against America by Philip Roth, and Seven Days in May by Fletcher Knebel. Our full guide covers 8 picks for fans of Condon's Cold War satire-thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Perfume by Patrick Süskind?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Perfume include Like Water for Chocolate by Laura Esquivel, Lolita by Vladimir Nabokov, American Psycho by Bret Easton Ellis, The Talented Mr. Ripley by Patricia Highsmith, The Name of the Rose by Umberto Eco, The Picture of Dorian Gray by Oscar Wilde, The Silence of the Lambs by Thomas Harris, and The Collector by John Fowles. Our full guide covers 8 picks for fans of Süskind's novel of olfactory genius and murder." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Joke by Milan Kundera?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Joke include The Unbearable Lightness of Being (also by Kundera), The Book of Laughter and Forgetting (Kundera), Darkness at Noon by Arthur Koestler, The Trial by Franz Kafka, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, Life and Fate by Vasily Grossman, The Tin Drum by Günter Grass, and The Painted Bird by Jerzy Kosiński. Our full guide covers 8 picks for fans of Kundera's debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Miss Lonelyhearts by Nathanael West?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Miss Lonelyhearts include The Day of the Locust (also by West), The Stranger by Albert Camus, Nightmare Alley by William Lindsay Gresham, Flannery O'Connor's Complete Stories, Tobacco Road by Erskine Caldwell, Catch-22 by Joseph Heller, Notes from Underground by Dostoevsky, and Blood Meridian by Cormac McCarthy. Our full guide covers 8 picks for fans of West's compressed masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked It Can't Happen Here by Sinclair Lewis?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like It Can't Happen Here include 1984 by George Orwell, The Plot Against America by Philip Roth, The Handmaid's Tale by Margaret Atwood, The Manchurian Candidate by Richard Condon, American War by Omar El Akkad, Main Street (also by Lewis), Babbitt (Lewis), and Elmer Gantry (Lewis). Our full guide covers 8 picks for fans of Lewis's American fascism novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Chocolat by Joanne Harris?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Chocolat include Like Water for Chocolate by Laura Esquivel, The House of the Spirits by Isabel Allende, The No. 1 Ladies' Detective Agency by Alexander McCall Smith, Babette's Feast by Isak Dinesen, Captain Corelli's Mandolin by Louis de Bernières, The Shadow of the Wind by Carlos Ruiz Zafón, Cranford by Elizabeth Gaskell, and The Particular Sadness of Lemon Cake by Aimee Bender. Our full guide covers 8 picks for fans of Harris's magical chocolate fable." },
     },
   ],
 };
