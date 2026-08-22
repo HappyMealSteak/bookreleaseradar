@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Years Virginia Woolf family chronicle political',
+    'books like Between the Acts Virginia Woolf final novel pageant',
+    'books like Our Man in Havana Graham Greene spy comedy Cuba',
+    'books like The Heart of the Matter Graham Greene Catholic Africa',
+    'books like The Third Man Graham Greene Vienna thriller novella',
     'books like The Waves Virginia Woolf interior monologue modernist',
     'books like Orlando Virginia Woolf gender biography playful',
     "books like Jacob's Room Virginia Woolf WWI fragmented",
@@ -2355,6 +2360,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Years by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Years include Mrs Dalloway and To the Lighthouse by Woolf, Between the Acts by Woolf, Three Guineas by Woolf, The Forsyte Saga by John Galsworthy, The Radetzky March by Joseph Roth, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Woolf's political family chronicle." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Between the Acts by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Between the Acts include Mrs Dalloway and To the Lighthouse by Woolf, The Hours by Michael Cunningham, Arcadia by Tom Stoppard, Atonement by Ian McEwan, Parade's End by Ford Madox Ford, and The Years by Woolf. Our full guide covers 8 picks for fans of Woolf's final novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Our Man in Havana by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Our Man in Havana include The Quiet American and The Third Man by Greene, The Spy Who Came in from the Cold by John le Carré, Tinker Tailor Soldier Spy by le Carré, Casino Royale by Ian Fleming, and Brighton Rock by Greene. Our full guide covers 8 picks for fans of Greene's comic spy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Heart of the Matter by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Heart of the Matter include The End of the Affair and Brighton Rock by Greene, The Power and the Glory by Greene, Crime and Punishment by Dostoevsky, Silence by Shūsaku Endō, The Fall by Albert Camus, and Shuggie Bain by Douglas Stuart. Our full guide covers 8 picks for fans of Greene's Catholic African novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Third Man by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Third Man include The Quiet American and Our Man in Havana by Greene, The Spy Who Came in from the Cold by John le Carré, Brighton Rock by Greene, The Innocent by Ian McEwan, A Farewell to Arms by Hemingway, and The Remains of the Day by Kazuo Ishiguro. Our full guide covers 8 picks for fans of Greene's Vienna thriller." },
     },
     {
       '@type': 'Question',
