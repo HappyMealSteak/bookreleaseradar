@@ -49,6 +49,7 @@ export const metadata: Metadata = {
     'books like An Ember in the Ashes',
     'books like The Giver Lois Lowry',
     'books like Children of Blood and Bone',
+    'books like Unwind Neal Shusterman',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -150,6 +151,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Unwind?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Unwind include The Hunger Games by Suzanne Collins, Scythe by Neal Shusterman (also by Shusterman), The Maze Runner by James Dashner, Divergent by Veronica Roth, and The House of the Scorpion by Nancy Farmer. Our full Unwind guide covers 8 picks for fans of dark body-horror dystopia." },
     },
     {
       '@type': 'Question',
