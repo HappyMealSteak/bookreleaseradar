@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Popular Book Series — New Books & Release Dates',
   description:
-    'Track upcoming books in the most popular series: ACOTAR, Fourth Wing, GoT, Six of Crows, Percy Jackson, Red Rising, Outlander, and more. Release dates and reading orders.',
+    'Track upcoming books in the most popular series: ACOTAR, Fourth Wing, Dune, Eragon, Divergent, Vampire Academy, Maze Runner, Red Queen, GoT, Six of Crows, Percy Jackson, Red Rising, Outlander, and more. Release dates and reading orders.',
   keywords: [
     'ACOTAR new book',
     'Fourth Wing new book',
@@ -41,6 +41,14 @@ export const metadata: Metadata = {
     'Dark Tower reading order',
     'R.F. Kuang new book',
     'Stephen King Dark Tower new book',
+    'Dune reading order',
+    'Divergent reading order',
+    'Eragon reading order',
+    'Vampire Academy reading order',
+    'Maze Runner reading order',
+    'Red Queen reading order',
+    'Legend Marie Lu reading order',
+    'Selection reading order',
     'popular book series new releases',
     'book series reading orders',
     'book series release dates',
