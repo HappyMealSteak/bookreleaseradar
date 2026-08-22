@@ -348,6 +348,11 @@ export const metadata: Metadata = {
     'books like Regeneration Trilogy Pat Barker',
     'books like Excellent Women Barbara Pym',
     'books like Birdsong Sebastian Faulks',
+    'books like The Satanic Verses Salman Rushdie',
+    'books like Small Island Andrea Levy',
+    'books like The Rings of Saturn W.G. Sebald',
+    'books like The Prime of Miss Jean Brodie Muriel Spark',
+    'books like Brick Lane Monica Ali',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1960,6 +1965,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Birdsong by Sebastian Faulks?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Birdsong include Regeneration by Pat Barker, A Farewell to Arms by Ernest Hemingway, All Quiet on the Western Front by Erich Maria Remarque, The English Patient by Michael Ondaatje, The Remains of the Day by Kazuo Ishiguro, Testament of Youth by Vera Brittain, Charlotte Gray by Sebastian Faulks, and Cold Mountain by Charles Frazier. Our full guide covers 8 picks for fans of Faulks's World War I novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Satanic Verses by Salman Rushdie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Satanic Verses include Midnight's Children by Salman Rushdie, White Teeth by Zadie Smith, The God of Small Things by Arundhati Roy, Beloved by Toni Morrison, The Moor's Last Sigh by Salman Rushdie, Oscar and Lucinda by Peter Carey, Terra Nostra by Carlos Fuentes, and A Fine Balance by Rohinton Mistry. Our full guide covers 8 picks for fans of Rushdie's magical realist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Small Island by Andrea Levy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Small Island include White Teeth by Zadie Smith, The Lonely Londoners by Sam Selvon, Brick Lane by Monica Ali, The Long Song by Andrea Levy, NW by Zadie Smith, England England by Julian Barnes, The Emigrants by W.G. Sebald, and Fruit of the Lemon by Andrea Levy. Our full guide covers 8 picks for fans of Levy's Windrush generation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Rings of Saturn by W.G. Sebald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Rings of Saturn include Austerlitz by W.G. Sebald, The Emigrants by W.G. Sebald, Open City by Teju Cole, The Unconsoled by Kazuo Ishiguro, Pilgrim at Tinker Creek by Annie Dillard, A Field Guide to Getting Lost by Rebecca Solnit, Vertigo by W.G. Sebald, and Speak Memory by Vladimir Nabokov. Our full guide covers 8 picks for fans of Sebald's meditative prose." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Prime of Miss Jean Brodie by Muriel Spark?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Prime of Miss Jean Brodie include Excellent Women by Barbara Pym, A Handful of Dust by Evelyn Waugh, The Driver's Seat by Muriel Spark, Bonjour Tristesse by Françoise Sagan, Memento Mori by Muriel Spark, The Girls of Slender Means by Muriel Spark, The Catcher in the Rye by J.D. Salinger, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Spark's Edinburgh classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Brick Lane by Monica Ali?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Brick Lane include Small Island by Andrea Levy, White Teeth by Zadie Smith, The Kite Runner by Khaled Hosseini, The God of Small Things by Arundhati Roy, Arranged Marriage by Chitra Banerjee Divakaruni, The Reluctant Fundamentalist by Mohsin Hamid, Oranges Are Not the Only Fruit by Jeanette Winterson, and The Color Purple by Alice Walker. Our full guide covers 8 picks for fans of Ali's debut novel." },
     },
   ],
 };
