@@ -846,6 +846,24 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['The Alchemist', 'Veronika Decides to Die', 'Eleven Minutes', 'The Zahir'],
   },
+  {
+    name: 'Kazuo Ishiguro',
+    bio: "Kazuo Ishiguro is a British novelist born in Nagasaki, Japan in 1954, who moved to England at age five when his father — an oceanographer — took a position there. He studied English and philosophy at the University of Kent and received his MA from the University of East Anglia's creative writing program, where he studied under Malcolm Bradbury and Angela Carter. His first two novels — A Pale View of Hills (1982) and An Artist of the Floating World (1986) — drew on his Japanese background and established him as a major literary voice. The Remains of the Day (1989) won the Booker Prize and was adapted into a widely celebrated film in 1993 starring Anthony Hopkins and Emma Thompson. Never Let Me Go (2005) was shortlisted for the Booker Prize and the National Book Critics Circle Award and is widely taught as a masterwork of literary science fiction. His subsequent novels include The Unconsoled (1995), When We Were Orphans (2000), The Buried Giant (2015), and Klara and the Sun (2021). Ishiguro was awarded the Nobel Prize in Literature in 2017, with the Swedish Academy describing his novels as having 'uncovered the abyss beneath our illusory sense of connection with the world.'",
+    genre: 'fiction',
+    knownFor: ['The Remains of the Day', 'Never Let Me Go', 'Klara and the Sun', 'The Buried Giant'],
+  },
+  {
+    name: 'Margaret Atwood',
+    bio: "Margaret Atwood is a Canadian novelist, poet, and essayist born in Ottawa in 1939. She studied at Victoria University in Toronto and received her MA from Radcliffe College. She is one of the most celebrated and decorated authors writing in English — the author of over 50 books of poetry, fiction, and criticism — and is known for her political intelligence, her wit, and her willingness to work across genres. Her early novels include The Edible Woman (1969), Surfacing (1972), and Lady Oracle (1976). The Handmaid's Tale (1985) established her as one of the defining voices of feminist political fiction; it was shortlisted for the Booker Prize, won the Governor General's Literary Award, and was adapted into a Hulu TV series in 2017 that ran for six seasons. The Testaments (2019), a sequel set fifteen years after The Handmaid's Tale, won the Booker Prize. Her other novels include Cat's Eye (1988), Alias Grace (1996), The Blind Assassin (2000, Booker Prize winner), and the MaddAddam trilogy (Oryx and Crake 2003; The Year of the Flood 2009; MaddAddam 2013).",
+    genre: 'sci-fi',
+    knownFor: ["The Handmaid's Tale", 'The Testaments', 'The Blind Assassin', 'Alias Grace'],
+  },
+  {
+    name: 'George Orwell',
+    bio: "George Orwell was the pen name of Eric Arthur Blair, a British novelist and journalist born in Motihari, British India in 1903. He was educated at Eton College on a scholarship and then served with the Indian Imperial Police in Burma — an experience that informed his early novel Burmese Days (1934) and his famous essay 'Shooting an Elephant.' He fought in the Spanish Civil War on the Republican side and was shot through the throat by a fascist sniper, an experience that deepened his anti-authoritarian politics. His two most famous works — Animal Farm (1945) and Nineteen Eighty-Four (1949) — were written near the end of his life and were both explicitly anti-totalitarian, drawing on his analysis of Stalinism and fascism. Animal Farm uses a fable to critique the Soviet Revolution; Nineteen Eighty-Four imagines a total surveillance state with a vocabulary — Big Brother, doublethink, thoughtcrime, the Memory Hole, Room 101, Newspeak — that has entered common usage across multiple languages. Orwell died in 1950, shortly after Nineteen Eighty-Four was published, at age 46. He is also celebrated as one of the great English-language essayists — 'Politics and the English Language' and 'Why I Write' remain widely anthologized.",
+    genre: 'sci-fi',
+    knownFor: ['1984', 'Animal Farm', 'Homage to Catalonia', 'Burmese Days'],
+  },
 ];
 
 function normalize(s: string) {
