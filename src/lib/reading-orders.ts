@@ -945,6 +945,56 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What age is Scythe appropriate for?', a: "Scythe is typically classified as YA (ages 12+), but it deals with themes of death, institutionalized killing, and political corruption that are more sophisticated than typical YA. It is one of the most philosophically ambitious YA novels of its decade and is widely read by adults as well as teenagers." },
     ],
   },
+  {
+    slug: 'the-giver',
+    intro: "Lois Lowry's Giver Quartet is four novels set in different communities in the same world — but they do not follow the same characters (except for one key connection in Messenger and Son). The Giver (1993) stands completely alone and is still assigned in schools across the world. Reading the full quartet in order enriches the world significantly.",
+    startWith: 'The Giver',
+    books: [
+      { title: 'The Giver', author: 'Lois Lowry', year: 1993, note: 'Book 1 — Jonas lives in a Community of Sameness; he is chosen as the next Receiver of Memory' },
+      { title: 'Gathering Blue', author: 'Lois Lowry', year: 2000, note: 'Book 2 — Kira, a crippled girl, discovers her community is also hiding something; set in a different, crueler society' },
+      { title: 'Messenger', author: 'Lois Lowry', year: 2004, note: 'Book 3 — Matty lives in Village, the refuge; characters from Books 1 and 2 appear' },
+      { title: 'Son', author: 'Lois Lowry', year: 2012, note: 'Book 4 — Claire is the birth mother of Jonas\'s Gabe; her search across 30 years concludes the quartet' },
+    ],
+    faq: [
+      { q: 'What is The Giver reading order?', a: "The Giver Quartet: The Giver (1993) → Gathering Blue (2000) → Messenger (2004) → Son (2012). The Giver stands alone as a standalone novel. The later books expand the world and connect characters from Books 1 and 2, but they are separate stories, not direct sequels to The Giver." },
+      { q: 'How many Giver books are there?', a: "There are 4 books in The Giver Quartet: The Giver, Gathering Blue, Messenger, and Son. The series is complete. The books are set in different communities in the same world, with characters from Books 1 and 2 meeting in Book 3." },
+      { q: 'Is The Giver a series or standalone?', a: "The Giver (1993) is a standalone novel that works perfectly on its own — it is widely read in schools as a standalone. Lois Lowry later wrote three companion novels (Gathering Blue, Messenger, Son) set in the same world, culminating in Son, which directly connects back to Jonas and Gabe from The Giver." },
+      { q: 'What is The Giver about?', a: "The Giver is set in a futuristic society that has achieved peace by eliminating pain, conflict, and memory from human experience — a process called Sameness. Twelve-year-old Jonas is chosen as the Receiver of Memory, the one person allowed to hold all the memories of emotion and history that his community has given up, and discovers the cost of his community's 'perfect' world." },
+    ],
+  },
+  {
+    slug: 'unwind',
+    intro: "Neal Shusterman's Unwind Dystology is a 5-book complete series set in a future America where the Second Civil War ended with a compromise — abortion is illegal, but any teenager aged 13–18 can be 'unwound': their body parts harvested and redistributed to others, keeping them 'alive in a divided state.' The series follows Connor, Risa, and Lev through a revolution against this system.",
+    startWith: 'Unwind',
+    books: [
+      { title: 'Unwind', author: 'Neal Shusterman', year: 2007, note: 'Book 1 — Three teens are scheduled to be unwound; they escape and discover how large the resistance is' },
+      { title: 'UnWholly', author: 'Neal Shusterman', year: 2012, note: 'Book 2 — The Graveyard grows; AWOL unwinds become a political problem; new characters introduced' },
+      { title: 'UnSouled', author: 'Neal Shusterman', year: 2013, note: 'Book 3 — Connor and Lev travel to find the source of unwinding; the Cam experiment escalates' },
+      { title: 'UnDivided', author: 'Neal Shusterman', year: 2014, note: 'Book 4 — The revolution reaches its crisis; the future of unwinding is decided' },
+      { title: 'UnBound', author: 'Neal Shusterman', year: 2015, note: 'Book 5 — Short story collection in the Unwind universe; optional companion after Book 4', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Unwind reading order?', a: "Read in series order: Unwind (2007) → UnWholly (2012) → UnSouled (2013) → UnDivided (2014). UnBound (2015) is a short story collection and optional companion, best read after UnDivided. The main story is complete at 4 books." },
+      { q: 'How many Unwind books are there?', a: "There are 4 main novels (Unwind, UnWholly, UnSouled, UnDivided) and 1 short story collection (UnBound). The Unwind Dystology is complete. Neal Shusterman also wrote the Scythe trilogy, which has thematically similar moral questions about death and societal control." },
+      { q: 'Is Unwind a series or standalone?', a: "Unwind can work as a standalone — the first book has a satisfying arc of its own. However, the story of the Second Civil War and the unwinding system continues across 4 books, and UnDivided provides the resolution. Most fans read all four main books." },
+      { q: 'What age is Unwind appropriate for?', a: "Unwind is typically classified as YA (ages 13+), but it deals with graphic themes of bodily autonomy, harvesting, and political violence that are more disturbing than most YA. The famous 'unwinding chapter' in Book 1 is one of the most-discussed scenes in YA fiction. Mature teens and adults read it regularly." },
+    ],
+  },
+  {
+    slug: 'handmaids-tale',
+    intro: "Margaret Atwood's Handmaid's Tale is a two-book series — though the original novel (1985) works as a complete standalone and is more widely read on its own. The Testaments (2019), which won the Booker Prize, is a direct sequel set 15 years after the original, told from three new perspectives. Both are essential if you want the full arc of Gilead.",
+    startWith: "The Handmaid's Tale",
+    books: [
+      { title: "The Handmaid's Tale", author: 'Margaret Atwood', year: 1985, note: 'Book 1 — Offred narrates her life as a handmaid in the theocratic Republic of Gilead' },
+      { title: 'The Testaments', author: 'Margaret Atwood', year: 2019, note: 'Book 2 — Three women\'s perspectives 15 years after the original; won the Booker Prize' },
+    ],
+    faq: [
+      { q: "What is The Handmaid's Tale reading order?", a: "Read The Handmaid's Tale (1985) first, then The Testaments (2019). The Testaments is set 15 years after the original and contains major spoilers for the first book. Both are standalone enough to read independently, but The Handmaid's Tale provides essential context for The Testaments." },
+      { q: "How many Handmaid's Tale books are there?", a: "There are 2 books: The Handmaid's Tale (1985) and The Testaments (2019). The Testaments won the 2019 Booker Prize (shared with Girl, Woman, Other). Margaret Atwood has stated The Testaments is the conclusion of the Gilead story." },
+      { q: "Is The Handmaid's Tale a standalone?", a: "Yes — The Handmaid's Tale (1985) works as a complete standalone and is widely taught and read on its own. The Testaments (2019) is a sequel set 15 years later, told from new perspectives, and can only be fully appreciated if you've read the original." },
+      { q: "What is The Handmaid's Tale TV show based on?", a: "The Hulu series The Handmaid's Tale (2017-present) adapts the first novel and then continues beyond the book's ending. Seasons 1-2 roughly cover the first novel; Seasons 3-5 go well beyond it. The Testaments novel covers similar ground to later seasons but with different characters and perspectives." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

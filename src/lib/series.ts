@@ -688,6 +688,54 @@ export const SERIES: SeriesDefinition[] = [
       'Scythe books in order',
     ],
   },
+  {
+    slug: 'the-giver',
+    name: 'The Giver Quartet',
+    shortName: 'The Giver',
+    author: 'Lois Lowry',
+    authorQuery: 'Lois Lowry',
+    genre: 'fiction',
+    description:
+      "Lois Lowry's The Giver (1993) is one of the most widely assigned novels in American schools — a slim, devastating story about a twelve-year-old boy named Jonas who lives in a Community of enforced Sameness, where suffering, color, and memory have all been eliminated. When Jonas is chosen as the Receiver of Memory, he inherits all the pain, joy, and complexity his community has surrendered. The book won the 1994 Newbery Medal and has never gone out of print. Three companion novels (Gathering Blue, Messenger, Son) expand the world across different communities.",
+    searchTerms: [
+      'Lois Lowry new book',
+      'The Giver reading order',
+      'Giver Quartet order',
+      'The Giver books in order',
+    ],
+  },
+  {
+    slug: 'unwind',
+    name: 'Unwind Dystology',
+    shortName: 'Unwind',
+    author: 'Neal Shusterman',
+    authorQuery: 'Neal Shusterman',
+    genre: 'sci-fi',
+    description:
+      "Neal Shusterman's Unwind Dystology is set in a future America where the Second Civil War ended with the Bill of Life — abortion is illegal, but parents can retroactively 'unwind' a teenager aged 13 to 18, having them taken to harvest camps where their body parts are divided and donated to others. The series begins with three teenagers who escape their unwinding and discover how deep the system goes. Unwind is known for the most disturbing single chapter in YA fiction and a moral architecture that refuses easy answers.",
+    searchTerms: [
+      'Neal Shusterman Unwind',
+      'Unwind reading order',
+      'Unwind books in order',
+      'Unwind series order',
+    ],
+  },
+  {
+    slug: 'handmaids-tale',
+    name: "The Handmaid's Tale",
+    shortName: "Handmaid's Tale",
+    author: 'Margaret Atwood',
+    authorQuery: 'Margaret Atwood',
+    genre: 'fiction',
+    description:
+      "Margaret Atwood's The Handmaid's Tale (1985) is the defining dystopian novel of the 20th century — a speculative fiction about Offred, a handmaid in the theocratic Republic of Gilead, where fertile women are forced to bear children for the ruling class. The novel's influence has only grown since the 2017 Hulu adaptation starring Elisabeth Moss. The Testaments (2019) is a direct sequel told from three new perspectives, set 15 years after the original, and won the Booker Prize.",
+    searchTerms: [
+      'Margaret Atwood new book',
+      "Handmaid's Tale reading order",
+      "Handmaid's Tale books in order",
+      'The Testaments reading order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
