@@ -358,6 +358,11 @@ export const metadata: Metadata = {
     'books like Oscar and Lucinda Peter Carey',
     'books like A Handful of Dust Evelyn Waugh',
     'books like The Emigrants W.G. Sebald',
+    'books like The Buddha of Suburbia Hanif Kureishi',
+    'books like True History of the Kelly Gang Peter Carey',
+    'books like The Pursuit of Love Nancy Mitford',
+    'books like Washington Black Esi Edugyan',
+    'books like Everything Is Illuminated Jonathan Safran Foer',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -2020,6 +2025,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Emigrants by W.G. Sebald?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Emigrants include Austerlitz by W.G. Sebald, The Rings of Saturn by W.G. Sebald, Maus by Art Spiegelman, If This Is a Man by Primo Levi, The Unconsoled by Kazuo Ishiguro, Open City by Teju Cole, The Periodic Table by Primo Levi, and Everything Is Illuminated by Jonathan Safran Foer. Our full guide covers 8 picks for fans of Sebald's four emigrant narratives." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Buddha of Suburbia by Hanif Kureishi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Buddha of Suburbia include White Teeth by Zadie Smith, Brick Lane by Monica Ali, The Black Album by Hanif Kureishi, Londonstani by Gautam Malkani, The Satanic Verses by Salman Rushdie, and Small Island by Andrea Levy. Our full guide covers 8 picks for fans of Kureishi's South London bildungsroman." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked True History of the Kelly Gang by Peter Carey?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like True History of the Kelly Gang include Oscar and Lucinda by Peter Carey, Illywhacker by Peter Carey, Cloudstreet by Tim Winton, The Secret River by Kate Grenville, Blood Meridian by Cormac McCarthy, and Carpentaria by Alexis Wright. Our full guide covers 8 picks for fans of Carey's Ned Kelly novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Pursuit of Love by Nancy Mitford?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Pursuit of Love include Love in a Cold Climate by Nancy Mitford, A Handful of Dust by Evelyn Waugh, Excellent Women by Barbara Pym, Cold Comfort Farm by Stella Gibbons, I Capture the Castle by Dodie Smith, Vile Bodies by Evelyn Waugh, and Brideshead Revisited by Evelyn Waugh. Our full guide covers 8 picks for fans of Mitford's comic classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Washington Black by Esi Edugyan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Washington Black include Beloved by Toni Morrison, Half-Blood Blues by Esi Edugyan, The Long Song by Andrea Levy, Kindred by Octavia Butler, The Book of Night Women by Marlon James, The Underground Railroad by Colson Whitehead, Homegoing by Yaa Gyasi, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of Edugyan's Booker-shortlisted novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Everything Is Illuminated by Jonathan Safran Foer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Everything Is Illuminated include Maus by Art Spiegelman, The Emigrants by W.G. Sebald, Austerlitz by W.G. Sebald, The History of Love by Nicole Krauss, The Tin Drum by Günter Grass, Sophie's Choice by William Styron, The Painted Bird by Jerzy Kosiński, and HHhH by Laurent Binet. Our full guide covers 8 picks for fans of Foer's debut novel." },
     },
   ],
 };
