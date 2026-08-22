@@ -420,6 +420,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['Three Dark Crowns', 'One Dark Throne', 'Two Dark Reigns', 'Five Dark Fates', 'Anna Dressed in Blood'],
   },
+  {
+    name: 'Lauren Oliver',
+    bio: "Lauren Oliver is a New York Times bestselling American author known for the Delirium trilogy, a YA dystopian romance series set in a future America where love has been classified as a disease and cured at age eighteen. Beyond Delirium, she wrote the Before I Fall standalone (adapted into a 2017 film), the Panic novel (adapted into an Amazon series), and the Replica duology. Oliver's writing is distinguished by its lyrical, literary prose — more akin to literary fiction than genre YA — and her interest in the psychology of conformity and identity under pressure.",
+    genre: 'fiction',
+    knownFor: ['Delirium', 'Pandemonium', 'Requiem', 'Before I Fall', 'Panic'],
+  },
+  {
+    name: 'Scott Lynch',
+    bio: "Scott Lynch is an American fantasy author known for the Gentleman Bastard Sequence, an ongoing heist fantasy series featuring Locke Lamora, a master con artist operating in the city of Camorr — a fantasy analog to Renaissance Venice built atop the ruins of an alien civilization. The first novel, The Lies of Locke Lamora (2006), was nominated for the World Fantasy Award and became a cult classic for its intricate plotting, dark humor, and detailed secondary world. Lynch is known for long gaps between books; three of a planned seven volumes have been published over nearly two decades.",
+    genre: 'fantasy',
+    knownFor: ['The Lies of Locke Lamora', 'Red Seas Under Red Skies', 'The Republic of Thieves'],
+  },
 ];
 
 function normalize(s: string) {
