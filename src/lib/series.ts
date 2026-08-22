@@ -1244,6 +1244,83 @@ export const SERIES: SeriesDefinition[] = [
       'The Burning duology order',
     ],
   },
+  {
+    slug: 'his-dark-materials',
+    name: 'His Dark Materials',
+    author: 'Philip Pullman',
+    authorQuery: 'Philip Pullman',
+    genre: 'fantasy',
+    description:
+      "Philip Pullman's His Dark Materials is a complete three-book fantasy trilogy that begins as a children's adventure in an alternate Oxford where every human's soul is externalized as an animal companion, and deepens into one of the most philosophically ambitious works of speculative fiction ever written. The series follows Lyra Belacqua across multiple worlds as she becomes the figure at the center of a conflict between the forces of authority and freedom.",
+    searchTerms: [
+      'Philip Pullman new book',
+      'His Dark Materials reading order',
+      'Golden Compass reading order',
+      'His Dark Materials books in order',
+      'Book of Dust reading order',
+    ],
+  },
+  {
+    slug: 'the-expanse',
+    name: 'The Expanse',
+    author: 'James S.A. Corey',
+    authorQuery: 'James S.A. Corey',
+    genre: 'sci-fi',
+    description:
+      "James S.A. Corey's The Expanse is a complete nine-book science fiction series set 200 years in the future, when humanity has colonized the solar system and the gap between Earth, Mars, and the Belt has produced three distinct civilizations in conflict. The series is acclaimed for its hard science, political realism, and the discovery of something in the asteroid belt that changes humanity's place in the universe.",
+    searchTerms: [
+      'James Corey new book',
+      'The Expanse reading order',
+      'Expanse books in order',
+      'Leviathan Wakes reading order',
+      'Expanse series order',
+    ],
+  },
+  {
+    slug: 'project-hail-mary',
+    name: 'Project Hail Mary',
+    author: 'Andy Weir',
+    authorQuery: 'Andy Weir',
+    genre: 'sci-fi',
+    description:
+      "Andy Weir's Project Hail Mary is a standalone science fiction novel about Ryland Grace, who wakes alone on a spacecraft with no memory and must piece together the mission he has been sent on: preventing Earth's extinction. The novel is structured around Grace's memories surfacing as he works the problem — and around a first-contact encounter with the only being who can help him.",
+    searchTerms: [
+      'Andy Weir new book',
+      'Project Hail Mary reading order',
+      'Andy Weir books to read',
+    ],
+  },
+  {
+    slug: 'legendborn',
+    name: 'Legendborn',
+    shortName: 'Legendborn Cycle',
+    author: 'Tracy Deonn',
+    authorQuery: 'Tracy Deonn',
+    genre: 'fantasy',
+    description:
+      "Tracy Deonn's Legendborn is an ongoing YA fantasy series set at the University of North Carolina at Chapel Hill, where a secret society of Arthurian legend descendants has been hiding for centuries. Bree Matthews arrives on campus and discovers her family's connection to the magical world runs deeper than she knew.",
+    searchTerms: [
+      'Tracy Deonn new book',
+      'Legendborn reading order',
+      'Legendborn Cycle books in order',
+    ],
+  },
+  {
+    slug: 'winners-curse',
+    name: "The Winner's Trilogy",
+    shortName: "Winner's Trilogy",
+    author: 'Marie Rutkoski',
+    authorQuery: 'Marie Rutkoski',
+    genre: 'fantasy',
+    description:
+      "Marie Rutkoski's The Winner's Trilogy is a complete three-book YA fantasy series about Kestrel, a Valorian general's daughter who buys a Herrani slave and sets in motion a political and personal crisis neither of them can control. The series is notable for its portrayal of colonialism, political maneuvering, and a morally complex enemies-to-lovers romance.",
+    searchTerms: [
+      'Marie Rutkoski new book',
+      "Winner's Curse reading order",
+      "Winner's Trilogy books in order",
+      "Winner's Trilogy reading order",
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

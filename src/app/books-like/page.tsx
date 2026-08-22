@@ -82,6 +82,11 @@ export const metadata: Metadata = {
     'books like Stardust Neil Gaiman',
     'books like Monk and Robot Becky Chambers',
     'books like Rage of Dragons Evan Winter',
+    'books like His Dark Materials Philip Pullman',
+    'books like The Expanse James Corey',
+    'books like Project Hail Mary Andy Weir',
+    'books like Legendborn Tracy Deonn',
+    "books like The Winner's Curse Marie Rutkoski",
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -359,6 +364,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after The Rage of Dragons?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Rage of Dragons include Children of Blood and Bone by Tomi Adeyemi, The Blade Itself by Joe Abercrombie, Red Rising by Pierce Brown, An Ember in the Ashes by Sabaa Tahir, and The Way of Kings by Brandon Sanderson. Our full Burning duology guide covers 8 picks for fans of African-inspired epic fantasy with intense training arcs." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after His Dark Materials?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like His Dark Materials include The Chronicles of Narnia by C.S. Lewis (the great conversation partner), Jonathan Strange & Mr Norrell by Susanna Clarke, A Wrinkle in Time by Madeleine L'Engle, Piranesi by Susanna Clarke, and The Name of the Wind by Patrick Rothfuss. Our full HDM guide covers 8 picks for fans of philosophical multi-world fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Expanse series?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Expanse include A Long Way to a Small Angry Planet by Becky Chambers, A Memory Called Empire by Arkady Martine, Hyperion by Dan Simmons, Red Rising by Pierce Brown, Dune by Frank Herbert, and Project Hail Mary by Andy Weir. Our full Expanse guide covers 8 hard sci-fi picks for fans of realistic solar-system politics." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Project Hail Mary?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Project Hail Mary include The Martian by Andy Weir, A Long Way to a Small Angry Planet by Becky Chambers, Ender's Game by Orson Scott Card, Recursion by Blake Crouch, Hyperion by Dan Simmons, and A Psalm for the Wild-Built by Becky Chambers. Our full Project Hail Mary guide covers 8 picks for fans of first-contact sci-fi and problem-solving protagonists." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Legendborn by Tracy Deonn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Legendborn include Carry On by Rainbow Rowell, Harry Potter, Children of Blood and Bone by Tomi Adeyemi, An Ember in the Ashes, A Deadly Education by Naomi Novik, and The Inheritance Games. Our full Legendborn guide covers 8 picks for fans of Arthurian mythology retold through American racial history." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Winner's Curse?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Winner's Curse include The Cruel Prince by Holly Black, An Ember in the Ashes by Sabaa Tahir, Six of Crows by Leigh Bardugo, Strange the Dreamer by Laini Taylor, and Shadow and Bone by Leigh Bardugo. Our full Winner's Trilogy guide covers 8 picks for fans of enemies-to-lovers YA fantasy with real political stakes." },
     },
   ],
 };

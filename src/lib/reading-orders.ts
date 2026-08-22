@@ -1496,6 +1496,91 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Rage of Dragons appropriate for all ages?', a: "The Rage of Dragons is adult epic fantasy — it features graphic combat, death, and a level of violence that exceeds most YA fantasy. It is not recommended for young readers. Fans of Joe Abercrombie's First Law, Brian Staveley, or Mark Lawrence will feel at home with its intensity." },
     ],
   },
+  {
+    slug: 'his-dark-materials',
+    intro: "Philip Pullman's His Dark Materials is a complete three-book fantasy trilogy that begins as a children's adventure and deepens into one of the most philosophically ambitious and theologically provocative works of speculative fiction written in the last 50 years. The trilogy follows Lyra Belacqua, a girl raised in an alternate Oxford where every human's soul takes the form of an animal companion called a dæmon, as she discovers that children are going missing and that the forces she thought were protecting her are the ones she should fear. The trilogy must be read in order. Pullman has since written two additional books in the companion series The Book of Dust.",
+    startWith: 'The Golden Compass',
+    books: [
+      { title: 'The Golden Compass', author: 'Philip Pullman', year: 1995, note: "Book 1 — Lyra and her dæmon Pan leave Oxford for the Arctic North in search of missing children and a mysterious substance called Dust" },
+      { title: 'The Subtle Knife', author: 'Philip Pullman', year: 1997, note: "Book 2 — Lyra meets Will Parry, who possesses a knife that cuts windows between worlds; the series expands to include multiple parallel universes" },
+      { title: 'The Amber Spyglass', author: 'Philip Pullman', year: 2000, note: "Book 3 — The trilogy conclusion; the war between worlds reaches its crisis point" },
+      { title: 'La Belle Sauvage', author: 'Philip Pullman', year: 2017, note: "The Book of Dust Vol. 1 — prequel set 10 years before The Golden Compass; can be read before or after the original trilogy", isOptional: true },
+      { title: 'The Secret Commonwealth', author: 'Philip Pullman', year: 2019, note: "The Book of Dust Vol. 2 — set 20 years after His Dark Materials; follows an older Lyra", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the His Dark Materials reading order?', a: "Read The Golden Compass (1995), then The Subtle Knife (1997), then The Amber Spyglass (2000). The trilogy must be read in order. Philip Pullman has also written The Book of Dust, a companion series: La Belle Sauvage (2017) is a prequel and can be read before or after the original trilogy; The Secret Commonwealth (2019) is a sequel set 20 years later and should be read after." },
+      { q: 'How many His Dark Materials books are there?', a: "The His Dark Materials trilogy has three books. Philip Pullman has also written two volumes of The Book of Dust, a companion series: La Belle Sauvage (2017) and The Secret Commonwealth (2019). A third Book of Dust volume has been announced but not yet published." },
+      { q: 'Is His Dark Materials appropriate for children?', a: "The Golden Compass is often shelved in children's fiction, but the series grows significantly darker and more philosophically complex in The Subtle Knife and The Amber Spyglass. The trilogy grapples directly with religious authority, death, consciousness, and loss. Most readers recommend it for ages 12 and up, with the caveat that The Amber Spyglass especially is emotionally demanding." },
+      { q: 'What is a dæmon in His Dark Materials?', a: "In Lyra's world, every human has a dæmon — an animal companion that is, in some sense, an externalized soul. Children's dæmons can change form; adults' dæmons have settled into a permanent shape. The nature of dæmons, and what they represent about consciousness and identity, is one of the central mysteries of the trilogy." },
+    ],
+  },
+  {
+    slug: 'the-expanse',
+    intro: "James S.A. Corey's The Expanse is a complete nine-book science fiction series set 200 years in the future, when humanity has colonized the solar system but the gap between Earth, Mars, and the Belt (asteroid belt colonies) has produced three distinct civilizations in conflict. The series begins with Leviathan Wakes, when a detective hired to find a missing girl and the executive officer of a destroyed freighter independently discover something that will change humanity's place in the universe. The series is famous for its hard science, its political realism, and one of the most authentic large ensemble casts in science fiction.",
+    startWith: 'Leviathan Wakes',
+    books: [
+      { title: 'Leviathan Wakes', author: 'James S.A. Corey', year: 2011, note: "Book 1 — The protomolecule is discovered; James Holden and Detective Miller find themselves at the center of an interplanetary crisis" },
+      { title: 'Caliban\'s War', author: 'James S.A. Corey', year: 2012, note: "Book 2 — The protomolecule has been weaponized; new POV characters join the Rocinante crew" },
+      { title: 'Abaddon\'s Gate', author: 'James S.A. Corey', year: 2013, note: "Book 3 — A ring gate opens beyond the orbit of Uranus; humanity must decide whether to go through" },
+      { title: 'Cibola Burn', author: 'James S.A. Corey', year: 2014, note: "Book 4 — Colonists and corporate interests clash on the first planet beyond the gate" },
+      { title: 'Nemesis Games', author: 'James S.A. Corey', year: 2015, note: "Book 5 — the Rocinante crew separates for the first time; catastrophe strikes the inner planets" },
+      { title: 'Babylon\'s Ashes', author: 'James S.A. Corey', year: 2016, note: "Book 6 — The war for the solar system reaches its conclusion; a government-in-exile fights for control" },
+      { title: 'Persepolis Rising', author: 'James S.A. Corey', year: 2017, note: "Book 7 — 30 years later; a new threat emerges from the ring space" },
+      { title: 'Tiamat\'s Wrath', author: 'James S.A. Corey', year: 2019, note: "Book 8 — the resistance and the Laconian Empire; the builders of the rings are found" },
+      { title: 'Leviathan Falls', author: 'James S.A. Corey', year: 2021, note: "Book 9 — the series finale; humanity faces the existential threat that destroyed the builders" },
+    ],
+    faq: [
+      { q: 'What is The Expanse reading order?', a: "The Expanse should be read in publication order: Leviathan Wakes (2011), Caliban's War (2012), Abaddon's Gate (2013), Cibola Burn (2014), Nemesis Games (2015), Babylon's Ashes (2016), Persepolis Rising (2017), Tiamat's Wrath (2019), and Leviathan Falls (2021). James S.A. Corey has also published several novellas set in the same universe that can be read alongside the novels." },
+      { q: 'How many The Expanse books are there?', a: "The Expanse series has nine main novels plus a collection of novellas. The main series is complete with Leviathan Falls (2021). James S.A. Corey — the pen name of co-authors Daniel Abraham and Ty Franck — has said the story is finished." },
+      { q: 'Is The Expanse hard science fiction?', a: "The Expanse is known for being one of the most scientifically rigorous major science fiction series — ships must decelerate as well as accelerate, characters experience realistic zero-g physiology, and the political and economic dynamics of a solar-system civilization are worked out in careful detail. It is hard sci-fi in the tradition of Kim Stanley Robinson and Arthur C. Clarke, but with character-driven drama that makes it accessible to readers who don't normally read hard SF." },
+      { q: 'Can I watch The Expanse TV show instead of reading the books?', a: "The Expanse TV series (Amazon Prime, 6 seasons) is widely considered one of the best science fiction adaptations ever made, covering roughly the first six books. The show and books diverge in details but tell the same story. Many readers start with the show and come to the books for what happens after Season 6 — both approaches work." },
+    ],
+  },
+  {
+    slug: 'project-hail-mary',
+    intro: "Andy Weir's Project Hail Mary (2021) is a complete standalone science fiction novel. There is no sequel. The novel opens with Ryland Grace waking up alone on a spaceship with no memory of how he got there, two dead crewmates, and a mission he must piece together from clues around him. What he discovers is that he is humanity's last hope, alone in another solar system, tasked with preventing Earth's extinction. The novel is structured around Grace's memories surfacing as he works the problem — and around an encounter with the only other being in the solar system who can help him.",
+    startWith: 'Project Hail Mary',
+    books: [
+      { title: 'Project Hail Mary', author: 'Andy Weir', year: 2021, note: "Standalone — Ryland Grace wakes alone on a spacecraft with no memory and a mission he has to reconstruct from clues" },
+    ],
+    faq: [
+      { q: 'Is Project Hail Mary a standalone novel?', a: "Yes — Project Hail Mary is a complete standalone novel with no sequels, prequels, or related books required. Andy Weir has written other novels (The Martian, Artemis), but each is entirely independent." },
+      { q: 'Is Project Hail Mary related to The Martian?', a: "Project Hail Mary is not set in the same universe as The Martian and has no shared characters. Both books feature a scientifically inclined protagonist solving survival problems alone in space, and readers who loved The Martian's 'science-as-adventure' approach consistently love Project Hail Mary. But no prior reading is required." },
+      { q: 'Is Project Hail Mary appropriate for non-science fiction readers?', a: "Project Hail Mary is frequently recommended as an entry point to science fiction for readers who have never read SF before. The science is accurate but explained in character — Grace is a science teacher, so his internal monologue explains concepts in terms that don't require a background in physics or biology. The emotional core of the novel is a relationship, not a concept." },
+      { q: 'What makes Project Hail Mary different from other sci-fi?', a: "The central relationship in Project Hail Mary — between Grace and Rocky, a being from another star system — is one of the most unusual and moving partnerships in recent fiction. The two cannot share biology, cannot breathe the same air, and communicate through a language they build from scratch. The first-contact element of the novel is handled with both scientific rigor and genuine wonder." },
+    ],
+  },
+  {
+    slug: 'legendborn',
+    intro: "Tracy Deonn's Legendborn series is an ongoing YA fantasy series set at the University of North Carolina at Chapel Hill, where a secret society called the Order of the Round Table has been hiding in plain sight for centuries — descendants of King Arthur's knights who are preparing for the day Arthur reincarnates and Britain's enemies return. Bree Matthews arrives on campus for an early college program and discovers that the death she was told was an accident was something else, and that the magical world she didn't know existed has been affecting her family for generations. The series must be read in order.",
+    startWith: 'Legendborn',
+    books: [
+      { title: 'Legendborn', author: 'Tracy Deonn', year: 2020, note: "Book 1 — Bree Matthews uncovers the Order of the Round Table at her university and discovers her own family's connection to the Arthurian legacy" },
+      { title: 'Bloodmarked', author: 'Tracy Deonn', year: 2022, note: "Book 2 — Bree must navigate the Order's politics while the Lines are fractured and the forces she discovered in Book 1 are moving faster" },
+    ],
+    faq: [
+      { q: 'What is the Legendborn reading order?', a: "Read Legendborn (2020) first, then Bloodmarked (2022). The series must be read in order. A third book has been announced; check Tracy Deonn's website for publication updates." },
+      { q: 'How many Legendborn books are there?', a: "The Legendborn Cycle currently has two published books: Legendborn (2020) and Bloodmarked (2022). A third book has been announced and is in progress." },
+      { q: 'Is Legendborn part of a larger connected world?', a: "Legendborn is set in a contemporary United States where the Arthurian legend is hidden history rather than myth. It is not connected to any other published series. The world-building is entirely contained within the Legendborn Cycle." },
+      { q: 'What makes Legendborn unique?', a: "Legendborn centers the experience of a Black girl in a secret society whose mythology is rooted in a white British colonial legacy — and asks what that legacy actually means, what it has done, and whether it belongs to her. The novel is unusual in the YA fantasy genre for treating the magic system and the racial history of the United States as genuinely connected rather than parallel concerns." },
+    ],
+  },
+  {
+    slug: 'winners-curse',
+    intro: "Marie Rutkoski's The Winner's Trilogy is a complete three-book YA fantasy series set in a world where the Herrani people were enslaved by the Valorian empire a generation ago. The trilogy follows Kestrel, a Valorian general's daughter, who buys a Herrani slave at auction — and in doing so sets in motion a political and personal crisis that neither of them can control. The series must be read in order.",
+    startWith: "The Winner's Curse",
+    books: [
+      { title: "The Winner's Curse", author: 'Marie Rutkoski', year: 2014, note: "Book 1 — Kestrel buys a Herrani slave named Arin and discovers she is already in a game she didn't know had started" },
+      { title: "The Winner's Crime", author: 'Marie Rutkoski', year: 2015, note: "Book 2 — Kestrel is now betrothed to the emperor's son; the political situation demands choices she cannot afford to make" },
+      { title: "The Winner's Kiss", author: 'Marie Rutkoski', year: 2016, note: "Book 3 — The trilogy conclusion; the war Kestrel has been trying to prevent arrives" },
+    ],
+    faq: [
+      { q: "What is The Winner's Curse reading order?", a: "Read The Winner's Curse (2014), then The Winner's Crime (2015), then The Winner's Kiss (2016). The trilogy must be read in order. The series is complete." },
+      { q: "How many Winner's Curse books are there?", a: "The Winner's Trilogy by Marie Rutkoski consists of three books: The Winner's Curse, The Winner's Crime, and The Winner's Kiss. The trilogy is complete." },
+      { q: "Is The Winner's Curse enemies to lovers?", a: "Yes — The Winner's Curse is one of the defining enemies-to-lovers YA fantasy series. Kestrel is a Valorian, whose empire enslaved Arin's people; Arin is her slave and her enemy. The trilogy does not let them escape the political and moral weight of what that means, even as their personal feelings become more complicated." },
+      { q: "Is The Winner's Curse similar to The Cruel Prince or An Ember in the Ashes?", a: "Yes — The Winner's Curse shares core DNA with both. Like The Cruel Prince, it features a morally complicated power dynamic and a protagonist who weaponizes intelligence against everyone around her. Like An Ember in the Ashes, it features two protagonists from opposite sides of a colonial system falling in love in ways that complicate both of their political positions." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
