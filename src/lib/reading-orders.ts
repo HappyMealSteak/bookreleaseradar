@@ -1882,6 +1882,79 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Why does Eleanor Oliphant speak the way she does?', a: "Eleanor speaks in a hyper-literal, slightly old-fashioned register that reads as odd and is often funny — she has learned language from books and has not had enough human interaction to absorb the informal patterns of everyday speech. This is one symptom of her profound isolation, and the way her voice evolves across the novel is one of the things readers most respond to." },
     ],
   },
+  {
+    slug: 'beartown',
+    intro: "Fredrik Backman's Beartown (2016) is the first book in the Beartown trilogy, followed by Us Against You (2017) and The Winners (2022). Set in a struggling Swedish hockey town, the trilogy follows the community of Beartown across years as it deals with an assault involving its star player, and the way the incident splits the town and the people who live in it.",
+    startWith: 'Beartown',
+    books: [
+      { title: 'Beartown', author: 'Fredrik Backman', year: 2016, note: "A Swedish hockey town's star player is accused of assault, and the community fractures along lines of loyalty, complicity, and silence" },
+      { title: 'Us Against You', author: 'Fredrik Backman', year: 2017, note: "Beartown's hockey club is dissolved; a rival team forms; the town continues to live with what it did and didn't do" },
+      { title: 'The Winners', author: 'Fredrik Backman', year: 2022, note: "Five years later, the survivors of Beartown reckon with who they've become" },
+    ],
+    faq: [
+      { q: 'How many Beartown books are there?', a: "There are three Beartown books: Beartown (2016), Us Against You (2017), and The Winners (2022). The trilogy is complete. The three books cover roughly a decade in the town of Beartown, Sweden, following characters across different stages of their lives." },
+      { q: 'Do you need to read all three Beartown books?', a: "Beartown is a complete and self-contained novel that many readers stop at without feeling they missed something. Us Against You begins immediately after Beartown ends and requires having read the first book. The Winners is set five years later and requires both prior books." },
+      { q: 'Is Beartown sad?', a: "Beartown deals directly with sexual assault, complicity, and the specific way communities protect their institutions over their most vulnerable members. It is Backman's most serious and emotionally devastating novel — very different in tone from A Man Called Ove. Most readers describe it as one of the most powerful and difficult books they've read." },
+      { q: 'Do you need to know about hockey to read Beartown?', a: "No. Hockey is the setting and the source of the town's identity, but the novel requires no knowledge of hockey. The sport functions the way any institution functions in a small community — it is the container for the town's hopes, loyalties, and silences, not the subject of the book." },
+    ],
+  },
+  {
+    slug: 'anxious-people',
+    intro: "Fredrik Backman's Anxious People (2019) is a complete standalone novel. There is no sequel. Eight strangers are held hostage in an apartment by an accidental bank robber who has no idea what they're doing. The novel is structured as a mystery — detectives trying to figure out how everyone escaped with no evidence — but is really about the private catastrophes people carry and how they accidentally save each other.",
+    startWith: 'Anxious People',
+    books: [
+      { title: 'Anxious People', author: 'Fredrik Backman', year: 2019, note: "Standalone — eight strangers held hostage in an apartment by an accidental bank robber; structured as a mystery but really about the private catastrophes people carry" },
+    ],
+    faq: [
+      { q: 'Is Anxious People a standalone?', a: "Yes — Anxious People is a complete standalone novel. Fredrik Backman has written other novels (A Man Called Ove, Beartown, the Beartown trilogy), but Anxious People is entirely independent with no sequel." },
+      { q: 'What is Anxious People about?', a: "Anxious People takes place almost entirely in a Stockholm apartment that was being held open for viewings when an accidental bank robber chose it as an escape route. Eight very different people end up as hostages — none of them quite who they seem. The novel uses the mystery structure (who was the bank robber? How did everyone escape?) to examine why each of the eight people was there and what they were trying to run away from." },
+      { q: 'Is Anxious People funny or sad?', a: "Both. Anxious People is structured as a farce — the bank robber is incompetent, the hostages are absurd, the detectives are father and son with a difficult relationship — and it is frequently very funny. It is also about suicide, grief, financial ruin, and loneliness, and it lands the emotional turn in its final act without feeling like it earned it cheaply." },
+      { q: 'Should I read A Man Called Ove before Anxious People?', a: "They are entirely independent — you can read either one without the other. However, many readers find that reading A Man Called Ove first gives them a clearer sense of Backman's register (comic-melancholy character study with a late emotional gut-punch), which makes Anxious People easier to trust when the novel seems to be doing something strange." },
+    ],
+  },
+  {
+    slug: 'dark-matter',
+    intro: "Blake Crouch's Dark Matter (2016) is a complete standalone novel. There is a companion standalone, Recursion (2019), which deals with similar themes of timeline collapse and identity, but it is entirely independent with no shared characters. Dark Matter follows Jason Dessen, a Chicago physicist who is abducted one night and wakes up in a version of his life he doesn't recognize — one where he made different choices.",
+    startWith: 'Dark Matter',
+    books: [
+      { title: 'Dark Matter', author: 'Blake Crouch', year: 2016, note: "Standalone — a physicist is abducted and wakes in an alternate version of his life; a thriller about the road not taken" },
+      { title: 'Recursion', author: 'Blake Crouch', year: 2019, note: "Companion standalone — a cop and a neuroscientist race to stop a memory device from collapsing reality; no shared characters", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Dark Matter a standalone?', a: "Yes — Dark Matter is a complete standalone novel. Blake Crouch has written other standalone thrillers, including Recursion (2019), which deals with similar themes of timeline instability and identity, but the two novels share no characters and can be read in any order." },
+      { q: 'Should I read Dark Matter or Recursion first?', a: "Most readers prefer Dark Matter first because it is faster-paced and slightly more accessible, which makes Recursion's more ambitious structure easier to engage with. But both are standalone novels and the order doesn't affect comprehension — Recursion is not a sequel." },
+      { q: 'How much science does Dark Matter require?', a: "Dark Matter is a thriller first. The quantum mechanics concepts it uses — superposition, the many-worlds interpretation — are explained as plot elements rather than assumed as background knowledge. No science background is required; the novel explains everything you need as it becomes relevant." },
+      { q: 'Is Dark Matter being adapted?', a: "Yes — Dark Matter was adapted as an Apple TV+ limited series, premiered in 2024, with Joel Edgerton playing Jason Dessen. The adaptation expands some elements of the plot while following the novel's core premise and structure." },
+    ],
+  },
+  {
+    slug: 'where-the-crawdads-sing',
+    intro: "Delia Owens's Where the Crawdads Sing (2018) is a complete standalone novel. There is no sequel. The novel follows Kya Clark, known as the Marsh Girl, who was abandoned by her family in the North Carolina marshes as a young child and grew up there entirely alone — teaching herself to read, surviving on oysters and mussels, and becoming a naturalist of extraordinary depth. Decades later, she is accused of murdering the most popular boy in town.",
+    startWith: 'Where the Crawdads Sing',
+    books: [
+      { title: 'Where the Crawdads Sing', author: 'Delia Owens', year: 2018, note: "Standalone — a girl abandoned in the North Carolina marshes at age seven grows up alone and is accused of murder as an adult; a mystery, a coming-of-age story, and a natural history of the marsh" },
+    ],
+    faq: [
+      { q: 'Is Where the Crawdads Sing a standalone?', a: "Yes — Where the Crawdads Sing is a complete standalone novel with no sequel. Delia Owens was a wildlife scientist before she became a novelist and has not published a second novel as of 2024." },
+      { q: 'Is Where the Crawdads Sing based on a true story?', a: "Where the Crawdads Sing is a work of fiction, not based on a true story. Owens drew on her decades of experience as a wildlife researcher in remote environments to write Kya's relationship with the marsh, but the characters and plot are invented." },
+      { q: 'Is Where the Crawdads Sing a mystery or a romance?', a: "Both — Where the Crawdads Sing interweaves three parallel stories: Kya's coming-of-age in the marsh from childhood through adulthood (a survival story and a naturalist's education), her two romances (one of which ends in tragedy), and the murder investigation (told in alternating timeline, working backward from the discovery of a body to the question of who caused it). The three tracks resolve together." },
+      { q: 'What is the ending of Where the Crawdads Sing?', a: "The novel ends with a revelation about Kya's involvement in the death that most readers do not see coming, followed by a final letter in which Kya explains her action in her own words. Whether to interpret the ending as a vindication of Kya or a more complicated moral verdict is deliberately left to the reader." },
+    ],
+  },
+  {
+    slug: 'first-fifteen-lives',
+    intro: "Claire North's The First Fifteen Lives of Harry August (2014) is a complete standalone novel. There is no sequel. The novel follows Harry August, a man who is born, lives his life, dies, and is reborn at the exact moment of his birth with full memory of all his previous lives — an oroborus, living the 20th century again and again. In his eleventh life, a child visits him on his deathbed with a message from the future: the world is ending, earlier with each cycle, and it is Harry's responsibility to find out why.",
+    startWith: 'The First Fifteen Lives of Harry August',
+    books: [
+      { title: 'The First Fifteen Lives of Harry August', author: 'Claire North', year: 2014, note: "Standalone — a man who is reborn at the start of his life with full memory of all previous lives learns the world is ending earlier each cycle and must find out why" },
+    ],
+    faq: [
+      { q: 'Is The First Fifteen Lives of Harry August a standalone?', a: "Yes — The First Fifteen Lives of Harry August is a complete standalone novel with no sequel or prequel. Claire North has written other novels (Touch, The Sudden Appearance of Hope, 84K), but each is entirely independent." },
+      { q: 'Is The First Fifteen Lives of Harry August science fiction or literary fiction?', a: "The First Fifteen Lives of Harry August uses science fiction concepts (infinite rebirth with retained memory, the causal mechanics of multiple timelines) but is primarily a literary character study — the novel is about who Harry August is and who he chooses to be across fifteen tries at the same life. It sits comfortably in both categories and is marketed to both audiences." },
+      { q: 'How does The First Fifteen Lives of Harry August compare to Recursion?', a: "Both novels use a mechanism of memory across timelines to generate a thriller structure. Recursion is faster-paced and more explicitly action-driven; Harry August is more literary and introspective, focused on what it means to live the same life many times rather than on stopping a catastrophe. Readers who enjoyed one consistently love the other." },
+      { q: "What is Claire North's real name?", a: "Claire North is a pen name for Catherine Webb, a British author who has also written under the name Kate Griffin. She uses Claire North for adult literary science fiction and Kate Griffin for urban fantasy." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

@@ -107,6 +107,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like A Man Called Ove Fredrik Backman',
     'books like Eleanor Oliphant Is Completely Fine',
+    'books like Beartown Fredrik Backman',
+    'books like Anxious People Fredrik Backman',
+    'books like Dark Matter Blake Crouch',
+    'books like Where the Crawdads Sing Delia Owens',
+    'books like First Fifteen Lives of Harry August Claire North',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -509,6 +514,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Eleanor Oliphant Is Completely Fine?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Eleanor Oliphant Is Completely Fine include A Man Called Ove by Fredrik Backman, The Unlikely Pilgrimage of Harold Fry by Rachel Joyce, The Midnight Library by Matt Haig, Where'd You Go Bernadette by Maria Semple, The Rosie Project by Graeme Simsion, and Anxious People by Fredrik Backman. Our full Eleanor Oliphant guide covers 8 picks for fans of British literary fiction about isolation, trauma, and unexpected connection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Beartown by Fredrik Backman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Beartown include Us Against You and The Winners (the Beartown trilogy sequels), A Little Life by Hanya Yanagihara, Olive Kitteridge by Elizabeth Strout, Big Little Lies by Liane Moriarty, and A Man Called Ove (also by Backman). Our full Beartown guide covers 8 picks for fans of serious literary fiction about community, assault, and silence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Anxious People by Fredrik Backman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Anxious People include A Man Called Ove (also by Backman), Eleanor Oliphant Is Completely Fine by Gail Honeyman, The Rosie Project by Graeme Simsion, The Midnight Library by Matt Haig, The Unlikely Pilgrimage of Harold Fry by Rachel Joyce, and Where'd You Go, Bernadette by Maria Semple. Our full Anxious People guide covers 8 picks for fans of funny-and-sad literary fiction about loneliness and connection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dark Matter by Blake Crouch?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dark Matter include Recursion and Upgrade (also by Crouch), The First Fifteen Lives of Harry August by Claire North, The Midnight Library by Matt Haig, Project Hail Mary by Andy Weir, Replay by Ken Grimwood, and The 7½ Deaths of Evelyn Hardcastle by Stuart Turton. Our full Dark Matter guide covers 8 picks for fans of mind-bending quantum thrillers." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Where the Crawdads Sing?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Where the Crawdads Sing include The Secret History by Donna Tartt, Big Little Lies by Liane Moriarty, To Kill a Mockingbird by Harper Lee, Educated by Tara Westover, The Lovely Bones by Alice Sebold, and Eleanor Oliphant Is Completely Fine by Gail Honeyman. Our full guide covers 8 picks for fans of atmospheric mystery novels about isolated protagonists and community judgment." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The First Fifteen Lives of Harry August?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The First Fifteen Lives of Harry August include Recursion and Dark Matter by Blake Crouch, Replay by Ken Grimwood, Life After Life by Kate Atkinson, The Midnight Library by Matt Haig, Touch (also by Claire North), and Slaughterhouse-Five by Kurt Vonnegut. Our full Harry August guide covers 8 picks for fans of literary time-loop science fiction." },
     },
   ],
 };

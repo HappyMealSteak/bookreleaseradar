@@ -648,6 +648,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Eleanor Oliphant Is Completely Fine'],
   },
+  {
+    name: 'Claire North',
+    bio: "Claire North is a pen name for Catherine Webb, a British author who also writes as Kate Griffin. Her debut under the Claire North name, The First Fifteen Lives of Harry August (2014), became an international bestseller and is widely considered one of the finest time-loop novels in literary science fiction. Her subsequent novels include Touch (2015), The Sudden Appearance of Hope (2016, World Fantasy Award winner), 84K (2018), The Gameshouse (2015), The Pursuit of William Abbey (2019), and Notes from the Burning Age (2021). North is known for using speculative premises as vehicles for character studies about identity, memory, and what makes a person who they are. As Kate Griffin she writes urban fantasy set in London.",
+    genre: 'sci-fi',
+    knownFor: ['The First Fifteen Lives of Harry August', 'Touch', 'The Sudden Appearance of Hope'],
+  },
+  {
+    name: 'Delia Owens',
+    bio: "Delia Owens is an American wildlife scientist and author whose debut novel, Where the Crawdads Sing (2018), became one of the best-selling novels of the 2010s and 2020s, selling over 15 million copies worldwide, spending years on the New York Times bestseller list, and being selected for Reese Witherspoon's book club. Before writing fiction, Owens spent decades as a wildlife researcher in Africa and co-wrote three nonfiction books about her work with her husband, Mark Owens: Cry of the Kalahari (1984), The Eye of the Elephant (1992), and Secrets of the Savanna (2006). Where the Crawdads Sing draws on her extensive experience in remote natural environments, particularly coastal marshes. It was adapted into a film in 2022 with Daisy Edgar-Jones. As of 2024 she has not published a second novel.",
+    genre: 'fiction',
+    knownFor: ['Where the Crawdads Sing'],
+  },
 ];
 
 function normalize(s: string) {
