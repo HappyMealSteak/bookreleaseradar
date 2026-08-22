@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Grit Angela Duckworth',
+    'books like Atomic Habits James Clear',
+    'books like David and Goliath Malcolm Gladwell',
+    'books like Mindset Carol Dweck',
+    'books like Range David Epstein',
     'books like Outliers Malcolm Gladwell',
     'books like Antifragile Nassim Nicholas Taleb',
     'books like The Big Short Michael Lewis',
@@ -2220,6 +2225,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Grit by Angela Duckworth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Grit include Outliers by Malcolm Gladwell, Mindset by Carol Dweck, Range by David Epstein, Peak by Anders Ericsson, The Power of Habit by Charles Duhigg, and Educated by Tara Westover. Our full guide covers 8 picks for fans of Duckworth's perseverance psychology." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Atomic Habits by James Clear?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Atomic Habits include The Power of Habit by Charles Duhigg, Thinking, Fast and Slow by Daniel Kahneman, Nudge by Richard Thaler, Grit by Angela Duckworth, Mindset by Carol Dweck, and Deep Work by Cal Newport. Our full guide covers 8 picks for fans of Clear's habit framework." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked David and Goliath by Malcolm Gladwell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like David and Goliath include The Tipping Point by Malcolm Gladwell, Outliers by Malcolm Gladwell, Blink by Malcolm Gladwell, Grit by Angela Duckworth, Range by David Epstein, and Talking to Strangers by Malcolm Gladwell. Our full guide covers 8 picks for fans of Gladwell's underdog research." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Mindset by Carol Dweck?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Mindset include Grit by Angela Duckworth, Outliers by Malcolm Gladwell, Atomic Habits by James Clear, Thinking, Fast and Slow by Daniel Kahneman, Drive by Daniel Pink, and Range by David Epstein. Our full guide covers 8 picks for fans of Dweck's growth mindset research." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Range by David Epstein?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Range include Outliers by Malcolm Gladwell, Grit by Angela Duckworth, Mindset by Carol Dweck, David and Goliath by Malcolm Gladwell, Peak by Anders Ericsson, and Where Good Ideas Come From by Steven Johnson. Our full guide covers 8 picks for fans of Epstein's generalist research." },
     },
     {
       '@type': 'Question',

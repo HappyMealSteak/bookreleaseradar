@@ -5992,6 +5992,72 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'grit',
+    intro: "Angela Duckworth's Grit: The Power of Passion and Perseverance (2016) is a work of popular psychology arguing that 'grit' — the combination of passion and sustained perseverance toward long-term goals — is a better predictor of success than IQ or talent, based on Duckworth's research with West Point cadets, spelling bee competitors, and National Teachers of the Year recipients.",
+    startWith: 'Grit',
+    books: [
+      { title: 'Grit', author: 'Angela Duckworth', year: 2016, note: 'The complete standalone book. No sequels; start and finish here.' },
+    ],
+    faq: [
+      { q: "What is Duckworth's grit scale?", a: "The Grit Scale is a ten-item questionnaire that Duckworth developed to measure an individual's level of grit — specifically their consistency of interests (how stable their long-term goals and passions are) and their perseverance of effort (how hard they work toward those goals despite setbacks). The scale has been used in research with diverse populations, from West Point cadets to children in underserved schools, and consistently predicts performance better than IQ or talent measures. The scale is freely available on Duckworth's website." },
+      { q: 'How does Grit relate to Outliers?', a: "Duckworth and Gladwell are in dialogue: Gladwell's Outliers popularized the '10,000-hour rule' (derived from Anders Ericsson's research) and emphasized structural context as the source of extraordinary performance; Duckworth emphasizes the individual psychological traits — specifically grit — that allow people to accumulate those 10,000 hours in the first place. Duckworth's research suggests that the missing link in Gladwell's account is the question of why some people keep practicing when it gets hard and others don't." },
+      { q: 'Has Grit been criticized?', a: "Yes — Grit has been criticized on methodological grounds by education researchers who argue that the grit scale measures the same construct as conscientiousness (one of the Big Five personality traits that psychologists have studied for decades) under a new name, and that the evidence for grit's predictive power above and beyond existing personality measures is weaker than Duckworth claims. Critics also argue that the book's implicit message — that people who fail to achieve their goals lack sufficient grit — shifts responsibility from structural inequities to individual character in potentially harmful ways." },
+    ],
+  },
+  {
+    slug: 'atomic-habits',
+    intro: "James Clear's Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones (2018) is a practical guide to habit formation organized around the '4 Laws of Behavior Change' (make it obvious, make it attractive, make it easy, make it satisfying) and the concept of 'identity-based habits' — changing who you are, not just what you do. One of the bestselling self-improvement books of the past decade.",
+    startWith: 'Atomic Habits',
+    books: [
+      { title: 'Atomic Habits', author: 'James Clear', year: 2018, note: 'The complete standalone book. No sequels; start and finish here.' },
+    ],
+    faq: [
+      { q: "What are the 4 Laws of Behavior Change in Atomic Habits?", a: "Clear's four laws are drawn from existing behavioral psychology research and are organized around the four stages of the habit loop: Cue (the trigger) → Craving (the motivation) → Response (the behavior) → Reward (the satisfying outcome). The four laws for building a habit are: Make it obvious (cue), Make it attractive (craving), Make it easy (response), and Make it satisfying (reward). To break a bad habit, invert the laws: Make it invisible, Make it unattractive, Make it difficult, Make it unsatisfying." },
+      { q: "What is 'habit stacking'?", a: "Habit stacking is a technique from Clear — and from Stanford behavior scientist B.J. Fogg before him — in which you link a new habit to an existing one by using the formula: 'After I [CURRENT HABIT], I will [NEW HABIT].' For example: 'After I pour my morning coffee, I will meditate for one minute.' The existing habit serves as the cue for the new habit, embedding the new behavior into an already-established routine rather than requiring a separate act of will to remember to do it." },
+      { q: 'How does Atomic Habits differ from The Power of Habit?', a: "Charles Duhigg's The Power of Habit (2012) and James Clear's Atomic Habits (2018) cover similar territory — both explain the cue-routine-reward loop and argue that habits drive most of human behavior — but differ in emphasis. The Power of Habit is heavier on scientific research and case studies (how Procter & Gamble redesigned Febreze marketing, how Paul O'Neill transformed Alcoa); Atomic Habits is more focused on specific implementation techniques (habit stacking, the 2-minute rule, environment design, identity-based habits). Most readers find The Power of Habit more intellectually satisfying and Atomic Habits more immediately actionable." },
+    ],
+  },
+  {
+    slug: 'david-and-goliath',
+    intro: "Malcolm Gladwell's David and Goliath: Underdogs, Misfits, and the Art of Battling Giants (2013) challenges the assumption that David was the underdog in his battle with Goliath — arguing that what looks like weakness often conceals hidden advantages and what looks like strength often conceals hidden fragility, from ancient battlefields to the civil rights movement to children with dyslexia.",
+    startWith: 'David and Goliath',
+    books: [
+      { title: 'David and Goliath', author: 'Malcolm Gladwell', year: 2013, note: 'Start here. The complete standalone book.' },
+      { title: 'The Tipping Point', author: 'Malcolm Gladwell', year: 2000, note: "Gladwell's debut. Read in any order across Gladwell's books." },
+      { title: 'Blink', author: 'Malcolm Gladwell', year: 2005, note: "Gladwell's second book. Read in any order." },
+      { title: 'Outliers', author: 'Malcolm Gladwell', year: 2008, note: "Gladwell's third book. Read in any order." },
+    ],
+    faq: [
+      { q: "What is Gladwell's argument about the 'desirable difficulties' of dyslexia?", a: "One of David and Goliath's most controversial chapters argues that dyslexia, though a genuine disability, sometimes forces people to develop compensating skills — in oral reasoning, spatial thinking, or persistence — that give them advantages in certain domains (entrepreneurship, law, litigation) where those compensating skills are more valuable than conventional reading fluency. Gladwell cites research showing that a disproportionate number of successful entrepreneurs are dyslexic. Critics have argued that this argument romanticizes a disability and ignores the majority of dyslexic people for whom the condition is simply a disadvantage without compensating benefits." },
+      { q: "What is the 'inverted U curve' in David and Goliath?", a: "The inverted U curve is Gladwell's framework for understanding why more is not always better: the relationship between advantages (wealth, class size, military strength) and outcomes follows an inverted U shape — more is better up to a point, then more becomes worse. The example in the book is class size: smaller classes are better than larger ones, but classes smaller than roughly 12-15 students start to feel uncomfortably intimate, losing the social dynamics that make learning work. More broadly, the inverted U argues that the advantages of Goliath (size, strength, conventional resources) are only advantages within a certain range, and beyond that range they become liabilities." },
+    ],
+  },
+  {
+    slug: 'mindset',
+    intro: "Carol S. Dweck's Mindset: The New Psychology of Success (2006) is a popular psychology book arguing that people's beliefs about the nature of their own abilities — whether they are fixed ('fixed mindset') or developable through effort ('growth mindset') — determine how they respond to challenges, setbacks, and feedback, and powerfully predict achievement across every domain from sports to business to relationships.",
+    startWith: 'Mindset',
+    books: [
+      { title: 'Mindset', author: 'Carol S. Dweck', year: 2006, note: 'The complete standalone book. No sequels; start and finish here.' },
+    ],
+    faq: [
+      { q: "What is the difference between a fixed mindset and a growth mindset?", a: "A fixed mindset is the belief that abilities are innate and fixed — you either have talent or you don't, and success is a demonstration of that talent. A growth mindset is the belief that abilities can be developed through dedication and hard work — challenge and failure are opportunities to learn and improve rather than evidence of inadequacy. Dweck's research shows that these beliefs — which people hold about their intelligence, athletic ability, artistic talent, and social skills — profoundly affect how people respond to difficulty: fixed-mindset people avoid challenges that might reveal their limitations, while growth-mindset people embrace them as opportunities to grow." },
+      { q: "Has growth mindset research been replicated?", a: "The growth mindset research has faced replication challenges. Several large-scale studies attempting to replicate classroom interventions — teaching students about growth mindset to improve their academic performance — have found smaller effects than Dweck's original research, and some replications have failed to find significant effects. A 2018 pre-registered replication in Norway found no effect of a growth mindset intervention on academic achievement. Dweck and colleagues have argued that the interventions need to be implemented carefully and at the right moments to be effective, and that the inconsistency in results reflects differences in implementation quality rather than fundamental failures of the underlying theory." },
+    ],
+  },
+  {
+    slug: 'range',
+    intro: "David Epstein's Range: Why Generalists Triumph in a Specialized World (2019) challenges the '10,000-hour rule' popularized by Malcolm Gladwell's Outliers — arguing that in most complex, uncertain, and unpredictable domains (the majority of real-world domains), breadth of experience rather than early specialization produces long-term success and expertise.",
+    startWith: 'Range',
+    books: [
+      { title: 'Range', author: 'David Epstein', year: 2019, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'The Sports Gene', author: 'David Epstein', year: 2013, note: "Epstein's debut, on the science of athletic performance and the nature versus nurture debate in sports. Read before Range for the full context of Epstein's thinking." },
+    ],
+    faq: [
+      { q: "Is Range a rebuttal of Outliers?", a: "Range is in explicit dialogue with Gladwell's Outliers and Anders Ericsson's research on deliberate practice — Epstein opens the book with a debate between Ericsson and Roger Federer (who sampled many sports before specializing late in tennis) versus Tiger Woods (who specialized in golf from age two). Epstein argues that Tiger's approach — early, narrow specialization and deliberate practice — works in 'kind learning environments' where feedback is clear and the rules are constant (chess, golf, classical music). In 'wicked learning environments' (most real-world domains) where feedback is delayed and the rules change, Range argues that broad sampling, lateral thinking, and the ability to connect ideas across domains produces better long-term outcomes." },
+      { q: "What does Range say about career paths?", a: "One of Range's most practically applicable arguments is that the data on career development shows that most people who end up in high-performing, fulfilling careers followed non-linear paths — sampling different fields, making 'dark horse' career pivots, and arriving at their ultimate domain through serial experimentation rather than linear specialization. Epstein argues that society's pressure to specialize early (in careers, in sports, in academic tracks) is inconsistent with the evidence about how most successful people actually developed, and that people should feel less anxious about late starts and career changes." },
+    ],
+  },
+  {
     slug: 'outliers',
     intro: "Malcolm Gladwell's Outliers: The Story of Success (2008) challenges the myth of the self-made individual — arguing that extraordinary success is not produced by innate talent or individual determination but by context, timing, cultural legacy, and the accumulation of roughly 10,000 hours of deliberate practice, a combination that is largely beyond any individual's control.",
     startWith: 'Outliers',
