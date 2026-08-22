@@ -4,6 +4,7 @@ import { GENRES, GENRE_LABELS, type Genre } from '@/lib/types';
 import { SERIES } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { getSeriesBySlug } from '@/lib/series';
+import { getBooksLike } from '@/lib/recommendations';
 
 export default function Footer() {
   return (
@@ -146,16 +147,16 @@ export default function Footer() {
               Books Like…
             </p>
             <ul className="space-y-2">
-              {['acotar', 'fourth-wing', 'six-of-crows', 'colleen-hoover', 'a-song-of-ice-and-fire', 'percy-jackson', 'red-rising', 'emily-henry'].map((slug) => {
-                const s = getSeriesBySlug(slug);
-                if (!s) return null;
+              {['acotar', 'fourth-wing', 'six-of-crows', 'harry-potter', 'twilight', 'a-song-of-ice-and-fire', 'hunger-games', 'handmaids-tale'].map((slug) => {
+                const rec = getBooksLike(slug);
+                if (!rec) return null;
                 return (
                   <li key={slug}>
                     <Link
                       href={`/books-like/${slug}`}
                       className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors"
                     >
-                      Books Like {s.shortName ?? s.name}
+                      Books Like {rec.sourceShortName ?? rec.sourceTitle}
                     </Link>
                   </li>
                 );
