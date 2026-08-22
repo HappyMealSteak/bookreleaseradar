@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Sapiens Yuval Noah Harari',
+    'books like Homo Deus Yuval Noah Harari',
+    'books like Guns Germs and Steel Jared Diamond',
+    'books like The Lean Startup Eric Ries',
+    'books like Zero to One Peter Thiel',
     'books like Deep Work Cal Newport',
     'books like Drive Daniel Pink',
     'books like Skin in the Game Nassim Taleb',
@@ -2230,6 +2235,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sapiens by Yuval Noah Harari?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sapiens include Homo Deus by Harari, 21 Lessons for the 21st Century by Harari, Guns, Germs, and Steel by Jared Diamond, The Dawn of Everything by Graeber and Wengrow, Enlightenment Now by Steven Pinker, and The Ascent of Money by Niall Ferguson. Our full guide covers 8 picks for fans of Harari's big history approach." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Homo Deus by Yuval Noah Harari?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Homo Deus include Sapiens by Harari, The Singularity Is Near by Ray Kurzweil, Superintelligence by Nick Bostrom, Life 3.0 by Max Tegmark, The Age of Surveillance Capitalism by Shoshana Zuboff, and Enlightenment Now by Steven Pinker. Our full guide covers 8 picks for fans of Harari's futurist vision." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Guns, Germs, and Steel by Jared Diamond?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Guns, Germs, and Steel include Collapse by Jared Diamond, Sapiens by Yuval Noah Harari, Why Nations Fail by Acemoglu and Robinson, Plagues and Peoples by William McNeill, The WEIRDest People in the World by Joseph Henrich, and The Silk Roads by Peter Frankopan. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lean Startup by Eric Ries?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lean Startup include Zero to One by Peter Thiel, The Innovator's Dilemma by Clayton Christensen, Inspired by Marty Cagan, Measure What Matters by John Doerr, The Hard Thing About Hard Things by Ben Horowitz, and Running Lean by Ash Maurya. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Zero to One by Peter Thiel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Zero to One include The Lean Startup by Eric Ries, The Innovator's Dilemma by Clayton Christensen, Founders at Work by Jessica Livingston, The Power Law by Sebastian Mallaby, Poor Charlie's Almanack by Charlie Munger, and Thinking in Systems by Donella Meadows. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',

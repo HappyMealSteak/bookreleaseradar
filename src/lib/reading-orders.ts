@@ -5992,6 +5992,73 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'sapiens',
+    intro: "Yuval Noah Harari's Sapiens: A Brief History of Humankind (2011, English translation 2014) is a sweeping intellectual history of the human species — from the cognitive revolution 70,000 years ago to the present — arguing that Homo sapiens came to dominate the earth not through physical superiority but through the uniquely human capacity to believe in and cooperate around shared fictions: religions, nations, money, corporations, and human rights.",
+    startWith: 'Sapiens',
+    books: [
+      { title: 'Sapiens', author: 'Yuval Noah Harari', year: 2011, note: 'The complete intellectual history of the human species. Start here.' },
+      { title: 'Homo Deus', author: 'Yuval Noah Harari', year: 2015, note: "Harari's account of humanity's future — where our species is headed after having conquered famine, plague, and war. Read second." },
+      { title: '21 Lessons for the 21st Century', author: 'Yuval Noah Harari', year: 2018, note: 'The present-focused volume of the trilogy — what is happening right now. Read third to complete the past/future/present triptych.' },
+    ],
+    faq: [
+      { q: "What is the 'Cognitive Revolution' in Sapiens?", a: "Harari uses 'Cognitive Revolution' to describe the period approximately 70,000 years ago when Homo sapiens began to think, communicate, and cooperate in qualitatively new ways — developing language that could describe things that don't exist (myths, religions, fictions) and using these shared fictions to coordinate the behavior of large groups of strangers. The key argument is that other animals communicate about reality ('there's a lion near the river'), but only Homo sapiens can communicate about things that exist purely in the imagination ('God wants us to kill our enemies'), and this capacity for 'intersubjective realities' is what allowed humans to build cities, nations, and empires." },
+      { q: "What does Harari mean when he says money, nations, and corporations are 'fictions'?", a: "Harari argues that money, nations, corporations, human rights, and religions are 'intersubjective realities' — things that exist because large numbers of people believe they exist and act accordingly, not because they have any physical existence independent of human belief. A dollar bill is a worthless piece of paper unless everyone in a system believes it represents value. A corporation has no physical existence — it's a legal fiction created by shared agreement. Human rights have no existence in nature — they are invented concepts that cultures choose to affirm. Harari's point is not that these fictions are bad or untrue, but that they are the distinctively human mechanism for large-scale cooperation, and that understanding their fictional nature is important for understanding history and the future." },
+    ],
+  },
+  {
+    slug: 'homo-deus',
+    intro: "Yuval Noah Harari's Homo Deus: A Brief History of Tomorrow (2015, English translation 2016) is the sequel to Sapiens, projecting the human future — arguing that having conquered the ancient scourges of famine, plague, and war, humanity's next agenda will be to upgrade itself toward divinity: immortality, bliss, and god-like creative power — through biotechnology, artificial intelligence, and the engineering of life itself.",
+    startWith: 'Sapiens',
+    books: [
+      { title: 'Sapiens', author: 'Yuval Noah Harari', year: 2011, note: 'The essential foundation. Read this first before Homo Deus.' },
+      { title: 'Homo Deus', author: 'Yuval Noah Harari', year: 2015, note: "The account of humanity's future agenda — immortality, bliss, and divinity. Read second." },
+      { title: '21 Lessons for the 21st Century', author: 'Yuval Noah Harari', year: 2018, note: 'The present-focused volume. Read third for the complete trilogy.' },
+    ],
+    faq: [
+      { q: "What is 'Dataism' in Homo Deus?", a: "Dataism is Harari's term for the emerging worldview — which he sees as the successor to both humanism and traditional religion — that treats the universe as a flow of data, organisms as data-processing algorithms, and the creation of ever more comprehensive data-processing networks as the supreme value. Under Dataism, human experience is valuable only insofar as it produces data, and algorithms — eventually AI systems — that can process data better than humans will render humans economically and politically obsolete. Harari presents Dataism both as a description of an emerging ideology in Silicon Valley and as a hypothesis about where technological development is heading." },
+      { q: "What is the difference between Sapiens and Homo Deus?", a: "Sapiens is a retrospective — a history of how Homo sapiens rose from an unremarkable African ape to the dominant force on Earth, using the human capacity for shared fictions to build religions, nations, and market economies. Homo Deus is prospective — a projection of where the human species is headed next, arguing that the same drives that powered human history (the desire to escape suffering, to have more power, to live forever) are now being expressed through biotechnology and artificial intelligence in ways that may ultimately transform or transcend the species. Homo Deus is more speculative and more unsettling than Sapiens." },
+    ],
+  },
+  {
+    slug: 'guns-germs-and-steel',
+    intro: "Jared Diamond's Guns, Germs, and Steel: The Fates of Human Societies (1997) asks and answers one of the most sweeping questions in world history: why did European and Asian civilizations come to dominate the world, rather than civilizations from Africa, the Americas, or Australia? Diamond's answer — developed through geography, ecology, biology, and anthropology — is that the advantages weren't racial or cultural but geographic and environmental.",
+    startWith: 'Guns, Germs, and Steel',
+    books: [
+      { title: 'Guns, Germs, and Steel', author: 'Jared Diamond', year: 1997, note: 'The complete argument. Winner of the Pulitzer Prize. Start here.' },
+      { title: 'Collapse', author: 'Jared Diamond', year: 2005, note: "Diamond's follow-up — how and why societies collapse — examining the ecological, political, and cultural choices that determine whether civilizations survive. Read after Guns, Germs, and Steel." },
+      { title: 'The World Until Yesterday', author: 'Jared Diamond', year: 2012, note: "Diamond's account of what traditional small-scale societies can teach modern civilization. Read third." },
+    ],
+    faq: [
+      { q: "What is Diamond's main thesis in Guns, Germs, and Steel?", a: "Diamond's thesis is that the proximate cause of European domination — guns, germs, and steel — was itself caused by deeper geographic and ecological advantages that had nothing to do with racial or cultural superiority. Eurasia's large landmass oriented east-west (allowing crops and domesticated animals to spread across similar latitudes and climates), its diverse suite of domesticable wild plants and animals, and the dense, interconnected populations that resulted created earlier civilizations with more advanced technologies, more powerful pathogens (evolved through dense human-animal contact), and more experience with state organization and warfare. Diamond argues this is the answer to 'Yali's question' — asked by a New Guinean politician: 'Why is it that you white people developed so much cargo and brought it to New Guinea, but we black people had little cargo of our own?'" },
+      { q: "Why does Diamond focus on east-west versus north-south orientation?", a: "Diamond argues that continental orientation determined the rate at which crops, animals, and technologies spread. Eurasia's primarily east-west orientation meant that crops domesticated in the Fertile Crescent (wheat, barley) could spread west to Europe and east to Asia without crossing major climate bands, because similar latitudes share similar day-length cycles, seasonal variation, and temperature ranges. The Americas' north-south orientation meant crops domesticated in Mesoamerica (maize) had to cross enormous climate bands to spread north or south, dramatically slowing diffusion. This geographic difference translated into faster accumulation of food surpluses, denser populations, more division of labor, more innovation, and ultimately more powerful weapons and resistant diseases in Eurasia." },
+    ],
+  },
+  {
+    slug: 'the-lean-startup',
+    intro: "Eric Ries's The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses (2011) introduced a framework for building companies under conditions of extreme uncertainty — replacing the traditional business plan model with a cycle of Build-Measure-Learn: rapidly building minimum viable products, measuring their actual impact on customer behavior, and learning from those measurements to decide whether to persevere or pivot.",
+    startWith: 'The Lean Startup',
+    books: [
+      { title: 'The Lean Startup', author: 'Eric Ries', year: 2011, note: 'The complete framework. Start here.' },
+      { title: 'The Startup Way', author: 'Eric Ries', year: 2017, note: "Ries's extension of the Lean Startup methodology to large organizations — how established companies can apply entrepreneurial management. Read after The Lean Startup." },
+    ],
+    faq: [
+      { q: "What is a 'minimum viable product' in The Lean Startup?", a: "Eric Ries defines a minimum viable product (MVP) as 'that version of the product that enables a full turn of the Build-Measure-Learn loop with a minimum amount of effort and the least amount of development time' — the smallest version of a product that can generate real feedback from real customers about the key assumptions underlying your business. An MVP is not a minimal product in the sense of being cheap or low-quality; it is precisely the product that will test the most important hypothesis as quickly as possible. The classic example is Dropbox's MVP: rather than building the product, founder Drew Houston made a simple video explaining how it would work, which drove massive sign-ups and validated customer demand before a line of product code was written." },
+      { q: "What does it mean to 'pivot' in Lean Startup terminology?", a: "A pivot is 'a structured course correction designed to test a new fundamental hypothesis about the product, strategy, and engine of growth' — a change in one or more elements of the business model in response to what the Build-Measure-Learn cycle has revealed, rather than an abandonment of the enterprise. Ries identifies several types of pivots: a zoom-in pivot (a single feature becomes the whole product), a zoom-out pivot (the whole product becomes a single feature of something larger), a customer segment pivot (the product is right but for a different customer than originally envisioned), and a business architecture pivot (switching between a high-margin, low-volume model and a low-margin, high-volume model). The ability to pivot before running out of runway is the central competitive advantage of the lean startup methodology." },
+    ],
+  },
+  {
+    slug: 'zero-to-one',
+    intro: "Peter Thiel's Zero to One: Notes on Startups, or How to Build the Future (2014) — based on his Stanford course on startups — argues that true progress means creating something genuinely new rather than copying what already exists: going from zero to one rather than from one to n. The book advocates building monopolies through proprietary technology, network effects, and scale, and challenges the conventional wisdom that competition is healthy.",
+    startWith: 'Zero to One',
+    books: [
+      { title: 'Zero to One', author: 'Peter Thiel', year: 2014, note: 'The complete standalone book. Start here.' },
+    ],
+    faq: [
+      { q: "What does Peter Thiel mean by 'zero to one' versus 'one to n'?", a: "Thiel distinguishes between two types of progress: horizontal progress (copying things that work, going from one to n — globalization, spreading existing knowledge to new markets) and vertical progress (doing new things, going from zero to one — technology, creating something that didn't exist before). Thiel argues that most conventional business wisdom focuses on horizontal progress — competition, best practices, incremental improvement — while the truly valuable companies create vertical progress: building something so new and better that it creates a new market rather than competing in an existing one. The question he uses to test whether someone is thinking vertically: 'What important truth do very few people agree with you on?'" },
+      { q: "Why does Thiel argue that competition is bad and monopoly is good?", a: "Thiel argues that competition destroys profit margins, forces companies into a race to the bottom on price, and prevents them from thinking long-term. Perfectly competitive industries make no economic profit over time — all value is competed away. Monopolies, by contrast, can set their own prices, invest in research and employees, think in decades rather than quarters, and focus on making really excellent products rather than on outmaneuvering competitors. Thiel's controversial claim is that most great companies — Google, Apple, Microsoft at their best — are monopolies, and that this monopoly position is what makes them capable of doing exceptional work. He distinguishes between monopolies built through proprietary technology and network effects (which he endorses) and monopolies built through government protection or rent-seeking (which he doesn't)." },
+    ],
+  },
+  {
     slug: 'deep-work',
     intro: "Cal Newport's Deep Work: Rules for Focused Success in a Distracted World (2016) argues that the ability to focus without distraction on cognitively demanding tasks — 'deep work' — is both increasingly rare and increasingly valuable in the knowledge economy, and provides a set of practical rules for cultivating this capacity in a world that systematically fragments attention.",
     startWith: 'Deep Work',
