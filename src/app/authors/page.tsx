@@ -54,10 +54,33 @@ export default async function AuthorsPage() {
   const withBios = featured.filter((a) => getAuthorBio(a.name));
   const withoutBios = featured.filter((a) => !getAuthorBio(a.name));
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I find upcoming books from my favorite author?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Search for an author on BookReleaseRadar to see their upcoming releases with confirmed publication dates and Amazon pre-order links. We track authors across fantasy, romance, thriller, mystery, sci-fi, and more.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'Which authors have the most upcoming books tracked?',
+        acceptedAnswer: { '@type': 'Answer', text: 'BookReleaseRadar tracks hundreds of authors across all genres. Featured authors with bios include Sarah J. Maas, Brandon Sanderson, Colleen Hoover, Rebecca Yarros, Leigh Bardugo, and many others.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I get notified when a new book from my favorite author comes out?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Subscribe to the BookReleaseRadar newsletter to get monthly updates on the biggest upcoming releases. You can also bookmark an author page and check back for new additions.' },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}

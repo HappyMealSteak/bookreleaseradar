@@ -80,9 +80,32 @@ export default async function BestBooksYearPage({ params }: Props) {
     ],
   };
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What are the best books of ${year}?`,
+        acceptedAnswer: { '@type': 'Answer', text: `The best books of ${year} span fantasy, romance, thriller, mystery, sci-fi, and literary fiction. BookReleaseRadar tracks new and upcoming releases with confirmed publication dates, cover images, and Amazon pre-order links.` },
+      },
+      {
+        '@type': 'Question',
+        name: `What genres have the most new releases in ${year}?`,
+        acceptedAnswer: { '@type': 'Answer', text: `Fantasy and romance consistently have the largest number of new releases each year. BookReleaseRadar's Best Books ${year} page breaks down top picks by genre so you can browse what interests you most.` },
+      },
+      {
+        '@type': 'Question',
+        name: `Where can I find a list of the best books coming out in ${year}?`,
+        acceptedAnswer: { '@type': 'Answer', text: `BookReleaseRadar's Best Books ${year} page lists the top upcoming and new releases across every major genre. Each entry shows the publication date, author, and a link to pre-order or buy on Amazon.` },
+      },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <nav className="flex items-center gap-1 text-xs text-[var(--text-muted)] mb-8 flex-wrap">
