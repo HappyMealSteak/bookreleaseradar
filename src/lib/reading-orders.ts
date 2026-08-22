@@ -2747,6 +2747,77 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What is the Midnight Library?', a: "The Midnight Library is a vast library that exists between life and death, containing an infinite number of books. Each book contains the life Nora would have lived if she had made a different choice at a key moment. Mrs. Elm, Nora's childhood librarian, tends the library and helps Nora understand the rules. Nora can enter any book and live that life until she decides she wants to return — or until the midnight library itself begins to crumble." },
     ],
   },
+  {
+    slug: 'the-namesake',
+    intro: "Jhumpa Lahiri's The Namesake (2003) is a complete standalone novel. It is her first novel, following her Pulitzer Prize–winning story collection Interpreter of Maladies (1999). The Namesake follows the Ganguli family — Ashoke and Ashima, who immigrate from Calcutta to Cambridge, Massachusetts in the 1960s — and particularly their son Gogol, who struggles with the meaning of his unusual name and his identity as a first-generation American across several decades. The novel was adapted into a film in 2006 directed by Mira Nair.",
+    startWith: 'The Namesake',
+    books: [
+      { title: 'The Namesake', author: 'Jhumpa Lahiri', year: 2003, note: "Standalone — the Ganguli family's immigration from Calcutta to Massachusetts in the 1960s, and their son Gogol's decades-long reckoning with his name and his Bengali-American identity; adapted into a film in 2006" },
+    ],
+    faq: [
+      { q: 'Is The Namesake a standalone?', a: "Yes — The Namesake is entirely self-contained. Lahiri's other major works — the story collections Interpreter of Maladies (1999) and Unaccustomed Earth (2008) — are not related to The Namesake. Her memoir about learning Italian, In Other Words (2015), is also independent." },
+      { q: "Why is the son named Gogol in The Namesake?", a: "Gogol's father Ashoke was reading Nikolai Gogol's short story 'The Overcoat' on the night of a train disaster that nearly killed him in 1961 — a letter from the book was found in his hand. Gogol's unusual name is thus a memorial to that event. The son grows up unable to understand the significance of his name because his father won't tell him the story, and the name becomes a burden — too foreign to be American, too strange to be Bengali." },
+      { q: 'Is The Namesake about being Indian-American?', a: "The novel is centrally about the experience of the first generation — Ashoke and Ashima — and their American-born children's different relationship to India, to home, and to identity. Lahiri is interested in the gap between immigrant parents and their American children: the parents carry a home the children have never known; the children carry an identity the parents find both familiar and foreign. The novel is often taught alongside The Joy Luck Club for its examination of the same dynamics across different immigrant communities." },
+      { q: "What does the title 'The Namesake' mean?", a: "A namesake is a person named after another person or thing. Gogol is a namesake of the Russian author — or more specifically, a namesake of a pivotal book in his father's life. The title points to the central question of the novel: what does it mean to carry a name, and what is the relationship between a name and an identity?" },
+    ],
+  },
+  {
+    slug: 'brave-new-world',
+    intro: "Aldous Huxley's Brave New World (1932) is a complete standalone novel. There is no sequel. The novel is set in a future World State in which humans are manufactured rather than born, assigned to social castes before birth, and kept docile through a drug called soma, casual sex, and constant entertainment. The novel follows Bernard Marx, an Alpha who feels alienated from a society that should satisfy him, and the Savage John, who was born on a Reservation and has never experienced the World State's pleasures.",
+    startWith: 'Brave New World',
+    books: [
+      { title: 'Brave New World', author: 'Aldous Huxley', year: 1932, note: "Standalone — a future World State where humans are manufactured for their social roles and kept happy through drugs and sex; the alternative dystopia to 1984's terror-based control" },
+      { title: 'Brave New World Revisited', author: 'Aldous Huxley', year: 1958, note: "Huxley's non-fiction essay collection examining which of his 1932 predictions had come true and which had not; can be read independently but works best after Brave New World", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Brave New World a standalone?', a: "Yes — Brave New World is entirely self-contained. Brave New World Revisited (1958) is Huxley's non-fiction reflection on the novel's predictions, not a sequel." },
+      { q: 'What is the difference between Brave New World and 1984?', a: "Both are foundational dystopian novels, but they imagine control differently. 1984 controls through pain — surveillance, torture, the constant threat of punishment. Brave New World controls through pleasure — people are kept docile through drugs (soma), casual sex, entertainment, and manufactured happiness. Huxley wrote to Orwell after reading 1984 to argue that his own vision was more likely to prevail because rulers would eventually discover it was cheaper and more efficient to make people love their servitude than to make them fear it." },
+      { q: "What is soma in Brave New World?", a: "Soma is a fictional mood-altering drug distributed to all citizens of the World State — described as having all the advantages of Christianity and alcohol without their disadvantages, as it produces euphoria without side effects or hangovers. It is used to manage any negative emotions: loneliness, grief, frustration, boredom. Soma allows the World State to maintain happiness without addressing the causes of unhappiness." },
+      { q: 'Is Brave New World more relevant than 1984?', a: "Many contemporary media critics argue that Brave New World is more prophetic of contemporary digital society than 1984 — the concern is not surveillance and punishment but the replacement of real experience with manufactured stimulation and the elimination of genuine solitude or unhappiness. Neil Postman's Amusing Ourselves to Death (1985) argues this case explicitly. Others maintain that 1984's surveillance and authoritarian control is equally visible in contemporary societies." },
+    ],
+  },
+  {
+    slug: 'a-long-petal-of-the-sea',
+    intro: "Isabel Allende's A Long Petal of the Sea (2019, English translation 2020) is a complete standalone novel. It is entirely independent of The House of the Spirits and Allende's other novels. A Long Petal of the Sea follows Victor Dalmau, a Republican army doctor, and Roser Bruguera, a young pianist, who flee Spain at the end of the Civil War in 1939 on a ship chartered by Pablo Neruda — the SS Winnipeg, which was a real historical ship that carried over 2,000 Spanish refugees to Chile. The novel follows them through their lives in Chile and the Pinochet coup of 1973.",
+    startWith: 'A Long Petal of the Sea',
+    books: [
+      { title: 'A Long Petal of the Sea', author: 'Isabel Allende', year: 2019, note: "Standalone — Spanish Civil War refugees aboard the SS Winnipeg (a real ship) chartered by Pablo Neruda, who build a life in Chile until the Pinochet coup; Allende's most directly autobiographical major novel" },
+    ],
+    faq: [
+      { q: 'Is A Long Petal of the Sea a standalone?', a: "Yes — A Long Petal of the Sea is entirely self-contained and independent of The House of the Spirits or any of Allende's other novels. It can be read without having read any of her other work." },
+      { q: 'Is the SS Winnipeg in A Long Petal of the Sea a real ship?', a: "Yes — the SS Winnipeg was a real ship chartered by Pablo Neruda in 1939 to transport over 2,000 Spanish Republican refugees from France to Chile. Neruda's actual involvement in saving these refugees is documented history. Allende used this real event as the framework for her fictional characters' story. The title comes from a line of Neruda's poetry about Chile: 'this strip of long rose petal.'" },
+      { q: 'Does A Long Petal of the Sea cover the Pinochet coup?', a: "Yes — the novel follows Victor and Roser through decades of life in Chile until the 1973 coup in which General Pinochet overthrew Salvador Allende's government. Isabel Allende is the cousin of Salvador Allende; the coup forced her own exile from Chile. The coup's aftermath is a major part of the novel's second half." },
+      { q: 'Is A Long Petal of the Sea appropriate for all readers?', a: "The novel deals with the Spanish Civil War, refugee displacement, political violence in Chile including imprisonment and torture under Pinochet, and decades of historical trauma. It is adult historical fiction. The treatment of historical violence is neither gratuitous nor sanitized." },
+    ],
+  },
+  {
+    slug: 'the-color-purple',
+    intro: "Alice Walker's The Color Purple (1982) is a complete standalone novel. There is no sequel. The novel follows Celie, a Black girl in rural Georgia in the 1930s, who writes letters — first to God and later to her sister Nettie — through decades of abuse, separation, and finally a love that transforms her understanding of herself and the world. The Color Purple won the Pulitzer Prize for Fiction and the National Book Award in 1983 and was adapted into a film by Steven Spielberg in 1985 and a Broadway musical in 2005, which was further adapted into a film in 2023.",
+    startWith: 'The Color Purple',
+    books: [
+      { title: 'The Color Purple', author: 'Alice Walker', year: 1982, note: "Standalone — Celie's letters to God and to her sister Nettie across decades of abuse and survival in rural Georgia; Pulitzer Prize winner 1983; epistolary novel of enormous emotional power" },
+    ],
+    faq: [
+      { q: 'Is The Color Purple a standalone?', a: "Yes — The Color Purple is entirely self-contained. Alice Walker has written other novels (Meridian, The Temple of My Familiar, Possessing the Secret of Joy), but they are independent of The Color Purple. The Temple of My Familiar (1989) features characters from The Color Purple in minor roles, but the connection is tangential." },
+      { q: 'What does the title The Color Purple mean?', a: "The title refers to a conversation toward the end of the novel between Celie and Shug Avery about God and joy — Shug says that she thinks it pisses God off when people walk past the color purple in a field without noticing it. The color purple becomes a symbol for the kind of joy and attention to beauty that the novel argues is a form of spiritual connection. Celie begins making purple pants as a form of creative work and identity." },
+      { q: 'Is The Color Purple appropriate for all readers?', a: "The Color Purple contains graphic depictions of domestic violence, incest, sexual abuse, and racism. These are central to the novel and are not softened. The novel is one of the most frequently challenged books in American libraries precisely because of this content. The emotional transformation Celie undergoes makes the difficult content purposeful, but readers should be aware of what the first third of the novel contains." },
+      { q: 'Why is The Color Purple written as letters?', a: "The epistolary form — letters as narrative — gives Celie a voice that the world has tried to take away from her. The novel begins with her writing to God because there is no one else she can tell. As the novel progresses and she develops relationships and agency, the letters become a form of power: something she owns that cannot be taken from her. Walker has said the form was inspired by reading Zora Neale Hurston's letters and wanted Celie's voice to have the same authenticity of direct address." },
+    ],
+  },
+  {
+    slug: 'middlesex',
+    intro: "Jeffrey Eugenides's Middlesex (2002) is a complete standalone novel. There is no sequel. The novel follows Cal (Callie) Stephanides, an intersex American of Greek descent, from the immigration of grandparents from Asia Minor in the 1920s through Cal's own life in the 1970s and into the present. The novel is structured as a family saga — tracing the recessive gene that made Cal intersex across three generations — and as a bildungsroman. Middlesex won the Pulitzer Prize for Fiction in 2003.",
+    startWith: 'Middlesex',
+    books: [
+      { title: 'Middlesex', author: 'Jeffrey Eugenides', year: 2002, note: "Standalone — Cal Stephanides traces the recessive gene that made them intersex back through three generations of Greek-American immigration from Asia Minor; Pulitzer Prize winner 2003" },
+    ],
+    faq: [
+      { q: 'Is Middlesex a standalone?', a: "Yes — Middlesex is entirely self-contained. Jeffrey Eugenides has written other novels (The Virgin Suicides and The Marriage Plot), but they are entirely independent." },
+      { q: 'Is Middlesex about being intersex?', a: "Middlesex is about intersex experience, but is also — and perhaps primarily — a family saga about three generations of Greek-Americans and a coming-of-age story. Cal's intersex condition is the gene that Eugenides traces back through the family history, but the novel is as interested in the history of the Greek-Turkish conflict, in Detroit in the 20th century, and in the experience of immigration and assimilation as it is in intersex identity specifically. Intersex and LGBTQ advocates have had complex responses to the novel's representation." },
+      { q: 'Is Middlesex historically accurate?', a: "Middlesex is historical fiction with a basis in real events. The Greek-Turkish population exchange of 1923, the burning of Smyrna, the Detroit race riots of 1967, and the 1974 Turkish invasion of Cyprus are all historical events that appear in the novel. The Stephanides family is fictional. Eugenides has said he researched the history of Greek immigration to Detroit extensively." },
+      { q: 'Why is the novel called Middlesex?', a: "Middlesex is the name of the street in Grosse Pointe, Michigan where the Stephanides family eventually settles — but it is also a reference to middle sexes, to the in-between state of being intersex, and to the long tradition in literature of using a physical or geographic place as a metaphor for an interior condition. The title operates on several levels simultaneously." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

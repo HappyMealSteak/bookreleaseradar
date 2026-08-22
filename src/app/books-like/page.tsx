@@ -167,6 +167,11 @@ export const metadata: Metadata = {
     'books like Life of Pi Yann Martel',
     'books like Everything I Never Told You Celeste Ng',
     'books like The Midnight Library Matt Haig',
+    'books like The Namesake Jhumpa Lahiri',
+    'books like Brave New World Aldous Huxley',
+    'books like A Long Petal of the Sea Isabel Allende',
+    'books like The Color Purple Alice Walker',
+    'books like Middlesex Jeffrey Eugenides',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -869,6 +874,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Midnight Library by Matt Haig?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Midnight Library include The Humans by Matt Haig, Reasons to Stay Alive by Matt Haig, Eleanor Oliphant Is Completely Fine by Gail Honeyman, A Man Called Ove by Fredrik Backman, The House in the Cerulean Sea by TJ Klune, The Hitchhiker's Guide to the Galaxy by Douglas Adams, and Where the Crawdads Sing by Delia Owens. Our full guide covers 8 picks for fans of hopeful, accessible fiction about depression, second chances, and discovering what makes life worth living." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Namesake by Jhumpa Lahiri?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Namesake include Interpreter of Maladies (also by Jhumpa Lahiri), The Joy Luck Club by Amy Tan, Everything I Never Told You by Celeste Ng, Pachinko by Min Jin Lee, The Kite Runner by Khaled Hosseini, A Gentleman in Moscow by Amor Towles, and The Woman Warrior by Maxine Hong Kingston. Our full guide covers 8 picks for fans of literary immigrant family fiction about identity, belonging, and the gap between generations." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Brave New World by Aldous Huxley?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Brave New World include 1984 by George Orwell, The Handmaid's Tale by Margaret Atwood, We by Yevgeny Zamyatin, Fahrenheit 451 by Ray Bradbury, Never Let Me Go by Kazuo Ishiguro, and Brave New World Revisited by Aldous Huxley. Our full guide covers 8 picks for fans of philosophical dystopian fiction about control through pleasure rather than pain." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Long Petal of the Sea by Isabel Allende?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Long Petal of the Sea include The House of the Spirits (also by Isabel Allende), All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, The Shadow of the Wind by Carlos Ruiz Zafón, The Kite Runner by Khaled Hosseini, Pachinko by Min Jin Lee, and A Gentleman in Moscow by Amor Towles. Our full guide covers 8 picks for fans of sweeping historical fiction about refugees, exile, and building lives across continents and wars." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Color Purple by Alice Walker?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Color Purple include Their Eyes Were Watching God by Zora Neale Hurston, Beloved by Toni Morrison, I Know Why the Caged Bird Sings by Maya Angelou, Homegoing by Yaa Gyasi, An American Marriage by Tayari Jones, The Bluest Eye by Toni Morrison, and Sing, Unburied, Sing by Jesmyn Ward. Our full guide covers 8 picks for fans of lyrical literary fiction about Black women's interior lives, survival, and joy as spiritual resistance." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Middlesex by Jeffrey Eugenides?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Middlesex include The Virgin Suicides and The Marriage Plot (also by Jeffrey Eugenides), Homegoing by Yaa Gyasi, The Joy Luck Club by Amy Tan, The Amazing Adventures of Kavalier and Clay by Michael Chabon, The Namesake by Jhumpa Lahiri, Giovanni's Room by James Baldwin, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of multi-generational family sagas with literary ambition and deeply searching character study." },
     },
   ],
 };
