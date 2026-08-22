@@ -942,6 +942,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'sci-fi',
     knownFor: ['We'],
   },
+  {
+    name: 'F. Scott Fitzgerald',
+    bio: "F. Scott Fitzgerald (1896–1940) was an American novelist and short story writer born in St. Paul, Minnesota. He attended Princeton University but left before graduating to join the Army during World War I; while stationed at Camp Sheridan in Alabama, he met Zelda Sayre, who would become his wife and one of the central figures of his literary life. His debut novel This Side of Paradise (1920) made him famous at twenty-three and he became the defining voice of the Jazz Age. The Great Gatsby (1925) — his third novel, initially a commercial disappointment, was rediscovered after World War II when the Army distributed it to soldiers — is now considered the quintessential American novel. Fitzgerald published four novels in total: This Side of Paradise, The Beautiful and Damned (1922), The Great Gatsby (1925), and Tender Is the Night (1934). He also published 160 short stories in magazines, particularly The Saturday Evening Post, which funded his and Zelda's extravagant lifestyle in Long Island, Paris, and the French Riviera. Fitzgerald died of a heart attack in 1940 at age forty-four, believing himself a failure; it was only after his death that his reputation was fully rehabilitated. Zelda Fitzgerald was herself a writer — her novel Save Me the Waltz (1932) was published while Scott was still working on Tender Is the Night — and their turbulent marriage is a major subject of both Fitzgerald biography and fiction.",
+    genre: 'fiction',
+    knownFor: ['The Great Gatsby', 'Tender Is the Night', 'The Beautiful and Damned'],
+  },
+  {
+    name: 'Harper Lee',
+    bio: "Harper Lee (1926–2016) was an American novelist born in Monroeville, Alabama. She studied law at the University of Alabama before moving to New York City in the 1950s to pursue writing; her childhood friend Truman Capote provided financial support while she wrote what would become To Kill a Mockingbird. The novel, published in 1960, was an immediate bestseller and won the Pulitzer Prize for Fiction in 1961. It has sold more than 45 million copies and has been translated into more than 40 languages; it was voted by librarians as America's best novel in the Library of Congress's 'Books That Shaped America' list. Lee also assisted Truman Capote in the research for In Cold Blood (1966), traveling with him to Kansas to interview witnesses and investigators; Capote's failure to publicly credit her contribution was a source of lasting estrangement. Lee published almost nothing for fifty-five years after To Kill a Mockingbird's success — she was by all accounts content with having written one important book. Go Set a Watchman (2015), published in the final year of her life after the death of her sister and longtime lawyer, is widely believed to have been published without Lee's full understanding or consent. She died in 2016 at age eighty-nine.",
+    genre: 'fiction',
+    knownFor: ['To Kill a Mockingbird'],
+  },
+  {
+    name: 'Arundhati Roy',
+    bio: "Arundhati Roy is an Indian author and political activist born in 1961 in Shillong, Meghalaya. She studied architecture at the School of Planning and Architecture in Delhi and worked as a production designer for Indian films before writing fiction. Her debut novel The God of Small Things (1997) won the Man Booker Prize — she was the first Indian woman to win the award — and sold 6 million copies in its first year. She spent the following two decades writing non-fiction: essays on the Indian nuclear program, the consequences of large dam projects, the Indian independence movement, and the relationship between capitalism and democracy, collected in The Algebra of Infinite Justice (2001), An Ordinary Person's Guide to Empire (2004), and Listening to Grasshoppers (2009). Her second novel, The Ministry of Utmost Happiness (2017), was published to widespread critical attention after a twenty-year absence from fiction. Roy has been deeply involved in Indian political life, opposing the Narmada Dam project, supporting Kashmiri self-determination, and criticizing the BJP government; she has faced criminal proceedings in India for her political writing. She lives in Delhi.",
+    genre: 'fiction',
+    knownFor: ['The God of Small Things', 'The Ministry of Utmost Happiness'],
+  },
+  {
+    name: 'André Aciman',
+    bio: "André Aciman is an Egyptian-American memoirist and novelist born in 1951 in Alexandria, Egypt. His Jewish family was expelled from Egypt in 1965 when he was fourteen; they spent years in transit through Rome before he eventually received a scholarship to study in the United States, earning his PhD from Harvard. His memoir Out of Egypt (1994) — about his family's generations in Alexandria and their expulsion — is considered one of the finest memoirs of the late twentieth century. Call Me by Your Name (2007), his first novel, became a cultural phenomenon after Luca Guadagnino's film adaptation in 2017 (screenplay by James Ivory, Academy Award for Best Adapted Screenplay). Aciman is a professor of comparative literature at the Graduate Center of the City University of New York and has written extensively on Marcel Proust, who is a central influence on his fiction; the obsessive retrospective interiority of Proust's narrator is clearly audible in Elio's narration in Call Me by Your Name. His other novels include Eight White Nights (2010), Harvard Square (2013), Enigma Variations (2017), and Find Me (2019), the sequel to Call Me by Your Name.",
+    genre: 'fiction',
+    knownFor: ['Call Me by Your Name', 'Out of Egypt', 'Enigma Variations'],
+  },
+  {
+    name: 'Ralph Ellison',
+    bio: "Ralph Ellison (1914–1994) was an American novelist, literary critic, and scholar born in Oklahoma City, Oklahoma. He studied music at Tuskegee Institute (now Tuskegee University) before moving to New York City in 1936, where he met Langston Hughes and Richard Wright and became involved in the Harlem intellectual scene. His only published novel, Invisible Man (1952), won the National Book Award in 1953, was named by the Book of the Month Club as the most distinguished novel published in the previous twenty years, and is consistently ranked among the greatest American novels of the twentieth century. The novel's opening line — 'I am an invisible man' — is one of the most celebrated first lines in American fiction. Ellison spent the rest of his life working on a second novel, and had reportedly completed over 2,000 pages of manuscript when most of it was destroyed in a house fire in 1967; he continued working on it until his death in 1994. His literary executor John F. Callahan edited portions of this manuscript into Juneteenth (1999) and later Three Days Before the Shooting... (2010), though these are fragmentary and contested. In addition to Invisible Man, Ellison published two collections of essays: Shadow and Act (1964) and Going to the Territory (1986), which are considered essential reading in African American literary criticism.",
+    genre: 'fiction',
+    knownFor: ['Invisible Man', 'Shadow and Act'],
+  },
 ];
 
 function normalize(s: string) {
