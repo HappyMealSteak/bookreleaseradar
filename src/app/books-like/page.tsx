@@ -122,6 +122,11 @@ export const metadata: Metadata = {
     'books like Little Fires Everywhere Celeste Ng',
     'books like Nine Perfect Strangers Liane Moriarty',
     'books like The Forever War Joe Haldeman',
+    'books like The Goldfinch Donna Tartt',
+    'books like Normal People Sally Rooney',
+    'books like The Vanishing Half Brit Bennett',
+    'books like If We Were Villains ML Rio',
+    'books like The Lovely Bones Alice Sebold',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -599,6 +604,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Forever War by Joe Haldeman?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Forever War include Old Man's War by John Scalzi, Starship Troopers by Robert A. Heinlein, Ender's Game by Orson Scott Card, The Things They Carried by Tim O'Brien, All You Need Is Kill by Hiroshi Sakurazaka, and The Expanse series. Our full guide covers 8 picks for fans of anti-war military science fiction that examines what combat does to people." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Goldfinch by Donna Tartt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Goldfinch include The Secret History (also by Tartt), A Little Life by Hanya Yanagihara, The Amazing Adventures of Kavalier & Clay by Michael Chabon, All the Light We Cannot See by Anthony Doerr, A Gentleman in Moscow by Amor Towles, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of sweeping literary fiction about art, beauty, and loss.", },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Normal People by Sally Rooney?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (also by Rooney), Attachments by Rainbow Rowell, Eleanor Oliphant Is Completely Fine by Gail Honeyman, My Year of Rest and Relaxation by Ottessa Moshfegh, and Daisy Jones and the Six by Taylor Jenkins Reid. Our full guide covers 8 picks for fans of contemporary literary fiction about complicated love and class." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Vanishing Half by Brit Bennett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Vanishing Half include Homegoing by Yaa Gyasi, Passing by Nella Larsen, Little Fires Everywhere by Celeste Ng, The Mothers (also by Brit Bennett), Beloved by Toni Morrison, Sing Unburied Sing by Jesmyn Ward, and An American Marriage by Tayari Jones. Our full guide covers 8 picks for fans of literary fiction about race, identity, and the American 20th century." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked If We Were Villains by M.L. Rio?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If We Were Villains include The Secret History by Donna Tartt, Ninth House by Leigh Bardugo, Babel by R.F. Kuang, The Atlas Six by Olivie Blake, The Secret Place by Tana French, Special Topics in Calamity Physics by Marisha Pessl, and The Magicians by Lev Grossman. Our full guide covers 8 picks for dark academia fans who love Shakespeare, complicit groups, and retrospective mysteries." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lovely Bones by Alice Sebold?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lovely Bones include A Little Life by Hanya Yanagihara, The Secret History by Donna Tartt, Where the Crawdads Sing by Delia Owens, Room by Emma Donoghue, The Virgin Suicides by Jeffrey Eugenides, and Lucky (also by Sebold). Our full guide covers 8 picks for fans of grief fiction and novels narrated from unusual positions after a death." },
     },
   ],
 };

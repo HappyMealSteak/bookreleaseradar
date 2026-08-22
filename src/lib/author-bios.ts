@@ -690,6 +690,24 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'sci-fi',
     knownFor: ['The Forever War', 'Forever Peace', 'Camouflage'],
   },
+  {
+    name: 'Sally Rooney',
+    bio: "Sally Rooney is an Irish novelist born in County Mayo in 1991 who became one of the defining literary voices of her generation with her debut novel Conversations with Friends (2017) and her second novel Normal People (2018), which won the Costa Novel Award and was adapted into a widely acclaimed BBC Three/Hulu series (2020) starring Daisy Edgar-Jones and Paul Mescal. Her third novel, Beautiful World, Where Are You (2021), debuted at number one in multiple countries. Rooney is known for her distinctive style — no quotation marks for dialogue, rigorous interiority, and an unwavering focus on power dynamics, class, and the specific difficulty of intimacy in contemporary life. She studied English literature at Trinity College Dublin, where Normal People and Conversations with Friends are partly set.",
+    genre: 'romance',
+    knownFor: ['Normal People', 'Conversations with Friends', 'Beautiful World Where Are You'],
+  },
+  {
+    name: 'Brit Bennett',
+    bio: "Brit Bennett is an American novelist whose debut novel The Mothers (2016) was a New York Times bestseller and a finalist for several literary awards. Her second novel, The Vanishing Half (2020), was a New York Times number one bestseller, remained on the bestseller list for over a year, and was named the Best Book of 2020 by numerous outlets including Time magazine. Bennett studied English at Stanford University and earned her MFA from the University of Michigan. Her fiction focuses on African-American communities and the ways race, identity, and family legacy shape individual lives across generations. She has written essays for The New Yorker, The New York Times, and other publications.",
+    genre: 'fiction',
+    knownFor: ['The Vanishing Half', 'The Mothers'],
+  },
+  {
+    name: 'M.L. Rio',
+    bio: "M.L. Rio is the pen name of an American author who published her debut novel If We Were Villains in 2017. The novel, about seven Shakespeare students at a performing arts conservatory, became a cult classic of the dark academia genre and a perennial bestseller. Rio studied English at William & Mary and earned her PhD in Shakespeare from King's College London. If We Were Villains was originally published by Flatiron Books and remained in print through consistent reader recommendations and TikTok (BookTok) promotion years after publication. As of 2024 she has not published a second novel. She has cited Donna Tartt's The Secret History and Shakespeare himself as her primary influences.",
+    genre: 'fiction',
+    knownFor: ['If We Were Villains'],
+  },
 ];
 
 function normalize(s: string) {

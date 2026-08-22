@@ -2098,6 +2098,76 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Forever War dated?', a: "The Forever War contains sexual and gender politics that reflect its 1974 publication context and may feel dated to contemporary readers — Haldeman was responding to specific Vietnam-era social anxieties, and some of those responses haven't aged evenly. Most readers find the core premise (the relativity-driven alienation of returning veterans) as fresh as ever; the surrounding social commentary requires more context." },
     ],
   },
+  {
+    slug: 'the-goldfinch',
+    intro: "Donna Tartt's The Goldfinch (2013) is a complete standalone novel. There is no sequel. The novel follows Theo Decker, a 13-year-old boy who survives a bomb explosion at a New York museum that kills his mother. In the chaos after the blast, he takes a small Dutch painting — The Goldfinch, by Carel Fabritius — from the rubble. The novel traces Theo's life across the following decades, through foster care in New York, a strange interlude in Las Vegas, a period in the antiques world, and a climax in Amsterdam, with the painting always present.",
+    startWith: 'The Goldfinch',
+    books: [
+      { title: 'The Goldfinch', author: 'Donna Tartt', year: 2013, note: "Standalone — Theo Decker survives a museum bombing that kills his mother and takes a small Dutch masterpiece from the wreckage; a picaresque about beauty, art, loss, and addiction across two decades; Pulitzer Prize winner" },
+    ],
+    faq: [
+      { q: 'Is The Goldfinch a standalone?', a: "Yes — The Goldfinch is a complete standalone novel with no sequel. Donna Tartt has published two other novels, The Secret History (1992) and The Little Friend (2002), which are entirely independent." },
+      { q: 'Is The Goldfinch better than The Secret History?', a: "This is a matter of significant debate among Tartt readers. The Goldfinch won the Pulitzer Prize; The Secret History is more consistently praised by literary critics and has had more cultural staying power. The Goldfinch is more picaresque and more emotionally accessible; The Secret History is more formally inventive. Both are excellent; most readers have a strong preference." },
+      { q: 'Is The Goldfinch a slow book?', a: "The Goldfinch is approximately 800 pages and is deliberately novelistic in the 19th-century sense — it is expansive, digressive, and interested in giving weight to every period of Theo's life. The Las Vegas section in the middle divides readers the most. Most readers who finish it find the pacing earned; those who abandon it usually do so in the middle section." },
+      { q: 'Is The Goldfinch film adaptation worth watching?', a: "The Goldfinch was adapted into a film in 2019, directed by John Crowley and starring Ansel Elgort, Nicole Kidman, and Jeffrey Wright. It received very negative reviews from critics and from Tartt readers; most felt the compression of 800 pages into two hours removed the texture that makes the novel work. It is widely considered one of the less successful literary adaptations of recent years." },
+    ],
+  },
+  {
+    slug: 'normal-people',
+    intro: "Sally Rooney's Normal People (2018) is a complete standalone novel. There is no sequel. The novel follows Connell Waldron and Marianne Sheridan, who meet in secondary school in rural Sligo, Ireland — where Connell is popular and Marianne is not — and follow each other to Trinity College Dublin, where the social positions are reversed. The novel traces the loop of their relationship over four years. Normal People won the Costa Novel Award in 2018 and was one of the most discussed literary novels of the late 2010s.",
+    startWith: 'Normal People',
+    books: [
+      { title: 'Normal People', author: 'Sally Rooney', year: 2018, note: "Standalone — Connell and Marianne meet in secondary school, separate, find each other at Trinity College Dublin, and loop through their relationship over four years; Costa Novel Award winner" },
+    ],
+    faq: [
+      { q: 'Is Normal People a standalone?', a: "Yes — Normal People is a complete standalone novel. Sally Rooney's other novels (Conversations with Friends, Beautiful World Where Are You) are entirely independent, though they share Rooney's interests and are often read together." },
+      { q: 'What order should I read Sally Rooney books in?', a: "Rooney's novels are all standalone and can be read in any order. Many readers find Conversations with Friends (2017) a good starting point as her debut, then Normal People, then Beautiful World Where Are You (2021). All three are set in contemporary Ireland and share her interests in power dynamics, class, and intellectual characters, but none requires having read another." },
+      { q: 'Is Normal People appropriate for all readers?', a: "Normal People contains explicit sexual content and some depictions of self-harm (Marianne's). It is widely taught in universities and is appropriate for mature adult readers; some high schools include it in their curricula with parental notification. The self-harm is not graphic but is a significant element of Marianne's characterization." },
+      { q: 'Is the Normal People TV adaptation good?', a: "The Normal People TV adaptation (BBC Three / Hulu, 2020) is widely considered one of the most successful literary adaptations in recent years. Starring Paul Mescal and Daisy Edgar-Jones, it is faithful to the novel and adds texture through performance that the novel conveys through interiority. Most Rooney readers who have watched it rate it very highly." },
+    ],
+  },
+  {
+    slug: 'the-vanishing-half',
+    intro: "Brit Bennett's The Vanishing Half (2020) is a complete standalone novel. There is no sequel. The novel follows twin sisters Desiree and Stella Vignes who grow up in Mallard, a fictional small town in Louisiana built around the idea of light-skinned Black people marrying lighter and lighter over generations. In 1954, both sisters run away together from Mallard; they separate in New Orleans, and Stella passes as white for the rest of her life while Desiree returns to Mallard decades later with a dark-skinned daughter. The novel traces both sisters across the following forty years.",
+    startWith: 'The Vanishing Half',
+    books: [
+      { title: 'The Vanishing Half', author: 'Brit Bennett', year: 2020, note: "Standalone — twin sisters from a light-skinned Black Louisiana town: one passes as white and disappears into white America; one returns to the town; the novel traces both across forty years" },
+    ],
+    faq: [
+      { q: 'Is The Vanishing Half a standalone?', a: "Yes — The Vanishing Half is a complete standalone novel. Brit Bennett's other novel, The Mothers (2016), is an entirely independent debut." },
+      { q: 'What is The Vanishing Half about?', a: "The Vanishing Half is about racial passing — the historical practice of light-skinned Black Americans living as white — and what it costs: Stella's safety and prosperity but also her identity, her family, and the possibility of authentic connection. The novel uses the twin structure to examine what the same person might become under different choices about race, and asks what identity means when it can be chosen.", },
+      { q: 'Is The Vanishing Half historical fiction?', a: "The Vanishing Half spans from the 1950s through the 1990s, which makes it historical fiction for most of its length. The final sections are set in the 1980s and early 1990s and engage with the AIDS crisis. Bennett is interested in American racial history as a living thing rather than a settled past." },
+      { q: 'How does The Vanishing Half compare to Passing by Nella Larsen?', a: "Nella Larsen's Passing (1929) is the foundational novella about racial passing in American literature — two light-skinned Black women who meet again after years apart, one having passed as white. Bennett has cited Larsen as a direct influence, and The Vanishing Half is in explicit conversation with Passing: it uses the same premise but expands it to a multi-generational saga and asks what passing means across a whole life rather than a climactic encounter." },
+    ],
+  },
+  {
+    slug: 'if-we-were-villains',
+    intro: "M.L. Rio's If We Were Villains (2017) is a complete standalone novel. There is no sequel. The novel is set at a small elite performing arts conservatory where seven fourth-year students share the roles in Shakespeare's plays — until one of them is found dead and another is convicted of murder. Told as a retrospective by Oliver, one of the seven, speaking to the detective who originally investigated the case ten years after his release from prison. If We Were Villains is the most celebrated dark academia novel to follow in The Secret History's footsteps.",
+    startWith: 'If We Were Villains',
+    books: [
+      { title: 'If We Were Villains', author: 'M.L. Rio', year: 2017, note: "Standalone — seven Shakespeare students at an elite conservatory share roles and lives until one is found dead; the surviving narrator speaks to the detective who investigated the case ten years after his release from prison" },
+    ],
+    faq: [
+      { q: 'Is If We Were Villains a standalone?', a: "Yes — If We Were Villains is a complete standalone novel with no sequel. M.L. Rio has not published a second novel as of 2024." },
+      { q: 'Do I need to know Shakespeare to read If We Were Villains?', a: "You will get more out of If We Were Villains if you know the plays — particularly Othello, Macbeth, Richard III, The Tempest, and King Lear, which are the plays the group performs during the novel — but Rio embeds enough of the text and context that readers without Shakespeare background consistently find the novel works on its own terms. The novel's relationship to the plays is one of the pleasures for readers who know them well." },
+      { q: 'Is If We Were Villains better than The Secret History?', a: "This is the most common comparison question for If We Were Villains, and it is genuinely a matter of taste. The Secret History has more fully realized characters and more morally complex motivation; If We Were Villains has a more intricate plot structure and more explicit engagement with its literary sources. Most readers who love one love both; preferences tend to depend on whether you care more about character or puzzle." },
+      { q: 'What Shakespeare plays are most important in If We Were Villains?', a: "The three most central plays are Othello (jealousy, race, manipulation), The Tempest (power, performance, who controls the story), and Macbeth (ambition, complicity, murder). James, the character who dies, is often cast as Macbeth's villain roles. Understanding Iago and Prospero and the specific moral logic of Shakespeare's villain characters deepens the novel considerably." },
+    ],
+  },
+  {
+    slug: 'the-lovely-bones',
+    intro: "Alice Sebold's The Lovely Bones (2002) is a complete standalone novel. There is no sequel. The novel is narrated by Susie Salmon, a 14-year-old girl who was raped and murdered by a neighbor, from her position in a personal heaven — watching her family, her killer, and the world she left behind as the investigation proceeds and the years pass. The Lovely Bones was one of the best-selling novels of the 2000s.",
+    startWith: 'The Lovely Bones',
+    books: [
+      { title: 'The Lovely Bones', author: 'Alice Sebold', year: 2002, note: "Standalone — Susie Salmon, 14, narrates the story of her own rape and murder from heaven, watching her family, her killer, and the world below as years pass; bestseller" },
+    ],
+    faq: [
+      { q: 'Is The Lovely Bones a standalone?', a: "Yes — The Lovely Bones is a complete standalone novel with no sequel. Alice Sebold has published a memoir (Lucky, 1999, about her own rape as a college student) and a second novel (The Almost Moon, 2007), but The Lovely Bones is entirely independent." },
+      { q: 'Is The Lovely Bones appropriate for all readers?', a: "The Lovely Bones opens with a description of a rape and murder. Sebold does not describe the violence in graphic detail, but the fact and the experience of what was done to Susie are central to the novel. Most readers place it at 16 and up. It is widely taught in high school curricula." },
+      { q: 'Is The Lovely Bones real or a ghost story?', a: "The Lovely Bones uses the device of Susie narrating from a personal heaven, but it is not a horror novel or a conventional ghost story — Susie cannot intervene in what is happening below, and the novel is more interested in grief, healing, and what happens to families after violent loss than in supernatural mechanics. The heaven device is a way of maintaining Susie's perspective after her death." },
+      { q: 'Is the film adaptation of The Lovely Bones good?', a: "The Lovely Bones was adapted into a film by Peter Jackson in 2009, starring Saoirse Ronan as Susie, Rachel Weisz, Mark Wahlberg, and Stanley Tucci. The adaptation received mixed reviews; Stanley Tucci received an Academy Award nomination for his portrayal of the killer. Most readers found the visual representation of Susie's heaven the least successful element of the adaptation." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
