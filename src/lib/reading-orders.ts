@@ -1436,6 +1436,82 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What makes the wolves in Shiver different?', a: "The werewolves in Shiver shift between human and wolf form based on temperature rather than the full moon — they are wolves in winter and humans in summer. As they age, they spend more and more time as wolves until eventually they can no longer return to human form. This creates a ticking-clock element to Grace and Sam's romance." },
     ],
   },
+  {
+    slug: 'the-cruel-prince',
+    intro: "Holly Black's The Folk of the Air is a complete three-book YA fantasy trilogy set in the world of Faerie — a realm adjacent to the mortal world, populated by beings who cannot lie but are deeply skilled at deception. The series follows Jude Duarte, a mortal girl stolen to Faerie as a child, who has grown up among the fae and refuses to accept the powerless position they assign her. All three books must be read in order. There is also a companion novel, The Queen of Nothing, which concludes the arc, and several novellas set in the same world.",
+    startWith: 'The Cruel Prince',
+    books: [
+      { title: 'The Cruel Prince', author: 'Holly Black', year: 2018, note: "Book 1 — Jude Duarte navigates dangerous Faerie politics while antagonizing Prince Cardan, the youngest and most vicious of the High King's sons" },
+      { title: 'The Wicked King', author: 'Holly Black', year: 2019, note: "Book 2 — Jude holds power over the crown, and Cardan, and neither is going as planned" },
+      { title: 'The Queen of Nothing', author: 'Holly Black', year: 2019, note: "Book 3 — The trilogy conclusion; Jude returns to Faerie to face what she's made of the kingdom and of Cardan" },
+    ],
+    faq: [
+      { q: 'What is The Cruel Prince reading order?', a: "Read The Cruel Prince (2018), then The Wicked King (2019), then The Queen of Nothing (2019). All three must be read in order. There is also a prequel novella, The Lost Sisters (following Jude's sister Taryn), and a companion novel, How the King of Elfhame Learned to Hate Stories, which can be read between books 2 and 3." },
+      { q: 'How many Folk of the Air books are there?', a: "The Folk of the Air trilogy by Holly Black has three main novels — The Cruel Prince, The Wicked King, and The Queen of Nothing — plus several companion novellas including The Lost Sisters and How the King of Elfhame Learned to Hate Stories. The main trilogy is complete." },
+      { q: 'Is The Cruel Prince enemies to lovers?', a: "Yes — The Cruel Prince is one of the defining enemies-to-lovers YA fantasies. Jude and Prince Cardan begin in open antagonism: he bullies and demeans her, she schemes to destroy him. The relationship evolves over the trilogy in ways that are surprising and emotionally satisfying, while never letting either character off the hook for who they are." },
+      { q: 'Do I need to read Holly Black\'s other books first?', a: "No — The Folk of the Air trilogy stands completely alone. Holly Black has written other fae fiction (including The Spiderwick Chronicles and her earlier Tithe series), but none of them are required reading. The world of Faerie is built from scratch within the trilogy." },
+    ],
+  },
+  {
+    slug: 'ariadne',
+    intro: "Jennifer Saint's Ariadne (2021) is a standalone literary fantasy retelling the myth of Theseus and the Minotaur from the perspective of the two women at its center — Ariadne and Phaedra, daughters of King Minos of Crete. The novel does not have a sequel. Saint has since written companion novels set in the same mythological world (Elektra, Atalanta) that are completely standalone and can be read in any order.",
+    startWith: 'Ariadne',
+    books: [
+      { title: 'Ariadne', author: 'Jennifer Saint', year: 2021, note: "Standalone — Ariadne and Phaedra retell the myth of Theseus and the Minotaur from a woman's perspective" },
+      { title: 'Elektra', author: 'Jennifer Saint', year: 2022, note: "Companion standalone — three women at the center of the Trojan War's aftermath; same mythological world, no shared characters", isOptional: true },
+      { title: 'Atalanta', author: 'Jennifer Saint', year: 2023, note: "Companion standalone — the myth of Atalanta, the hero who ran faster than any man; same mythological world, completely standalone", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Ariadne by Jennifer Saint a standalone?', a: "Yes — Ariadne is a complete standalone novel. Jennifer Saint has written other mythology retellings (Elektra, Atalanta) set in the same mythological world, but they have no shared characters or plot with Ariadne and can be read in any order or not at all." },
+      { q: 'What myth does Ariadne retell?', a: "Ariadne retells the myth of Theseus and the Minotaur, centering on Ariadne — the Cretan princess who gave Theseus the thread to navigate the Labyrinth — and her sister Phaedra. The novel follows what happens to the sisters after Theseus enters their story: what he takes from them and what they build for themselves." },
+      { q: 'Is Ariadne similar to Circe by Madeline Miller?', a: "Yes — Ariadne is the most frequently recommended companion to Circe. Both are literary feminist mythology retellings set in ancient Greece, both center on women who have been treated as supporting characters in men's myths, and both are told in a lyrical, immediate first-person voice. If you loved Circe, Ariadne is the natural next read." },
+      { q: 'What order should I read Jennifer Saint\'s books?', a: "Jennifer Saint's mythology retellings are all standalone novels set in the same ancient Greek mythological world: Ariadne (2021), Elektra (2022), and Atalanta (2023). There is no required reading order — you can start with whichever myth interests you most." },
+    ],
+  },
+  {
+    slug: 'stardust',
+    intro: "Neil Gaiman's Stardust (1999) is a complete standalone fantasy novel. There is no sequel. Stardust tells the story of Tristran Thorn, a young man in the English village of Wall, who crosses the wall into the magical land of Faerie to retrieve a fallen star for the girl he thinks he loves — and discovers the star is a person, and that he may not know what he actually wants. The book was originally published as an illustrated novel with art by Charles Vess; both editions tell the same story.",
+    startWith: 'Stardust',
+    books: [
+      { title: 'Stardust', author: 'Neil Gaiman', year: 1999, note: "Standalone — Tristran Thorn crosses into Faerie to retrieve a fallen star and discovers she is a young woman named Yvaine" },
+    ],
+    faq: [
+      { q: 'Is Stardust by Neil Gaiman a standalone?', a: "Yes — Stardust is a complete standalone novel with no sequels, prequels, or related books required. Neil Gaiman has written other fantasy novels (American Gods, The Ocean at the End of the Lane, Neverwhere), but each is entirely independent." },
+      { q: 'Is Stardust appropriate for all ages?', a: "Stardust is a fairy tale for adults — more explicitly than children's fairy tales it deals with death, desire, and violence, though in a tone that is romantic and fantastical rather than graphic. The 2007 film adaptation is rated PG-13. Most readers place it at 14 and up, with the caveat that Gaiman writes fairy tales in which dark things happen." },
+      { q: 'Is Stardust related to American Gods or Good Omens?', a: "Stardust is not connected to American Gods, Good Omens (co-written with Terry Pratchett), Neverwhere, or any of Gaiman's other novels. Each is a completely independent story with its own world and characters." },
+      { q: 'What is Stardust about?', a: "Stardust is a fairy tale in the classic tradition — a young man makes a rash promise to bring back a fallen star for a girl, crosses into the magical kingdom of Faerie on the other side of the wall that borders his village, and finds that the star is a young woman. It's a love story, a quest, and a meditation on what we think we want vs. what we actually need." },
+    ],
+  },
+  {
+    slug: 'a-psalm-for-the-wild-built',
+    intro: "Becky Chambers' Monk and Robot series is a gentle, philosophical cozy science fiction series set in a world where humans have retreated to smaller, sustainable settlements after giving robots their freedom. The robots disappeared into the wilderness decades ago — until one of them comes back. The series can be read as a standalone after the first book, but the second book completes the story the first begins.",
+    startWith: 'A Psalm for the Wild-Built',
+    books: [
+      { title: 'A Psalm for the Wild-Built', author: 'Becky Chambers', year: 2021, note: "Book 1 — Dex, a monk who makes tea and listens to people, leaves their comfortable life to find something missing; in the wilderness, they meet Mosscap, a robot who has wandered back to ask humans what they need" },
+      { title: 'A Prayer for the Crown-Shy', author: 'Becky Chambers', year: 2022, note: "Book 2 — Dex and Mosscap travel into human settlements; Mosscap asks the question the robots have always wanted answered" },
+    ],
+    faq: [
+      { q: 'What is the Monk and Robot reading order?', a: "Read A Psalm for the Wild-Built (2021) first, then A Prayer for the Crown-Shy (2022). The two books form a single complete story and should be read in order. Both books are novellas — approximately 150 pages each — and can be read in a single sitting." },
+      { q: 'How many Monk and Robot books are there?', a: "The Monk and Robot series currently has two novellas: A Psalm for the Wild-Built (2021) and A Prayer for the Crown-Shy (2022). Becky Chambers has indicated interest in continuing the series, but no additional books have been announced." },
+      { q: 'Is A Psalm for the Wild-Built related to the Wayfarers series?', a: "A Psalm for the Wild-Built is not set in the same universe as Chambers' Wayfarers series (A Long Way to a Small, Angry Planet). They share Chambers' characteristic tone — gentle, philosophical, warm — but are entirely separate worlds with no shared characters or continuity." },
+      { q: 'What is A Psalm for the Wild-Built about?', a: "At its core, A Psalm for the Wild-Built is about asking the question 'what do you need?' and discovering that the answer is harder than it sounds. The robot Mosscap was built to observe humans and ask them what they need; Dex, a monk traveling toward an answer they can't name, is the first human the robots have encountered in decades. It's a quiet, philosophical story about meaning and contentment." },
+    ],
+  },
+  {
+    slug: 'rage-of-dragons',
+    intro: "Evan Winter's The Burning is a complete two-book African-inspired epic fantasy duology. The series follows Tau, the son of a Lesser Caste warrior, in a world where a caste of women called Gifted defend humanity from demons while a warrior caste fights the ongoing war against the Omehi's enemies. Tau has no special power — he is simply willing to become the greatest swordsman who has ever lived. Both books must be read in order.",
+    startWith: 'The Rage of Dragons',
+    books: [
+      { title: 'The Rage of Dragons', author: 'Evan Winter', year: 2019, note: "Book 1 — Tau of the Lower Caste trains himself to become the greatest sword fighter in the kingdom in order to avenge his father's death" },
+      { title: 'The Fires of Vengeance', author: 'Evan Winter', year: 2020, note: "Book 2 — The duology conclusion; Tau's path and the kingdom's fate converge" },
+    ],
+    faq: [
+      { q: 'What is The Rage of Dragons reading order?', a: "Read The Rage of Dragons (2019) first, then The Fires of Vengeance (2020). The two books form a complete story and must be read in order. The duology is finished — there are no planned additional books." },
+      { q: 'How many Rage of Dragons books are there?', a: "The Burning duology by Evan Winter consists of two books: The Rage of Dragons (2019) and The Fires of Vengeance (2020). The duology is complete." },
+      { q: 'What makes The Rage of Dragons different from other epic fantasy?', a: "The Rage of Dragons draws on Xhosa culture and Zulu history for its world-building, making it one of the few major epic fantasy series to be rooted in African rather than European medieval culture. The combat system is highly technical, the protagonist is entirely non-magical in a world where magic exists, and the pace is relentless — it's often described as the most action-dense epic fantasy published in the last decade." },
+      { q: 'Is The Rage of Dragons appropriate for all ages?', a: "The Rage of Dragons is adult epic fantasy — it features graphic combat, death, and a level of violence that exceeds most YA fantasy. It is not recommended for young readers. Fans of Joe Abercrombie's First Law, Brian Staveley, or Mark Lawrence will feel at home with its intensity." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

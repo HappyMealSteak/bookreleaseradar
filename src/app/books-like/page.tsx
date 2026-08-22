@@ -77,6 +77,11 @@ export const metadata: Metadata = {
     'books like First Law Joe Abercrombie',
     'books like Carry On Rainbow Rowell',
     'books like Shiver Maggie Stiefvater',
+    'books like The Cruel Prince Holly Black',
+    'books like Ariadne Jennifer Saint',
+    'books like Stardust Neil Gaiman',
+    'books like Monk and Robot Becky Chambers',
+    'books like Rage of Dragons Evan Winter',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -329,6 +334,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Shiver by Maggie Stiefvater?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Shiver include The Raven Boys by Maggie Stiefvater (her own series), Twilight by Stephenie Meyer, Hush Hush by Becca Fitzpatrick, Fallen by Lauren Kate, and Beautiful Creatures by Kami Garcia. Our full Shiver guide covers 8 paranormal YA romance picks for fans of atmospheric forbidden love." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Cruel Prince by Holly Black?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Cruel Prince include A Court of Thorns and Roses by Sarah J. Maas, An Ember in the Ashes by Sabaa Tahir, Shadow and Bone by Leigh Bardugo, Caraval by Stephanie Garber, and Red Queen by Victoria Aveyard. Our full Folk of the Air guide covers 8 picks for fans of enemies-to-lovers fae fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ariadne by Jennifer Saint?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ariadne include Circe by Madeline Miller, The Song of Achilles by Madeline Miller, Elektra by Jennifer Saint (her own follow-up), The Silence of the Girls by Pat Barker, and The Priory of the Orange Tree. Our full Ariadne guide covers 8 picks for fans of feminist mythology retellings." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Stardust by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Stardust include The Night Circus by Erin Morgenstern, American Gods (also by Neil Gaiman), Jonathan Strange & Mr Norrell by Susanna Clarke, Piranesi by Susanna Clarke, and Neverwhere by Neil Gaiman. Our full Stardust guide covers 8 picks for fans of romantic fairy-tale fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Psalm for the Wild-Built?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Psalm for the Wild-Built include A Long Way to a Small Angry Planet (also by Becky Chambers), The House in the Cerulean Sea by TJ Klune, Legends & Lattes by Travis Baldree, Project Hail Mary by Andy Weir, and The Goblin Emperor by Katherine Addison. Our full Monk and Robot guide covers 8 cozy philosophical sci-fi picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Rage of Dragons?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Rage of Dragons include Children of Blood and Bone by Tomi Adeyemi, The Blade Itself by Joe Abercrombie, Red Rising by Pierce Brown, An Ember in the Ashes by Sabaa Tahir, and The Way of Kings by Brandon Sanderson. Our full Burning duology guide covers 8 picks for fans of African-inspired epic fantasy with intense training arcs." },
     },
   ],
 };

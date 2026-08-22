@@ -1184,6 +1184,83 @@ export const SERIES: SeriesDefinition[] = [
       'Warcross duology order',
     ],
   },
+  {
+    slug: 'the-cruel-prince',
+    name: 'The Folk of the Air',
+    shortName: 'Folk of the Air',
+    author: 'Holly Black',
+    authorQuery: 'Holly Black',
+    genre: 'fantasy',
+    description:
+      "Holly Black's The Folk of the Air is a complete three-book YA fantasy trilogy set in the treacherous world of Faerie. Mortal girl Jude Duarte was stolen to live among the fae as a child, and as a young adult she refuses to accept the powerless position they assign mortals — embarking on a dangerous game of politics and betrayal with the vicious Prince Cardan.",
+    searchTerms: [
+      'Holly Black new book',
+      'Cruel Prince reading order',
+      'Folk of the Air reading order',
+      'Folk of the Air books in order',
+      'Cruel Prince series order',
+    ],
+  },
+  {
+    slug: 'ariadne',
+    name: 'Ariadne',
+    author: 'Jennifer Saint',
+    authorQuery: 'Jennifer Saint',
+    genre: 'fiction',
+    description:
+      "Jennifer Saint's Ariadne is a standalone literary fantasy retelling the myth of Theseus and the Minotaur from the perspective of the women at its center — Ariadne and Phaedra, daughters of King Minos of Crete. Saint has since written companion standalones (Elektra, Atalanta) in the same mythological world.",
+    searchTerms: [
+      'Jennifer Saint new book',
+      'Ariadne reading order',
+      'Jennifer Saint mythology books',
+    ],
+  },
+  {
+    slug: 'stardust',
+    name: 'Stardust',
+    author: 'Neil Gaiman',
+    authorQuery: 'Neil Gaiman',
+    genre: 'fantasy',
+    description:
+      "Neil Gaiman's Stardust is a standalone fairy tale novel about a young man who crosses the wall into the magical land of Faerie to retrieve a fallen star for the girl he thinks he loves — and discovers that the star is a person, and that he may not know what he actually wants.",
+    searchTerms: [
+      'Neil Gaiman new book',
+      'Stardust reading order',
+      'Neil Gaiman fantasy novels',
+    ],
+  },
+  {
+    slug: 'a-psalm-for-the-wild-built',
+    name: 'Monk and Robot',
+    shortName: 'Monk and Robot',
+    author: 'Becky Chambers',
+    authorQuery: 'Becky Chambers',
+    genre: 'sci-fi',
+    description:
+      "Becky Chambers' Monk and Robot is a gentle, philosophical cozy science fiction duology set in a world where humans have retreated to smaller, sustainable settlements after giving robots their freedom. When a robot wanders back from the wilderness to ask what humans need, the answer turns out to be harder than expected.",
+    searchTerms: [
+      'Becky Chambers new book',
+      'Monk and Robot reading order',
+      'Psalm for the Wild-Built reading order',
+      'Monk and Robot series order',
+    ],
+  },
+  {
+    slug: 'rage-of-dragons',
+    name: 'The Burning',
+    shortName: 'The Burning',
+    author: 'Evan Winter',
+    authorQuery: 'Evan Winter',
+    genre: 'fantasy',
+    description:
+      "Evan Winter's The Burning is a complete two-book African-inspired epic fantasy duology. Following Tau, a Lower Caste warrior who trains himself to become the greatest swordsman who ever lived in order to avenge his father, the series draws on Xhosa culture and Zulu history for world-building that stands apart from European-derived epic fantasy.",
+    searchTerms: [
+      'Evan Winter new book',
+      'Rage of Dragons reading order',
+      'The Burning reading order',
+      'The Burning duology order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
