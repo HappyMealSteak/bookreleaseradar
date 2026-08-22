@@ -200,24 +200,6 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
-    slug: 'hunger-games',
-    intro:
-      "The Hunger Games by Suzanne Collins is the defining dystopian YA series, set in the nation of Panem where children fight to the death in televised games. Here's the complete Hunger Games reading order, including the prequel.",
-    startWith:
-      "Start with The Hunger Games (Book 1). The trilogy is best read in order — each book escalates the stakes and the story's emotional and political themes.",
-    books: [
-      { title: 'The Hunger Games', author: 'Suzanne Collins', year: 2008, note: 'Book 1 — start here' },
-      { title: 'Catching Fire', author: 'Suzanne Collins', year: 2009, note: 'Book 2' },
-      { title: 'Mockingjay', author: 'Suzanne Collins', year: 2010, note: 'Book 3 — trilogy finale' },
-      { title: 'The Ballad of Songbirds and Snakes', author: 'Suzanne Collins', year: 2020, note: 'Prequel — set 64 years before the original trilogy' },
-    ],
-    faq: [
-      { q: 'Should I read The Ballad of Songbirds and Snakes before or after the trilogy?', a: "Read the original trilogy first (Books 1–3). The Ballad of Songbirds and Snakes is a prequel but it spoils elements of the main trilogy and is best appreciated with that context." },
-      { q: 'Is there a sequel to The Hunger Games after Mockingjay?', a: "The Ballad of Songbirds and Snakes (2020) is the only additional book so far. Suzanne Collins has not announced further sequels to the main trilogy." },
-      { q: 'How does the Hunger Games trilogy compare to the movies?', a: "The books are generally considered richer in detail, especially for Katniss's internal thoughts and the political commentary. The first two films are close adaptations; Mockingjay's split into two films dilutes the pacing." },
-    ],
-  },
-  {
     slug: 'six-of-crows',
     intro:
       "The Grishaverse by Leigh Bardugo spans a richly detailed world of soldiers, thieves, and magic. The Six of Crows duology is widely considered the crown jewel — but where you start depends on how much context you want. Here's the complete Grishaverse reading order.",
@@ -626,36 +608,6 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'When does Sunrise on the Reaping come out?', a: "Sunrise on the Reaping by Suzanne Collins releases March 18, 2026. It is set 24 years before the events of The Hunger Games and follows Haymitch Abernathy as a tribute in the 50th Hunger Games — the Second Quarter Quell." },
       { q: 'How many Hunger Games books are there?', a: "There are 5 books in the Hunger Games universe: The Hunger Games, Catching Fire, and Mockingjay form the original trilogy; The Ballad of Songbirds and Snakes (2020) is a prequel following young Coriolanus Snow; and Sunrise on the Reaping (March 2026) follows Haymitch Abernathy in the 50th Hunger Games." },
       { q: 'Do I need to read the Hunger Games in order?', a: "Yes — the original trilogy (Books 1-3) must be read in order. The prequels (Ballad of Songbirds and Snakes, Sunrise on the Reaping) can technically be read standalone, but they contain spoilers for the main trilogy and hit harder when you already know how Panem's story ends." },
-    ],
-  },
-  {
-    slug: 'wheel-of-time',
-    intro:
-      "Robert Jordan's The Wheel of Time is 14 novels plus a prequel — over 11,000 pages of one of the most ambitious works in genre fiction. Jordan wrote Books 1–11 before his death in 2007; Brandon Sanderson completed the series from Jordan's notes. Every book is essential; there are no optional entries. Set aside years, not weeks.",
-    startWith:
-      "Start with The Eye of the World (Book 1). Many readers also read New Spring (the prequel novella) either first or between Books 10 and 11 — both approaches work. Do not skip books.",
-    books: [
-      { title: 'The Eye of the World', author: 'Robert Jordan', year: 1990, note: 'Book 1 — five villagers flee their home; the Dragon Reborn is born' },
-      { title: 'The Great Hunt', author: 'Robert Jordan', year: 1990, note: 'Book 2 — the Horn of Valere; Rand begins to accept his destiny' },
-      { title: 'The Dragon Reborn', author: 'Robert Jordan', year: 1991, note: 'Book 3 — Rand declared the Dragon Reborn; Mat and Perrin take center stage' },
-      { title: 'The Shadow Rising', author: 'Robert Jordan', year: 1992, note: 'Book 4 — widely considered the best in the series; the Aiel Waste revealed' },
-      { title: 'The Fires of Heaven', author: 'Robert Jordan', year: 1993, note: 'Book 5 — Rand marches on Caemlyn; one of the series most shocking endings' },
-      { title: 'Lord of Chaos', author: 'Robert Jordan', year: 1994, note: 'Book 6 — Dumai Wells; the world changes forever' },
-      { title: 'A Crown of Swords', author: 'Robert Jordan', year: 1996, note: 'Book 7 — the Bowl of the Winds; Ebou Dar' },
-      { title: 'The Path of Daggers', author: 'Robert Jordan', year: 1998, note: 'Book 8 — the Bowl is used; Rand attacked from within' },
-      { title: 'Winter\'s Heart', author: 'Robert Jordan', year: 2000, note: 'Book 9 — Rand\'s most desperate gambit; the cleansing of saidin' },
-      { title: 'Crossroads of Twilight', author: 'Robert Jordan', year: 2003, note: 'Book 10 — the slowest entry; essential world-state update' },
-      { title: 'Knife of Dreams', author: 'Robert Jordan', year: 2005, note: 'Book 11 — Jordan rallies; plotlines finally resolve' },
-      { title: 'The Gathering Storm', author: 'Brandon Sanderson', year: 2009, note: 'Book 12 — Sanderson completes the series; Egwene and Rand face their trials' },
-      { title: 'Towers of Midnight', author: 'Brandon Sanderson', year: 2010, note: 'Book 13 — Mat and Perrin centered; the Last Battle approaches' },
-      { title: 'A Memory of Light', author: 'Brandon Sanderson', year: 2013, note: 'Book 14 — the Last Battle; the series conclusion' },
-      { title: 'New Spring', author: 'Robert Jordan', year: 2004, note: 'Prequel novella — Moiraine and Lan; best read after Book 6 or at the very start' },
-    ],
-    faq: [
-      { q: 'What is the Wheel of Time reading order?', a: "Read in publication order: The Eye of the World → The Great Hunt → The Dragon Reborn → The Shadow Rising → The Fires of Heaven → Lord of Chaos → A Crown of Swords → The Path of Daggers → Winter's Heart → Crossroads of Twilight → Knife of Dreams → The Gathering Storm → Towers of Midnight → A Memory of Light. The prequel New Spring can be read first or after Book 6." },
-      { q: 'How many Wheel of Time books are there?', a: "There are 14 main novels plus one prequel novella (New Spring). Robert Jordan wrote Books 1–11 before his death in 2007. Brandon Sanderson completed the series from Jordan's extensive notes, writing Books 12, 13, and 14 (The Gathering Storm, Towers of Midnight, A Memory of Light)." },
-      { q: 'Is it worth reading all 14 Wheel of Time books?', a: "Yes — the Wheel of Time is a complete, fully resolved story. Books 7–10 are the slowest section and are sometimes called the 'slog,' but they're necessary for the payoff in Books 11–14, where Sanderson accelerates the pace dramatically. Most readers report the ending of A Memory of Light is deeply satisfying." },
-      { q: 'Where does the Wheel of Time Amazon show end?', a: "The Amazon Prime Video show adapts The Eye of the World (Season 1) and The Great Hunt / portions of The Dragon Reborn (Season 2). The show compresses and rearranges events. Reading the books from the beginning is recommended for the full experience." },
     ],
   },
   {
