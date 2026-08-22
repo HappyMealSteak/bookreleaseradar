@@ -1663,6 +1663,81 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is Hyperion worth reading even if I am not usually a sci-fi reader?', a: "Hyperion is frequently recommended to literary fiction readers who don't usually read science fiction, because the Canterbury Tales structure foregrounds voice and story-within-story rather than world-building exposition. The tale of the Consul, the Sol Weintraub story, and the detective tale in particular read as distinct literary fiction genres that happen to take place in space." },
     ],
   },
+  {
+    slug: 'uprooted',
+    intro: "Naomi Novik's Uprooted (2015) is a complete standalone fantasy novel. There is no sequel. The novel is a dark fairy tale inspired by Eastern European folk traditions, particularly Polish folklore, about Agnieszka — a girl from a village on the edge of a corrupted magical forest called the Wood — and the Dragon, a cold and powerful wizard who takes one girl from her valley every ten years to serve him. The novel's relationship with Polish folklore and its sense of magic as something wild and personal rather than systematic won it the Nebula Award for Best Novel.",
+    startWith: 'Uprooted',
+    books: [
+      { title: 'Uprooted', author: 'Naomi Novik', year: 2015, note: "Standalone — Agnieszka is taken to serve the Dragon, discovers she has magic, and faces the Wood that has been corrupting her valley for generations" },
+    ],
+    faq: [
+      { q: 'Is Uprooted by Naomi Novik a standalone?', a: "Yes — Uprooted is a complete standalone novel with no sequels or prequels. Novik has written other fantasy (the Scholomance trilogy, the Temeraire series), but Uprooted is entirely independent." },
+      { q: 'Is Uprooted similar to A Deadly Education?', a: "Both are by Naomi Novik, and both feature young female protagonists discovering that their relationship to magic is unusual and poorly understood by the experts around them. Uprooted is darker, more fairy-tale in register, and more focused on the relationship between Agnieszka and the Dragon; A Deadly Education is more mordantly funny and more explicitly YA." },
+      { q: 'What folklore is Uprooted based on?', a: "Uprooted draws primarily on Polish folklore — the Dragon is based on the Polish folk figure of a cold, powerful wizard who lives in a tower, and the Wood draws on Slavic traditions of malevolent forests. Novik has spoken extensively about the influence of Polish fairy tales and the fairy tale collections of her childhood on the novel." },
+      { q: 'Is Uprooted a romance?', a: "Uprooted has a romance at its center — the slow evolution of the relationship between Agnieszka and the Dragon — but it is primarily a dark fantasy novel with significant horror elements involving the Wood. The romance is unusual in that it develops in ways that are hard to predict from the opening chapters." },
+    ],
+  },
+  {
+    slug: 'recursion',
+    intro: "Blake Crouch's Recursion (2019) is a complete standalone science fiction thriller. There is no sequel. The novel begins with two parallel storylines: a woman who discovers that her son — who died years ago — may not have died after all; and a NYPD detective investigating a new phenomenon called False Memory Syndrome, in which people are experiencing detailed memories of lives they didn't live. The novel's central concept involves the scientific mechanism behind these phenomena, which Crouch reveals incrementally.",
+    startWith: 'Recursion',
+    books: [
+      { title: 'Recursion', author: 'Blake Crouch', year: 2019, note: "Standalone — a neuroscientist and a detective uncover the mechanism behind False Memory Syndrome and discover it involves the ability to change history" },
+    ],
+    faq: [
+      { q: 'Is Recursion by Blake Crouch a standalone?', a: "Yes — Recursion is a complete standalone novel with no sequels or prequels. Blake Crouch has written other standalone thrillers (Dark Matter, Upgrade) and the Wayward Pines trilogy, but Recursion is entirely independent." },
+      { q: 'Is Recursion similar to Dark Matter by Blake Crouch?', a: "Yes — both Recursion and Dark Matter are standalone thrillers by Crouch that use a scientific concept (parallel universes in Dark Matter, memory and time in Recursion) as the engine of a thriller plot. Most readers who love one love the other. Dark Matter came first (2016) and has a slightly more focused structure; Recursion is more ambitious in scope." },
+      { q: 'Is Recursion science fiction or a thriller?', a: "Recursion is generally shelved in science fiction but reads as a thriller — it has the pacing of a thriller and does not require any prior interest in science fiction. The science is explained in character and is plausible enough to be unsettling. It's one of the most accessible science fiction novels for readers who don't usually read the genre." },
+      { q: 'What is Recursion about without spoilers?', a: "Recursion is about memory and time — specifically about what it would mean to be able to go back to a point in your past and change what happened. The mechanism for this is revealed gradually. The novel is a thriller that asks what you would actually do if you could fix the worst moment of your life, and what that fixing might cost." },
+    ],
+  },
+  {
+    slug: 'left-hand-of-darkness',
+    intro: "Ursula K. Le Guin's The Left Hand of Darkness (1969) is a complete standalone science fiction novel. There is no sequel, though it is set in the same universe as several other Le Guin novels (the Hainish Cycle) which can be read independently in any order. The novel follows Genly Ai, a human envoy from the galactic confederation called the Ekumen, sent to the planet Gethen — a world where no one is permanently male or female — to invite it to join. The novel won both the Hugo and Nebula Awards for Best Novel.",
+    startWith: 'The Left Hand of Darkness',
+    books: [
+      { title: 'The Left Hand of Darkness', author: 'Ursula K. Le Guin', year: 1969, note: "Standalone — Genly Ai, a human envoy, navigates the politics of a planet where human beings are ambisexual, told partly through his reports, partly through local mythology and folktales" },
+      { title: 'The Dispossessed', author: 'Ursula K. Le Guin', year: 1974, note: "Companion standalone — set in the same Hainish Cycle universe; an anarchist physicist from a utopian moon visits the capitalist planet that exiled his people", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The Left Hand of Darkness a standalone?', a: "Yes — The Left Hand of Darkness is a complete standalone novel. It is set in Le Guin's Hainish Cycle, a shared universe that includes The Dispossessed and several other novels, but each can be read independently with no required reading order." },
+      { q: 'What is The Left Hand of Darkness about?', a: "The Left Hand of Darkness is about a human envoy from a galactic confederation sent to a world where human beings are not permanently male or female — they exist in a sexually neuter state most of the time and enter periods of fertility (kemmer) that can be either male or female. The novel uses this premise to examine what gender actually is: what it does to perception, politics, and personal relationships when it is neither permanent nor determining." },
+      { q: 'Is The Left Hand of Darkness dated?', a: "The Left Hand of Darkness remains one of the most widely taught and discussed science fiction novels ever written, partly because its central premise has only become more relevant since 1969. The prose is Le Guin's formal, measured style that some readers find slow; the ideas are as contemporary as anything published in the last five years." },
+      { q: "What is the Hainish Cycle?", a: "The Hainish Cycle is Ursula K. Le Guin's shared science fiction universe, in which all the inhabited planets in the galaxy were originally seeded from the planet Hain millions of years ago, and are now being reunited by a galactic confederation called the Ekumen. The cycle includes The Left Hand of Darkness, The Dispossessed, The Word for World is Forest, and several other novels and stories — but all can be read independently, in any order." },
+    ],
+  },
+  {
+    slug: 'old-mans-war',
+    intro: "John Scalzi's Old Man's War series is an ongoing military science fiction series currently at six novels. The series follows John Perry, a 75-year-old man who joins the Colonial Defense Forces — humanity's interstellar military — in a new young body, fighting in a war for habitable planets against dozens of alien species. The series can be read in publication order; each novel is largely self-contained with the first book functioning as the strongest standalone.",
+    startWith: "Old Man's War",
+    books: [
+      { title: "Old Man's War", author: 'John Scalzi', year: 2005, note: "Book 1 — John Perry joins the Colonial Defense Forces at 75 and discovers what old people get in exchange for their military service; functions as a complete standalone" },
+      { title: 'The Ghost Brigades', author: 'John Scalzi', year: 2006, note: "Book 2 — follows the Special Forces, made from the DNA of people who died before they could enlist; different protagonist than Book 1" },
+      { title: 'The Last Colony', author: 'John Scalzi', year: 2007, note: "Book 3 — John Perry and Jane Sagan lead a new colony; the galactic politics around human colonization come to a head" },
+    ],
+    faq: [
+      { q: "What is the Old Man's War reading order?", a: "Read Old Man's War (2005) first — it functions as a complete standalone. The Ghost Brigades (2006) and The Last Colony (2007) form a loose trilogy with the first book. Zoe's Tale (2008) retells The Last Colony from a different perspective. Additional novels in the series include The Human Division (2013) and The End of All Things (2015)." },
+      { q: "How many Old Man's War books are there?", a: "The Old Man's War series currently has six novels: Old Man's War, The Ghost Brigades, The Last Colony, Zoe's Tale, The Human Division, and The End of All Things. John Scalzi has not ruled out additional books in the series." },
+      { q: "Is Old Man's War similar to Ender's Game?", a: "Old Man's War and Ender's Game are frequently compared — both are military science fiction about humanity at war with alien species, both center on protagonists who are trained to fight, and both ask what the military does to the people it builds. Scalzi's approach is more comedic and more direct about the political economy of interstellar war than Card's; Ender's Game is darker and more focused on the psychological cost." },
+      { q: "Is Old Man's War hard science fiction?", a: "Old Man's War is military science fiction rather than hard SF — the science is plausible and internally consistent but Scalzi doesn't labor over technical detail. The novel's interest is in what the premise does to the characters (particularly what it means to fight a war in a young body with an old person's values) rather than in the technical mechanisms." },
+    ],
+  },
+  {
+    slug: 'kingdom-of-the-wicked',
+    intro: "Kerri Maniscalco's Kingdom of the Wicked is a complete three-book YA dark fantasy series set in 1888 Sicily, where a young woman named Emilia di Carlo summons a demon to help her investigate her twin sister's murder — and discovers that the murders are connected to the Seven Princes of Hell. The series must be read in order.",
+    startWith: 'Kingdom of the Wicked',
+    books: [
+      { title: 'Kingdom of the Wicked', author: 'Kerri Maniscalco', year: 2020, note: "Book 1 — Emilia summons Wrath, the Demon Prince of Wrath, to help her find her twin sister's killer in a supernatural Sicily" },
+      { title: 'Kingdom of the Cursed', author: 'Kerri Maniscalco', year: 2021, note: "Book 2 — Emilia travels to the underworld in pursuit of her sister's killer" },
+      { title: 'Kingdom of the Feared', author: 'Kerri Maniscalco', year: 2022, note: "Book 3 — the trilogy conclusion; Emilia and Wrath face the full consequences of the bargain they've made" },
+    ],
+    faq: [
+      { q: 'What is the Kingdom of the Wicked reading order?', a: "Read Kingdom of the Wicked (2020), then Kingdom of the Cursed (2021), then Kingdom of the Feared (2022). All three must be read in order. The trilogy is complete." },
+      { q: 'How many Kingdom of the Wicked books are there?', a: "The Kingdom of the Wicked trilogy by Kerri Maniscalco consists of three books: Kingdom of the Wicked (2020), Kingdom of the Cursed (2021), and Kingdom of the Feared (2022). The trilogy is complete." },
+      { q: 'Is Kingdom of the Wicked enemies to lovers?', a: "Yes — Kingdom of the Wicked features an enemies-to-lovers romance between Emilia and Wrath, the Demon Prince of Wrath. The romance follows a slow-burn arc across all three books, with Wrath beginning as an antagonist whose goals may or may not align with Emilia's." },
+      { q: 'Is Kingdom of the Wicked related to Stalking Jack the Ripper?', a: "Both series are by Kerri Maniscalco, but they are set in completely different worlds and have no shared characters or plot. Stalking Jack the Ripper is historical fiction set in Victorian London; Kingdom of the Wicked is supernatural fantasy set in 1888 Sicily." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

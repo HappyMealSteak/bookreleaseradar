@@ -92,6 +92,11 @@ export const metadata: Metadata = {
     'books like American Gods Neil Gaiman',
     'books like Foundation Isaac Asimov',
     'books like Hyperion Dan Simmons',
+    'books like Uprooted Naomi Novik',
+    'books like Recursion Blake Crouch',
+    'books like Left Hand of Darkness Ursula Le Guin',
+    "books like Old Man's War John Scalzi",
+    'books like Kingdom of the Wicked Kerri Maniscalco',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -419,6 +424,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Hyperion by Dan Simmons?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Hyperion include The Fall of Hyperion (the direct second half), Foundation by Isaac Asimov, Dune by Frank Herbert, A Memory Called Empire by Arkady Martine, The Expanse, and The Name of the Wind by Patrick Rothfuss. Our full Hyperion Cantos guide covers 8 picks for fans of literary epic science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Uprooted by Naomi Novik?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Uprooted include Spinning Silver (also by Novik), A Deadly Education (also by Novik), The Bear and the Nightingale by Katherine Arden, Circe by Madeline Miller, The Night Circus, and Jonathan Strange & Mr Norrell. Our full Uprooted guide covers 8 picks for fans of dark fairy tale fantasy with Eastern European folklore." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Recursion by Blake Crouch?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Recursion include Dark Matter by Blake Crouch, Upgrade by Blake Crouch, Project Hail Mary by Andy Weir, The Midnight Library by Matt Haig, Replay by Ken Grimwood, and The First Fifteen Lives of Harry August by Claire North. Our full Recursion guide covers 8 picks for fans of mind-bending time-loop thrillers." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Left Hand of Darkness?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Left Hand of Darkness include The Dispossessed (also by Le Guin), A Memory Called Empire by Arkady Martine, Parable of the Sower by Octavia Butler, Kindred by Octavia Butler, Station Eleven by Emily St. John Mandel, and The Long Way to a Small Angry Planet. Our full Left Hand guide covers 8 literary SF picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Old Man's War?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Old Man's War include Ender's Game by Orson Scott Card, The Forever War by Joe Haldeman, Starship Troopers by Robert Heinlein, Red Rising by Pierce Brown, The Expanse, and Redshirts (also by Scalzi). Our full Old Man's War guide covers 8 military sci-fi picks for fans of interstellar warfare and dark humor." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kingdom of the Wicked?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kingdom of the Wicked include The Folk of the Air by Holly Black, A Court of Thorns and Roses, Caraval by Stephanie Garber, Daughter of Smoke and Bone by Laini Taylor, An Ember in the Ashes by Sabaa Tahir, and City of Bones by Cassandra Clare. Our full Kingdom of the Wicked guide covers 8 gothic fantasy picks." },
     },
   ],
 };

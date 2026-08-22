@@ -1397,6 +1397,78 @@ export const SERIES: SeriesDefinition[] = [
       'Hyperion books in order',
     ],
   },
+  {
+    slug: 'uprooted',
+    name: 'Uprooted',
+    author: 'Naomi Novik',
+    authorQuery: 'Naomi Novik',
+    genre: 'fantasy',
+    description:
+      "Naomi Novik's Uprooted is a complete standalone dark fantasy novel inspired by Eastern European folklore. Agnieszka lives in a valley on the edge of a corrupted magical forest called the Wood, where the Dragon — a cold, powerful wizard — takes one girl every ten years to serve him. Agnieszka's relationship to magic, and to the Dragon, is nothing like what either of them expected.",
+    searchTerms: [
+      'Naomi Novik new book',
+      'Uprooted reading order',
+      'Uprooted Naomi Novik sequel',
+    ],
+  },
+  {
+    slug: 'recursion',
+    name: 'Recursion',
+    author: 'Blake Crouch',
+    authorQuery: 'Blake Crouch',
+    genre: 'sci-fi',
+    description:
+      "Blake Crouch's Recursion is a complete standalone science fiction thriller about memory, time, and what it would mean to be able to go back and change the worst moment of your life. A neuroscientist and an NYPD detective independently uncover the mechanism behind a new phenomenon called False Memory Syndrome — and discover it threatens the fabric of reality.",
+    searchTerms: [
+      'Blake Crouch new book',
+      'Recursion reading order',
+      'Blake Crouch books to read',
+    ],
+  },
+  {
+    slug: 'left-hand-of-darkness',
+    name: 'The Left Hand of Darkness',
+    author: 'Ursula K. Le Guin',
+    authorQuery: 'Ursula K. Le Guin',
+    genre: 'sci-fi',
+    description:
+      "Ursula K. Le Guin's The Left Hand of Darkness is a Hugo and Nebula Award-winning standalone science fiction novel about a human envoy sent to a planet where human beings are neither male nor female. Set in Le Guin's Hainish Cycle shared universe, it uses its speculative premise to examine what gender does to perception, politics, and personal relationships.",
+    searchTerms: [
+      'Ursula Le Guin new book',
+      'Left Hand of Darkness reading order',
+      'Hainish Cycle reading order',
+      'Ursula Le Guin books to read',
+    ],
+  },
+  {
+    slug: 'old-mans-war',
+    name: "Old Man's War",
+    author: 'John Scalzi',
+    authorQuery: 'John Scalzi',
+    genre: 'sci-fi',
+    description:
+      "John Scalzi's Old Man's War series is ongoing military science fiction about retired humans who join an interstellar military in young bodies to fight for habitable planets. Known for its dark humor, fast pacing, and the moral complexity of a war humanity did not ask for but cannot stop fighting.",
+    searchTerms: [
+      'John Scalzi new book',
+      "Old Man's War reading order",
+      "Old Man's War series order",
+    ],
+  },
+  {
+    slug: 'kingdom-of-the-wicked',
+    name: 'Kingdom of the Wicked',
+    shortName: 'Kingdom of the Wicked',
+    author: 'Kerri Maniscalco',
+    authorQuery: 'Kerri Maniscalco',
+    genre: 'fantasy',
+    description:
+      "Kerri Maniscalco's Kingdom of the Wicked is a complete three-book YA dark fantasy trilogy set in 1888 Sicily, where Emilia di Carlo summons a demon — the Prince of Wrath — to help investigate her twin sister's murder. The series combines enemies-to-lovers romance with supernatural mystery and gothic atmosphere.",
+    searchTerms: [
+      'Kerri Maniscalco new book',
+      'Kingdom of the Wicked reading order',
+      'Kingdom of the Wicked series order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
