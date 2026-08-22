@@ -5,6 +5,7 @@ import { ChevronRight, ExternalLink, BookOpen } from 'lucide-react';
 import { RECOMMENDATIONS, getBooksLike, getRecommendationAmazonUrl, ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 2592000;
 
@@ -216,6 +217,8 @@ export default async function BooksLikePage({ params }: Props) {
             ))}
           </div>
         </section>
+
+        <NewsletterSignup />
 
         <p className="mt-8 text-xs text-[var(--text-faint)] leading-relaxed">
           Book links are Amazon affiliate links. As an Amazon Associate, BookReleaseRadar earns from qualifying purchases at no extra cost to you.

@@ -5,6 +5,7 @@ import { getUpcomingBooks } from '@/lib/db';
 import { getMostAnticipated } from '@/lib/reading-orders';
 import { getSeriesBySlug } from '@/lib/series';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -168,6 +169,8 @@ export default async function MostAnticipatedPage() {
           </p>
         )}
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

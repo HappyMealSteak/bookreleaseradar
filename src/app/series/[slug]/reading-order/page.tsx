@@ -5,6 +5,7 @@ import { ChevronRight, ExternalLink, BookOpen, Clock } from 'lucide-react';
 import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { getReadingOrder, getReadingOrderBooksWithUrls, ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 2592000;
 
@@ -262,6 +263,8 @@ export default async function ReadingOrderPage({ params }: Props) {
             </Link>
           )}
         </div>
+
+        <NewsletterSignup />
 
         {/* Affiliate disclosure */}
         <p className="mt-8 text-xs text-[var(--text-faint)] leading-relaxed">
