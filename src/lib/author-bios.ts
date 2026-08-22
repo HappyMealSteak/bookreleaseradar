@@ -330,6 +330,54 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'romance',
     knownFor: ['Harlequin Presents', 'Their Reunion Vow', 'A Hidden Heir to Redeem Him'],
   },
+  {
+    name: 'James Dashner',
+    bio: "James Dashner is the American author of the Maze Runner series, one of the defining YA dystopian trilogies of the 2010s. He began his writing career with the 13th Reality series before The Maze Runner (2009) launched him to international bestseller status. The series was adapted into a blockbuster film franchise beginning in 2014. Dashner is known for high-concept premises that drop readers into dangerous situations with few answers, forcing characters and readers alike to piece together the truth.",
+    genre: 'fiction',
+    knownFor: ['The Maze Runner', 'The Scorch Trials', 'The Death Cure', 'The 13th Reality'],
+  },
+  {
+    name: 'Veronica Roth',
+    bio: "Veronica Roth is the New York Times bestselling author of the Divergent trilogy, which she wrote while studying creative writing at Northwestern University. The trilogy — Divergent (2011), Insurgent (2012), and Allegiant (2013) — sold over 35 million copies worldwide and was adapted into a major film franchise starring Shailene Woodley. After Divergent, Roth moved into adult SFF with the Carve the Mark duology and the dark fantasy Chosen Ones.",
+    genre: 'fiction',
+    knownFor: ['Divergent', 'Insurgent', 'Allegiant', 'Chosen Ones'],
+  },
+  {
+    name: 'Richelle Mead',
+    bio: "Richelle Mead is a New York Times bestselling author known primarily for her Vampire Academy series and its Bloodlines spinoff. Born in Michigan, Mead combines paranormal romance with boarding school drama and supernatural hierarchy, creating one of the best-loved YA vampire series of the 2000s. Her adult urban fantasy series Succubus Blues and the Georgina Kincaid series established her adult readership. The Vampire Academy film adaptation premiered in 2014.",
+    genre: 'romance',
+    knownFor: ['Vampire Academy', 'Bloodlines', 'Succubus Blues', 'Georgina Kincaid series'],
+  },
+  {
+    name: 'Christopher Paolini',
+    bio: "Christopher Paolini is an American author who began writing Eragon at the age of fifteen, making him one of the youngest authors to achieve international bestseller status with a debut novel. The Inheritance Cycle — Eragon (2003), Eldest (2005), Brisingr (2008), and Inheritance (2011) — has sold over 35 million copies worldwide. Paolini returned to the world of Alagaësia with Murtagh (2023). He has also written To Be Taught, If Fortunate, a science fiction novella, and is working on a new sci-fi novel, The Fractal Shroud.",
+    genre: 'fantasy',
+    knownFor: ['Eragon', 'Eldest', 'Brisingr', 'Inheritance', 'Murtagh'],
+  },
+  {
+    name: 'Marie Lu',
+    bio: "Marie Lu is the New York Times bestselling author of the Legend trilogy, the Young Elites trilogy, and the Warcross duology. Born in China and raised in Texas, Lu worked as an art director in video games before her debut novel Legend (2011) launched her writing career. Known for propulsive dual-POV storytelling, morally complex heroes, and class-war themes, she has established herself as one of the defining YA authors of her generation. The Legend trilogy has sold millions of copies in over 30 languages.",
+    genre: 'fiction',
+    knownFor: ['Legend', 'The Young Elites', 'Warcross', 'Batman: Nightwalker'],
+  },
+  {
+    name: 'Victoria Aveyard',
+    bio: "Victoria Aveyard is the New York Times bestselling author of the Red Queen series, her debut YA fantasy novel that became a phenomenon when published in 2015. Aveyard grew up in East Longmeadow, Massachusetts and studied screenwriting at USC before writing Red Queen. The Red Queen series — spanning four novels and multiple novellas — has sold over 10 million copies worldwide. She has also written Realm Breaker, an epic fantasy series for adults.",
+    genre: 'fiction',
+    knownFor: ['Red Queen', 'Glass Sword', 'War Storm', 'Realm Breaker'],
+  },
+  {
+    name: 'Frank Herbert',
+    bio: "Frank Herbert (1920–1986) was an American science fiction author best known for Dune (1965), the bestselling science fiction novel of all time with over 20 million copies sold. A former journalist and ecological thinker, Herbert spent six years researching Oregon sand dunes before writing Dune, which transformed his observations on ecology, religion, and power into the planet Arrakis. He wrote five sequels before his death in 1986. Denis Villeneuve's film adaptations (2021, 2024) introduced Dune to a new generation.",
+    genre: 'sci-fi',
+    knownFor: ['Dune', 'Dune Messiah', 'Children of Dune', 'God Emperor of Dune'],
+  },
+  {
+    name: 'Sabaa Tahir',
+    bio: "Sabaa Tahir is a New York Times bestselling author and former night editor at the Washington Post. Born in London and raised in the Mojave Desert in California, she drew on ancient Rome, the Mughal Empire, and Afghan folklore to create the world of An Ember in the Ashes (2015). The Ember in the Ashes series spans four novels and has sold millions of copies worldwide, praised for its brutal world-building, dual-POV structure, and deeply human characters. Her standalone All My Rage won the Pulitzer Prize for Fiction in 2023.",
+    genre: 'fantasy',
+    knownFor: ['An Ember in the Ashes', 'A Torch Against the Night', 'All My Rage'],
+  },
 ];
 
 function normalize(s: string) {
