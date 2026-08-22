@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Invisible Cities Italo Calvino Marco Polo imaginary cities',
+    'books like The Leopard Lampedusa Sicily aristocracy Risorgimento',
+    'books like The Baron in the Trees Calvino Cosimo philosophical fable',
+    "books like Zeno's Conscience Svevo Trieste modernist unreliable narrator",
+    'books like The Conformist Moravia fascism conformity Italian novel',
     'books like The Radetzky March Joseph Roth Habsburg Empire elegy',
     'books like Austerlitz W.G. Sebald Kindertransport memory',
     'books like The Man Without Qualities Robert Musil Vienna modernism',
@@ -2385,6 +2390,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Invisible Cities by Italo Calvino?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Invisible Cities include If on a winter's night a traveler and The Baron in the Trees by Calvino, One Hundred Years of Solitude by García Márquez, The Name of the Rose by Umberto Eco, Dictionary of the Khazars by Milorad Pavić, Ficciones by Borges, Cosmicomics by Calvino, and The Rings of Saturn by Sebald. Our full guide covers 8 picks for fans of Calvino's imaginary cities masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Leopard by Giuseppe Tomasi di Lampedusa?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Leopard include The Radetzky March by Joseph Roth, Buddenbrooks by Thomas Mann, Doctor Zhivago by Pasternak, Gone with the Wind by Mitchell, The Cherry Orchard by Chekhov, Invisible Cities by Calvino, The Garden of the Finzi-Continis by Bassani, and The World of Yesterday by Zweig. Our full guide covers 8 picks for fans of Lampedusa's Sicily novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Baron in the Trees by Italo Calvino?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Baron in the Trees include The Cloven Viscount and The Nonexistent Knight by Calvino, Invisible Cities by Calvino, Candide by Voltaire, Don Quixote by Cervantes, Gulliver's Travels by Swift, Steppenwolf by Hesse, and The Little Prince by Saint-Exupéry. Our full guide covers 8 picks for fans of Calvino's philosophical fable." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Zeno's Conscience by Italo Svevo?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Zeno's Conscience include The Fall by Camus, Notes from Underground by Dostoevsky, In Search of Lost Time by Proust, Ulysses by Joyce, Pale Fire by Nabokov, Lolita by Nabokov, The Remains of the Day by Ishiguro, and How Should a Person Be? by Sheila Heti. Our full guide covers 8 picks for fans of Svevo's unreliable modernist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Conformist by Alberto Moravia?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Conformist include If This Is a Man by Primo Levi, The Reader by Bernhard Schlink, Darkness at Noon by Arthur Koestler, Life and Fate by Vasily Grossman, The Painted Bird by Jerzy Kosiński, Suite Française by Irène Némirovsky, The Garden of the Finzi-Continis by Bassani, and Man in the Dark by Paul Auster. Our full guide covers 8 picks for fans of Moravia's fascism novel." },
     },
     {
       '@type': 'Question',
