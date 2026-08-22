@@ -215,6 +215,11 @@ export const metadata: Metadata = {
     'books like White Noise Don DeLillo',
     'books like Another Country James Baldwin',
     'books like The Fire Next Time James Baldwin',
+    'books like Anna Karenina Leo Tolstoy',
+    'books like The Things They Carried Tim O\'Brien',
+    'books like Freedom Jonathan Franzen',
+    'books like A Confederacy of Dunces John Kennedy Toole',
+    'books like The Trial Franz Kafka',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1162,6 +1167,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Fire Next Time by James Baldwin?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Fire Next Time include Notes of a Native Son (also by James Baldwin), Between the World and Me by Ta-Nehisi Coates, If Beale Street Could Talk by Baldwin, Go Tell It on the Mountain by Baldwin, Just Mercy by Bryan Stevenson, The Autobiography of Malcolm X, Invisible Man by Ralph Ellison, and Giovanni's Room by Baldwin. Our full guide covers 8 picks for fans of Baldwin's essential essay collection on race in America." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Anna Karenina by Leo Tolstoy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Anna Karenina include War and Peace (also by Leo Tolstoy), Doctor Zhivago by Boris Pasternak, Middlemarch by George Eliot, Madame Bovary by Gustave Flaubert, The Brothers Karamazov and Crime and Punishment by Fyodor Dostoevsky, A Gentleman in Moscow by Amor Towles, and The Portrait of a Lady by Henry James. Our full guide covers 8 picks for fans of Tolstoy's masterwork about love, marriage, and the cost of living against society's expectations." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Things They Carried by Tim O'Brien?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Things They Carried include Going After Cacciato (also by O'Brien), All Quiet on the Western Front by Erich Maria Remarque, A Farewell to Arms by Ernest Hemingway, Catch-22 by Joseph Heller, Matterhorn by Karl Marlantes, The Sympathizer by Viet Thanh Nguyen, Heart of Darkness by Joseph Conrad, and Redeployment by Phil Klay. Our full guide covers 8 picks for fans of O'Brien's Vietnam linked stories and their meditation on story-truth." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Freedom by Jonathan Franzen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Freedom include The Corrections (also by Jonathan Franzen), White Noise by Don DeLillo, Revolutionary Road by Richard Yates, The Interestings by Meg Wolitzer, A Little Life by Hanya Yanagihara, Normal People by Sally Rooney, Beautiful Ruins by Jess Walter, and The Marriage Plot by Jeffrey Eugenides. Our full guide covers 8 picks for fans of Franzen's novel about the Berglunds and the question of what freedom actually means." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Confederacy of Dunces by John Kennedy Toole?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Confederacy of Dunces include Catch-22 by Joseph Heller, Lucky Jim by Kingsley Amis, The Adventures of Augie March by Saul Bellow, The Corrections by Jonathan Franzen, White Noise by Don DeLillo, Portnoy's Complaint by Philip Roth, The Death of Ivan Ilyich by Leo Tolstoy, and The Hitchhiker's Guide to the Galaxy by Douglas Adams. Our full guide covers 8 picks for fans of Toole's Pulitzer Prize-winning comic novel about Ignatius J. Reilly." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Trial by Franz Kafka?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Trial include The Castle and The Metamorphosis (also by Franz Kafka), The Master and Margarita by Mikhail Bulgakov, Catch-22 by Joseph Heller, 1984 by George Orwell, Nausea by Jean-Paul Sartre, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, and We by Yevgeny Zamyatin. Our full guide covers 8 picks for fans of Kafka's nightmare legal novel about Josef K. and the incomprehensible system." },
     },
   ],
 };
