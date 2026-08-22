@@ -996,6 +996,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Lord of the Flies', 'The Spire', 'Rites of Passage'],
   },
+  {
+    name: 'Rohinton Mistry',
+    bio: "Rohinton Mistry (born 1952) is a Canadian novelist born in Bombay (now Mumbai), India, into the Parsi community — the small Zoroastrian minority whose presence in Bombay dates to the eighth century. He emigrated to Canada in 1975 and worked as a bank clerk in Toronto while writing short stories, eventually publishing a collection, Tales from Firozsha Baag (1987), set in a Bombay apartment complex. His debut novel, Such a Long Journey (1991), won the Governor General's Award and the Commonwealth Writers' Prize and was shortlisted for the Booker Prize. A Fine Balance (1995), set during Indira Gandhi's Emergency of 1975–1977, is widely considered his masterwork: it was shortlisted for the Booker Prize, won the Giller Prize, and was selected by Oprah's Book Club in 2001. His third novel, Family Matters (2002), was again shortlisted for the Booker Prize, making him one of a handful of authors to receive three Booker nominations. Mistry has published no novel since 2002 though he has spoken in interviews about work in progress. He is known for his Dickensian plots, deeply compassionate characterisation, and his unflinching depiction of caste, poverty, and political repression in twentieth-century India.",
+    genre: 'fiction',
+    knownFor: ['A Fine Balance', 'Such a Long Journey', 'Family Matters'],
+  },
+  {
+    name: 'Ernest Hemingway',
+    bio: "Ernest Hemingway (1899–1961) was an American novelist and short-story writer born in Oak Park, Illinois. He worked as a journalist in Kansas City before serving as a Red Cross ambulance driver on the Italian front in World War One, an experience that shaped his fiction for decades. After the war he joined the American expatriate community in Paris, where he befriended Gertrude Stein, F. Scott Fitzgerald, and Ezra Pound, and published his early short-story collections In Our Time (1925) and Men Without Women (1927). His first major novel, The Sun Also Rises (1926), drew on his time among the Lost Generation expatriates in Paris and Pamplona and established the stripped, iceberg-theory prose style that defined his legacy. A Farewell to Arms (1929) and For Whom the Bell Tolls (1940) confirmed his standing as the pre-eminent chronicler of war and disillusionment in American literature. He spent much of his later life in Cuba, where he wrote The Old Man and the Sea (1952), which won the Pulitzer Prize in 1953. He was awarded the Nobel Prize in Literature in 1954, with the committee citing 'his mastery of the art of narrative, most recently demonstrated in The Old Man and the Sea, and for the influence that he has exerted on contemporary style.' He died by suicide in Ketchum, Idaho, in 1961.",
+    genre: 'fiction',
+    knownFor: ['The Sun Also Rises', 'A Farewell to Arms', 'For Whom the Bell Tolls', 'The Old Man and the Sea'],
+  },
+  {
+    name: 'Richard Yates',
+    bio: "Richard Yates (1926–1992) was an American novelist and short-story writer born in Yonkers, New York. He served in the U.S. Army in Europe during World War Two and worked as a journalist and ghostwriter before publishing his debut novel, Revolutionary Road (1961), which was nominated for the National Book Award. The novel is now regarded as one of the defining portraits of postwar American suburban conformity and its costs — but it went largely unrecognized during Yates's lifetime; it went out of print and he spent decades in relative obscurity, teaching creative writing at various universities. His short-story collection Eleven Kinds of Loneliness (1962) and subsequent novels — A Special Providence (1969), Disturbing the Peace (1975), The Easter Parade (1976), A Good School (1978), Young Hearts Crying (1984), and Cold Spring Harbor (1986) — were admired by a small readership but never commercially successful. He struggled with alcoholism and mental illness throughout his life. A literary revival began after his death: Stewart O'Nan's 1999 essay in the Boston Review called him 'the great forgotten novelist of his generation,' and the 2008 film adaptation of Revolutionary Road starring Leonardo DiCaprio and Kate Winslet brought his work to a mass audience. He is now recognized as a master of American realism and a key influence on writers including Richard Russo, Andre Dubus III, and Elizabeth Strout.",
+    genre: 'fiction',
+    knownFor: ['Revolutionary Road', 'The Easter Parade', 'Eleven Kinds of Loneliness'],
+  },
+  {
+    name: 'Amor Towles',
+    bio: "Amor Towles (born 1964) is an American novelist born in Boston, Massachusetts. He studied English at Yale and received an MA in English from Stanford before spending over twenty years working as an investment professional in New York. His debut novel, Rules of Civility (2011), set in 1938 Manhattan and narrated by a young woman navigating New York's social strata, was a New York Times bestseller and established his reputation for elegant, architecturally precise prose. A Gentleman in Moscow (2016), his second novel — in which a Russian count is sentenced to house arrest in a luxury Moscow hotel in 1922 — spent three years on the New York Times bestseller list and sold over two million copies in the United States alone; it was adapted as a television series by Paramount+ in 2024. The Lincoln Highway (2021), a road-trip novel set in 1950s America, debuted at number one on the New York Times list and further cemented his standing as one of the most commercially successful literary novelists of his generation. Towles is known for his historical settings, intricate plotting, civilized tone, and characters who face adversity with wit and grace. He has spoken of his admiration for nineteenth-century novelists — Tolstoy, Dickens, Trollope — whose influence is evident in the scale and moral seriousness of his fiction.",
+    genre: 'fiction',
+    knownFor: ['A Gentleman in Moscow', 'Rules of Civility', 'The Lincoln Highway'],
+  },
 ];
 
 function normalize(s: string) {
