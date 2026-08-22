@@ -333,6 +333,11 @@ export const metadata: Metadata = {
     'books like Things Fall Apart Chinua Achebe',
     'books like Saturday Night and Sunday Morning Alan Sillitoe',
     'books like Housekeeping Marilynne Robinson',
+    'books like Purple Hibiscus Chimamanda Ngozi Adichie',
+    'books like Half of a Yellow Sun Chimamanda Ngozi Adichie',
+    'books like The Virgin Suicides Jeffrey Eugenides',
+    'books like Room at the Top John Braine',
+    'books like Season of Migration to the North Tayeb Salih',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1870,6 +1875,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Housekeeping by Marilynne Robinson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Housekeeping include Gilead (also by Robinson), The Virgin Suicides by Jeffrey Eugenides, Beloved by Toni Morrison, A Farewell to Arms by Ernest Hemingway, The God of Small Things by Arundhati Roy, The Givenness of Things by Marilynne Robinson, Housekeeping vs. the Dirt by Nick Hornby, and Mrs Dalloway by Virginia Woolf. Our full guide covers 8 picks for fans of Robinson's lyrical debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Purple Hibiscus by Chimamanda Ngozi Adichie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Purple Hibiscus include Half of a Yellow Sun (also by Adichie), Things Fall Apart by Chinua Achebe, Nervous Conditions by Tsitsi Dangarembga, So Long a Letter by Mariama Bâ, Americanah by Chimamanda Ngozi Adichie, The God of Small Things by Arundhati Roy, A Thousand Splendid Suns by Khaled Hosseini, and Kitchen by Banana Yoshimoto. Our full guide covers 8 picks for fans of Adichie's debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Half of a Yellow Sun by Chimamanda Ngozi Adichie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Half of a Yellow Sun include Purple Hibiscus (also by Adichie), Things Fall Apart by Chinua Achebe, A Farewell to Arms by Ernest Hemingway, The English Patient by Michael Ondaatje, A Long Way Gone by Ishmael Beah, Homegoing by Yaa Gyasi, An Orchestra of Minorities by Chigozie Obioma, and Season of Migration to the North by Tayeb Salih. Our full guide covers 8 picks for fans of Adichie's Biafran War novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Virgin Suicides by Jeffrey Eugenides?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Virgin Suicides include Middlesex (also by Eugenides), Housekeeping by Marilynne Robinson, A Little Life by Hanya Yanagihara, The Secret History by Donna Tartt, Picnic at Hanging Rock by Joan Lindsay, The Lovely Bones by Alice Sebold, Prep by Curtis Sittenfeld, and White Noise by Don DeLillo. Our full guide covers 8 picks for fans of Eugenides's haunting debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Room at the Top by John Braine?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Room at the Top include Saturday Night and Sunday Morning by Alan Sillitoe, The Acquisitive Society by R.H. Tawney, Lucky Jim by Kingsley Amis, The Remains of the Day by Kazuo Ishiguro, Stoner by John Williams, The Millstone by Margaret Drabble, Our Man in Havana by Graham Greene, and The Bonfire of the Vanities by Tom Wolfe. Our full guide covers 8 picks for fans of Braine's social climbing classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Season of Migration to the North by Tayeb Salih?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Season of Migration to the North include Things Fall Apart by Chinua Achebe, Heart of Darkness by Joseph Conrad, A Passage to India by E.M. Forster, The Wretched of the Earth by Frantz Fanon, Half of a Yellow Sun by Chimamanda Ngozi Adichie, Maps by Nuruddin Farah, The Stranger by Albert Camus, and Petals of Blood by Ngũgĩ wa Thiong'o. Our full guide covers 8 picks for fans of Salih's postcolonial masterpiece." },
     },
   ],
 };
