@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Reservation Blues Sherman Alexie',
+    "books like Giovanni's Room James Baldwin",
+    'books like The Empathy Exams Leslie Jamison',
+    'books like Bluets Maggie Nelson',
+    'books like Redefining Realness Janet Mock',
     'books like Ceremony Leslie Marmon Silko',
     'books like House Made of Dawn N. Scott Momaday',
     'books like Fun Home Alison Bechdel',
@@ -2165,6 +2170,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Reservation Blues by Sherman Alexie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Reservation Blues include The Lone Ranger and Tonto Fistfight in Heaven by Sherman Alexie, The Absolutely True Diary of a Part-Time Indian by Sherman Alexie, Ceremony by Leslie Marmon Silko, There There by Tommy Orange, and Love Medicine by Louise Erdrich. Our full guide covers 8 picks for fans of Alexie's magic realist reservation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Giovanni's Room by James Baldwin?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Giovanni's Room include Another Country by James Baldwin, The Argonauts by Maggie Nelson, Fun Home by Alison Bechdel, Call Me By Your Name by André Aciman, Maurice by E.M. Forster, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of Baldwin's queer Paris novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Empathy Exams by Leslie Jamison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Empathy Exams include The Argonauts by Maggie Nelson, Bluets by Maggie Nelson, Bad Feminist by Roxane Gay, In the Dream House by Carmen Maria Machado, and On Immunity by Eula Biss. Our full guide covers 8 picks for fans of Jamison's personal essay collection about pain and empathy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bluets by Maggie Nelson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bluets include The Argonauts by Maggie Nelson, The Empathy Exams by Leslie Jamison, On Being Blue by William H. Gass, Autobiography of Red by Anne Carson, A Field Guide to Getting Lost by Rebecca Solnit, and The Lover by Marguerite Duras. Our full guide covers 8 picks for fans of Nelson's lyric essay on blue and heartbreak." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Redefining Realness by Janet Mock?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Redefining Realness include The Argonauts by Maggie Nelson, Between the World and Me by Ta-Nehisi Coates, Sister Outsider by Audre Lorde, Fun Home by Alison Bechdel, Hunger by Roxane Gay, and Stone Butch Blues by Leslie Feinberg. Our full guide covers 8 picks for fans of Mock's trans memoir." },
     },
     {
       '@type': 'Question',
