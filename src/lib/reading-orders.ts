@@ -5992,6 +5992,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'deep-work',
+    intro: "Cal Newport's Deep Work: Rules for Focused Success in a Distracted World (2016) argues that the ability to focus without distraction on cognitively demanding tasks — 'deep work' — is both increasingly rare and increasingly valuable in the knowledge economy, and provides a set of practical rules for cultivating this capacity in a world that systematically fragments attention.",
+    startWith: 'Deep Work',
+    books: [
+      { title: 'Deep Work', author: 'Cal Newport', year: 2016, note: 'The theoretical case and practical rules. Start here.' },
+      { title: 'Digital Minimalism', author: 'Cal Newport', year: 2019, note: "Newport's follow-up on the philosophy and practice of using digital tools with intention rather than being driven by them. Read after Deep Work." },
+      { title: 'A World Without Email', author: 'Cal Newport', year: 2021, note: "Newport's argument that email and constant communication tools systematically undermine the conditions for deep work. Read third." },
+    ],
+    faq: [
+      { q: "What is the difference between deep work and shallow work?", a: "Newport defines deep work as 'professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit,' producing outputs that create new value, improve your skills, and are hard to replicate. Shallow work is 'noncognitively demanding, logistical-style tasks, often performed while distracted,' producing outputs that can be replicated easily and contribute little value. Newport's argument is that the modern workplace has systematically traded deep work for shallow work — email, meetings, and social media — in a way that makes most knowledge workers less productive and less valuable than they could be." },
+      { q: "What are Newport's four rules for deep work?", a: "Newport's four rules are: Work Deeply (structure your work life to make deep work habits automatic rather than relying on willpower); Embrace Boredom (train your ability to concentrate by resisting the pull of distraction even in off hours); Quit Social Media (evaluate each network tool by asking whether its benefits significantly outweigh its costs and distractions); and Drain the Shallows (aggressively identify and reduce shallow obligations to maximize time available for deep work)." },
+    ],
+  },
+  {
+    slug: 'drive-daniel-pink',
+    intro: "Daniel H. Pink's Drive: The Surprising Truth About What Motivates Us (2009) challenges the assumption that people are primarily motivated by money and material rewards — arguing, based on four decades of behavioral science research, that for creative and cognitive work, intrinsic motivation (autonomy, mastery, and purpose) dramatically outperforms extrinsic rewards (money, grades, punishment).",
+    startWith: 'Drive',
+    books: [
+      { title: 'Drive', author: 'Daniel H. Pink', year: 2009, note: 'The complete standalone book. Start here.' },
+      { title: 'To Sell Is Human', author: 'Daniel H. Pink', year: 2012, note: "Pink's follow-up, arguing that everyone is in the business of moving people — persuading, influencing, selling ideas — and applying behavioral science to how we do this effectively. Read after Drive." },
+      { title: 'When', author: 'Daniel H. Pink', year: 2018, note: "Pink's account of the science of timing — when during the day, the week, the year, and a career to make decisions, take risks, and start new projects. Read third." },
+    ],
+    faq: [
+      { q: "What are the three elements of intrinsic motivation in Drive?", a: "Pink identifies three elements: Autonomy (the desire to direct our own lives), Mastery (the urge to get better at something that matters), and Purpose (the yearning to do what we do in the service of something larger than ourselves). These three elements produce intrinsic motivation — the kind that fuels deep engagement and long-term performance — while external rewards (money, bonuses, grades) produce compliance and short-term behavior change but actually undermine intrinsic motivation in the long run." },
+      { q: "What is the 'Candle Problem' and what does it show?", a: "The Candle Problem is a classic cognitive science task devised by Karl Duncker in 1945: subjects are given a candle, a box of thumbtacks, and a book of matches, and asked to attach the candle to the wall so that it doesn't drip wax on the floor. The solution requires 'functional fixedness' — recognizing that the box can be used as a shelf by tacking it to the wall. In experiments by Sam Glucksberg, offering financial incentives for solving the problem quickly made people significantly worse at it — they became more tunnel-visioned and less able to see the creative solution. Drive uses this result as one of the foundational demonstrations that external rewards undermine creative problem-solving." },
+    ],
+  },
+  {
+    slug: 'skin-in-the-game',
+    intro: "Nassim Nicholas Taleb's Skin in the Game: Hidden Asymmetries in Daily Life (2018) is the fourth book of the Incerto series, arguing that people who bear the consequences of their recommendations, predictions, and decisions are more reliable than those who don't — and that the greatest source of fragility and injustice in modern institutions is the separation of risk from reward.",
+    startWith: 'Skin in the Game',
+    books: [
+      { title: 'Fooled by Randomness', author: 'Nassim Nicholas Taleb', year: 2001, note: 'The intellectual foundation of the Incerto. Start here for the full argument in order.' },
+      { title: 'The Black Swan', author: 'Nassim Nicholas Taleb', year: 2007, note: 'The most widely read Incerto book. Can start here.' },
+      { title: 'Antifragile', author: 'Nassim Nicholas Taleb', year: 2012, note: 'The constructive statement of the Incerto philosophy. Read after The Black Swan.' },
+      { title: 'Skin in the Game', author: 'Nassim Nicholas Taleb', year: 2018, note: 'The ethical and political culmination of the Incerto argument. Read last.' },
+    ],
+    faq: [
+      { q: "What does 'skin in the game' mean?", a: "Taleb uses 'skin in the game' to mean having a personal stake in the outcome of a decision — specifically, being exposed to the downside risk as well as the upside benefit. The concept encompasses both symmetry (those who give advice should be exposed to the consequences of that advice) and accountability (those who make decisions affecting others should share in the consequences). Taleb argues that the most dangerous actors in modern society are 'fragilistas' who have no skin in the game — who can make decisions that expose others to risk without bearing any of that risk themselves: politicians who don't fight in the wars they start, economists who aren't invested in the economies they advise, doctors who don't take the medications they prescribe." },
+      { q: "How does Skin in the Game relate to the other Incerto books?", a: "Skin in the Game is the ethical and political culmination of the Incerto series: Fooled by Randomness establishes the epistemological problem (we are fooled by randomness and narrative), The Black Swan extends it to history and finance (rare events dominate outcomes), Antifragile provides the systemic response (build antifragile systems), and Skin in the Game provides the ethical response (ensure that those who make decisions bear their consequences). The four books form a coherent philosophical system." },
+    ],
+  },
+  {
+    slug: 'fooled-by-randomness',
+    intro: "Nassim Nicholas Taleb's Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001) is the first book of the Incerto series, arguing that human beings systematically underestimate the role of chance in outcomes and overestimate the role of skill — and that this error pervades financial markets, professional life, and the evaluation of success.",
+    startWith: 'Fooled by Randomness',
+    books: [
+      { title: 'Fooled by Randomness', author: 'Nassim Nicholas Taleb', year: 2001, note: 'The intellectual foundation of the Incerto. Start here for the full argument in order.' },
+      { title: 'The Black Swan', author: 'Nassim Nicholas Taleb', year: 2007, note: 'The definitive statement of the black swan thesis. Read second.' },
+      { title: 'Antifragile', author: 'Nassim Nicholas Taleb', year: 2012, note: 'The constructive response to the fragility The Black Swan documents. Read third.' },
+      { title: 'Skin in the Game', author: 'Nassim Nicholas Taleb', year: 2018, note: 'The ethical culmination of the Incerto argument. Read last.' },
+    ],
+    faq: [
+      { q: "What is survivorship bias and why does it matter?", a: "Survivorship bias is the error of drawing conclusions from a sample that includes only the successes — the 'survivors' — while ignoring the failures that were filtered out before you could observe them. The classic financial example: a mutual fund company that closes its worst-performing funds and advertises only the performance of its remaining funds creates an impression of expertise by eliminating the evidence of failure. Taleb uses the concept of the 'silent cemetery' — all the failed traders who made the same bets as the successful traders but happened to be on the wrong side of random outcomes — to argue that most financial success is indistinguishable from luck." },
+      { q: "What is the 'alternative histories' thought experiment in Fooled by Randomness?", a: "Taleb invites the reader to consider not just the history that happened but the full distribution of possible histories that could have happened — the 'alternative histories' — given the same initial conditions and a random determination of which of the possible outcomes actually occurred. A trader who made money in the past did so in one of many possible histories; in many of the alternative histories, the same strategy would have produced losses. Evaluating the trader's skill requires asking: across all the possible histories, how often would this strategy have succeeded? A strategy that succeeds in most possible histories reflects genuine skill; one that succeeds only in the specific history that happened reflects luck." },
+    ],
+  },
+  {
+    slug: 'flash-boys',
+    intro: "Michael Lewis's Flash Boys: A Wall Street Revolt (2014) examines the world of high-frequency trading — the use of ultra-fast computers and fiber-optic cables to trade stocks in microseconds — and argues that it constitutes a systematic rigging of the stock market against ordinary investors, told through the story of the traders and technologists who discovered the problem and built an alternative exchange (IEX) to solve it.",
+    startWith: 'Flash Boys',
+    books: [
+      { title: 'Flash Boys', author: 'Michael Lewis', year: 2014, note: 'The complete standalone book. Start here.' },
+      { title: 'The Big Short', author: 'Michael Lewis', year: 2010, note: "Lewis's account of the 2008 financial crisis — the chronological predecessor to Flash Boys in his examination of Wall Street dysfunction. Read before Flash Boys for the full context of how markets fail." },
+      { title: 'Liar\'s Poker', author: 'Michael Lewis', year: 1989, note: "Lewis's debut memoir of his years as a bond salesman — the historical backstory to the Wall Street culture that Flash Boys and The Big Short critique." },
+    ],
+    faq: [
+      { q: "What is high-frequency trading?", a: "High-frequency trading (HFT) is the use of sophisticated algorithms and ultra-fast computer networks to trade financial securities at extremely high speeds — thousands or millions of times per second — exploiting tiny price discrepancies across different exchanges that exist for fractions of a second. Practitioners co-locate their servers directly in exchange data centers and pay for fiber-optic cables that route data along the most direct possible path to gain microseconds of speed advantage. Lewis's argument in Flash Boys is that these speed advantages allow high-frequency traders to see other investors' orders and trade ahead of them ('front-running'), extracting value from ordinary investors without providing any economic benefit." },
+      { q: "What is IEX and how does it address the problem?", a: "IEX (Investors Exchange) was founded in 2013 by Brad Katsuyama and his team — the protagonists of Flash Boys — specifically to address the front-running problem. IEX introduced a 'speed bump' — a 350-microsecond delay (achieved by coiling 38 miles of fiber-optic cable) that slows all incoming orders equally, eliminating the advantage of co-location and speed that HFT relies on. The exchange gained Securities and Exchange Commission approval as a national securities exchange in 2016, over fierce opposition from Wall Street firms and existing exchanges." },
+    ],
+  },
+  {
     slug: 'grit',
     intro: "Angela Duckworth's Grit: The Power of Passion and Perseverance (2016) is a work of popular psychology arguing that 'grit' — the combination of passion and sustained perseverance toward long-term goals — is a better predictor of success than IQ or talent, based on Duckworth's research with West Point cadets, spelling bee competitors, and National Teachers of the Year recipients.",
     startWith: 'Grit',

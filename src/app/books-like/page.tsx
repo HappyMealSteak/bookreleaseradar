@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Deep Work Cal Newport',
+    'books like Drive Daniel Pink',
+    'books like Skin in the Game Nassim Taleb',
+    'books like Fooled by Randomness Nassim Taleb',
+    'books like Flash Boys Michael Lewis',
     'books like Grit Angela Duckworth',
     'books like Atomic Habits James Clear',
     'books like David and Goliath Malcolm Gladwell',
@@ -2225,6 +2230,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Deep Work by Cal Newport?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Deep Work include Digital Minimalism by Cal Newport, Indistractable by Nir Eyal, The Shallows by Nicholas Carr, Flow by Mihaly Csikszentmihalyi, Rest by Alex Soojung-Kim Pang, and Peak by Anders Ericsson. Our full guide covers 8 picks for fans of Newport's focus philosophy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Drive by Daniel Pink?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Drive include Flow by Mihaly Csikszentmihalyi, Mindset by Carol Dweck, The Progress Principle by Teresa Amabile, Punished by Rewards by Alfie Kohn, Deep Work by Cal Newport, and Grit by Angela Duckworth. Our full guide covers 8 picks for fans of Pink's intrinsic motivation research." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Skin in the Game by Nassim Nicholas Taleb?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Skin in the Game include Antifragile by Taleb, The Black Swan by Taleb, Fooled by Randomness by Taleb, The Dictator's Handbook by Bruce Bueno de Mesquita, and Thinking in Bets by Annie Duke. Our full guide covers 8 picks for fans of Taleb's accountability philosophy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fooled by Randomness by Nassim Nicholas Taleb?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fooled by Randomness include The Black Swan by Taleb, Thinking, Fast and Slow by Daniel Kahneman, The Drunkard's Walk by Leonard Mlodinow, Misbehaving by Richard Thaler, and Superforecasting by Philip Tetlock. Our full guide covers 8 picks for fans of Taleb's randomness philosophy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Flash Boys by Michael Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Flash Boys include The Big Short by Michael Lewis, Liar's Poker by Michael Lewis, Dark Pools by Scott Patterson, Den of Thieves by James Stewart, and Too Big to Fail by Andrew Ross Sorkin. Our full guide covers 8 picks for fans of Lewis's Wall Street investigations." },
     },
     {
       '@type': 'Question',
