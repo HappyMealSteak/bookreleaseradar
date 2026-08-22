@@ -220,6 +220,11 @@ export const metadata: Metadata = {
     'books like Freedom Jonathan Franzen',
     'books like A Confederacy of Dunces John Kennedy Toole',
     'books like The Trial Franz Kafka',
+    'books like Crime and Punishment Fyodor Dostoevsky',
+    'books like The Brothers Karamazov Fyodor Dostoevsky',
+    'books like Middlemarch George Eliot',
+    'books like One Day in the Life of Ivan Denisovich Aleksandr Solzhenitsyn',
+    'books like Heart of Darkness Joseph Conrad',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1192,6 +1197,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Trial by Franz Kafka?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Trial include The Castle and The Metamorphosis (also by Franz Kafka), The Master and Margarita by Mikhail Bulgakov, Catch-22 by Joseph Heller, 1984 by George Orwell, Nausea by Jean-Paul Sartre, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, and We by Yevgeny Zamyatin. Our full guide covers 8 picks for fans of Kafka's nightmare legal novel about Josef K. and the incomprehensible system." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Crime and Punishment by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Crime and Punishment include The Brothers Karamazov and The Idiot (also by Dostoevsky), Notes from Underground (also Dostoevsky), Anna Karenina by Leo Tolstoy, The Trial by Franz Kafka, Lolita by Vladimir Nabokov, and The Stranger by Albert Camus. Our full guide covers 8 picks for fans of Dostoevsky's psychological masterpiece about Raskolnikov's murder and its consequences." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Brothers Karamazov by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Brothers Karamazov include Crime and Punishment (also by Dostoevsky), Anna Karenina and War and Peace by Leo Tolstoy, The Trial by Franz Kafka, Doctor Zhivago by Boris Pasternak, The Name of the Rose by Umberto Eco, and One Hundred Years of Solitude by Gabriel García Márquez. Our full guide covers 8 picks for fans of Dostoevsky's final novel about the Karamazov family and the murder of their father." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Middlemarch by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Middlemarch include Daniel Deronda and The Mill on the Floss (also by George Eliot), Anna Karenina by Leo Tolstoy, The Portrait of a Lady by Henry James, Persuasion by Jane Austen, North and South and Wives and Daughters by Elizabeth Gaskell, and Bleak House by Charles Dickens. Our full guide covers 8 picks for fans of Victorian novels about intelligent women navigating a world determined to constrain them." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Day in the Life of Ivan Denisovich include The Gulag Archipelago (also by Solzhenitsyn), Doctor Zhivago by Boris Pasternak, The Master and Margarita by Mikhail Bulgakov, Night by Elie Wiesel, The Trial by Franz Kafka, and Life and Fate by Vasily Grossman. Our full guide covers 8 picks for fans of Solzhenitsyn's account of a single day in a Stalinist labor camp." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Heart of Darkness by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Heart of Darkness include Lord Jim and Nostromo (also by Joseph Conrad), Things Fall Apart by Chinua Achebe, The Sympathizer by Viet Thanh Nguyen, The Things They Carried by Tim O'Brien, The Secret Agent by Conrad, and Disgrace by J.M. Coetzee. Our full guide covers 8 picks for fans of Conrad's novella about Marlow's journey up the Congo to find Kurtz." },
     },
   ],
 };
