@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Of Mice and Men John Steinbeck friendship',
+    'books like Cannery Row John Steinbeck Monterey California',
+    'books like In Our Time Ernest Hemingway short stories',
+    'books like The Old Man and the Sea Ernest Hemingway Nobel',
+    'books like Tender Is the Night F. Scott Fitzgerald',
     'books like David Copperfield Charles Dickens autobiography',
     'books like Martin Chuzzlewit Charles Dickens selfishness satire',
     'books like The Old Curiosity Shop Little Nell Dickens',
@@ -2330,6 +2335,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Of Mice and Men by John Steinbeck?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Of Mice and Men include The Grapes of Wrath and East of Eden (also by Steinbeck), Cannery Row by Steinbeck, To Kill a Mockingbird by Harper Lee, The Pearl by Steinbeck, Their Eyes Were Watching God by Hurston, The Road by Cormac McCarthy, and A Fine Balance by Rohinton Mistry. Our full guide covers 8 picks after Steinbeck's tragic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cannery Row by John Steinbeck?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cannery Row include Sweet Thursday and Tortilla Flat (also by Steinbeck), Of Mice and Men, A River Runs Through It by Norman Maclean, Winesburg Ohio by Sherwood Anderson, My Antonia by Willa Cather, and The Log from the Sea of Cortez by Steinbeck. Our full guide covers 8 lyrical fiction picks after Cannery Row." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In Our Time by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In Our Time include The Sun Also Rises and A Farewell to Arms (also by Hemingway), Winesburg Ohio by Anderson, Dubliners by Joyce, The Things They Carried by Tim O'Brien, Cathedral by Raymond Carver, and Men Without Women by Hemingway. Our full guide covers 8 picks for fans of Hemingway's iceberg style." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Old Man and the Sea by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Old Man and the Sea include The Sun Also Rises and For Whom the Bell Tolls (also by Hemingway), Moby-Dick by Melville, The Road by Cormac McCarthy, Pedro Páramo by Juan Rulfo, Lonesome Dove by McMurtry, and In Our Time by Hemingway. Our full guide covers 8 picks for fans of Hemingway's Nobel Prize novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tender Is the Night by F. Scott Fitzgerald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tender Is the Night include The Great Gatsby and The Beautiful and Damned (also by Fitzgerald), A Moveable Feast by Hemingway, The Sun Also Rises by Hemingway, The Hours by Michael Cunningham, The Corrections by Jonathan Franzen, Brideshead Revisited by Waugh, and Save Me the Waltz by Zelda Fitzgerald. Our full guide covers 8 Jazz Age picks." },
     },
     {
       '@type': 'Question',
