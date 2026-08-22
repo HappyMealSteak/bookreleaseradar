@@ -5992,6 +5992,85 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-red-and-the-black',
+    intro: "Stendhal's The Red and the Black (1830) is the first great novel of ambition — Julien Sorel's attempt to rise from carpenter's son to the heights of French society through intelligence, calculation, and the seduction of powerful women. The novel's title is usually interpreted as the contrast between the military career (red of uniforms) that Napoleon made possible for talented young men of the lower classes, and the clerical career (black of priestly robes) that remained the only alternative after Napoleon's fall. Stendhal's great innovation was the depth and precision of his psychological analysis of Julien's interior life — the novel essentially invents the modern psychological novel's technique of showing us exactly what a character thinks and feels in every moment.",
+    startWith: "The Red and the Black",
+    books: [
+      { title: 'The Red and the Black', author: 'Stendhal', year: 1830, note: 'The foundational novel of ambition — Julien Sorel rising through post-Napoleonic France; start here for the full arc of his rise and fall' },
+      { title: 'The Charterhouse of Parma', author: 'Stendhal', year: 1839, note: "Stendhal's other great novel — Fabrizio del Dongo in Napoleonic Italy; written in 52 days and covering the same themes of ambition, love, and political intrigue from an aristocratic rather than plebeian perspective" },
+      { title: 'Scarlet and Black', author: 'Stendhal', year: 1830, note: 'Alternative translation title — some readers prefer the older Penguin translation by Margaret Shaw; the Oxford World\'s Classics translation by Roger Gard is also highly regarded' },
+    ],
+    faq: [
+      { q: 'What order should I read Stendhal in?', a: 'Start with The Red and the Black — it is Stendhal\'s masterpiece and the work that establishes the psychological techniques he uses throughout his fiction. Then read The Charterhouse of Parma, which takes the same concerns into a grander, more epic register with a completely different social class and setting.' },
+      { q: 'Is The Red and the Black hard to read?', a: 'The Red and the Black is demanding in the sense that it asks you to follow extremely precise psychological analysis of a character who is often acting at multiple levels at once — being sincere, performing sincerity, and calculating the effect of his performance simultaneously. Modern readers often find Julien\'s psychology surprisingly recognizable.' },
+      { q: 'What is The Red and the Black about?', a: 'The Red and the Black follows Julien Sorel, the son of a carpenter in a provincial French town, as he attempts to rise through post-Napoleonic French society through intelligence, ambition, and the seduction of women above his class. The novel is equally a psychological portrait of its protagonist and a satirical anatomy of the restored Bourbon monarchy.' },
+    ],
+  },
+  {
+    slug: 'pere-goriot',
+    intro: "Balzac's Père Goriot (1835) is the central novel of the Comédie Humaine — the work that introduces Rastignac, the young provincial who arrives in Paris to make his fortune, and that dramatizes most clearly Balzac's vision of Paris as a battlefield where money and social position are won by whatever means necessary. The novel's central figure is Father Goriot, a retired pasta manufacturer who has sacrificed everything for his two daughters, who now ignore him as he dies in a boarding house. Balzac's genius was to see that money had replaced blood as the organizing principle of modern society, and to show this with the analytical precision of a scientist and the emotional force of a poet.",
+    startWith: "Père Goriot",
+    books: [
+      { title: 'Père Goriot', author: 'Honoré de Balzac', year: 1835, note: 'The entry point to the Comédie Humaine and Balzac\'s most concentrated portrait of Parisian society — Rastignac\'s education and Goriot\'s sacrifice' },
+      { title: 'Lost Illusions', author: 'Honoré de Balzac', year: 1843, note: 'The most ambitious of the Comédie Humaine novels — Lucien de Rubempré\'s attempt to make his literary fortune in Paris; the direct sequel to Père Goriot in following the fate of a young provincial in the capital' },
+      { title: 'Cousin Bette', author: 'Honoré de Balzac', year: 1846, note: "Balzac's late masterpiece and one of the greatest novels of obsession in French literature — the story of an older woman's revenge against her glamorous cousin; for readers who want the darkest Balzac" },
+      { title: 'Eugénie Grandet', author: 'Honoré de Balzac', year: 1833, note: "Written just before Père Goriot and organized around the same obsession with money — the story of a provincial miser's daughter trapped by her father's avarice; a good companion to Père Goriot's Paris novel from the provincial side" },
+    ],
+    faq: [
+      { q: 'What order should I read Balzac in?', a: 'Start with Père Goriot — it is both self-contained and the best introduction to Balzac\'s world, his method, and his recurring characters (especially Rastignac and Vautrin, who appear across the Comédie Humaine). Then follow with Lost Illusions and Cousin Bette.' },
+      { q: 'Do I need to read the Comédie Humaine in order?', a: 'The novels of the Comédie Humaine are loosely connected through recurring characters (Rastignac, Vautrin, Bianchon, Nucingen) but are designed to be read independently. Père Goriot is the natural entry point because it introduces more of the recurring characters than any other single novel.' },
+      { q: 'What is Père Goriot about?', a: 'Père Goriot tells the parallel stories of Rastignac, a young law student from the provinces who has come to Paris to make his fortune, and Father Goriot, a retired pasta manufacturer whose obsessive love for his daughters has reduced him to poverty. The novel is both a portrait of Parisian society and a meditation on the destructiveness of parental love.' },
+    ],
+  },
+  {
+    slug: 'germinal',
+    intro: "Zola's Germinal (1885) is the great novel of industrial labor — the story of Étienne Lantier's arrival at the Voreux coal mine in northern France, his radicalization by the conditions he finds, and his role in leading the miners' disastrous strike. The novel is the thirteenth in Zola's twenty-novel Rougon-Macquart cycle about a family under the Second Empire, but reads entirely independently as a self-contained epic about class conflict, labor organization, and the structural violence of capitalism. Zola spent months in the mining communities of northern France before writing the novel, and his research gives Germinal the density and specificity that makes it both a great realistic novel and a great political one.",
+    startWith: "Germinal",
+    books: [
+      { title: 'Germinal', author: 'Émile Zola', year: 1885, note: 'The summit of the Rougon-Macquart cycle and the great labor novel — Étienne Lantier\'s radicalization and the Voreux miners\' strike; entirely self-contained' },
+      { title: 'L\'Assommoir', author: 'Émile Zola', year: 1877, note: "Zola's novel about working-class alcoholism in Paris — the story of the laundress Gervaise Macquart, Étienne's mother; more domestic in focus than Germinal but equally powerful in its portrait of poverty's destruction" },
+      { title: 'Nana', author: 'Émile Zola', year: 1880, note: "The story of Gervaise's daughter Nana, who becomes a courtesan and destroys the men who pursue her — Zola's portrait of the sexual economy of the Second Empire and the most scandalous of his novels on its publication" },
+      { title: 'The Beast in Man', author: 'Émile Zola', year: 1890, note: 'The railway novel of the Rougon-Macquart cycle — Jacques Lantier (Étienne\'s cousin) and his murderous impulses; recommended after Germinal for readers who want to follow the Lantier family thread through the cycle' },
+    ],
+    faq: [
+      { q: 'Do I need to read the Rougon-Macquart novels in order?', a: 'No — Germinal is entirely self-contained and designed to be read without knowledge of the other novels in the cycle. Zola wrote each novel to stand alone while also contributing to the larger family saga. Germinal is the best starting point for most readers.' },
+      { q: 'Is Germinal as depressing as people say?', a: 'Germinal is relentless in its portrait of poverty and exploitation, and the strike ends in catastrophe. But it is not nihilistic — the novel\'s title is the name of the month in the French Revolutionary calendar associated with spring, and its final pages suggest that the seeds of revolt sown by the strike will eventually bear fruit.' },
+      { q: 'What is Germinal about?', a: "Germinal follows Étienne Lantier, a young mechanic who arrives at the Voreux coal mine looking for work. Appalled by the conditions the miners live under, he becomes radicalized by contact with socialist ideas and leads them in a strike that ends in violence and defeat. The novel portrays the entire mining community — miners, bourgeoisie, and mine owners — with equal force." },
+    ],
+  },
+  {
+    slug: 'the-fall',
+    intro: "Camus's The Fall (1956) is his most formally audacious work — a monologue delivered by Jean-Baptiste Clamence, a former Parisian lawyer who has retreated to Amsterdam to practice as a 'judge-penitent.' Over a series of evenings in a waterfront bar called the Mexico City, Clamence tells an unnamed companion the story of his fall from the life of a successful, generous humanitarian to his current existence as someone who confesses his sins as a way of inducing others to confess theirs. The Fall is Camus's most nihilistic novel and his most savage self-examination — a work that seems designed to make everyone who reads it feel implicated in Clamence's sophisticated dishonesty.",
+    startWith: "The Fall",
+    books: [
+      { title: 'The Fall', author: 'Albert Camus', year: 1956, note: "Camus's final novel — the monologue of Jean-Baptiste Clamence in Amsterdam; the most psychologically complex of his works and a devastating examination of bad faith" },
+      { title: 'The Stranger', author: 'Albert Camus', year: 1942, note: "Camus's first novel and the essential introduction to his thought — Meursault's detachment and his trial; read The Stranger before The Fall to understand what Camus meant by authenticity and what its failure looks like" },
+      { title: 'The Plague', author: 'Albert Camus', year: 1947, note: "The companion novel organized around solidarity rather than individual consciousness — Dr. Rieux and the Oran plague; the contrast between The Plague's collective engagement and The Fall's individual bad faith shows the range of Camus's moral imagination" },
+      { title: 'The Myth of Sisyphus', author: 'Albert Camus', year: 1942, note: 'The philosophical essay that provides the framework for all of Camus\'s fiction — the question of the absurd and how to live in its face; reading this after The Stranger and before The Fall gives the philosophical structure that connects his work' },
+    ],
+    faq: [
+      { q: 'What order should I read Camus in?', a: 'Start with The Stranger for the most accessible entry into Camus\'s world and The Myth of Sisyphus for the philosophy behind it. Then The Plague for the moral development from individual to collective consciousness. The Fall comes last — it is Camus\'s most demanding and most personal work, and it is richest when read knowing the others.' },
+      { q: 'Is The Fall a novel or a philosophical essay?', a: 'The Fall is technically a novel — it has a narrator, a setting, and a dramatic situation — but it operates at the boundary between fiction and essay more than any of Camus\'s other novels. The monologue form allows Clamence to make extended philosophical arguments while remaining a fully realized character.' },
+      { q: 'What is The Fall about?', a: "The Fall is narrated by Jean-Baptiste Clamence, a former successful Parisian lawyer who has abandoned his career and moved to Amsterdam, where he now works as a 'judge-penitent' — someone who confesses his sins as a way of inducing others to confess theirs. The novel reveals the incident that destroyed his self-image: he failed to save a woman who jumped from a bridge, and then walked on." },
+    ],
+  },
+  {
+    slug: 'sentimental-education',
+    intro: "Flaubert's Sentimental Education (1869) is the anti-novel of the nineteenth century — the story of Frédéric Moreau's failure to become anything in particular, told with a precision and an irony so devastating that the novel was not recognized as a masterpiece for decades after its publication. Where Stendhal's Julien Sorel is all ambition and action, Flaubert's Frédéric drifts through the same Parisian landscape of social ambition, revolutionary politics, and romantic obsession, accomplishing nothing. The novel covers the period from 1840 to 1868, encompassing the revolutions of 1848 and the rise of Napoleon III, but treats history with the same irony it treats Frédéric — as a spectacle of collective illusion no more substantial than his private ones.",
+    startWith: "Sentimental Education",
+    books: [
+      { title: 'Sentimental Education', author: 'Gustave Flaubert', year: 1869, note: "Flaubert's masterpiece of ironic realism — Frédéric Moreau's passive journey through revolutionary Paris; the hardest and greatest of the French realist novels" },
+      { title: 'Madame Bovary', author: 'Gustave Flaubert', year: 1857, note: "Flaubert's first great novel — Emma Bovary's romantic self-destruction in provincial Normandy; the better entry point to Flaubert for most readers, and the essential context for understanding what Sentimental Education is doing with the same romantic illusions from a masculine perspective" },
+      { title: 'Bouvard and Pécuchet', author: 'Gustave Flaubert', year: 1881, note: "Flaubert's unfinished final novel — two copy-clerks who retire to the country and attempt to master every branch of human knowledge, failing systematically at each; the logical endpoint of the ironic vision developed in Sentimental Education" },
+      { title: 'Three Tales', author: 'Gustave Flaubert', year: 1877, note: "Flaubert's only short fiction — three stories in very different registers; 'A Simple Heart' is one of the most perfect things in French literature and a useful corrective to the coldness readers sometimes find in the novels" },
+    ],
+    faq: [
+      { q: 'Should I read Madame Bovary before Sentimental Education?', a: 'Yes — Madame Bovary is the better entry point to Flaubert and provides the essential context for what Sentimental Education is doing. Emma Bovary and Frédéric Moreau are related by their romantic self-deception, but where Emma\'s illusions destroy her, Frédéric\'s simply dissipate, leaving him in a kind of permanent comfortable mediocrity.' },
+      { q: 'Why is Sentimental Education considered a masterpiece?', a: "Sentimental Education was not immediately recognized as a masterpiece — it was a critical failure on publication. Its reputation grew slowly as readers came to appreciate what Flaubert was doing: creating a protagonist who genuinely accomplishes nothing, with an irony so comprehensive it finally encompasses the reader who was expecting a more conventional hero's journey." },
+      { q: 'What is Sentimental Education about?', a: "Sentimental Education follows Frédéric Moreau from his arrival in Paris as a law student to his middle age. He falls in love with a married woman, Madame Arnoux, whom he pursues without success for decades while also becoming involved with other women, accumulating and losing money, and drifting through the revolutions of 1848 as a spectator rather than a participant." },
+    ],
+  },
+  {
     slug: 'a-burnt-out-case',
     intro: "Graham Greene's A Burnt-Out Case (1960) is his most existentially desolate novel — the story of Querry, a world-famous Catholic architect who has lost his faith in God, art, and human connection, and retreats to a remote Congo leper colony in search of nothing. The novel takes its title from the medical term for a leper whose disease has burned itself out, leaving the patient without hands or feet but no longer infectious — Greene's metaphor for the spiritual condition of a man who has exhausted all belief. Written in the year Greene left his wife and at a moment of profound personal crisis, A Burnt-Out Case is his most nakedly autobiographical novel.",
     startWith: "The Power and the Glory",

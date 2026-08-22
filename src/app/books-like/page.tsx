@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Red and the Black Stendhal Julien Sorel ambition',
+    'books like Père Goriot Balzac Rastignac Comédie Humaine Paris',
+    'books like Germinal Zola miners strike labor novel',
+    'books like The Fall Camus judge-penitent Amsterdam monologue',
+    'books like Sentimental Education Flaubert Frédéric Moreau Paris',
     'books like A Burnt-Out Case Graham Greene Congo leper colony',
     'books like The Comedians Graham Greene Haiti Duvalier',
     'books like Travels with My Aunt Graham Greene comic picaresque',
@@ -2375,6 +2380,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Red and the Black by Stendhal?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Red and the Black include The Charterhouse of Parma by Stendhal, Père Goriot by Balzac, Great Expectations by Dickens, The Sorrows of Young Werther by Goethe, Lost Illusions by Balzac, Vanity Fair by Thackeray, The Ambassadors by Henry James, and Nausea by Sartre. Our full guide covers 8 picks for fans of Stendhal's novel of ambition." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Père Goriot by Honoré de Balzac?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Père Goriot include Lost Illusions and Cousin Bette by Balzac, The Red and the Black by Stendhal, Vanity Fair by Thackeray, Great Expectations by Dickens, The Way We Live Now by Trollope, Germinal by Zola, and Sentimental Education by Flaubert. Our full guide covers 8 picks for fans of Balzac's Comédie Humaine Paris novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Germinal by Émile Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Germinal include L'Assommoir by Zola, The Jungle by Upton Sinclair, Hard Times by Dickens, North and South by Elizabeth Gaskell, The Grapes of Wrath by Steinbeck, Père Goriot by Balzac, The Road to Wigan Pier by Orwell, and How the Other Half Lives by Jacob Riis. Our full guide covers 8 picks for fans of Zola's miners' strike labor novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Fall by Albert Camus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Fall include The Stranger and The Plague by Camus, Notes from Underground by Dostoevsky, Nausea by Sartre, The Remains of the Day by Ishiguro, Lolita by Nabokov, A Burnt-Out Case by Greene, and The Myth of Sisyphus by Camus. Our full guide covers 8 picks for fans of Camus's judge-penitent Amsterdam monologue." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sentimental Education by Gustave Flaubert?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sentimental Education include Madame Bovary by Flaubert, The Red and the Black by Stendhal, Père Goriot by Balzac, In Search of Lost Time by Proust, The Ambassadors by Henry James, Buddenbrooks by Thomas Mann, A Portrait of the Artist as a Young Man by Joyce, and Nausea by Sartre. Our full guide covers 8 picks for fans of Flaubert's ironic anti-bildungsroman." },
     },
     {
       '@type': 'Question',
