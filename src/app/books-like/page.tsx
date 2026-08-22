@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like How to Win Friends and Influence People Dale Carnegie',
+    'books like The 7 Habits of Highly Effective People Stephen Covey',
+    'books like Think and Grow Rich Napoleon Hill',
+    'books like Rich Dad Poor Dad Robert Kiyosaki',
+    'books like The 4-Hour Workweek Timothy Ferriss',
     'books like The Art of War Sun Tzu',
     'books like Influence Robert Cialdini',
     'books like Never Split the Difference Chris Voss',
@@ -2265,6 +2270,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked How to Win Friends and Influence People by Dale Carnegie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like How to Win Friends and Influence People include Influence by Robert Cialdini, Never Split the Difference by Chris Voss, Emotional Intelligence by Daniel Goleman, Crucial Conversations by Kerry Patterson, The Charisma Myth by Olivia Fox Cabane, and The 7 Habits of Highly Effective People by Stephen Covey. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The 7 Habits of Highly Effective People by Stephen Covey?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The 7 Habits of Highly Effective People include How to Win Friends by Dale Carnegie, First Things First by Covey, Good to Great by Jim Collins, Essentialism by Greg McKeown, Deep Work by Cal Newport, Atomic Habits by James Clear, and The Power of Full Engagement by Jim Loehr. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Think and Grow Rich by Napoleon Hill?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Think and Grow Rich include How to Win Friends by Carnegie, The 7 Habits by Covey, Psycho-Cybernetics by Maxwell Maltz, Mindset by Carol Dweck, As a Man Thinketh by James Allen, The Science of Getting Rich by Wallace Wattles, and Outwitting the Devil by Napoleon Hill. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Rich Dad Poor Dad by Robert Kiyosaki?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Rich Dad Poor Dad include The Millionaire Next Door by Thomas Stanley, The Intelligent Investor by Benjamin Graham, I Will Teach You to Be Rich by Ramit Sethi, The Psychology of Money by Morgan Housel, Your Money or Your Life by Vicki Robin, and The Simple Path to Wealth by JL Collins. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The 4-Hour Workweek by Timothy Ferriss?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The 4-Hour Workweek include Deep Work by Cal Newport, Company of One by Paul Jarvis, Vagabonding by Rolf Potts, $100 Startup by Chris Guillebeau, Essentialism by Greg McKeown, The E-Myth Revisited by Michael Gerber, and Digital Minimalism by Cal Newport. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
