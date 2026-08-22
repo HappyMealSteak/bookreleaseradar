@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like How the García Girls Lost Their Accents Julia Alvarez',
+    'books like Bastard Out of Carolina Dorothy Allison',
+    'books like The Farming of Bones Edwidge Danticat',
+    'books like Krik Krak Edwidge Danticat',
+    'books like The Woman Warrior Maxine Hong Kingston',
     'books like Salvage the Bones Jesmyn Ward',
     'books like The Brief Wondrous Life of Oscar Wao Junot Díaz',
     'books like In the Time of the Butterflies Julia Alvarez',
@@ -2115,6 +2120,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked How the García Girls Lost Their Accents by Julia Alvarez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like How the García Girls Lost Their Accents include In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Joy Luck Club by Amy Tan, Breath Eyes Memory by Edwidge Danticat, Americanah by Chimamanda Ngozi Adichie, and The House on Mango Street by Sandra Cisneros. Our full guide covers 8 picks for fans of Alvarez's Dominican-American family novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bastard Out of Carolina by Dorothy Allison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bastard Out of Carolina include A Little Life by Hanya Yanagihara, Salvage the Bones by Jesmyn Ward, The Glass Castle by Jeannette Walls, Their Eyes Were Watching God by Zora Neale Hurston, Where the Crawdads Sing by Delia Owens, and Educated by Tara Westover. Our full guide covers 8 picks for fans of Allison's Southern poverty novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Farming of Bones by Edwidge Danticat?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Farming of Bones include The Dew Breaker by Edwidge Danticat, Breath Eyes Memory by Edwidge Danticat, In the Time of the Butterflies by Julia Alvarez, Things Fall Apart by Chinua Achebe, Homegoing by Yaa Gyasi, and Night by Elie Wiesel. Our full guide covers 8 picks for fans of Danticat's novel about the 1937 Parsley Massacre." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Krik Krak by Edwidge Danticat?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Krik? Krak! include Breath Eyes Memory by Edwidge Danticat, The Dew Breaker by Edwidge Danticat, Their Eyes Were Watching God by Zora Neale Hurston, The Woman Warrior by Maxine Hong Kingston, Interpreter of Maladies by Jhumpa Lahiri, and Drinking Coffee Elsewhere by ZZ Packer. Our full guide covers 8 picks for fans of Danticat's Haitian story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Woman Warrior by Maxine Hong Kingston?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woman Warrior include China Men by Maxine Hong Kingston, The Joy Luck Club by Amy Tan, Breath Eyes Memory by Edwidge Danticat, How the García Girls Lost Their Accents by Julia Alvarez, Pachinko by Min Jin Lee, and I Know Why the Caged Bird Sings by Maya Angelou. Our full guide covers 8 picks for fans of Kingston's Chinese-American memoir." },
     },
     {
       '@type': 'Question',
