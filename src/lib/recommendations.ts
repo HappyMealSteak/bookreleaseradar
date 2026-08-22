@@ -1031,6 +1031,29 @@ export const RECOMMENDATIONS: BooksLikeEntry[] = [
       { title: 'Selection', author: 'Kiera Cass', why: "America Singer enters a competition to become the prince's bride — a dystopia built around a televised romance competition with strict caste rules. Lighter than Red Queen but appeals to the same readers who love political courts.", genre: 'romance' },
     ],
   },
+  {
+    slug: 'legend',
+    sourceTitle: 'Legend',
+    sourceShortName: 'Legend',
+    tagline: 'Class war, dual POVs, and a revolution you never saw coming',
+    description: "Marie Lu's Legend series opens with two teenagers: Day, the most wanted criminal in the Republic, and June, its most brilliant military prodigy — both unwitting pieces of the same corrupt machine. When June is sent to hunt Day, what she finds changes everything. The alternating dual-POV structure, the electric relationship between Day and June, and the systemic injustice of the Republic are what these eight picks capture.",
+    keywords: [
+      'books like Legend Marie Lu',
+      'YA dystopia dual POV books',
+      'books like Marie Lu',
+      'books with two POV characters YA',
+    ],
+    recommendations: [
+      { title: 'The Hunger Games', author: 'Suzanne Collins', why: "A teenage girl from the underclass becomes the face of a rebellion she didn't choose. The Hunger Games shares Legend's class-war fury and the pressure of being used as a symbol — the closest companion to June and Day's story.", genre: 'fiction' },
+      { title: 'Divergent', author: 'Veronica Roth', why: "A girl who doesn't fit the system her society is built on discovers the system is built to break people. Tris and June share the same drive, and the Dauntless/faction system has the same false structure as the Republic's class divisions.", genre: 'fiction' },
+      { title: 'Red Queen', author: 'Victoria Aveyard', why: "Mare Barrow is Red in a Silver world — and discovers powers that break the rules. Aveyard's class divisions and court betrayals feel like Legend scaled up, and the twist in Book 1 hits just as hard.", genre: 'fiction' },
+      { title: 'Warcross', author: 'Marie Lu', why: "Marie Lu's own follow-up — a hacker gets recruited into a mega-corporation's esports league and discovers a conspiracy. If you loved Legend's dual-cat-and-mouse energy, Lu's techno-thriller has the same momentum with a fresh setting.", genre: 'sci-fi' },
+      { title: 'An Ember in the Ashes', author: 'Sabaa Tahir', why: "A Scholar girl goes undercover in a military school to save her brother — and the Mask who trains her is not what she expected. Tahir's dual-POV structure mirrors Legend almost exactly, and the romance is just as forbidden.", genre: 'fantasy' },
+      { title: 'Throne of Glass', author: 'Sarah J. Maas', why: "An assassin is freed from slavery to compete for the king who enslaved her — and discovers a darker conspiracy beneath the competition. Celaena Sardothien has June's precision and Day's survival instinct, rolled into one very dangerous girl.", genre: 'fantasy' },
+      { title: 'Unwind', author: 'Neal Shusterman', why: "Teenagers hunted by the system they were born into — told in tight alternating perspectives that build toward a shared reckoning. Shusterman's moral complexity and pacing feel closest to Lu's structural approach in Legend.", genre: 'sci-fi' },
+      { title: 'Scythe', author: 'Neal Shusterman', why: "Two teens are trained to become the arbiters of death in a world where disease has been conquered. The system-as-oppressor and the two protagonists discovering what it really means are the same Legend ingredients with Shusterman's sharper philosophical edge.", genre: 'sci-fi' },
+    ],
+  },
 ];
 
 export function getBooksLike(slug: string): BooksLikeEntry | undefined {

@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     'books like Vampire Academy',
     'books like Maze Runner',
     'books like Red Queen',
+    'books like Legend Marie Lu',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -130,6 +131,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What books are similar to Red Queen?',
       acceptedAnswer: { '@type': 'Answer', text: 'Books like Red Queen include An Ember in the Ashes by Sabaa Tahir, Shadow and Bone by Leigh Bardugo, The Hunger Games by Suzanne Collins, Three Dark Crowns by Kendare Blake, and Shatter Me by Tahereh Mafi. Our full Red Queen guide has 8 picks for fans of class war and court intrigue.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Legend by Marie Lu?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Legend by Marie Lu include The Hunger Games by Suzanne Collins, Red Queen by Victoria Aveyard, Divergent by Veronica Roth, An Ember in the Ashes by Sabaa Tahir, and Warcross by Marie Lu herself. Our full Legend guide covers 8 picks for fans of dual-POV YA dystopia.' },
     },
   ],
 };
