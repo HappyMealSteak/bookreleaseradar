@@ -8,7 +8,7 @@ export const revalidate = 2592000;
 export const metadata: Metadata = {
   title: 'Books Like… — Reading Recommendations | BookReleaseRadar',
   description:
-    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
+    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, Dune, Divergent, Eragon, Vampire Academy, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
   keywords: [
     'books like ACOTAR',
     'books like Fourth Wing',
@@ -37,7 +37,13 @@ export const metadata: Metadata = {
     'books like Twilight',
     "books like The Handmaid's Tale",
     'paranormal romance like Twilight',
+    'books like Dune',
+    'books like Divergent',
+    'books like Eragon',
+    'books like Vampire Academy',
     'feminist dystopia books',
+    'dragon fantasy books',
+    'YA dystopia books',
     'reading recommendations',
     'what to read next',
     'book recommendations fantasy romance',
@@ -96,6 +102,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: "What should I read if I liked The Handmaid's Tale?",
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Handmaid's Tale include The Testaments by Margaret Atwood (the sequel), Vox by Christina Dalcher, The Power by Naomi Alderman, Parable of the Sower by Octavia Butler, and Mexican Gothic by Silvia Moreno-Garcia. Our full guide covers 8 feminist dystopia and literary fiction picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dune?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Dune include A Memory Called Empire by Arkady Martine, Hyperion by Dan Simmons, Foundation by Isaac Asimov, and The Left Hand of Darkness by Ursula K. Le Guin. Our full Dune guide covers 8 picks for fans of political intrigue, ecology, and epic world-building.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What books are similar to Divergent?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Divergent include The Hunger Games by Suzanne Collins, The Maze Runner by James Dashner, Legend by Marie Lu, Red Queen by Victoria Aveyard, and Scythe by Neal Shusterman. Our full Divergent guide has 8 YA dystopia picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Eragon?',
+      acceptedAnswer: { '@type': 'Answer', text: 'After Eragon, fans love Fourth Wing by Rebecca Yarros, Temeraire by Naomi Novik, The Name of the Wind by Patrick Rothfuss, and The Stormlight Archive by Brandon Sanderson. Our full Eragon guide covers 8 dragon fantasy picks.' },
     },
   ],
 };
