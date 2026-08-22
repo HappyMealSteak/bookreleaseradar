@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like East of Eden John Steinbeck',
+    'books like For Whom the Bell Tolls Hemingway',
+    'books like Waiting for Godot Samuel Beckett',
+    'books like A Tale of Two Cities Charles Dickens',
+    "books like Tess of the d'Urbervilles Thomas Hardy",
     'books like The Book of Night Women Marlon James',
     'books like Cold Comfort Farm Stella Gibbons',
     'books like The Nickel Boys Colson Whitehead',
@@ -2305,6 +2310,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked East of Eden by John Steinbeck?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like East of Eden include The Grapes of Wrath by Steinbeck, One Hundred Years of Solitude by García Márquez, Lonesome Dove by Larry McMurtry, Cannery Row by Steinbeck, A Thousand Splendid Suns by Hosseini, The Pillars of the Earth by Follett, and Giants in the Earth by Rølvaag. Our full guide covers 8 multigenerational epic picks for Steinbeck fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked For Whom the Bell Tolls by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like For Whom the Bell Tolls include A Farewell to Arms by Hemingway, The Sun Also Rises by Hemingway, Homage to Catalonia by George Orwell, All Quiet on the Western Front by Remarque, The Things They Carried by Tim O'Brien, Catch-22 by Joseph Heller, and The Old Man and the Sea by Hemingway. Our full guide covers 8 war literature picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Waiting for Godot by Samuel Beckett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Waiting for Godot include Endgame by Beckett, The Stranger by Albert Camus, The Bald Soprano by Ionesco, Rosencrantz and Guildenstern Are Dead by Tom Stoppard, The Trial by Kafka, Nausea by Sartre, and The Metamorphosis by Kafka. Our full guide covers 8 absurdist and existentialist picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Tale of Two Cities by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Tale of Two Cities include Great Expectations by Dickens, Bleak House by Dickens, Les Misérables by Victor Hugo, The Scarlet Pimpernel by Baroness Orczy, Wolf Hall by Hilary Mantel, The Count of Monte Cristo by Dumas, and David Copperfield by Dickens. Our full guide covers 8 historical fiction picks for Dickens fans." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Tess of the d'Urbervilles by Thomas Hardy?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tess of the d'Urbervilles include Jude the Obscure by Hardy, Far from the Madding Crowd by Hardy, Anna Karenina by Tolstoy, The Mill on the Floss by George Eliot, The Tenant of Wildfell Hall by Anne Brontë, The Awakening by Kate Chopin, and Middlemarch by George Eliot. Our full guide covers 8 picks for Hardy fans." },
     },
     {
       '@type': 'Question',
