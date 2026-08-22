@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Go Down Moses William Faulkner McCaslin family',
+    'books like The Known World Edward P. Jones Black slaveholder',
+    'books like All the Pretty Horses Cormac McCarthy Border Trilogy',
+    'books like Winesburg Ohio Sherwood Anderson modernist stories',
+    'books like My Antonia Willa Cather immigrant prairie Nebraska',
     'books like This Side of Paradise F. Scott Fitzgerald debut',
     'books like The Beautiful and Damned F. Scott Fitzgerald',
     'books like Absalom Absalom William Faulkner Southern Gothic',
@@ -2340,6 +2345,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Go Down, Moses by William Faulkner?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Go Down, Moses include Beloved by Toni Morrison, Absalom, Absalom! by Faulkner, The Known World by Edward P. Jones, The Underground Railroad by Colson Whitehead, Song of Solomon by Morrison, and Kindred by Octavia Butler. Our full guide covers 8 picks exploring slavery's legacy and Southern history." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Known World by Edward P. Jones?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Known World include Beloved by Toni Morrison, Go Down Moses by Faulkner, The Underground Railroad by Colson Whitehead, Kindred by Octavia Butler, Song of Solomon by Morrison, and Absalom Absalom! by Faulkner. Our full guide covers 8 picks exploring antebellum American history." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked All the Pretty Horses by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like All the Pretty Horses include The Crossing and No Country for Old Men by McCarthy, The Road by McCarthy, Lonesome Dove by Larry McMurtry, True Grit by Charles Portis, and Blood Meridian by McCarthy. Our full guide covers 8 picks for fans of McCarthy's Border Trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Winesburg, Ohio by Sherwood Anderson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Winesburg, Ohio include In Our Time by Hemingway, Dubliners by James Joyce, Spoon River Anthology by Edgar Lee Masters, Cathedral by Raymond Carver, Olive Kitteridge by Elizabeth Strout, and Lives of Girls and Women by Alice Munro. Our full guide covers 8 picks for American modernist linked-story fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Antonia by Willa Cather?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Antonia include O Pioneers! and Death Comes for the Archbishop by Cather, Giants in the Earth by Ole Edvart Rølvaag, The Grapes of Wrath by Steinbeck, Gilead by Marilynne Robinson, and The Song of the Lark by Cather. Our full guide covers 8 picks for fans of Cather's prairie novels." },
     },
     {
       '@type': 'Question',
