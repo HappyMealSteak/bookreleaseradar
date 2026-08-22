@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like Persepolis Marjane Satrapi',
+    'books like Love Medicine Louise Erdrich',
+    'books like No-No Boy John Okada',
+    'books like Woman Hollering Creek Sandra Cisneros',
+    'books like Bless Me Ultima Rudolfo Anaya',
     'books like The House on Mango Street Sandra Cisneros',
     'books like When the Emperor Was Divine Julie Otsuka',
     'books like Interpreter of Maladies Jhumpa Lahiri',
@@ -2125,6 +2130,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Persepolis by Marjane Satrapi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Persepolis include Maus by Art Spiegelman, In the Time of the Butterflies by Julia Alvarez, Reading Lolita in Tehran by Azar Nafisi, Fun Home by Alison Bechdel, The Kite Runner by Khaled Hosseini, and A Thousand Splendid Suns by Khaled Hosseini. Our full guide covers 8 picks for fans of Satrapi's Iranian Revolution graphic memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Love Medicine by Louise Erdrich?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Love Medicine include The Round House by Louise Erdrich, Tracks by Louise Erdrich, Ceremony by Leslie Marmon Silko, House Made of Dawn by N. Scott Momaday, The Plague of Doves by Louise Erdrich, and There There by Tommy Orange. Our full guide covers 8 picks for fans of Erdrich's Ojibwe reservation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked No-No Boy by John Okada?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like No-No Boy include When the Emperor Was Divine by Julie Otsuka, The Woman Warrior by Maxine Hong Kingston, Farewell to Manzanar by Jeanne Wakatsuki Houston, Pachinko by Min Jin Lee, and The Sympathizer by Viet Thanh Nguyen. Our full guide covers 8 picks for fans of Okada's Japanese-American internment classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Woman Hollering Creek by Sandra Cisneros?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Woman Hollering Creek include The House on Mango Street by Sandra Cisneros, How the García Girls Lost Their Accents by Julia Alvarez, Bless Me Ultima by Rudolfo Anaya, The Brief Wondrous Life of Oscar Wao by Junot Díaz, and Bastard Out of Carolina by Dorothy Allison. Our full guide covers 8 picks for fans of Cisneros's Chicana border stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bless Me Ultima by Rudolfo Anaya?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bless Me Ultima include The House on Mango Street by Sandra Cisneros, Ceremony by Leslie Marmon Silko, Love Medicine by Louise Erdrich, One Hundred Years of Solitude by Gabriel García Márquez, Like Water for Chocolate by Laura Esquivel, and The Alchemist by Paulo Coelho. Our full guide covers 8 picks for fans of Anaya's Chicano spiritual coming-of-age novel." },
     },
     {
       '@type': 'Question',
