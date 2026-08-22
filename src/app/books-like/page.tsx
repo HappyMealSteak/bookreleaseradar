@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like The House on Mango Street Sandra Cisneros',
+    'books like When the Emperor Was Divine Julie Otsuka',
+    'books like Interpreter of Maladies Jhumpa Lahiri',
+    'books like Drinking Coffee Elsewhere ZZ Packer',
+    'books like Push Sapphire',
     'books like How the García Girls Lost Their Accents Julia Alvarez',
     'books like Bastard Out of Carolina Dorothy Allison',
     'books like The Farming of Bones Edwidge Danticat',
@@ -2120,6 +2125,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The House on Mango Street by Sandra Cisneros?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House on Mango Street include How the García Girls Lost Their Accents by Julia Alvarez, Woman Hollering Creek by Sandra Cisneros, Their Eyes Were Watching God by Zora Neale Hurston, Bless Me Ultima by Rudolfo Anaya, The Brief Wondrous Life of Oscar Wao by Junot Díaz, and Love Medicine by Louise Erdrich. Our full guide covers 8 picks for fans of Cisneros's Chicana classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked When the Emperor Was Divine by Julie Otsuka?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like When the Emperor Was Divine include The Buddha in the Attic by Julie Otsuka, The Woman Warrior by Maxine Hong Kingston, No-No Boy by John Okada, Maus by Art Spiegelman, Pachinko by Min Jin Lee, and The Joy Luck Club by Amy Tan. Our full guide covers 8 picks for fans of Otsuka's Japanese-American internment novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Interpreter of Maladies by Jhumpa Lahiri?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Interpreter of Maladies include The Namesake by Jhumpa Lahiri, Unaccustomed Earth by Jhumpa Lahiri, Krik? Krak! by Edwidge Danticat, Drinking Coffee Elsewhere by ZZ Packer, The God of Small Things by Arundhati Roy, and White Teeth by Zadie Smith. Our full guide covers 8 picks for fans of Lahiri's Pulitzer Prize-winning story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Drinking Coffee Elsewhere by ZZ Packer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Drinking Coffee Elsewhere include Interpreter of Maladies by Jhumpa Lahiri, Their Eyes Were Watching God by Zora Neale Hurston, Beloved by Toni Morrison, Push by Sapphire, Homegoing by Yaa Gyasi, and Giovanni's Room by James Baldwin. Our full guide covers 8 picks for fans of Packer's debut story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Push by Sapphire?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Push include Bastard Out of Carolina by Dorothy Allison, A Little Life by Hanya Yanagihara, The Bluest Eye by Toni Morrison, Their Eyes Were Watching God by Zora Neale Hurston, Salvage the Bones by Jesmyn Ward, and Kindred by Octavia Butler. Our full guide covers 8 picks for fans of Sapphire's debut novel about Precious Jones." },
     },
     {
       '@type': 'Question',
