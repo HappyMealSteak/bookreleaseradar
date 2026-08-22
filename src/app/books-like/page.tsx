@@ -375,6 +375,11 @@ export const metadata: Metadata = {
     'books like The Dew Breaker Edwidge Danticat',
     'books like Winter in the Blood James Welch',
     'books like The Absolutely True Diary of a Part-Time Indian Sherman Alexie',
+    'books like Moby Dick Herman Melville',
+    'books like Dracula Bram Stoker',
+    'books like Frankenstein Mary Shelley',
+    'books like Hamlet William Shakespeare',
+    'books like The Odyssey Homer',
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
@@ -2290,6 +2295,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Moby-Dick by Herman Melville?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Moby-Dick include The Old Man and the Sea by Ernest Hemingway, Blood Meridian by Cormac McCarthy, Life of Pi by Yann Martel, In the Heart of the Sea by Nathaniel Philbrick, Gilead by Marilynne Robinson, The Sea-Wolf by Jack London, and The Road by Cormac McCarthy. Our full guide covers 8 philosophical adventure picks for fans of Melville's great American novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dracula by Bram Stoker?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dracula include Interview with the Vampire by Anne Rice, The Historian by Elizabeth Kostova, Salem's Lot by Stephen King, Frankenstein by Mary Shelley, The Strange Case of Dr Jekyll and Mr Hyde by Stevenson, Carmilla by J. Sheridan Le Fanu, and The Picture of Dorian Gray by Oscar Wilde. Our full guide covers 8 Gothic horror picks for fans of Stoker's vampire novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Frankenstein by Mary Shelley?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Frankenstein include Dracula by Bram Stoker, Never Let Me Go by Kazuo Ishiguro, The Island of Doctor Moreau by H.G. Wells, Oryx and Crake by Margaret Atwood, The Strange Case of Dr Jekyll and Mr Hyde by Stevenson, Klara and the Sun by Kazuo Ishiguro, and The Handmaid's Tale by Margaret Atwood. Our full guide covers 8 Gothic science fiction picks for fans of Mary Shelley." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hamlet by William Shakespeare?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hamlet include Macbeth by Shakespeare, King Lear by Shakespeare, Rosencrantz and Guildenstern Are Dead by Tom Stoppard, Atonement by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, Crime and Punishment by Dostoevsky, and The Secret History by Donna Tartt. Our full guide covers 8 picks for fans of Shakespeare's tragedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Odyssey by Homer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Odyssey include The Iliad by Homer, Circe by Madeline Miller, The Song of Achilles by Madeline Miller, The Penelopiad by Margaret Atwood, The Aeneid by Virgil, Ulysses by James Joyce, East of Eden by John Steinbeck, and Lonesome Dove by Larry McMurtry. Our full guide covers 8 picks for fans of Homer's epic." },
     },
     {
       '@type': 'Question',
