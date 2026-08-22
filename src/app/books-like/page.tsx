@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like Salvage the Bones Jesmyn Ward',
+    'books like The Brief Wondrous Life of Oscar Wao Junot Díaz',
+    'books like In the Time of the Butterflies Julia Alvarez',
+    'books like Barracuda Christos Tsiolkas',
+    'books like Breath Eyes Memory Edwidge Danticat',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -2110,6 +2115,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Salvage the Bones by Jesmyn Ward?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Salvage the Bones include Sing Unburied Sing by Jesmyn Ward, Their Eyes Were Watching God by Zora Neale Hurston, Beloved by Toni Morrison, Where the Crawdads Sing by Delia Owens, The Underground Railroad by Colson Whitehead, and Bastard Out of Carolina by Dorothy Allison. Our full guide covers 8 picks for fans of Ward's National Book Award novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Brief Wondrous Life of Oscar Wao by Junot Díaz?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Brief Wondrous Life of Oscar Wao include Drown by Junot Díaz, In the Time of the Butterflies by Julia Alvarez, A Brief History of Seven Killings by Marlon James, How the García Girls Lost Their Accents by Julia Alvarez, and Americanah by Chimamanda Ngozi Adichie. Our full guide covers 8 picks for fans of Díaz's Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In the Time of the Butterflies by Julia Alvarez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In the Time of the Butterflies include The Brief Wondrous Life of Oscar Wao by Junot Díaz, How the García Girls Lost Their Accents by Julia Alvarez, A Brief History of Seven Killings by Marlon James, The Dew Breaker by Edwidge Danticat, The House of the Spirits by Isabel Allende, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of Alvarez's novel about the Mirabal sisters." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Barracuda by Christos Tsiolkas?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Barracuda include The Slap by Christos Tsiolkas, Cloudstreet by Tim Winton, Saturday by Ian McEwan, and Fever Pitch by Nick Hornby. Our full guide covers 8 picks for fans of Tsiolkas's Australian class novel about sport and failure." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Breath Eyes Memory by Edwidge Danticat?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Breath Eyes Memory include The Dew Breaker by Edwidge Danticat, Krik? Krak! by Edwidge Danticat, Homegoing by Yaa Gyasi, Sing Unburied Sing by Jesmyn Ward, The Woman Warrior by Maxine Hong Kingston, and The Joy Luck Club by Amy Tan. Our full guide covers 8 picks for fans of Danticat's debut novel." },
     },
   ],
 };
