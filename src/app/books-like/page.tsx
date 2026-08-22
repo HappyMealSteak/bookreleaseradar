@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Mexican Gothic Silvia Moreno-Garcia',
+    'books like The Glass Castle Jeannette Walls',
+    'books like Caste Isabel Wilkerson',
+    'books like Hillbilly Elegy J.D. Vance',
+    'books like Nickel and Dimed Barbara Ehrenreich',
     'books like We Have Always Lived in the Castle Shirley Jackson',
     'books like Educated Tara Westover',
     'books like The Warmth of Other Suns Isabel Wilkerson',
@@ -2185,6 +2190,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Mexican Gothic by Silvia Moreno-Garcia?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Mexican Gothic include We Have Always Lived in the Castle by Shirley Jackson, The Haunting of Hill House by Shirley Jackson, Rebecca by Daphne du Maurier, Her Body and Other Parties by Carmen Maria Machado, Gods of Jade and Shadow by Silvia Moreno-Garcia, and The Little Stranger by Sarah Waters. Our full guide covers 8 picks for fans of Moreno-Garcia's Gothic horror novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Glass Castle by Jeannette Walls?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Glass Castle include Educated by Tara Westover, The Liar's Club by Mary Karr, Angela's Ashes by Frank McCourt, Hillbilly Elegy by J.D. Vance, Running with Scissors by Augusten Burroughs, and A Tree Grows in Brooklyn by Betty Smith. Our full guide covers 8 picks for fans of Walls's family memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Caste by Isabel Wilkerson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Caste include The Warmth of Other Suns by Isabel Wilkerson, The New Jim Crow by Michelle Alexander, Between the World and Me by Ta-Nehisi Coates, Stamped from the Beginning by Ibram X. Kendi, Just Mercy by Bryan Stevenson, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Wilkerson's caste system analysis." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hillbilly Elegy by J.D. Vance?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hillbilly Elegy include Educated by Tara Westover, The Glass Castle by Jeannette Walls, Strangers in Their Own Land by Arlie Russell Hochschild, Evicted by Matthew Desmond, Nickel and Dimed by Barbara Ehrenreich, and Caste by Isabel Wilkerson. Our full guide covers 8 picks for fans of Vance's Appalachian memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nickel and Dimed by Barbara Ehrenreich?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nickel and Dimed include Evicted by Matthew Desmond, Just Mercy by Bryan Stevenson, The New Jim Crow by Michelle Alexander, Behind the Beautiful Forevers by Katherine Boo, Hillbilly Elegy by J.D. Vance, and The Glass Castle by Jeannette Walls. Our full guide covers 8 picks for fans of Ehrenreich's minimum wage immersion." },
     },
     {
       '@type': 'Question',
