@@ -210,6 +210,11 @@ export const metadata: Metadata = {
     'books like The Master and Margarita Mikhail Bulgakov',
     'books like The Corrections Jonathan Franzen',
     'books like Black Boy Richard Wright',
+    'books like Catch-22 Joseph Heller',
+    'books like Slaughterhouse-Five Kurt Vonnegut',
+    'books like White Noise Don DeLillo',
+    'books like Another Country James Baldwin',
+    'books like The Fire Next Time James Baldwin',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1132,6 +1137,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Black Boy by Richard Wright?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Black Boy include Native Son (also by Richard Wright), Invisible Man by Ralph Ellison, I Know Why the Caged Bird Sings by Maya Angelou, The Autobiography of Malcolm X, Between the World and Me by Ta-Nehisi Coates, Just Mercy by Bryan Stevenson, Their Eyes Were Watching God by Zora Neale Hurston, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Wright's Jim Crow autobiography and its account of hunger for language and a life." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Catch-22 by Joseph Heller?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Catch-22 include Slaughterhouse-Five by Kurt Vonnegut, All Quiet on the Western Front by Erich Maria Remarque, The Things They Carried by Tim O'Brien, A Confederacy of Dunces by John Kennedy Toole, White Noise by Don DeLillo, The Master and Margarita by Mikhail Bulgakov, A Farewell to Arms by Ernest Hemingway, and Joseph Andrews by Henry Fielding. Our full guide covers 8 picks for fans of Heller's satirical World War Two novel and the Catch-22 paradox." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Slaughterhouse-Five by Kurt Vonnegut?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Slaughterhouse-Five include Catch-22 by Joseph Heller, Cat's Cradle and Mother Night (also by Vonnegut), All Quiet on the Western Front by Erich Maria Remarque, The Things They Carried by Tim O'Brien, Breakfast of Champions by Vonnegut, The Master and Margarita by Mikhail Bulgakov, and One Hundred Years of Solitude by Gabriel García Márquez. Our full guide covers 8 picks for fans of Vonnegut's Dresden novel and its anti-war time-travel structure." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked White Noise by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like White Noise include The Corrections by Jonathan Franzen, Libra and Underworld (also by Don DeLillo), Catch-22 by Joseph Heller, Revolutionary Road by Richard Yates, Less by Andrew Sean Greer, The Remains of the Day by Kazuo Ishiguro, and Never Let Me Go by Kazuo Ishiguro. Our full guide covers 8 picks for fans of DeLillo's National Book Award-winning novel about fear, consumer capitalism, and the denial of death." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Another Country by James Baldwin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Another Country include If Beale Street Could Talk and Go Tell It on the Mountain and Giovanni's Room (also by James Baldwin), A Little Life by Hanya Yanagihara, The Hours by Michael Cunningham, Invisible Man by Ralph Ellison, Call Me by Your Name by André Aciman, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Baldwin's most ambitious and panoramic novel about race, sexuality, and New York." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Fire Next Time by James Baldwin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Fire Next Time include Notes of a Native Son (also by James Baldwin), Between the World and Me by Ta-Nehisi Coates, If Beale Street Could Talk by Baldwin, Go Tell It on the Mountain by Baldwin, Just Mercy by Bryan Stevenson, The Autobiography of Malcolm X, Invisible Man by Ralph Ellison, and Giovanni's Room by Baldwin. Our full guide covers 8 picks for fans of Baldwin's essential essay collection on race in America." },
     },
   ],
 };
