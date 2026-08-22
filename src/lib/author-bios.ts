@@ -972,6 +972,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Invisible Man', 'Shadow and Act'],
   },
+  {
+    name: 'Salman Rushdie',
+    bio: "Salman Rushdie is a British-Indian novelist born in Bombay (now Mumbai), India in 1947 — the same year as Indian independence. He was educated at the Cathedral and John Connon School in Bombay, Rugby School in England, and King's College, Cambridge, where he read History. His debut novel Grimus (1975) was unsuccessful; Midnight's Children (1981), his second novel, became one of the most celebrated literary debuts of the century, winning the Booker Prize and — twice, in 1993 and 2008 — the 'Booker of Bookers,' voted the best Booker Prize novel in the award's history. His third novel, Shame (1983), was followed by The Satanic Verses (1988), which led to Iran's Supreme Leader Ayatollah Khomeini issuing a fatwa in 1989 calling for Rushdie's death for blasphemy against Islam; he lived under police protection for the next decade. The fatwa shaped his subsequent career, public life, and several of his later novels — including The Moor's Last Sigh (1995), The Ground Beneath Her Feet (1999), and Shalimar the Clown (2005). In 2022, Rushdie was stabbed on stage at an event in New York and lost the use of one eye. He has been a professor at New York University and is a fellow of the American Academy of Arts and Letters. He was knighted in 2007. Joseph Anton (2012) is his memoir of the fatwa years, written in the third person.",
+    genre: 'fiction',
+    knownFor: ["Midnight's Children", 'The Satanic Verses', 'The Moor\'s Last Sigh'],
+  },
+  {
+    name: 'Richard Wright',
+    bio: "Richard Wright (1908–1960) was an American author born on a plantation near Natchez, Mississippi. He grew up in poverty and worked a series of jobs in Memphis and Chicago before beginning to publish short stories in left-wing publications in the 1930s. Native Son (1940) — about a young Black man in 1930s Chicago who accidentally kills his white employer's daughter — became the first novel by a Black author selected as a Book of the Month Club main selection and sold 250,000 copies in its first month. It remains the foundational text of Black American protest fiction. Black Boy (1945), his memoir of his childhood in Mississippi and his move north, was also an immediate bestseller. Wright moved to Paris in 1947, where he spent the rest of his life and became part of the existentialist circle around Jean-Paul Sartre and Simone de Beauvoir — an influence visible in his later novel The Outsider (1953). He mentored the younger generation of Black American writers, including Ralph Ellison, James Baldwin, and Chester Himes, each of whom eventually broke with his vision of what Black fiction should be — Baldwin's essay 'Many Thousands Gone' (1951) is a famous public argument with Native Son's approach. Wright died in Paris in 1960 of a heart attack.",
+    genre: 'fiction',
+    knownFor: ['Native Son', 'Black Boy', 'The Outsider'],
+  },
+  {
+    name: 'Nella Larsen',
+    bio: "Nella Larsen (1891–1964) was an American author born in Chicago. Her mother was a white Danish immigrant and her father was Black — from the Danish West Indies (now the U.S. Virgin Islands). She trained as a nurse and worked as a librarian before publishing her two novels: Quicksand (1928) and Passing (1929). Both novels deal with the experience of mixed-race Black women navigating race, identity, and desire in the Harlem Renaissance period; both were well received and Larsen became the first Black woman to receive the Guggenheim Fellowship, in 1930. She subsequently published very little: a short story was accused of plagiarism (the charge was formally dropped but damaged her reputation) and she seems to have stopped writing. She returned to nursing for the last thirty years of her life and died in obscurity in 1964. The feminist and Black literary scholars of the 1970s and 1980s — Barbara Christian, Deborah McDowell, Hazel Carby — rediscovered her work and established her place in the American literary canon. Her novels are now considered central texts of the Harlem Renaissance and essential reading in African American women's literature. Passing was adapted into a film in 2021 by Rebecca Hall.",
+    genre: 'fiction',
+    knownFor: ['Passing', 'Quicksand'],
+  },
+  {
+    name: 'William Golding',
+    bio: "William Golding (1911–1993) was an English novelist born in Cornwall, England. He studied English at Oxford and taught literature for many years at Bishop Wordsworth's School in Salisbury. Lord of the Flies (1954) was his first novel, completed while he was still teaching; it was rejected by twenty-one publishers before being accepted by Faber and Faber. It became one of the most widely read and taught novels of the twentieth century — translated into over thirty languages and assigned in secondary schools across the English-speaking world. Golding's subsequent novels include The Inheritors (1955), Pincher Martin (1956), Free Fall (1959), and The Spire (1964), each formally experimental and thematically preoccupied with the darkness in human nature. His later work includes the sea trilogy To the Ends of the Earth — Rites of Passage (1980), Close Quarters (1987), and Fire Down Below (1989) — which won the Booker Prize with Rites of Passage in 1980. Golding was awarded the Nobel Prize in Literature in 1983, with the Nobel committee describing him as someone whose 'novels and stories, with the perspicuity of realistic narrative art and the diversity and universality of myth, illuminate the human condition in the world of today.' He was knighted in 1988.",
+    genre: 'fiction',
+    knownFor: ['Lord of the Flies', 'The Spire', 'Rites of Passage'],
+  },
 ];
 
 function normalize(s: string) {
