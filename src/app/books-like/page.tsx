@@ -244,6 +244,10 @@ export const metadata: Metadata = {
     'books like Their Eyes Were Watching God Zora Neale Hurston',
     'books like The Picture of Dorian Gray Oscar Wilde',
     'books like The Quiet American Graham Greene',
+    'books like The Strange Case of Dr Jekyll and Mr Hyde Robert Louis Stevenson',
+    'books like Brideshead Revisited Evelyn Waugh',
+    'books like Washington Square Henry James',
+    'books like A Farewell to Arms Ernest Hemingway',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1336,6 +1340,26 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Quiet American by Graham Greene?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Quiet American include The Power and the Glory and The Third Man (also by Graham Greene), The Sympathizer by Viet Thanh Nguyen, Lord Jim by Joseph Conrad, The Heart of the Matter by Greene, Matterhorn by Karl Marlantes, A Burnt-Out Case by Greene, and The Ugly American by Lederer and Burdick. Our full guide covers 8 picks for fans of Greene's novel about Fowler and Pyle in 1950s Saigon." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Oscar Wilde, Frankenstein by Mary Shelley, The Turn of the Screw by Henry James, Rebecca by Daphne du Maurier, Lord of the Flies by William Golding, Heart of Darkness by Joseph Conrad, The Trial by Franz Kafka, and The Invisible Man by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's foundational Gothic novel about the divided self." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Brideshead Revisited by Evelyn Waugh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Brideshead Revisited include The Remains of the Day by Kazuo Ishiguro, A Room with a View by E.M. Forster, The Pursuit of Love by Nancy Mitford, A Handful of Dust by Evelyn Waugh, The Go-Between by L.P. Hartley, Lucky Jim by Kingsley Amis, The Power and the Glory by Graham Greene, and Decline and Fall by Evelyn Waugh. Our full guide covers 8 picks for fans of Waugh's elegiac novel of Catholic aristocracy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Washington Square by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Washington Square include The Portrait of a Lady and Daisy Miller (also by Henry James), The Age of Innocence and The House of Mirth by Edith Wharton, Persuasion by Jane Austen, Madame Bovary by Gustave Flaubert, and The Awakening by Kate Chopin. Our full guide covers 8 picks for fans of James's concentrated portrait of Catherine Sloper and parental cruelty." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Farewell to Arms by Ernest Hemingway?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Farewell to Arms include The Sun Also Rises and For Whom the Bell Tolls (also by Hemingway), All Quiet on the Western Front by Erich Maria Remarque, Matterhorn by Karl Marlantes, The Things They Carried by Tim O'Brien, Slaughterhouse-Five by Kurt Vonnegut, A Separate Peace by John Knowles, and Regeneration by Pat Barker. Our full guide covers 8 picks for fans of Hemingway's WWI novel." },
     },
   ],
 };

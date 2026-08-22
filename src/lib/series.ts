@@ -2845,6 +2845,43 @@ export const SERIES: SeriesDefinition[] = [
     description: "Graham Greene's The Quiet American (1955) follows the British journalist Fowler and the idealistic American Pyle in 1950s Saigon, both in love with the Vietnamese woman Phuong. Greene's most politically urgent novel and one of the earliest literary critiques of American interventionism in Southeast Asia.",
     searchTerms: ['the quiet american', 'graham greene', 'quiet american greene', 'graham greene vietnam', 'the quiet american fowler pyle', 'quiet american summary', 'graham greene novels'],
   },
+  {
+    slug: 'the-strange-case-of-dr-jekyll-and-mr-hyde',
+    name: 'The Strange Case of Dr Jekyll and Mr Hyde',
+    shortName: 'Jekyll and Hyde',
+    author: 'Robert Louis Stevenson',
+    authorQuery: 'Robert Louis Stevenson',
+    genre: 'fiction',
+    description: "Robert Louis Stevenson's The Strange Case of Dr Jekyll and Mr Hyde (1886) is a standalone novella following a London doctor whose chemical experiment splits him into his moral and immoral selves. Under 100 pages, one of the most influential works in English literature and the origin of the 'double' motif in horror and psychological fiction.",
+    searchTerms: ['jekyll and hyde', 'robert louis stevenson', 'dr jekyll mr hyde', 'strange case jekyll hyde', 'jekyll hyde stevenson', 'jekyll and hyde meaning', 'jekyll hyde summary'],
+  },
+  {
+    slug: 'brideshead-revisited',
+    name: 'Brideshead Revisited',
+    author: 'Evelyn Waugh',
+    authorQuery: 'Evelyn Waugh',
+    genre: 'fiction',
+    description: "Evelyn Waugh's Brideshead Revisited (1945) follows Charles Ryder's memories of his friendship with the aristocratic Flyte family and the slow working of Catholic grace through their lives. One of the most celebrated works of twentieth-century English prose, and one of the most debated for its elegiac portrayal of the English Catholic aristocracy.",
+    searchTerms: ['brideshead revisited', 'evelyn waugh', 'brideshead revisited waugh', 'charles ryder sebastian flyte', 'brideshead revisited catholic', 'brideshead revisited tv series', 'evelyn waugh novels'],
+  },
+  {
+    slug: 'washington-square',
+    name: 'Washington Square',
+    author: 'Henry James',
+    authorQuery: 'Henry James',
+    genre: 'fiction',
+    description: "Henry James's Washington Square (1880) follows Catherine Sloper, the plain and wealthy daughter of a distinguished New York doctor, who falls in love with the charming Morris Townsend against her father's opposition. James's shortest and most accessible novel — the best starting point for readers new to his work.",
+    searchTerms: ['washington square', 'henry james', 'washington square james', 'catherine sloper novel', 'henry james washington square', 'the heiress novel', 'washington square summary'],
+  },
+  {
+    slug: 'a-farewell-to-arms',
+    name: 'A Farewell to Arms',
+    author: 'Ernest Hemingway',
+    authorQuery: 'Ernest Hemingway',
+    genre: 'fiction',
+    description: "Ernest Hemingway's A Farewell to Arms (1929) follows American ambulance officer Frederic Henry and British nurse Catherine Barkley during World War One in Italy. One of Hemingway's two great novels and the definitive American novel of the First World War.",
+    searchTerms: ['a farewell to arms', 'ernest hemingway', 'farewell to arms hemingway', 'frederic henry catherine barkley', 'hemingway farewell to arms', 'a farewell to arms summary', 'world war one novel hemingway'],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
