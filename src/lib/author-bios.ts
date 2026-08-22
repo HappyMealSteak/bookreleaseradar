@@ -738,6 +738,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Room', 'The Wonder', 'Akin'],
   },
+  {
+    name: 'Kristin Hannah',
+    bio: "Kristin Hannah is an American novelist who has published more than 25 novels since 1991 and became one of the most commercially successful literary fiction authors in the world with The Nightingale (2015), which sold over 15 million copies worldwide. Originally a lawyer, she turned to writing full-time in the 1990s. Her other best-known novels include Firefly Lane (2008), The Great Alone (2018), and The Women (2024). Hannah is known for her emotionally intense, research-intensive novels that center women's experiences across historical and contemporary settings. The Nightingale is often cited as the novel that established her internationally; it has been one of the most consistently recommended novels on BookTok and in book clubs for a decade.",
+    genre: 'fiction',
+    knownFor: ['The Nightingale', 'The Great Alone', 'Firefly Lane'],
+  },
+  {
+    name: 'Gillian Flynn',
+    bio: "Gillian Flynn is an American novelist and screenwriter who spent many years as a TV critic for Entertainment Weekly before publishing her debut novel Sharp Objects (2006). Her third novel, Gone Girl (2012), became a global publishing phenomenon, selling over 20 million copies, spending years on bestseller lists, and being adapted into a David Fincher film (2014) with a screenplay Flynn wrote herself. She is known for creating female characters who are genuinely villainous, morally complicated, and psychologically extreme in ways that challenge genre conventions. Her work is credited with establishing the 'domestic thriller' and 'unreliable female narrator' as dominant forces in contemporary popular fiction. She has also written for television, including the miniseries Utopia (2020).",
+    genre: 'fiction',
+    knownFor: ['Gone Girl', 'Sharp Objects', 'Dark Places'],
+  },
+  {
+    name: 'Paula Hawkins',
+    bio: "Paula Hawkins is a British novelist and former financial journalist who became one of the best-selling thriller authors in the world with The Girl on the Train (2015), which sold over 23 million copies worldwide, spent 20 weeks at number one in the United States, and was adapted into a film (2016) starring Emily Blunt. Hawkins is known for her multiple unreliable female narrator structure and her interest in the domestic spaces where women's lives are defined and controlled. Her subsequent novels, Into the Water (2017) and A Slow Fire Burning (2021), both debuted at number one in the UK and the US. She is frequently credited, alongside Gillian Flynn, with establishing the domestic psychological thriller as one of the defining popular genres of the 2010s.",
+    genre: 'fiction',
+    knownFor: ['The Girl on the Train', 'Into the Water', 'A Slow Fire Burning'],
+  },
+  {
+    name: 'Douglas Stuart',
+    bio: "Douglas Stuart is a Scottish-American novelist and fashion designer born in Glasgow in 1976. He was raised in working-class Glasgow by his mother, who died of alcoholism when he was 16 — the experience that forms the basis of his debut novel, Shuggie Bain (2020). Shuggie Bain was rejected by more than 30 publishers before being accepted; it won the Man Booker Prize in 2020 and the National Book Critics Circle's John Leonard Award. Stuart worked for many years as a designer for Calvin Klein and Ralph Lauren before writing fiction. His second novel, Young Mungo (2022), was also a bestseller and dealt with his experience of being gay in working-class Glasgow. He has been compared to James Baldwin and Roddy Doyle for his ability to render working-class life with literary precision.",
+    genre: 'fiction',
+    knownFor: ['Shuggie Bain', 'Young Mungo'],
+  },
 ];
 
 function normalize(s: string) {

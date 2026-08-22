@@ -132,6 +132,11 @@ export const metadata: Metadata = {
     'books like All the Light We Cannot See Anthony Doerr',
     'books like A Gentleman in Moscow Amor Towles',
     'books like Room Emma Donoghue',
+    'books like The Nightingale Kristin Hannah',
+    'books like Gone Girl Gillian Flynn',
+    'books like The Girl on the Train Paula Hawkins',
+    'books like Shuggie Bain Douglas Stuart',
+    'books like Shadow of the Wind Carlos Ruiz Zafon',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -659,6 +664,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Room by Emma Donoghue?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Room include The Lovely Bones by Alice Sebold, A Little Life by Hanya Yanagihara, Shuggie Bain by Douglas Stuart, The Curious Incident of the Dog in the Night-Time by Mark Haddon, My Absolute Darling by Gabriel Tallent, and The Wonder (also by Emma Donoghue). Our full guide covers 8 picks for fans of unusual narrative perspectives on difficult subjects." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Nightingale by Kristin Hannah?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Nightingale include All the Light We Cannot See by Anthony Doerr, The Great Alone and Firefly Lane (also by Kristin Hannah), Beneath a Scarlet Sky by Mark Sullivan, The Alice Network by Kate Quinn, and Orphan Train by Christina Baker Kline. Our full guide covers 8 picks for fans of WWII fiction centering women's courage and sacrifice." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Gone Girl by Gillian Flynn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gone Girl include Sharp Objects and Dark Places (also by Gillian Flynn), The Girl on the Train by Paula Hawkins, The Silent Patient by Alex Michaelides, Behind Closed Doors by B.A. Paris, The Woman in the Window by A.J. Finn, and Verity by Colleen Hoover. Our full guide covers 8 picks for fans of unreliable narrator thrillers and dark female protagonists." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Girl on the Train by Paula Hawkins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Girl on the Train include Gone Girl by Gillian Flynn, Into the Water (also by Paula Hawkins), The Silent Patient by Alex Michaelides, Behind Closed Doors by B.A. Paris, The Woman in the Window by A.J. Finn, and Sharp Objects by Gillian Flynn. Our full guide covers 8 picks for fans of unreliable female narrator thrillers and missing woman mysteries." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Shuggie Bain by Douglas Stuart?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shuggie Bain include Young Mungo (also by Douglas Stuart), A Little Life by Hanya Yanagihara, The Glass Castle by Jeannette Walls, Beautiful Boy by David Sheff, Trainspotting by Irvine Welsh, and Hamnet by Maggie O'Farrell. Our full guide covers 8 picks for fans of emotionally devastating literary fiction about addiction, poverty, and the bonds between parents and children." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Shadow of the Wind by Carlos Ruiz Zafón?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Shadow of the Wind include The Angel's Game and The Labyrinth of the Spirits (also by Zafón), A Gentleman in Moscow by Amor Towles, The Name of the Rose by Umberto Eco, The Book Thief by Markus Zusak, All the Light We Cannot See by Anthony Doerr, and The House of the Spirits by Isabel Allende. Our full guide covers 8 picks for fans of gothic literary mysteries set in atmospheric European cities." },
     },
   ],
 };

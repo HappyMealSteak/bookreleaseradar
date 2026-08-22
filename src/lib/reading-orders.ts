@@ -2238,6 +2238,80 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is the Room film adaptation worth watching?', a: "Room was adapted into a film in 2015, directed by Lenny Abrahamson and starring Brie Larson (who won the Academy Award for Best Actress) and Jacob Tremblay. The adaptation is widely considered one of the most successful literary adaptations of the decade — it preserves the first-person child's perspective that makes the novel distinctive and adds visual texture the prose cannot supply." },
     ],
   },
+  {
+    slug: 'the-nightingale',
+    intro: "Kristin Hannah's The Nightingale (2015) is a complete standalone novel. There is no sequel. The novel follows two French sisters in WWII occupied France — Vianne, who tries to keep her family alive while housing a German officer, and Isabelle, who joins the French Resistance and eventually leads a network smuggling Allied airmen over the Pyrenees to Spain. One of the best-selling novels of the 2010s and consistently ranked among the most read WWII novels in contemporary fiction.",
+    startWith: 'The Nightingale',
+    books: [
+      { title: 'The Nightingale', author: 'Kristin Hannah', year: 2015, note: "Standalone — two French sisters in WWII occupied France take different paths: one tries to survive with her children; one joins the Resistance and leads airmen over the Pyrenees; told from a retrospective frame decades later" },
+    ],
+    faq: [
+      { q: 'Is The Nightingale a standalone?', a: "Yes — The Nightingale is a complete standalone novel. Kristin Hannah has written many other novels (Firefly Lane, The Great Alone, Fly Away, Magic Hour, etc.), but The Nightingale is entirely independent." },
+      { q: 'Is The Nightingale based on a true story?', a: "The Nightingale is fiction, but Isabelle's story is inspired by real women who helped Allied airmen escape occupied France. Hannah has cited several historical figures, including Andrée de Jongh, who ran the Comet Line escape network, and the approximately 3,000 women who participated in French Resistance escape networks during WWII. The specific characters and their relationships are invented." },
+      { q: 'Is The Nightingale better than The Great Alone?', a: "Most Kristin Hannah readers who have read both rate The Nightingale as her best novel. The Great Alone (2018), about a woman in 1970s Alaska with a dangerous husband and a dangerous landscape, is Hannah's most atmospheric novel and her own favorite — readers tend to prefer one or the other depending on whether they're drawn more to historical fiction or to wilderness survival fiction." },
+      { q: 'Is there a film adaptation of The Nightingale?', a: "A film adaptation of The Nightingale was in development for several years with Dakota Fanning and Elle Fanning attached as Vianne and Isabelle. The project has been in production limbo as of 2024." },
+    ],
+  },
+  {
+    slug: 'gone-girl',
+    intro: "Gillian Flynn's Gone Girl (2012) is a complete standalone novel. There is no sequel. The novel follows Nick Dunne, whose wife Amy goes missing on their fifth wedding anniversary, and Amy herself, whose diary (written in a very specific voice) provides a parallel narrative as the investigation proceeds. The novel popularized the 'unreliable narrator thriller' and the 'dark female protagonist' as dominant forces in psychological suspense fiction.",
+    startWith: 'Gone Girl',
+    books: [
+      { title: 'Gone Girl', author: 'Gillian Flynn', year: 2012, note: "Standalone — Nick Dunne's wife Amy disappears on their fifth anniversary; the novel alternates between Nick's present-day narration and Amy's diary from the preceding year; one of the defining psychological thrillers of the 2010s" },
+    ],
+    faq: [
+      { q: 'Is Gone Girl a standalone?', a: "Yes — Gone Girl is a complete standalone novel. Gillian Flynn has written two other standalone psychological thrillers (Sharp Objects, Dark Places), but Gone Girl has no sequel." },
+      { q: 'Is Gone Girl appropriate for all readers?', a: "Gone Girl contains graphic descriptions of sexual violence, significant psychological manipulation, and violence. It is marketed as adult fiction and is appropriate for adult readers; most libraries shelve it with adult popular fiction." },
+      { q: 'Does Gone Girl have a twist?', a: "Gone Girl has a major structural revelation approximately halfway through the novel that completely recontextualizes the first half. The twist is not a surprise ending but a structural inversion that changes the novel you thought you were reading into a different novel. Because it is so widely known, many readers encounter it spoiled; the novel works extremely well even when you know it's coming.", },
+      { q: 'Is the Gone Girl film adaptation good?', a: "The Gone Girl film adaptation (2014), directed by David Fincher and starring Rosamund Pike and Ben Affleck, is widely considered one of the best literary adaptations of the decade. Pike won the Academy Award for Best Actress nomination for her performance. Flynn wrote the screenplay herself, adapting her own novel, and the film was praised for finding a cinematic equivalent of the novel's structural trick." },
+    ],
+  },
+  {
+    slug: 'the-girl-on-the-train',
+    intro: "Paula Hawkins's The Girl on the Train (2015) is a complete standalone novel. There is no sequel, though Hawkins has written other standalone psychological thrillers (Into the Water, A Slow Fire Burning). The novel follows three women — Rachel, who commutes past the house where she sees a couple she has idealized from the train window; Megan, the woman she watches; and Anna, who lives in Rachel's old house. When Megan disappears, Rachel becomes involved in the investigation. The Girl on the Train sold over 23 million copies worldwide.",
+    startWith: 'The Girl on the Train',
+    books: [
+      { title: 'The Girl on the Train', author: 'Paula Hawkins', year: 2015, note: "Standalone — Rachel sees a couple from the train window every day and constructs a story about them; when the woman disappears, Rachel becomes involved in the investigation; multiple narrators, multiple timelines" },
+    ],
+    faq: [
+      { q: 'Is The Girl on the Train a standalone?', a: "Yes — The Girl on the Train is a complete standalone novel. Paula Hawkins has written two other standalone psychological thrillers, Into the Water (2017) and A Slow Fire Burning (2021), but The Girl on the Train has no sequel." },
+      { q: 'Is The Girl on the Train similar to Gone Girl?', a: "The Girl on the Train was widely marketed in the wake of Gone Girl's success and shares several features: an unreliable first-person female narrator, a marriage in crisis, a woman who disappears, and a late-novel revelation about what actually happened. They differ in tone (The Girl on the Train is darker and more conventional in its thriller mechanics; Gone Girl is more interested in gender politics and dark comedy) and in quality of prose." },
+      { q: 'Is the film adaptation of The Girl on the Train good?', a: "The Girl on the Train was adapted into a film in 2016, directed by Tate Taylor and starring Emily Blunt as Rachel. The film moved the setting from London to New York. It received mixed reviews; most critics found the adaptation competent but less effective than the novel's specific use of unreliable narration, which works better in prose than in film." },
+      { q: 'What makes Rachel an unreliable narrator in The Girl on the Train?', a: "Rachel has a drinking problem that causes blackouts — she cannot trust her own memory of events, and neither can the reader. Hawkins uses the alcoholic blackout as a mechanism for generating genuine uncertainty: Rachel may or may not have witnessed something on the night of Megan's disappearance, and she may or may not have been involved in something she cannot remember. This is a more specific and less structurally radical form of unreliability than Amy Dunne's in Gone Girl, but it generates real suspense." },
+    ],
+  },
+  {
+    slug: 'shuggie-bain',
+    intro: "Douglas Stuart's Shuggie Bain (2020) is a complete standalone novel. It was followed by Young Mungo (2022), which is set in the same Glasgow world with different characters and is entirely independent. Shuggie Bain follows Hugh 'Shuggie' Bain, a small, sensitive boy in 1980s Glasgow whose mother Agnes is glamorous, alcoholic, and unable to stop destroying herself or him. The novel won the Man Booker Prize in 2020 and was Stuart's debut.",
+    startWith: 'Shuggie Bain',
+    books: [
+      { title: 'Shuggie Bain', author: 'Douglas Stuart', year: 2020, note: "Standalone — Shuggie Bain, a sensitive boy in 1980s Glasgow, is devoted to his glamorous, alcoholic mother Agnes who cannot stop destroying herself; Man Booker Prize winner and debut novel" },
+      { title: 'Young Mungo', author: 'Douglas Stuart', year: 2022, note: "Companion standalone — a young gay boy in working-class Glasgow navigates a forbidden relationship and his mother's alcoholism; same Glasgow world, no shared characters", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Shuggie Bain a standalone?', a: "Yes — Shuggie Bain is a complete standalone novel. Douglas Stuart's second novel, Young Mungo (2022), is set in the same working-class Glasgow world with different characters and can be read entirely independently." },
+      { q: 'Is Shuggie Bain difficult to read?', a: "Shuggie Bain contains very detailed depictions of alcoholism, domestic violence, poverty, and a child being exposed to all three. Stuart based the novel partly on his own childhood experience. It is not an easy or comfortable book — but most readers who engage with it describe it as one of the most emotionally powerful novels they've read, and Stuart writes Agnes with enough humanity that she never becomes simply a symbol of damage." },
+      { q: 'Is Shuggie Bain autobiographical?', a: "Stuart has described Shuggie Bain as 'autofiction' — it draws extensively on his own experience growing up as a gay, sensitive boy in working-class 1980s Glasgow with an alcoholic mother. He has said in interviews that his mother died of alcoholism when he was 16, as Agnes does in the novel. The specific events and characters are fictionalized, but the emotional landscape is drawn directly from his life." },
+      { q: 'What is the 1980s Glasgow setting of Shuggie Bain about?', a: "Shuggie Bain is set during the Thatcher era, when Glasgow's heavy industries (steel, coal, shipbuilding) were being rapidly dismantled and the communities built around those industries were left without work or support. Stuart uses this historical context — the specific poverty and hopelessness of that Glasgow — to explain both the community Shuggie and Agnes live in and the specific pressures that shape Agnes's alcoholism." },
+    ],
+  },
+  {
+    slug: 'shadow-of-the-wind',
+    intro: "Carlos Ruiz Zafón's The Shadow of the Wind (2001, English translation 2004) is the first novel in the Cemetery of Forgotten Books series, followed by The Angel's Game (2008), The Prisoner of Heaven (2011), and The Labyrinth of the Spirits (2016). However, the four novels are more companion novels than a sequential series — each focuses on different characters and periods in Barcelona's 20th-century history, connected by the Cemetery of Forgotten Books and the bookseller Sempere family. The Shadow of the Wind can be read as a complete standalone.",
+    startWith: 'The Shadow of the Wind',
+    books: [
+      { title: 'The Shadow of the Wind', author: 'Carlos Ruiz Zafón', year: 2001, note: "A boy in postwar Barcelona discovers a mysterious novel by an unknown author and becomes obsessed with finding his other books — leading into the dark history of the city under Franco" },
+      { title: "The Angel's Game", author: 'Carlos Ruiz Zafón', year: 2008, note: "A struggling novelist in 1920s Barcelona accepts a commission from a mysterious publisher — set decades before The Shadow of the Wind; can be read independently", isOptional: true },
+      { title: 'The Prisoner of Heaven', author: 'Carlos Ruiz Zafón', year: 2011, note: "Returns to Daniel and Fermín from The Shadow of the Wind; requires having read the first novel", isOptional: true },
+      { title: 'The Labyrinth of the Spirits', author: 'Carlos Ruiz Zafón', year: 2016, note: "The final and longest novel in the cycle, bringing all threads together; best read after the others", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read all the Cemetery of Forgotten Books novels?', a: "No — The Shadow of the Wind works as a complete standalone and is where almost all readers begin. The Angel's Game (set decades earlier) and The Prisoner of Heaven (a direct sequel) and The Labyrinth of the Spirits (the conclusion) are companion novels that enrich the world but are not necessary to enjoy The Shadow of the Wind." },
+      { q: 'What genre is The Shadow of the Wind?', a: "The Shadow of the Wind is most commonly described as gothic literary fiction, historical fiction, or literary mystery — it uses the structure of a mystery (who was the author of the book? who has been destroying his work?) while being primarily a novel about books, Barcelona, and the darkness of Spain under Franco's dictatorship. Zafón himself described it as a love letter to books and to Barcelona." },
+      { q: 'Is The Shadow of the Wind appropriate for young readers?', a: "The Shadow of the Wind contains violence, sexual content, and significant historical darkness around the Spanish Civil War and Franco's dictatorship. It is marketed as adult literary fiction; most readers place it at 16 and up." },
+      { q: 'Is The Shadow of the Wind popular outside Spain?', a: "The Shadow of the Wind was originally published in Spanish in 2001 and became a publishing phenomenon in Spain; the English translation (2004) made it an international bestseller, selling over 15 million copies in 40 languages. It is considered one of the most successful translated literary novels of the early 21st century and helped establish the global appetite for Spanish literary fiction." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
