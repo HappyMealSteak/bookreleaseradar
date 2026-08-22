@@ -2531,6 +2531,79 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "What role does the Alaska wilderness play in The Great Alone?", a: "The Alaskan wilderness is treated almost as a character in the novel — both a source of beauty and freedom and an equally dangerous force to the violence inside the family home. Hannah uses the twenty-hour winter darkness specifically: the father's mental instability worsens each winter, and the darkness becomes a recurring symbol of the fear that has moved into the family. The wilderness offers both escape and trap." },
     ],
   },
+  {
+    slug: 'the-sympathizer',
+    intro: "Viet Thanh Nguyen's The Sympathizer (2015) is the first book in a duology, followed by The Committed (2021). The Sympathizer follows an unnamed narrator — a communist spy embedded in the South Vietnamese army as a captain and aide-de-camp — through the fall of Saigon in 1975 and his subsequent life as a refugee in Los Angeles. The novel is structured as a forced confession. The Sympathizer won the Pulitzer Prize for Fiction in 2016 and was adapted into an HBO miniseries in 2024.",
+    startWith: 'The Sympathizer',
+    books: [
+      { title: 'The Sympathizer', author: 'Viet Thanh Nguyen', year: 2015, note: "A communist spy embedded in the South Vietnamese army narrates the fall of Saigon and his refugee life in Los Angeles as a forced confession; Pulitzer Prize winner 2016" },
+      { title: 'The Committed', author: 'Viet Thanh Nguyen', year: 2021, note: "Sequel — the narrator arrives in France as a refugee and becomes entangled in the Parisian drug trade; requires reading The Sympathizer first" },
+    ],
+    faq: [
+      { q: 'Do I need to read The Sympathizer before The Committed?', a: "Yes — The Committed begins directly after The Sympathizer ends and requires having read the first book. The narrator's identity, his history, and the events that drove him to France are all assumed knowledge. Start with The Sympathizer." },
+      { q: 'Is The Sympathizer about the Vietnam War?', a: "The Sympathizer is about the end of the Vietnam War — specifically the fall of Saigon in April 1975 and what followed for South Vietnamese people who fled as refugees. The novel is interested in the war from the perspective of someone who was on both sides simultaneously, and is critical of American representations of the war, including films like Apocalypse Now (which the narrator works on as a cultural consultant)." },
+      { q: "What does 'The Sympathizer' mean as a title?", a: "The narrator is a 'sympathizer' in the communist/political sense — he is a covert communist operative sympathetic to the revolutionary cause — but also in the human sense: he has the capacity to understand and feel multiple perspectives simultaneously. He describes himself as a 'spy, a sleeper, a spook, a man of two faces.' The ability to see from more than one side is both his survival skill and his existential burden." },
+      { q: 'Is The Sympathizer appropriate for all readers?', a: "The Sympathizer contains graphic torture scenes in its first and final acts, graphic sexual content, and extensive political violence. The novel is formally and intellectually demanding — Nguyen is in conversation with Frantz Fanon, Graham Greene, and the tradition of literary anti-colonialism, and the novel rewards readers who engage with these references. It is adult literary fiction." },
+    ],
+  },
+  {
+    slug: 'conversations-with-friends',
+    intro: "Sally Rooney's Conversations with Friends (2017) is a complete standalone novel and Rooney's debut. There is no sequel. The novel follows Frances, a twenty-one-year-old Dublin student and spoken word performer, and her best friend and ex-girlfriend Bobbi, as they become entangled with a married couple — journalist Melissa and actor Nick. The novel shares thematic concerns with Rooney's Normal People (2018) and Beautiful World, Where Are You (2021) but the characters are entirely unrelated.",
+    startWith: 'Conversations with Friends',
+    books: [
+      { title: 'Conversations with Friends', author: 'Sally Rooney', year: 2017, note: "Standalone debut — two Dublin students become entangled with a married couple; a precise, detached examination of desire, class, and how people talk to and around each other" },
+    ],
+    faq: [
+      { q: 'Should I read Conversations with Friends or Normal People first?', a: "The two novels are entirely independent — Normal People has no characters from Conversations with Friends and vice versa. Normal People is more widely loved; Conversations with Friends is darker and more formally minimal. Most readers who love one also love the other. If you want to try Rooney in order, Conversations with Friends is her debut; if you want to try her most popular book first, start with Normal People." },
+      { q: 'Is Conversations with Friends about polyamory?', a: "The novel depicts Frances having an affair with Nick, who is married to Melissa. It is not a novel that advocates for or against any particular relationship structure — it observes what happens with a quality of clinical, detached attention. The four-way dynamic between Frances, Bobbi, Nick, and Melissa is complicated in ways the novel is more interested in depicting than judging." },
+      { q: 'Is Conversations with Friends appropriate for all readers?', a: "The novel contains explicit sexual content and deals with themes including chronic illness, an affair with a married man, depression, and economic anxiety. It is adult literary fiction. Some readers find Rooney's flat, present-tense prose style and her interest in morally compromised characters difficult; others find it exactly what they were looking for." },
+      { q: 'Was Conversations with Friends adapted for TV?', a: "Yes — Conversations with Friends was adapted into a BBC/Hulu miniseries in 2022, starring Alison Oliver (Frances), Sasha Lane (Bobbi), Joe Alwyn (Nick), and Jemima Kirke (Melissa). Rooney was not involved in the adaptation's screenplay." },
+    ],
+  },
+  {
+    slug: 'daisy-jones-and-the-six',
+    intro: "Taylor Jenkins Reid's Daisy Jones and the Six (2019) is a complete standalone novel. There is no sequel. The novel is structured as an oral history — transcribed interviews with the members of a fictional 1970s rock band — about the band's rise, its peak, and why they broke up on August 3, 1979, at the peak of their success. Daisy Jones and the Six was adapted into an Amazon Prime Video series in 2023 starring Riley Keough and Sam Claflin.",
+    startWith: 'Daisy Jones and the Six',
+    books: [
+      { title: 'Daisy Jones and the Six', author: 'Taylor Jenkins Reid', year: 2019, note: "Standalone — structured as transcribed interviews about a fictional 1970s rock band; why did Daisy Jones and Billy Dunne break up the band at the peak of their success? The answer arrives slowly and devastatingly" },
+    ],
+    faq: [
+      { q: 'Is Daisy Jones and the Six related to The Seven Husbands of Evelyn Hugo?', a: "No — Daisy Jones and the Six and The Seven Husbands of Evelyn Hugo are entirely independent novels with no shared characters. Both are by Taylor Jenkins Reid and both use a similar retrospective structure (a present-day framing device for events that happened in the past), but they are set in different fictional worlds." },
+      { q: 'Is Daisy Jones a real band?', a: "No — Daisy Jones and the Six are entirely fictional. Taylor Jenkins Reid has said she was inspired loosely by the Fleetwood Mac story — specifically the creative and romantic tensions that surrounded Rumours (1977) — but Daisy Jones and Billy Dunne are not based on specific real people." },
+      { q: 'Why did Daisy Jones and the Six break up?', a: "The novel's central mystery is the reason for the breakup — it is gradually revealed through the oral history structure as different characters offer different versions of the same events. The answer involves the creative and romantic relationship between Daisy and Billy and a decision Billy makes that the rest of the band learns about only in retrospect." },
+      { q: 'What is the oral history format of Daisy Jones and the Six?', a: "The novel is written entirely as transcribed interviews — characters speak in their own voices about their memories of events, frequently contradicting each other and leaving things unsaid. There is no conventional narration. This format allows Reid to show the same events from multiple perspectives and to use what characters don't say as meaningfully as what they do say." },
+    ],
+  },
+  {
+    slug: 'the-alchemist',
+    intro: "Paulo Coelho's The Alchemist (1988, English translation 1993) is a complete standalone novel — the most widely read of all Coelho's books. It follows Santiago, an Andalusian shepherd boy who has a recurring dream of treasure buried near the Egyptian pyramids and sets out to follow it. The Alchemist is written as a fable or parable about following one's personal legend — the thing you were born to do. It has sold over 65 million copies in more than 80 languages and is one of the best-selling books in history.",
+    startWith: 'The Alchemist',
+    books: [
+      { title: 'The Alchemist', author: 'Paulo Coelho', year: 1988, note: "Standalone — an Andalusian shepherd boy follows his dream to the Egyptian pyramids; written as a fable about following your personal legend; one of the best-selling books in history" },
+    ],
+    faq: [
+      { q: 'Is The Alchemist a standalone?', a: "Yes — The Alchemist is entirely self-contained. Paulo Coelho has written many other books (The Valkyries, Brida, Veronika Decides to Die, Eleven Minutes, The Zahir, The Witch of Portobello), but none are connected to The Alchemist." },
+      { q: 'What is a personal legend in The Alchemist?', a: "In The Alchemist, a personal legend is the thing each person was put on earth to do — a purpose or dream that, if followed, the universe will conspire to help you achieve. The novel's central idea is that most people know their personal legend when they are young but stop pursuing it out of fear. Santiago's journey is about reclaiming his." },
+      { q: 'Is The Alchemist a religious book?', a: "The Alchemist is spiritual but not specifically religious — it draws on concepts from multiple traditions including alchemy, Sufism, and Christianity, but its philosophy is syncretic rather than denominational. The novel has been embraced by readers of many different faiths and by secular readers who respond to its message about purpose and meaning." },
+      { q: "Why has The Alchemist sold so many copies?", a: "The Alchemist is short (about 160 pages in most editions), easy to read, written as a fable with a clear moral, and addresses a universal question — what am I supposed to do with my life? — in a way that feels hopeful and affirming. It has been passed between generations, recommended by celebrities, adopted by self-help and spiritual communities, and given as gifts for decades. The message that the universe rewards those who pursue their dreams has proven endlessly resonant across cultures." },
+    ],
+  },
+  {
+    slug: 'the-kite-runner',
+    intro: "Khaled Hosseini's The Kite Runner (2003) is the first of Hosseini's three novels, followed by A Thousand Splendid Suns (2007) and And the Mountains Echoed (2013). The novels are independent — they share no characters — but all three are set in Afghanistan and deal with the history of violence and exile that began with the Soviet invasion in 1979 and continued through the Taliban period. The Kite Runner follows Amir, the son of a wealthy Kabul merchant, and his boyhood friendship with Hassan, a Hazara servant boy, and the devastating moment of betrayal that defines the rest of Amir's life.",
+    startWith: 'The Kite Runner',
+    books: [
+      { title: 'The Kite Runner', author: 'Khaled Hosseini', year: 2003, note: "Can be read as a standalone — Amir and his betrayal of Hassan, a friendship across class and ethnic lines in 1970s Kabul, and the return to Taliban Afghanistan decades later" },
+      { title: 'A Thousand Splendid Suns', author: 'Khaled Hosseini', year: 2007, note: "Entirely independent — two Afghan women across decades, from the Soviet era through the Taliban to the US invasion; often considered Hosseini's finest novel", isOptional: true },
+      { title: 'And the Mountains Echoed', author: 'Khaled Hosseini', year: 2013, note: "Entirely independent — a larger family saga across multiple generations and countries, beginning with a brother and sister separated in 1950s Afghanistan", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read The Kite Runner before A Thousand Splendid Suns?', a: "No — A Thousand Splendid Suns is entirely independent of The Kite Runner. They are set in the same historical Afghanistan but with completely different characters. Many readers consider A Thousand Splendid Suns the superior novel; either can be read first." },
+      { q: 'Is The Kite Runner based on a true story?', a: "The Kite Runner is fiction. Khaled Hosseini was born in Kabul in 1965 and came to the United States with his family in 1980, when he was fifteen, after his father received asylum due to the Soviet invasion. His childhood experience of Kabul, the class structure of Afghan society, and the specific history of his country all inform the novel, but the characters and events are invented." },
+      { q: 'What is the betrayal in The Kite Runner?', a: "The betrayal — which the novel announces early and then takes most of its first half to arrive at — occurs when twelve-year-old Amir witnesses Hassan being sexually assaulted by an older boy and chooses to do nothing rather than intervene. This choice, and the guilt it generates, drives the entire novel. The rest of the book is about what Amir does and fails to do with that guilt." },
+      { q: 'Is The Kite Runner appropriate for all readers?', a: "The Kite Runner contains a scene of sexual violence against a child, extensive violence related to the Taliban period, and difficult material about ethnicity and class in Afghan society. The sexual violence scene is not described in explicit detail but is clearly depicted. The novel is adult fiction and is often taught in high school and university courses." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

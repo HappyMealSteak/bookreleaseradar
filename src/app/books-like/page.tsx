@@ -152,6 +152,11 @@ export const metadata: Metadata = {
     'books like The House of the Spirits Isabel Allende',
     'books like There There Tommy Orange',
     'books like The Great Alone Kristin Hannah',
+    'books like The Sympathizer Viet Thanh Nguyen',
+    'books like Conversations with Friends Sally Rooney',
+    'books like Daisy Jones and the Six Taylor Jenkins Reid',
+    'books like The Alchemist Paulo Coelho',
+    'books like The Kite Runner Khaled Hosseini',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -779,6 +784,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Great Alone by Kristin Hannah?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Great Alone include The Nightingale (also by Kristin Hannah), Where the Crawdads Sing by Delia Owens, Into the Wild by Jon Krakauer, Big Little Lies by Liane Moriarty, It Ends with Us by Colleen Hoover, and A Man Called Ove by Fredrik Backman. Our full guide covers 8 picks for fans of survival stories, Alaskan wilderness fiction, and emotionally devastating coming-of-age novels." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sympathizer by Viet Thanh Nguyen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sympathizer include The Committed (the sequel), There There by Tommy Orange, Pachinko by Min Jin Lee, The Kite Runner by Khaled Hosseini, A Gentleman in Moscow by Amor Towles, The Remains of the Day by Kazuo Ishiguro, Catch-22 by Joseph Heller, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of politically serious, formally ambitious fiction about exile, colonialism, and being caught between worlds." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Conversations with Friends by Sally Rooney?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Conversations with Friends include Normal People and Beautiful World, Where Are You (also by Sally Rooney), My Year of Rest and Relaxation by Ottessa Moshfegh, The Idiot by Elif Batuman, Eileen by Ottessa Moshfegh, The Bell Jar by Sylvia Plath, and Exciting Times by Naoise Dolan. Our full guide covers 8 picks for fans of quiet, detached literary fiction about desire, class, and what people can't bring themselves to say." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Daisy Jones and the Six by Taylor Jenkins Reid?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Daisy Jones and the Six include The Seven Husbands of Evelyn Hugo, Malibu Rising, and Carrie Soto Is Back (all by Taylor Jenkins Reid), Normal People by Sally Rooney, Where the Crawdads Sing by Delia Owens, and The Perks of Being a Wallflower by Stephen Chbosky. Our full guide covers 8 picks for fans of retrospective love stories, oral history format novels, and 1970s historical fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Alchemist by Paulo Coelho?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Alchemist include Siddhartha by Hermann Hesse, The Little Prince by Antoine de Saint-Exupéry, Jonathan Livingston Seagull by Richard Bach, Steppenwolf by Hermann Hesse, Life of Pi by Yann Martel, Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig, and The Celestine Prophecy by James Redfield. Our full guide covers 8 picks for fans of philosophical fables and inspirational spiritual fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Kite Runner by Khaled Hosseini?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Kite Runner include A Thousand Splendid Suns and And the Mountains Echoed (also by Khaled Hosseini), Pachinko by Min Jin Lee, The Sympathizer by Viet Thanh Nguyen, All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, and The House of the Spirits by Isabel Allende. Our full guide covers 8 picks for fans of emotionally devastating fiction about betrayal, guilt, redemption, and historical violence." },
     },
   ],
 };
