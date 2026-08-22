@@ -303,6 +303,11 @@ export const metadata: Metadata = {
     'books like Misery Stephen King',
     'books like Shogun James Clavell',
     'books like The End of the Affair Graham Greene',
+    "books like The French Lieutenant's Woman John Fowles",
+    "books like If on a winter's night a traveler Calvino",
+    'books like Jane Eyre Charlotte Brontë',
+    'books like Wuthering Heights Emily Brontë',
+    'books like The Haunting of Hill House Shirley Jackson',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1690,6 +1695,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The End of the Affair by Graham Greene?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The End of the Affair include Brighton Rock (also by Greene), The Heart of the Matter (Greene), Brideshead Revisited by Evelyn Waugh, A Farewell to Arms by Ernest Hemingway, The Remains of the Day by Kazuo Ishiguro, The Unbearable Lightness of Being by Milan Kundera, On Chesil Beach by Ian McEwan, and The French Lieutenant's Woman by John Fowles. Our full guide covers 8 picks for fans of Greene's masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The French Lieutenant's Woman by John Fowles?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The French Lieutenant's Woman include Rebecca by Daphne du Maurier, The Collector (also by Fowles), Jane Eyre by Charlotte Brontë, Possession by A.S. Byatt, The End of the Affair by Graham Greene, Atonement by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Fowles's postmodern Victorian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked If on a winter's night a traveler by Italo Calvino?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If on a winter's night a traveler include Invisible Cities (also by Calvino), Pale Fire by Vladimir Nabokov, House of Leaves by Mark Z. Danielewski, The Name of the Rose by Umberto Eco, At Swim-Two-Birds by Flann O'Brien, The Magus by John Fowles, Ficciones by Jorge Luis Borges, and The Unconsoled by Kazuo Ishiguro. Our full guide covers 8 picks for fans of Calvino's postmodern masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jane Eyre by Charlotte Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jane Eyre include Rebecca by Daphne du Maurier, Wuthering Heights by Emily Brontë, Wide Sargasso Sea by Jean Rhys, North and South by Elizabeth Gaskell, The Turn of the Screw by Henry James, Possession by A.S. Byatt, Villette (also by Charlotte Brontë), and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Brontë's Gothic romance." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Wuthering Heights by Emily Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wuthering Heights include Jane Eyre by Charlotte Brontë, Rebecca by Daphne du Maurier, The Picture of Dorian Gray by Oscar Wilde, Tess of the d'Urbervilles by Thomas Hardy, Fingersmith by Sarah Waters, Beloved by Toni Morrison, The Master and Margarita by Mikhail Bulgakov, and Anna Karenina by Leo Tolstoy. Our full guide covers 8 picks for fans of Emily Brontë's dark Gothic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Haunting of Hill House by Shirley Jackson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Haunting of Hill House include We Have Always Lived in the Castle (also by Jackson), Rebecca by Daphne du Maurier, The Turn of the Screw by Henry James, House of Leaves by Mark Z. Danielewski, The Little Stranger by Sarah Waters, Mexican Gothic by Silvia Moreno-Garcia, Beloved by Toni Morrison, and The Shining by Stephen King. Our full guide covers 8 picks for fans of Jackson's foundational psychological horror." },
     },
   ],
 };
