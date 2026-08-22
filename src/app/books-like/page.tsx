@@ -263,6 +263,11 @@ export const metadata: Metadata = {
     'books like The Secret Agent Joseph Conrad',
     'books like Under the Volcano Malcolm Lowry',
     'books like Buddenbrooks Thomas Mann',
+    'books like Pedro Páramo Juan Rulfo',
+    'books like The Magic Mountain Thomas Mann',
+    'books like Darkness at Noon Arthur Koestler',
+    'books like Under Western Eyes Joseph Conrad',
+    'books like The Death of Ivan Ilyich Leo Tolstoy',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1450,6 +1455,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Buddenbrooks by Thomas Mann?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Buddenbrooks include The Forsyte Saga by John Galsworthy, One Hundred Years of Solitude by García Márquez, The Magic Mountain by Thomas Mann, The House of Mirth by Edith Wharton, The Tin Drum by Günter Grass, Effi Briest by Theodor Fontane, The Cherry Orchard by Chekhov, and The Death of Ivan Ilyich by Tolstoy. Our full guide covers 8 picks for fans of Mann's Nobel Prize-winning family saga." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pedro Páramo by Juan Rulfo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pedro Páramo include One Hundred Years of Solitude by Gabriel García Márquez, The House of the Spirits by Isabel Allende, Like Water for Chocolate by Laura Esquivel, Under the Volcano by Malcolm Lowry, Beloved by Toni Morrison, The Autumn of the Patriarch by García Márquez, The Aleph by Jorge Luis Borges, and Chronicle of a Death Foretold by García Márquez. Our full guide covers 8 picks for fans of Rulfo's founding magical realist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Magic Mountain by Thomas Mann?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Magic Mountain include Buddenbrooks and Death in Venice (also by Thomas Mann), Doctor Faustus by Mann, The Tin Drum by Günter Grass, The Castle by Kafka, Doctor Zhivago by Boris Pasternak, The Possessed by Dostoevsky, and The Rainbow by D.H. Lawrence. Our full guide covers 8 picks for fans of Mann's great novel of ideas." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Darkness at Noon by Arthur Koestler?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Darkness at Noon include Nineteen Eighty-Four by George Orwell, The Trial by Kafka, The Possessed by Dostoevsky, The Secret Agent by Joseph Conrad, The Captive Mind by Czesław Miłosz, Life and Fate by Vasily Grossman, Animal Farm by Orwell, and One Day in the Life of Ivan Denisovich by Solzhenitsyn. Our full guide covers 8 picks for fans of Koestler's anti-totalitarian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Under Western Eyes by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Under Western Eyes include The Secret Agent and Nostromo (also by Joseph Conrad), Crime and Punishment by Dostoevsky, The Possessed by Dostoevsky, The Spy Who Came in from the Cold by John le Carré, Lord Jim by Conrad, Heart of Darkness by Conrad, and The Reluctant Fundamentalist by Mohsin Hamid. Our full guide covers 8 picks for fans of Conrad's Russian political novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Death of Ivan Ilyich by Leo Tolstoy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Death of Ivan Ilyich include Anna Karenina and Hadji Murat (also by Leo Tolstoy), The Stranger by Albert Camus, A Death in the Family by James Agee, The Master and Margarita by Bulgakov, The Trial by Kafka, The Moviegoer by Walker Percy, and The Kreutzer Sonata by Tolstoy. Our full guide covers 8 picks for fans of Tolstoy's moral novella." },
     },
   ],
 };
