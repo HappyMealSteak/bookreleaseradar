@@ -432,6 +432,78 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['The Lies of Locke Lamora', 'Red Seas Under Red Skies', 'The Republic of Thieves'],
   },
+  {
+    name: 'Erin Morgenstern',
+    bio: "Erin Morgenstern is an American author and visual artist known for The Night Circus (2011), a standalone fantasy novel about a mysterious black-and-white circus and two magicians bound in an ancient competition inside it. The Night Circus spent seven weeks on the New York Times bestseller list and has been translated into over 30 languages. Her second novel, The Starless Sea (2019), is a completely separate standalone about a graduate student who falls into an underground world of stories. Morgenstern is also a visual artist who creates paintings, mixed-media collages, and novels formatted as illustrated books.",
+    genre: 'fantasy',
+    knownFor: ['The Night Circus', 'The Starless Sea'],
+  },
+  {
+    name: 'Madeline Miller',
+    bio: "Madeline Miller is an American author and classicist known for two lyrical literary fantasy novels retelling Greek mythology. The Song of Achilles (2012) tells the Trojan War through Patroclus's perspective and won the Orange Prize for Fiction. Circe (2018) retells the life of the witch from Greek mythology and won the Goodreads Choice Award for Fantasy. Both novels became New York Times bestsellers and are widely used in academic literature courses. Miller studied Classics at Brown University and taught Latin and Greek for fifteen years before her debut was published.",
+    genre: 'fantasy',
+    knownFor: ['The Song of Achilles', 'Circe'],
+  },
+  {
+    name: 'Katherine Arden',
+    bio: "Katherine Arden is an American author known for the Winternight Trilogy, a historical fantasy set in medieval Russia drawing on authentic Slavic mythology. The trilogy — The Bear and the Nightingale (2017), The Girl in the Tower (2017), and The Winter of the Witch (2019) — follows Vasilisa Petrovna, a girl who can see the old spirits that Russian Christianity is erasing. Arden studied Russian at Middlebury College, lived in Moscow and Paris, and drew on extensive research into Russian folklore for the series. She also wrote Small Spaces, a middle-grade horror series.",
+    genre: 'fantasy',
+    knownFor: ['The Bear and the Nightingale', 'The Girl in the Tower', 'The Winter of the Witch'],
+  },
+  {
+    name: 'S.A. Chakraborty',
+    bio: "S.A. Chakraborty is an American author known for the Daevabad Trilogy, an adult fantasy series drawing on Islamic mythology, Arabophone history, and South Asian folklore. The trilogy — The City of Brass (2017), The Kingdom of the Wicked (2019), and The Empire of Gold (2020) — follows a con artist in 18th-century Cairo who is pulled into the hidden city of Daevabad and the ancient conflict between djinn tribes. Chakraborty also wrote The Adventures of Amina al-Sirafi (2023), a separate series in the same world set in the 12th century.",
+    genre: 'fantasy',
+    knownFor: ['The City of Brass', 'The Kingdom of the Wicked', 'The Empire of Gold', 'The Adventures of Amina al-Sirafi'],
+  },
+  {
+    name: 'Arkady Martine',
+    bio: "Arkady Martine is an American author and Byzantine historian whose Teixcalaan series — A Memory Called Empire (2019) and A Desolation Called Peace (2021) — is notable for being the only duology in which both books won the Hugo Award for Best Novel. Martine draws on her expertise in Byzantine imperial history to create Teixcalaan, an interstellar empire whose court culture, linguistic politics, and relationship to its periphery reflect Byzantine precedent. She also co-founded a crisis mapping initiative (Nola Rising) after Hurricane Katrina and teaches digital humanities.",
+    genre: 'sci-fi',
+    knownFor: ['A Memory Called Empire', 'A Desolation Called Peace'],
+  },
+  {
+    name: 'Sue Lynn Tan',
+    bio: "Sue Lynn Tan is a Malaysian-British author known for the Celestial Kingdom duology — Daughter of the Moon Goddess (2022) and Heart of the Sun Warrior (2022) — which draws on Chinese mythology, particularly the legend of Chang'e (the moon goddess) and the archer Houyi. The duology became a USA Today and Publishers Weekly bestseller and was praised for its lyrical prose and its care for the source mythology. Tan was born in Malaysia, educated in France and England, and now lives in Hong Kong.",
+    genre: 'fantasy',
+    knownFor: ['Daughter of the Moon Goddess', 'Heart of the Sun Warrior'],
+  },
+  {
+    name: 'Katherine Addison',
+    bio: "Katherine Addison is the pen name of American author Sarah Monette, known for The Goblin Emperor (2014), a standalone fantasy novel that became one of the foundational texts of cozy fantasy. The Goblin Emperor was nominated for the Hugo, Nebula, Locus, and World Fantasy Awards. Addison also wrote The Witness for the Dead (2021) and The Grief of Stones (2022), companion novels set in the same world. Under her real name Sarah Monette, she also wrote the Doctrine of Labyrinths fantasy series and co-wrote the Kyle Murchison Booth supernatural novellas.",
+    genre: 'fantasy',
+    knownFor: ['The Goblin Emperor', 'The Witness for the Dead', 'The Grief of Stones'],
+  },
+  {
+    name: 'Maggie Stiefvater',
+    bio: "Maggie Stiefvater is an American author of young adult fantasy known for the Raven Cycle — four books (The Raven Boys, The Dream Thieves, Blue Lily Lily Blue, The Raven King) following a girl from a family of psychics and the prep school boys searching for a sleeping Welsh king in Virginia. She also wrote Shiver (2009), a YA werewolf romance trilogy, and The Scorpio Races (2011), a standalone about water horses on an Irish island. Her prose is distinguished by its atmospheric, funny, and emotionally precise voice.",
+    genre: 'fantasy',
+    knownFor: ['The Raven Boys', 'The Scorpio Races', 'Shiver', 'The Dream Thieves'],
+  },
+  {
+    name: 'Samantha Shannon',
+    bio: "Samantha Shannon is a British author known for The Bone Season series (a fantasy series set in a near-future London) and The Priory of the Orange Tree (2019), an 850-page standalone epic fantasy widely praised as a landmark of feminist epic fantasy. Shannon began The Bone Season at Oxford University; it was published when she was 21 and compared to J.K. Rowling and Suzanne Collins. The Priory of the Orange Tree became one of the highest-profile standalone fantasy epics of the 2010s. Its prequel, A Day of Fallen Night, was published in 2023.",
+    genre: 'fantasy',
+    knownFor: ['The Priory of the Orange Tree', 'A Day of Fallen Night', 'The Bone Season'],
+  },
+  {
+    name: 'Travis Baldree',
+    bio: "Travis Baldree is an American author and audiobook narrator known for Legends & Lattes (2022), a cozy fantasy novel about an orc barbarian who retires from adventuring and opens a coffee shop — widely credited as one of the books that defined the cozy fantasy genre. Baldree originally self-published Legends & Lattes before it was acquired by Tor and became a bestseller. He has narrated over 500 audiobooks, including many fantasy and sci-fi titles. His second novel, Bookshops & Bonedust (2023), is a prequel to Legends & Lattes.",
+    genre: 'fantasy',
+    knownFor: ['Legends & Lattes', 'Bookshops & Bonedust'],
+  },
+  {
+    name: 'Lauren DeStefano',
+    bio: "Lauren DeStefano is an American author of young adult dystopian fiction known for the Chemical Garden Trilogy — Wither (2011), Fever (2012), and Sever (2013) — set in a future where a genetic engineering catastrophe has shortened human lifespans to 25 (women) and 20 (men). The trilogy is notable for its attention to the female protagonist's interior experience and its critique of reproductive control. DeStefano also wrote the Perfect Ruin series.",
+    genre: 'fiction',
+    knownFor: ['Wither', 'Fever', 'Sever'],
+  },
+  {
+    name: 'T. Kingfisher',
+    bio: "T. Kingfisher is the pen name of American author Ursula Vernon, used for work aimed at adult or older YA readers. Under this name she has written A Wizard's Guide to Defensive Baking (2020), a middle-grade fantasy about a baker who can magic bread; What Moves the Dead (2022), a Lovecraftian horror novella retelling of The Fall of the House of Usher; and the Clocktaur War duology, the Paladin's Grace series, and other adult fantasy-horror. As Ursula Vernon she also writes the award-winning Hamster Princess and Dragonbreath children's book series.",
+    genre: 'fantasy',
+    knownFor: ['A Wizard\'s Guide to Defensive Baking', 'What Moves the Dead', 'Paladin\'s Grace'],
+  },
 ];
 
 function normalize(s: string) {
