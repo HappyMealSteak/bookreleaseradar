@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like This Side of Paradise F. Scott Fitzgerald debut',
+    'books like The Beautiful and Damned F. Scott Fitzgerald',
+    'books like Absalom Absalom William Faulkner Southern Gothic',
+    'books like Light in August William Faulkner accessible',
+    'books like As I Lay Dying William Faulkner modernist',
     'books like Of Mice and Men John Steinbeck friendship',
     'books like Cannery Row John Steinbeck Monterey California',
     'books like In Our Time Ernest Hemingway short stories',
@@ -2335,6 +2340,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked This Side of Paradise by F. Scott Fitzgerald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like This Side of Paradise include The Great Gatsby and Tender Is the Night (also by Fitzgerald), The Beautiful and Damned by Fitzgerald, Brideshead Revisited by Waugh, A Portrait of the Artist as a Young Man by Joyce, Of Human Bondage by Maugham, and Look Homeward, Angel by Thomas Wolfe. Our full guide covers 8 Jazz Age Bildungsroman picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Beautiful and Damned by F. Scott Fitzgerald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Beautiful and Damned include The Great Gatsby and Tender Is the Night (also by Fitzgerald), Brideshead Revisited by Waugh, Vanity Fair by Thackeray, The Bonfire of the Vanities by Tom Wolfe, Bright Lights Big City by McInerney, Less Than Zero by Bret Easton Ellis, and The Age of Innocence by Wharton. Our full guide covers 8 Jazz Age dissolution picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Absalom, Absalom! by William Faulkner?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Absalom, Absalom! include The Sound and the Fury and Go Down Moses (also by Faulkner), Beloved by Toni Morrison, One Hundred Years of Solitude by García Márquez, Blood Meridian by Cormac McCarthy, Light in August by Faulkner, and The Known World by Edward P. Jones. Our full guide covers 8 picks for Faulkner's masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Light in August by William Faulkner?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Light in August include The Sound and the Fury and As I Lay Dying (also by Faulkner), Native Son by Richard Wright, Invisible Man by Ralph Ellison, Beloved by Toni Morrison, To Kill a Mockingbird by Harper Lee, Absalom Absalom by Faulkner, and Cold Mountain by Frazier. Our full guide covers 8 picks for new Faulkner readers." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked As I Lay Dying by William Faulkner?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like As I Lay Dying include The Sound and the Fury and Light in August (also by Faulkner), Mrs Dalloway by Virginia Woolf, The Road by Cormac McCarthy, Blood Meridian by McCarthy, Beloved by Toni Morrison, The Waves by Virginia Woolf, and In the Penal Colony by Kafka. Our full guide covers 8 modernist fiction picks." },
     },
     {
       '@type': 'Question',
