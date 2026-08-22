@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Night Circus Erin Morgenstern',
+    'books like The Shadow of the Wind Carlos Ruiz Zafon',
+    'books like Water for Elephants Sara Gruen',
+    'books like The Help Kathryn Stockett',
+    "books like The Time Traveler's Wife Audrey Niffenegger",
     'books like The Stranger Albert Camus',
     'books like Great Expectations Charles Dickens',
     'books like Sense and Sensibility Jane Austen',
@@ -2280,6 +2285,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Night Circus by Erin Morgenstern?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Night Circus include The Starless Sea by Morgenstern, Jonathan Strange & Mr Norrell by Susanna Clarke, Piranesi by Susanna Clarke, The Shadow of the Wind by Ruiz Zafón, The Bear and the Nightingale by Katherine Arden, and All the Light We Cannot See by Doerr. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Shadow of the Wind by Carlos Ruiz Zafón?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Shadow of the Wind include The Angel's Game by Zafón, The Name of the Rose by Umberto Eco, The Night Circus by Morgenstern, The Club Dumas by Pérez-Reverte, The Historian by Elizabeth Kostova, and Captain Corelli's Mandolin by Louis de Bernières. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Water for Elephants by Sara Gruen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Water for Elephants include The Night Circus by Morgenstern, Circling the Sun by Paula McLain, The Paris Wife by Paula McLain, The Zookeeper's Wife by Diane Ackerman, The Grapes of Wrath by Steinbeck, and Cold Mountain by Charles Frazier. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Help by Kathryn Stockett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Help include To Kill a Mockingbird by Harper Lee, The Color Purple by Alice Walker, Kindred by Octavia Butler, Hidden Figures by Margot Lee Shetterly, Beloved by Toni Morrison, The Secret Life of Bees by Sue Monk Kidd, and Their Eyes Were Watching God by Zora Neale Hurston. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Time Traveler's Wife by Audrey Niffenegger?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Time Traveler's Wife include Her Fearful Symmetry by Niffenegger, One Day by David Nicholls, Outlander by Diana Gabaldon, The Lovely Bones by Alice Sebold, The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid, and All the Light We Cannot See by Anthony Doerr. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
