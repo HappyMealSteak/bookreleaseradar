@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Her Body and Other Parties Carmen Maria Machado',
+    'books like Just Mercy Bryan Stevenson',
+    'books like The New Jim Crow Michelle Alexander',
+    'books like Men Explain Things to Me Rebecca Solnit',
+    'books like Know My Name Chanel Miller',
     'books like The Lone Ranger and Tonto Fistfight in Heaven Sherman Alexie',
     'books like Between the World and Me Ta-Nehisi Coates',
     'books like In the Dream House Carmen Maria Machado',
@@ -2175,6 +2180,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Her Body and Other Parties by Carmen Maria Machado?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Her Body and Other Parties include In the Dream House by Carmen Maria Machado, We Have Always Lived in the Castle by Shirley Jackson, The Haunting of Hill House by Shirley Jackson, Get in Trouble by Kelly Link, The Bloody Chamber by Angela Carter, and Florida by Lauren Groff. Our full guide covers 8 picks for fans of Machado's feminist horror story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Just Mercy by Bryan Stevenson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Just Mercy include The New Jim Crow by Michelle Alexander, Between the World and Me by Ta-Nehisi Coates, Slavery by Another Name by Douglas A. Blackmon, Devil in the Grove by Gilbert King, The Innocent Man by John Grisham, and Evicted by Matthew Desmond. Our full guide covers 8 picks for fans of Stevenson's criminal justice memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The New Jim Crow by Michelle Alexander?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The New Jim Crow include Just Mercy by Bryan Stevenson, Between the World and Me by Ta-Nehisi Coates, Slavery by Another Name by Douglas A. Blackmon, The Warmth of Other Suns by Isabel Wilkerson, Evicted by Matthew Desmond, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for fans of Alexander's mass incarceration analysis." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Men Explain Things to Me by Rebecca Solnit?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Men Explain Things to Me include Bad Feminist by Roxane Gay, Sister Outsider by Audre Lorde, We Should All Be Feminists by Chimamanda Ngozi Adichie, The Argonauts by Maggie Nelson, A Field Guide to Getting Lost by Rebecca Solnit, and Know My Name by Chanel Miller. Our full guide covers 8 picks for fans of Solnit's feminist essays." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Know My Name by Chanel Miller?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Know My Name include Men Explain Things to Me by Rebecca Solnit, Lucky by Alice Sebold, Hunger by Roxane Gay, Educated by Tara Westover, In the Dream House by Carmen Maria Machado, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Miller's survivor memoir." },
     },
     {
       '@type': 'Question',
