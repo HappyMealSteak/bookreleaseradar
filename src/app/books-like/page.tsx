@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Way We Live Now Anthony Trollope Victorian satire',
+    'books like Our Mutual Friend Charles Dickens last novel',
+    'books like Little Dorrit Charles Dickens prison bureaucracy',
+    'books like Nicholas Nickleby Charles Dickens picaresque',
+    'books like Dombey and Son Charles Dickens Victorian family',
     'books like Silas Marner George Eliot Victorian moral',
     'books like The Return of the Native Thomas Hardy Egdon Heath',
     'books like Adam Bede George Eliot debut novel',
@@ -2320,6 +2325,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Way We Live Now by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Way We Live Now include Barchester Towers and The Eustace Diamonds (also by Trollope), Vanity Fair by Thackeray, Bleak House by Dickens, The Financier by Dreiser, American Pastoral by Philip Roth, The Prime of Miss Jean Brodie by Muriel Spark, and Other People's Money by Justin Cartwright. Our full guide covers 8 picks for fans of Trollope's financial satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Our Mutual Friend by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Our Mutual Friend include Bleak House by Dickens, The Wings of the Dove by Henry James, The Way We Live Now by Trollope, The Great Gatsby by Fitzgerald, Little Dorrit by Dickens, Middlemarch by George Eliot, Buddenbrooks by Thomas Mann, and Dombey and Son by Dickens. Our full guide covers 8 picks for fans of Dickens's darkest novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Little Dorrit by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Little Dorrit include Bleak House and Great Expectations (also by Dickens), The Pickwick Papers, Les Misérables by Victor Hugo, The Trial by Franz Kafka, The Way We Live Now by Trollope, North and South by Gaskell, and David Copperfield by Dickens. Our full guide covers 8 picks for fans of Dickens's institutional satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nicholas Nickleby by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nicholas Nickleby include The Pickwick Papers and David Copperfield (also by Dickens), Tom Jones by Fielding, Oliver Twist by Dickens, Roderick Random by Smollett, Martin Chuzzlewit by Dickens, A Christmas Carol, and Huckleberry Finn by Twain. Our full guide covers 8 picks for fans of Dickens's picaresque energy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dombey and Son by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dombey and Son include Bleak House and Great Expectations (also by Dickens), Anna Karenina by Tolstoy, The Portrait of a Lady by Henry James, The Death of Ivan Ilyich by Tolstoy, David Copperfield by Dickens, Middlemarch by George Eliot, and What Maisie Knew by James. Our full guide covers 8 picks for fans of Dickens's portrait of emotional pride." },
     },
     {
       '@type': 'Question',
