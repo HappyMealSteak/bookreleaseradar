@@ -338,6 +338,11 @@ export const metadata: Metadata = {
     'books like The Virgin Suicides Jeffrey Eugenides',
     'books like Room at the Top John Braine',
     'books like Season of Migration to the North Tayeb Salih',
+    'books like Nervous Conditions Tsitsi Dangarembga',
+    'books like Americanah Chimamanda Ngozi Adichie',
+    'books like The English Patient Michael Ondaatje',
+    'books like Picnic at Hanging Rock Joan Lindsay',
+    'books like The Millstone Margaret Drabble',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1900,6 +1905,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Season of Migration to the North by Tayeb Salih?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Season of Migration to the North include Things Fall Apart by Chinua Achebe, Heart of Darkness by Joseph Conrad, A Passage to India by E.M. Forster, The Wretched of the Earth by Frantz Fanon, Half of a Yellow Sun by Chimamanda Ngozi Adichie, Maps by Nuruddin Farah, The Stranger by Albert Camus, and Petals of Blood by Ngũgĩ wa Thiong'o. Our full guide covers 8 picks for fans of Salih's postcolonial masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nervous Conditions by Tsitsi Dangarembga?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nervous Conditions include The Book of Not (also by Dangarembga), Purple Hibiscus by Chimamanda Ngozi Adichie, So Long a Letter by Mariama Bâ, Season of Migration to the North by Tayeb Salih, A Raisin in the Sun by Lorraine Hansberry, Efuru by Flora Nwapa, Homegoing by Yaa Gyasi, and Things Fall Apart by Chinua Achebe. Our full guide covers 8 picks for fans of Dangarembga's African feminist classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Americanah by Chimamanda Ngozi Adichie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Americanah include Half of a Yellow Sun (also by Adichie), Open City by Teju Cole, Swing Time by Zadie Smith, The Reluctant Fundamentalist by Mohsin Hamid, White Teeth by Zadie Smith, The Interpreter by Wole Soyinka, We Need New Names by NoViolet Bulawayo, and Dear Ijeawele by Chimamanda Ngozi Adichie. Our full guide covers 8 picks for fans of Adichie's race and identity novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The English Patient by Michael Ondaatje?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The English Patient include Anil's Ghost (also by Ondaatje), A Farewell to Arms by Ernest Hemingway, Birdsong by Sebastian Faulks, The Reader by Bernhard Schlink, Half of a Yellow Sun by Chimamanda Ngozi Adichie, The Ghost Road by Pat Barker, Cold Mountain by Charles Frazier, and A Long Long Way by Sebastian Barry. Our full guide covers 8 picks for fans of Ondaatje's Booker Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Picnic at Hanging Rock by Joan Lindsay?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Picnic at Hanging Rock include The Virgin Suicides by Jeffrey Eugenides, The Secret History by Donna Tartt, Cloudstreet by Tim Winton, The Vivisector by Patrick White, The Turn of the Screw by Henry James, Picnic by William Inge, Rebecca by Daphne du Maurier, and The Magus by John Fowles. Our full guide covers 8 picks for fans of Lindsay's haunting Australian mystery." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Millstone by Margaret Drabble?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Millstone include The Waterfall (also by Drabble), The Women's Room by Marilyn French, Excellent Women by Barbara Pym, The Bell Jar by Sylvia Plath, Disobedience by Naomi Alderman, The Prime of Miss Jean Brodie by Muriel Spark, Lolly Willowes by Sylvia Townsend Warner, and Mrs Bridge by Evan S. Connell. Our full guide covers 8 picks for fans of Drabble's postwar feminist classic." },
     },
   ],
 };
