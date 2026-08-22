@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Stranger Albert Camus',
+    'books like Great Expectations Charles Dickens',
+    'books like Sense and Sensibility Jane Austen',
+    'books like Don Quixote Cervantes',
+    'books like In Search of Lost Time Proust',
     'books like Beloved Toni Morrison',
     'books like The Poisonwood Bible Barbara Kingsolver',
     'books like And the Mountains Echoed Khaled Hosseini',
@@ -2275,6 +2280,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Stranger by Albert Camus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Stranger include The Plague and The Fall by Albert Camus, The Myth of Sisyphus, Nausea by Sartre, No Exit by Sartre, The Trial by Kafka, Steppenwolf by Hermann Hesse, and Waiting for Godot by Samuel Beckett. Our full guide covers 8 picks for fans of Camus's absurdist fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Great Expectations by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Great Expectations include David Copperfield and Bleak House by Dickens, Jane Eyre by Charlotte Brontë, Middlemarch by George Eliot, North and South by Elizabeth Gaskell, Oliver Twist, and The Portrait of a Lady by Henry James. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sense and Sensibility by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sense and Sensibility include Pride and Prejudice, Emma, and Persuasion by Austen, Jane Eyre by Charlotte Brontë, Middlemarch by George Eliot, North and South by Gaskell, Longbourn by Jo Baker, and The Tenant of Wildfell Hall by Anne Brontë. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Don Quixote by Cervantes?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Don Quixote include Tom Jones by Henry Fielding, Tristram Shandy by Sterne, Candide by Voltaire, One Hundred Years of Solitude by García Márquez, The Master and Margarita by Bulgakov, Huckleberry Finn by Twain, and Zorba the Greek by Kazantzakis. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In Search of Lost Time by Proust?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In Search of Lost Time include Mrs Dalloway and To the Lighthouse by Virginia Woolf, Ulysses by James Joyce, The Magic Mountain by Thomas Mann, The Rings of Saturn by W.G. Sebald, and Beckett's essay On Reading Proust. Our full guide covers 8 picks for fans of Proust." },
     },
     {
       '@type': 'Question',
