@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Letters from a Stoic Seneca',
+    'books like Cosmos Carl Sagan',
+    'books like The Obstacle Is the Way Ryan Holiday',
+    'books like How to Win Friends and Influence People Dale Carnegie',
+    'books like The 48 Laws of Power Robert Greene',
     'books like The Checklist Manifesto Atul Gawande',
     'books like The Selfish Gene Richard Dawkins',
     'books like A Brief History of Time Stephen Hawking',
@@ -2255,6 +2260,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Letters from a Stoic by Seneca?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Letters from a Stoic include Meditations by Marcus Aurelius, Discourses by Epictetus, On the Shortness of Life by Seneca, The Obstacle Is the Way by Ryan Holiday, The Daily Stoic by Ryan Holiday, and Man's Search for Meaning by Viktor Frankl. Our full guide covers 8 picks for fans of Seneca's Stoic letters." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cosmos by Carl Sagan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cosmos include Pale Blue Dot by Carl Sagan, The Demon-Haunted World by Carl Sagan, A Brief History of Time by Stephen Hawking, Astrophysics for People in a Hurry by Neil deGrasse Tyson, The Elegant Universe by Brian Greene, and Seven Brief Lessons on Physics by Carlo Rovelli. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Obstacle Is the Way by Ryan Holiday?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Obstacle Is the Way include Ego Is the Enemy by Ryan Holiday, Stillness Is the Key by Ryan Holiday, Meditations by Marcus Aurelius, Letters from a Stoic by Seneca, Grit by Angela Duckworth, Can't Hurt Me by David Goggins, and Man's Search for Meaning by Viktor Frankl. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked How to Win Friends and Influence People by Dale Carnegie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like How to Win Friends and Influence People include Influence by Robert Cialdini, Never Split the Difference by Chris Voss, How to Stop Worrying and Start Living by Carnegie, Nonviolent Communication by Marshall Rosenberg, Quiet by Susan Cain, and Social by Matthew Lieberman. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The 48 Laws of Power by Robert Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The 48 Laws of Power include Mastery by Robert Greene, The Laws of Human Nature by Robert Greene, The Art of Seduction by Robert Greene, The Prince by Machiavelli, The Art of War by Sun Tzu, Influence by Robert Cialdini, and Never Split the Difference by Chris Voss. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
