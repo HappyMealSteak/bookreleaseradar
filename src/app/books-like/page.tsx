@@ -187,6 +187,11 @@ export const metadata: Metadata = {
     'books like Reminders of Him Colleen Hoover',
     'books like Song of Solomon Toni Morrison',
     'books like Beloved Toni Morrison',
+    'books like The Great Gatsby F. Scott Fitzgerald',
+    'books like To Kill a Mockingbird Harper Lee',
+    'books like The God of Small Things Arundhati Roy',
+    'books like Call Me by Your Name André Aciman',
+    'books like Invisible Man Ralph Ellison',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -989,6 +994,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Beloved by Toni Morrison?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Beloved include Song of Solomon and The Bluest Eye (also by Toni Morrison), Their Eyes Were Watching God by Zora Neale Hurston, Kindred by Octavia Butler, The Known World by Edward P. Jones, Homegoing by Yaa Gyasi, Roots by Alex Haley, and The Color Purple by Alice Walker. Our full guide covers 8 picks for fans of Morrison's Pulitzer Prize winner and its excavation of what slavery did to Black families." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Great Gatsby by F. Scott Fitzgerald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Great Gatsby include Tender Is the Night by F. Scott Fitzgerald, The Sun Also Rises by Ernest Hemingway, Revolutionary Road by Richard Yates, American Psycho by Bret Easton Ellis, The Age of Innocence by Edith Wharton, Breakfast at Tiffany's by Truman Capote, The Secret History by Donna Tartt, and Brideshead Revisited by Evelyn Waugh. Our full guide covers 8 picks for fans of Fitzgerald's meditation on the American Dream and the Long Island summer that ends in violence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked To Kill a Mockingbird by Harper Lee?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like To Kill a Mockingbird include The Help by Kathryn Stockett, Just Mercy by Bryan Stevenson, The Color Purple by Alice Walker, Their Eyes Were Watching God by Zora Neale Hurston, A Gentleman in Moscow by Amor Towles, The Kite Runner by Khaled Hosseini, Beloved by Toni Morrison, and In the Time of the Butterflies by Julia Alvarez. Our full guide covers 8 picks for fans of Harper Lee's portrait of conscience in the face of racial injustice." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The God of Small Things by Arundhati Roy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The God of Small Things include The Hours by Michael Cunningham, Midnight's Children by Salman Rushdie, A Fine Balance by Rohinton Mistry, The Inheritance of Loss by Kiran Desai, Beloved by Toni Morrison, One Hundred Years of Solitude by Gabriel García Márquez, A Suitable Boy by Vikram Seth, and The White Tiger by Aravind Adiga. Our full guide covers 8 picks for fans of Roy's non-linear structure and its examination of how caste determines which loves are permitted." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Call Me by Your Name by André Aciman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Call Me by Your Name include Giovanni's Room by James Baldwin, Find Me by André Aciman, Maurice by E. M. Forster, The Swimming-Pool Library by Alan Hollinghurst, Enigma Variations by André Aciman, A Little Life by Hanya Yanagihara, Less by Andrew Sean Greer, and On Earth We're Briefly Gorgeous by Ocean Vuong. Our full guide covers 8 picks for fans of Aciman's obsessive interiority and his evocation of a queer first love in northern Italy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Invisible Man by Ralph Ellison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Invisible Man include Native Son by Richard Wright, Go Tell It on the Mountain by James Baldwin, Song of Solomon by Toni Morrison, Their Eyes Were Watching God by Zora Neale Hurston, The Autobiography of Malcolm X, Beloved by Toni Morrison, Giovanni's Room by James Baldwin, and Manchild in the Promised Land by Claude Brown. Our full guide covers 8 picks for fans of Ellison's blistering satire of race relations and his nameless narrator's search for identity." },
     },
   ],
 };
