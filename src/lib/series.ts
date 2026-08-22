@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'bear-and-the-nightingale',
+    name: 'Winternight Trilogy',
+    shortName: 'Bear and the Nightingale',
+    author: 'Katherine Arden',
+    authorQuery: 'Katherine Arden',
+    genre: 'fantasy',
+    description:
+      "Katherine Arden's Winternight Trilogy is a historical fantasy set in medieval Russia, following Vasilisa Petrovna — a girl born able to see the old Slavic spirits that Russian Orthodox Christianity has been working to extinguish. As the church's power grows and the village neglects its protective spirits, Vasya must navigate between the human world, the Church, and the increasingly dangerous spirit world. Arden studied Russian at Middlebury College and the trilogy draws on authentic Slavic mythology and medieval Russian history. The prose is lyrical and atmospheric, the magic is treated as real and dangerous, and the world is more complex than any binary of Christianity vs. paganism suggests.",
+    searchTerms: [
+      'Katherine Arden new book',
+      'Bear and the Nightingale reading order',
+      'Winternight Trilogy order',
+      'Bear and the Nightingale books in order',
+    ],
+  },
+  {
+    slug: 'a-memory-called-empire',
+    name: 'Teixcalaan',
+    shortName: 'Teixcalaan',
+    author: 'Arkady Martine',
+    authorQuery: 'Arkady Martine',
+    genre: 'sci-fi',
+    description:
+      "Arkady Martine's Teixcalaan series is a Hugo Award–winning space opera duology following Mahit Dzmare, the ambassador from a tiny independent mining station, who arrives at the capital of the Teixcalaan empire to find that her predecessor was murdered. Mahit carries a neurological implant containing a copy of her predecessor's memories — which may be failing. The series draws on Byzantine imperial history (Martine is a Byzantine historian) and explores empire, assimilation, identity, and the appeal of belonging to something vast and beautiful. Both novels won the Hugo Award for Best Novel.",
+    searchTerms: [
+      'Arkady Martine new book',
+      'A Memory Called Empire reading order',
+      'Teixcalaan series order',
+      'A Memory Called Empire sequel',
+    ],
+  },
+  {
+    slug: 'daughter-of-the-moon-goddess',
+    name: 'Celestial Kingdom',
+    shortName: 'Daughter of the Moon Goddess',
+    author: 'Sue Lynn Tan',
+    authorQuery: 'Sue Lynn Tan',
+    genre: 'fantasy',
+    description:
+      "Sue Lynn Tan's Celestial Kingdom duology is a lyrical fantasy drawing on Chinese mythology — specifically the legend of Chang'e, the moon goddess exiled to the moon, and her daughter Xingyin. When Xingyin accidentally reveals her powers to the Celestial Emperor, she flees the moon and must make her way in the celestial realm without revealing her identity. The duology is known for its gorgeous prose, its rooting in authentic Chinese mythological tradition, and its emotional depth — a story about sacrifice, identity, and the relationship between mothers and daughters across an immortal world.",
+    searchTerms: [
+      'Sue Lynn Tan new book',
+      'Daughter of the Moon Goddess reading order',
+      'Celestial Kingdom series order',
+      'Heart of the Sun Warrior reading order',
+    ],
+  },
+  {
     slug: 'night-circus',
     name: 'The Night Circus',
     shortName: 'Night Circus',

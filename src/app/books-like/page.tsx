@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     'books like The Night Circus Erin Morgenstern',
     'books like City of Brass Daevabad',
     'books like Priory of the Orange Tree',
+    'books like Bear and the Nightingale Katherine Arden',
+    'books like A Memory Called Empire',
+    'books like Daughter of the Moon Goddess',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -160,6 +163,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Bear and the Nightingale?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bear and the Nightingale include The Night Circus by Erin Morgenstern, Jonathan Strange & Mr Norrell by Susanna Clarke, The City of Brass by S.A. Chakraborty, Daughter of the Moon Goddess by Sue Lynn Tan, and Piranesi by Susanna Clarke. Our full Winternight guide covers 8 atmospheric historical mythology picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after A Memory Called Empire?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Memory Called Empire include The Poppy War by R.F. Kuang, The City of Brass by S.A. Chakraborty, Six of Crows by Leigh Bardugo, The Long Way to a Small Angry Planet by Becky Chambers, and The Dispossessed by Ursula K. Le Guin. Our full Teixcalaan guide covers 8 picks for political space opera fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Daughter of the Moon Goddess?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Daughter of the Moon Goddess include The City of Brass by S.A. Chakraborty, The Poppy War by R.F. Kuang, The Bear and the Nightingale by Katherine Arden, Children of Blood and Bone by Tomi Adeyemi, and An Ember in the Ashes. Our full Moon Goddess guide covers 8 Asian and world mythology fantasy picks." },
     },
     {
       '@type': 'Question',

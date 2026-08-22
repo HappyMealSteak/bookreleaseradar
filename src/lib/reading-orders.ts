@@ -1154,6 +1154,52 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Should I read Priory of the Orange Tree or A Day of Fallen Night first?', a: "You can read either first. A Day of Fallen Night is a prequel set 500 years before Priory and functions as a complete standalone story. Most readers start with The Priory of the Orange Tree (published first and more widely read), but reading A Day of Fallen Night first provides historical context that enriches the later book." },
     ],
   },
+  {
+    slug: 'bear-and-the-nightingale',
+    intro: "Katherine Arden's Winternight Trilogy is a complete three-book historical fantasy set in medieval Russia, following Vasilisa Petrovna — a girl who can see the old spirits her village's Christianity is working to erase. The trilogy draws on authentic Slavic mythology and the history of medieval Russia. All three books should be read in order; the story is one complete arc across the trilogy.",
+    startWith: 'The Bear and the Nightingale',
+    books: [
+      { title: 'The Bear and the Nightingale', author: 'Katherine Arden', year: 2017, note: "Book 1 — Vasya is a strange child in a village where the old spirits are dying as Christianity spreads; she alone can still see them" },
+      { title: 'The Girl in the Tower', author: 'Katherine Arden', year: 2017, note: "Book 2 — Vasya escapes her village and travels to Moscow, disguised as a boy; the Winter King's power grows" },
+      { title: 'The Winter of the Witch', author: 'Katherine Arden', year: 2019, note: "Book 3 — Moscow burns; Vasya must choose between the old world and the new, and between two winter kings" },
+    ],
+    faq: [
+      { q: 'What is The Bear and the Nightingale reading order?', a: "Read The Bear and the Nightingale (2017), then The Girl in the Tower (2017), then The Winter of the Witch (2019). The Winternight Trilogy must be read in order — it tells one continuous story across all three books." },
+      { q: 'How many Bear and the Nightingale books are there?', a: "Katherine Arden's Winternight Trilogy is a complete three-book series: The Bear and the Nightingale (2017), The Girl in the Tower (2017), and The Winter of the Witch (2019). The trilogy is fully published and concluded." },
+      { q: 'What mythology is The Bear and the Nightingale based on?', a: "The Bear and the Nightingale draws on authentic Slavic mythology, particularly Russian folk tales and the spirit-world (domovoi, dvorovoi, bannik, and other household and natural spirits) that Russian peasant Christianity absorbed or suppressed. Arden studied Russian at Middlebury College and researched Russian folklore extensively for the series." },
+      { q: 'Is The Bear and the Nightingale similar to Jonathan Strange & Mr Norrell?', a: "They share an atmospheric, literary approach to magic that treats it as both ancient and dangerous, and both are set in recognizable historical periods (medieval Russia vs. Napoleonic England). Arden's prose is more accessible and her pacing faster; Clarke's is more ironic and exhaustively detailed. Both are excellent." },
+    ],
+  },
+  {
+    slug: 'a-memory-called-empire',
+    intro: "Arkady Martine's Teixcalaan series is a complete two-book space opera set in an interstellar empire. The story begins when Mahit Dzmare, the ambassador from a small independent mining station, arrives at the empire's capital to investigate the death of her predecessor. The two novels must be read in order; both follow Mahit and Three Seagrass across two distinct crises.",
+    startWith: 'A Memory Called Empire',
+    books: [
+      { title: 'A Memory Called Empire', author: 'Arkady Martine', year: 2019, note: "Book 1 — Ambassador Mahit Dzmare arrives at Teixcalaan's capital and discovers her predecessor was murdered; won the Hugo Award" },
+      { title: 'A Desolation Called Peace', author: 'Arkady Martine', year: 2021, note: "Book 2 — Three Seagrass investigates an alien contact scenario at the edge of empire; won the Hugo Award" },
+    ],
+    faq: [
+      { q: 'What is A Memory Called Empire reading order?', a: "Read A Memory Called Empire (2019) first, then A Desolation Called Peace (2021). The Teixcalaan series by Arkady Martine is a complete duology — both books must be read in order, though A Desolation Called Peace features a partially different cast." },
+      { q: 'How many Teixcalaan books are there?', a: "The Teixcalaan series by Arkady Martine currently consists of two books: A Memory Called Empire (2019) and A Desolation Called Peace (2021). Both won the Hugo Award for Best Novel. Martine has indicated possible future books but none are announced." },
+      { q: 'What is A Memory Called Empire about?', a: "A Memory Called Empire follows Mahit Dzmare, the ambassador from Lsel Station — a small independent mining station — who arrives at the capital of the Teixcalaan empire to investigate the death of her predecessor. She carries a neurological implant containing a copy of her predecessor's memories, which may be outdated and failing. The novel is a political thriller about empire, identity, and the seduction of assimilation." },
+      { q: 'Is A Memory Called Empire science fiction or fantasy?', a: "A Memory Called Empire is classified as science fiction — a space opera set in an interstellar empire — but its sensibility and prose style are closer to literary fiction and political fantasy. Arkady Martine is a Byzantine historian, and the novel draws heavily on Byzantine imperial court structure and culture." },
+    ],
+  },
+  {
+    slug: 'daughter-of-the-moon-goddess',
+    intro: "Sue Lynn Tan's Celestial Kingdom duology is a complete two-book fantasy drawing on Chinese mythology, particularly the legend of Chang'e (the moon goddess) and her daughter. Both books must be read in order; the duology tells a complete story across both volumes.",
+    startWith: 'Daughter of the Moon Goddess',
+    books: [
+      { title: 'Daughter of the Moon Goddess', author: 'Sue Lynn Tan', year: 2022, note: "Book 1 — Xingyin flees the moon to save her mother and trains as a celestial soldier, hiding her identity" },
+      { title: 'Heart of the Sun Warrior', author: 'Sue Lynn Tan', year: 2022, note: "Book 2 — The duology conclusion; Xingyin faces the greatest threat to the celestial kingdom" },
+    ],
+    faq: [
+      { q: 'What is the Daughter of the Moon Goddess reading order?', a: "Read Daughter of the Moon Goddess (2022) first, then Heart of the Sun Warrior (2022). The Celestial Kingdom duology by Sue Lynn Tan must be read in order — Heart of the Sun Warrior is the direct continuation and conclusion." },
+      { q: 'How many Daughter of the Moon Goddess books are there?', a: "The Celestial Kingdom series by Sue Lynn Tan is a complete duology: Daughter of the Moon Goddess (2022) and Heart of the Sun Warrior (2022). Both books are published and the story is complete." },
+      { q: 'What mythology is Daughter of the Moon Goddess based on?', a: "Daughter of the Moon Goddess draws primarily on the legend of Chang'e, the Chinese moon goddess who drank an immortality elixir and was exiled to the moon, and the larger mythology of Chinese celestial culture — the Jade Emperor, celestial soldiers, and the mortal realm. Tan also draws on the legend of Houyi the archer and the Monkey King." },
+      { q: 'Is Daughter of the Moon Goddess similar to City of Brass or The Poppy War?', a: "All three draw on non-Western mythology with similar literary seriousness. Daughter of the Moon Goddess is the most lyrical and romantic of the three; The Poppy War is the most brutal and historically grounded; City of Brass is the most politically intricate. All three reward readers who want fantasy built from sources outside the Western European tradition." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
