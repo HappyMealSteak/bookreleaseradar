@@ -600,6 +600,24 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['Kingdom of the Wicked', 'Stalking Jack the Ripper'],
   },
+  {
+    name: 'Octavia Butler',
+    bio: "Octavia Butler (1947–2006) was an American science fiction author widely regarded as one of the greatest SF writers of the 20th century and the first major African American woman in the genre. Her major works include Kindred (1979), the Parable series (Parable of the Sower, 1993; Parable of the Talents, 1998), the Patternist series, and the Bloodchild short fiction collection. She won multiple Hugo and Nebula Awards, a PEN Lifetime Achievement Award, and a MacArthur Fellowship. Butler wrote science fiction as a tool for examining real social structures — race, gender, power, biology — from angles that prose realism could not access. She died in 2006 at age 58, leaving the Parable series incomplete.",
+    genre: 'sci-fi',
+    knownFor: ['Kindred', 'Parable of the Sower', 'Parable of the Talents'],
+  },
+  {
+    name: 'Emily St. John Mandel',
+    bio: "Emily St. John Mandel is a Canadian-American author best known for Station Eleven (2014), a literary novel set before and after a flu pandemic kills most of the world's population. Station Eleven was a finalist for the National Book Award and the PEN/Faulkner Award, adapted into an HBO Max miniseries in 2021, and became one of the defining pandemic novels in American literature. She has since written The Glass Hotel (2020), a companion novel sharing some characters with Station Eleven, and Sea of Tranquility (2022), which connects all three novels through a time-travel mystery. Her earlier novels (Last Night in Montreal, The Singer's Gun, The Lola Quartet) are literary thrillers.",
+    genre: 'fiction',
+    knownFor: ['Station Eleven', 'Sea of Tranquility', 'The Glass Hotel'],
+  },
+  {
+    name: 'Matt Haig',
+    bio: "Matt Haig is a British author best known for The Midnight Library (2020), a literary novel about a woman who discovers a library between life and death where every book is a life she didn't live. The Midnight Library became one of the best-selling novels of the 2020s, selling millions of copies worldwide and being translated into over 40 languages. Haig is also the author of the memoir Reasons to Stay Alive (2015), about his experience with depression and anxiety, and several other novels including The Humans (2013) and How to Stop Time (2017). He is known for literary fiction that engages directly with mental health, often in accessible and emotionally warm registers.",
+    genre: 'fiction',
+    knownFor: ['The Midnight Library', 'Reasons to Stay Alive', 'The Humans'],
+  },
 ];
 
 function normalize(s: string) {
