@@ -137,6 +137,11 @@ export const metadata: Metadata = {
     'books like The Girl on the Train Paula Hawkins',
     'books like Shuggie Bain Douglas Stuart',
     'books like Shadow of the Wind Carlos Ruiz Zafon',
+    'books like The Silent Patient Alex Michaelides',
+    'books like Verity Colleen Hoover',
+    'books like It Ends with Us Colleen Hoover',
+    'books like The Seven Husbands of Evelyn Hugo Taylor Jenkins Reid',
+    'books like Hamnet Maggie O Farrell',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -689,6 +694,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Shadow of the Wind by Carlos Ruiz Zafón?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Shadow of the Wind include The Angel's Game and The Labyrinth of the Spirits (also by Zafón), A Gentleman in Moscow by Amor Towles, The Name of the Rose by Umberto Eco, The Book Thief by Markus Zusak, All the Light We Cannot See by Anthony Doerr, and The House of the Spirits by Isabel Allende. Our full guide covers 8 picks for fans of gothic literary mysteries set in atmospheric European cities." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Silent Patient by Alex Michaelides?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Silent Patient include Gone Girl by Gillian Flynn, The Girl on the Train by Paula Hawkins, Verity by Colleen Hoover, Behind Closed Doors by B.A. Paris, The Woman in the Window by A.J. Finn, The Secret History by Donna Tartt, and Nine Perfect Strangers by Liane Moriarty. Our full guide covers 8 picks for fans of psychological thrillers built around unreliable narrators and major late-novel reveals." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Verity by Colleen Hoover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Verity include Gone Girl by Gillian Flynn, The Silent Patient by Alex Michaelides, Behind Closed Doors by B.A. Paris, The Woman in the Window by A.J. Finn, It Ends with Us by Colleen Hoover, The Girl on the Train by Paula Hawkins, and The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid. Our full guide covers 8 picks for fans of dark romance thrillers with ambiguous endings." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked It Ends with Us by Colleen Hoover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like It Ends with Us include It Starts with Us (the sequel), Verity and Ugly Love (also by Hoover), The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid, Big Little Lies by Liane Moriarty, Normal People by Sally Rooney, and November 9 by Colleen Hoover. Our full guide covers 8 picks for fans of emotionally devastating romance that doesn't flinch from difficult truths about love and harm." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Seven Husbands of Evelyn Hugo include Daisy Jones and the Six and Malibu Rising (also by Taylor Jenkins Reid), Normal People by Sally Rooney, Big Little Lies by Liane Moriarty, Where the Crawdads Sing by Delia Owens, The Nightingale by Kristin Hannah, and Hamnet by Maggie O'Farrell. Our full guide covers 8 picks for fans of sweeping historical fiction with devastating emotional reveals." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Hamnet by Maggie O'Farrell?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hamnet include A Gentleman in Moscow by Amor Towles, All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, Homegoing by Yaa Gyasi, Pachinko by Min Jin Lee, Room by Emma Donoghue, and Shuggie Bain by Douglas Stuart. Our full guide covers 8 picks for fans of beautifully written historical fiction about women history has made invisible." },
     },
   ],
 };

@@ -2312,6 +2312,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Shadow of the Wind popular outside Spain?', a: "The Shadow of the Wind was originally published in Spanish in 2001 and became a publishing phenomenon in Spain; the English translation (2004) made it an international bestseller, selling over 15 million copies in 40 languages. It is considered one of the most successful translated literary novels of the early 21st century and helped establish the global appetite for Spanish literary fiction." },
     ],
   },
+  {
+    slug: 'the-silent-patient',
+    intro: "Alex Michaelides's The Silent Patient (2019) is the first book in a series featuring criminal psychotherapist Theo Faber, followed by The Maidens (2021) and The Life We Left Behind (2024). However, each novel is largely independent — The Maidens introduces a new case and can be read without having read The Silent Patient. The Silent Patient follows Alicia Berenson, a famous painter who shot her husband and has refused to speak a single word since — and Theo Faber, who becomes obsessed with making her talk.",
+    startWith: 'The Silent Patient',
+    books: [
+      { title: 'The Silent Patient', author: 'Alex Michaelides', year: 2019, note: "A famous painter shoots her husband and refuses to speak; a criminal psychotherapist becomes obsessed with making her talk — a psychological thriller with a major late-novel twist" },
+      { title: 'The Maidens', author: 'Alex Michaelides', year: 2021, note: "Theo Faber investigates the death of a Cambridge student connected to a secret society and a charismatic Greek professor; can be read independently", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read The Silent Patient before The Maidens?', a: "The Maidens features the same Theo Faber as a protagonist but follows an entirely independent case — you can read it without having read The Silent Patient. However, The Silent Patient's twist is referenced in The Maidens, so if you plan to read both, read The Silent Patient first to avoid the revelation being spoiled." },
+      { q: 'Does The Silent Patient have a twist?', a: "The Silent Patient has a major structural twist in its final act that recontextualizes the entire novel. Because this is so widely known, many readers encounter it already spoiled; the novel is well-crafted enough to be satisfying even when you know the general shape of what's coming." },
+      { q: 'Is The Silent Patient similar to Gone Girl?', a: "Both novels use an unreliable narrator structure that leads to a late-novel revelation. The Silent Patient is more conventional as a thriller — less literary than Gone Girl, more focused on the mechanics of the reveal. Gone Girl is interested in gender politics in a way The Silent Patient isn't; The Silent Patient is more interested in the mythology of Greek tragedy, which it uses as a framework throughout." },
+      { q: 'What is the Greek tragedy reference in The Silent Patient?', a: "The Silent Patient uses Euripides's Alcestis — in which a woman dies to save her husband and is brought back from the dead — as a framework for Alicia's story. The painting she completed just before the shooting is called 'Alcestis.' The novel's interest in the myth is in the specific question of what a woman owes a husband and what happens when that debt is refused." },
+    ],
+  },
+  {
+    slug: 'verity',
+    intro: "Colleen Hoover's Verity (2018, republished 2021) is a complete standalone novel. There is no sequel. The novel follows Lowen Ashby, a struggling writer who is hired to complete the remaining books in a bestselling thriller series when the author, Verity Crawford, is incapacitated. While staying in the Crawford house, Lowen discovers a disturbing manuscript hidden in Verity's study — a manuscript that may be Verity's autobiography, or may be fiction, or may be a confession. Verity became a BookTok phenomenon in 2021–2022, selling millions of copies years after its original publication.",
+    startWith: 'Verity',
+    books: [
+      { title: 'Verity', author: 'Colleen Hoover', year: 2018, note: "Standalone — a struggling writer hired to complete a bestselling thriller author's series finds a disturbing hidden manuscript that may be autobiography, fiction, or confession; a dark romance thriller" },
+    ],
+    faq: [
+      { q: 'Is Verity a standalone?', a: "Yes — Verity is a complete standalone novel. Colleen Hoover has written many other romance and fiction novels (It Ends with Us, Ugly Love, Reminders of Him, November 9), but Verity is entirely independent." },
+      { q: 'Is Verity a romance or a thriller?', a: "Verity is marketed as a dark romance thriller — it contains an explicit romantic and sexual storyline between Lowen and Jeremy Crawford (Verity's husband), and it also contains elements of psychological horror and the central mystery of the manuscript. Readers who primarily read romance often describe it as one of the darkest books they've encountered; readers who primarily read thrillers often describe it as more romantic than expected. The combination is what makes it distinctive." },
+      { q: 'What is the ending of Verity?', a: "Verity has a genuinely ambiguous ending — the novel leaves the question of whether the manuscript was truth or fiction unresolved in a way that Hoover has said is intentional. The two possible interpretations of the ending are both supported by the text, and readers are divided on which they believe. The answer matters morally, and Hoover's willingness to leave it open is one reason the novel generates so much discussion." },
+      { q: 'Is Verity appropriate for all readers?', a: "Verity contains explicit sexual content, graphic violence including violence against children, and significant psychological manipulation. Hoover does not soften these elements. The novel is categorized as adult fiction; most libraries shelve it with adult popular fiction." },
+    ],
+  },
+  {
+    slug: 'it-ends-with-us',
+    intro: "Colleen Hoover's It Ends with Us (2016) is the first book in a duology, followed by It Starts with Us (2022). The duology follows Lily Bloom, a woman who falls in love with a neurosurgeon named Ryle Kincaid and must confront the cycle of domestic violence in her relationship — partly through understanding the parallel in her parents' marriage and partly through reconnecting with her first love, Atlas Corrigan. It Ends with Us became one of the most discussed books in BookTok history, selling over 10 million copies years after its original publication.",
+    startWith: 'It Ends with Us',
+    books: [
+      { title: 'It Ends with Us', author: 'Colleen Hoover', year: 2016, note: "Lily Bloom falls for neurosurgeon Ryle Kincaid and must confront a pattern of domestic violence in her relationship; partly autobiographical — Hoover dedicated it to her father" },
+      { title: 'It Starts with Us', author: 'Colleen Hoover', year: 2022, note: "Picks up where It Ends with Us ends — Lily begins a new relationship with Atlas and must navigate co-parenting with Ryle" },
+    ],
+    faq: [
+      { q: 'Do I need to read It Ends with Us before It Starts with Us?', a: "Yes — It Starts with Us begins immediately where It Ends with Us ends and requires having read the first book. The characters, relationships, and the emotional stakes of the ending all carry directly into the sequel." },
+      { q: 'Is It Ends with Us based on a true story?', a: "It Ends with Us is fiction, but Colleen Hoover has said it was partly inspired by her relationship with her father, who was abusive toward her mother. She dedicated the book to him and has said in interviews that writing it helped her understand and have compassion for the cycle her mother experienced. The characters and specific events are invented." },
+      { q: 'Is It Ends with Us appropriate for all readers?', a: "It Ends with Us deals directly with domestic violence and emotional abuse in a relationship the reader is meant to find romantic in its early stages. Some readers have found this combination uncomfortable; others have found it one of the most accurate portrayals of how domestic violence works in relationships that feel loving. Content warnings: domestic violence, childhood trauma." },
+      { q: 'Why did It Ends with Us become so popular years after publication?', a: "It Ends with Us was originally published in 2016 and sold modestly. In 2021 and 2022, BookTok (TikTok's book community) drove it back onto bestseller lists, eventually making it one of the most-read books of 2022 and 2023. The film adaptation (2024, starring Blake Lively and Justin Baldoni) brought a new wave of readers." },
+    ],
+  },
+  {
+    slug: 'seven-husbands-evelyn-hugo',
+    intro: "Taylor Jenkins Reid's The Seven Husbands of Evelyn Hugo (2017) is a complete standalone novel. There is no sequel. The novel follows Evelyn Hugo, a fictional 1950s–1980s Hollywood star, who chooses Monique Grant — an unknown journalist from a small magazine — to write her biography and finally tell the truth about her life, her seven husbands, and the great love of her life. The novel became one of the most celebrated BookTok recommendations of 2021–2023.",
+    startWith: 'The Seven Husbands of Evelyn Hugo',
+    books: [
+      { title: 'The Seven Husbands of Evelyn Hugo', author: 'Taylor Jenkins Reid', year: 2017, note: "Standalone — fictional 1950s Hollywood star Evelyn Hugo chooses an unknown journalist to tell the truth about her seven husbands and the great love of her life; a novel about art, ambition, queerness, and what women sacrifice for fame" },
+    ],
+    faq: [
+      { q: 'Is The Seven Husbands of Evelyn Hugo a standalone?', a: "Yes — The Seven Husbands of Evelyn Hugo is a complete standalone novel. Taylor Jenkins Reid has written other standalone novels (Daisy Jones and the Six, Malibu Rising, Carrie Soto Is Back, The Idea of You), but Evelyn Hugo is entirely independent." },
+      { q: 'Is Evelyn Hugo a real person?', a: "No — Evelyn Hugo is a fictional character. Taylor Jenkins Reid has said she drew on aspects of several real Hollywood stars (Ava Gardner, Elizabeth Taylor, Rita Hayworth) but Evelyn Hugo is an original invention. The novel is set in a real historical Hollywood but with fictional characters." },
+      { q: 'Is The Seven Husbands of Evelyn Hugo LGBTQ fiction?', a: "The Seven Husbands of Evelyn Hugo features a bisexual protagonist and a central same-sex love story that is one of the novel's most significant elements. It is often recommended as a romance novel with LGBTQ themes that is accessible to all readers regardless of familiarity with the genre." },
+      { q: 'What is the twist in The Seven Husbands of Evelyn Hugo?', a: "The Seven Husbands of Evelyn Hugo has a reveal in its final act about why Evelyn chose Monique specifically to tell her story. The revelation is somewhat telegraphed throughout the novel — attentive readers may anticipate it — but it is emotionally effective and changes how the novel reads in retrospect." },
+    ],
+  },
+  {
+    slug: 'hamnet',
+    intro: "Maggie O'Farrell's Hamnet (2020) is a complete standalone novel. There is no sequel. The novel imagines the life of Agnes, the wife of the man who would become William Shakespeare, in Elizabethan Stratford-upon-Avon — and the death of their 11-year-old son Hamnet from plague in 1596, which preceded the writing of Hamlet by a few years. O'Farrell never names Agnes's husband as Shakespeare. Hamnet won the Women's Prize for Fiction in 2020.",
+    startWith: 'Hamnet',
+    books: [
+      { title: 'Hamnet', author: 'Maggie O\'Farrell', year: 2020, note: "Standalone — Agnes, wife of an unnamed playwright in Elizabethan Stratford, grieves the death of her son Hamnet from plague; Women's Prize for Fiction winner" },
+    ],
+    faq: [
+      { q: 'Is Hamnet a standalone?', a: "Yes — Hamnet is a complete standalone novel. Maggie O'Farrell has written other novels (Instructions for a Heatwave, I Am, I Am, I Am, The Marriage Portrait), but Hamnet is entirely independent." },
+      { q: "Why doesn't O'Farrell name Shakespeare in Hamnet?", a: "O'Farrell has said in interviews that naming Agnes's husband as Shakespeare would make him the subject of the novel, when she intended Agnes and Hamnet to be the subjects. By referring to him only as 'the Latin master' or 'her husband,' she keeps the focus on the domestic life that the famous name would overwhelm. The novel is not about Shakespeare the playwright — it's about the woman and the son his fame has made invisible." },
+      { q: 'Is Hamnet based on true events?', a: "Hamnet is historical fiction. Shakespeare did have a son named Hamnet who died at 11 in 1596, likely of plague; Shakespeare's wife was Anne Hathaway, whom O'Farrell calls Agnes (the name appears in her father's will). Shakespeare did write Hamlet a few years after Hamnet's death. The novel imagines the interior of events that history records only as dates." },
+      { q: "How does Hamnet relate to Shakespeare's Hamlet?", a: "The novel's final section addresses the possible connection between the death of a son named Hamnet (whose name was interchangeable with Hamlet in Elizabethan spelling) and the writing of Shakespeare's great tragedy about a son mourning a father. O'Farrell doesn't make the connection explicit, but the novel's emotional arc arrives at a specific understanding of what Agnes might have felt watching a play that bore her dead son's name." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
