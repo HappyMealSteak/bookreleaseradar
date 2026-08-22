@@ -177,6 +177,11 @@ export const metadata: Metadata = {
     'books like Their Eyes Were Watching God Zora Neale Hurston',
     'books like I Know Why the Caged Bird Sings Maya Angelou',
     'books like The Pillars of the Earth Ken Follett',
+    'books like One Hundred Years of Solitude Gabriel Garcia Marquez',
+    'books like The Bell Jar Sylvia Plath',
+    'books like Fahrenheit 451 Ray Bradbury',
+    'books like Ugly Love Colleen Hoover',
+    'books like The Bluest Eye Toni Morrison',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -929,6 +934,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Pillars of the Earth by Ken Follett?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Pillars of the Earth include World Without End by Ken Follett (the direct sequel set 200 years later), The Name of the Rose by Umberto Eco, Shōgun by James Clavell, Lonesome Dove by Larry McMurtry, The Shadow of the Wind by Carlos Ruiz Zafón, An Instance of the Fingerpost by Iain Pears, and the Outlander series by Diana Gabaldon. Our full guide covers 8 picks for fans of epic historical fiction with vast casts and immersive world-building." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked One Hundred Years of Solitude by Gabriel García Márquez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Hundred Years of Solitude include Love in the Time of Cholera by García Márquez, The House of the Spirits by Isabel Allende, Beloved by Toni Morrison, Midnight's Children by Salman Rushdie, Like Water for Chocolate by Laura Esquivel, The Tin Drum by Günter Grass, Pedro Páramo by Juan Rulfo, and A Long Petal of the Sea by Isabel Allende. Our full guide covers 8 picks for fans of magical realism, multigenerational family sagas, and Latin American literature." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bell Jar by Sylvia Plath?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bell Jar include My Year of Rest and Relaxation by Ottessa Moshfegh, Girl, Interrupted by Susanna Kaysen, Conversations with Friends by Sally Rooney, The Hours by Michael Cunningham, Prozac Nation by Elizabeth Wurtzel, The Virgin Suicides by Jeffrey Eugenides, The Yellow Wallpaper by Charlotte Perkins Gilman, and Ariel by Sylvia Plath. Our full guide covers 8 picks for fans of unflinching literary fiction about female interiority and mental illness." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fahrenheit 451 by Ray Bradbury?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fahrenheit 451 include 1984 by George Orwell, Brave New World by Aldous Huxley, We by Yevgeny Zamyatin, The Handmaid's Tale by Margaret Atwood, Lord of the Flies by William Golding, The Illustrated Man by Ray Bradbury, Never Let Me Go by Kazuo Ishiguro, and Station Eleven by Emily St. John Mandel. Our full guide covers 8 picks for fans of dystopian fiction about conformity, censorship, and the defense of literature." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ugly Love by Colleen Hoover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ugly Love include It Ends with Us and Verity and November 9 and Reminders of Him (also by Colleen Hoover), The Kiss Quotient by Helen Hoang, People We Meet on Vacation by Emily Henry, The Spanish Love Deception by Elena Armas, and Beautiful Disaster by Jamie McGuire. Our full guide covers 8 picks for fans of emotionally intense contemporary romance with dual timelines and hidden past traumas." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bluest Eye by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bluest Eye include Beloved and Song of Solomon and Sula (also by Toni Morrison), Their Eyes Were Watching God by Zora Neale Hurston, The Color Purple by Alice Walker, Passing by Nella Larsen, Kindred by Octavia Butler, and I Know Why the Caged Bird Sings by Maya Angelou. Our full guide covers 8 picks for fans of Morrison's examination of Black childhood, internalized racism, and Black women's inner lives." },
     },
   ],
 };
