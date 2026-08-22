@@ -253,6 +253,11 @@ export const metadata: Metadata = {
     'books like Decline and Fall Evelyn Waugh',
     'books like Of Human Bondage W Somerset Maugham',
     'books like Nostromo Joseph Conrad',
+    'books like The Wings of the Dove Henry James',
+    'books like The Ambassadors Henry James',
+    'books like Demian Hermann Hesse',
+    'books like Siddhartha Hermann Hesse',
+    'books like The Forsyte Saga John Galsworthy',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1390,6 +1395,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Nostromo by Joseph Conrad?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Nostromo include Lord Jim and Heart of Darkness (also by Joseph Conrad), The Secret Agent by Conrad, The Quiet American by Graham Greene, Under the Volcano by Malcolm Lowry, One Hundred Years of Solitude by Gabriel García Márquez, The Autumn of the Patriarch by García Márquez, and Blood Meridian by Cormac McCarthy. Our full guide covers 8 picks for fans of Conrad's great political novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Wings of the Dove by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Wings of the Dove include The Ambassadors and The Golden Bowl (also by Henry James), The Portrait of a Lady by James, Washington Square by James, The Age of Innocence and The House of Mirth by Edith Wharton, The Remains of the Day by Kazuo Ishiguro, and The Europeans by James. Our full guide covers 8 picks for fans of James's late masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Ambassadors by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ambassadors include The Wings of the Dove and The Golden Bowl (also by Henry James), The Portrait of a Lady by James, Madame Bovary by Flaubert, The Age of Innocence by Edith Wharton, The Remains of the Day by Kazuo Ishiguro, Washington Square by James, and A Moveable Feast by Hemingway. Our full guide covers 8 picks for fans of James's most perfectly constructed novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Demian by Hermann Hesse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Demian include Siddhartha and Steppenwolf (also by Hermann Hesse), A Portrait of the Artist as a Young Man by James Joyce, The Catcher in the Rye by J.D. Salinger, Thus Spoke Zarathustra by Nietzsche, Narcissus and Goldmund by Hesse, The Trial by Kafka, and The Magic Mountain by Thomas Mann. Our full guide covers 8 picks for fans of Hesse's coming-of-age masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Siddhartha by Hermann Hesse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Siddhartha include Demian and Steppenwolf (also by Hermann Hesse), The Alchemist by Paulo Coelho, Narcissus and Goldmund by Hesse, The Prophet by Kahlil Gibran, The Glass Bead Game by Hesse, and Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig. Our full guide covers 8 picks for fans of Hesse's spiritual quest novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Forsyte Saga by John Galsworthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Forsyte Saga include The House of Mirth and The Age of Innocence by Edith Wharton, Buddenbrooks by Thomas Mann, The Remains of the Day by Kazuo Ishiguro, Middlemarch by George Eliot, Howards End by E.M. Forster, The Pursuit of Love by Nancy Mitford, and The Warden by Anthony Trollope. Our full guide covers 8 picks for fans of Galsworthy's Nobel Prize-winning family saga." },
     },
   ],
 };
