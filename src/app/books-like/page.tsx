@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Beloved Toni Morrison',
+    'books like The Poisonwood Bible Barbara Kingsolver',
+    'books like And the Mountains Echoed Khaled Hosseini',
+    'books like The Dutch House Ann Patchett',
+    'books like White Noise Don DeLillo',
     'books like How to Win Friends and Influence People Dale Carnegie',
     'books like The 7 Habits of Highly Effective People Stephen Covey',
     'books like Think and Grow Rich Napoleon Hill',
@@ -2270,6 +2275,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Beloved by Toni Morrison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Beloved include Song of Solomon by Toni Morrison, The Color Purple by Alice Walker, Kindred by Octavia Butler, Their Eyes Were Watching God by Zora Neale Hurston, The Known World by Edward P. Jones, Sula by Toni Morrison, and 12 Years a Slave by Solomon Northup. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Poisonwood Bible by Barbara Kingsolver?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Poisonwood Bible include Things Fall Apart by Chinua Achebe, Half of a Yellow Sun by Chimamanda Ngozi Adichie, Cutting for Stone by Abraham Verghese, Prodigal Summer by Barbara Kingsolver, The Namesake by Jhumpa Lahiri, and A Bend in the River by V.S. Naipaul. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked And the Mountains Echoed by Khaled Hosseini?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like And the Mountains Echoed include The Kite Runner and A Thousand Splendid Suns by Hosseini, Cutting for Stone by Abraham Verghese, Exit West by Mohsin Hamid, Reading Lolita in Tehran by Azar Nafisi, The Reluctant Fundamentalist by Mohsin Hamid, and A Gentleman in Moscow by Amor Towles. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Dutch House by Ann Patchett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Dutch House include Bel Canto and Commonwealth by Ann Patchett, A Little Life by Hanya Yanagihara, My Brilliant Friend by Elena Ferrante, Pachinko by Min Jin Lee, Olive Kitteridge by Elizabeth Strout, and The Corrections by Jonathan Franzen. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked White Noise by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like White Noise include Underworld and Libra by Don DeLillo, Infinite Jest by David Foster Wallace, The Corrections by Jonathan Franzen, American Psycho by Bret Easton Ellis, Super Sad True Love Story by Gary Shteyngart, and The Road by Cormac McCarthy. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
