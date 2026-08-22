@@ -828,6 +828,24 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['There There', 'Wandering Stars'],
   },
+  {
+    name: 'Viet Thanh Nguyen',
+    bio: "Viet Thanh Nguyen is a Vietnamese-American novelist and professor born in Ban Mê Thuột, Vietnam in 1971. His family fled Vietnam in 1975, and he was separated from his parents and placed with a white American sponsor family before they were reunited in Pennsylvania. He grew up in San José, California and is a professor of English and American Studies and Ethnicity at the University of Southern California. His debut novel The Sympathizer (2015) — narrated by a communist spy embedded in the South Vietnamese army — won the Pulitzer Prize for Fiction in 2016, the Edgar Award for Best First Novel, and numerous other prizes. It was followed by The Committed (2021). Nguyen has also written a short story collection, The Refugees (2017), and a work of criticism, Nothing Ever Dies: Vietnam and the Memory of War (2016). The Sympathizer was adapted into an HBO miniseries in 2024 starring Hoa Xuande and Robert Downey Jr. Nguyen is known for his sharp political intelligence, his engagement with anti-colonial literature, and his refusal of sentimental or simplistic representations of the Vietnamese refugee experience.",
+    genre: 'fiction',
+    knownFor: ['The Sympathizer', 'The Committed', 'The Refugees'],
+  },
+  {
+    name: 'Khaled Hosseini',
+    bio: "Khaled Hosseini is an Afghan-American novelist born in Kabul, Afghanistan in 1965. His father was a diplomat and his mother taught Farsi and history at a girls' high school in Kabul. After the Soviet invasion in 1979, his family received asylum in the United States and settled in San José, California, where Hosseini attended high school and later studied biology at Santa Clara University and medicine at UC San Diego. He practiced medicine as an internist before The Kite Runner (2003) — his debut novel about friendship, betrayal, and redemption in Afghanistan — became an international bestseller, eventually selling over 38 million copies. His second novel A Thousand Splendid Suns (2007) sold a further 4 million copies in its first year of publication; his third, And the Mountains Echoed (2013), also debuted at number one. All three novels are set in Afghanistan and deal with the Soviet invasion, the civil war, and the Taliban period. Hosseini is also a UNHCR Goodwill Ambassador and established the Khaled Hosseini Foundation to assist refugees.",
+    genre: 'fiction',
+    knownFor: ['The Kite Runner', 'A Thousand Splendid Suns', 'And the Mountains Echoed'],
+  },
+  {
+    name: 'Paulo Coelho',
+    bio: "Paulo Coelho is a Brazilian lyricist and novelist born in Rio de Janeiro in 1947. He studied law at a university in Rio before dropping out to pursue a career as a lyricist, collaborating with singer Raul Seixas on several albums in the 1970s. He was briefly imprisoned three times by the Brazilian military dictatorship during this period. After a spiritual pilgrimage on the Camino de Santiago in 1986, he wrote The Pilgrimage (1987) and then The Alchemist (1988) — a fable about a shepherd boy who follows his dream to the Egyptian pyramids. The Alchemist was initially rejected by its first Brazilian publisher and sold slowly; after being picked up by HarperCollins in 1993, it became one of the best-selling books in history, eventually selling over 65 million copies in more than 80 languages. Coelho has since written over 30 books, including Brida (1990), Veronika Decides to Die (1998), Eleven Minutes (2003), The Zahir (2005), The Witch of Portobello (2006), Aleph (2011), and The Spy (2016). He holds the Guinness World Record for the most translated book by a living author.",
+    genre: 'fiction',
+    knownFor: ['The Alchemist', 'Veronika Decides to Die', 'Eleven Minutes', 'The Zahir'],
+  },
 ];
 
 function normalize(s: string) {
