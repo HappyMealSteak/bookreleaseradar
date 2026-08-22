@@ -2367,6 +2367,42 @@ export const SERIES: SeriesDefinition[] = [
     description: "Ralph Ellison's Invisible Man (1952) is a standalone National Book Award–winning novel following a nameless Black narrator from his expulsion from a Southern Black college through his involvement with a Communist-inspired political organization in Harlem to his underground retreat. Ellison's only published novel and one of the most important American novels of the twentieth century.",
     searchTerms: ['invisible man', 'ralph ellison', 'ralph ellison invisible man', 'invisible man national book award', 'invisible man harlem novel', 'ralph ellison novel 1952', 'invisible man black narrator'],
   },
+  {
+    slug: 'midnights-children',
+    name: "Midnight's Children",
+    author: 'Salman Rushdie',
+    authorQuery: 'Salman Rushdie',
+    genre: 'fiction',
+    description: "Salman Rushdie's Midnight's Children (1981) is a standalone novel following Saleem Sinai, one of 1,001 children born at the moment of Indian independence at midnight on August 15, 1947, each with supernatural powers. Winner of the Booker Prize in 1981 and the 'Booker of Bookers' twice, it is the defining novel of postcolonial magical realism in English.",
+    searchTerms: ["midnight's children", 'salman rushdie', "salman rushdie midnight's children", 'midnight children india independence', 'rushdie booker prize', 'midnight children magical realism', 'saleem sinai novel'],
+  },
+  {
+    slug: 'native-son',
+    name: 'Native Son',
+    author: 'Richard Wright',
+    authorQuery: 'Richard Wright',
+    genre: 'fiction',
+    description: "Richard Wright's Native Son (1940) is a standalone novel following Bigger Thomas, a twenty-year-old Black man from Chicago's South Side who accidentally kills his white employer's daughter and is subsequently tried for her murder. The first Book of the Month Club selection by a Black author and the foundational text of Black American protest fiction.",
+    searchTerms: ['native son', 'richard wright', 'richard wright native son', 'bigger thomas chicago novel', 'native son book', 'richard wright protest fiction', 'native son 1940 chicago'],
+  },
+  {
+    slug: 'passing',
+    name: 'Passing',
+    author: 'Nella Larsen',
+    authorQuery: 'Nella Larsen',
+    genre: 'fiction',
+    description: "Nella Larsen's Passing (1929) is a standalone novella following Irene Redfield and Clare Kendry, two light-skinned Black women in 1920s Harlem — one of whom has been passing as white and is married to a racist white man who doesn't know her origins. A central text of the Harlem Renaissance, rediscovered by feminist scholars in the 1970s and adapted into a 2021 film.",
+    searchTerms: ['passing nella larsen', 'nella larsen passing novel', 'passing harlem renaissance', 'racial passing novella', 'irene clare passing novel', 'nella larsen 1929', 'passing book film 2021'],
+  },
+  {
+    slug: 'lord-of-the-flies',
+    name: 'Lord of the Flies',
+    author: 'William Golding',
+    authorQuery: 'William Golding',
+    genre: 'fiction',
+    description: "William Golding's Lord of the Flies (1954) is a standalone novel following a group of British schoolboys stranded on an uninhabited island whose attempt to govern themselves collapses into violence. Golding's first novel and winner of the Nobel Prize in Literature in 1983; one of the most widely taught novels in the English-speaking world.",
+    searchTerms: ['lord of the flies', 'william golding', 'lord of the flies ralph piggy', 'lord of the flies reading order', 'william golding novel', 'lord of the flies conch', 'william golding nobel prize'],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

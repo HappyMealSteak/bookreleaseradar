@@ -192,6 +192,10 @@ export const metadata: Metadata = {
     'books like The God of Small Things Arundhati Roy',
     'books like Call Me by Your Name André Aciman',
     'books like Invisible Man Ralph Ellison',
+    "books like Midnight's Children Salman Rushdie",
+    'books like Native Son Richard Wright',
+    'books like Passing Nella Larsen',
+    'books like Lord of the Flies William Golding',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1019,6 +1023,26 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Invisible Man by Ralph Ellison?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Invisible Man include Native Son by Richard Wright, Go Tell It on the Mountain by James Baldwin, Song of Solomon by Toni Morrison, Their Eyes Were Watching God by Zora Neale Hurston, The Autobiography of Malcolm X, Beloved by Toni Morrison, Giovanni's Room by James Baldwin, and Manchild in the Promised Land by Claude Brown. Our full guide covers 8 picks for fans of Ellison's blistering satire of race relations and his nameless narrator's search for identity." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Midnight's Children by Salman Rushdie?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Midnight's Children include One Hundred Years of Solitude by Gabriel García Márquez, The God of Small Things by Arundhati Roy, The Satanic Verses by Salman Rushdie, A Fine Balance by Rohinton Mistry, The White Tiger by Aravind Adiga, Beloved by Toni Morrison, Shuggie Bain by Douglas Stuart, and The Tin Drum by Günter Grass. Our full guide covers 8 picks for fans of Rushdie's postcolonial magical realism and his narrator born at the moment of Indian independence." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Native Son by Richard Wright?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Native Son include Invisible Man by Ralph Ellison, Go Tell It on the Mountain by James Baldwin, Black Boy by Richard Wright, The Outsider by Richard Wright, Beloved by Toni Morrison, Their Eyes Were Watching God by Zora Neale Hurston, An American Tragedy by Theodore Dreiser, and The Street by Ann Petry. Our full guide covers 8 picks for fans of Wright's foundational protest fiction and his argument about what poverty and racism create." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Passing by Nella Larsen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Passing include Quicksand by Nella Larsen, Their Eyes Were Watching God by Zora Neale Hurston, The Bluest Eye by Toni Morrison, Giovanni's Room by James Baldwin, The Vanishing Half by Brit Bennett, Imitation of Life by Fannie Hurst, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Larsen's oblique treatment of desire and her exploration of racial identity as performance in 1920s Harlem." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lord of the Flies by William Golding?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lord of the Flies include 1984 by George Orwell, Brave New World by Aldous Huxley, The Road by Cormac McCarthy, The Inheritors by William Golding, Battle Royale by Koushun Takami, We by Yevgeny Zamyatin, The Hunger Games by Suzanne Collins, and Alive by Piers Paul Read. Our full guide covers 8 picks for fans of Golding's dark view of what happens when civilization's constraints are removed." },
     },
   ],
 };
