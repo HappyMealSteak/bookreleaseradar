@@ -318,6 +318,11 @@ export const metadata: Metadata = {
     'books like North and South Elizabeth Gaskell',
     "books like Tess of the d'Urbervilles Thomas Hardy",
     'books like Alias Grace Margaret Atwood',
+    'books like Burial Rites Hannah Kent',
+    'books like Jude the Obscure Thomas Hardy',
+    'books like Wives and Daughters Elizabeth Gaskell',
+    'books like Howards End E.M. Forster',
+    'books like Far from the Madding Crowd Thomas Hardy',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1780,6 +1785,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Alias Grace by Margaret Atwood?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Alias Grace include The Handmaid's Tale (also by Atwood), My Brilliant Friend by Elena Ferrante, The Virgin Suicides by Jeffrey Eugenides, Burial Rites by Hannah Kent, The Name of the Rose by Umberto Eco, The Paying Guests by Sarah Waters, Fingersmith by Sarah Waters, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of Atwood's historical crime masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Burial Rites by Hannah Kent?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Burial Rites include Alias Grace by Margaret Atwood, The Virgin Suicides by Jeffrey Eugenides, People of the Book by Geraldine Brooks, The Pillars of the Earth by Ken Follett, The Last Runaway by Tracy Chevalier, Wolf Hall by Hilary Mantel, The Weight of Water by Anita Shreve, and The Witch of Blackbird Pond by Elizabeth George Speare. Our full guide covers 8 picks for fans of Kent's Icelandic historical novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jude the Obscure by Thomas Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jude the Obscure include Tess of the d'Urbervilles (also by Hardy), Sons and Lovers by D.H. Lawrence, The Way of All Flesh by Samuel Butler, North and South by Elizabeth Gaskell, A Room with a View by E.M. Forster, Of Human Bondage by W. Somerset Maugham, Never Let Me Go by Kazuo Ishiguro, and The Mayor of Casterbridge by Thomas Hardy. Our full guide covers 8 picks for fans of Hardy's final and most savage novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Wives and Daughters by Elizabeth Gaskell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wives and Daughters include North and South (also by Gaskell), Middlemarch by George Eliot, Pride and Prejudice by Jane Austen, Emma by Jane Austen, Cranford by Elizabeth Gaskell, The Tenant of Wildfell Hall by Anne Brontë, Can You Forgive Her? by Anthony Trollope, and The Pursuit of Love by Nancy Mitford. Our full guide covers 8 picks for fans of Gaskell's Victorian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Howards End by E.M. Forster?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Howards End include A Passage to India (also by Forster), The Remains of the Day by Kazuo Ishiguro, North and South by Elizabeth Gaskell, Middlemarch by George Eliot, Mrs Dalloway by Virginia Woolf, The Line of Beauty by Alan Hollinghurst, A Room with a View by E.M. Forster, and On Beauty by Zadie Smith. Our full guide covers 8 picks for fans of Forster's 'Only connect' masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Far from the Madding Crowd by Thomas Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Far from the Madding Crowd include Tess of the d'Urbervilles (also by Hardy), The Return of the Native by Thomas Hardy, The Mayor of Casterbridge by Thomas Hardy, North and South by Elizabeth Gaskell, Middlemarch by George Eliot, The Shepherd's Life by James Rebanks, Cold Comfort Farm by Stella Gibbons, and The Mill on the Floss by George Eliot. Our full guide covers 8 picks for fans of Hardy's pastoral masterpiece." },
     },
   ],
 };

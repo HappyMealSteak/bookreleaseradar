@@ -1458,6 +1458,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ["Tess of the d'Urbervilles", 'Far from the Madding Crowd', 'Jude the Obscure'],
   },
+  {
+    name: 'Hannah Kent',
+    bio: "Hannah Kent (born 1985) is an Australian novelist whose debut novel Burial Rites (2013), based on the true story of Agnes Magnúsdóttir, the last person executed in Iceland, was one of the most acclaimed debut novels of its decade and established her as a significant voice in historical fiction. Born in Adelaide, she spent a year as an exchange student in Iceland at the age of seventeen, an experience that introduced her to the story of Agnes Magnúsdóttir and that she described as transformative. She studied English literature at Flinders University and completed a PhD in creative writing at the University of Adelaide, for which Burial Rites was the creative component. The novel, set in the north of Iceland in the winter of 1829, follows Agnes as she awaits execution for the murder of two men, billeted with a farming family and receiving pastoral care from a young reverend. Its combination of historical precision, lyrical prose, and psychological depth won it the ABIA Award for Best Debut Fiction and the Dobbie Literary Award, and it was shortlisted for the International Dublin Literary Award. Kent's second novel, The Good People (2016), was set in 1820s rural Ireland and drew on another historical case — the trial of three women accused of attempting to cure a disabled child by exchanging him for the fairy changeling they believed had replaced him. She is the co-publisher of the Australian literary journal Kill Your Darlings.",
+    genre: 'fiction',
+    knownFor: ['Burial Rites', 'The Good People'],
+  },
+  {
+    name: 'E.M. Forster',
+    bio: "E.M. Forster (1879–1970), full name Edward Morgan Forster, was an English novelist and essayist whose fiction explores the failures of connection — between individuals, between classes, between cultures — with a delicacy and wit that makes him one of the most distinctive voices in twentieth-century English literature. Born in London into a comfortable middle-class family and educated at Tonbridge School and King's College, Cambridge, he was a member of the Bloomsbury Group and a close associate of Virginia Woolf, Leonard Woolf, John Maynard Keynes, and Lytton Strachey. His first four novels — Where Angels Fear to Tread (1905), The Longest Journey (1907), A Room with a View (1908), and Howards End (1910) — were published in rapid succession and established his reputation as a novelist of social comedy with serious moral concerns. Howards End, with its famous epigraph 'Only connect,' is widely considered his finest achievement: a novel about the collision of the idealistic Schlegel sisters with the commercial Wilcox family and the tragic figure of the aspiring clerk Leonard Bast. After a long silence, A Passage to India (1924) — set in colonial India and based partly on his experiences there in 1912 and 1921 — won the James Tait Black Memorial Prize and cemented his reputation. Forster published no more novels in his lifetime; Maurice, his novel about homosexual love written in 1913–1914, was published posthumously in 1971 after his death at ninety-one. His reluctance to publish fiction that would reveal his homosexuality in a society that criminalized it shaped both the silences in his published work and the frankness of what he left for posthumous publication.",
+    genre: 'fiction',
+    knownFor: ['Howards End', 'A Passage to India', 'A Room with a View'],
+  },
 ];
 
 function normalize(s: string) {
