@@ -685,6 +685,97 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Does the Amazon Wheel of Time show follow the books?', a: "Amazon Prime Video's The Wheel of Time series is a loose adaptation that condenses and reorganizes plot elements from the first few books. Viewers generally recommend reading the books, as they contain substantially more depth and different story beats than the show." },
     ],
   },
+  {
+    slug: 'dune',
+    intro:
+      "Frank Herbert's Dune Saga is the foundation of modern science fiction. The original six novels by Herbert form a complete philosophical arc spanning millennia. Brian Herbert and Kevin J. Anderson have since published over a dozen prequel and sequel novels expanding the universe. Most readers read only Herbert's original six; the expanded universe novels are optional.",
+    startWith:
+      "Start with Dune (1965) — the novel that started everything. Herbert's first book is the most accessible and most beloved. The sequels get progressively more esoteric; many readers read only the first book or the first three.",
+    books: [
+      { title: 'Dune', author: 'Frank Herbert', year: 1965, note: 'Book 1 — Paul Atreides arrives on Arrakis; the beginning of the saga' },
+      { title: 'Dune Messiah', author: 'Frank Herbert', year: 1969, note: 'Book 2 — 12 years later; the consequences of Paul becoming a god-emperor' },
+      { title: 'Children of Dune', author: 'Frank Herbert', year: 1976, note: "Book 3 — Paul's children Leto II and Ghanima carry the burden of prescience" },
+      { title: 'God Emperor of Dune', author: 'Frank Herbert', year: 1981, note: 'Book 4 — 3,500 years later; Leto II has completed his Golden Path' },
+      { title: 'Heretics of Dune', author: 'Frank Herbert', year: 1984, note: 'Book 5 — 1,500 years after God Emperor; humanity has scattered across the galaxy' },
+      { title: 'Chapterhouse: Dune', author: 'Frank Herbert', year: 1985, note: "Book 6 — Herbert's final Dune novel; left on a cliffhanger at his death in 1986" },
+      { title: 'Hunters of Dune', author: 'Brian Herbert & Kevin J. Anderson', year: 2006, note: 'Continuation — picks up where Chapterhouse ends; based on Herbert\'s notes', isOptional: true },
+      { title: 'Sandworms of Dune', author: 'Brian Herbert & Kevin J. Anderson', year: 2007, note: 'Conclusion of the Chapterhouse cliffhanger arc', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Dune reading order?', a: "The original Dune Saga by Frank Herbert: Dune (1965) → Dune Messiah → Children of Dune → God Emperor of Dune → Heretics of Dune → Chapterhouse: Dune. Many readers stop after Book 1, 3, or 6. Brian Herbert and Kevin J. Anderson's prequels and sequels are optional expanded universe content." },
+      { q: 'Do I need to read all 6 Dune books?', a: "No. Dune (Book 1) stands completely on its own and is the most beloved. Dune Messiah and Children of Dune complete the 'Paul arc.' Books 4–6 are progressively more experimental and esoteric. Most casual readers read 1–3 and stop there." },
+      { q: 'How many Dune books are there?', a: "Frank Herbert wrote 6 Dune novels. Brian Herbert and Kevin J. Anderson have written 16+ additional novels set in the universe, covering prequels (Legends of Dune, Prelude to Dune) and sequels (Hunters of Dune, Sandworms of Dune, The Caladan Trilogy)." },
+      { q: 'Should I read Dune before watching the Denis Villeneuve films?', a: "Yes — the films are close adaptations of the first novel. The book adds depth to Mentat abilities, the Bene Gesserit, and Paul's internal voice that the films can only hint at. Reading the book before or after the first film both work well." },
+      { q: 'Is Dune Messiah worth reading?', a: "Dune Messiah is a short, dark deconstruction of the chosen-one story Herbert accidentally created in Dune — it is deliberately unsatisfying if you wanted more heroics, but essential if you want Herbert's full vision. Read it expecting a tragedy, not a sequel." },
+    ],
+  },
+  {
+    slug: 'divergent',
+    intro:
+      "Veronica Roth's Divergent trilogy is set in a future Chicago divided into five personality-based factions. Beatrice 'Tris' Prior chooses Dauntless on her Choosing Day — and discovers she is Divergent, fitting into no single faction. The trilogy is best read in order; Allegiant has one of YA's most discussed endings.",
+    startWith:
+      "Start with Divergent (Book 1). The trilogy must be read in order — each book follows immediately from the last. Read the novellas (Four: A Divergent Collection) after finishing the main trilogy if you want more of the world.",
+    books: [
+      { title: 'Divergent', author: 'Veronica Roth', year: 2011, note: 'Book 1 — Tris chooses Dauntless; Dauntless initiation begins' },
+      { title: 'Insurgent', author: 'Veronica Roth', year: 2012, note: 'Book 2 — faction war; Tris uncovers the secret the Erudite will kill for' },
+      { title: 'Allegiant', author: 'Veronica Roth', year: 2013, note: 'Book 3 — the faction system revealed; one of YA\'s most divisive endings' },
+      { title: 'Four: A Divergent Collection', author: 'Veronica Roth', year: 2014, note: "Companion novellas told from Four's POV; best read after the trilogy", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Divergent reading order?', a: "Read in trilogy order: Divergent (2011) → Insurgent (2012) → Allegiant (2013). The companion Four: A Divergent Collection (2014) provides bonus novellas from Four's perspective and is best read after the trilogy." },
+      { q: 'How many Divergent books are there?', a: "There are 3 main trilogy novels (Divergent, Insurgent, Allegiant) plus one companion collection of novellas (Four: A Divergent Collection). The trilogy is complete." },
+      { q: 'Does Allegiant have a happy ending?', a: "Allegiant is famous for its divisive ending. Many readers were surprised by how it ends — it subverts typical YA conventions. The Divergent film series changed the ending for the movie adaptation. Read without spoilers for the best experience." },
+      { q: 'Do I need to read Four: A Divergent Collection?', a: "Four is optional but beloved by fans who want more time in the Divergent world. It retells events from Books 1 and 2 from Four's point of view and adds new scenes. Best read after Allegiant." },
+    ],
+  },
+  {
+    slug: 'vampire-academy',
+    intro:
+      "Richelle Mead's Vampire Academy follows Rose Hathaway — a half-vampire Dhampir guardian — and her bond with Lissa Dragomir, a Moroi princess with spirit magic, through St. Vladimir's Academy and beyond. The six-book series spawned the six-book Bloodlines spinoff following Sydney Sage. Read VA first, then Bloodlines — they share characters and the timelines overlap.",
+    startWith:
+      "Start with Vampire Academy (Book 1). The six VA books must be read in order, as must the six Bloodlines books. Bloodlines is best started after completing VA, though it can be read concurrently from Book 1.",
+    books: [
+      { title: 'Vampire Academy', author: 'Richelle Mead', year: 2007, note: 'VA Book 1 — Rose and Lissa return to St. Vladimir\'s; the Strigoi threat begins' },
+      { title: 'Frostbite', author: 'Richelle Mead', year: 2008, note: 'VA Book 2 — Strigoi attacks escalate; Rose chooses between two paths' },
+      { title: 'Shadow Kiss', author: 'Richelle Mead', year: 2008, note: 'VA Book 3 — Rose begins to question everything; a devastating ending' },
+      { title: 'Blood Promise', author: 'Richelle Mead', year: 2009, note: "VA Book 4 — Rose leaves the Academy to fulfill her promise; Dimitri's fate" },
+      { title: 'Spirit Bound', author: 'Richelle Mead', year: 2010, note: "VA Book 5 — a way to save Strigoi is discovered; shocking consequences" },
+      { title: 'Last Sacrifice', author: 'Richelle Mead', year: 2010, note: "VA Book 6 — the VA series finale; the truth about the Dragomir line" },
+      { title: 'Bloodlines', author: 'Richelle Mead', year: 2011, note: "Bloodlines Book 1 — Sydney Sage's story begins; set after Last Sacrifice", isOptional: true },
+      { title: 'The Golden Lily', author: 'Richelle Mead', year: 2012, note: 'Bloodlines Book 2 — Sydney and Adrian grow closer', isOptional: true },
+      { title: 'The Indigo Spell', author: 'Richelle Mead', year: 2013, note: 'Bloodlines Book 3 — Sydney embraces her magic', isOptional: true },
+      { title: 'The Fiery Heart', author: 'Richelle Mead', year: 2013, note: 'Bloodlines Book 4 — told from both Sydney and Adrian\'s POV', isOptional: true },
+      { title: 'Silver Shadows', author: 'Richelle Mead', year: 2014, note: 'Bloodlines Book 5 — the Alchemists vs. Sydney and Adrian', isOptional: true },
+      { title: 'The Ruby Circle', author: 'Richelle Mead', year: 2015, note: 'Bloodlines Book 6 — series conclusion', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Vampire Academy reading order?', a: "The Vampire Academy series: Vampire Academy → Frostbite → Shadow Kiss → Blood Promise → Spirit Bound → Last Sacrifice. Then the Bloodlines spinoff: Bloodlines → The Golden Lily → The Indigo Spell → The Fiery Heart → Silver Shadows → The Ruby Circle." },
+      { q: 'How many Vampire Academy books are there?', a: "There are 6 Vampire Academy books and 6 Bloodlines books, totaling 12 novels in the shared universe. The original VA series and Bloodlines are both complete." },
+      { q: 'Do I have to read Bloodlines after Vampire Academy?', a: "Bloodlines is optional but highly recommended if you want more of the world. It follows Sydney Sage (an Alchemist from VA) and Adrian Ivashkov in a new setting. Major spoilers for VA are present, so finish VA first." },
+      { q: 'Is there a Vampire Academy TV show?', a: "Yes — a Vampire Academy TV series premiered on Peacock in 2022 but was cancelled after one season. The show adapts the first book with significant changes to characters and lore." },
+    ],
+  },
+  {
+    slug: 'eragon',
+    intro:
+      "Christopher Paolini began writing Eragon at age fifteen — and the Inheritance Cycle became a publishing phenomenon. Set in Alagaësia, the story follows farm boy Eragon and his dragon Saphira as they join the Varden's rebellion against the evil King Galbatorix. Paolini returned to Alagaësia with Murtagh (2023), a standalone novel following the series' greatest antihero.",
+    startWith:
+      "Start with Eragon (Book 1). The original cycle must be read in order. Murtagh (2023) takes place after Inheritance and contains major spoilers — read the original four books first.",
+    books: [
+      { title: 'Eragon', author: 'Christopher Paolini', year: 2003, note: 'Book 1 — Eragon finds a dragon egg; his destiny begins in Alagaësia' },
+      { title: 'Eldest', author: 'Christopher Paolini', year: 2005, note: 'Book 2 — Eragon trains among the elves; Roran defends Carvahall' },
+      { title: 'Brisingr', author: 'Christopher Paolini', year: 2008, note: 'Book 3 — the war escalates; Eragon forges his sword Brisingr' },
+      { title: 'Inheritance', author: 'Christopher Paolini', year: 2011, note: "Book 4 — the series finale; the fate of Galbatorix and Alagaësia decided" },
+      { title: 'The Fork, the Witch, and the Worm', author: 'Christopher Paolini', year: 2018, note: 'Companion — three tales set after Inheritance; a bridge to the new era', isOptional: true },
+      { title: 'Murtagh', author: 'Christopher Paolini', year: 2023, note: 'Standalone — Murtagh and Thorn, two years after Inheritance; a new adventure' },
+    ],
+    faq: [
+      { q: 'What is the Eragon reading order?', a: "The Inheritance Cycle: Eragon (2003) → Eldest (2005) → Brisingr (2008) → Inheritance (2011). Then optionally The Fork, the Witch, and the Worm (companion tales), then Murtagh (2023), which takes place after Inheritance and follows Murtagh and Thorn." },
+      { q: 'How many Eragon books are there?', a: "The original Inheritance Cycle is 4 books (Eragon, Eldest, Brisingr, Inheritance). Christopher Paolini also published a companion collection (The Fork, the Witch, and the Worm) and the standalone novel Murtagh (2023), set two years after Inheritance." },
+      { q: 'Is Murtagh a sequel to Eragon?', a: "Murtagh (2023) is a standalone novel set in Alagaësia two years after the events of Inheritance. It follows Murtagh and his dragon Thorn on a new quest. It contains major spoilers for the Inheritance Cycle, so read the original four books first." },
+      { q: 'Will there be more Alagaësia books after Murtagh?', a: "Christopher Paolini has expressed intent to write more Alagaësia books. He is also working on The Fractal Shroud, a new science fiction novel outside the Alagaësia universe. Future Alagaësia books have not been formally announced with release dates." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

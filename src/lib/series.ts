@@ -476,6 +476,72 @@ export const SERIES: SeriesDefinition[] = [
       'Stephen King Dark Tower 9',
     ],
   },
+  {
+    slug: 'dune',
+    name: 'Dune',
+    shortName: 'Dune',
+    author: 'Frank Herbert',
+    authorQuery: 'Frank Herbert',
+    genre: 'sci-fi',
+    description:
+      "Frank Herbert's Dune is the bestselling science fiction novel of all time — a sweeping saga of politics, ecology, religion, and destiny set on the desert planet Arrakis. The original Dune Saga spans six novels by Herbert; Brian Herbert and Kevin J. Anderson have continued the universe across many prequel and sequel novels. After the Denis Villeneuve film adaptations, Dune has introduced a new generation of readers to the spice, the Fremen, and the fate of Paul Atreides.",
+    searchTerms: [
+      'Dune Frank Herbert',
+      'Dune reading order',
+      'Dune book series order',
+      'Dune 3 release date',
+      'Brian Herbert Dune new book',
+    ],
+  },
+  {
+    slug: 'divergent',
+    name: 'Divergent',
+    shortName: 'Divergent',
+    author: 'Veronica Roth',
+    authorQuery: 'Veronica Roth',
+    genre: 'fiction',
+    description:
+      "Veronica Roth's Divergent trilogy is the defining YA dystopian series of the 2010s, following Beatrice 'Tris' Prior through a Chicago divided into five factions — Dauntless, Abnegation, Erudite, Amity, and Candor. The trilogy (Divergent, Insurgent, Allegiant) plus novellas delivered one of the decade's most-read YA series, with over 35 million copies sold worldwide.",
+    searchTerms: [
+      'Veronica Roth new book',
+      'Divergent reading order',
+      'Divergent series order',
+      'Divergent books in order',
+    ],
+  },
+  {
+    slug: 'vampire-academy',
+    name: 'Vampire Academy',
+    shortName: 'Vampire Academy',
+    author: 'Richelle Mead',
+    authorQuery: 'Richelle Mead',
+    genre: 'romance',
+    description:
+      "Richelle Mead's Vampire Academy series follows Rose Hathaway, a half-vampire guardian bonded to Lissa Dragomir, a Moroi princess, through St. Vladimir's Academy and beyond. The six-book series (plus the six-book Bloodlines spinoff) defined paranormal YA romance for a generation, blending boarding school drama, forbidden love, and supernatural world-building.",
+    searchTerms: [
+      'Richelle Mead new book',
+      'Vampire Academy reading order',
+      'Vampire Academy books in order',
+      'Bloodlines series order',
+    ],
+  },
+  {
+    slug: 'eragon',
+    name: 'Inheritance Cycle',
+    shortName: 'Eragon',
+    author: 'Christopher Paolini',
+    authorQuery: 'Christopher Paolini',
+    genre: 'fantasy',
+    description:
+      "Christopher Paolini began writing Eragon at fifteen years old — the story of a farm boy who finds a dragon egg and becomes a Dragon Rider in the land of Alagaësia. The Inheritance Cycle spans four novels (Eragon, Eldest, Brisingr, Inheritance) and has sold over 35 million copies worldwide. Paolini returned to Alagaësia with the standalone novel Murtagh (2023), continuing the world with a new focus on the antihero.",
+    searchTerms: [
+      'Christopher Paolini new book',
+      'Eragon reading order',
+      'Inheritance Cycle order',
+      'Christopher Paolini Murtagh',
+      'Alagaësia new book',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
