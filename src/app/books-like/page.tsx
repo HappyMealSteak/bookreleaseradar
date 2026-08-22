@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Lone Ranger and Tonto Fistfight in Heaven Sherman Alexie',
+    'books like Between the World and Me Ta-Nehisi Coates',
+    'books like In the Dream House Carmen Maria Machado',
+    'books like Bad Feminist Roxane Gay',
+    'books like Sister Outsider Audre Lorde',
     'books like Reservation Blues Sherman Alexie',
     "books like Giovanni's Room James Baldwin",
     'books like The Empathy Exams Leslie Jamison',
@@ -2170,6 +2175,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lone Ranger and Tonto Fistfight in Heaven by Sherman Alexie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lone Ranger and Tonto Fistfight in Heaven include Reservation Blues by Sherman Alexie, The Absolutely True Diary of a Part-Time Indian by Sherman Alexie, Ceremony by Leslie Marmon Silko, There There by Tommy Orange, Love Medicine by Louise Erdrich, and Winter in the Blood by James Welch. Our full guide covers 8 picks for fans of Alexie's Spokane Reservation story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Between the World and Me by Ta-Nehisi Coates?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Between the World and Me include The Fire Next Time by James Baldwin, The New Jim Crow by Michelle Alexander, Sister Outsider by Audre Lorde, Beloved by Toni Morrison, Men We Reaped by Jesmyn Ward, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Coates's letter about the Black body in America." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In the Dream House by Carmen Maria Machado?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In the Dream House include Her Body and Other Parties by Carmen Maria Machado, The Argonauts by Maggie Nelson, Bluets by Maggie Nelson, The Empathy Exams by Leslie Jamison, and We Need to Talk About Kevin by Lionel Shriver. Our full guide covers 8 picks for fans of Machado's genre-bending memoir about an abusive relationship." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bad Feminist by Roxane Gay?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bad Feminist include The Empathy Exams by Leslie Jamison, Sister Outsider by Audre Lorde, Hunger by Roxane Gay, Men Explain Things to Me by Rebecca Solnit, We Should All Be Feminists by Chimamanda Ngozi Adichie, and Between the World and Me by Ta-Nehisi Coates. Our full guide covers 8 picks for fans of Gay's feminist essay collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sister Outsider by Audre Lorde?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sister Outsider include Zami: A Biomythography by Audre Lorde, Between the World and Me by Ta-Nehisi Coates, Bad Feminist by Roxane Gay, This Bridge Called My Back edited by Cherríe Moraga, Redefining Realness by Janet Mock, and Feminism Is for Everybody by bell hooks. Our full guide covers 8 picks for fans of Lorde's foundational Black feminist essays." },
     },
     {
       '@type': 'Question',
