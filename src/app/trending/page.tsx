@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ExternalLink, TrendingUp, Sparkles, ChevronRight, Info } from 'lucide-react';
 import { getAllNytLists, getDebutBooks } from '@/lib/nyt';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -318,6 +319,8 @@ export default async function TrendingPage() {
           BookReleaseRadar earns from qualifying Amazon purchases.
         </p>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }
