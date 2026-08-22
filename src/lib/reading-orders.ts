@@ -2675,6 +2675,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "What is Room 101 in 1984?", a: "Room 101 is the torture chamber in the Ministry of Love where prisoners are confronted with their own worst personal fear — whatever it is that breaks them specifically. The novel reveals Winston's fear in its final act. Room 101 has entered general usage as a metaphor for one's personal worst-case scenario." },
     ],
   },
+  {
+    slug: 'station-eleven',
+    intro: "Emily St. John Mandel's Station Eleven (2014) is the first of her novels set in a shared fictional world, followed by The Glass Hotel (2020) and Sea of Tranquility (2022). These three novels share minor characters and thematic concerns but can be read in any order or entirely independently. Station Eleven follows a flu pandemic that collapses civilization and the Travelling Symphony — a group of actors and musicians performing Shakespeare in the Great Lakes region twenty years later — while weaving between the pre-collapse lives of characters whose fates intersect.",
+    startWith: 'Station Eleven',
+    books: [
+      { title: 'Station Eleven', author: 'Emily St. John Mandel', year: 2014, note: "A flu pandemic collapses civilization; the Travelling Symphony performs Shakespeare in the Great Lakes region twenty years later; interwoven with pre-collapse lives that connect in the aftermath; National Book Award finalist" },
+      { title: 'The Glass Hotel', author: 'Emily St. John Mandel', year: 2020, note: "Shares a minor character with Station Eleven — a novel about a hotel, a Ponzi scheme, and the people whose lives intersect; can be read independently", isOptional: true },
+      { title: 'Sea of Tranquility', author: 'Emily St. John Mandel', year: 2022, note: "Time travel and pandemic fiction that loops back to Station Eleven's world; can be read independently but has more resonance after Station Eleven", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read Station Eleven before The Glass Hotel?', a: "The Glass Hotel is entirely self-contained and can be read without having read Station Eleven. The two novels share a minor character — a flight attendant — but the connection is small enough that you can read them in any order. Sea of Tranquility shares more with Station Eleven but is similarly readable independently." },
+      { q: "What is the Travelling Symphony in Station Eleven?", a: "The Travelling Symphony is a group of about thirty actors and musicians who travel by horse-drawn caravan between settlements in the Great Lakes region, performing Shakespeare and classical music. Their motto — 'Survival is insufficient,' taken from a Star Trek Voyager episode — is a thesis statement for the novel's argument that art and beauty are as essential to human life as food and shelter." },
+      { q: 'Is Station Eleven a pandemic novel like COVID fiction?', a: "Station Eleven was written and published in 2014 — six years before COVID-19. The novel's Georgia Flu kills a much higher proportion of the population than COVID and collapses civilization rather than disrupting it. Many readers came to Station Eleven during the COVID pandemic and found either that it was too close to home or that it was exactly what they needed. The novel's optimism — its insistence that art survives, that beauty survives — has been described as both difficult and consoling to read during a pandemic." },
+      { q: 'Is Station Eleven appropriate for all readers?', a: "Station Eleven deals with pandemic death, collapse of civilization, and violence in small communities. It is not gratuitously violent; the novel is primarily interested in what survives and what is beautiful rather than in the horror of collapse. Some readers have found it difficult to read during or after COVID; others have found it deeply consoling." },
+    ],
+  },
+  {
+    slug: 'the-road',
+    intro: "Cormac McCarthy's The Road (2006) is a complete standalone novel in the tradition of his other work but set apart from his border trilogy and other major novels — it shares no characters or setting with Blood Meridian, No Country for Old Men, or the BeBorder Trilogy. The Road follows a father and his young son walking south through a post-apocalyptic America — carrying fire, avoiding cannibals, trying to reach the coast before winter kills them. It won the Pulitzer Prize for Fiction in 2007 and was adapted into a film in 2009 starring Viggo Mortensen.",
+    startWith: 'The Road',
+    books: [
+      { title: 'The Road', author: 'Cormac McCarthy', year: 2006, note: "Standalone — a father and son walk south through a post-apocalyptic America; Pulitzer Prize winner 2007; McCarthy's most emotionally accessible novel and his most direct meditation on parental love" },
+    ],
+    faq: [
+      { q: 'Is The Road a standalone?', a: "Yes — The Road is entirely self-contained and shares no characters or setting with McCarthy's other novels. It is often described as his most emotionally accessible book — shorter than Blood Meridian or the Border Trilogy novels, with a clearer emotional center." },
+      { q: 'What caused the apocalypse in The Road?', a: "McCarthy never specifies. The novel suggests something happened — possibly a nuclear exchange, possibly a meteor impact — that set the sky on fire, killed most plant and animal life, and covered the world in ash. The cause is irrelevant to the novel's concerns: McCarthy is interested in what a father does for his son in the aftermath, not in the political or scientific specifics of how it happened." },
+      { q: "What does 'carrying the fire' mean in The Road?", a: "'Carrying the fire' is the father's phrase for remaining morally good — not becoming one of the bad guys who rob and kill and eat other people. He uses the phrase with his son to mean that they must remain decent human beings no matter what the world demands of them. The novel is interested in whether goodness can survive total catastrophe, and the fire is its metaphor for that possibility." },
+      { q: 'Is The Road appropriate for all readers?', a: "The Road contains explicit scenes of violence including cannibalism, the discovery of a basement of enslaved people kept for food, and the aftermath of sexual violence. It is the darkest thing McCarthy has written in terms of content, though the emotional core is one of the most tender in his work. It is adult literary fiction; many readers describe it as the most devastating book they have ever read." },
+    ],
+  },
+  {
+    slug: 'life-of-pi',
+    intro: "Yann Martel's Life of Pi (2001) is a complete standalone novel. There is no sequel. The novel follows Pi Patel, the son of a zookeeper in Pondicherry, India, who survives 227 days on a lifeboat in the Pacific Ocean after a shipwreck — accompanied by a 450-pound Bengal tiger named Richard Parker. The novel raises and refuses to fully resolve a question about which version of the story is true. Life of Pi won the Man Booker Prize in 2002 and was adapted into a widely seen film in 2012 directed by Ang Lee.",
+    startWith: 'Life of Pi',
+    books: [
+      { title: 'Life of Pi', author: 'Yann Martel', year: 2001, note: "Standalone — Pi Patel survives 227 days on a lifeboat with a Bengal tiger after a shipwreck; Man Booker Prize winner 2002; a novel about survival, God, and the nature of story" },
+    ],
+    faq: [
+      { q: 'Is Life of Pi a standalone?', a: "Yes — Life of Pi is entirely self-contained. Yann Martel has written other novels (Self, Beatrice and Virgil, The High Mountains of Portugal), but they are entirely independent." },
+      { q: 'What is the question Life of Pi raises at the end?', a: "Without giving away the ending: Japanese insurance investigators who interview Pi offer an alternative version of the shipwreck that does not involve Richard Parker the tiger. Pi then asks them which story they prefer. The novel ends on this question, leaving the reader to decide what they believe — and what that belief reveals about them. The question of which story is true is one the novel refuses to answer." },
+      { q: 'Is Life of Pi a religious novel?', a: "Pi practices Hinduism, Christianity, and Islam simultaneously, which drives the novel's early chapters and provides the framework for its questions about God and story. Martel is interested in religion as a human need rather than as literal truth — the novel argues that religious stories and the question of whether they're 'true' are connected to the novel's ending in a way that Pi explicitly states. The novel is spiritual rather than doctrinally religious." },
+      { q: 'Is the tiger in Life of Pi real?', a: "Within the main story Pi tells, Richard Parker is a real Bengal tiger who shared the lifeboat. Whether Pi's main story is true is the question the novel ends on. The alternative interpretation suggested at the end offers a different account of the same survival in which the tiger has a different identity. The novel leaves both versions available to the reader." },
+    ],
+  },
+  {
+    slug: 'everything-i-never-told-you',
+    intro: "Celeste Ng's Everything I Never Told You (2014) is Ng's debut novel and a complete standalone. Her second novel, Little Fires Everywhere (2017), is set in the same state of Ohio but with entirely different characters. Everything I Never Told You opens with the announcement that Lydia is dead — Lydia Lee, the middle daughter of a Chinese-American family in 1970s Ohio — and works backward to understand why, revealing a family in which every member has been carrying a different unspoken truth.",
+    startWith: 'Everything I Never Told You',
+    books: [
+      { title: 'Everything I Never Told You', author: 'Celeste Ng', year: 2014, note: "Standalone debut — begins with the death of Lydia Lee, the middle daughter of a Chinese-American family in 1970s Ohio, and works backward through the family's unspoken truths" },
+    ],
+    faq: [
+      { q: 'Is Everything I Never Told You a standalone?', a: "Yes — Everything I Never Told You is entirely self-contained. Little Fires Everywhere (2017) is also by Ng, set in the same state of Ohio, but with completely different characters and an entirely independent plot." },
+      { q: 'Does Everything I Never Told You have a mystery?', a: "The novel opens by telling the reader that Lydia is dead and that the police have been called. The mystery of how she died unfolds gradually as the novel moves between the present (the search for Lydia) and the past (the family's history). The novel is more interested in the question of why than in the mechanics of the what — the 'mystery' is really a family psychological drama." },
+      { q: 'Is Everything I Never Told You about being Chinese-American?', a: "The novel is centrally about what it means to be Chinese-American in 1970s Ohio — specifically about James Lee, a Chinese-American academic who desperately wants his family to blend in, and what that desire does to his children, particularly Lydia, on whom his and his wife's frustrated ambitions are projected. Ng has said the novel is partly inspired by her own experience as a second-generation Asian American." },
+      { q: "What are the 'everything I never told you' the title refers to?", a: "Each member of the Lee family has something they never told the others — James has never fully reckoned with his experience of racism, Marilyn has never revealed the depth of her abandoned ambitions, Lydia has never been able to tell her parents who she actually is rather than who they need her to be. The title refers to the accumulation of silence that has been destroying the family before the novel begins." },
+    ],
+  },
+  {
+    slug: 'the-midnight-library',
+    intro: "Matt Haig's The Midnight Library (2020) is a complete standalone novel. It is unrelated to Haig's other fiction. The novel follows Nora Seed, who has decided she wants to die, and discovers between life and death a vast library whose books each contain the life she could have lived if she had made a different choice. The Midnight Library was a number one Sunday Times bestseller, a number one New York Times bestseller, and has sold over 10 million copies.",
+    startWith: 'The Midnight Library',
+    books: [
+      { title: 'The Midnight Library', author: 'Matt Haig', year: 2020, note: "Standalone — Nora Seed discovers between life and death a library containing all the lives she could have lived with different choices; a novel about depression, regret, and the things that make life worth living" },
+    ],
+    faq: [
+      { q: 'Is The Midnight Library a standalone?', a: "Yes — The Midnight Library is entirely self-contained. Matt Haig has written other novels (The Humans, How to Stop Time, The Humans), a children's series (A Boy Called Christmas), and a memoir about depression and anxiety (Reasons to Stay Alive), but The Midnight Library is independent of all of them." },
+      { q: 'Is The Midnight Library a fantasy novel?', a: "The Midnight Library uses a speculative premise — a library between life and death containing all the lives you could have lived — but is not primarily interested in the mechanics of that premise. It is closer to philosophical fiction or magical realism: the library is a device for exploring questions about depression, regret, possibility, and what makes a life worth living." },
+      { q: 'Is The Midnight Library about depression and mental health?', a: "The novel begins with Nora at the lowest point of her depression, having attempted suicide. The Midnight Library is partly a novel about depression — Nora's experience of feeling that her life has no value — and partly a novel about recovery and the discovery that life is worth living. Haig has written about his own depression in Reasons to Stay Alive; The Midnight Library is a fictionalized version of some of the same themes." },
+      { q: 'What is the Midnight Library?', a: "The Midnight Library is a vast library that exists between life and death, containing an infinite number of books. Each book contains the life Nora would have lived if she had made a different choice at a key moment. Mrs. Elm, Nora's childhood librarian, tends the library and helps Nora understand the rules. Nora can enter any book and live that life until she decides she wants to return — or until the midnight library itself begins to crumble." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

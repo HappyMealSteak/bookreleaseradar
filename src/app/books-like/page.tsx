@@ -162,6 +162,11 @@ export const metadata: Metadata = {
     'books like Never Let Me Go Kazuo Ishiguro',
     "books like The Handmaid's Tale Margaret Atwood",
     'books like 1984 George Orwell',
+    'books like Station Eleven Emily St John Mandel',
+    'books like The Road Cormac McCarthy',
+    'books like Life of Pi Yann Martel',
+    'books like Everything I Never Told You Celeste Ng',
+    'books like The Midnight Library Matt Haig',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -839,6 +844,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked 1984 by George Orwell?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like 1984 include Brave New World by Aldous Huxley, The Handmaid's Tale by Margaret Atwood, Never Let Me Go by Kazuo Ishiguro, We by Yevgeny Zamyatin, Fahrenheit 451 by Ray Bradbury, Animal Farm by George Orwell, and The Man in the High Castle by Philip K. Dick. Our full guide covers 8 picks for fans of classic dystopian and totalitarian fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Station Eleven by Emily St. John Mandel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Station Eleven include The Glass Hotel and Sea of Tranquility (also by Emily St. John Mandel), Never Let Me Go by Kazuo Ishiguro, The Road by Cormac McCarthy, The Handmaid's Tale by Margaret Atwood, The Passage by Justin Cronin, The Children of Men by P.D. James, and Everything I Never Told You by Celeste Ng. Our full guide covers 8 picks for fans of literary post-apocalyptic fiction that is as interested in beauty and connection as in catastrophe." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Road by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Road include Blood Meridian and No Country for Old Men (also by Cormac McCarthy), Station Eleven by Emily St. John Mandel, Never Let Me Go by Kazuo Ishiguro, Beloved by Toni Morrison, On the Beach by Nevil Shute, The Children of Men by P.D. James, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of devastating literary fiction about survival, parental love, and what goodness means in a collapsed world." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Life of Pi by Yann Martel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Life of Pi include The Alchemist by Paulo Coelho, Never Let Me Go by Kazuo Ishiguro, The Old Man and the Sea by Ernest Hemingway, Siddhartha by Hermann Hesse, The Curious Incident of the Dog in the Night-Time by Mark Haddon, Station Eleven by Emily St. John Mandel, and Midnight's Children by Salman Rushdie. Our full guide covers 8 picks for fans of philosophical adventure fiction with spiritual depth and questions about which version of reality to believe." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Everything I Never Told You by Celeste Ng?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Everything I Never Told You include Little Fires Everywhere (also by Celeste Ng), The Joy Luck Club by Amy Tan, The Lovely Bones by Alice Sebold, Normal People by Sally Rooney, A Little Life by Hanya Yanagihara, The Vanishing Half by Brit Bennett, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of literary family drama about silence, projection, and what families cannot bring themselves to say." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Midnight Library by Matt Haig?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Midnight Library include The Humans by Matt Haig, Reasons to Stay Alive by Matt Haig, Eleanor Oliphant Is Completely Fine by Gail Honeyman, A Man Called Ove by Fredrik Backman, The House in the Cerulean Sea by TJ Klune, The Hitchhiker's Guide to the Galaxy by Douglas Adams, and Where the Crawdads Sing by Delia Owens. Our full guide covers 8 picks for fans of hopeful, accessible fiction about depression, second chances, and discovering what makes life worth living." },
     },
   ],
 };
