@@ -1054,6 +1054,53 @@ export const RECOMMENDATIONS: BooksLikeEntry[] = [
       { title: 'Scythe', author: 'Neal Shusterman', why: "Two teens are trained to become the arbiters of death in a world where disease has been conquered. The system-as-oppressor and the two protagonists discovering what it really means are the same Legend ingredients with Shusterman's sharper philosophical edge.", genre: 'sci-fi' },
     ],
   },
+  {
+    slug: 'selection',
+    sourceTitle: 'The Selection',
+    sourceShortName: 'The Selection',
+    tagline: 'Thirty-five girls. One prince. A competition that changes everything.',
+    description: "Kiera Cass's Selection series drops America Singer into a televised competition where 35 girls from different castes compete to marry Prince Maxon — part Hunger Games, part Bachelor, all addictive. If the glamour of the palace, the love triangle between America, Maxon, and Aspen, and the slowly unraveling class system hooked you, these eight picks have the same compulsive mix of romance and rebellion.",
+    keywords: [
+      'books like The Selection',
+      'books like Kiera Cass',
+      'dystopia romance YA books',
+      'competition romance YA books',
+    ],
+    recommendations: [
+      { title: 'Red Queen', author: 'Victoria Aveyard', why: "A girl from the lowest class ends up in the palace — and discovers a dangerous secret that makes her more valuable than anyone knows. Red Queen is Selection's darker cousin: same class-divide premise, significantly higher stakes.", genre: 'fiction' },
+      { title: 'The Hunger Games', author: 'Suzanne Collins', why: "The competition dystopia that shaped a generation of YA. Katniss is compelled into the arena the way America is compelled into the Selection — and the love triangle and rebellion themes run parallel.", genre: 'fiction' },
+      { title: 'An Ember in the Ashes', author: 'Sabaa Tahir', why: "A girl forced into a brutal military institution discovers the ruler's world is more complicated than she thought — and falls for two men on opposite sides of her survival. The forbidden romance and class war mirror The Selection's best dynamics.", genre: 'fantasy' },
+      { title: 'Matched', author: 'Ally Condie', why: "In a society where the government chooses your career, where you live, and who you marry, Cassia is matched to her best friend — until a glitch shows her a second face. Matched has the same slow-building romantic tension and controlled-society dystopia as The Selection.", genre: 'fiction' },
+      { title: 'Wither', author: 'Lauren DeStefano', why: "A girl is kidnapped and forced into a polygamous marriage with a wealthy husband in a world where women die at 20 and men at 25. The Chemical Garden trilogy has The Selection's beauty-and-captivity aesthetic pushed into something darker and stranger.", genre: 'fiction' },
+      { title: 'A Court of Thorns and Roses', author: 'Sarah J. Maas', why: "A girl taken to a faerie court discovers her captor is more complex than she imagined — and the court's politics are more dangerous. ACOTAR is the adult romantasy that Selection fans grow into: deeper world-building, morally complex love interest, very addictive.", genre: 'fantasy' },
+      { title: 'Shatter Me', author: 'Tahereh Mafi', why: "A girl with a deadly touch is released from captivity into a world at war, caught between two men and two versions of who she could be. Mafi's emotional intensity and the love triangle structure are exactly what Selection fans crave.", genre: 'fiction' },
+      { title: 'Divergent', author: 'Veronica Roth', why: "A society that sorts people by personality — and a girl who doesn't fit any category. Divergent is the competitive-trial YA dystopia that takes The Selection's competition structure and strips out the romance, leaving pure survival instinct.", genre: 'fiction' },
+    ],
+  },
+  {
+    slug: 'an-ember-in-the-ashes',
+    sourceTitle: 'An Ember in the Ashes',
+    sourceShortName: 'Ember in the Ashes',
+    tagline: 'Ancient Rome meets forbidden desire in a brutal fantasy world',
+    description: "Sabaa Tahir's An Ember in the Ashes builds a world inspired by ancient Rome where Scholar slaves serve Martial soldiers, and two young people — Laia, a Scholar girl who goes undercover as a slave to save her brother, and Elias, the Empire's greatest soldier who wants nothing more than to be free — discover they're fighting the same war from different sides. The brutal world, the slow-burn forbidden romance, and the moral complexity of every choice are what these eight picks deliver.",
+    keywords: [
+      'books like An Ember in the Ashes',
+      'books like Sabaa Tahir',
+      'Roman-inspired fantasy books',
+      'forbidden romance fantasy YA',
+      'dual POV fantasy romance',
+    ],
+    recommendations: [
+      { title: 'Red Queen', author: 'Victoria Aveyard', why: "A girl from the underclass discovers she has powers that don't fit her world's rigid hierarchy — and is immediately thrust into the court of those who will use her. Red Queen shares Ember's class war, forbidden romance, and the constant danger of betrayal.", genre: 'fiction' },
+      { title: 'Shadow and Bone', author: 'Leigh Bardugo', why: "A soldier girl discovers extraordinary power and is swept into the Grisha court — where the most powerful man alive wants to claim her. Bardugo's world-building matches Tahir's depth, and the relationship between Alina and the Darkling has the same dangerous magnetism as Laia and Elias.", genre: 'fantasy' },
+      { title: 'The Hunger Games', author: 'Suzanne Collins', why: "A teenage girl who volunteers for a death arena to save someone she loves — and discovers the system that built the arena is the thing that needs to die. The survival stakes and revolutionary themes align with Ember's best arcs.", genre: 'fiction' },
+      { title: 'Legend', author: 'Marie Lu', why: "Two protagonists on opposite sides of a war discover they're aligned against the same enemy — told in alternating perspectives that build toward an inevitable meeting. Marie Lu's dual-POV structure mirrors Tahir's approach almost exactly.", genre: 'fiction' },
+      { title: 'Six of Crows', author: 'Leigh Bardugo', why: "A heist crew of morally grey criminals in a fantasy Amsterdam that feels as tactile as Ember's empire. Bardugo's ensemble writing and the complexity of Kaz Brekker's choices echo Elias's moral weight in Ember.", genre: 'fantasy' },
+      { title: 'Children of Blood and Bone', author: 'Tomi Adeyemi', why: "A girl from a dispossessed magical people goes on a dangerous quest to restore power to the oppressed — in a West African-inspired world with the same colonial brutality and the same fierce heroine as Ember in the Ashes.", genre: 'fantasy' },
+      { title: 'The Cruel Prince', author: 'Holly Black', why: "A mortal girl raised among dangerous faeries must outmaneuver the cruelest prince in the court to survive. Black's palace of dangerous beauties, impossible choices, and enemies-to-lovers slow burn are the closest fantasy match for Tahir's world.", genre: 'fantasy' },
+      { title: 'A Court of Thorns and Roses', author: 'Sarah J. Maas', why: "A girl taken to a world of immortal creatures where beauty masks brutality — and the rules of the court are designed to destroy her. ACOTAR readers who want the darkness dialed up with more moral complexity should read Ember; Ember readers who want more romance should read ACOTAR.", genre: 'fantasy' },
+    ],
+  },
 ];
 
 export function getBooksLike(slug: string): BooksLikeEntry | undefined {

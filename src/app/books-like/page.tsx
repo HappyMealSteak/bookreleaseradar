@@ -9,7 +9,7 @@ export const revalidate = 2592000;
 export const metadata: Metadata = {
   title: 'Books Like… — Reading Recommendations | BookReleaseRadar',
   description:
-    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, Dune, Divergent, Maze Runner, Red Queen, Eragon, Vampire Academy, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
+    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, Dune, Divergent, Maze Runner, Red Queen, Legend, The Selection, An Ember in the Ashes, Eragon, Vampire Academy, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
   keywords: [
     'books like ACOTAR',
     'books like Fourth Wing',
@@ -45,6 +45,8 @@ export const metadata: Metadata = {
     'books like Maze Runner',
     'books like Red Queen',
     'books like Legend Marie Lu',
+    'books like The Selection Kiera Cass',
+    'books like An Ember in the Ashes',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -136,6 +138,16 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Legend by Marie Lu?',
       acceptedAnswer: { '@type': 'Answer', text: 'Books like Legend by Marie Lu include The Hunger Games by Suzanne Collins, Red Queen by Victoria Aveyard, Divergent by Veronica Roth, An Ember in the Ashes by Sabaa Tahir, and Warcross by Marie Lu herself. Our full Legend guide covers 8 picks for fans of dual-POV YA dystopia.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Selection by Kiera Cass?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like The Selection include Red Queen by Victoria Aveyard, The Hunger Games by Suzanne Collins, Matched by Ally Condie, An Ember in the Ashes by Sabaa Tahir, and Shatter Me by Tahereh Mafi. Our full Selection guide has 8 picks for fans of competition romance and dystopian courts.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after An Ember in the Ashes?',
+      acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
     },
   ],
 };
