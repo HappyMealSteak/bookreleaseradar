@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like Winter in the Blood James Welch',
+    'books like The Absolutely True Diary of a Part-Time Indian Sherman Alexie',
+    'books like The Night Watchman Louise Erdrich',
+    'books like LaRose Louise Erdrich',
+    'books like The Argonauts Maggie Nelson',
     'books like Ceremony Leslie Marmon Silko',
     'books like House Made of Dawn N. Scott Momaday',
     'books like Fun Home Alison Bechdel',
@@ -2135,6 +2140,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Winter in the Blood by James Welch?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Winter in the Blood include Ceremony by Leslie Marmon Silko, House Made of Dawn by N. Scott Momaday, The Death of Jim Loney by James Welch, Love Medicine by Louise Erdrich, There There by Tommy Orange, and Reservation Blues by Sherman Alexie. Our full guide covers 8 picks for fans of Welch's Blackfeet Montana novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Absolutely True Diary of a Part-Time Indian by Sherman Alexie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Absolutely True Diary include The Lone Ranger and Tonto Fistfight in Heaven by Sherman Alexie, Reservation Blues by Sherman Alexie, Love Medicine by Louise Erdrich, Bless Me Ultima by Rudolfo Anaya, The House on Mango Street by Sandra Cisneros, and Ceremony by Leslie Marmon Silko. Our full guide covers 8 picks for fans of Alexie's National Book Award YA novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Night Watchman by Louise Erdrich?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Night Watchman include Love Medicine by Louise Erdrich, The Round House by Louise Erdrich, LaRose by Louise Erdrich, Ceremony by Leslie Marmon Silko, and Bury My Heart at Wounded Knee by Dee Brown. Our full guide covers 8 picks for fans of Erdrich's Pulitzer Prize-winning termination novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked LaRose by Louise Erdrich?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like LaRose include The Round House by Louise Erdrich, Love Medicine by Louise Erdrich, The Night Watchman by Louise Erdrich, Ceremony by Leslie Marmon Silko, Homegoing by Yaa Gyasi, and The Kite Runner by Khaled Hosseini. Our full guide covers 8 picks for fans of Erdrich's Ojibwe grief and healing novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
     },
     {
       '@type': 'Question',
