@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ExternalLink, Calendar, BookOpen, User } from 'lucide-react';
+import { ExternalLink, Calendar, BookOpen, User, ChevronRight } from 'lucide-react';
 import { getBookBySlug, getAllBooks, getSmartRelatedBooks } from '@/lib/db';
 import { formatReleaseDate, authorSlug } from '@/lib/utils';
 import { GENRE_LABELS, type Genre } from '@/lib/types';
@@ -173,12 +173,19 @@ export default async function BookPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-[var(--text-muted)] hover:text-[var(--accent)] mb-8 transition-colors"
-        >
-          <ArrowLeft size={14} /> Back to releases
-        </Link>
+        <nav className="flex items-center gap-1.5 text-xs text-[var(--text-faint)] mb-8">
+          <Link href="/" className="hover:text-[var(--accent)] transition-colors">Home</Link>
+          {primaryGenre && (
+            <>
+              <ChevronRight size={12} />
+              <Link href={`/genre/${primaryGenre}`} className="hover:text-[var(--accent)] transition-colors">
+                {GENRE_LABELS[primaryGenre as Genre] ?? primaryGenre}
+              </Link>
+            </>
+          )}
+          <ChevronRight size={12} />
+          <span className="text-[var(--text-muted)] truncate max-w-[200px]">{book.title}</span>
+        </nav>
 
         <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-8 mb-12">
           {/* Cover */}
