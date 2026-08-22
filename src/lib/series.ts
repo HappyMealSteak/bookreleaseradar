@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'caraval',
+    name: 'Caraval Trilogy',
+    shortName: 'Caraval',
+    author: 'Stephanie Garber',
+    authorQuery: 'Stephanie Garber',
+    genre: 'fantasy',
+    description:
+      "Stephanie Garber's Caraval trilogy is set in a world dominated by the mysterious Dragna family and the legendary performance called Caraval — a magical game played by a master called Legend, where participants must find what's hidden before the game ends, and where nothing is entirely what it seems. The trilogy follows two sisters, Scarlett and Tella, across three games. Garber's world is known for its lush, theatrical atmosphere, its unreliable-reality structure, and its morally complex male leads. She also wrote Once Upon a Broken Heart, a separate series in the same world.",
+    searchTerms: [
+      'Stephanie Garber new book',
+      'Caraval reading order',
+      'Caraval series order',
+      'Caraval books in order',
+    ],
+  },
+  {
+    slug: 'strange-the-dreamer',
+    name: 'Strange the Dreamer',
+    shortName: 'Strange the Dreamer',
+    author: 'Laini Taylor',
+    authorQuery: 'Laini Taylor',
+    genre: 'fantasy',
+    description:
+      "Laini Taylor's Strange the Dreamer duology follows Lazlo Strange, an orphan librarian obsessed with a city called Weep that has been erased from all maps and all memory. When a mysterious expedition passes through his city recruiting people to travel to Weep, Lazlo joins it. There he discovers the city is ruled by titanic metal hands floating in the sky and a population of godspawn — the half-human children of dead gods — including Sarai, a girl who can walk into human dreams. Taylor is known for her lush, distinctive prose style and for the Daughter of Smoke and Bone trilogy.",
+    searchTerms: [
+      'Laini Taylor new book',
+      'Strange the Dreamer reading order',
+      'Strange the Dreamer sequel',
+      'Muse of Nightmares order',
+    ],
+  },
+  {
+    slug: 'legends-and-lattes',
+    name: 'Legends & Lattes',
+    shortName: 'Legends & Lattes',
+    author: 'Travis Baldree',
+    authorQuery: 'Travis Baldree',
+    genre: 'fantasy',
+    description:
+      "Travis Baldree's Legends & Lattes (2022) is a cozy fantasy novel following Viv, an orc barbarian who retires from a life of adventuring to open the first coffee shop in the city of Thune — a city that has never heard of coffee and doesn't know if it wants any. The book is widely cited as one of the founding texts of the cozy fantasy genre alongside The House in the Cerulean Sea. Baldree originally self-published the novel before it was acquired by Tor and became a bestseller, winning the Goodreads Choice Award for both fantasy and romance. A prequel, Bookshops & Bonedust (2023), follows a younger Viv fifteen years earlier.",
+    searchTerms: [
+      'Travis Baldree new book',
+      'Legends and Lattes sequel',
+      'Legends and Lattes reading order',
+      'Bookshops and Bonedust order',
+    ],
+  },
+  {
     slug: 'circe',
     name: 'Circe',
     shortName: 'Circe',

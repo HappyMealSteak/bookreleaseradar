@@ -68,6 +68,10 @@ export const metadata: Metadata = {
     'books like Circe Madeline Miller',
     'books like The Goblin Emperor',
     'books like The Raven Boys Raven Cycle',
+    'books like Caraval Stephanie Garber',
+    'books like Strange the Dreamer Laini Taylor',
+    'books like Legends and Lattes',
+    'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -169,6 +173,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Caraval?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Caraval include The Night Circus by Erin Morgenstern, Strange the Dreamer by Laini Taylor, A Court of Thorns and Roses, The Cruel Prince, Shadow and Bone, and The Raven Boys. Our full Caraval guide covers 8 picks for fans of atmospheric magical games and theatrical YA fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Strange the Dreamer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Strange the Dreamer by Laini Taylor include Daughter of Smoke and Bone (also by Taylor), Caraval by Stephanie Garber, The Night Circus, The Raven Boys, Shadow and Bone, and An Ember in the Ashes. Our full Strange the Dreamer guide covers 8 lush atmospheric YA fantasy picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Legends & Lattes?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Legends & Lattes include The House in the Cerulean Sea by TJ Klune, The Goblin Emperor by Katherine Addison, Bookshops & Bonedust (the prequel by the same author), Piranesi, and A Wizard's Guide to Defensive Baking. Our full Legends & Lattes guide covers 8 cozy fantasy picks with found families." },
     },
     {
       '@type': 'Question',

@@ -1291,6 +1291,52 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What is The Raven Boys about?', a: "Blue Sargent comes from a family of psychics but has no powers of her own — instead she can amplify the visions of others. She has been told her whole life that if she kisses her true love, he will die. When she encounters four prep school boys searching for the ley lines and the legendary Welsh king Owen Glendower, Blue is pulled into their search — and toward the boy she may be destined to kill." },
     ],
   },
+  {
+    slug: 'caraval',
+    intro: "Stephanie Garber's Caraval trilogy is a complete three-book YA fantasy series centered on a legendary magical game where the line between performance and reality blurs. The story follows Scarlett and her sister Donatella across three interconnected games. All three books should be read in order; Legendary and Finale follow different POV characters but continue the overarching story.",
+    startWith: 'Caraval',
+    books: [
+      { title: 'Caraval', author: 'Stephanie Garber', year: 2017, note: "Book 1 — Scarlett's POV: she and her sister Tella travel to the legendary magical game Caraval, where Tella goes missing as part of the game — or so Scarlett is told" },
+      { title: 'Legendary', author: 'Stephanie Garber', year: 2018, note: "Book 2 — Tella's POV: the game returns to Caraval, and Tella is playing her own secret game inside it" },
+      { title: 'Finale', author: 'Stephanie Garber', year: 2019, note: "Book 3 — Both sisters' POVs: the fate of the master of Caraval and the empire itself" },
+    ],
+    faq: [
+      { q: 'What is the Caraval reading order?', a: "Read Caraval (2017), then Legendary (2018), then Finale (2019). All three books must be read in order — Legendary and Finale resolve storylines set up in the first book. The books shift between Scarlett's POV (Book 1) and Tella's POV (Book 2) before combining both in Finale." },
+      { q: 'How many Caraval books are there?', a: "Stephanie Garber's Caraval series is a complete trilogy: Caraval (2017), Legendary (2018), and Finale (2019). There is also Once Upon a Broken Heart (2021), a new series by Garber set in the same world but following a different protagonist, Evangeline Fox." },
+      { q: 'Is Caraval a standalone?', a: "No — Caraval is the first book in a trilogy. It has a semi-complete ending but many mysteries are unresolved until Legendary and Finale. Most readers continue with the full trilogy after the first book." },
+      { q: 'What is Caraval similar to?', a: "Caraval is most often compared to The Night Circus by Erin Morgenstern — both feature a magical performance venue where the line between game and reality blurs, and both have romance as a central thread. Caraval is more YA and more plot-driven; Night Circus is more literary and atmospheric. Fans of one tend to love the other." },
+    ],
+  },
+  {
+    slug: 'strange-the-dreamer',
+    intro: "Laini Taylor's Strange the Dreamer is a complete two-book YA fantasy duology set in a city that has been erased from all maps and all memory. The duology must be read in order; Muse of Nightmares is the direct continuation and conclusion of the story.",
+    startWith: 'Strange the Dreamer',
+    books: [
+      { title: 'Strange the Dreamer', author: 'Laini Taylor', year: 2017, note: "Book 1 — Lazlo Strange, an orphan librarian obsessed with a forgotten city called Weep, joins an expedition to find it; in the ruins he meets Sarai, a ghost who walks into dreams" },
+      { title: 'Muse of Nightmares', author: 'Laini Taylor', year: 2018, note: "Book 2 — The duology conclusion; Lazlo and Sarai must prevent a catastrophe that threatens both humans and the godspawn living above the city" },
+    ],
+    faq: [
+      { q: 'What is the Strange the Dreamer reading order?', a: "Read Strange the Dreamer (2017) first, then Muse of Nightmares (2018). The two books form a complete duology and must be read in order — Strange the Dreamer ends on a significant cliffhanger." },
+      { q: 'How many Strange the Dreamer books are there?', a: "Strange the Dreamer is a complete two-book duology by Laini Taylor: Strange the Dreamer (2017) and Muse of Nightmares (2018). Taylor also wrote the Daughter of Smoke and Bone trilogy, a completely separate series set in a different world." },
+      { q: 'Is Strange the Dreamer connected to Daughter of Smoke and Bone?', a: "No — Strange the Dreamer and the Daughter of Smoke and Bone trilogy are completely separate series in different worlds by Laini Taylor. They share Taylor's distinctive lush prose style but have no shared characters, settings, or plot." },
+      { q: 'What is Strange the Dreamer about?', a: "Lazlo Strange is a librarian's assistant in a fantasy world who has been obsessed since childhood with a city once called Weep that was erased from all maps and all memory. When an expedition sets out to find Weep, Lazlo joins it. There he discovers the city is ruled by titanic metal hands in the sky and inhabited by godspawn — children of gods, hunted by humanity — including Sarai, a girl who enters human dreams." },
+    ],
+  },
+  {
+    slug: 'legends-and-lattes',
+    intro: "Travis Baldree's Legends & Lattes (2022) has a prequel, Bookshops & Bonedust (2023), which tells a young Viv's story set fifteen years before the events of the first book. Both books stand alone and can be read in any order, though most readers prefer to read Legends & Lattes first.",
+    startWith: 'Legends & Lattes',
+    books: [
+      { title: 'Legends & Lattes', author: 'Travis Baldree', year: 2022, note: "Standalone — orc barbarian Viv retires from adventuring to open the first coffee shop in the city of Thune; a cozy found-family story" },
+      { title: 'Bookshops & Bonedust', author: 'Travis Baldree', year: 2023, note: "Prequel standalone — a younger Viv is injured and left behind in a seaside town; same world, 15 years earlier" },
+    ],
+    faq: [
+      { q: 'What is the Legends & Lattes reading order?', a: "Legends & Lattes (2022) is the first book and can be read standalone. Bookshops & Bonedust (2023) is a prequel set fifteen years earlier with a younger version of the same protagonist. Both books stand alone; most readers prefer Legends & Lattes first." },
+      { q: 'How many Legends & Lattes books are there?', a: "Travis Baldree has written two books in this world: Legends & Lattes (2022) and Bookshops & Bonedust (2023), a prequel. Both are standalones. No additional books have been announced." },
+      { q: 'What genre is Legends & Lattes?', a: "Legends & Lattes is widely credited as one of the books that defined cozy fantasy — a genre of fantasy that emphasizes warmth, found family, slice-of-life storytelling, and low stakes rather than epic world-ending conflicts. The book is often listed alongside The House in the Cerulean Sea by TJ Klune as a founding text of the genre." },
+      { q: 'Is Legends & Lattes appropriate for adults?', a: "Yes — Legends & Lattes is written for adult readers, though its gentle content makes it accessible to older teens as well. It features a lesbian romance between two adult women, but the content is not explicit. The book was a Goodreads Choice Award winner for fantasy and romance." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
