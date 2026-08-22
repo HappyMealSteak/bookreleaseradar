@@ -7,6 +7,7 @@ import { authorSlug } from '@/lib/utils';
 import { getAuthorBio } from '@/lib/author-bios';
 import { GENRE_LABELS, type Genre } from '@/lib/types';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -159,6 +160,8 @@ export default async function AuthorPage({ params }: Props) {
           </section>
         )}
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

@@ -9,6 +9,7 @@ import { GENRE_LABELS, type Genre } from '@/lib/types';
 import { SERIES } from '@/lib/series';
 import { getReadingOrder } from '@/lib/reading-orders';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 function findSeriesForBook(authors: string[]) {
   return SERIES.filter((s) =>
@@ -364,6 +365,8 @@ export default async function BookPage({ params }: Props) {
           </section>
         )}
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }
