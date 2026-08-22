@@ -4,8 +4,17 @@ import SearchContent from './SearchContent';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const metadata: Metadata = {
-  title: 'Search Books',
-  description: 'Search upcoming book releases by title, author, or genre.',
+  title: 'Search Upcoming Book Releases | BookReleaseRadar',
+  description: 'Search upcoming and new book releases by title, author, or genre. Find release dates, pre-order links, and reading orders for fantasy, romance, thriller, sci-fi, and more.',
+  keywords: [
+    'search book releases',
+    'find upcoming books',
+    'book release dates',
+    'search books by author',
+    'upcoming fantasy books',
+    'upcoming romance books',
+    'book search',
+  ],
 };
 
 export default function SearchPage() {
