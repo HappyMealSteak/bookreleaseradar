@@ -234,6 +234,11 @@ export const metadata: Metadata = {
     'books like Madame Bovary Gustave Flaubert',
     'books like Lord Jim Joseph Conrad',
     'books like Matterhorn Karl Marlantes',
+    'books like Lucky Jim Kingsley Amis',
+    'books like The Tin Drum Günter Grass',
+    'books like Steppenwolf Hermann Hesse',
+    'books like The Awakening Kate Chopin',
+    'books like The House of Mirth Edith Wharton',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1276,6 +1281,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Matterhorn by Karl Marlantes?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Matterhorn include The Things They Carried by Tim O'Brien, All Quiet on the Western Front by Erich Maria Remarque, Life and Fate by Vasily Grossman, A Farewell to Arms by Ernest Hemingway, Catch-22 by Joseph Heller, Redeployment by Phil Klay, The Naked and the Dead by Norman Mailer, and Slaughterhouse-Five by Kurt Vonnegut. Our full guide covers 8 picks for fans of Marlantes's Vietnam War combat novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lucky Jim by Kingsley Amis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lucky Jim include A Confederacy of Dunces by John Kennedy Toole, Brideshead Revisited by Evelyn Waugh, The Secret History by Donna Tartt, Starter for Ten by David Nicholls, The Inimitable Jeeves by P.G. Wodehouse, The History Man by Malcolm Bradbury, Porterhouse Blue by Tom Sharpe, and Money by Martin Amis. Our full guide covers 8 picks for fans of Amis's comic novel about Jim Dixon's disastrous year at a provincial university." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tin Drum by Günter Grass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tin Drum include Life and Fate by Vasily Grossman, The Book Thief by Markus Zusak, Midnight's Children by Salman Rushdie, One Hundred Years of Solitude by Gabriel García Márquez, Catch-22 by Joseph Heller, All Quiet on the Western Front by Erich Maria Remarque, The Master and Margarita by Mikhail Bulgakov, and The Painted Bird by Jerzy Kosiński. Our full guide covers 8 picks for fans of Grass's novel about Oskar Matzerath and the history of Danzig." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Steppenwolf by Hermann Hesse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Steppenwolf include Siddhartha (also by Hesse), Nausea by Jean-Paul Sartre, The Stranger by Albert Camus, Demian (also by Hesse), The Trial by Franz Kafka, Notes from Underground by Fyodor Dostoevsky, The Picture of Dorian Gray by Oscar Wilde, and The Razor's Edge by W. Somerset Maugham. Our full guide covers 8 picks for fans of Hesse's novel about Harry Haller's divided self and the Magic Theatre." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Awakening by Kate Chopin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Awakening include Madame Bovary by Gustave Flaubert, The House of Mirth by Edith Wharton, The Handmaid's Tale by Margaret Atwood, The Portrait of a Lady by Henry James, Their Eyes Were Watching God by Zora Neale Hurston, The Bell Jar by Sylvia Plath, The Color Purple by Alice Walker, and Rebecca by Daphne du Maurier. Our full guide covers 8 picks for fans of Chopin's novel about Edna Pontellier's awakening." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The House of Mirth by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House of Mirth include The Age of Innocence and The Custom of the Country (also by Wharton), Madame Bovary by Gustave Flaubert, The Portrait of a Lady by Henry James, The Awakening by Kate Chopin, Anna Karenina by Leo Tolstoy, The Forsyte Saga by John Galsworthy, and Washington Square by Henry James. Our full guide covers 8 picks for fans of Wharton's novel about Lily Bart's destruction by Gilded Age society." },
     },
   ],
 };
