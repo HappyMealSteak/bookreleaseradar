@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'young-elites',
+    name: 'The Young Elites',
+    shortName: 'Young Elites',
+    author: 'Marie Lu',
+    authorQuery: 'Marie Lu',
+    genre: 'fantasy',
+    description:
+      "Marie Lu's Young Elites is a dark YA fantasy trilogy about Adelina Amouteru, a survivor of the blood fever who bears marks — and discovers she has terrifying powers. Recruited by the Dagger Society, a secret group of marked rebels called Young Elites, Adelina must decide who she really is. Unlike most YA protagonists, Adelina is not a hero but a villain-in-waiting, and watching her fall is the central drama of the trilogy. Darker than Legend or Warcross, the Young Elites trilogy is Marie Lu at her most morally complex.",
+    searchTerms: [
+      'Marie Lu new book',
+      'Young Elites reading order',
+      'Young Elites books in order',
+      'The Young Elites series order',
+    ],
+  },
+  {
+    slug: 'delirium',
+    name: 'Delirium',
+    shortName: 'Delirium',
+    author: 'Lauren Oliver',
+    authorQuery: 'Lauren Oliver',
+    genre: 'fiction',
+    description:
+      "Lauren Oliver's Delirium trilogy is set in a future United States where love has been classified as a disease — Amor Deliria Nervosa — and cured at age eighteen. Lena Haloway has always believed in the cure, counting the days to her procedure, until she meets Alex and falls desperately in love ninety-five days before her appointment. The trilogy is a lyrical, romantic YA dystopia that launched alongside Matched and Divergent as part of the early-2010s wave that followed The Hunger Games. Oliver's prose is more literary than most YA contemporaries.",
+    searchTerms: [
+      'Lauren Oliver new book',
+      'Delirium reading order',
+      'Delirium trilogy books in order',
+      'Delirium series Lauren Oliver',
+    ],
+  },
+  {
+    slug: 'gentleman-bastard',
+    name: 'Gentleman Bastard Sequence',
+    shortName: 'Gentleman Bastard',
+    author: 'Scott Lynch',
+    authorQuery: 'Scott Lynch',
+    genre: 'fantasy',
+    description:
+      "Scott Lynch's Gentleman Bastard Sequence is an ongoing adult heist fantasy series set in Camorr, a city modeled on Renaissance Venice, ruled by the Capa Barsavi and his criminal network. Locke Lamora is a priest-thief leading the Gentleman Bastards, an elite crew of con artists who steal not just money but entire identities. The series is known for its intricate heist plots, Lynch's sharp wit, the bond between Locke and his best friend Jean Tannen, and the city of Camorr itself — one of the most detailed fantasy cities in modern fiction. Darker and more adult in tone than most fantasy heist fiction.",
+    searchTerms: [
+      'Scott Lynch new book',
+      'Gentleman Bastard reading order',
+      'Lies of Locke Lamora reading order',
+      'Gentleman Bastard books in order',
+    ],
+  },
+  {
     slug: 'warcross',
     name: 'Warcross',
     shortName: 'Warcross',

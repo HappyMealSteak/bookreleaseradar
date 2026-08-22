@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     'books like Matched Ally Condie',
     'books like Three Dark Crowns Kendare Blake',
     'books like Warcross Marie Lu',
+    'books like The Young Elites Marie Lu',
+    'books like Delirium Lauren Oliver',
+    'books like The Lies of Locke Lamora',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -154,6 +157,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Young Elites?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Young Elites include Legend and Warcross (also by Marie Lu), The Cruel Prince by Holly Black, Shadow and Bone by Leigh Bardugo, Red Queen by Victoria Aveyard, and An Ember in the Ashes by Sabaa Tahir. Our full Young Elites guide covers 8 picks for fans of dark fantasy with villain protagonists." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Delirium?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Delirium by Lauren Oliver include Matched by Ally Condie, The Hunger Games, Divergent, The Giver, Shatter Me by Tahereh Mafi, and Wither by Lauren DeStefano. Our full Delirium guide covers 8 picks for fans of dystopian romance with controlled-emotion societies." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Lies of Locke Lamora?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lies of Locke Lamora include The Name of the Wind by Patrick Rothfuss, Six of Crows by Leigh Bardugo, The Blade Itself by Joe Abercrombie, Mistborn by Brandon Sanderson, and The Night Circus by Erin Morgenstern. Our full Gentleman Bastard guide covers 8 heist fantasy picks." },
     },
     {
       '@type': 'Question',

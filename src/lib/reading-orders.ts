@@ -1059,6 +1059,55 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is Warcross part of the Legend series?', a: "No — Warcross and Legend are separate series by Marie Lu set in entirely different worlds. Legend is a dystopian series with military themes; Warcross is a near-future sci-fi series about virtual reality gaming. They share Marie Lu's signature dual-POV storytelling and pacing, but are otherwise unconnected." },
     ],
   },
+  {
+    slug: 'young-elites',
+    intro: "Marie Lu's Young Elites is a complete dark YA fantasy trilogy about a survivor of a blood fever who discovers she has powers — and is recruited by a secret society of marked rebels. Unlike most YA heroines, Adelina Amouteru is not a hero; she is a villain-in-the-making, and her slow fall is the subject of the trilogy. All three books must be read in order.",
+    startWith: 'The Young Elites',
+    books: [
+      { title: 'The Young Elites', author: 'Marie Lu', year: 2014, note: "Book 1 — Adelina survives the blood fever with a power she can't control and is recruited by the Dagger Society" },
+      { title: 'The Rose Society', author: 'Marie Lu', year: 2015, note: "Book 2 — Adelina forms her own order of Elites and begins her descent" },
+      { title: 'The Midnight Star', author: 'Marie Lu', year: 2016, note: "Book 3 — The trilogy conclusion; Adelina's fate and the fate of all Elites" },
+    ],
+    faq: [
+      { q: 'What is the Young Elites reading order?', a: "Read The Young Elites (2014), then The Rose Society (2015), then The Midnight Star (2016). The trilogy must be read in order — Adelina's arc across all three books is the core of the series." },
+      { q: 'How many Young Elites books are there?', a: "The Young Elites series by Marie Lu is a complete trilogy: The Young Elites (2014), The Rose Society (2015), and The Midnight Star (2016). There are no additional books planned." },
+      { q: 'Is The Young Elites connected to Legend or Warcross?', a: "No — The Young Elites is a standalone series by Marie Lu set in a completely different world from Legend and Warcross. All three series are by Marie Lu but have no shared characters, settings, or storylines." },
+      { q: 'Is The Young Elites a villain origin story?', a: "Yes — The Young Elites is unusual for YA fantasy in that Adelina Amouteru is not a traditional hero. The trilogy chronicles her transformation from a frightened, abused survivor into a ruthless villain. Marie Lu has described the series as what happens to the villain before the hero's story begins." },
+    ],
+  },
+  {
+    slug: 'delirium',
+    intro: "Lauren Oliver's Delirium trilogy is set in a future America where love — classified as the disease Amor Deliria Nervosa — has been cured. At eighteen, all citizens receive the procedure that removes the ability to love. Lena Haloway is ninety-five days from her cure when she meets Alex and falls in love for the first time. The trilogy is a complete story that should be read in order.",
+    startWith: 'Delirium',
+    books: [
+      { title: 'Delirium', author: 'Lauren Oliver', year: 2011, note: 'Book 1 — Lena is weeks from the cure when she meets Alex and falls in love for the first time' },
+      { title: 'Pandemonium', author: 'Lauren Oliver', year: 2012, note: 'Book 2 — After Portland, Lena joins the resistance in New York; alternating timelines' },
+      { title: 'Requiem', author: 'Lauren Oliver', year: 2013, note: 'Book 3 — Lena and Hana (her best friend, now cured) tell the final story in alternating chapters' },
+    ],
+    faq: [
+      { q: 'What is the Delirium reading order?', a: "Read Delirium (2011), then Pandemonium (2012), then Requiem (2013). The trilogy must be read in order. There are also optional novellas — Hana, Annabel, and Raven — which explore side characters but are not required for the main story." },
+      { q: 'How many Delirium books are there?', a: "Lauren Oliver's Delirium series is a complete trilogy: Delirium (2011), Pandemonium (2012), and Requiem (2013). There are three companion novellas (Hana, Annabel, and Raven) that are optional. No further books are planned." },
+      { q: 'Is Delirium similar to Matched?', a: "Yes — Delirium and Matched are very similar: both are YA dystopian romances set in societies that control who you love, both feature quiet prose and slow-burn romance, and both launched in the early 2010s dystopia wave. Delirium is slightly darker and more action-oriented; Matched is more lyrical and internal." },
+      { q: 'Is Delirium a standalone?', a: "No — Delirium ends on a cliffhanger that is not resolved until Pandemonium. You need all three books for the complete story, though Requiem's dual-narrative ending has divided readers." },
+    ],
+  },
+  {
+    slug: 'gentleman-bastard',
+    intro: "Scott Lynch's Gentleman Bastard sequence is an ongoing heist fantasy series following Locke Lamora, a thief-priest of the god Perelandro and the leader of the Gentleman Bastards — a crew of elite con artists operating in the city of Camorr. Three books have been published; a fourth is in progress. The series must be read in order.",
+    startWith: 'The Lies of Locke Lamora',
+    books: [
+      { title: 'The Lies of Locke Lamora', author: 'Scott Lynch', year: 2006, note: 'Book 1 — Locke and his crew run an elaborate con while a mysterious killer begins targeting the criminal underworld' },
+      { title: 'Red Seas Under Red Skies', author: 'Scott Lynch', year: 2007, note: 'Book 2 — Locke and Jean infiltrate a casino and end up shanghaied into a pirate war' },
+      { title: 'The Republic of Thieves', author: 'Scott Lynch', year: 2013, note: 'Book 3 — A Bondsmage offers Locke a cure for poison — if he rigs an election in a city of mages' },
+      { title: 'The Thorn of Emberlain', author: 'Scott Lynch', year: 'TBD', note: 'Book 4 — Long-anticipated; publication date not yet announced', isUpcoming: true },
+    ],
+    faq: [
+      { q: 'What is the Gentleman Bastard reading order?', a: "Read The Lies of Locke Lamora (2006), then Red Seas Under Red Skies (2007), then The Republic of Thieves (2013). A fourth book, The Thorn of Emberlain, is forthcoming. All books must be read in order." },
+      { q: 'How many Gentleman Bastard books are there?', a: "Three books have been published in Scott Lynch's Gentleman Bastard sequence: The Lies of Locke Lamora (2006), Red Seas Under Red Skies (2007), and The Republic of Thieves (2013). A fourth book, The Thorn of Emberlain, has been in progress for many years with no confirmed publication date." },
+      { q: 'Is The Lies of Locke Lamora a standalone?', a: "The Lies of Locke Lamora works very well as a standalone novel — it tells a complete heist story with a satisfying ending. However, the characters and world continue in the sequels, and the series is planned as a seven-book sequence. Most readers find the first book compelling enough to continue immediately." },
+      { q: 'What genre is the Gentleman Bastard series?', a: "The Gentleman Bastard sequence is fantasy heist fiction — set in a secondary world with elements of Renaissance Italy, featuring elaborate cons, criminal underworlds, magic, and ocean adventure. It is classified as grimdark or flintlock fantasy and is aimed at adult readers rather than YA." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
