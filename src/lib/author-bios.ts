@@ -528,6 +528,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ['The Rage of Dragons', 'The Fires of Vengeance'],
   },
+  {
+    name: 'Philip Pullman',
+    bio: "Philip Pullman is a British author best known for His Dark Materials, a three-book fantasy trilogy consisting of The Golden Compass (1995), The Subtle Knife (1997), and The Amber Spyglass (2000). The trilogy began as children's fantasy and deepened into one of the most philosophically ambitious and theologically controversial works of speculative fiction ever written, drawing on Milton's Paradise Lost and engaging directly with questions of religious authority, consciousness, and freedom. The Amber Spyglass won the Whitbread Book of the Year Award in 2001, the first children's book to do so. Pullman has since written The Book of Dust, a companion series set in the same world: La Belle Sauvage (2017) and The Secret Commonwealth (2019).",
+    genre: 'fantasy',
+    knownFor: ['The Golden Compass', 'His Dark Materials', 'The Book of Dust'],
+  },
+  {
+    name: 'James S.A. Corey',
+    bio: "James S.A. Corey is the pen name of co-authors Daniel Abraham and Ty Franck, who together wrote The Expanse, a nine-book science fiction series set in a colonized solar system. The series began with Leviathan Wakes (2011) and concluded with Leviathan Falls (2021). The Expanse is praised for its hard scientific accuracy, its politically realistic depiction of three distinct civilizations in conflict, and its ensemble cast. The television adaptation (Amazon Prime, 2015–2022) ran for six seasons and is widely considered one of the greatest science fiction adaptations ever made. Daniel Abraham also writes epic fantasy under his own name; Ty Franck was a personal assistant to George R.R. Martin.",
+    genre: 'sci-fi',
+    knownFor: ['Leviathan Wakes', 'The Expanse', 'Nemesis Games'],
+  },
+  {
+    name: 'Tracy Deonn',
+    bio: "Tracy Deonn is an American author of YA fantasy. Her debut novel Legendborn (2020) was an immediate bestseller, centering on a Black girl who discovers a secret Arthurian society at the University of North Carolina at Chapel Hill and finds that her own family history is entangled with the society's magical legacy. Legendborn was praised for its integration of Arthurian mythology with American racial history — particularly the history of the American South — and won numerous awards including the Coretta Scott King Author Honor. She is writing a sequel trilogy under the Legendborn Cycle series title; Bloodmarked (2022) is the second book.",
+    genre: 'fantasy',
+    knownFor: ['Legendborn', 'Bloodmarked'],
+  },
+  {
+    name: 'Marie Rutkoski',
+    bio: "Marie Rutkoski is an American author of YA fantasy best known for The Winner's Trilogy — The Winner's Curse (2014), The Winner's Crime (2015), and The Winner's Kiss (2016). The trilogy is set in a fantasy world where the Herrani people were enslaved by the Valorian empire, and follows Kestrel, a Valorian general's daughter, and Arin, a Herrani slave she buys at auction. The series is praised for its sophisticated portrayal of colonialism, its strategically intelligent female protagonist, and its slow-burn romance built on genuine political stakes rather than proximity. Rutkoski previously wrote the Kronos Chronicles middle-grade series.",
+    genre: 'fantasy',
+    knownFor: ["The Winner's Curse", "The Winner's Crime", "The Winner's Kiss"],
+  },
 ];
 
 function normalize(s: string) {
