@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Waves Virginia Woolf interior monologue modernist',
+    'books like Orlando Virginia Woolf gender biography playful',
+    "books like Jacob's Room Virginia Woolf WWI fragmented",
+    'books like The Voyage Out Virginia Woolf debut colonial',
+    'books like Night and Day Virginia Woolf comedy of manners Edwardian',
     'books like Sula Toni Morrison female friendship Bottom Ohio',
     'books like Jazz Toni Morrison Harlem Renaissance 1926',
     'books like Tar Baby Toni Morrison Caribbean assimilation',
@@ -2350,6 +2355,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Waves by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Waves include Mrs Dalloway and To the Lighthouse by Woolf, Ulysses by James Joyce, Orlando by Woolf, The Sound and the Fury by Faulkner, Steppenwolf by Hermann Hesse, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of Woolf's most experimental interior monologue novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Orlando by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Orlando include Mrs Dalloway and To the Lighthouse by Woolf, The Passion of New Eve by Angela Carter, A Room of One's Own by Woolf, Trumpet by Jackie Kay, Possession by A.S. Byatt, The Waves by Woolf, and Giovanni's Room by James Baldwin. Our full guide covers 8 picks for fans of Woolf's gender-bending biographical novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Jacob's Room by Virginia Woolf?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jacob's Room include Mrs Dalloway and To the Lighthouse by Woolf, Regeneration by Pat Barker, Birdsong by Sebastian Faulks, A Farewell to Arms by Hemingway, The Voyage Out by Woolf, and The Return of the Soldier by Rebecca West. Our full guide covers 8 picks for fans of Woolf's first experimental WWI novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Voyage Out by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Voyage Out include Mrs Dalloway by Woolf, Night and Day by Woolf, A Room of One's Own by Woolf, Daniel Deronda by George Eliot, The Mill on the Floss by Eliot, Howards End by E.M. Forster, and A Passage to India by Forster. Our full guide covers 8 picks for fans of Woolf's Edwardian debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Night and Day by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Night and Day include Mrs Dalloway by Woolf, Emma by Jane Austen, The Voyage Out by Woolf, Middlemarch by George Eliot, Howards End by E.M. Forster, The Return of the Soldier by Rebecca West, and Jacob's Room by Woolf. Our full guide covers 8 picks for fans of Woolf's Edwardian comedy of manners." },
     },
     {
       '@type': 'Question',
