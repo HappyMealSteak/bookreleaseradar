@@ -552,6 +552,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fantasy',
     knownFor: ["The Winner's Curse", "The Winner's Crime", "The Winner's Kiss"],
   },
+  {
+    name: 'Orson Scott Card',
+    bio: "Orson Scott Card is an American author best known for Ender's Game (1985), a science fiction novel about a child genius trained at Battle School to command humanity's fleet against an alien species. The novel won both the Hugo and Nebula Awards for Best Novel — the only science fiction novel to have won both in the same year. Card continued the series with Speaker for the Dead (1986), which won both awards again, and later wrote Ender's Shadow (1999), a parallel novel that retells Ender's Game from Bean's perspective and launched a second series set in the same universe. He is also the author of the Alvin Maker fantasy series.",
+    genre: 'sci-fi',
+    knownFor: ["Ender's Game", "Speaker for the Dead", "Ender's Shadow"],
+  },
+  {
+    name: 'Naomi Novik',
+    bio: "Naomi Novik is an American author of fantasy best known for two series: the Temeraire alternate-history fantasy series (9 books, 2006–2016), set during the Napoleonic Wars in a world where dragons are used as air forces, and the Scholomance trilogy (A Deadly Education, The Last Graduate, The Golden Enclaves), a YA fantasy about a lethal magical school. She also wrote the standalone dark fairy tale Uprooted (2015), which won the Nebula Award for Best Novel. Novik was previously a video game programmer and co-founder of the Organization for Transformative Works, which created the Archive of Our Own (AO3) fan fiction archive.",
+    genre: 'fantasy',
+    knownFor: ['A Deadly Education', 'Uprooted', 'The Scholomance'],
+  },
+  {
+    name: 'Dan Simmons',
+    bio: "Dan Simmons is an American author of science fiction and horror best known for the Hyperion Cantos, a four-book science fiction series beginning with Hyperion (1989), which won the Hugo Award for Best Novel. Hyperion is structured in the mode of The Canterbury Tales, with seven pilgrims telling their stories on the way to a world where an entity of blades and cruelty has been killing people for centuries. The follow-up The Fall of Hyperion (1990) completes the story arc. Simmons has also written the horror novel The Terror (2007), about the Franklin Expedition, and other genre fiction.",
+    genre: 'sci-fi',
+    knownFor: ['Hyperion', 'The Fall of Hyperion', 'The Terror'],
+  },
+  {
+    name: 'Isaac Asimov',
+    bio: "Isaac Asimov (1920–1992) was an American biochemist and prolific science fiction author who wrote or edited more than 500 books. He is best known for the Foundation series — a sweeping science fiction epic about the fall of the Galactic Empire and the mathematician Hari Seldon's plan to reduce the resulting dark age using psychohistory — and for the Robot series, which introduced the Three Laws of Robotics. The original Foundation trilogy (Foundation, Foundation and Empire, Second Foundation) won a one-time Hugo Award as the Best All-Time Series in 1966. Asimov is credited, along with Arthur C. Clarke and Robert A. Heinlein, with establishing the modern form of the science fiction novel.",
+    genre: 'sci-fi',
+    knownFor: ['Foundation', 'Foundation and Empire', 'I, Robot'],
+  },
 ];
 
 function normalize(s: string) {
