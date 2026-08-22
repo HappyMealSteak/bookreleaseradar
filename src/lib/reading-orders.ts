@@ -1200,6 +1200,49 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is Daughter of the Moon Goddess similar to City of Brass or The Poppy War?', a: "All three draw on non-Western mythology with similar literary seriousness. Daughter of the Moon Goddess is the most lyrical and romantic of the three; The Poppy War is the most brutal and historically grounded; City of Brass is the most politically intricate. All three reward readers who want fantasy built from sources outside the Western European tradition." },
     ],
   },
+  {
+    slug: 'piranesi',
+    intro: "Susanna Clarke's Piranesi (2020) is a standalone novel — there is no series and no sequel. It is completely unrelated to Clarke's first novel, Jonathan Strange & Mr Norrell, despite sharing Clarke's distinctive voice and interest in a magical world with its own rules. Both novels can be read as standalones in any order.",
+    startWith: 'Piranesi',
+    books: [
+      { title: 'Piranesi', author: 'Susanna Clarke', year: 2020, note: "Standalone — Piranesi lives alone in a house of infinite halls, tidal hallways, and statues, and keeps careful notes about both, until he discovers he may not be as alone as he thinks" },
+    ],
+    faq: [
+      { q: 'Is Piranesi a series?', a: "No — Piranesi is a standalone novel by Susanna Clarke. There is no sequel and no series. Clarke also wrote Jonathan Strange & Mr Norrell, but that is a completely separate standalone novel in a different world." },
+      { q: 'Should I read Jonathan Strange & Mr Norrell before Piranesi?', a: "No — Piranesi and Jonathan Strange & Mr Norrell are completely unrelated standalone novels. They share Susanna Clarke's distinctive voice and her interest in a magical world with its own rules, but they have different settings, characters, and stories. You can read either first." },
+      { q: 'What is Piranesi about?', a: "Piranesi lives alone in a vast House — a building of infinite halls, with tidal hallways, statues lining every surface, and only two other people who enter. He keeps meticulous journals about the House's ecology and geography. Then he discovers his journals contain entries he has no memory of writing, and begins to question everything he knows about how he got there." },
+      { q: 'Is Piranesi fantasy or mystery?', a: "Piranesi is classified as fantasy — it features a clearly impossible setting, the House, that operates on its own magical rules. But structurally it is also a mystery novel: the central question of who Piranesi is and how he ended up in the House drives the narrative. Most readers describe it as quietly devastating and unlike anything else they've read." },
+    ],
+  },
+  {
+    slug: 'house-in-the-cerulean-sea',
+    intro: "TJ Klune's The House in the Cerulean Sea (2020) has a companion novel — Somewhere Beyond the Sea (2024) — set in the same world with the same characters. Both books are standalones with self-contained stories, but most readers prefer to read The House in the Cerulean Sea first as Somewhere Beyond the Sea continues Linus and Arthur's story.",
+    startWith: 'The House in the Cerulean Sea',
+    books: [
+      { title: 'The House in the Cerulean Sea', author: 'TJ Klune', year: 2020, note: "Standalone — a caseworker for magical children is sent to inspect a mysterious orphanage and falls in love, quietly, against the world's expectations" },
+      { title: 'Somewhere Beyond the Sea', author: 'TJ Klune', year: 2024, note: "Companion — set in the same world, continuing Linus and Arthur's story; can be read standalone" },
+    ],
+    faq: [
+      { q: 'Is The House in the Cerulean Sea a series?', a: "The House in the Cerulean Sea has a companion novel, Somewhere Beyond the Sea (2024), set in the same world and continuing the story of Linus Baker and Arthur Parnassus. Both books are largely self-contained, but most readers prefer to read The House in the Cerulean Sea first." },
+      { q: 'Do I need to read The House in the Cerulean Sea before Somewhere Beyond the Sea?', a: "Somewhere Beyond the Sea is a companion novel that continues the story of characters from The House in the Cerulean Sea, so most readers recommend reading the first book first. However, each book is largely self-contained and tells a complete story." },
+      { q: 'What is The House in the Cerulean Sea about?', a: "Linus Baker is a caseworker for the Department in Charge of Magical Youth who is sent to evaluate a mysterious orphanage on an island. He expects to find dangerous magical children; instead he finds something he wasn't looking for. The book is a cozy fantasy about bureaucracy, prejudice, found families, and a quiet, unexpected love story." },
+      { q: 'Is The House in the Cerulean Sea appropriate for adults?', a: "Yes — The House in the Cerulean Sea is written for adult readers, not children. Despite its gentle tone and whimsical premise, it deals with adult themes: institutional prejudice, fear of difference, and a romance between two adult men. It was praised as one of the best adult cozy fantasy novels of 2020." },
+    ],
+  },
+  {
+    slug: 'jonathan-strange',
+    intro: "Susanna Clarke's Jonathan Strange & Mr Norrell (2004) is a standalone novel — there is no sequel and no series. Clarke also wrote Piranesi (2020), a completely separate standalone novel. Both can be read in any order. Jonathan Strange & Mr Norrell is approximately 1000 pages and structured as a Victorian novel.",
+    startWith: 'Jonathan Strange & Mr Norrell',
+    books: [
+      { title: 'Jonathan Strange & Mr Norrell', author: 'Susanna Clarke', year: 2004, note: "Standalone — two English magicians in the Napoleonic era attempt to restore English magic; structured as a Victorian novel with extensive footnotes" },
+    ],
+    faq: [
+      { q: 'Is Jonathan Strange & Mr Norrell a series?', a: "No — Jonathan Strange & Mr Norrell is a standalone novel by Susanna Clarke, approximately 1000 pages. Clarke's second novel, Piranesi (2020), is a completely separate standalone in a different world." },
+      { q: 'How long is Jonathan Strange & Mr Norrell?', a: "Jonathan Strange & Mr Norrell is approximately 1000 pages and 309,000 words — one of the longest fantasy novels published in the 2000s. The novel also features extensive footnotes that are an integral part of the reading experience, not supplementary material." },
+      { q: 'Is Jonathan Strange & Mr Norrell appropriate for adults?', a: "Jonathan Strange & Mr Norrell is written for adult readers. It is structured as a Victorian novel with extensive footnotes, satirical humor, and an ironic narrator — the register is adult literary fiction as much as fantasy. The BBC television adaptation (2015) captures the novel's tone well and may help readers decide if the style appeals to them." },
+      { q: 'What is Jonathan Strange & Mr Norrell about?', a: "Set in an alternate Napoleonic England where magic was once practiced but has been absent for centuries, the novel follows Mr Norrell — a reclusive scholar who has hoarded all the books of magic — and Jonathan Strange, a gentleman who discovers he has a natural gift for it. As their partnership deteriorates, they attract the attention of an ancient and dangerous fairy who has his own plans for English magic." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

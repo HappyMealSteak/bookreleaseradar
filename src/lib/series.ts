@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'piranesi',
+    name: 'Piranesi',
+    shortName: 'Piranesi',
+    author: 'Susanna Clarke',
+    authorQuery: 'Susanna Clarke',
+    genre: 'fantasy',
+    description:
+      "Susanna Clarke's Piranesi (2020) is a standalone novel unlike anything else in contemporary fantasy. Piranesi lives alone in a vast House — a building of infinite halls and tidal hallways, every surface lined with statues, including a hall filled with stars. He keeps meticulous journals about the House's ecology. He knows of only two other people who exist. Then he finds entries in his own journals that he has no memory of writing, and begins to question who he is and how he got there. Piranesi won the Women's Prize for Fiction in 2021. It is Clarke's second novel, completely unrelated to Jonathan Strange & Mr Norrell.",
+    searchTerms: [
+      'Susanna Clarke new book',
+      'Piranesi sequel',
+      'is Piranesi a series',
+      'Piranesi and Jonathan Strange',
+    ],
+  },
+  {
+    slug: 'house-in-the-cerulean-sea',
+    name: 'Cerulean Chronicles',
+    shortName: 'House in the Cerulean Sea',
+    author: 'TJ Klune',
+    authorQuery: 'TJ Klune',
+    genre: 'fantasy',
+    description:
+      "TJ Klune's The House in the Cerulean Sea (2020) is the defining cozy fantasy novel of the early 2020s. Linus Baker works as a caseworker for the Department in Charge of Magical Youth, evaluating orphanages for dangerous magical children. When he is sent to a mysterious island orphanage — the most unusual the department has — he finds something he wasn't looking for. The novel is a gentle, funny, deeply moving love story between two men and a defense of being different. A companion novel, Somewhere Beyond the Sea (2024), continues their story.",
+    searchTerms: [
+      'TJ Klune new book',
+      'House in the Cerulean Sea reading order',
+      'House in the Cerulean Sea sequel',
+      'Somewhere Beyond the Sea TJ Klune',
+    ],
+  },
+  {
+    slug: 'jonathan-strange',
+    name: 'Jonathan Strange & Mr Norrell',
+    shortName: 'Jonathan Strange',
+    author: 'Susanna Clarke',
+    authorQuery: 'Susanna Clarke',
+    genre: 'fantasy',
+    description:
+      "Susanna Clarke's Jonathan Strange & Mr Norrell (2004) is a standalone epic fantasy of approximately 1000 pages, structured as a Victorian novel. Set in an alternate Napoleonic England where magic once existed and has been absent for centuries, it follows Mr Norrell — a reclusive scholar who has collected every book of magic in England and refuses to share them — and Jonathan Strange, a gentleman who discovers a natural gift for practical magic. Their collaboration to restore English magic during the Napoleonic Wars attracts the attention of a powerful and sinister fairy. Clarke spent ten years writing the novel, and its detailed fictional history is so complete that it won the Hugo, Locus, and World Fantasy Awards.",
+    searchTerms: [
+      'Susanna Clarke new book',
+      'Jonathan Strange Mr Norrell sequel',
+      'is Jonathan Strange a series',
+      'Jonathan Strange reading order',
+    ],
+  },
+  {
     slug: 'bear-and-the-nightingale',
     name: 'Winternight Trilogy',
     shortName: 'Bear and the Nightingale',

@@ -62,6 +62,9 @@ export const metadata: Metadata = {
     'books like Bear and the Nightingale Katherine Arden',
     'books like A Memory Called Empire',
     'books like Daughter of the Moon Goddess',
+    'books like Piranesi Susanna Clarke',
+    'books like House in the Cerulean Sea',
+    'books like Jonathan Strange Mr Norrell',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -163,6 +166,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Piranesi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Piranesi include The Night Circus by Erin Morgenstern, Jonathan Strange & Mr Norrell by Susanna Clarke, The Bear and the Nightingale by Katherine Arden, The House in the Cerulean Sea by TJ Klune, and Circe by Madeline Miller. Our full Piranesi guide covers 8 quiet atmospheric mystery fantasy picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The House in the Cerulean Sea?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House in the Cerulean Sea include Piranesi by Susanna Clarke, The Goblin Emperor by Katherine Addison, Legends & Lattes by Travis Baldree, The Night Circus by Erin Morgenstern, Carry On by Rainbow Rowell, and Circe by Madeline Miller. Our full Cerulean Sea guide covers 8 cozy fantasy picks with found families." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jonathan Strange & Mr Norrell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jonathan Strange & Mr Norrell include Piranesi by Susanna Clarke, The Night Circus by Erin Morgenstern, The Bear and the Nightingale by Katherine Arden, The Name of the Wind by Patrick Rothfuss, and The City of Brass by S.A. Chakraborty. Our full Jonathan Strange guide covers 8 historical magic fantasy picks." },
     },
     {
       '@type': 'Question',
