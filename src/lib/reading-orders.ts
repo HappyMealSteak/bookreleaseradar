@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'stamped-from-the-beginning',
+    intro: "Ibram X. Kendi's Stamped from the Beginning: The Definitive History of Racist Ideas in America (2016) is a National Book Award-winning history of racist ideas in the United States, organized around five figures — Cotton Mather, Thomas Jefferson, William Lloyd Garrison, W.E.B. Du Bois, and Angela Davis — and arguing that racist ideas were created to justify racist policies rather than the other way around. It is the essential companion to Kendi's later How to Be an Antiracist (2019).",
+    startWith: 'Stamped from the Beginning',
+    books: [
+      { title: 'Stamped from the Beginning', author: 'Ibram X. Kendi', year: 2016, note: 'The complete standalone history. Start here for the full intellectual and historical argument.' },
+      { title: 'How to Be an Antiracist', author: 'Ibram X. Kendi', year: 2019, note: "Kendi's follow-up applies the history's insights to a personal and policy framework for antiracist action. Read second for the practical application of the historical argument." },
+    ],
+    faq: [
+      { q: 'Do I need to read Stamped from the Beginning before How to Be an Antiracist?', a: "No — both books stand alone, but reading them in order (Stamped first, then How to Be an Antiracist) gives you the historical evidence base before the framework. Stamped from the Beginning documents what happened and why; How to Be an Antiracist tells you what to do about it." },
+      { q: 'How long is Stamped from the Beginning?', a: "Stamped from the Beginning is approximately 600 pages across five parts, each organized around a historical figure from Cotton Mather to Angela Davis. It is a comprehensive academic history written for a general audience, and most readers take 2-3 weeks to read it carefully." },
+      { q: 'Is there a young adult version of Stamped from the Beginning?', a: "Yes — Stamped: Racism, Antiracism, and You (2020), co-authored by Ibram X. Kendi and Jason Reynolds, is a young adult adaptation that covers the same history in a more accessible and contemporary voice. It is not an abridgment but a reimagining for a younger audience." },
+    ],
+  },
+  {
+    slug: 'angelas-ashes',
+    intro: "Frank McCourt's Angela's Ashes (1996) is a Pulitzer Prize-winning memoir about growing up in extreme poverty in Limerick, Ireland, in the 1930s and 1940s, with a charming alcoholic father and a long-suffering mother named Angela. It is one of the bestselling memoirs of the twentieth century, selling over five million copies and winning the Pulitzer Prize, the National Book Critics Circle Award, and the ABBY Award.",
+    startWith: "Angela's Ashes",
+    books: [
+      { title: "Angela's Ashes", author: 'Frank McCourt', year: 1996, note: 'The complete memoir of McCourt\'s Limerick childhood. Start here.' },
+      { title: "'Tis", author: 'Frank McCourt', year: 1999, note: "The sequel memoir, following McCourt's immigration to New York at nineteen and his early adult years. Read second." },
+      { title: 'Teacher Man', author: 'Frank McCourt', year: 2005, note: "The third memoir, about McCourt's thirty years teaching in New York City high schools. Completes the trilogy." },
+    ],
+    faq: [
+      { q: "Is Angela's Ashes a true story?", a: "Yes — Angela's Ashes is Frank McCourt's memoir of his actual childhood in Limerick, Ireland. Some critics from Limerick disputed certain details and felt the book portrayed the city unfairly, and McCourt acknowledged that memoir necessarily involves selective memory and reconstruction, but the essential experiences — the poverty, the alcoholic father, the deaths of siblings — are documented." },
+      { q: "What happened to Frank McCourt's father?", a: "Frank McCourt's father, Malachy McCourt Sr., repeatedly failed to provide for his family despite his wife Angela's efforts — drinking away his wages, traveling to England for work and sending nothing back, and ultimately abandoning the family. He died in Belfast in 1985. His son Malachy McCourt Jr. (Frank's brother) later wrote his own memoir, A Monk Swimming (1998), about his very different experience of immigrant New York." },
+      { q: "Do I need to read Angela's Ashes before 'Tis?", a: "Yes — 'Tis begins where Angela's Ashes ends, with McCourt boarding a ship to America, and assumes knowledge of the family and childhood established in the first memoir." },
+    ],
+  },
+  {
+    slug: 'the-righteous-mind',
+    intro: "Jonathan Haidt's The Righteous Mind: Why Good People Are Divided by Politics and Religion (2012) is a social psychology of moral intuition and political disagreement, arguing that human morality is built on six foundations (care, fairness, loyalty, authority, sanctity, and liberty) and that liberals and conservatives weight these foundations differently, which explains why they talk past each other on political questions.",
+    startWith: 'The Righteous Mind',
+    books: [
+      { title: 'The Righteous Mind', author: 'Jonathan Haidt', year: 2012, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'The Coddling of the American Mind', author: 'Jonathan Haidt', year: 2018, note: "Co-authored with Greg Lukianoff, applies Haidt's moral psychology to the campus free-speech debates and argues that three 'Great Untruths' are harming a generation of students. Read after The Righteous Mind for Haidt's applied work." },
+    ],
+    faq: [
+      { q: 'What are the six moral foundations in The Righteous Mind?', a: "Haidt identifies six moral foundations: Care/harm (concern for the vulnerable), Fairness/cheating (concern for justice and equal treatment), Loyalty/betrayal (concern for one's group), Authority/subversion (concern for legitimate hierarchy and tradition), Sanctity/degradation (concern for purity and the sacred), and Liberty/oppression (concern for freedom from domination). Liberals primarily weight Care and Fairness; conservatives weight all six more equally, which means they have moral intuitions that liberals often cannot understand or take seriously." },
+      { q: 'Is The Righteous Mind liberal or conservative?', a: "Haidt is a self-described 'centrist Democrat' who wrote The Righteous Mind partly as an explanation to liberals of why conservative morality is coherent rather than pathological. The book has been praised by conservatives for taking their moral views seriously and criticized by some liberals for appearing to validate moral frameworks they consider harmful. Haidt's position is that understanding the other side is necessary for political progress, not that all positions are equally correct." },
+    ],
+  },
+  {
+    slug: 'maximum-city',
+    intro: "Suketu Mehta's Maximum City: Bombay Lost and Found (2004) is a National Book Award finalist work of narrative nonfiction about Mumbai — its criminal underworld, its Bollywood film industry, its bar dancers, its police, its Hindu-Muslim riots — following Mehta's return after twenty years away. It is one of the great books about any city, and the most important portrait of Mumbai in English.",
+    startWith: 'Maximum City',
+    books: [
+      { title: 'Maximum City', author: 'Suketu Mehta', year: 2004, note: 'The complete standalone book. No sequels; start and finish here.' },
+    ],
+    faq: [
+      { q: 'Is Maximum City fiction or nonfiction?', a: "Maximum City is narrative nonfiction — reported journalism written with novelistic attention to scene, dialogue, and character. Mehta spent years in Mumbai reporting the book, and every scene is based on direct reporting, though the writing employs the techniques of literary nonfiction." },
+      { q: 'Do I need to know India or Mumbai to read Maximum City?', a: "No prior knowledge is necessary. Maximum City introduces every major context it needs — the history of the city, the structure of Bollywood, the mechanics of organized crime — within the narrative itself. It is designed to be accessible to a reader who knows nothing about Mumbai, though readers with Indian background report finding additional layers of recognition." },
+      { q: 'How does Maximum City relate to Behind the Beautiful Forevers?', a: "Katherine Boo's Behind the Beautiful Forevers (2012) and Maximum City (2004) are the two most important works of English-language narrative nonfiction about Mumbai, and they complement each other: Mehta covers the entire social spectrum of the city from the underworld to Bollywood, while Boo focuses entirely on one slum adjacent to the international airport. Reading both gives a fuller picture of the city than either provides alone." },
+    ],
+  },
+  {
+    slug: 'gang-leader-for-a-day',
+    intro: "Sudhir Venkatesh's Gang Leader for a Day: A Rogue Sociologist Takes to the Streets (2008) is a memoir-cum-sociology of Venkatesh's years studying the Black Kings gang in the Robert Taylor Homes housing project in Chicago, where he developed an unlikely friendship with gang leader J.T. and gained unprecedented access to the internal workings of a street gang's economic and social organization.",
+    startWith: 'Gang Leader for a Day',
+    books: [
+      { title: 'Gang Leader for a Day', author: 'Sudhir Venkatesh', year: 2008, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'American Project', author: 'Sudhir Venkatesh', year: 2000, note: "Venkatesh's academic book about the Robert Taylor Homes, drawing on the same fieldwork as Gang Leader for a Day but written in an academic register for scholars. Read after for the full sociological argument." },
+    ],
+    faq: [
+      { q: 'Is Gang Leader for a Day a true story?', a: "Yes — Gang Leader for a Day is Venkatesh's memoir of his actual fieldwork in the Robert Taylor Homes in Chicago during the 1990s, when he was a graduate student at the University of Chicago studying under sociologist William Julius Wilson. J.T. is a real person whose identity Venkatesh has protected with a pseudonym. Venkatesh's methods were controversial among sociologists — particularly his access to gang records and his witnessing of illegal activity without reporting it — and he has discussed those ethical questions in subsequent interviews and writings." },
+      { q: 'What is the Robert Taylor Homes?', a: "The Robert Taylor Homes was a public housing project on the South Side of Chicago, built between 1960 and 1962 as one of the largest public housing developments in American history — 28 high-rise buildings housing more than 27,000 people at peak capacity. By the time Venkatesh arrived in the early 1990s, the complex was severely deteriorated and largely controlled by gangs. The Chicago Housing Authority demolished the last buildings between 2005 and 2007 as part of its Plan for Transformation." },
+    ],
+  },
+  {
     slug: 'gods-of-jade-and-shadow',
     intro: "Silvia Moreno-Garcia's Gods of Jade and Shadow (2019) is a fantasy novel set in 1920s Mexico — Jazz Age Mexico City, Yucatan, and the borderlands — following eighteen-year-old Casiopea Tun, who accidentally releases Hun-Kamé, the Mayan god of death, from a chest in her grandfather's room and must accompany him on a road trip to recover his lost power and reclaim his throne. Steeped in Mayan mythology and 1920s period detail, the novel is as much a meditation on death, modernity, and the end of an old world as it is an adventure story. Winner of the Sunburst Award for adult fiction.",
     startWith: 'Gods of Jade and Shadow',

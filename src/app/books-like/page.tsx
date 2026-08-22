@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Stamped from the Beginning Ibram X. Kendi',
+    "books like Angela's Ashes Frank McCourt",
+    'books like The Righteous Mind Jonathan Haidt',
+    'books like Maximum City Suketu Mehta',
+    'books like Gang Leader for a Day Sudhir Venkatesh',
     'books like Gods of Jade and Shadow Silvia Moreno-Garcia',
     'books like Strangers in Their Own Land Arlie Hochschild',
     'books like How to Be an Antiracist Ibram X. Kendi',
@@ -2195,6 +2200,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Stamped from the Beginning by Ibram X. Kendi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Stamped from the Beginning include How to Be an Antiracist by Ibram X. Kendi, Caste by Isabel Wilkerson, The New Jim Crow by Michelle Alexander, Between the World and Me by Ta-Nehisi Coates, The Warmth of Other Suns by Isabel Wilkerson, and Sister Outsider by Audre Lorde. Our full guide covers 8 picks for fans of Kendi's history of racist ideas." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Angela's Ashes by Frank McCourt?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Angela's Ashes include A Tree Grows in Brooklyn by Betty Smith, The Glass Castle by Jeannette Walls, Educated by Tara Westover, The Liar's Club by Mary Karr, Dubliners by James Joyce, and How the García Girls Lost Their Accents by Julia Alvarez. Our full guide covers 8 picks for fans of McCourt's Limerick memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Righteous Mind by Jonathan Haidt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Righteous Mind include Strangers in Their Own Land by Arlie Russell Hochschild, The Coddling of the American Mind by Jonathan Haidt, The Better Angels of Our Nature by Steven Pinker, Thinking, Fast and Slow by Daniel Kahneman, and How to Be an Antiracist by Ibram X. Kendi. Our full guide covers 8 picks for fans of Haidt's moral psychology." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Maximum City by Suketu Mehta?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Maximum City include Behind the Beautiful Forevers by Katherine Boo, A Fine Balance by Rohinton Mistry, The White Tiger by Aravind Adiga, Shantaram by Gregory David Roberts, Gang Leader for a Day by Sudhir Venkatesh, and City of Djinns by William Dalrymple. Our full guide covers 8 picks for fans of Mehta's Mumbai portrait." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Gang Leader for a Day by Sudhir Venkatesh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gang Leader for a Day include Evicted by Matthew Desmond, The New Jim Crow by Michelle Alexander, Behind the Beautiful Forevers by Katherine Boo, Just Mercy by Bryan Stevenson, There Are No Children Here by Alex Kotlowitz, and Freakonomics by Steven D. Levitt. Our full guide covers 8 picks for fans of Venkatesh's gang sociology memoir." },
     },
     {
       '@type': 'Question',
