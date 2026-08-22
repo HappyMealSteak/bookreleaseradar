@@ -833,6 +833,62 @@ export const RECOMMENDATIONS: BooksLikeEntry[] = [
       { title: 'The Bear and the Nightingale', author: 'Katherine Arden', why: "A girl in medieval Russia who can see the spirits of her homeland — while the old ways are being suppressed by the church. Arden's Winternight trilogy is the most atmospheric Slavic fantasy in the genre, perfect for readers who loved Shadow and Bone's world-building.", genre: 'fantasy' },
     ],
   },
+  {
+    slug: 'twilight',
+    sourceTitle: 'Twilight',
+    sourceShortName: 'Twilight',
+    tagline: 'Forbidden love, supernatural danger, and obsession that rewrites the rules',
+    description:
+      "Twilight redefined vampire romance and created a generation of paranormal fiction readers. Its combination of forbidden love, danger, and a high school setting that felt both ordinary and mythic still has no exact equivalent — but these books come closest to the same addictive pull.",
+    keywords: [
+      'books like Twilight',
+      'books similar to Twilight',
+      'paranormal romance like Twilight',
+      'vampire romance books like Twilight',
+      'books like Stephenie Meyer',
+      'what to read after Twilight',
+      'YA paranormal romance',
+      'books like New Moon',
+    ],
+    recommendations: [
+      { title: 'The Vampire Diaries', author: 'L.J. Smith', why: "The original supernatural YA love triangle — Elena, Stefan, and Damon came before Bella and Edward, and Smith's Mystic Falls has the same small-town-girl-meets-dangerous-immortal energy that made Twilight irresistible.", genre: 'fantasy' },
+      { title: 'A Court of Thorns and Roses', author: 'Sarah J. Maas', why: "The book that Twilight fans grew into — a mortal girl pulled into a dangerous magical world by a powerful, brooding fae. ACOTAR has the same intensity but with fantasy world-building and romance that deepens across six books.", genre: 'fantasy' },
+      { title: 'The House of Night', author: 'P.C. Cast', why: "A teenage girl is Marked as a vampire and pulled into a secret school — full of supernatural cliques, a dangerous romantic lead, and the same swoony danger Twilight mastered.", genre: 'fantasy' },
+      { title: 'Beautiful Creatures', author: 'Kami Garcia', why: "A small Southern town harboring supernatural secrets, a boy who falls for a girl with mysterious powers, and a love that might destroy everything — this is Twilight from the boy's POV.", genre: 'fantasy' },
+      { title: 'Hush, Hush', author: 'Becca Fitzpatrick', why: "A fallen angel, a girl who shouldn't be drawn to him, and a romance filled with danger and secrets. Fitzpatrick's Patch is the closest thing to Edward Cullen's combination of threat and devotion in YA fiction.", genre: 'fantasy' },
+      { title: 'Shiver', author: 'Maggie Stiefvater', why: "A girl who has watched a particular wolf for years discovers he becomes human only when it's warm — and the connection between them is older than either remembers. Stiefvater's Wolves of Mercy Falls has Twilight's aching romantic longing with gorgeous literary prose.", genre: 'fantasy' },
+      { title: 'Evermore', author: 'Alyson Noël', why: "A girl who can read people's emotions meets a boy who blocks her gift entirely — the mystery of him, the dangerous pull of a forbidden connection, and the supernatural stakes make this the most direct Twilight successor in YA.", genre: 'fantasy' },
+      { title: 'Shadowhunters: City of Bones', author: 'Cassandra Clare', why: "Clary Fray discovers she's a Shadowhunter — a warrior who hunts demons — and the world of the mundane peels back to reveal a vast supernatural society. Clare's Mortal Instruments series has Twilight's intensity and forbidden romance at full fantasy-epic scale.", genre: 'fantasy' },
+    ],
+  },
+  {
+    slug: 'handmaids-tale',
+    sourceTitle: "The Handmaid's Tale",
+    sourceShortName: "Handmaid's Tale",
+    tagline: 'Dystopian patriarchy, survival, and resistance told from the inside',
+    description:
+      "Margaret Atwood's The Handmaid's Tale remains one of the most harrowing and politically prescient novels ever written. These books share its intimate first-person voice, its unflinching portrayal of systems that strip women of agency, and its insistence on the humanity of those trapped inside.",
+    keywords: [
+      "books like The Handmaid's Tale",
+      "books similar to Handmaid's Tale",
+      'feminist dystopia books',
+      'books like Margaret Atwood',
+      'dystopian books about women',
+      "what to read after Handmaid's Tale",
+      'books like Gilead',
+      'feminist dystopian fiction',
+    ],
+    recommendations: [
+      { title: 'The Testaments', author: 'Margaret Atwood', why: "Atwood's own Booker Prize-winning sequel, told from three perspectives — including Aunt Lydia's — fifteen years after Offred's story ends. Essential reading if you haven't already.", genre: 'fiction' },
+      { title: 'Vox', author: 'Christina Dalcher', why: "Women in America are limited to 100 words per day. Dalcher's near-future USA feels like the step between our world and Gilead — the most immediate and urgent Handmaid's Tale successor.", genre: 'fiction' },
+      { title: "The Power", author: 'Naomi Alderman', why: "What if women suddenly had the ability to electrocute men? Alderman's Baileys Women's Prize winner flips the power dynamic with the same structural rigor Atwood brought to Gilead.", genre: 'fiction' },
+      { title: "Station Eleven", author: 'Emily St. John Mandel', why: "A post-pandemic world where culture becomes the resistance — different in tone but equally concerned with what survives collapse and what it costs to keep civilization alive.", genre: 'fiction' },
+      { title: 'Parable of the Sower', author: 'Octavia E. Butler', why: "California is collapsing in 2025. Lauren, a Black teenager with a neurological condition that makes her feel others' pain, leads survivors north. Butler wrote this in 1993; it reads like prophecy.", genre: 'sci-fi' },
+      { title: 'We Need to Talk About Kevin', author: 'Lionel Shriver', why: "A mother narrates her son's crime through letters — intimate, unreliable, and impossible to put down. Shriver's control of voice and moral ambiguity are Atwoodian in their precision.", genre: 'fiction' },
+      { title: 'Mexican Gothic', author: 'Silvia Moreno-Garcia', why: "A glamorous socialite investigates a crumbling Mexican mansion — gothic horror, female interiority, and a patriarchal house that literally wants to consume its women.", genre: 'fiction' },
+      { title: 'Oryx and Crake', author: 'Margaret Atwood', why: "Atwood's MaddAddam trilogy — genetic engineering, corporate dystopia, and the last man alive — is less intimate than Handmaid's Tale but equally uncompromising in its vision of what greed destroys.", genre: 'sci-fi' },
+    ],
+  },
 ];
 
 export function getBooksLike(slug: string): BooksLikeEntry | undefined {

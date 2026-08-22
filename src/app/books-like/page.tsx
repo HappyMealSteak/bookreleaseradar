@@ -8,7 +8,7 @@ export const revalidate = 2592000;
 export const metadata: Metadata = {
   title: 'Books Like… — Reading Recommendations | BookReleaseRadar',
   description:
-    'Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.',
+    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
   keywords: [
     'books like ACOTAR',
     'books like Fourth Wing',
@@ -30,13 +30,14 @@ export const metadata: Metadata = {
     'books like Kingkiller Chronicle',
     'books like Shatter Me',
     'books like The Atlas Six',
-    'books like Hunger Games',
-    'books like Wheel of Time',
     'books like The Poppy War',
     'books like Dark Tower',
     'books like Harry Potter',
     'books like Shadow and Bone',
-    'books like Grishaverse',
+    'books like Twilight',
+    "books like The Handmaid's Tale",
+    'paranormal romance like Twilight',
+    'feminist dystopia books',
     'reading recommendations',
     'what to read next',
     'book recommendations fantasy romance',
@@ -85,6 +86,16 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after Shadow and Bone?',
       acceptedAnswer: { '@type': 'Answer', text: 'After Shadow and Bone, read Six of Crows (also by Leigh Bardugo in the same world), An Ember in the Ashes by Sabaa Tahir, The Cruel Prince by Holly Black, and The Bear and the Nightingale by Katherine Arden. Our full Grishaverse/Shadow and Bone guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What books are like Twilight?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Twilight include The Vampire Diaries by L.J. Smith, A Court of Thorns and Roses by Sarah J. Maas, Hush, Hush by Becca Fitzpatrick, Shiver by Maggie Stiefvater, and Shadowhunters: City of Bones by Cassandra Clare. Our full Twilight guide has 8 paranormal romance picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Handmaid's Tale?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Handmaid's Tale include The Testaments by Margaret Atwood (the sequel), Vox by Christina Dalcher, The Power by Naomi Alderman, Parable of the Sower by Octavia Butler, and Mexican Gothic by Silvia Moreno-Garcia. Our full guide covers 8 feminist dystopia and literary fiction picks." },
     },
   ],
 };
