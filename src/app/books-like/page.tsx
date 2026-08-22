@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Art of War Sun Tzu',
+    'books like Influence Robert Cialdini',
+    'books like Never Split the Difference Chris Voss',
+    'books like Quiet Susan Cain',
+    'books like The Subtle Art of Not Giving a F*ck Mark Manson',
     'books like Letters from a Stoic Seneca',
     'books like Cosmos Carl Sagan',
     'books like The Obstacle Is the Way Ryan Holiday',
@@ -2260,6 +2265,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Art of War by Sun Tzu?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Art of War include The Book of Five Rings by Miyamoto Musashi, On War by Carl von Clausewitz, The Prince by Machiavelli, The 48 Laws of Power by Robert Greene, Good Strategy Bad Strategy by Richard Rumelt, and Never Split the Difference by Chris Voss. Our full guide covers 8 picks for fans of Sun Tzu's strategic thinking." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Influence by Robert Cialdini?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Influence include Thinking, Fast and Slow by Daniel Kahneman, Predictably Irrational by Dan Ariely, Pre-Suasion by Robert Cialdini, Never Split the Difference by Chris Voss, Nudge by Richard Thaler, and Contagious by Jonah Berger. Our full guide covers 8 picks for fans of Cialdini's persuasion science." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Never Split the Difference by Chris Voss?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Never Split the Difference include Getting to Yes by Roger Fisher, Influence by Robert Cialdini, Difficult Conversations by Douglas Stone, The Art of War by Sun Tzu, Thinking Fast and Slow by Daniel Kahneman, and Crucial Conversations by Kerry Patterson. Our full guide covers 8 picks for fans of Voss's negotiation framework." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Quiet by Susan Cain?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Quiet include Solitude by Anthony Storr, Deep Work by Cal Newport, Flow by Mihaly Csikszentmihalyi, Daring Greatly by Brené Brown, Big Magic by Elizabeth Gilbert, and The Introvert Advantage by Marti Olsen Laney. Our full guide covers 8 picks for fans of Cain's introvert advocacy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Subtle Art of Not Giving a F*ck by Mark Manson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Subtle Art of Not Giving a F*ck include Meditations by Marcus Aurelius, Man's Search for Meaning by Viktor Frankl, The Obstacle Is the Way by Ryan Holiday, Antifragile by Nassim Taleb, The Courage to Be Disliked by Fumitake Koga, and When Things Fall Apart by Pema Chödrön. Our full guide covers 8 picks for fans of Manson's counterintuitive self-help." },
     },
     {
       '@type': 'Question',
