@@ -2456,6 +2456,81 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is An American Marriage based on true events?', a: "An American Marriage is fiction. Tayari Jones has said in interviews that she was moved to write the novel after talking to a man at a party who told her he had been wrongfully convicted and served seven years. She was struck by the way his wife responded — both women sympathizing with each other and neither entirely wrong. That conversation became the emotional seed of the novel." },
     ],
   },
+  {
+    slug: 'sing-unburied-sing',
+    intro: "Jesmyn Ward's Sing, Unburied, Sing (2017) is a complete standalone novel. It is her third novel, following Salvage the Bones (2011), but the two are entirely independent. Sing, Unburied, Sing follows a mixed-race family in rural Mississippi over a few days as thirteen-year-old Jojo, his mother Leonie, and baby sister Kayla make a road trip to collect Leonie's white boyfriend from Parchman Prison. The novel moves through present and past, living and dead, and uses the ghost of a Black boy who died at Parchman decades earlier to examine what incarceration and racism have done to Black families in Mississippi across generations. It won the National Book Award in 2017.",
+    startWith: 'Sing, Unburied, Sing',
+    books: [
+      { title: 'Sing, Unburied, Sing', author: 'Jesmyn Ward', year: 2017, note: "Standalone — a road trip through Mississippi with the living and the dead, examining what generations of incarceration and racism have done to a Black family; National Book Award winner 2017" },
+      { title: 'Salvage the Bones', author: 'Jesmyn Ward', year: 2011, note: "Ward's previous National Book Award winner — a Mississippi family in the twelve days before Hurricane Katrina; independent of Sing, Unburied, Sing", isOptional: true },
+      { title: 'Men We Reaped', author: 'Jesmyn Ward', year: 2013, note: "Ward's memoir about losing five young Black men in her community to drugs, accidents, and poverty; context for her fiction", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Sing, Unburied, Sing a standalone?', a: "Yes — Sing, Unburied, Sing is a complete standalone novel. Jesmyn Ward's previous novel Salvage the Bones (also a National Book Award winner) is entirely independent. Both are set in fictional DeLisle, Mississippi, but there are no shared characters." },
+      { q: 'Is Sing, Unburied, Sing magic realism?', a: "The novel features ghosts — specifically the ghost of Richie, a Black boy who died at Parchman Prison decades before the main story, and the ghost of another character who died during the events of the novel. These ghosts are treated as real within the narrative. Ward has been compared to Toni Morrison in her use of supernatural presences to carry the weight of historical trauma." },
+      { q: "What is Parchman Prison's significance in Sing, Unburied, Sing?", a: "Parchman Farm (Mississippi State Penitentiary) has a specific history as a prison plantation where Black inmates were leased as farm labor well into the 20th century. Ward uses Parchman as a physical site where the history of slavery persists into the present — the ghost of Richie, who died there decades earlier, is still trapped on the grounds, unable to leave. The novel connects present-day incarceration to this history." },
+      { q: 'What is the road trip in Sing, Unburied, Sing?', a: "Leonie, her son Jojo, and baby daughter Kayla drive from their rural Mississippi home to Parchman Prison to collect Leonie's boyfriend Michael on his release. The road trip takes them through a Mississippi landscape layered with racial history; the children see things Leonie cannot, and the ghost of Richie joins them for the return journey." },
+    ],
+  },
+  {
+    slug: 'the-joy-luck-club',
+    intro: "Amy Tan's The Joy Luck Club (1989) is a complete standalone novel. There is no sequel. The novel interweaves the stories of four Chinese immigrant women who form a mah-jong club in San Francisco and their four American-born daughters — moving between their mothers' experiences in pre-revolutionary China and their daughters' lives in contemporary America. Each chapter is narrated by a different character. The Joy Luck Club was a finalist for the National Book Award and the National Book Critics Circle Award and was adapted into a film in 1993.",
+    startWith: 'The Joy Luck Club',
+    books: [
+      { title: 'The Joy Luck Club', author: 'Amy Tan', year: 1989, note: "Standalone — four Chinese immigrant mothers and their American-born daughters, interweaving stories between pre-revolutionary China and contemporary San Francisco; one of the most celebrated debuts in American literary fiction" },
+    ],
+    faq: [
+      { q: 'Is The Joy Luck Club a standalone?', a: "Yes — The Joy Luck Club is a complete standalone novel. Amy Tan has written other novels (The Kitchen God's Wife, The Bonesetter's Daughter, The Hundred Secret Senses, The Valley of Amazement) and a memoir (The Opposite of Fate), but they are entirely independent. Some of Tan's other novels revisit similar themes of Chinese immigrant mothers and their American daughters but with entirely different characters." },
+      { q: 'Is The Joy Luck Club a novel or a short story collection?', a: "The Joy Luck Club occupies a category between novel and short story collection — it is structured as sixteen interlocking stories told by eight different narrators (four mothers and four daughters), organized into four sections with a frame narrative. Each story can be read independently, but they accumulate meaning in relation to each other. Publishers have marketed it as a novel." },
+      { q: 'What is the Joy Luck Club in the novel?', a: "The Joy Luck Club is a mah-jong club — a weekly game night — founded by Suyuan Woo in Kweilin during the Japanese invasion of China as a way for women to tell stories, eat good food, and pretend to be lucky. She brought the idea to San Francisco when she immigrated. The club frames the entire novel; the novel opens with the daughter of the club's founder taking her mother's seat after her mother's death." },
+      { q: 'Is The Joy Luck Club about Chinese culture or immigrant experience?', a: "The Joy Luck Club is centrally about the experience of Chinese immigrant mothers and their American-born daughters — and specifically about the gap between them: different languages, different memories of China, different understandings of what family and sacrifice mean. The novel is interested in misunderstanding as much as in cultural difference — the daughters often misread their mothers, and the mothers often misread their daughters, and the novel shows both perspectives." },
+    ],
+  },
+  {
+    slug: 'the-house-of-the-spirits',
+    intro: "Isabel Allende's The House of the Spirits (1982, English translation 1985) is the first of Allende's major novels and forms a loose trilogy with Of Love and Shadows (1984) and Eva Luna (1987), though each can be read independently. The House of the Spirits follows three generations of the Trueba family in an unnamed South American country (closely based on Chile) — from the early 20th century through a military coup closely paralleling the 1973 Chilean coup. The novel is a founding text of Latin American magical realism in the tradition of Gabriel García Márquez.",
+    startWith: 'The House of the Spirits',
+    books: [
+      { title: 'The House of the Spirits', author: 'Isabel Allende', year: 1982, note: "Can be read as a standalone — three generations of the Trueba family in an unnamed South American country through revolution; a foundational text of Latin American magical realism" },
+      { title: 'Of Love and Shadows', author: 'Isabel Allende', year: 1984, note: "A journalist and a photographer investigating disappearances under a military dictatorship; thematically continuous with House of the Spirits but with different characters", isOptional: true },
+      { title: 'Eva Luna', author: 'Isabel Allende', year: 1987, note: "A girl born into poverty who becomes a storyteller; Allende's most picaresque novel; can be read entirely independently", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is The House of the Spirits a standalone?', a: "The House of the Spirits is entirely self-contained as a novel. Allende's next two novels Of Love and Shadows and Eva Luna are set in similar Latin American settings with political violence, but they share no characters with The House of the Spirits and can be read in any order." },
+      { q: 'Is The House of the Spirits magical realism?', a: "Yes — The House of the Spirits is one of the foundational texts of Latin American magical realism alongside García Márquez's One Hundred Years of Solitude. The novel's protagonist Clara Trueba has psychic powers and can move objects with her mind; the supernatural is treated as a natural part of the world throughout. Allende has said the novel was inspired by a letter she wrote to her dying grandfather." },
+      { q: 'What is the political history in The House of the Spirits?', a: "The novel ends with a military coup that closely mirrors the 1973 Chilean coup in which General Augusto Pinochet overthrew Salvador Allende's democratically elected government. Isabel Allende is the cousin of Salvador Allende; she fled Chile after the coup. The novel is partly autobiographical in its depiction of what the coup did to Chilean families and what happened to people detained under the regime." },
+      { q: 'Is The House of the Spirits feminist?', a: "The House of the Spirits is consistently read as a feminist novel — it follows women across three generations (Clara, Blanca, Alba) who maintain the family's spiritual and emotional life while the men around them make political and financial decisions that repeatedly destroy what the women have built. The novel's final narrator is the granddaughter, who is tortured by the regime and chooses to write the family's story as an act of testimony." },
+    ],
+  },
+  {
+    slug: 'there-there',
+    intro: "Tommy Orange's There There (2018) is a complete standalone novel. There is no sequel. The novel follows twelve Native American characters — from different tribes, backgrounds, and experiences — who are all converging on the Oakland Coliseum for a powwow, where a robbery attempt will bring them together in tragedy. There There is a debut novel that won the PEN/Hemingway Award, was a Pulitzer Prize finalist, and is widely considered one of the most important novels about contemporary Native American life ever written.",
+    startWith: 'There There',
+    books: [
+      { title: 'There There', author: 'Tommy Orange', year: 2018, note: "Standalone — twelve Native American characters converging on an Oakland powwow; Pulitzer Prize finalist 2019, PEN/Hemingway Award winner; the defining novel of contemporary urban Native American experience" },
+      { title: 'Wandering Stars', author: 'Tommy Orange', year: 2024, note: "Follows characters from There There after the events of the novel; can only be read after There There", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is There There a standalone?', a: "There There is complete as a novel. Tommy Orange published a sequel, Wandering Stars (2024), which follows some of the same characters after the events of There There. Wandering Stars requires having read There There. There There itself can be read without reading Wandering Stars." },
+      { q: 'What does the title There There mean?', a: "The title comes from Gertrude Stein's description of Oakland — 'There is no there there' — which Orange reclaims in the opening essay, arguing that there is absolutely a 'there there' for Native Americans who have lived in Oakland for generations, and that the erasure Stein implied is part of what the novel documents. The title also carries the soothing meaning — 'there, there' — appropriate to a novel about trauma." },
+      { q: 'What is the powwow in There There?', a: "The Big Oakland Powwow is the novel's destination and climax — a gathering that several characters are involved in organizing, attending, or planning to rob. Orange builds toward it through the first two-thirds of the novel, and the final section depicts the powwow and what happens there in real time. The powwow is both a celebration of Native American culture and the site of a tragedy that the novel's structure has been making inevitable." },
+      { q: 'Does There There have a happy ending?', a: "Without giving away specific events: the novel's ending is violent and devastating in ways the opening essay has already announced as inevitable. Orange is interested in the way historical trauma plays out in present-day lives — the novel's tragedy feels both specific and structural. The book does not offer resolution, but it does offer testimony." },
+    ],
+  },
+  {
+    slug: 'the-great-alone',
+    intro: "Kristin Hannah's The Great Alone (2018) is a complete standalone novel. It is unrelated to her other novels, including The Nightingale. The novel follows Leni Allbright, whose family moves to remote Alaska in 1974 when her father, a traumatized Vietnam veteran, decides their only chance at survival is to homestead. The Alaskan wilderness and her father's mental instability become equally threatening forces. The Great Alone was a number one New York Times bestseller and is Hannah's second most popular novel after The Nightingale.",
+    startWith: 'The Great Alone',
+    books: [
+      { title: 'The Great Alone', author: 'Kristin Hannah', year: 2018, note: "Standalone — a family moves to remote Alaska in 1974; the wilderness and a traumatized, volatile father are equally dangerous; a coming-of-age novel set against one of the most extreme landscapes in America" },
+    ],
+    faq: [
+      { q: 'Is The Great Alone related to The Nightingale?', a: "No — The Great Alone and The Nightingale are completely independent novels with no shared characters or settings. The Nightingale is set in occupied France during World War II; The Great Alone is set in Alaska in the 1970s. Both are by Kristin Hannah, but they have nothing else in common." },
+      { q: 'Is The Great Alone a romance?', a: "The Great Alone has a significant romance at its center — between Leni and Matthew Walker, the son of a neighboring family — but the novel is more accurately described as a coming-of-age story about a girl surviving an abusive, unstable father and a brutal wilderness. The romance is one of several ways the novel explores what it means to love someone when your world is defined by violence and isolation." },
+      { q: 'Is The Great Alone historically accurate about Alaska?', a: "The Great Alone is set in a real historical moment — the 1970s back-to-the-land movement that brought many Vietnam veterans and counterculture figures to remote Alaska. Hannah researched the Alaska homesteading movement extensively. The wilderness details, the seasons, and the specific challenges of off-grid living in Alaska are accurate; the characters and specific events are fictional." },
+      { q: "What role does the Alaska wilderness play in The Great Alone?", a: "The Alaskan wilderness is treated almost as a character in the novel — both a source of beauty and freedom and an equally dangerous force to the violence inside the family home. Hannah uses the twenty-hour winter darkness specifically: the father's mental instability worsens each winter, and the darkness becomes a recurring symbol of the fear that has moved into the family. The wilderness offers both escape and trap." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

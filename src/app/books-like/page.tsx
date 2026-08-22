@@ -147,6 +147,11 @@ export const metadata: Metadata = {
     'books like Behind Closed Doors BA Paris',
     'books like The Woman in the Window AJ Finn',
     'books like An American Marriage Tayari Jones',
+    'books like Sing Unburied Sing Jesmyn Ward',
+    'books like The Joy Luck Club Amy Tan',
+    'books like The House of the Spirits Isabel Allende',
+    'books like There There Tommy Orange',
+    'books like The Great Alone Kristin Hannah',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -749,6 +754,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked An American Marriage by Tayari Jones?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like An American Marriage include The Vanishing Half by Brit Bennett, Homegoing by Yaa Gyasi, Just Mercy by Bryan Stevenson, Sing, Unburied, Sing by Jesmyn Ward, Pachinko by Min Jin Lee, Normal People by Sally Rooney, and Little Fires Everywhere by Celeste Ng. Our full guide covers 8 picks for fans of literary fiction about race, justice, and the limits of love." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sing, Unburied, Sing by Jesmyn Ward?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sing, Unburied, Sing include An American Marriage by Tayari Jones, The Vanishing Half by Brit Bennett, Beloved by Toni Morrison, Homegoing by Yaa Gyasi, There There by Tommy Orange, Salvage the Bones by Jesmyn Ward, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of lyrical literary fiction about racial trauma, incarceration, and the weight of history in contemporary Black lives." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Joy Luck Club by Amy Tan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Joy Luck Club include Pachinko by Min Jin Lee, The Namesake by Jhumpa Lahiri, Everything I Never Told You by Celeste Ng, The Woman Warrior by Maxine Hong Kingston, Little Fires Everywhere by Celeste Ng, Homegoing by Yaa Gyasi, and The House of the Spirits by Isabel Allende. Our full guide covers 8 picks for fans of multi-generational fiction about immigration, mother-daughter relationships, and the gap between cultures." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The House of the Spirits by Isabel Allende?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House of the Spirits include One Hundred Years of Solitude by Gabriel García Márquez, Love in the Time of Cholera by García Márquez, The Shadow of the Wind by Carlos Ruiz Zafón, Homegoing by Yaa Gyasi, Pachinko by Min Jin Lee, Like Water for Chocolate by Laura Esquivel, and The Joy Luck Club by Amy Tan. Our full guide covers 8 picks for fans of Latin American magical realism and multi-generational family sagas." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked There There by Tommy Orange?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like There There include Wandering Stars (the sequel, by Tommy Orange), Sing, Unburied, Sing by Jesmyn Ward, Homegoing by Yaa Gyasi, Pachinko by Min Jin Lee, The Round House by Louise Erdrich, An American Marriage by Tayari Jones, and The Sympathizer by Viet Thanh Nguyen. Our full guide covers 8 picks for fans of literary fiction about indigenous communities, historical trauma, and the violence of colonialism." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Great Alone by Kristin Hannah?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Great Alone include The Nightingale (also by Kristin Hannah), Where the Crawdads Sing by Delia Owens, Into the Wild by Jon Krakauer, Big Little Lies by Liane Moriarty, It Ends with Us by Colleen Hoover, and A Man Called Ove by Fredrik Backman. Our full guide covers 8 picks for fans of survival stories, Alaskan wilderness fiction, and emotionally devastating coming-of-age novels." },
     },
   ],
 };
