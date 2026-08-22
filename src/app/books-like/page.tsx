@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like David Copperfield Charles Dickens autobiography',
+    'books like Martin Chuzzlewit Charles Dickens selfishness satire',
+    'books like The Old Curiosity Shop Little Nell Dickens',
+    'books like Barnaby Rudge Charles Dickens Gordon Riots',
+    'books like The Pickwick Papers Charles Dickens debut',
     'books like The Way We Live Now Anthony Trollope Victorian satire',
     'books like Our Mutual Friend Charles Dickens last novel',
     'books like Little Dorrit Charles Dickens prison bureaucracy',
@@ -2325,6 +2330,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked David Copperfield by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like David Copperfield include Great Expectations by Dickens, Jane Eyre by Charlotte Brontë, The Catcher in the Rye by Salinger, A Portrait of the Artist as a Young Man by Joyce, Bleak House by Dickens, Nicholas Nickleby, Père Goriot by Balzac, and Boyhood by Coetzee. Our full guide covers 8 Bildungsroman picks after Dickens's favorite novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Martin Chuzzlewit by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Martin Chuzzlewit include Nicholas Nickleby and Dombey and Son (also by Dickens), Vanity Fair by Thackeray, Candide by Voltaire, Notes from Underground by Dostoevsky, Babbitt by Sinclair Lewis, The Good Soldier by Ford Madox Ford, and American Notes by Dickens. Our full guide covers 8 picks for fans of Dickens's selfishness satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Old Curiosity Shop by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Old Curiosity Shop include Oliver Twist by Dickens, A Little Princess by Burnett, The Secret Garden by Burnett, Bleak House by Dickens, The Mill on the Floss by George Eliot, David Copperfield by Dickens, and Anne of Green Gables by L.M. Montgomery. Our full guide covers 8 picks for fans of Victorian childhood pathos." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Barnaby Rudge by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Barnaby Rudge include A Tale of Two Cities by Dickens, Ivanhoe by Walter Scott, The Scarlet Letter by Hawthorne, Darkness at Noon by Koestler, The Name of the Rose by Eco, Lord of the Flies by Golding, and The Hunchback of Notre-Dame by Victor Hugo. Our full guide covers 8 picks for fans of Dickens's historical fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Pickwick Papers by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Pickwick Papers include Nicholas Nickleby by Dickens, Don Quixote by Cervantes, Tom Jones by Fielding, Three Men in a Boat by Jerome K. Jerome, Huckleberry Finn by Twain, Around the World in Eighty Days by Verne, The Inimitable Jeeves by Wodehouse, and David Copperfield by Dickens. Our full guide covers 8 picaresque comedy picks." },
     },
     {
       '@type': 'Question',
