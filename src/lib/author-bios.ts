@@ -192,6 +192,66 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'horror',
     knownFor: ['The Dark Tower', 'The Stand', 'It'],
   },
+  {
+    name: 'Lynda La Plante',
+    bio: 'Lynda La Plante is a British crime writer and screenwriter whose Prime Suspect — starring Helen Mirren — became one of the most critically acclaimed crime dramas in television history. Her Jane Tennison and Anna Travis detective series are bestsellers in the UK and internationally. La Plante began as an actress before turning to writing, and has won numerous BAFTA and Edgar Awards. Her books are known for their gritty procedural realism and complex female leads.',
+    genre: 'thriller',
+    knownFor: ['Prime Suspect', 'Anna Travis series', 'Tennison'],
+  },
+  {
+    name: 'Tia Williams',
+    bio: "Tia Williams is a New York Times bestselling author of contemporary romance and women's fiction. Her novel Seven Days in June became a BookTok sensation for its searing depiction of a chronic pain survivor and a reunion romance between two Black writers. A former beauty editor, Williams is known for her lush prose and emotionally resonant characters. Her books include It Goes Like This and The Perfect Find.",
+    genre: 'romance',
+    knownFor: ['Seven Days in June', 'It Goes Like This', 'The Perfect Find'],
+  },
+  {
+    name: 'Kelly Yang',
+    bio: "Kelly Yang is a New York Times bestselling author of young adult and middle grade fiction. Her debut Front Desk (2018) — inspired by her own childhood as a Chinese immigrant growing up in motels — won the Asian/Pacific American Award for Literature and launched a beloved series. She is a founder of The Kelly Yang Project, which teaches essay writing and critical thinking to children worldwide. Her books champion immigrant stories and social justice themes.",
+    genre: 'fiction',
+    knownFor: ['Front Desk', 'Parachutes', 'New From Here'],
+  },
+  {
+    name: 'Ia Genberg',
+    bio: "Ia Genberg is a Swedish novelist whose debut The Details (original title: Detaljerna) won the Nordic Council's Literature Prize and the International Booker Prize in 2024. Written in precise, crystalline prose, The Details explores female friendship and memory through intimate portraits. Genberg is considered one of Sweden's most distinctive literary voices.",
+    genre: 'fiction',
+    knownFor: ['The Details'],
+  },
+  {
+    name: 'Alka Joshi',
+    bio: "Alka Joshi is a New York Times and USA Today bestselling author of literary fiction. Her debut The Henna Artist (2021) — set in 1950s Rajasthan — became a Reese's Book Club pick and launched the Jaipur Trilogy. Joshi draws on her Indian heritage to explore women's autonomy, art, and ambition in post-independence India. She worked as an advertising executive for over two decades before publishing her first novel at age 62.",
+    genre: 'fiction',
+    knownFor: ['The Henna Artist', 'The Secret Keeper of Jaipur', 'The Perfumist of Paris'],
+  },
+  {
+    name: 'Saladin Ahmed',
+    bio: "Saladin Ahmed is a Hugo Award-nominated fantasy author and comic book writer known for Throne of the Crescent Moon, a Nebula Award finalist set in a Middle Eastern-inspired fantasy world. As a comic writer, he has worked on Marvel's Black Bolt, Ms. Marvel, and Abbott for BOOM! Studios. Ahmed's work centers diverse, non-Eurocentric perspectives in genre fiction and has been translated into a dozen languages.",
+    genre: 'fantasy',
+    knownFor: ['Throne of the Crescent Moon', 'Black Bolt', 'Abbott'],
+  },
+  {
+    name: 'Donna Andrews',
+    bio: "Donna Andrews is an Agatha and Anthony Award-winning mystery author best known for the Meg Langslow series, featuring a blacksmith and amateur sleuth whose cases often involve birds (she raises ostriches). The series spans over 30 books and is beloved for its cozy small-town Virginia setting and humorous tone. Andrews also writes the Turing Hopper series featuring an artificial intelligence detective.",
+    genre: 'mystery',
+    knownFor: ['Meg Langslow series', 'Murder with Peacocks', 'Owl Be Home for Christmas'],
+  },
+  {
+    name: 'Carolyn Haines',
+    bio: "Carolyn Haines is a USA Today bestselling author of the Sarah Booth Delaney Mississippi Delta mystery series, featuring a Southern belle who teams up with the ghost of a flapper-era maid to solve crimes. A former journalist, Haines has written over 50 books across mystery, romance, and mainstream fiction. She also rescues animals and operates the Good Fortune Farm Refuge in Alabama.",
+    genre: 'mystery',
+    knownFor: ['Sarah Booth Delaney series', 'Bone to Pick', 'Charmed Bones'],
+  },
+  {
+    name: 'Peter Straub',
+    bio: "Peter Straub was a two-time Bram Stoker Award winner and World Fantasy Award winner widely considered one of the most literary voices in horror fiction. Ghost Story (1979) is regarded as a masterpiece of the genre, and he collaborated with Stephen King on The Talisman and Black House. Straub's work blended literary sophistication with supernatural horror, and he mentored generations of genre writers before his death in 2022.",
+    genre: 'thriller',
+    knownFor: ['Ghost Story', 'The Talisman', 'Koko'],
+  },
+  {
+    name: 'Maurice Sendak',
+    bio: "Maurice Sendak was one of the most celebrated and influential illustrators and authors in children's literature history. Where the Wild Things Are (1963) won the Caldecott Medal and is one of the best-selling picture books of all time, appearing in virtually every list of greatest children's books. Sendak worked with a distinctive emotional intensity that many considered radical for children's books. His other major works include In the Night Kitchen and Outside Over There.",
+    genre: 'fiction',
+    knownFor: ['Where the Wild Things Are', 'In the Night Kitchen', 'Higglety Pigglety Pop!'],
+  },
 ];
 
 function normalize(s: string) {
