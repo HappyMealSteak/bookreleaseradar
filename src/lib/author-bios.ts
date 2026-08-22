@@ -402,6 +402,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Matched', 'Crossed', 'Reached', 'Atlantia'],
   },
+  {
+    name: 'J.K. Rowling',
+    bio: "J.K. Rowling is the British author of the Harry Potter series, the best-selling book series in history with over 600 million copies sold worldwide. She wrote the first Harry Potter novel while a single mother living on welfare in Edinburgh, and went on to become one of the wealthiest people in the United Kingdom through the books, films, and global Harry Potter franchise. Beyond Harry Potter, she has written the Cormoran Strike crime novels under the pen name Robert Galbraith. The Wizarding World has expanded into Pottermore, theme parks, stage plays, and the Fantastic Beasts film series.",
+    genre: 'fantasy',
+    knownFor: ['Harry Potter series', 'Fantastic Beasts', 'The Cormoran Strike series (as Robert Galbraith)'],
+  },
+  {
+    name: 'Stephenie Meyer',
+    bio: "Stephenie Meyer is an American author best known for the Twilight saga, which she began after dreaming about a girl in a meadow with a vampire who loved her but wanted to drink her blood. The four-book series sold over 160 million copies worldwide and became a blockbuster film franchise starring Kristen Stewart and Robert Pattinson. Meyer also wrote The Host (2008), a science fiction novel adapted into a 2013 film. Midnight Sun (2020) retells the first Twilight novel from Edward's perspective and became an instant #1 bestseller despite the original series concluding over a decade earlier.",
+    genre: 'romance',
+    knownFor: ['Twilight', 'New Moon', 'Eclipse', 'Breaking Dawn', 'The Host', 'Midnight Sun'],
+  },
 ];
 
 function normalize(s: string) {
