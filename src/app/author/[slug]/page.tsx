@@ -41,6 +41,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: [
+      `${name} new book`,
+      `${name} upcoming book`,
+      `${name} next book`,
+      `${name} books in order`,
+      `${name} book list`,
+      `new books by ${name}`,
+    ],
     openGraph: { title, description },
   };
 }
