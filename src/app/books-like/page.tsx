@@ -273,6 +273,11 @@ export const metadata: Metadata = {
     'books like One Hundred Years of Solitude Gabriel García Márquez',
     'books like Doctor Faustus Thomas Mann',
     'books like The Tin Drum Günter Grass',
+    'books like Love in the Time of Cholera García Márquez',
+    'books like The Plague Albert Camus',
+    'books like The Autumn of the Patriarch García Márquez',
+    'books like The Spy Who Came in from the Cold le Carré',
+    'books like Notes from Underground Dostoevsky',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1510,6 +1515,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Tin Drum by Günter Grass?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Tin Drum include Cat and Mouse and Dog Years (also by Günter Grass), Doctor Faustus by Thomas Mann, One Hundred Years of Solitude by García Márquez, Midnight's Children by Salman Rushdie, The Painted Bird by Jerzy Kosiński, The Reader by Bernhard Schlink, and If This Is a Man by Primo Levi. Our full guide covers 8 picks for fans of Grass's founding postwar German novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Love in the Time of Cholera by Gabriel García Márquez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Love in the Time of Cholera include One Hundred Years of Solitude (also by García Márquez), The House of the Spirits by Isabel Allende, Captain Corelli's Mandolin by Louis de Bernières, The English Patient by Michael Ondaatje, Like Water for Chocolate by Laura Esquivel, The Shadow of the Wind by Carlos Ruiz Zafón, and Ficciones by Jorge Luis Borges. Our full guide covers 8 picks for fans of García Márquez's romantic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Plague by Albert Camus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Plague include The Stranger (also by Camus), The Trial by Franz Kafka, Station Eleven by Emily St. John Mandel, The Death of Ivan Ilyich by Leo Tolstoy, Blindness by José Saramago, Nausea by Jean-Paul Sartre, and Love in the Time of Cholera by Gabriel García Márquez. Our full guide covers 8 picks for fans of Camus's novel of epidemic and solidarity." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Autumn of the Patriarch by Gabriel García Márquez?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Autumn of the Patriarch include One Hundred Years of Solitude (also by García Márquez), I the Supreme by Augusto Roa Bastos, The Feast of the Goat by Mario Vargas Llosa, The Kingdom of This World by Alejo Carpentier, 1984 by George Orwell, In the Time of the Butterflies by Julia Alvarez, and The Tin Drum by Günter Grass. Our full guide covers 8 picks for fans of García Márquez's dictator novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Spy Who Came in from the Cold by John le Carré?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Spy Who Came in from the Cold include Tinker, Tailor, Soldier, Spy (also by le Carré), The Secret Agent by Joseph Conrad, The Manchurian Candidate by Richard Condon, A Perfect Spy by John le Carré, Our Man in Havana by Graham Greene, and Restless by Kate Atkinson. Our full guide covers 8 picks for fans of le Carré's Cold War espionage masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Notes from Underground by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Notes from Underground include Crime and Punishment (also by Dostoevsky), The Stranger by Albert Camus, The Brothers Karamazov by Dostoevsky, Nausea by Jean-Paul Sartre, The Idiot by Dostoevsky, Hunger by Knut Hamsun, Demons by Dostoevsky, and The Catcher in the Rye by J.D. Salinger. Our full guide covers 8 picks for fans of Dostoevsky's foundational existentialist novella." },
     },
   ],
 };
