@@ -1108,6 +1108,52 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What genre is the Gentleman Bastard series?', a: "The Gentleman Bastard sequence is fantasy heist fiction — set in a secondary world with elements of Renaissance Italy, featuring elaborate cons, criminal underworlds, magic, and ocean adventure. It is classified as grimdark or flintlock fantasy and is aimed at adult readers rather than YA." },
     ],
   },
+  {
+    slug: 'night-circus',
+    intro: "Erin Morgenstern's The Night Circus is a standalone novel — there is no series and no direct sequel. Morgenstern's second novel, The Starless Sea (2019), is set in a completely separate world and has no characters or plot connections to The Night Circus. If you're looking for more from Morgenstern, The Starless Sea is your only option, and it shares the dreamlike, layered prose but not the competitive magic structure.",
+    startWith: 'The Night Circus',
+    books: [
+      { title: 'The Night Circus', author: 'Erin Morgenstern', year: 2011, note: "Standalone — Celia and Marco are bound to a magical competition taking place inside a black-and-white circus that appears without warning" },
+      { title: 'The Starless Sea', author: 'Erin Morgenstern', year: 2019, note: "Separate standalone — a graduate student falls into an underground world of stories; same dreamy prose, different world" },
+    ],
+    faq: [
+      { q: 'Is The Night Circus a series?', a: "No — The Night Circus is a standalone novel by Erin Morgenstern. There is no sequel and no series. Morgenstern's second novel, The Starless Sea (2019), is a separate standalone in a different world." },
+      { q: 'Do I need to read The Night Circus before The Starless Sea?', a: "No — The Night Circus and The Starless Sea are completely separate standalone novels. They share Morgenstern's distinctive atmospheric, layered prose but have different characters, settings, and plots. You can read either in any order or either alone." },
+      { q: 'What is The Night Circus about?', a: "The Night Circus is set in a mysterious black-and-white circus that appears without warning and is open only at night. Two young magicians, Celia and Marco, are bound by their teachers to a competition that takes place inside the circus. The novel alternates between the 1870s and 1902, and is as much about the circus itself as about the competitors who inhabit it." },
+      { q: 'Is The Night Circus fantasy or magical realism?', a: "The Night Circus straddles both — it is set in a recognizable historical world (late 19th/early 20th century Europe and America) and features magic that is ambiguous rather than system-based, which is characteristic of magical realism. Most booksellers shelve it as fantasy, but its aesthetic and tonal sensibility are closer to literary magical realism." },
+    ],
+  },
+  {
+    slug: 'city-of-brass',
+    intro: "S.A. Chakraborty's Daevabad trilogy is a complete three-book adult fantasy series drawing on Islamic mythology, djinn folklore, and the history of the medieval Islamic world. The story follows Nahri, a con artist in 18th-century Cairo who discovers she has a hidden identity that pulls her into the ancient city of Daevabad. All three books must be read in order.",
+    startWith: 'The City of Brass',
+    books: [
+      { title: 'The City of Brass', author: 'S.A. Chakraborty', year: 2017, note: 'Book 1 — Nahri accidentally summons a djinn warrior in 18th-century Cairo and is swept to the hidden city of Daevabad' },
+      { title: 'The Kingdom of the Wicked', author: 'S.A. Chakraborty', year: 2019, note: 'Book 2 — Daevabad fractures as Nahri navigates court politics and a brewing revolution' },
+      { title: 'The Empire of Gold', author: 'S.A. Chakraborty', year: 2020, note: 'Book 3 — The trilogy conclusion; all factions converge as Daevabad burns' },
+    ],
+    faq: [
+      { q: 'What is the City of Brass reading order?', a: "Read The City of Brass (2017), then The Kingdom of the Wicked (2019), then The Empire of Gold (2020). The Daevabad trilogy by S.A. Chakraborty must be read in order — each book ends on significant cliffhangers." },
+      { q: 'How many City of Brass books are there?', a: "The Daevabad trilogy by S.A. Chakraborty is a complete three-book series: The City of Brass (2017), The Kingdom of the Wicked (2019), and The Empire of Gold (2020). Chakraborty also wrote The Adventures of Amina al-Sirafi (2023), a separate series set in the same world but with different characters and 12th-century setting." },
+      { q: 'Is City of Brass part of a series?', a: "Yes — The City of Brass is the first book of the Daevabad trilogy by S.A. Chakraborty. The trilogy is complete with three books: The City of Brass, The Kingdom of the Wicked, and The Empire of Gold." },
+      { q: 'What mythology is City of Brass based on?', a: "The City of Brass draws extensively on Islamic mythology, particularly djinn folklore from Arabic, Persian, and South Asian traditions, as well as the history of the medieval Islamic world. Author S.A. Chakraborty has cited the works of Islamic historians and her own study of Arabic and Islamic history as major research sources for the series." },
+    ],
+  },
+  {
+    slug: 'priory-of-the-orange-tree',
+    intro: "Samantha Shannon's The Priory of the Orange Tree is a standalone epic fantasy novel — one of the longest single fantasy volumes published in the modern era at around 850 pages. Shannon has also written a prequel, A Day of Fallen Night (2023), set 500 years before the main novel. The two books can be read in any order; A Day of Fallen Night is set in the same world but tells a different story.",
+    startWith: 'The Priory of the Orange Tree',
+    books: [
+      { title: 'The Priory of the Orange Tree', author: 'Samantha Shannon', year: 2019, note: 'Standalone — four narrators across three kingdoms, a sleeping dragon god, and a dragon-rider queen defending an ancient order' },
+      { title: 'A Day of Fallen Night', author: 'Samantha Shannon', year: 2023, note: 'Prequel — set 500 years before Priory; standalone, can be read in any order' },
+    ],
+    faq: [
+      { q: 'Is The Priory of the Orange Tree a series?', a: "The Priory of the Orange Tree is a standalone epic fantasy novel, not the start of a series. Samantha Shannon also wrote a prequel, A Day of Fallen Night (2023), set 500 years before the main novel. Both books are self-contained and can be read in any order." },
+      { q: 'How long is The Priory of the Orange Tree?', a: "The Priory of the Orange Tree is approximately 848 pages and 298,000 words, making it one of the longest single-volume fantasy novels published in recent years. Despite its length, readers consistently note its fast pacing across four distinct POV characters." },
+      { q: 'Is The Priory of the Orange Tree a feminist fantasy?', a: "Yes — The Priory of the Orange Tree centers on female protagonists, features a dragon-rider queen, and imagines a world where women hold significant political and religious power. Shannon has cited her desire to write a high fantasy that didn't center male experience as a primary motivation for the book." },
+      { q: 'Should I read Priory of the Orange Tree or A Day of Fallen Night first?', a: "You can read either first. A Day of Fallen Night is a prequel set 500 years before Priory and functions as a complete standalone story. Most readers start with The Priory of the Orange Tree (published first and more widely read), but reading A Day of Fallen Night first provides historical context that enriches the later book." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

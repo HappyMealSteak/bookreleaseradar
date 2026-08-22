@@ -56,6 +56,9 @@ export const metadata: Metadata = {
     'books like The Young Elites Marie Lu',
     'books like Delirium Lauren Oliver',
     'books like The Lies of Locke Lamora',
+    'books like The Night Circus Erin Morgenstern',
+    'books like City of Brass Daevabad',
+    'books like Priory of the Orange Tree',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -157,6 +160,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Night Circus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Night Circus include The Starless Sea by Erin Morgenstern (her own second novel), Jonathan Strange & Mr Norrell by Susanna Clarke, Piranesi by Susanna Clarke, The Name of the Wind by Patrick Rothfuss, and Caraval by Stephanie Garber. Our full Night Circus guide covers 8 atmospheric fantasy picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The City of Brass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The City of Brass include The Poppy War by R.F. Kuang, Children of Blood and Bone by Tomi Adeyemi, An Ember in the Ashes by Sabaa Tahir, A Memory Called Empire by Arkady Martine, and The Priory of the Orange Tree by Samantha Shannon. Our full Daevabad guide has 8 picks for fans of non-Western mythology fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Priory of the Orange Tree?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Priory of the Orange Tree include A Memory Called Empire by Arkady Martine, The Bear and the Nightingale by Katherine Arden, The City of Brass by S.A. Chakraborty, The Way of Kings by Brandon Sanderson, and Fourth Wing by Rebecca Yarros. Our full Priory guide covers 8 epic fantasy picks for fans of dragons, queens, and multi-civilization world-building." },
     },
     {
       '@type': 'Question',

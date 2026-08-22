@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'night-circus',
+    name: 'The Night Circus',
+    shortName: 'Night Circus',
+    author: 'Erin Morgenstern',
+    authorQuery: 'Erin Morgenstern',
+    genre: 'fantasy',
+    description:
+      "Erin Morgenstern's The Night Circus (2011) is a standalone fantasy novel set in a mysterious black-and-white circus that arrives without warning and is open only at night. Inside the Cirque des Rêves, two young magicians — Celia Bowen and Marco Alisdair — are unwitting competitors in an ancient contest arranged by their teachers. They must build and maintain the circus's wonders, but they were never told the rules, or how the game ends. The Night Circus became a cult classic for its dreamlike prose, intricate world-building, and the sense that the circus itself is the true protagonist.",
+    searchTerms: [
+      'Erin Morgenstern new book',
+      'Night Circus reading order',
+      'Night Circus sequel',
+      'is Night Circus a series',
+    ],
+  },
+  {
+    slug: 'city-of-brass',
+    name: 'Daevabad Trilogy',
+    shortName: 'City of Brass',
+    author: 'S.A. Chakraborty',
+    authorQuery: 'S.A. Chakraborty',
+    genre: 'fantasy',
+    description:
+      "S.A. Chakraborty's Daevabad trilogy is set in the hidden city of Daevabad, home to six tribes of djinn who have been at war for millennia. Nahri is a young con artist in 18th-century Cairo who discovers she has real healing powers — and a hidden identity that ties her to the djinn world. When a warrior djinn named Dara accidentally summons himself while she's performing a ritual, they are both pulled to Daevabad, and into a conflict far older than either of them. The trilogy draws on Islamic mythology, djinn folklore, and the history of the medieval Islamic world.",
+    searchTerms: [
+      'S.A. Chakraborty new book',
+      'City of Brass reading order',
+      'Daevabad trilogy order',
+      'City of Brass series order',
+    ],
+  },
+  {
+    slug: 'priory-of-the-orange-tree',
+    name: 'The Priory of the Orange Tree',
+    shortName: 'Priory of the Orange Tree',
+    author: 'Samantha Shannon',
+    authorQuery: 'Samantha Shannon',
+    genre: 'fantasy',
+    description:
+      "Samantha Shannon's The Priory of the Orange Tree (2019) is a standalone epic fantasy of nearly 850 pages, set in a world divided between dragon-worshipping cultures and dragon-slaying ones. Four narrators — a queen's bodyguard, a dragon rider, a scholar, and a warrior — converge as an ancient dragon god stirs from its imprisonment beneath the sea. The novel is notable for its all-female central cast, its intricate world map (spanning three distinct civilizations), and its exploration of how mythology is constructed and weaponized by the powerful.",
+    searchTerms: [
+      'Samantha Shannon new book',
+      'Priory of the Orange Tree sequel',
+      'Priory of the Orange Tree reading order',
+      'is Priory of the Orange Tree a series',
+    ],
+  },
+  {
     slug: 'young-elites',
     name: 'The Young Elites',
     shortName: 'Young Elites',
