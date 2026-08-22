@@ -258,6 +258,11 @@ export const metadata: Metadata = {
     'books like Demian Hermann Hesse',
     'books like Siddhartha Hermann Hesse',
     'books like The Forsyte Saga John Galsworthy',
+    'books like The Sympathizer Viet Thanh Nguyen',
+    'books like Effi Briest Theodor Fontane',
+    'books like The Secret Agent Joseph Conrad',
+    'books like Under the Volcano Malcolm Lowry',
+    'books like Buddenbrooks Thomas Mann',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1420,6 +1425,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Forsyte Saga by John Galsworthy?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Forsyte Saga include The House of Mirth and The Age of Innocence by Edith Wharton, Buddenbrooks by Thomas Mann, The Remains of the Day by Kazuo Ishiguro, Middlemarch by George Eliot, Howards End by E.M. Forster, The Pursuit of Love by Nancy Mitford, and The Warden by Anthony Trollope. Our full guide covers 8 picks for fans of Galsworthy's Nobel Prize-winning family saga." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sympathizer by Viet Thanh Nguyen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sympathizer include The Quiet American by Graham Greene, The Things They Carried by Tim O'Brien, Matterhorn by Karl Marlantes, The Committed by Viet Thanh Nguyen, A Pale View of Hills by Kazuo Ishiguro, The Lover by Marguerite Duras, The Reluctant Fundamentalist by Mohsin Hamid, and Beloved by Toni Morrison. Our full guide covers 8 picks for fans of Nguyen's Pulitzer Prize-winning Vietnam War novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Effi Briest by Theodor Fontane?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Effi Briest include Madame Bovary by Gustave Flaubert, Anna Karenina by Tolstoy, The Awakening by Kate Chopin, The House of Mirth by Edith Wharton, Buddenbrooks by Thomas Mann, Cousin Bette by Balzac, The Painted Veil by W. Somerset Maugham, and The Kreutzer Sonata by Tolstoy. Our full guide covers 8 picks for fans of Fontane's German realist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Secret Agent by Joseph Conrad?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Secret Agent include Nostromo and Lord Jim (also by Joseph Conrad), Heart of Darkness by Conrad, The Quiet American by Graham Greene, The Spy Who Came in from the Cold by John le Carré, Under Western Eyes by Conrad, Darkness at Noon by Arthur Koestler, and The Possessed by Dostoevsky. Our full guide covers 8 picks for fans of Conrad's political thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Under the Volcano by Malcolm Lowry?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Under the Volcano include Ulysses by James Joyce, The Sun Also Rises by Ernest Hemingway, Ask the Dust by John Fante, The Alexandria Quartet by Lawrence Durrell, Blood Meridian by Cormac McCarthy, The Moviegoer by Walker Percy, Sabbath's Theater by Philip Roth, and Pedro Páramo by Juan Rulfo. Our full guide covers 8 picks for fans of Lowry's modernist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Buddenbrooks by Thomas Mann?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Buddenbrooks include The Forsyte Saga by John Galsworthy, One Hundred Years of Solitude by García Márquez, The Magic Mountain by Thomas Mann, The House of Mirth by Edith Wharton, The Tin Drum by Günter Grass, Effi Briest by Theodor Fontane, The Cherry Orchard by Chekhov, and The Death of Ivan Ilyich by Tolstoy. Our full guide covers 8 picks for fans of Mann's Nobel Prize-winning family saga." },
     },
   ],
 };
