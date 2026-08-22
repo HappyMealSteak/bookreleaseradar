@@ -323,6 +323,11 @@ export const metadata: Metadata = {
     'books like Wives and Daughters Elizabeth Gaskell',
     'books like Howards End E.M. Forster',
     'books like Far from the Madding Crowd Thomas Hardy',
+    'books like Mrs Dalloway Virginia Woolf',
+    'books like The Mill on the Floss George Eliot',
+    'books like A Passage to India E.M. Forster',
+    'books like Sons and Lovers D.H. Lawrence',
+    'books like A Room with a View E.M. Forster',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1810,6 +1815,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Far from the Madding Crowd by Thomas Hardy?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Far from the Madding Crowd include Tess of the d'Urbervilles (also by Hardy), The Return of the Native by Thomas Hardy, The Mayor of Casterbridge by Thomas Hardy, North and South by Elizabeth Gaskell, Middlemarch by George Eliot, The Shepherd's Life by James Rebanks, Cold Comfort Farm by Stella Gibbons, and The Mill on the Floss by George Eliot. Our full guide covers 8 picks for fans of Hardy's pastoral masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Mrs Dalloway by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Mrs Dalloway include To the Lighthouse (also by Woolf), The Hours by Michael Cunningham, Ulysses by James Joyce, The Waves by Virginia Woolf, Passing by Nella Larsen, The Sound and the Fury by William Faulkner, Saturday by Ian McEwan, and Housekeeping by Marilynne Robinson. Our full guide covers 8 picks for fans of Woolf's stream-of-consciousness masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Mill on the Floss by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Mill on the Floss include Middlemarch (also by Eliot), Jane Eyre by Charlotte Brontë, Tess of the d'Urbervilles by Thomas Hardy, The Portrait of a Lady by Henry James, Wives and Daughters by Elizabeth Gaskell, The Awakening by Kate Chopin, A Life's Morning by George Gissing, and Far from the Madding Crowd by Thomas Hardy. Our full guide covers 8 picks for fans of Eliot's passionate Victorian novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Passage to India by E.M. Forster?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Passage to India include Howards End (also by Forster), Kim by Rudyard Kipling, Burmese Days by George Orwell, Things Fall Apart by Chinua Achebe, The Remains of the Day by Kazuo Ishiguro, Heat and Dust by Ruth Prawer Jhabvala, The Quiet American by Graham Greene, and A Room with a View by E.M. Forster. Our full guide covers 8 picks for fans of Forster's colonial masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Sons and Lovers by D.H. Lawrence?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sons and Lovers include The Rainbow (also by Lawrence), A Portrait of the Artist as a Young Man by James Joyce, Look Back in Anger by John Osborne, Saturday Night and Sunday Morning by Alan Sillitoe, Jude the Obscure by Thomas Hardy, Of Human Bondage by W. Somerset Maugham, The Lawless Roads by Graham Greene, and Clayhanger by Arnold Bennett. Our full guide covers 8 picks for fans of Lawrence's autobiographical Modernist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Room with a View by E.M. Forster?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Room with a View include Howards End (also by Forster), The Age of Innocence by Edith Wharton, Enchanted April by Elizabeth von Arnim, The Remains of the Day by Kazuo Ishiguro, Where Angels Fear to Tread by E.M. Forster, Northanger Abbey by Jane Austen, The Portrait of a Lady by Henry James, and A Passage to India by E.M. Forster. Our full guide covers 8 picks for fans of Forster's sunny Edwardian comedy." },
     },
   ],
 };
