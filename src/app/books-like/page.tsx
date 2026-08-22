@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Da Vinci Code Dan Brown',
+    'books like The Girl with the Dragon Tattoo Stieg Larsson',
+    'books like Gone with the Wind Margaret Mitchell',
+    'books like The Count of Monte Cristo Alexandre Dumas',
+    'books like Les Miserables Victor Hugo',
     'books like The Night Circus Erin Morgenstern',
     'books like The Shadow of the Wind Carlos Ruiz Zafon',
     'books like Water for Elephants Sara Gruen',
@@ -2285,6 +2290,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Da Vinci Code by Dan Brown?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Da Vinci Code include Angels & Demons by Dan Brown, The Name of the Rose by Umberto Eco, The Historian by Elizabeth Kostova, The Club Dumas by Pérez-Reverte, Foucault's Pendulum by Umberto Eco, and The Eight by Katherine Neville. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Girl with the Dragon Tattoo by Stieg Larsson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Girl with the Dragon Tattoo include the rest of the Millennium Trilogy, Faceless Killers by Henning Mankell, The Snowman by Jo Nesbø, Sharp Objects by Gillian Flynn, The Lovely Bones by Alice Sebold, and The Girl in the Spider's Web by Lagercrantz. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Gone with the Wind by Margaret Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gone with the Wind include Cold Mountain by Charles Frazier, The Killer Angels by Michael Shaara, Lincoln by Gore Vidal, Beloved by Toni Morrison, The Thorn Birds by Colleen McCullough, Roots by Alex Haley, and Wuthering Heights by Emily Brontë. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Count of Monte Cristo by Alexandre Dumas?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Count of Monte Cristo include The Three Musketeers by Dumas, Les Misérables by Hugo, The Great Gatsby by Fitzgerald, Shōgun by James Clavell, The Pillars of the Earth by Ken Follett, and Twenty Thousand Leagues Under the Sea by Jules Verne. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Les Misérables by Victor Hugo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Les Misérables include The Count of Monte Cristo by Dumas, The Hunchback of Notre-Dame by Hugo, Crime and Punishment by Dostoevsky, The Grapes of Wrath by Steinbeck, A Tale of Two Cities by Dickens, Germinal by Zola, and Middlemarch by George Eliot. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
