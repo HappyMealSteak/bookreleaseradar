@@ -147,7 +147,7 @@ export default function Footer() {
               Books Like…
             </p>
             <ul className="space-y-2">
-              {['acotar', 'fourth-wing', 'six-of-crows', 'harry-potter', 'twilight', 'a-song-of-ice-and-fire', 'hunger-games', 'handmaids-tale'].map((slug) => {
+              {['acotar', 'fourth-wing', 'harry-potter', 'dune', 'twilight', 'a-song-of-ice-and-fire', 'hunger-games', 'divergent'].map((slug) => {
                 const rec = getBooksLike(slug);
                 if (!rec) return null;
                 return (
