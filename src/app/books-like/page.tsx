@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like A Burnt-Out Case Graham Greene Congo leper colony',
+    'books like The Comedians Graham Greene Haiti Duvalier',
+    'books like Travels with My Aunt Graham Greene comic picaresque',
+    'books like Monsignor Quixote Graham Greene Cervantes Spain',
+    'books like The Captain and the Enemy Graham Greene final novel',
     'books like Stamboul Train Graham Greene Orient Express thriller',
     'books like The Ministry of Fear Graham Greene Blitz wartime London',
     'books like The Confidential Agent Graham Greene Spanish Civil War spy',
@@ -2370,6 +2375,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Burnt-Out Case by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Burnt-Out Case include The Power and the Glory and The Heart of the Matter by Greene, The Plague by Albert Camus, Silence by Shūsaku Endō, The End of the Affair by Greene, Doctor Zhivago by Pasternak, The Trial by Kafka, and Going to Meet the Man by James Baldwin. Our full guide covers 8 picks for fans of Greene's Congo spiritual-exhaustion novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Comedians by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Comedians include The Quiet American by Greene, The Kingdom of This World by Alejo Carpentier, In the Time of the Butterflies by Julia Alvarez, The Autumn of the Patriarch by García Márquez, The Human Factor by Greene, The Feast of the Goat by Vargas Llosa, and Homage to Catalonia by George Orwell. Our full guide covers 8 picks for fans of Greene's Haiti political-terror novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Travels with My Aunt by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Travels with My Aunt include Our Man in Havana by Greene, Lucky Jim by Kingsley Amis, Tom Jones by Henry Fielding, A Confederacy of Dunces by John Kennedy Toole, Catch-22 by Joseph Heller, Adventures of Huckleberry Finn by Mark Twain, and The Old Man and Me by Elaine Dundy. Our full guide covers 8 picks for fans of Greene's comic picaresque novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Monsignor Quixote by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Monsignor Quixote include The Power and the Glory and Don Quixote by Cervantes, A Burnt-Out Case by Greene, Zorba the Greek by Kazantzakis, The Name of the Rose by Umberto Eco, The Remains of the Day by Ishiguro, Travels with My Aunt by Greene, and Breakfast of Champions by Vonnegut. Our full guide covers 8 picks for fans of Greene's Catholic-Communist road-trip comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Captain and the Enemy by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Captain and the Enemy include The Quiet American and Monsignor Quixote by Greene, The Go-Between by L.P. Hartley, Atonement by Ian McEwan, Great Expectations by Charles Dickens, The End of the Affair by Greene, The Enigma of Arrival by V.S. Naipaul, and Tinker Tailor Soldier Spy by John le Carré. Our full guide covers 8 picks for fans of Greene's enigmatic final novel." },
     },
     {
       '@type': 'Question',
