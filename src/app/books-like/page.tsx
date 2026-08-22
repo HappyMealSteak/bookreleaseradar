@@ -308,6 +308,11 @@ export const metadata: Metadata = {
     'books like Jane Eyre Charlotte Brontë',
     'books like Wuthering Heights Emily Brontë',
     'books like The Haunting of Hill House Shirley Jackson',
+    'books like House of Leaves Mark Z. Danielewski',
+    'books like Wide Sargasso Sea Jean Rhys',
+    'books like Possession A.S. Byatt',
+    'books like The Woman in White Wilkie Collins',
+    'books like Fingersmith Sarah Waters',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1720,6 +1725,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Haunting of Hill House by Shirley Jackson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Haunting of Hill House include We Have Always Lived in the Castle (also by Jackson), Rebecca by Daphne du Maurier, The Turn of the Screw by Henry James, House of Leaves by Mark Z. Danielewski, The Little Stranger by Sarah Waters, Mexican Gothic by Silvia Moreno-Garcia, Beloved by Toni Morrison, and The Shining by Stephen King. Our full guide covers 8 picks for fans of Jackson's foundational psychological horror." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked House of Leaves by Mark Z. Danielewski?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like House of Leaves include The Haunting of Hill House by Shirley Jackson, Pale Fire by Vladimir Nabokov, If on a winter's night a traveler by Italo Calvino, The Name of the Rose by Umberto Eco, At Swim-Two-Birds by Flann O'Brien, The Magus by John Fowles, Ficciones by Jorge Luis Borges, and Naked Lunch by William S. Burroughs. Our full guide covers 8 picks for fans of Danielewski's experimental horror." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Wide Sargasso Sea by Jean Rhys?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wide Sargasso Sea include Jane Eyre by Charlotte Brontë, Beloved by Toni Morrison, Things Fall Apart by Chinua Achebe, Voyage in the Dark (also by Rhys), The Farming of Bones by Edwidge Danticat, Corregidora by Gayl Jones, and The Poisonwood Bible by Barbara Kingsolver. Our full guide covers 8 picks for fans of Rhys's postcolonial masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Possession by A.S. Byatt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Possession include The French Lieutenant's Woman by John Fowles, Middlemarch by George Eliot, The Thirteenth Tale by Diane Setterfield, The Name of the Rose by Umberto Eco, The Shadow of the Wind by Carlos Ruiz Zafón, The Biographer's Tale (also by Byatt), and The Historian by Elizabeth Kostova. Our full guide covers 8 picks for fans of Byatt's Booker Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Woman in White by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woman in White include The Moonstone (also by Collins), Rebecca by Daphne du Maurier, Fingersmith by Sarah Waters, Lady Audley's Secret by Mary Elizabeth Braddon, Bleak House by Charles Dickens, The Mystery of Edwin Drood by Charles Dickens, The Tenant of Wildfell Hall by Anne Brontë, and The Big Bow Mystery by Israel Zangwill. Our full guide covers 8 picks for fans of Collins's sensation masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fingersmith by Sarah Waters?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fingersmith include The Woman in White by Wilkie Collins, Affinity (also by Sarah Waters), Rebecca by Daphne du Maurier, Lady Audley's Secret by Mary Elizabeth Braddon, The Paying Guests by Sarah Waters, Alias Grace by Margaret Atwood, The Crimson Petal and the White by Michel Faber, and Tipping the Velvet by Sarah Waters. Our full guide covers 8 picks for fans of Waters's Victorian masterpiece." },
     },
   ],
 };
