@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'this-boys-life',
+    intro: "Tobias Wolff's This Boy's Life: A Memoir (1989) is a memoir of growing up with a violent, controlling stepfather in Concrete, Washington, in the late 1950s and early 1960s — written with the precision and narrative structure of fiction and widely credited as one of the foundational works of the American memoir revival that preceded Mary Karr's The Liar's Club by six years.",
+    startWith: "This Boy's Life",
+    books: [
+      { title: "This Boy's Life", author: 'Tobias Wolff', year: 1989, note: "The complete memoir. No sequels; Wolff's other books are fiction and a Vietnam memoir (In Pharaoh's Army). Start and finish here." },
+      { title: "In Pharaoh's Army", author: 'Tobias Wolff', year: 1994, note: "Wolff's memoir of his year as a military adviser in Vietnam — a different life from the same writer, demonstrating the full range of his autobiographical writing." },
+    ],
+    faq: [
+      { q: "Is This Boy's Life based on a true story?", a: "Yes — This Boy's Life is Tobias Wolff's memoir of his actual childhood. His stepfather, Dwight Wolff (the name is changed in the memoir), was a real person who disputed aspects of Wolff's account after the book was published. The memoir was adapted into a 1993 film directed by Michael Caton-Jones, with Robert De Niro as Dwight and Leonardo DiCaprio as the young Toby." },
+      { q: "What is the significance of the title This Boy's Life?", a: "The title refers both to the memoir's subject (the boy Wolff was, and the life he lived in Washington State in the late 1950s) and to a particular quality of boyhood — the sense of possibility and of narrative self-invention — that the memoir explores. Wolff describes the young Toby's constant reinvention of himself through lies and fantasies as a survival strategy, and the memoir traces how that habit of self-invention eventually became the writer's vocation." },
+    ],
+  },
+  {
+    slug: 'the-undoing-project',
+    intro: "Michael Lewis's The Undoing Project: A Friendship That Changed Our Minds (2016) tells the story of the intellectual and personal partnership between Daniel Kahneman and Amos Tversky — the two Israeli psychologists whose collaboration produced the heuristics and biases research program that became the foundation of behavioral economics. Winner of numerous awards and the essential companion to Kahneman's Thinking, Fast and Slow.",
+    startWith: 'The Undoing Project',
+    books: [
+      { title: 'The Undoing Project', author: 'Michael Lewis', year: 2016, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'Thinking, Fast and Slow', author: 'Daniel Kahneman', year: 2011, note: "Kahneman's own synthesis of the research that The Undoing Project describes. Read alongside for the science behind the story." },
+    ],
+    faq: [
+      { q: 'What is the undoing project?', a: "'The Undoing Project' is the name that Kahneman and Tversky gave to their research program on counterfactual thinking — the mental process of 'undoing' events by imagining how they might have turned out differently. 'If only I had left five minutes earlier, I wouldn't have been in the accident' is counterfactual thinking; Kahneman and Tversky documented the systematic rules that govern which aspects of a situation the mind 'undoes' and which it leaves in place, and showed that these rules produce predictable biases in emotional response and judgment." },
+      { q: 'Who was Amos Tversky?', a: "Amos Tversky (1937–1996) was an Israeli cognitive psychologist whose collaboration with Daniel Kahneman, beginning in the early 1970s at Hebrew University of Jerusalem, produced the foundational papers of the heuristics and biases research program — including 'Judgment under Uncertainty: Heuristics and Biases' (1974) and 'Prospect Theory' (1979). Widely considered one of the most influential psychologists of the twentieth century, he died of metastatic melanoma in 1996 at the age of fifty-nine, six years before Kahneman received the Nobel Prize for their joint work." },
+    ],
+  },
+  {
+    slug: 'predictably-irrational',
+    intro: "Dan Ariely's Predictably Irrational: The Hidden Forces That Shape Our Decisions (2008) is a behavioral economics bestseller demonstrating that human decision-making departs from rational self-interest in specific, predictable ways — through experiments on anchoring, the power of free offers, the endowment effect, and the strange psychology of pricing and social norms.",
+    startWith: 'Predictably Irrational',
+    books: [
+      { title: 'Predictably Irrational', author: 'Dan Ariely', year: 2008, note: 'The complete standalone book. Start here.' },
+      { title: 'The Upside of Irrationality', author: 'Dan Ariely', year: 2010, note: "The follow-up, exploring the positive applications of human irrationality to questions of happiness, relationships, and work. Read after." },
+      { title: 'The (Honest) Truth About Dishonesty', author: 'Dan Ariely', year: 2012, note: "Ariely's research on why people cheat, lie, and steal — and why they don't cheat more than they do. Third in the informal trilogy." },
+    ],
+    faq: [
+      { q: "What does 'predictably irrational' mean?", a: "Ariely's title captures the central insight of behavioral economics: that human irrationality is not random but follows predictable patterns. When people make bad decisions, they tend to make the same bad decisions in the same situations, which means the irrationality is systematic and can be studied, predicted, and in some cases corrected. This contrasts with the classical economics assumption that irrationality is random noise that averages out in aggregate." },
+      { q: 'How does Predictably Irrational relate to Thinking, Fast and Slow?', a: "Both books are works of popular behavioral science that document systematic errors in human decision-making, but they differ in scope and depth: Kahneman's Thinking, Fast and Slow is a comprehensive synthesis of fifty years of research organized around a unifying theoretical framework (System 1 vs. System 2), while Ariely's Predictably Irrational is organized around specific phenomena (the power of 'free,' the anchoring effect, social vs. market norms) and is more accessible and anecdote-driven. Kahneman's book is the deeper treatment; Ariely's is the more entertaining introduction." },
+    ],
+  },
+  {
+    slug: 'savage-inequalities',
+    intro: "Jonathan Kozol's Savage Inequalities: Children in America's Schools (1991) is a landmark work of educational journalism documenting the extreme disparities between rich and poor school districts across America — visiting schools in East St. Louis, Chicago, New York, Camden, and San Antonio and showing what the children in each city actually have access to in their public schools.",
+    startWith: 'Savage Inequalities',
+    books: [
+      { title: 'Savage Inequalities', author: 'Jonathan Kozol', year: 1991, note: 'The foundational book. Start here.' },
+      { title: 'Amazing Grace', author: 'Jonathan Kozol', year: 1995, note: "Follow-up focusing on the South Bronx neighborhood of Mott Haven — the poorest congressional district in the United States at the time — and the children and adults who live and go to school there." },
+      { title: 'Death at an Early Age', author: 'Jonathan Kozol', year: 1967, note: "Kozol's debut — a memoir of his first year teaching in a Boston public school — that won the National Book Award and established his career as America's foremost chronicler of educational inequality." },
+    ],
+    faq: [
+      { q: 'What is the central argument of Savage Inequalities?', a: "Kozol argues that the American system of funding public schools primarily through local property taxes produces extreme and morally unjustifiable inequalities between rich and poor school districts: the children in wealthy suburbs attend schools with competitive amenities, while the children in poor urban and rural districts attend schools without adequate heat, toilets, textbooks, or teachers. He argues that this inequality is the predictable outcome of deliberate policy choices, not an inevitable fact of life, and that it constitutes a form of educational apartheid." },
+      { q: 'How has school funding inequality changed since Savage Inequalities?', a: "The disparities Kozol documented in 1991 have not been eliminated, though some states have implemented funding reforms following state court decisions finding their school finance systems unconstitutional. The federal No Child Left Behind Act (2001) and Every Student Succeeds Act (2015) attempted to address achievement gaps but did not fundamentally change the property-tax funding structure. Kozol continued to document the persistence of these inequalities in The Shame of the Nation (2005) and Fire in the Ashes (2012)." },
+    ],
+  },
+  {
+    slug: 'freakonomics',
+    intro: "Steven D. Levitt and Stephen J. Dubner's Freakonomics: A Rogue Economist Explores the Hidden Side of Everything (2005) applies economic tools — incentive analysis, natural experiments, data — to unexpected questions: Why do drug dealers live with their mothers? What do sumo wrestlers and schoolteachers have in common? Did the legalization of abortion cause crime to fall? One of the bestselling popular economics books ever written.",
+    startWith: 'Freakonomics',
+    books: [
+      { title: 'Freakonomics', author: 'Steven D. Levitt', year: 2005, note: 'The original. Start here.' },
+      { title: 'SuperFreakonomics', author: 'Steven D. Levitt', year: 2009, note: 'The sequel, applying the same methodology to new questions including drunk walking, altruism, and global warming. Read second.' },
+      { title: 'Think Like a Freak', author: 'Steven D. Levitt', year: 2014, note: "A self-help/methodology book explaining the 'Freakonomics thinking' behind the first two books. Read third." },
+    ],
+    faq: [
+      { q: 'Did legalized abortion really cause the crime drop?', a: "Levitt and Donohue's 1999 paper (which became the most discussed chapter of Freakonomics) argued that the legalization of abortion in 1973 led to a significant decline in crime beginning in the early 1990s, because the children who would have been at highest risk of criminal activity (born to poor, young, and unprepared mothers) were never born. The theory has been highly controversial: other economists have disputed the methodology and data, and the ongoing academic debate (including corrections to Levitt and Donohue's original data) suggests the effect is smaller than originally claimed, though some causal relationship likely exists." },
+      { q: 'How does Freakonomics relate to Thinking, Fast and Slow?', a: "Both books use empirical research to overturn confident intuitions, but their methods and conclusions differ: Kahneman's book focuses on the systematic errors in human judgment that arise from cognitive biases, while Freakonomics focuses on how incentives drive behavior in ways that people don't acknowledge or even perceive. Kahneman's work shows how our intuitions mislead us; Levitt's work shows how the structure of rewards and punishments shapes behavior underneath our conscious awareness." },
+    ],
+  },
+  {
     slug: 'white-fragility',
     intro: "Robin DiAngelo's White Fragility: Why It's So Hard for White People to Talk About Racism (2018) is a work of popular anti-racism education based on DiAngelo's decades of experience leading diversity training workshops in American corporations. It argues that white people's defensive reactions when their racism is named — the emotions of guilt, shame, anger, and silence that DiAngelo calls 'white fragility' — function as a mechanism to protect white supremacy rather than challenge it.",
     startWith: 'White Fragility',

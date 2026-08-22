@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    "books like This Boy's Life Tobias Wolff",
+    'books like The Undoing Project Michael Lewis',
+    'books like Predictably Irrational Dan Ariely',
+    'books like Savage Inequalities Jonathan Kozol',
+    'books like Freakonomics Steven Levitt',
     'books like White Fragility Robin DiAngelo',
     "books like The Liar's Club Mary Karr",
     'books like The White Tiger Aravind Adiga',
@@ -2205,6 +2210,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked This Boy's Life by Tobias Wolff?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like This Boy's Life include The Liar's Club by Mary Karr, Angela's Ashes by Frank McCourt, The Glass Castle by Jeannette Walls, Educated by Tara Westover, Running with Scissors by Augusten Burroughs, and In Pharaoh's Army by Tobias Wolff. Our full guide covers 8 picks for fans of Wolff's memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Undoing Project by Michael Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Undoing Project include Thinking, Fast and Slow by Daniel Kahneman, Moneyball by Michael Lewis, Predictably Irrational by Dan Ariely, The Big Short by Michael Lewis, Freakonomics by Steven Levitt, and Nudge by Richard Thaler. Our full guide covers 8 picks for fans of Lewis's Kahneman-Tversky story." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Predictably Irrational by Dan Ariely?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Predictably Irrational include Thinking, Fast and Slow by Daniel Kahneman, Freakonomics by Steven Levitt, Nudge by Richard Thaler, The Undoing Project by Michael Lewis, Misbehaving by Richard Thaler, and The Righteous Mind by Jonathan Haidt. Our full guide covers 8 picks for fans of Ariely's behavioral science." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Savage Inequalities by Jonathan Kozol?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Savage Inequalities include There Are No Children Here by Alex Kotlowitz, Evicted by Matthew Desmond, The New Jim Crow by Michelle Alexander, Nickel and Dimed by Barbara Ehrenreich, Gang Leader for a Day by Sudhir Venkatesh, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Kozol's school inequality journalism." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Freakonomics by Steven D. Levitt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Freakonomics include Thinking, Fast and Slow by Daniel Kahneman, Predictably Irrational by Dan Ariely, The Tipping Point by Malcolm Gladwell, Gang Leader for a Day by Sudhir Venkatesh, Moneyball by Michael Lewis, and The Undoing Project by Michael Lewis. Our full guide covers 8 picks for fans of Levitt's rogue economics." },
     },
     {
       '@type': 'Question',
