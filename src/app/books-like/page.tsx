@@ -225,6 +225,10 @@ export const metadata: Metadata = {
     'books like Middlemarch George Eliot',
     'books like One Day in the Life of Ivan Denisovich Aleksandr Solzhenitsyn',
     'books like Heart of Darkness Joseph Conrad',
+    'books like War and Peace Leo Tolstoy',
+    'books like The Metamorphosis Franz Kafka',
+    'books like The Castle Franz Kafka',
+    'books like Life and Fate Vasily Grossman',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1222,6 +1226,26 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Heart of Darkness by Joseph Conrad?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Heart of Darkness include Lord Jim and Nostromo (also by Joseph Conrad), Things Fall Apart by Chinua Achebe, The Sympathizer by Viet Thanh Nguyen, The Things They Carried by Tim O'Brien, The Secret Agent by Conrad, and Disgrace by J.M. Coetzee. Our full guide covers 8 picks for fans of Conrad's novella about Marlow's journey up the Congo to find Kurtz." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked War and Peace by Leo Tolstoy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like War and Peace include Anna Karenina (also by Tolstoy), The Brothers Karamazov by Fyodor Dostoevsky, Doctor Zhivago by Boris Pasternak, Life and Fate by Vasily Grossman, One Hundred Years of Solitude by Gabriel García Márquez, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Tolstoy's panoramic epic of Russian society across the Napoleonic Wars." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Metamorphosis by Franz Kafka?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Metamorphosis include The Trial and The Castle (also by Kafka), Nausea by Jean-Paul Sartre, The Stranger by Albert Camus, Notes from Underground by Fyodor Dostoevsky, The Tin Drum by Günter Grass, The Remains of the Day by Kazuo Ishiguro, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for fans of Kafka's novella about Gregor Samsa's transformation." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Castle by Franz Kafka?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Castle include The Trial and The Metamorphosis (also by Kafka), Waiting for Godot by Samuel Beckett, The Master and Margarita by Mikhail Bulgakov, Invitation to a Beheading by Vladimir Nabokov, The Unbearable Lightness of Being by Milan Kundera, and The Name of the Rose by Umberto Eco. Our full guide covers 8 picks for fans of Kafka's unfinished novel about K.'s endless attempts to reach the Castle." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Life and Fate by Vasily Grossman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Life and Fate include War and Peace by Leo Tolstoy, Doctor Zhivago by Boris Pasternak, One Day in the Life of Ivan Denisovich by Aleksandr Solzhenitsyn, Night by Elie Wiesel, The Master and Margarita by Mikhail Bulgakov, Matterhorn by Karl Marlantes, and All Quiet on the Western Front by Erich Maria Remarque. Our full guide covers 8 picks for fans of Grossman's panoramic novel about the Battle of Stalingrad." },
     },
   ],
 };

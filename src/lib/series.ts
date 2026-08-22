@@ -2674,6 +2674,42 @@ export const SERIES: SeriesDefinition[] = [
     description: "Joseph Conrad's Heart of Darkness (1899) is a standalone novella following Charles Marlow's journey up the Congo River to find Kurtz, an ivory trader who has become a god to the local people. Under 100 pages, one of the most taught and debated works in English literature, and the source of Apocalypse Now.",
     searchTerms: ['heart of darkness', 'joseph conrad', 'heart of darkness marlow kurtz', 'joseph conrad novella', 'heart of darkness apocalypse now', 'heart of darkness meaning', 'joseph conrad congo novel'],
   },
+  {
+    slug: 'war-and-peace',
+    name: 'War and Peace',
+    author: 'Leo Tolstoy',
+    authorQuery: 'Leo Tolstoy',
+    genre: 'fiction',
+    description: "Leo Tolstoy's War and Peace (1869) is a standalone epic — a panoramic portrait of five Russian aristocratic families across the Napoleonic Wars (1805–1812), including the French invasion of Russia and the burning of Moscow. At approximately 1,300 pages, one of the longest and most ambitious novels ever written and widely considered one of the greatest.",
+    searchTerms: ['war and peace', 'leo tolstoy', 'war and peace tolstoy', 'war and peace reading order', 'war and peace how to read', 'tolstoy war and peace translation', 'war and peace characters'],
+  },
+  {
+    slug: 'the-metamorphosis',
+    name: 'The Metamorphosis',
+    author: 'Franz Kafka',
+    authorQuery: 'Franz Kafka',
+    genre: 'fiction',
+    description: "Franz Kafka's The Metamorphosis (1915) is a standalone novella — Gregor Samsa wakes to find himself transformed into a monstrous insect, and the novella follows the effect of his transformation on his family. Under 100 pages, the most widely read of Kafka's works, and one of the most analyzed texts in twentieth-century literature.",
+    searchTerms: ['the metamorphosis', 'franz kafka', 'kafka metamorphosis', 'the metamorphosis kafka', 'kafka gregor samsa', 'kafka transformation novella', 'metamorphosis kafka meaning'],
+  },
+  {
+    slug: 'the-castle',
+    name: 'The Castle',
+    author: 'Franz Kafka',
+    authorQuery: 'Franz Kafka',
+    genre: 'fiction',
+    description: "Franz Kafka's The Castle (1926), published posthumously, follows K., a land surveyor who arrives in a village and can never gain access to the Castle that supposedly employs him. Kafka's longest novel and the most sustained version of the bureaucratic maze — left unfinished at his death, it ends mid-sentence.",
+    searchTerms: ['the castle kafka', 'franz kafka', 'kafka castle novel', 'kafka castle k', 'kafka bureaucracy novel', 'kafka castle meaning', 'kafka unfinished novel'],
+  },
+  {
+    slug: 'life-and-fate',
+    name: 'Life and Fate',
+    author: 'Vasily Grossman',
+    authorQuery: 'Vasily Grossman',
+    genre: 'fiction',
+    description: "Vasily Grossman's Life and Fate (1960), suppressed by the KGB and published in the West in 1980, is set during the Battle of Stalingrad and follows multiple Russian families across the Eastern Front. At roughly 900 pages, it draws explicit parallels between Nazism and Stalinism and is considered the War and Peace of the twentieth century.",
+    searchTerms: ['life and fate', 'vasily grossman', 'life and fate grossman', 'life and fate stalingrad', 'grossman life and fate english', 'vasily grossman novel', 'life and fate war and peace'],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
