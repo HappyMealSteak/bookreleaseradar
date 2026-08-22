@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'good-to-great',
+    intro: "Jim Collins's Good to Great: Why Some Companies Make the Leap... and Others Don't (2001) presents the research findings of a five-year study comparing companies that made sustained transitions from good to great performance to those that did not — identifying a set of recurring patterns involving 'Level 5 Leadership,' the 'Hedgehog Concept,' the 'Flywheel,' 'First Who, Then What,' and 'Confronting the Brutal Facts.'",
+    startWith: 'Good to Great',
+    books: [
+      { title: 'Good to Great', author: 'Jim Collins', year: 2001, note: 'The definitive statement of the good-to-great framework. Start here.' },
+      { title: 'Built to Last', author: 'Jim Collins', year: 1994, note: "Collins's earlier work on 'visionary companies' — the companies that sustained greatness for decades — which Good to Great is designed to precede conceptually. Read second." },
+      { title: 'Great by Choice', author: 'Jim Collins', year: 2011, note: "Collins's research on companies that thrived in chaos and uncertainty — extending the good-to-great framework to high-uncertainty environments. Read third." },
+      { title: 'Turning the Flywheel', author: 'Jim Collins', year: 2019, note: 'A short companion monograph on how to apply the Flywheel concept specifically. Read alongside Good to Great.', isOptional: true },
+    ],
+    faq: [
+      { q: "What is 'Level 5 Leadership' in Good to Great?", a: "Level 5 Leadership is Collins's term for the paradoxical combination of personal humility and professional will that characterizes the CEOs who led good-to-great transitions in his study. Level 5 Leaders are fiercely ambitious for the institution rather than themselves — they credit success to other people and external factors, and blame failure on themselves — while simultaneously demonstrating an iron, almost stoic resolve in pursuit of the company's goals. Collins found that the companies that made sustained good-to-great transitions were led by Level 5 Leaders in every case, while the comparison companies were often led by high-profile, charismatic executives who placed their personal ambitions above the institution's needs." },
+      { q: "What is the 'Hedgehog Concept'?", a: "The Hedgehog Concept, derived from Isaiah Berlin's essay on the fox and the hedgehog, is the intersection of three circles: (1) what you are deeply passionate about, (2) what you can be the best in the world at, and (3) what drives your economic engine. Collins found that good-to-great companies achieved a simple, crystalline understanding of this intersection — often taking years to develop — and then made decisions consistent with it, while their comparison companies lacked this clarity or chased profitability in areas outside their potential for greatness. The fox pursues many things; the hedgehog knows one big thing, and good-to-great companies think like hedgehogs." },
+    ],
+  },
+  {
+    slug: 'the-innovators-dilemma',
+    intro: "Clayton M. Christensen's The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (1997) introduced the concept of 'disruptive innovation' — the process by which new entrants with initially inferior products attack established companies from below, improving along a different performance trajectory until they eventually displace the incumbent. The book has become one of the most influential business books of the past three decades.",
+    startWith: "The Innovator's Dilemma",
+    books: [
+      { title: "The Innovator's Dilemma", author: 'Clayton M. Christensen', year: 1997, note: 'The foundational statement of the disruptive innovation theory. Start here.' },
+      { title: "The Innovator's Solution", author: 'Clayton M. Christensen', year: 2003, note: 'The prescriptive companion — how companies should respond to disruption and create disruptive innovations themselves. Read second.' },
+      { title: 'Competing Against Luck', author: 'Clayton M. Christensen', year: 2016, note: "Christensen's 'jobs to be done' theory of customer motivation — complementary to the disruption framework. Read third." },
+    ],
+    faq: [
+      { q: "What is 'disruptive innovation'?", a: "Disruptive innovation, as Christensen originally defined it, is a process by which a product or service initially takes root in simple applications at the bottom of a market or in a new market foothold — often with performance inferior to existing products on the metrics incumbents' customers care about — and then relentlessly improves along those metrics until it displaces established competitors. Classic examples include the personal computer (which was initially inferior to minicomputers on every metric mainframe customers cared about but created a new market among students and home users), and eventually displaced them; and Netflix (initially inferior to Blockbuster for new releases, but better for convenience and back catalog). The key insight is that incumbents rationally ignore disruptors, because the disruptors are initially serving markets the incumbents can't profitably serve." },
+      { q: "What is the 'innovator's dilemma' itself?", a: "The innovator's dilemma is the paradox that doing everything right — listening to customers, investing in the most profitable products, generating the highest returns — can lead great companies to miss disruptive innovations. Because disruptive innovations initially target small, low-margin markets with inferior products, incumbents correctly conclude that they are not worth pursuing given their cost structures and return requirements. But by the time the disruptive technology improves enough to threaten mainstream markets, it is often too late for the incumbent to respond. The dilemma is that the rational response to short-term competitive pressures makes the company vulnerable to long-term disruption." },
+    ],
+  },
+  {
+    slug: 'thinking-in-systems',
+    intro: "Donella H. Meadows's Thinking in Systems: A Primer (2008, posthumously published) is a concise introduction to systems thinking — the practice of understanding how things influence one another within a whole — providing a vocabulary and set of conceptual tools for analyzing complex systems in ecology, economics, politics, biology, and human organizations.",
+    startWith: 'Thinking in Systems',
+    books: [
+      { title: 'Thinking in Systems', author: 'Donella H. Meadows', year: 2008, note: 'The essential primer on systems thinking. Start here.' },
+      { title: 'The Fifth Discipline', author: 'Peter M. Senge', year: 1990, note: "Senge's application of systems thinking to organizational learning — the most influential management book based on systems principles. Read after Thinking in Systems." },
+      { title: 'Limits to Growth', author: 'Donella H. Meadows', year: 1972, note: "The landmark systems dynamics study of global sustainability that made Meadows famous — a detailed application of the principles introduced in Thinking in Systems.", isOptional: true },
+    ],
+    faq: [
+      { q: "What is a 'system' in the sense Meadows uses the term?", a: "Meadows defines a system as 'an interconnected set of elements that is coherently organized in a way that achieves something' — composed of three things: elements, interconnections, and a function or purpose. The bathtub is a stock (the water level), flows (the faucet inflow and the drain outflow), and feedback loops (your perception of the water level that causes you to turn the faucet up or down). Meadows argues that most of the world's most important phenomena — climate change, poverty traps, market crashes, species extinction, organizational failure — are better understood as the behavior of systems than as the actions of individual agents." },
+      { q: "What are feedback loops and why do they matter?", a: "Feedback loops are the mechanisms by which a system's outputs affect its future inputs — the circular causality that gives systems their characteristic behaviors. Reinforcing (positive) feedback loops amplify change: compound interest makes wealth grow faster as it grows; population growth makes population grow faster as it grows; nuclear chain reactions accelerate as neutrons released by fission events trigger further fissions. Balancing (negative) feedback loops resist change and seek equilibrium: a thermostat turns the furnace off when the house warms to the target temperature; a predator-prey relationship limits the growth of both species. Meadows argues that most of the counterintuitive, seemingly irrational behaviors of complex systems — boom-bust cycles, policy resistance, tragedy of the commons — are explained by the interactions between reinforcing and balancing feedback loops." },
+    ],
+  },
+  {
+    slug: 'the-hard-thing-about-hard-things',
+    intro: "Ben Horowitz's The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers (2014) is a candid, unsentimental account of what it actually feels like to run a startup — drawn from his experience as co-founder and CEO of Opsware, which he took from near-bankruptcy to a $1.6 billion acquisition by HP — focusing on the decisions and emotional challenges that business books typically don't cover.",
+    startWith: 'The Hard Thing About Hard Things',
+    books: [
+      { title: 'The Hard Thing About Hard Things', author: 'Ben Horowitz', year: 2014, note: 'The complete standalone book. Start here.' },
+      { title: 'What You Do Is Who You Are', author: 'Ben Horowitz', year: 2019, note: "Horowitz's follow-up on building company culture — using Toussaint Louverture, Genghis Khan, and Shaka Senghor as case studies. Read after The Hard Thing About Hard Things." },
+    ],
+    faq: [
+      { q: "What is the 'Struggle' in The Hard Thing About Hard Things?", a: "Horowitz uses 'the Struggle' to describe the emotional experience at the core of CEO leadership — the period when the company faces existential threats, morale collapses, solutions seem impossible, and the founder's psychological resources are stretched to the breaking point. He identifies it as the fundamental challenge of running a startup that all the business frameworks, frameworks, and advice books fail to prepare you for: not the strategic decisions but the psychological ones — how to keep going when every rational analysis suggests giving up. His description of calling on his wartime CEO instincts, managing his own anxiety, and finding the 'will to fight' in the face of impossible odds gives the book its distinctive emotional honesty." },
+      { q: "What is the difference between a 'wartime CEO' and a 'peacetime CEO'?", a: "Horowitz distinguishes between peacetime CEOs — who lead companies during periods of market growth and competitive stability, when the primary challenge is growing a business that already works — and wartime CEOs, who lead companies under existential threat, when the primary challenge is survival. Peacetime CEOs prioritize team building, morale, long-term planning, and developing systems and culture. Wartime CEOs focus ruthlessly on the current threat, accept necessary collateral damage, make faster decisions with less information, and break normal rules when the situation requires it. Horowitz argues that great CEOs need to be able to switch between these modes — and that most CEO advice is written for peacetime conditions when the existential situations are where the real learning is." },
+    ],
+  },
+  {
+    slug: 'bad-blood',
+    intro: "John Carreyrou's Bad Blood: Secrets and Lies in a Silicon Valley Startup (2018) is the definitive account of the rise and fall of Theranos, the blood-testing company founded by Elizabeth Holmes that claimed to revolutionize medical diagnostics with a finger-prick test — and the decade-long fraud that resulted when the technology never worked, told by the Wall Street Journal investigative reporter who broke the story.",
+    startWith: 'Bad Blood',
+    books: [
+      { title: 'Bad Blood', author: 'John Carreyrou', year: 2018, note: 'The complete account. Start here.' },
+    ],
+    faq: [
+      { q: "How did the Theranos fraud go undetected for so long?", a: "Carreyrou's investigation reveals a combination of factors that allowed Holmes to deceive investors, partners, and patients for over a decade: she surrounded herself with high-profile board members (George Shultz, Henry Kissinger, James Mattis) whose names provided credibility but who lacked the technical expertise to evaluate her claims; she exploited Silicon Valley's culture of 'fake it till you make it' and the secrecy that passes as proprietary protection; she controlled information flow within the company so that employees who worked on different parts of the system couldn't piece together the complete picture; she used aggressive non-disclosure agreements and legal threats against employees who raised concerns; and she cultivated a messianic narrative about disrupting healthcare that made investors and partners want to believe. The fraud was finally exposed not through regulatory oversight but through journalism." },
+      { q: "What happened to Elizabeth Holmes and Theranos?", a: "After Carreyrou's Wall Street Journal reports in 2015 raised serious questions about Theranos's technology, the company was investigated by the Centers for Medicare and Medicaid Services, which found that the company's blood-testing laboratory posed 'immediate jeopardy to patient health and safety' — leading to sanctions that effectively ended Theranos's clinical laboratory operations. The company dissolved in 2018. Holmes and former Theranos president Ramesh 'Sunny' Balwani were indicted for wire fraud in 2018. Holmes was convicted in January 2022 of four counts of criminal fraud against investors and sentenced to eleven years and three months in federal prison. Balwani was convicted on all twelve counts in July 2022 and sentenced to nearly thirteen years." },
+    ],
+  },
+  {
     slug: 'sapiens',
     intro: "Yuval Noah Harari's Sapiens: A Brief History of Humankind (2011, English translation 2014) is a sweeping intellectual history of the human species — from the cognitive revolution 70,000 years ago to the present — arguing that Homo sapiens came to dominate the earth not through physical superiority but through the uniquely human capacity to believe in and cooperate around shared fictions: religions, nations, money, corporations, and human rights.",
     startWith: 'Sapiens',

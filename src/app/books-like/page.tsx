@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Good to Great Jim Collins',
+    "books like The Innovator's Dilemma Clayton Christensen",
+    'books like Thinking in Systems Donella Meadows',
+    'books like The Hard Thing About Hard Things Ben Horowitz',
+    'books like Bad Blood John Carreyrou',
     'books like Sapiens Yuval Noah Harari',
     'books like Homo Deus Yuval Noah Harari',
     'books like Guns Germs and Steel Jared Diamond',
@@ -2235,6 +2240,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Good to Great by Jim Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Good to Great include Built to Last by Jim Collins, Great by Choice by Jim Collins, The Innovator's Dilemma by Clayton Christensen, Measure What Matters by John Doerr, The Culture Code by Daniel Coyle, and The Effective Executive by Peter Drucker. Our full guide covers 8 picks for fans of Collins's management research." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Innovator's Dilemma by Clayton Christensen?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Innovator's Dilemma include The Innovator's Solution by Christensen, Competing Against Luck by Christensen, Zero to One by Peter Thiel, Platform Revolution by Geoffrey Parker, The Lean Startup by Eric Ries, and Good Strategy Bad Strategy by Richard Rumelt. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Thinking in Systems by Donella Meadows?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Thinking in Systems include The Fifth Discipline by Peter Senge, Complexity by Mitchell Waldrop, The Black Swan by Nassim Taleb, Antifragile by Taleb, Seeing Like a State by James Scott, Scale by Geoffrey West, and Team of Teams by Stanley McChrystal. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Hard Thing About Hard Things by Ben Horowitz?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Hard Thing About Hard Things include What You Do Is Who You Are by Ben Horowitz, Zero to One by Peter Thiel, Shoe Dog by Phil Knight, High Output Management by Andy Grove, The Power Law by Sebastian Mallaby, and Creativity, Inc. by Ed Catmull. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bad Blood by John Carreyrou?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bad Blood include Billion Dollar Loser by Reeves Wiedeman, The Big Short by Michael Lewis, Super Pumped by Mike Isaac, The Smartest Guys in the Room by Bethany McLean, Lying for Money by Dan Davies, and Say Nothing by Patrick Radden Keefe. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
