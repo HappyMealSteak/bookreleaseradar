@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like Gods of Jade and Shadow Silvia Moreno-Garcia',
+    'books like Strangers in Their Own Land Arlie Hochschild',
+    'books like How to Be an Antiracist Ibram X. Kendi',
+    'books like A Tree Grows in Brooklyn Betty Smith',
+    'books like Behind the Beautiful Forevers Katherine Boo',
     'books like Mexican Gothic Silvia Moreno-Garcia',
     'books like The Glass Castle Jeannette Walls',
     'books like Caste Isabel Wilkerson',
@@ -2190,6 +2195,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Gods of Jade and Shadow by Silvia Moreno-Garcia?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gods of Jade and Shadow include Mexican Gothic by Silvia Moreno-Garcia, Circe by Madeline Miller, The Song of Achilles by Madeline Miller, The House of the Spirits by Isabel Allende, The Hummingbird's Daughter by Luis Alberto Urrea, and Piranesi by Susanna Clarke. Our full guide covers 8 picks for fans of Moreno-Garcia's Mayan mythology fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Strangers in Their Own Land by Arlie Russell Hochschild?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Strangers in Their Own Land include Hillbilly Elegy by J.D. Vance, Evicted by Matthew Desmond, Nickel and Dimed by Barbara Ehrenreich, The New Jim Crow by Michelle Alexander, The Righteous Mind by Jonathan Haidt, and Between the World and Me by Ta-Nehisi Coates. Our full guide covers 8 picks for fans of Hochschild's political ethnography." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked How to Be an Antiracist by Ibram X. Kendi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like How to Be an Antiracist include Stamped from the Beginning by Ibram X. Kendi, Caste by Isabel Wilkerson, The New Jim Crow by Michelle Alexander, Between the World and Me by Ta-Nehisi Coates, Sister Outsider by Audre Lorde, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Kendi's antiracist framework." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Tree Grows in Brooklyn by Betty Smith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Tree Grows in Brooklyn include The Glass Castle by Jeannette Walls, Angela's Ashes by Frank McCourt, The House on Mango Street by Sandra Cisneros, How the García Girls Lost Their Accents by Julia Alvarez, Educated by Tara Westover, and The Joy Luck Club by Amy Tan. Our full guide covers 8 picks for fans of Smith's coming-of-age novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Behind the Beautiful Forevers by Katherine Boo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Behind the Beautiful Forevers include Evicted by Matthew Desmond, Nickel and Dimed by Barbara Ehrenreich, The Spirit Catches You and You Fall Down by Anne Fadiman, Gang Leader for a Day by Sudhir Venkatesh, Maximum City by Suketu Mehta, and A Fine Balance by Rohinton Mistry. Our full guide covers 8 picks for fans of Boo's Mumbai poverty journalism." },
     },
     {
       '@type': 'Question',
