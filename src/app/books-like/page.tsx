@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     'books like First Law Joe Abercrombie',
     'books like Carry On Rainbow Rowell',
     'books like Shiver Maggie Stiefvater',
-    'books like The Cruel Prince Holly Black',
+    'books like The Cruel Prince Holly Black Folk of the Air',
     'books like Ariadne Jennifer Saint',
     'books like Stardust Neil Gaiman',
     'books like Monk and Robot Becky Chambers',
@@ -338,7 +338,7 @@ const faqJsonLd = {
     {
       '@type': 'Question',
       name: 'What should I read if I liked The Cruel Prince by Holly Black?',
-      acceptedAnswer: { '@type': 'Answer', text: "Books like The Cruel Prince include A Court of Thorns and Roses by Sarah J. Maas, An Ember in the Ashes by Sabaa Tahir, Shadow and Bone by Leigh Bardugo, Caraval by Stephanie Garber, and Red Queen by Victoria Aveyard. Our full Folk of the Air guide covers 8 picks for fans of enemies-to-lovers fae fantasy." },
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Cruel Prince include A Court of Thorns and Roses by Sarah J. Maas, An Ember in the Ashes by Sabaa Tahir, Shadow and Bone by Leigh Bardugo, Caraval by Stephanie Garber, From Blood and Ash, and Red Queen by Victoria Aveyard. Our full Folk of the Air guide covers 8 picks for fans of enemies-to-lovers fae fantasy." },
     },
     {
       '@type': 'Question',

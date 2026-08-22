@@ -1437,22 +1437,6 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
-    slug: 'the-cruel-prince',
-    intro: "Holly Black's The Folk of the Air is a complete three-book YA fantasy trilogy set in the world of Faerie — a realm adjacent to the mortal world, populated by beings who cannot lie but are deeply skilled at deception. The series follows Jude Duarte, a mortal girl stolen to Faerie as a child, who has grown up among the fae and refuses to accept the powerless position they assign her. All three books must be read in order. There is also a companion novel, The Queen of Nothing, which concludes the arc, and several novellas set in the same world.",
-    startWith: 'The Cruel Prince',
-    books: [
-      { title: 'The Cruel Prince', author: 'Holly Black', year: 2018, note: "Book 1 — Jude Duarte navigates dangerous Faerie politics while antagonizing Prince Cardan, the youngest and most vicious of the High King's sons" },
-      { title: 'The Wicked King', author: 'Holly Black', year: 2019, note: "Book 2 — Jude holds power over the crown, and Cardan, and neither is going as planned" },
-      { title: 'The Queen of Nothing', author: 'Holly Black', year: 2019, note: "Book 3 — The trilogy conclusion; Jude returns to Faerie to face what she's made of the kingdom and of Cardan" },
-    ],
-    faq: [
-      { q: 'What is The Cruel Prince reading order?', a: "Read The Cruel Prince (2018), then The Wicked King (2019), then The Queen of Nothing (2019). All three must be read in order. There is also a prequel novella, The Lost Sisters (following Jude's sister Taryn), and a companion novel, How the King of Elfhame Learned to Hate Stories, which can be read between books 2 and 3." },
-      { q: 'How many Folk of the Air books are there?', a: "The Folk of the Air trilogy by Holly Black has three main novels — The Cruel Prince, The Wicked King, and The Queen of Nothing — plus several companion novellas including The Lost Sisters and How the King of Elfhame Learned to Hate Stories. The main trilogy is complete." },
-      { q: 'Is The Cruel Prince enemies to lovers?', a: "Yes — The Cruel Prince is one of the defining enemies-to-lovers YA fantasies. Jude and Prince Cardan begin in open antagonism: he bullies and demeans her, she schemes to destroy him. The relationship evolves over the trilogy in ways that are surprising and emotionally satisfying, while never letting either character off the hook for who they are." },
-      { q: 'Do I need to read Holly Black\'s other books first?', a: "No — The Folk of the Air trilogy stands completely alone. Holly Black has written other fae fiction (including The Spiderwick Chronicles and her earlier Tithe series), but none of them are required reading. The world of Faerie is built from scratch within the trilogy." },
-    ],
-  },
-  {
     slug: 'ariadne',
     intro: "Jennifer Saint's Ariadne (2021) is a standalone literary fantasy retelling the myth of Theseus and the Minotaur from the perspective of the two women at its center — Ariadne and Phaedra, daughters of King Minos of Crete. The novel does not have a sequel. Saint has since written companion novels set in the same mythological world (Elektra, Atalanta) that are completely standalone and can be read in any order.",
     startWith: 'Ariadne',

@@ -1185,23 +1185,6 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
-    slug: 'the-cruel-prince',
-    name: 'The Folk of the Air',
-    shortName: 'Folk of the Air',
-    author: 'Holly Black',
-    authorQuery: 'Holly Black',
-    genre: 'fantasy',
-    description:
-      "Holly Black's The Folk of the Air is a complete three-book YA fantasy trilogy set in the treacherous world of Faerie. Mortal girl Jude Duarte was stolen to live among the fae as a child, and as a young adult she refuses to accept the powerless position they assign mortals — embarking on a dangerous game of politics and betrayal with the vicious Prince Cardan.",
-    searchTerms: [
-      'Holly Black new book',
-      'Cruel Prince reading order',
-      'Folk of the Air reading order',
-      'Folk of the Air books in order',
-      'Cruel Prince series order',
-    ],
-  },
-  {
     slug: 'ariadne',
     name: 'Ariadne',
     author: 'Jennifer Saint',
