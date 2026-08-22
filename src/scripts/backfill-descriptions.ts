@@ -77,6 +77,30 @@ async function fetchOLDescriptionBySearch(title: string, author: string): Promis
   }
 }
 
+async function fetchOLDescriptionByIsbn(isbn: string): Promise<string | null> {
+  if (olDown) return null;
+  try {
+    // OL ISBN endpoint redirects to an edition; editions sometimes carry work keys
+    const res = await fetch(`https://openlibrary.org/isbn/${isbn}.json`, {
+      headers: { 'User-Agent': 'BookReleaseRadar/1.0 (bookreleaseradar.com)' },
+    });
+    if (res.status >= 500) { olDown = true; return null; }
+    if (!res.ok) return null;
+    const edition = (await res.json()) as { works?: Array<{ key: string }> };
+    const workKey = edition.works?.[0]?.key; // e.g. "/works/OL123W"
+    if (!workKey) return null;
+    await delay(500);
+    const worksRes = await fetch(`https://openlibrary.org${workKey}.json`, {
+      headers: { 'User-Agent': 'BookReleaseRadar/1.0 (bookreleaseradar.com)' },
+    });
+    if (!worksRes.ok) return null;
+    const work = await worksRes.json();
+    return extractDescription(work as Record<string, unknown>);
+  } catch {
+    return null;
+  }
+}
+
 async function fetchGBDescription(volumeId: string): Promise<string | null> {
   if (gbQuotaExhausted) return null;
   try {
@@ -94,7 +118,7 @@ async function fetchGBDescription(volumeId: string): Promise<string | null> {
 
 async function main() {
   const result = await db.execute(
-    `SELECT id, title, authors FROM books
+    `SELECT id, isbn, title, authors FROM books
      WHERE (description IS NULL OR description = '')
      ORDER BY RANDOM()
      LIMIT 2000`
@@ -109,6 +133,7 @@ async function main() {
 
   for (const row of result.rows) {
     const id = row.id as string;
+    const isbn = row.isbn as string | null;
     const title = row.title as string;
     const authors = JSON.parse(row.authors as string) as string[];
     const author = authors[0] ?? '';
@@ -119,13 +144,21 @@ async function main() {
     if (isOl) {
       const olId = id.replace(/^ol-/, '');
       desc = await fetchOLDescriptionByOlid(olId);
+      if (!desc && isbn && !olDown) {
+        await delay(500);
+        desc = await fetchOLDescriptionByIsbn(isbn);
+      }
       if (!desc && !olDown) {
         await delay(600);
         desc = await fetchOLDescriptionBySearch(title, author);
       }
     } else {
-      // GB book: try GB API first, fall back to OL search
+      // GB book: try GB API first, then OL by ISBN, then OL search
       desc = await fetchGBDescription(id);
+      if (!desc && isbn && !olDown) {
+        await delay(500);
+        desc = await fetchOLDescriptionByIsbn(isbn);
+      }
       if (!desc && !olDown) {
         await delay(600);
         desc = await fetchOLDescriptionBySearch(title, author);

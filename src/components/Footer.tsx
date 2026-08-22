@@ -92,6 +92,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/authors" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
+                  Browse Authors
+                </Link>
+              </li>
+              <li>
                 <Link href="/books-like" className="text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors">
                   Books Like…
                 </Link>
