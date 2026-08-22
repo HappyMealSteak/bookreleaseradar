@@ -13,6 +13,18 @@ const year = new Date().getFullYear();
 export const metadata: Metadata = {
   title: `Book Release Calendar ${year}`,
   description: `See which books are releasing each month in ${year}. Browse the full book release calendar with dates, covers, and pre-order links.`,
+  keywords: [
+    `book release calendar ${year}`,
+    'book release dates',
+    'when do books come out',
+    'monthly book releases',
+    'upcoming book releases by month',
+    'new book release dates',
+    'book release schedule',
+    'fantasy book releases',
+    'romance book releases',
+    'thriller book releases',
+  ],
   openGraph: {
     title: `Book Release Calendar ${year}`,
     description: `See which books are releasing each month in ${year}.`,

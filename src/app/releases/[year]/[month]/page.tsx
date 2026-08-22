@@ -32,6 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: [
+      `new books ${monthName} ${year}`,
+      `book releases ${monthName} ${year}`,
+      `what books came out ${monthName} ${year}`,
+      `${monthName} ${year} book releases`,
+      `new fantasy books ${monthName} ${year}`,
+      `new romance books ${monthName} ${year}`,
+    ],
     openGraph: { title, description },
   };
 }
