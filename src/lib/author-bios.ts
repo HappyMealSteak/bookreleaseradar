@@ -888,6 +888,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Middlesex', 'The Virgin Suicides', 'The Marriage Plot'],
   },
+  {
+    name: 'Michael Cunningham',
+    bio: "Michael Cunningham is an American novelist born in Cincinnati, Ohio in 1952 and raised in Pasadena, California. He studied at Stanford University and the University of Iowa Writers' Workshop. He is best known for The Hours (1998), a novel that follows three women across three time periods — Virginia Woolf writing Mrs Dalloway in 1920s Richmond, a housewife in 1951 Los Angeles reading the novel, and a book editor in 1990s New York living out a day structured like Mrs Dalloway. The Hours won the Pulitzer Prize for Fiction and the PEN/Faulkner Award in 1999 and was adapted into a film in 2002 with Nicole Kidman (as Woolf), Julianne Moore, and Meryl Streep — Kidman won the Academy Award for Best Actress. Cunningham's other novels include A Home at the End of the World (1990), Flesh and Blood (1995), Specimen Days (2005), By Nightfall (2010), and The Snow Queen (2014). He has been a creative writing professor at Yale University and Brooklyn College. His work is notable for its engagement with Virginia Woolf, with LGBTQ experience, and with the question of what constitutes a meaningful life.",
+    genre: 'fiction',
+    knownFor: ['The Hours', 'A Home at the End of the World', 'By Nightfall'],
+  },
+  {
+    name: 'James Baldwin',
+    bio: "James Baldwin (1924–1987) was an American novelist, essayist, playwright, and poet who is considered one of the most important American writers of the twentieth century. Born in Harlem, New York, the son of a preacher, Baldwin left the United States for Paris at age twenty-four to escape the racism that constrained his life and work. His debut novel Go Tell It on the Mountain (1953) — a thinly autobiographical novel about a teenage boy in a Harlem church — established him as a major literary voice. Giovanni's Room (1956), his second novel, features a white American narrator and is a landmark of queer literature. His other major novels include Another Country (1962) and If Beale Street Could Talk (1974), which was adapted into a film by Barry Jenkins in 2018. His essay collections — Notes of a Native Son (1955), Nobody Knows My Name (1961), and especially The Fire Next Time (1963) — are considered masterworks of American political prose. Baldwin was a central figure in the Civil Rights Movement and a close friend of Malcolm X and Martin Luther King Jr. He is celebrated for combining deeply personal experience with sweeping moral and political analysis, and for refusing to choose between his Blackness and his queerness as the subject of his work.",
+    genre: 'fiction',
+    knownFor: ['Go Tell It on the Mountain', "Giovanni's Room", 'The Fire Next Time', 'If Beale Street Could Talk'],
+  },
+  {
+    name: 'Zora Neale Hurston',
+    bio: "Zora Neale Hurston (1891–1960) was an American author, anthropologist, and filmmaker who was one of the central figures of the Harlem Renaissance. Born in Notasulga, Alabama and raised in Eatonville, Florida — one of the first incorporated Black municipalities in the United States — Hurston studied at Howard University and Barnard College, where she was mentored by the anthropologist Franz Boas. She spent years collecting African American folk tales throughout the South, Haiti, and Jamaica, resulting in the ethnographic works Mules and Men (1935) and Tell My Horse (1938). Her most celebrated work is the novel Their Eyes Were Watching God (1937), which follows Janie Crawford through three marriages in rural Florida and is celebrated for its use of Black Southern vernacular. Hurston published four novels in total, as well as her autobiography Dust Tracks on a Road (1942). Despite her prolific output during the Harlem Renaissance, Hurston died in poverty and obscurity in 1960. Alice Walker's 1975 essay 'In Search of Zora Neale Hurston' is credited with reviving interest in her work; Walker also found and marked Hurston's previously unmarked grave. Their Eyes Were Watching God is now one of the most widely taught texts in American literature.",
+    genre: 'fiction',
+    knownFor: ['Their Eyes Were Watching God', 'Dust Tracks on a Road', 'Mules and Men'],
+  },
+  {
+    name: 'Maya Angelou',
+    bio: "Maya Angelou (1928–2014) was an American author, poet, memoirist, and civil rights activist. Born Marguerite Annie Johnson in St. Louis, Missouri, she was raised in Stamps, Arkansas with her grandmother following her parents' separation. I Know Why the Caged Bird Sings (1969) — the first of her seven-volume autobiography — became an immediate bestseller and is one of the most celebrated memoirs in American literature. The series continues with Gather Together in My Name (1974), Singin' and Swingin' and Gettin' Merry Like Christmas (1976), The Heart of a Woman (1981), All God's Children Need Traveling Shoes (1986), A Song Flung Up to Heaven (2002), and Mom & Me & Mom (2013). Angelou was also a celebrated poet — her poem 'Still I Rise' is one of the most widely quoted American poems — and she delivered her poem 'On the Pulse of Morning' at President Clinton's inauguration in 1993. She was involved in the Civil Rights Movement throughout the 1960s, worked as a coordinator for the Southern Christian Leadership Conference at the request of Martin Luther King Jr., and was a close friend of Malcolm X and James Baldwin. She was awarded the Presidential Medal of Freedom by President Obama in 2011.",
+    genre: 'fiction',
+    knownFor: ['I Know Why the Caged Bird Sings', 'Still I Rise', 'The Heart of a Woman'],
+  },
+  {
+    name: 'Ken Follett',
+    bio: "Ken Follett is a Welsh author born in Cardiff in 1949. He studied philosophy at University College London and worked as a journalist before beginning his career as a novelist. He first achieved international success with the thriller Eye of the Needle (1978), which won the Edgar Award from the Mystery Writers of America. His career changed dramatically with The Pillars of the Earth (1989) — a vast historical novel about the building of a cathedral in 12th-century England that took him twelve years to research and write and was initially rejected by publishers who thought it was too long and too slow. It became one of the bestselling historical fiction novels of the twentieth century, with over 27 million copies sold. The Kingsbridge Series now includes four novels: The Pillars of the Earth (1989), World Without End (2007), A Column of Fire (2017), and The Armor of Light (2023), each set in the fictional English town of Kingsbridge across different centuries. Follett also wrote the Century Trilogy — Fall of Giants (2010), Winter of the World (2012), and Edge of Eternity (2014) — a panoramic account of the twentieth century following multiple families across five countries through both World Wars and the Cold War. He is celebrated for meticulous historical research, large casts of characters whose fates interweave across decades, and storytelling momentum that keeps even 1,000-page novels moving quickly.",
+    genre: 'fiction',
+    knownFor: ['The Pillars of the Earth', 'World Without End', 'Fall of Giants', 'Eye of the Needle'],
+  },
 ];
 
 function normalize(s: string) {
