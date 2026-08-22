@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Stamboul Train Graham Greene Orient Express thriller',
+    'books like The Ministry of Fear Graham Greene Blitz wartime London',
+    'books like The Confidential Agent Graham Greene Spanish Civil War spy',
+    'books like A Gun for Sale Graham Greene hired killer political',
+    'books like The Human Factor Graham Greene Cold War double agent',
     'books like The Shadow Line Joseph Conrad first command novella',
     'books like Typhoon Joseph Conrad sea comedy MacWhirr',
     'books like Victory Joseph Conrad Malay island philosophical',
@@ -2365,6 +2370,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Stamboul Train by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Stamboul Train include Brighton Rock and The Quiet American by Greene, Murder on the Orient Express by Agatha Christie, The 39 Steps by John Buchan, A Gun for Sale by Greene, The Ministry of Fear by Greene, and The Spy Who Came in from the Cold by John le Carré. Our full guide covers 8 picks for fans of Greene's first entertainment thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Ministry of Fear by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ministry of Fear include Brighton Rock and The Third Man by Greene, The Secret Agent by Joseph Conrad, Rogue Male by Geoffrey Household, The Big Sleep by Raymond Chandler, Stamboul Train by Greene, and Darkness at Noon by Arthur Koestler. Our full guide covers 8 picks for fans of Greene's wartime Blitz thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Confidential Agent by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Confidential Agent include The Power and the Glory by Greene, Homage to Catalonia by George Orwell, For Whom the Bell Tolls by Hemingway, The Spy Who Came in from the Cold by le Carré, The Human Factor by Greene, and Man's Hope by André Malraux. Our full guide covers 8 picks for fans of Greene's Spanish Civil War spy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Gun for Sale by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Gun for Sale include Brighton Rock and The Ministry of Fear by Greene, The Big Sleep by Raymond Chandler, The Day of the Jackal by Frederick Forsyth, The Talented Mr. Ripley by Patricia Highsmith, Stamboul Train by Greene, and No Orchids for Miss Blandish by James Hadley Chase. Our full guide covers 8 picks for fans of Greene's hardboiled political thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Human Factor by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Human Factor include The Quiet American by Greene, Tinker Tailor Soldier Spy and A Perfect Spy by John le Carré, The Spy Who Came in from the Cold by le Carré, The Confidential Agent by Greene, Our Man in Havana by Greene, and The Unbearable Lightness of Being by Milan Kundera. Our full guide covers 8 picks for fans of Greene's Cold War double-agent novel." },
     },
     {
       '@type': 'Question',
