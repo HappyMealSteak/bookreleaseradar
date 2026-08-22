@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Radetzky March Joseph Roth Habsburg Empire elegy',
+    'books like Austerlitz W.G. Sebald Kindertransport memory',
+    'books like The Man Without Qualities Robert Musil Vienna modernism',
+    'books like The World of Yesterday Stefan Zweig Habsburg Vienna memoir',
+    'books like Chess Story Stefan Zweig Gestapo chess novella',
     'books like The Red and the Black Stendhal Julien Sorel ambition',
     'books like Père Goriot Balzac Rastignac Comédie Humaine Paris',
     'books like Germinal Zola miners strike labor novel',
@@ -2380,6 +2385,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Radetzky March by Joseph Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Radetzky March include The Emperor's Tomb and Job by Joseph Roth, The World of Yesterday by Stefan Zweig, The Magic Mountain by Thomas Mann, Buddenbrooks by Mann, The Man Without Qualities by Musil, Doctor Zhivago by Pasternak, Austerlitz by Sebald, and The Unbearable Lightness of Being by Kundera. Our full guide covers 8 picks for fans of Roth's Habsburg elegy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Austerlitz by W.G. Sebald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Austerlitz include The Emigrants and The Rings of Saturn by Sebald, The Radetzky March by Joseph Roth, If This Is a Man by Primo Levi, Maus by Art Spiegelman, The Reader by Bernhard Schlink, Everything Is Illuminated by Jonathan Safran Foer, and Night by Elie Wiesel. Our full guide covers 8 picks for fans of Sebald's Kindertransport memory novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Man Without Qualities by Robert Musil?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Man Without Qualities include The Magic Mountain by Thomas Mann, The Radetzky March by Joseph Roth, In Search of Lost Time by Proust, The Trial by Kafka, Ulysses by James Joyce, Young Törless by Musil, Sentimental Education by Flaubert, and The World of Yesterday by Zweig. Our full guide covers 8 picks for fans of Musil's Viennese modernist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The World of Yesterday by Stefan Zweig?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The World of Yesterday include Chess Story and Letter from an Unknown Woman by Zweig, The Radetzky March by Joseph Roth, Night by Elie Wiesel, If This Is a Man by Primo Levi, Austerlitz by Sebald, The Hare with Amber Eyes by Edmund de Waal, and The Magic Mountain by Thomas Mann. Our full guide covers 8 picks for fans of Zweig's Habsburg Vienna memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Chess Story by Stefan Zweig?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Chess Story include The World of Yesterday and Letter from an Unknown Woman by Zweig, Beware of Pity by Zweig, The Remains of the Day by Ishiguro, The Talented Mr. Ripley by Patricia Highsmith, The Stranger by Camus, Lolita by Nabokov, and The Diving Bell and the Butterfly by Bauby. Our full guide covers 8 picks for fans of Zweig's chess novella." },
     },
     {
       '@type': 'Question',
