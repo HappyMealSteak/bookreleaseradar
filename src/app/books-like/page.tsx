@@ -369,6 +369,11 @@ export const metadata: Metadata = {
     'books like The Book of Night Women Marlon James',
     'books like Cold Comfort Farm Stella Gibbons',
     'books like The Nickel Boys Colson Whitehead',
+    'books like Paradise Lost John Milton epic poem',
+    'books like To the Lighthouse Virginia Woolf',
+    'books like The Sound and the Fury William Faulkner',
+    'books like The Canterbury Tales Geoffrey Chaucer',
+    'books like Ulysses James Joyce Dublin',
     'books like A Brief History of Seven Killings Marlon James',
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
@@ -2300,6 +2305,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Paradise Lost by John Milton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Paradise Lost include The Divine Comedy by Dante, His Dark Materials by Philip Pullman, The Aeneid by Virgil, Gilead by Marilynne Robinson, Faust by Goethe, The Marriage of Heaven and Hell by William Blake, Samson Agonistes by Milton, and The Silmarillion by Tolkien. Our full guide covers 8 picks for fans of Milton's epic poem." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked To the Lighthouse by Virginia Woolf?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like To the Lighthouse include Mrs Dalloway by Virginia Woolf, The Waves by Virginia Woolf, The Hours by Michael Cunningham, Stoner by John Williams, Housekeeping by Marilynne Robinson, The Remains of the Day by Kazuo Ishiguro, and The Magic Mountain by Thomas Mann. Our full guide covers 8 modernist picks for fans of Woolf." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sound and the Fury by William Faulkner?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sound and the Fury include As I Lay Dying by Faulkner, Beloved by Toni Morrison, Absalom Absalom by Faulkner, One Hundred Years of Solitude by García Márquez, Their Eyes Were Watching God by Hurston, Blood Meridian by Cormac McCarthy, and The Corrections by Jonathan Franzen. Our full guide covers 8 picks for fans of Faulkner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Canterbury Tales by Geoffrey Chaucer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Canterbury Tales include The Decameron by Boccaccio, Sir Gawain and the Green Knight, Piers Plowman by William Langland, The Name of the Rose by Umberto Eco, One Thousand and One Nights, Troilus and Criseyde by Chaucer, and The Pillars of the Earth by Ken Follett. Our full guide covers 8 medieval literature picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ulysses by James Joyce?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ulysses include A Portrait of the Artist as a Young Man by Joyce, Mrs Dalloway by Virginia Woolf, To the Lighthouse by Virginia Woolf, The Waves by Woolf, The Recognitions by William Gaddis, Infinite Jest by David Foster Wallace, Dubliners by Joyce, and The Sound and the Fury by Faulkner. Our full guide covers 8 modernist picks for fans of Joyce." },
     },
     {
       '@type': 'Question',
