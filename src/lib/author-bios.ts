@@ -576,6 +576,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'sci-fi',
     knownFor: ['Foundation', 'Foundation and Empire', 'I, Robot'],
   },
+  {
+    name: 'Ursula K. Le Guin',
+    bio: "Ursula K. Le Guin (1929–2018) was an American author widely considered one of the greatest science fiction and fantasy writers ever to work in the genre. Her major works include The Left Hand of Darkness (1969, Hugo and Nebula), The Dispossessed (1974, Hugo and Nebula), The Word for World is Forest (1972), and the Earthsea fantasy series. Le Guin was the first woman to win a Hugo for Best Novel (for The Left Hand of Darkness) and was later given the SFWA Grand Master Award. She is known for using speculative fiction to examine real social structures — gender, anarchism, colonialism, ecology — in ways that have influenced virtually every major SF author of the last 50 years.",
+    genre: 'sci-fi',
+    knownFor: ['The Left Hand of Darkness', 'The Dispossessed', 'A Wizard of Earthsea'],
+  },
+  {
+    name: 'John Scalzi',
+    bio: "John Scalzi is an American author of science fiction and former president of the Science Fiction and Fantasy Writers Association (SFWA). He is best known for the Old Man's War military SF series (2005–2015), which began with Old Man's War and ran for six novels. He also wrote the Hugo Award-winning Redshirts (2012), a satirical meta-novel about secondary characters in science fiction. Scalzi is known for his accessible prose style, dark humor, and the speed of his output — he is one of the most prolific major SF authors of his generation. His blog Whatever was one of the most widely read author blogs in the early internet era.",
+    genre: 'sci-fi',
+    knownFor: ["Old Man's War", 'Redshirts', 'The Kaiju Preservation Society'],
+  },
+  {
+    name: 'Blake Crouch',
+    bio: "Blake Crouch is an American author of science fiction thrillers, best known for a series of standalone novels that use a speculative scientific concept as the engine of a thriller plot: Dark Matter (2016, parallel universes), Recursion (2019, memory and time), and Upgrade (2022, genetic intelligence enhancement). Crouch previously wrote the Wayward Pines thriller trilogy, which was adapted into a Fox television series. His standalone novels are known for their accessibility — they are frequently recommended to readers who don't normally read science fiction — and for their high momentum pacing and emotional cores.",
+    genre: 'sci-fi',
+    knownFor: ['Dark Matter', 'Recursion', 'Upgrade'],
+  },
+  {
+    name: 'Kerri Maniscalco',
+    bio: "Kerri Maniscalco is an American author of YA historical fantasy and dark fantasy. She is best known for two series: the Stalking Jack the Ripper historical mystery series (4 books, 2016–2019), set in 1888 Victorian London and featuring a young female forensic detective, and the Kingdom of the Wicked dark fantasy trilogy (2020–2022), set in 1888 Sicily and featuring a young woman who summons a demon to investigate her twin sister's murder. Both series draw on the atmosphere and historical detail of the late Victorian period and feature slow-burn romances with morally complicated love interests. The Stalking Jack the Ripper series has sold millions of copies worldwide.",
+    genre: 'fantasy',
+    knownFor: ['Kingdom of the Wicked', 'Stalking Jack the Ripper'],
+  },
 ];
 
 function normalize(s: string) {
