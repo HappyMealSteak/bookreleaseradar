@@ -373,6 +373,11 @@ export const metadata: Metadata = {
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
     'books like The Dew Breaker Edwidge Danticat',
+    'books like Ceremony Leslie Marmon Silko',
+    'books like House Made of Dawn N. Scott Momaday',
+    'books like Fun Home Alison Bechdel',
+    'books like Reading Lolita in Tehran Azar Nafisi',
+    'books like The Round House Louise Erdrich',
     'books like Persepolis Marjane Satrapi',
     'books like Love Medicine Louise Erdrich',
     'books like No-No Boy John Okada',
@@ -2130,6 +2135,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Dew Breaker by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Dew Breaker include Breath Eyes Memory by Edwidge Danticat, Brother I'm Dying by Edwidge Danticat, A Brief History of Seven Killings by Marlon James, In the Time of the Butterflies by Julia Alvarez, The Brief Wondrous Life of Oscar Wao by Junot Díaz, The Emigrants by W.G. Sebald, and Homegoing by Yaa Gyasi. Our full guide covers 8 picks for fans of Danticat's linked stories." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ceremony by Leslie Marmon Silko?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ceremony include House Made of Dawn by N. Scott Momaday, Love Medicine by Louise Erdrich, The Round House by Louise Erdrich, Tracks by Louise Erdrich, There There by Tommy Orange, and Winter in the Blood by James Welch. Our full guide covers 8 picks for fans of Silko's Laguna Pueblo healing novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked House Made of Dawn by N. Scott Momaday?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like House Made of Dawn include Ceremony by Leslie Marmon Silko, Love Medicine by Louise Erdrich, The Way to Rainy Mountain by N. Scott Momaday, Winter in the Blood by James Welch, and There There by Tommy Orange. Our full guide covers 8 picks for fans of Momaday's Pulitzer Prize-winning Pueblo novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fun Home by Alison Bechdel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fun Home include Persepolis by Marjane Satrapi, Maus by Art Spiegelman, Are You My Mother by Alison Bechdel, The Glass Castle by Jeannette Walls, Giovanni's Room by James Baldwin, and Educated by Tara Westover. Our full guide covers 8 picks for fans of Bechdel's graphic memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Reading Lolita in Tehran by Azar Nafisi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Reading Lolita in Tehran include Persepolis by Marjane Satrapi, In the Time of the Butterflies by Julia Alvarez, A Thousand Splendid Suns by Khaled Hosseini, The Handmaid's Tale by Margaret Atwood, I Know Why the Caged Bird Sings by Maya Angelou, and Educated by Tara Westover. Our full guide covers 8 picks for fans of Nafisi's Tehran memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Round House by Louise Erdrich?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Round House include Love Medicine by Louise Erdrich, LaRose by Louise Erdrich, Ceremony by Leslie Marmon Silko, There There by Tommy Orange, The Night Watchman by Louise Erdrich, and To Kill a Mockingbird by Harper Lee. Our full guide covers 8 picks for fans of Erdrich's National Book Award reservation novel." },
     },
     {
       '@type': 'Question',
