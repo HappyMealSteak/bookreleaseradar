@@ -69,16 +69,28 @@ export default async function AuthorPage({ params }: Props) {
     sameAs: [],
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bookreleaseradar.com' },
+      { '@type': 'ListItem', position: 2, name: 'Authors', item: 'https://bookreleaseradar.com/authors' },
+      { '@type': 'ListItem', position: 3, name, item: `https://bookreleaseradar.com/author/${slug}` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-[var(--text-muted)] hover:text-[var(--accent)] mb-8 transition-colors"
-        >
-          <ArrowLeft size={14} /> Back to releases
-        </Link>
+        <nav className="flex items-center gap-1.5 text-sm text-[var(--text-muted)] mb-8">
+          <Link href="/" className="hover:text-[var(--accent)] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/authors" className="hover:text-[var(--accent)] transition-colors">Authors</Link>
+          <span>/</span>
+          <span className="text-[var(--text)]">{name}</span>
+        </nav>
 
         {/* Header */}
         <div className="mb-10">
