@@ -752,22 +752,6 @@ export const SERIES: SeriesDefinition[] = [
       'Tomi Adeyemi next book',
     ],
   },
-  {
-    slug: 'the-giver',
-    name: 'The Giver Quartet',
-    shortName: 'The Giver',
-    author: 'Lois Lowry',
-    authorQuery: 'Lois Lowry',
-    genre: 'fiction',
-    description:
-      "Lois Lowry's The Giver (1993) is one of the most widely read novels in American schools — a devastating story about a boy named Jonas who lives in a Community that has achieved perfection by eliminating memory, color, and choice from human experience. When Jonas is selected as the Receiver of Memory, he discovers the true cost of his Community's peace. Three companion novels (Gathering Blue, Messenger, Son) expand the world across different societies. The Giver won the 1994 Newbery Medal and has never been out of print.",
-    searchTerms: [
-      'Lois Lowry new book',
-      'The Giver reading order',
-      'Giver Quartet books in order',
-      'The Giver series',
-    ],
-  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
