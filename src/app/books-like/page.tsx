@@ -117,6 +117,11 @@ export const metadata: Metadata = {
     'books like Replay Ken Grimwood',
     'books like Big Little Lies Liane Moriarty',
     "books like Where'd You Go Bernadette Maria Semple",
+    'books like A Little Life Hanya Yanagihara',
+    'books like The Secret History Donna Tartt',
+    'books like Little Fires Everywhere Celeste Ng',
+    'books like Nine Perfect Strangers Liane Moriarty',
+    'books like The Forever War Joe Haldeman',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -569,6 +574,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: "What should I read if I liked Where'd You Go, Bernadette?",
       acceptedAnswer: { '@type': 'Answer', text: "Books like Where'd You Go, Bernadette include Eleanor Oliphant Is Completely Fine by Gail Honeyman, Today Will Be Different (also by Maria Semple), The Rosie Project by Graeme Simsion, A Man Called Ove by Fredrik Backman, Big Little Lies by Liane Moriarty, and The 100-Year-Old Man Who Climbed Out the Window. Our full guide covers 8 picks for fans of dark comedy about brilliant women coming apart and reassembling themselves." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Little Life by Hanya Yanagihara?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Little Life include The Goldfinch by Donna Tartt, Shuggie Bain by Douglas Stuart, My Year of Rest and Relaxation by Ottessa Moshfegh, Pachinko by Min Jin Lee, Normal People by Sally Rooney, and The Virgin Suicides by Jeffrey Eugenides. Our full guide covers 8 picks for fans of emotionally intense literary fiction about friendship, love, and damage." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Secret History by Donna Tartt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Secret History include If We Were Villains by M.L. Rio, Ninth House by Leigh Bardugo, The Goldfinch (also by Tartt), Never Let Me Go by Kazuo Ishiguro, A Little Life by Hanya Yanagihara, and The Virgin Suicides by Jeffrey Eugenides. Our full guide covers 8 picks for dark academia fans and readers who love reverse-mystery literary fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Little Fires Everywhere by Celeste Ng?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Little Fires Everywhere include Big Little Lies by Liane Moriarty, Everything I Never Told You (also by Celeste Ng), The Vanishing Half by Brit Bennett, Homegoing by Yaa Gyasi, The Dutch House by Ann Patchett, and Where the Crawdads Sing by Delia Owens. Our full guide covers 8 picks for fans of literary fiction about community, race, and class." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nine Perfect Strangers by Liane Moriarty?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nine Perfect Strangers include Big Little Lies and The Husband's Secret (also by Moriarty), Anxious People by Fredrik Backman, Eleanor Oliphant Is Completely Fine by Gail Honeyman, Where'd You Go, Bernadette by Maria Semple, and Apples Never Fall (also by Moriarty). Our full guide covers 8 picks for fans of dark comedy ensemble fiction about healing and secrets." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Forever War by Joe Haldeman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Forever War include Old Man's War by John Scalzi, Starship Troopers by Robert A. Heinlein, Ender's Game by Orson Scott Card, The Things They Carried by Tim O'Brien, All You Need Is Kill by Hiroshi Sakurazaka, and The Expanse series. Our full guide covers 8 picks for fans of anti-war military science fiction that examines what combat does to people." },
     },
   ],
 };

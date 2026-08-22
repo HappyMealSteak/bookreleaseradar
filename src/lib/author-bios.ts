@@ -660,6 +660,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Where the Crawdads Sing'],
   },
+  {
+    name: 'Hanya Yanagihara',
+    bio: "Hanya Yanagihara is an American novelist and the editor in chief of T: The New York Times Style Magazine. Her second novel, A Little Life (2015), was a finalist for the Man Booker Prize, a finalist for the National Book Award, and one of the most discussed literary novels of the 2010s. It is known for its extreme emotional intensity and graphic depictions of childhood sexual abuse and self-harm. Her first novel, The People in the Trees (2013), was a quieter critical success; her third, To Paradise (2022), spans three centuries and three versions of America. Yanagihara's fiction is distinguished by its commitment to portraying suffering without redemptive framing — she has said she believes fiction is obligated to show what certain kinds of damage actually look like.",
+    genre: 'fiction',
+    knownFor: ['A Little Life', 'The People in the Trees', 'To Paradise'],
+  },
+  {
+    name: 'Donna Tartt',
+    bio: "Donna Tartt is an American novelist who has published three novels over three decades, each of which has been a major literary event: The Secret History (1992), The Little Friend (2002), and The Goldfinch (2013), which won the Pulitzer Prize for Fiction. The Secret History, her debut, defined the dark academia aesthetic and the reverse-mystery structure in literary fiction, and remains one of the most-sold literary debut novels in American publishing history. Tartt is known for her long production schedule — roughly a decade between each novel — and her exacting attention to prose. The Goldfinch was adapted into a film in 2019.",
+    genre: 'fiction',
+    knownFor: ['The Secret History', 'The Goldfinch', 'The Little Friend'],
+  },
+  {
+    name: 'Celeste Ng',
+    bio: "Celeste Ng is a Chinese-American novelist born in Pittsburgh and raised in Shaker Heights, Ohio — the community that provides the setting for her second novel, Little Fires Everywhere. Her debut novel, Everything I Never Told You (2014), won the Amazon Book of the Year Award and the Alex Award. Little Fires Everywhere (2017) was an instant New York Times bestseller, was selected for Reese Witherspoon's book club, and was adapted into a Hulu miniseries (2020) starring Witherspoon and Kerry Washington. Her third novel, Our Missing Hearts (2022), is a speculative fiction novel about a near-future America where a law banning cultural influence has separated families. Ng is a frequent speaker and essayist on race, identity, and American literature.",
+    genre: 'fiction',
+    knownFor: ['Little Fires Everywhere', 'Everything I Never Told You', 'Our Missing Hearts'],
+  },
+  {
+    name: 'Liane Moriarty',
+    bio: "Liane Moriarty is an Australian novelist who became an international phenomenon with Big Little Lies (2014), which sold millions of copies worldwide and was adapted into an Emmy-winning HBO miniseries (2017) starring Reese Witherspoon and Nicole Kidman. Her subsequent novel, Nine Perfect Strangers (2018), was also adapted into a Hulu miniseries (2021) with Nicole Kidman. Moriarty is known for her dark domestic comedies — literary thrillers that use sharp ensemble characterization and a multi-perspective structure to examine the secrets that upscale communities keep. Her other novels include The Husband's Secret (2013), What Alice Forgot (2009), Truly Madly Guilty (2016), and Apples Never Fall (2021).",
+    genre: 'fiction',
+    knownFor: ['Big Little Lies', 'Nine Perfect Strangers', 'The Husband\'s Secret'],
+  },
+  {
+    name: 'Joe Haldeman',
+    bio: "Joe Haldeman is an American science fiction author and Vietnam War veteran best known for The Forever War (1974), a Hugo and Nebula Award–winning novel about soldiers fighting an interstellar war while relativistic travel ages Earth decades between each deployment. Haldeman has explicitly described The Forever War as his response to his experience in Vietnam and to Robert Heinlein's Starship Troopers. He has taught creative writing at MIT for many years. His other major works include Forever Peace (1997, Hugo Award), Camouflage (2004, Nebula Award), and Old Twentieth (2005). He is generally considered one of the defining voices of the 'war is alienating' tradition in military science fiction.",
+    genre: 'sci-fi',
+    knownFor: ['The Forever War', 'Forever Peace', 'Camouflage'],
+  },
 ];
 
 function normalize(s: string) {

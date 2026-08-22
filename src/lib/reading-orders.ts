@@ -2026,6 +2026,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "Is there a film adaptation of Where'd You Go, Bernadette?", a: "Yes — Where'd You Go, Bernadette was adapted as a film in 2019, directed by Richard Linklater and starring Cate Blanchett as Bernadette. The film received mixed reviews; readers of the novel generally found the adaptation changed the novel's documentary epistolary structure in ways that reduced the comedy." },
     ],
   },
+  {
+    slug: 'a-little-life',
+    intro: "Hanya Yanagihara's A Little Life (2015) is a complete standalone novel. There is no sequel. The novel follows four men who meet as college freshmen at a small New England college — Willem, JB, Malcolm, and Jude — and traces their friendship across decades in New York, centering increasingly on Jude St. Francis and the history of abuse that defines every dimension of his adult life. A Little Life is one of the most emotionally extreme novels in contemporary American fiction and should be approached with full awareness of its content.",
+    startWith: 'A Little Life',
+    books: [
+      { title: 'A Little Life', author: 'Hanya Yanagihara', year: 2015, note: "Standalone — four college friends' friendship over decades in New York, centering on Jude St. Francis and the history of childhood abuse that shapes everything about him; Booker Prize finalist and one of the most emotionally extreme novels of the 21st century" },
+    ],
+    faq: [
+      { q: 'Is A Little Life a standalone?', a: "Yes — A Little Life is a complete standalone novel with no sequel. Hanya Yanagihara's other novels (The People in the Trees, To Paradise) are entirely independent." },
+      { q: 'Why does A Little Life have a content warning?', a: "A Little Life contains extremely graphic depictions of childhood sexual abuse, self-harm, torture, and suicide. Yanagihara does not cut away or summarize these events — she describes them in full detail, and they become more extreme as the novel progresses. The novel is not recommended for readers who are sensitive to these subjects, and many readers who love it also say they cannot read it again." },
+      { q: 'Is A Little Life realistic or fantastical?', a: "A Little Life is entirely realistic in setting — contemporary New York, no speculative elements — but Yanagihara deliberately makes Jude's suffering more extreme than any single person could plausibly have endured. This is intentional: the novel is interested in what sustained, comprehensive damage does to a person's inner life, and it uses Jude's extreme history to examine that question at maximum intensity." },
+      { q: "What is A Little Life about besides the trauma?", a: "A Little Life is fundamentally a novel about male friendship and what it means to love someone you cannot save. The four friendships at the center of the book — particularly Jude's relationship with Willem — are described in more detail and with more warmth than almost any other long-term friendship in contemporary fiction. Most readers who respond to the novel cite the friendships as what makes it bearable to read." },
+    ],
+  },
+  {
+    slug: 'the-secret-history',
+    intro: "Donna Tartt's The Secret History (1992) is a complete standalone novel. There is no sequel. Richard Papen, a student from California, transfers to a small Vermont college and is accepted into an elite group of five classics students taught by a charismatic professor. The novel opens with the announcement that one of them has been killed — and then tells the story of how it happened and why. The Secret History popularized the 'dark academia' aesthetic and the reverse-mystery structure (we know who died and how before we know why).",
+    startWith: 'The Secret History',
+    books: [
+      { title: 'The Secret History', author: 'Donna Tartt', year: 1992, note: "Standalone — a transfer student at a small Vermont college is accepted into an elite classics study group, and one of them is killed; the novel tells the story of why from the beginning" },
+    ],
+    faq: [
+      { q: 'Is The Secret History a standalone?', a: "Yes — The Secret History is a complete standalone novel. Donna Tartt has published two subsequent novels, The Little Friend (2002) and The Goldfinch (2013, Pulitzer Prize winner), but each is entirely independent." },
+      { q: 'What is dark academia?', a: "Dark academia is an aesthetic and literary subgenre associated with The Secret History: elite academic settings (usually Oxford, Cambridge, or equivalent American colleges), classical learning, morally compromised protagonists, aesthetic obsession, and usually a crime. Tartt's novel essentially created the category, though the term wasn't coined until decades after its publication." },
+      { q: 'Is The Secret History a mystery or a literary novel?', a: "The Secret History is structured as a reverse mystery — we know from the first page that Richard's study group killed one of their own, and the novel tells the story of why and how. But its concerns are literary rather than genre: beauty, transgression, complicity, the aestheticization of violence, and what happens when an idea becomes more important to a group than the people in it." },
+      { q: 'What should I read after The Secret History by Donna Tartt?', a: "After The Secret History, many readers go to The Goldfinch (Tartt's Pulitzer winner about a boy who survives a museum bombing and takes a painting), If We Were Villains by M.L. Rio (a Shakespeare-focused dark academia novel that is the most direct descendant of The Secret History), and Ninth House by Leigh Bardugo (dark academia with supernatural elements at Yale)." },
+    ],
+  },
+  {
+    slug: 'little-fires-everywhere',
+    intro: "Celeste Ng's Little Fires Everywhere (2017) is a complete standalone novel. There is no sequel. Set in the planned community of Shaker Heights, Ohio in 1997, the novel follows two families — the Richardsons, who have been part of Shaker Heights for generations, and Mia Warren and her daughter Pearl, a photographer and her daughter who have been moving from place to place — and the collision between them over a custody dispute involving a Chinese-American baby.",
+    startWith: 'Little Fires Everywhere',
+    books: [
+      { title: 'Little Fires Everywhere', author: 'Celeste Ng', year: 2017, note: "Standalone — two families in the planned community of Shaker Heights, Ohio collide over a custody dispute involving a Chinese-American baby; an examination of race, class, and who gets to define a good life" },
+    ],
+    faq: [
+      { q: 'Is Little Fires Everywhere a standalone?', a: "Yes — Little Fires Everywhere is a complete standalone novel. Celeste Ng has published two other novels, Everything I Never Told You (2014) and Our Missing Hearts (2022), which are entirely independent." },
+      { q: 'What is Little Fires Everywhere about?', a: "Little Fires Everywhere is about who gets to define what a good life looks like and who pays the cost when those definitions conflict. Shaker Heights is a community designed around the idea that good planning produces good lives; Mia Warren has spent her life deliberately outside that frame. The custody dispute between the Chinese-American biological mother and the white family that raised the child forces both families to confront whose idea of a good mother — and a good life — should prevail." },
+      { q: 'Is there a TV adaptation of Little Fires Everywhere?', a: "Yes — Little Fires Everywhere was adapted as a Hulu miniseries in 2020, starring Reese Witherspoon and Kerry Washington. The adaptation moves some elements of the story and deepens the focus on race by making Elena Richardson white and Mia Warren Black (in the novel, both characters' races are less explicitly central to the adaptation's framework). Most readers who loved the novel also enjoyed the series." },
+      { q: 'What makes Shaker Heights significant in Little Fires Everywhere?', a: "Shaker Heights is a real planned community in Ohio, founded in the early 20th century on the idea that good civic design produces good civic life. Ng grew up there, and the novel uses the community's genuine history and design philosophy as a character — the belief that rules and planning can prevent the kinds of disasters that other communities experience. The novel is about what that belief costs and who it excludes." },
+    ],
+  },
+  {
+    slug: 'nine-perfect-strangers',
+    intro: "Liane Moriarty's Nine Perfect Strangers (2018) is a complete standalone novel. There is no sequel. Nine people check into Tranquillum House, a luxury health and wellness retreat in the Australian countryside run by Masha, a charismatic Russian-born director with a specific treatment plan for each of them. The novel follows the nine guests over ten days as Masha's treatment becomes something none of them signed up for.",
+    startWith: 'Nine Perfect Strangers',
+    books: [
+      { title: 'Nine Perfect Strangers', author: 'Liane Moriarty', year: 2018, note: "Standalone — nine people at a luxury Australian wellness retreat discover their charismatic director has a very specific plan for their transformation; a dark comedy about healing, grief, and what people will accept in the name of getting better" },
+    ],
+    faq: [
+      { q: 'Is Nine Perfect Strangers a standalone?', a: "Yes — Nine Perfect Strangers is a complete standalone novel. Liane Moriarty has written other standalone novels (Big Little Lies, The Husband's Secret, Apples Never Fall), but Nine Perfect Strangers is entirely independent." },
+      { q: 'Is Nine Perfect Strangers as good as Big Little Lies?', a: "Most readers who have read both find Nine Perfect Strangers funnier and more satirically ambitious — the wellness retreat setting allows Moriarty to be very sharp about the culture of self-improvement — but less emotionally serious than Big Little Lies. Both novels are concerned with secrets, grief, and what people do with things they cannot say directly; Big Little Lies goes further into domestic abuse; Nine Perfect Strangers goes further into comedy." },
+      { q: 'Is there a TV adaptation of Nine Perfect Strangers?', a: "Yes — Nine Perfect Strangers was adapted as a Hulu miniseries in 2021, starring Nicole Kidman as Masha and Melissa McCarthy, Luke Evans, Michael Shannon, and Bobby Cannavale among the guests. The adaptation received mixed reviews; the ending diverges significantly from the novel." },
+      { q: 'What is the wellness retreat satire in Nine Perfect Strangers about?', a: "Nine Perfect Strangers uses the wellness retreat as a setting to examine what people do with grief, trauma, and unhappiness when conventional therapy hasn't worked — the specific vulnerability that makes a charismatic guru with unorthodox methods possible. Moriarty is interested in the fine line between genuine healing and manipulation." },
+    ],
+  },
+  {
+    slug: 'the-forever-war',
+    intro: "Joe Haldeman's The Forever War (1974) is the first book in the Forever War series, followed by Forever Peace (1997) and Forever Free (1999). However, Forever Peace and Forever Free are set centuries later with different characters and can be read entirely independently. The Forever War itself is usually read as a standalone. The novel follows William Mandella, a physics student drafted into an interstellar war against an alien species called the Taurans, and deals with the alienation of returning to a society that has changed beyond recognition during his relativistic travel.",
+    startWith: 'The Forever War',
+    books: [
+      { title: 'The Forever War', author: 'Joe Haldeman', year: 1974, note: "Core novel — William Mandella fights an interstellar war where relativistic travel means decades pass on Earth between each deployment; Hugo and Nebula Award winner and the defining Vietnam-era response to Starship Troopers" },
+      { title: 'Forever Peace', author: 'Joe Haldeman', year: 1997, note: "Set centuries after the original, different characters, different war; Hugo Award winner; entirely independent", isOptional: true },
+      { title: 'Forever Free', author: 'Joe Haldeman', year: 1999, note: "Direct sequel to The Forever War; Mandella and his wife try to escape from the colony they live on", isOptional: true },
+    ],
+    faq: [
+      { q: 'How many Forever War books are there?', a: "There are three books in the Forever War series: The Forever War (1974), Forever Peace (1997), and Forever Free (1999). However, Forever Peace is set centuries after the original with entirely different characters and won its own Hugo Award as a standalone novel. Most readers treat The Forever War as a standalone and read the sequels separately if they want more." },
+      { q: 'What is The Forever War about?', a: "The Forever War is a science fiction novel about an interstellar war against an alien species called the Taurans, told by William Mandella, a physics student drafted into the military. Because the soldiers travel at relativistic speeds, decades pass on Earth between each deployment, and they return to a civilization that has changed beyond recognition — a direct allegory for Vietnam veterans returning to a country that had moved on without them." },
+      { q: 'Is The Forever War a response to Starship Troopers?', a: "Yes — Haldeman has explicitly said The Forever War was written as a response to Robert Heinlein's Starship Troopers (1959), which presents war as a noble institution that produces admirable citizens. The Forever War presents war as alienating, dehumanizing, and pointless. Both novels use military science fiction to argue about what war does to the people who fight it." },
+      { q: 'Is The Forever War dated?', a: "The Forever War contains sexual and gender politics that reflect its 1974 publication context and may feel dated to contemporary readers — Haldeman was responding to specific Vietnam-era social anxieties, and some of those responses haven't aged evenly. Most readers find the core premise (the relativity-driven alienation of returning veterans) as fresh as ever; the surrounding social commentary requires more context." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
