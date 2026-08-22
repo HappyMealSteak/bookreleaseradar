@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight } from 'lucide-react';
 import { getBestBooksByGenreYear } from '@/lib/db';
 import { GENRE_LABELS, GENRES, type Genre } from '@/lib/types';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -193,6 +194,8 @@ export default async function BestBooksYearPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

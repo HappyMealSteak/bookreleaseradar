@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import { getBooksByMonth, getPublishedMonths } from '@/lib/db';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -138,6 +139,8 @@ export default async function MonthlyReleasesPage({ params }: Props) {
           </Link>
         </nav>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

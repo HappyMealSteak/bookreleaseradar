@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { ChevronRight } from 'lucide-react';
 import BookGrid from '@/components/BookGrid';
 import { getBooksByYear, getPublishedMonths } from '@/lib/db';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -152,6 +153,8 @@ export default async function YearPage({ params }: Props) {
           emptyMessage={`No books tracked for ${y} yet. Check back after the next weekly seed.`}
         />
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

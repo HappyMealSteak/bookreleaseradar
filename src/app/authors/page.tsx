@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { getAllAuthors } from '@/lib/db';
 import { authorSlug } from '@/lib/utils';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import { getAuthorBio } from '@/lib/author-bios';
 import { GENRE_LABELS, type Genre } from '@/lib/types';
 
@@ -167,6 +168,8 @@ export default async function AuthorsPage() {
           </section>
         )}
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

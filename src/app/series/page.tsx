@@ -4,6 +4,7 @@ import { ChevronRight, BookOpen, List, Heart } from 'lucide-react';
 import { SERIES } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -175,6 +176,8 @@ export default function SeriesIndexPage() {
           ))}
         </div>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { ChevronRight } from 'lucide-react';
 import { getBestBooksByGenreYear } from '@/lib/db';
 import { GENRE_LABELS, GENRES, type Genre } from '@/lib/types';
 import BookGrid from '@/components/BookGrid';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -222,6 +223,8 @@ export default async function BestBooksGenrePage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }

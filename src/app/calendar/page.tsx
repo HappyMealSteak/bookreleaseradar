@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { getAllBooks } from '@/lib/db';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import type { Book } from '@/lib/types';
 
 export const revalidate = 86400;
@@ -182,6 +183,8 @@ export default async function CalendarPage() {
         </div>
       )}
     </div>
+
+      <NewsletterSignup />
     </>
   );
 }

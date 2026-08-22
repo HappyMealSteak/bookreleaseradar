@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, BookOpen } from 'lucide-react';
 import { RECOMMENDATIONS } from '@/lib/recommendations';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 2592000;
 
@@ -200,6 +201,8 @@ export default function BooksLikeIndexPage() {
           </Link>
         </div>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }
