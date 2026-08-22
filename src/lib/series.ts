@@ -102,21 +102,6 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
-    slug: 'wheel-of-time',
-    name: 'The Wheel of Time',
-    shortName: 'WoT',
-    author: 'Robert Jordan',
-    authorQuery: 'Jordan',
-    genre: 'fantasy',
-    description:
-      "The Wheel of Time (WoT) is Robert Jordan's iconic 14-book epic fantasy series, completed by Brandon Sanderson after Jordan's passing. Set in a vast world where time is a turning wheel, the series follows Rand al'Thor in an epochal battle of Light against Shadow. Companion works and the Prime Video adaptation continue to expand the world.",
-    searchTerms: [
-      'Wheel of Time Robert Jordan companion',
-      'Wheel of Time Brandon Sanderson new',
-      'Robert Jordan fantasy new book',
-    ],
-  },
-  {
     slug: 'mistborn',
     name: 'Mistborn',
     author: 'Brandon Sanderson',
@@ -142,20 +127,6 @@ export const SERIES: SeriesDefinition[] = [
       'Stormlight Archive Brandon Sanderson',
       'Brandon Sanderson Wind and Truth sequel',
       'Stormlight Archive book 6',
-    ],
-  },
-  {
-    slug: 'hunger-games',
-    name: 'The Hunger Games',
-    author: 'Suzanne Collins',
-    authorQuery: 'Suzanne Collins',
-    genre: 'fiction',
-    description:
-      "The Hunger Games by Suzanne Collins is the defining dystopian YA series of a generation, following Katniss Everdeen in the brutal, televised death matches of Panem. The series expanded with The Ballad of Songbirds and Snakes prequel, and fans anticipate further explorations of this rich, dark world.",
-    searchTerms: [
-      'Suzanne Collins new book',
-      'Hunger Games new novel',
-      'Hunger Games prequel sequel Suzanne Collins',
     ],
   },
   {
