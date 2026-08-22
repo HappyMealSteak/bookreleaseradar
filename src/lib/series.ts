@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'daughter-of-smoke-and-bone',
+    name: 'Daughter of Smoke and Bone',
+    shortName: 'Smoke & Bone',
+    author: 'Laini Taylor',
+    authorQuery: 'Laini Taylor',
+    genre: 'fantasy',
+    description:
+      "Laini Taylor's Daughter of Smoke and Bone trilogy follows Karou, a teenage art student in Prague with naturally blue hair who was raised by a family of chimera — supernatural beings who collect teeth and grant wishes. When Karou's world collides with a war between angels and demons she was never supposed to know about, she discovers the truth of who she really is. The trilogy moves between modern Prague and Eretz, a fantasy world where the angel-chimera war has raged for millennia. Taylor's prose is among the most lush and literary in YA fantasy, and the series has a devoted cult following.",
+    searchTerms: [
+      'Laini Taylor new book',
+      'Daughter of Smoke and Bone reading order',
+      'Days of Blood and Starlight order',
+      'Smoke and Bone trilogy order',
+    ],
+  },
+  {
+    slug: 'long-way-to-a-small-angry-planet',
+    name: 'Wayfarers',
+    shortName: 'Wayfarers',
+    author: 'Becky Chambers',
+    authorQuery: 'Becky Chambers',
+    genre: 'sci-fi',
+    description:
+      "Becky Chambers's Wayfarers series is a loosely connected science fiction series set in a universe where humanity has traveled to the stars and joined a multi-species interstellar community. Each book follows a different cast of characters in the same universe, emphasizing relationships, ethics, and the question of what home means across the galaxy. The series is known for its warmth, its diverse cast of species and genders, and its focus on the ordinary lives of people in an extraordinary setting. The Long Way to a Small, Angry Planet (2014) won the Alex Award; A Psalm for the Wild-Built (also by Chambers, though in a different universe) won the Hugo Award.",
+    searchTerms: [
+      'Becky Chambers new book',
+      'Wayfarers reading order',
+      'Long Way Small Angry Planet sequel',
+      'Becky Chambers books in order',
+    ],
+  },
+  {
+    slug: 'scorpio-races',
+    name: 'The Scorpio Races',
+    shortName: 'Scorpio Races',
+    author: 'Maggie Stiefvater',
+    authorQuery: 'Maggie Stiefvater',
+    genre: 'fantasy',
+    description:
+      "Maggie Stiefvater's The Scorpio Races (2011) is a standalone novel set on the fictional island of Thisby, where every November water horses — capaill uisce — emerge from the Atlantic and the fastest riders in the world race them along the beach. The race kills multiple riders every year. Sean Kendrick has won four times; Puck Connolly will be the first woman to enter. The novel is a Newbery Honor book and is widely considered one of Stiefvater's finest standalone works. It draws on Celtic mythology around water horses and is completely unrelated to the Raven Cycle.",
+    searchTerms: [
+      'Maggie Stiefvater new book',
+      'Scorpio Races sequel',
+      'is Scorpio Races a series',
+      'Scorpio Races reading order',
+    ],
+  },
+  {
     slug: 'caraval',
     name: 'Caraval Trilogy',
     shortName: 'Caraval',

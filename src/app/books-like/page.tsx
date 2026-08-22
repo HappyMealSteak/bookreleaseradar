@@ -71,6 +71,9 @@ export const metadata: Metadata = {
     'books like Caraval Stephanie Garber',
     'books like Strange the Dreamer Laini Taylor',
     'books like Legends and Lattes',
+    'books like Daughter of Smoke and Bone',
+    'books like Long Way Small Angry Planet Becky Chambers',
+    'books like The Scorpio Races Maggie Stiefvater',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -173,6 +176,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Daughter of Smoke and Bone?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Daughter of Smoke and Bone include Strange the Dreamer by Laini Taylor (her own second series), Caraval by Stephanie Garber, An Ember in the Ashes, Shadow and Bone, City of Brass, and The Night Circus. Our full Smoke & Bone guide covers 8 lush fantasy picks for fans of impossible romance and richly built worlds." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The Long Way to a Small, Angry Planet?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Long Way to a Small, Angry Planet include A Memory Called Empire by Arkady Martine, Legends & Lattes, The House in the Cerulean Sea, Six of Crows, The Dispossessed, Project Hail Mary, and Piranesi. Our full Wayfarers guide covers 8 picks for fans of cozy ensemble sci-fi with found families." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Scorpio Races?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Scorpio Races include The Raven Boys by Maggie Stiefvater (her own series), The Night Circus, Strange the Dreamer, The Bear and the Nightingale, and An Ember in the Ashes. Our full Scorpio Races guide covers 8 atmospheric picks for fans of Celtic mythology, island settings, and quiet slow-burn romance." },
     },
     {
       '@type': 'Question',

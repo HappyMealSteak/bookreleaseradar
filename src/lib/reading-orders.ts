@@ -1337,6 +1337,53 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is Legends & Lattes appropriate for adults?', a: "Yes — Legends & Lattes is written for adult readers, though its gentle content makes it accessible to older teens as well. It features a lesbian romance between two adult women, but the content is not explicit. The book was a Goodreads Choice Award winner for fantasy and romance." },
     ],
   },
+  {
+    slug: 'daughter-of-smoke-and-bone',
+    intro: "Laini Taylor's Daughter of Smoke and Bone trilogy is a complete three-book YA fantasy series. The story follows Karou, an art student in Prague with blue hair who draws monsters from memory — because the monsters are her family. All three books must be read in order; the trilogy builds to a conclusion that spans both worlds Taylor creates across the series.",
+    startWith: 'Daughter of Smoke and Bone',
+    books: [
+      { title: 'Daughter of Smoke and Bone', author: 'Laini Taylor', year: 2011, note: "Book 1 — Karou, an art student in Prague raised by chimera in a wish shop, discovers the truth of her origins when an angel comes for her" },
+      { title: 'Days of Blood and Starlight', author: 'Laini Taylor', year: 2012, note: "Book 2 — The war between angels and chimera resumes in a devastated Eretz; Karou and Akiva are on opposite sides" },
+      { title: 'Dreams of Gods and Monsters', author: 'Laini Taylor', year: 2014, note: "Book 3 — A ceasefire, a new threat, and the trilogy's conclusion across two worlds" },
+    ],
+    faq: [
+      { q: 'What is the Daughter of Smoke and Bone reading order?', a: "Read Daughter of Smoke and Bone (2011), then Days of Blood and Starlight (2012), then Dreams of Gods and Monsters (2014). All three books must be read in order — the trilogy is one continuous story." },
+      { q: 'How many Daughter of Smoke and Bone books are there?', a: "Laini Taylor's Daughter of Smoke and Bone series is a complete trilogy: Daughter of Smoke and Bone (2011), Days of Blood and Starlight (2012), and Dreams of Gods and Monsters (2014). Taylor also wrote the Strange the Dreamer duology, a completely separate series in a different world." },
+      { q: 'Is Daughter of Smoke and Bone connected to Strange the Dreamer?', a: "No — Daughter of Smoke and Bone and the Strange the Dreamer duology are completely separate series by Laini Taylor, set in different worlds with different characters. They share Taylor's distinctive lush prose style but have no plot or character connections." },
+      { q: 'What is Daughter of Smoke and Bone about?', a: "Karou is a seventeen-year-old art student at a Prague art school who was raised by a family of chimera — monsters who collect teeth for a wish dealer named Brimstone. When handprints of ash appear on all the portals to the wish shop simultaneously, Karou's two worlds collide, and she discovers the truth of who she is. The trilogy is a war story about angels and demons set partly in modern Prague and partly in a fantasy world called Eretz." },
+    ],
+  },
+  {
+    slug: 'long-way-to-a-small-angry-planet',
+    intro: "Becky Chambers's Wayfarers series is a loosely connected science fiction series — each book follows different characters in the same universe and can be read as a standalone or in publication order. The books are connected by setting and occasional character appearances, but each tells a completely self-contained story. Publication order is recommended but not required.",
+    startWith: 'The Long Way to a Small, Angry Planet',
+    books: [
+      { title: 'The Long Way to a Small, Angry Planet', author: 'Becky Chambers', year: 2014, note: "Book 1 — The crew of the tunneler Wayfarer takes a year-long job through dangerous space to the edge of the galaxy" },
+      { title: 'A Closed and Common Orbit', author: 'Becky Chambers', year: 2016, note: "Book 2 — Sidra (an AI from Book 1) navigates life in a human body; Pepper's backstory alternates" },
+      { title: 'Record of a Spaceborn Few', author: 'Becky Chambers', year: 2018, note: "Book 3 — Life inside the Exodus Fleet, a generation after humanity left Earth; standalone" },
+      { title: 'The Galaxy, and the Ground Within', author: 'Becky Chambers', year: 2021, note: "Book 4 — Travelers stranded at a waystation with little in common find connection; standalone" },
+    ],
+    faq: [
+      { q: 'What is the Wayfarers reading order?', a: "The Wayfarers series by Becky Chambers has four main books: The Long Way to a Small, Angry Planet (2014), A Closed and Common Orbit (2016), Record of a Spaceborn Few (2018), and The Galaxy, and the Ground Within (2021). Each book is a standalone; publication order is recommended but not required." },
+      { q: 'Do I need to read the Wayfarers books in order?', a: "No — each Wayfarers book is a standalone with a self-contained story. A Closed and Common Orbit features a character introduced in the first book, so most readers recommend starting with The Long Way to a Small, Angry Planet, but all four books can be read independently." },
+      { q: 'What is The Long Way to a Small, Angry Planet about?', a: "A small crew of tunnelers — who travel through space creating wormholes — takes a year-long job to drill a tunnel to a dangerous planet at the far edge of the galaxy. The novel is more about the people on the ship than about the destination: their relationships, their different species and cultures, and what it means to build a home on a ship." },
+      { q: 'Is Wayfarers similar to The Hitchhiker\'s Guide to the Galaxy?', a: "Wayfarers and Hitchhiker's Guide both feature ensemble casts of different species traveling through space, but their tones are very different. Hitchhiker's Guide is satirical and absurdist; Wayfarers is warm, cozy, and deeply humanist. Chambers's books are closer in feel to a workplace found-family novel than to comic sci-fi." },
+    ],
+  },
+  {
+    slug: 'scorpio-races',
+    intro: "Maggie Stiefvater's The Scorpio Races is a standalone novel — there is no sequel and no series. It is completely unrelated to the Raven Cycle, though both are by Maggie Stiefvater. The Scorpio Races can be read at any point without any prior Stiefvater experience.",
+    startWith: 'The Scorpio Races',
+    books: [
+      { title: 'The Scorpio Races', author: 'Maggie Stiefvater', year: 2011, note: "Standalone — every November on the island of Thisby, water horses emerge from the sea for the Scorpio Races; Sean Kendrick trains them, and Puck Connolly will be the first woman to ride" },
+    ],
+    faq: [
+      { q: 'Is The Scorpio Races a series?', a: "No — The Scorpio Races is a standalone novel by Maggie Stiefvater. There is no sequel and no series. Stiefvater also wrote the Raven Cycle (four books) and the Shiver trilogy, but they are completely unrelated to The Scorpio Races." },
+      { q: 'Should I read The Scorpio Races before the Raven Cycle?', a: "No — The Scorpio Races and the Raven Cycle are completely separate, unrelated novels by the same author. You can read either in any order. The Scorpio Races is a standalone; the Raven Cycle is a four-book series." },
+      { q: 'What is The Scorpio Races about?', a: "Every October on the fictional island of Thisby, water horses emerge from the sea — enormous, predatory creatures who want to return to the ocean. Every November, riders race them along the beach. Sean Kendrick is the only rider who has won four times; Puck Connolly is the first woman to enter the races, to save her family's home. The novel alternates between their perspectives across the weeks before the race." },
+      { q: 'Is The Scorpio Races similar to the Raven Cycle?', a: "Both The Scorpio Races and the Raven Cycle are by Maggie Stiefvater and share her atmospheric, lyrical prose and her sense of a magical world hidden inside or alongside the ordinary one. The Scorpio Races is set on an island with Celtic-influenced mythology and is more contained and romantic; the Raven Cycle is a four-book epic about Welsh mythology in Virginia." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
