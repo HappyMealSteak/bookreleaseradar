@@ -864,6 +864,30 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'sci-fi',
     knownFor: ['1984', 'Animal Farm', 'Homage to Catalonia', 'Burmese Days'],
   },
+  {
+    name: 'Jhumpa Lahiri',
+    bio: "Jhumpa Lahiri is an American novelist and short story writer of Bengali descent born in London in 1967, who grew up in Rhode Island. Her debut short story collection Interpreter of Maladies (1999) — about Indian and Indian-American lives — won the Pulitzer Prize for Fiction and sold over 15 million copies. Her debut novel The Namesake (2003) was adapted into a widely seen film by Mira Nair in 2006. Her second short story collection, Unaccustomed Earth (2008), debuted at number one on the New York Times bestseller list. In 2012, Lahiri moved to Rome with her family; In Other Words (2015) is her memoir about learning Italian and eventually writing exclusively in Italian. Her subsequent works — the novel Dove mi trovo (Whereabouts) (2018) and the story collection Roman Stories (2022) — were written in Italian and later translated by others. Lahiri has been a professor at Princeton University and at the Scuola Normale Superiore in Pisa. She is celebrated for her precise, patient prose and her examination of the specific textures of the gap between immigrant parents and their American-born children.",
+    genre: 'fiction',
+    knownFor: ['Interpreter of Maladies', 'The Namesake', 'Unaccustomed Earth', 'In Other Words'],
+  },
+  {
+    name: 'Aldous Huxley',
+    bio: "Aldous Huxley (1894–1963) was a British novelist and philosopher, born in Godalming, Surrey, to a family distinguished in science and education — his grandfather was the biologist T.H. Huxley, his great-uncle the poet Matthew Arnold. After losing most of his eyesight to keratitis punctata at 16, he was unable to attend Eton and instead read widely before studying English at Balliol College, Oxford. He became associated with the Bloomsbury Group in London and published his first satirical novels in the 1920s. Brave New World (1932) — his speculative novel about a future World State that controls its population through pleasure — is his most celebrated work and one of the foundational texts of dystopian fiction. He moved to California in 1937 and became interested in mysticism, parapsychology, and the philosophy of mind — interests that shaped The Perennial Philosophy (1945) and his famous psychedelic memoir The Doors of Perception (1954), written after his first experience with mescaline. His final novel, Island (1962), is a utopian counterpart to Brave New World. He died on November 22, 1963 — the same day as C.S. Lewis and the assassination of John F. Kennedy.",
+    genre: 'sci-fi',
+    knownFor: ['Brave New World', 'The Doors of Perception', 'Point Counter Point', 'Island'],
+  },
+  {
+    name: 'Alice Walker',
+    bio: "Alice Walker is an American novelist, short story writer, poet, and activist born in Eatonton, Georgia in 1944. She grew up in rural poverty as the eighth child of sharecroppers and attended Spelman College in Atlanta before transferring to Sarah Lawrence College, where she began writing poetry. She was active in the Civil Rights Movement in Mississippi in the 1960s, where she met Melvyn Leventhal, a civil rights lawyer she married — the first legally married interracial couple in Mississippi at the time. Her debut novel The Third Life of Grange Copeland (1970) and her story collection In Love and Trouble (1973) established her as a major literary voice. The Color Purple (1982) — her third novel, an epistolary novel about a Black girl in rural 1930s Georgia — won the Pulitzer Prize for Fiction and the National Book Award in 1983. It was adapted into a film by Steven Spielberg in 1985 (starring Whoopi Goldberg and Danny Glover), a Broadway musical in 2005, and a second film in 2023. Walker coined the term 'womanist' to describe a Black feminist perspective that goes beyond mainstream (white) feminism. She has been a professor at Wellesley College and the University of California, Berkeley.",
+    genre: 'fiction',
+    knownFor: ['The Color Purple', 'Meridian', 'In Love and Trouble', 'Possessing the Secret of Joy'],
+  },
+  {
+    name: 'Jeffrey Eugenides',
+    bio: "Jeffrey Eugenides is an American novelist born in Detroit, Michigan in 1960. He studied at Brown University and Stanford University (where he received his MA). His debut novel The Virgin Suicides (1993) — about five teenage sisters in suburban Michigan — was adapted into a film by Sofia Coppola in 1999. Middlesex (2002), his second novel, follows the intersex narrator Cal Stephanides across three generations of Greek-American immigration; it won the Pulitzer Prize for Fiction in 2003, was an international bestseller, and was translated into over 30 languages. The Marriage Plot (2011) follows three Brown students in the early 1980s navigating romance, mental illness, and their first years after graduation. Eugenides has been a professor at Princeton University and has published short fiction in The New Yorker and other magazines. He is celebrated for his formal ambition — each of his three novels uses a radically different structure and narrative voice — and for his ability to combine literary seriousness with propulsive storytelling.",
+    genre: 'fiction',
+    knownFor: ['Middlesex', 'The Virgin Suicides', 'The Marriage Plot'],
+  },
 ];
 
 function normalize(s: string) {
