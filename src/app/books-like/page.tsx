@@ -313,6 +313,11 @@ export const metadata: Metadata = {
     'books like Possession A.S. Byatt',
     'books like The Woman in White Wilkie Collins',
     'books like Fingersmith Sarah Waters',
+    "books like Lady Audley's Secret Mary Elizabeth Braddon",
+    'books like The Moonstone Wilkie Collins',
+    'books like North and South Elizabeth Gaskell',
+    "books like Tess of the d'Urbervilles Thomas Hardy",
+    'books like Alias Grace Margaret Atwood',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1750,6 +1755,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Fingersmith by Sarah Waters?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Fingersmith include The Woman in White by Wilkie Collins, Affinity (also by Sarah Waters), Rebecca by Daphne du Maurier, Lady Audley's Secret by Mary Elizabeth Braddon, The Paying Guests by Sarah Waters, Alias Grace by Margaret Atwood, The Crimson Petal and the White by Michel Faber, and Tipping the Velvet by Sarah Waters. Our full guide covers 8 picks for fans of Waters's Victorian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Lady Audley's Secret by Mary Elizabeth Braddon?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lady Audley's Secret include The Woman in White by Wilkie Collins, Rebecca by Daphne du Maurier, Fingersmith by Sarah Waters, East Lynne by Ellen Wood, The Crimson Petal and the White by Michel Faber, Gone Girl by Gillian Flynn, In the Woods by Tana French, and Bleak House by Charles Dickens. Our full guide covers 8 picks for fans of Braddon's Victorian sensation masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Moonstone by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Moonstone include The Woman in White (also by Collins), A Study in Scarlet by Arthur Conan Doyle, The Murder at the Vicarage by Agatha Christie, Rebecca by Daphne du Maurier, And Then There Were None by Agatha Christie, The Name of the Rose by Umberto Eco, Fingersmith by Sarah Waters, and The Secret History by Donna Tartt. Our full guide covers 8 picks for fans of Collins's foundational detective novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked North and South by Elizabeth Gaskell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like North and South include Jane Eyre by Charlotte Brontë, Pride and Prejudice by Jane Austen, Wives and Daughters (also by Gaskell), Mary Barton by Elizabeth Gaskell, Middlemarch by George Eliot, The Tenant of Wildfell Hall by Anne Brontë, Daniel Deronda by George Eliot, and Howards End by E.M. Forster. Our full guide covers 8 picks for fans of Gaskell's Victorian social romance." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Tess of the d'Urbervilles by Thomas Hardy?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tess of the d'Urbervilles include Jude the Obscure (also by Hardy), The Mayor of Casterbridge by Thomas Hardy, Anna Karenina by Leo Tolstoy, Madame Bovary by Gustave Flaubert, Wide Sargasso Sea by Jean Rhys, The Awakening by Kate Chopin, The Return of the Native by Thomas Hardy, and Far from the Madding Crowd by Thomas Hardy. Our full guide covers 8 picks for fans of Hardy's tragic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Alias Grace by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Alias Grace include The Handmaid's Tale (also by Atwood), My Brilliant Friend by Elena Ferrante, The Virgin Suicides by Jeffrey Eugenides, Burial Rites by Hannah Kent, The Name of the Rose by Umberto Eco, The Paying Guests by Sarah Waters, Fingersmith by Sarah Waters, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of Atwood's historical crime masterpiece." },
     },
   ],
 };
