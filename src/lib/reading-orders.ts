@@ -5992,6 +5992,72 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'white-fragility',
+    intro: "Robin DiAngelo's White Fragility: Why It's So Hard for White People to Talk About Racism (2018) is a work of popular anti-racism education based on DiAngelo's decades of experience leading diversity training workshops in American corporations. It argues that white people's defensive reactions when their racism is named — the emotions of guilt, shame, anger, and silence that DiAngelo calls 'white fragility' — function as a mechanism to protect white supremacy rather than challenge it.",
+    startWith: 'White Fragility',
+    books: [
+      { title: 'White Fragility', author: 'Robin DiAngelo', year: 2018, note: 'The complete standalone book. No sequels; start and finish here.' },
+      { title: 'Nice Racism', author: 'Robin DiAngelo', year: 2021, note: "DiAngelo's follow-up, focused specifically on progressive white people who believe themselves to be anti-racist and the particular forms of white fragility and racism she observes in that community. Read after White Fragility." },
+    ],
+    faq: [
+      { q: 'What is white fragility?', a: "In DiAngelo's usage, 'white fragility' refers to the defensive reactions that white people commonly display when their racism is named or when they are asked to examine their racial attitudes: anger, silence, tears, guilt, shame, or denial. DiAngelo argues that these reactions function to restore white racial comfort and to protect white people from having to engage with evidence of their own racism, and that this defensive behavior is itself a form of racism because it prevents the conversations necessary for racial change." },
+      { q: "Has White Fragility been criticized?", a: "Yes — White Fragility has been criticized from multiple directions. From the left, Ibram X. Kendi and others have argued that DiAngelo's focus on white attitudes and feelings rather than racist policies makes the book more useful as therapy for white guilt than as a tool for dismantling structural racism. From the right, critics argue that DiAngelo's framework is condescending to people of color and treats white defensiveness as evidence of racism in a way that is unfalsifiable. John McWhorter, a Black linguist and Columbia professor, wrote a widely read essay calling the book 'demeaning to Black people.'" },
+    ],
+  },
+  {
+    slug: 'the-liars-club',
+    intro: "Mary Karr's The Liar's Club (1995) is a memoir of growing up in a chaotic, often violent East Texas family — with a mentally ill mother who occasionally threatened to kill her children and a father who told extravagant stories — that is widely credited with reviving the literary memoir as a form and setting the standard for honesty and prose craft in personal nonfiction.",
+    startWith: "The Liar's Club",
+    books: [
+      { title: "The Liar's Club", author: 'Mary Karr', year: 1995, note: "The complete memoir of Karr's Texas childhood. Start here." },
+      { title: 'Cherry', author: 'Mary Karr', year: 2000, note: "The sequel memoir, covering Karr's adolescence. Read second." },
+      { title: 'Lit', author: 'Mary Karr', year: 2009, note: "The third memoir, about Karr's alcoholism and her conversion to Catholicism. Completes the trilogy." },
+    ],
+    faq: [
+      { q: "Is The Liar's Club true?", a: "The Liar's Club is a memoir — Mary Karr's account of her actual childhood in Leechfield, Texas — though memoir always involves reconstruction and interpretation of memory. When the book was published, some family members disputed aspects of Karr's account, and Karr has written about the ethics of memoir in The Art of Memoir (2015), her handbook on the genre. The essential facts of her childhood — her mother's mental illness, her father's storytelling culture, the violence and chaos — are documented." },
+      { q: "What does 'the liar's club' mean?", a: "The Liar's Club refers to the informal gathering of working-class men in Leechfield, Texas, where Karr's father and his friends would drink and tell stories — competitive, extravagant tales where the liar's skill was the point, not the factual accuracy. The title frames the memoir's central concerns: the question of truth in storytelling, the question of what her parents' account of events could be trusted, and the question of what Karr herself remembers and reconstructs." },
+    ],
+  },
+  {
+    slug: 'the-white-tiger',
+    intro: "Aravind Adiga's The White Tiger (2008) is a Man Booker Prize-winning debut novel narrated by Balram Halwai — a poor boy from Bihar who murders his employer and becomes a successful entrepreneur in Bangalore, writing letters to China's Premier Wen Jiabao about what it takes to succeed in the new India. It is the sharpest fictional portrait of India's class system and its economic transformation.",
+    startWith: 'The White Tiger',
+    books: [
+      { title: 'The White Tiger', author: 'Aravind Adiga', year: 2008, note: 'The complete standalone novel. No sequels; start and finish here.' },
+      { title: 'Between the Assassinations', author: 'Aravind Adiga', year: 2008, note: "Adiga's linked story collection, set in the fictional South Indian city of Kittur in the years between Indira Gandhi's assassination in 1984 and Rajiv Gandhi's in 1991 — twelve stories about class, caste, and the lives of people on the margins of an India in transition. Read after The White Tiger for the full range of Adiga's India." },
+    ],
+    faq: [
+      { q: 'What is the white tiger in the novel?', a: "In the novel, 'the white tiger' is the term Balram Halwai uses for himself — a rare creature, a man who was born in poverty in the Darkness (the term he uses for rural Bihar) but who possesses the intelligence and ruthlessness to escape the social order and become a master entrepreneur. His school inspector used the phrase to describe him as the most intelligent boy in a generation, and Balram uses it throughout the novel to explain why he was capable of doing what he did, and why his story is worth telling to the Premier of China." },
+      { q: 'Is The White Tiger critical of India?', a: "The White Tiger is sharply critical of the corruption, inequality, and caste hierarchy of contemporary India, and it was controversial in India when it was published: some Indian critics argued that it presented a one-sided, negative portrait of the country designed for a Western audience and the Man Booker Prize committee rather than reflecting the full complexity of Indian society. Adiga has responded that the novel is critical of specific aspects of Indian society rather than of the country as a whole, and that the Indian press largely approved of it while some Indian-diaspora writers and critics did not." },
+    ],
+  },
+  {
+    slug: 'there-are-no-children-here',
+    intro: "Alex Kotlowitz's There Are No Children Here: The Story of Two Boys Growing Up in the Other America (1991) follows two brothers — Lafayette and Pharoah Rivers — growing up in the Henry Horner Homes, a public housing project on the West Side of Chicago in the late 1980s. One of the definitive works of narrative nonfiction about urban poverty and its effects on children.",
+    startWith: 'There Are No Children Here',
+    books: [
+      { title: 'There Are No Children Here', author: 'Alex Kotlowitz', year: 1991, note: 'The complete standalone book. No sequels; start and finish here.' },
+    ],
+    faq: [
+      { q: "What does 'there are no children here' mean?", a: "The title comes from a phrase spoken by Lafayette and Pharoah's mother, LaJoe Rivers, during a conversation with Alex Kotlowitz: 'There are no children here. They've seen too much to be children.' The phrase captures the central argument of the book — that the conditions of the housing project, including the constant presence of gang violence, drug dealing, and death, have robbed the children who grow up there of the developmental experience of childhood, forcing them into an adult awareness of danger and mortality before they have the psychological resources to manage it." },
+      { q: 'What happened to Lafayette and Pharoah?', a: "Kotlowitz maintained a relationship with both brothers after the book was published. Lafayette was arrested for murder in 1993, convicted of a lesser charge, and served prison time. Pharoah struggled with the transition to adulthood but eventually moved out of the projects. The Henry Horner Homes were demolished between 1995 and 2008 as part of Chicago's Plan for Transformation. Kotlowitz has written about the brothers' later lives in subsequent articles." },
+    ],
+  },
+  {
+    slug: 'thinking-fast-and-slow',
+    intro: "Daniel Kahneman's Thinking, Fast and Slow (2011) is a landmark popular synthesis of fifty years of research in cognitive psychology and behavioral economics, distinguishing between System 1 (fast, intuitive, emotional thinking) and System 2 (slow, deliberate, rational thinking) and showing how our reliance on System 1 produces systematic and predictable errors in judgment. Winner of numerous awards and one of the bestselling nonfiction books of the decade.",
+    startWith: 'Thinking, Fast and Slow',
+    books: [
+      { title: 'Thinking, Fast and Slow', author: 'Daniel Kahneman', year: 2011, note: 'The complete standalone book. No sequels by Kahneman; start and finish here.' },
+      { title: 'Noise', author: 'Daniel Kahneman', year: 2021, note: "Co-authored with Olivier Sibony and Cass Sunstein, this follow-up focuses on 'noise' — random variability in human judgment — as distinct from the 'bias' that was the focus of Thinking, Fast and Slow. Read after Thinking, Fast and Slow." },
+    ],
+    faq: [
+      { q: 'What are System 1 and System 2 in Thinking, Fast and Slow?', a: "System 1 is fast, automatic, associative, emotional, and operates below the level of conscious awareness — it is what handles most of the cognitive work of daily life, from recognizing faces to making rapid judgments. System 2 is slow, effortful, deliberate, and logical — it is what you engage when you consciously work through a math problem. Kahneman argues that most of our errors in judgment occur because System 1 generates a quick answer and System 2 accepts it without scrutinizing it, particularly in situations where System 1's heuristics fail." },
+      { q: 'What is the planning fallacy?', a: "The planning fallacy is one of the cognitive biases documented in Thinking, Fast and Slow — the systematic tendency to underestimate the time, cost, and risks of future actions while overestimating the benefits. Kahneman and Amos Tversky identified it in research showing that people making predictions about their own projects rely on an 'inside view' (optimistic assumptions about their specific case) rather than an 'outside view' (base rates of similar projects). The fallacy explains why large public works projects almost always run over budget and schedule, and why individual projects (from home renovations to software development) routinely take longer than planned." },
+      { q: 'How does Thinking, Fast and Slow relate to behavioral economics?', a: "Thinking, Fast and Slow is the most accessible and comprehensive popular account of the research program — prospect theory, the heuristics and biases research agenda, loss aversion, the availability heuristic, the conjunction fallacy, and many others — that Kahneman and Tversky developed together over more than two decades and that became the foundation of behavioral economics. Kahneman won the Nobel Prize in Economic Sciences in 2002 for this work (Tversky died in 1996)." },
+    ],
+  },
+  {
     slug: 'stamped-from-the-beginning',
     intro: "Ibram X. Kendi's Stamped from the Beginning: The Definitive History of Racist Ideas in America (2016) is a National Book Award-winning history of racist ideas in the United States, organized around five figures — Cotton Mather, Thomas Jefferson, William Lloyd Garrison, W.E.B. Du Bois, and Angela Davis — and arguing that racist ideas were created to justify racist policies rather than the other way around. It is the essential companion to Kendi's later How to Be an Antiracist (2019).",
     startWith: 'Stamped from the Beginning',

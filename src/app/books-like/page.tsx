@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like White Fragility Robin DiAngelo',
+    "books like The Liar's Club Mary Karr",
+    'books like The White Tiger Aravind Adiga',
+    'books like There Are No Children Here Alex Kotlowitz',
+    'books like Thinking Fast and Slow Daniel Kahneman',
     'books like Stamped from the Beginning Ibram X. Kendi',
     "books like Angela's Ashes Frank McCourt",
     'books like The Righteous Mind Jonathan Haidt',
@@ -2200,6 +2205,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked White Fragility by Robin DiAngelo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like White Fragility include How to Be an Antiracist by Ibram X. Kendi, Caste by Isabel Wilkerson, Between the World and Me by Ta-Nehisi Coates, So You Want to Talk About Race by Ijeoma Oluo, Sister Outsider by Audre Lorde, and Stamped from the Beginning by Ibram X. Kendi. Our full guide covers 8 picks for fans of DiAngelo's anti-racism framework." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Liar's Club by Mary Karr?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Liar's Club include Angela's Ashes by Frank McCourt, A Tree Grows in Brooklyn by Betty Smith, The Glass Castle by Jeannette Walls, Educated by Tara Westover, This Boy's Life by Tobias Wolff, and Cherry by Mary Karr. Our full guide covers 8 picks for fans of Karr's memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The White Tiger by Aravind Adiga?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The White Tiger include Maximum City by Suketu Mehta, Behind the Beautiful Forevers by Katherine Boo, A Fine Balance by Rohinton Mistry, The God of Small Things by Arundhati Roy, Midnight's Children by Salman Rushdie, and Q&A by Vikas Swarup. Our full guide covers 8 picks for fans of Adiga's India satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked There Are No Children Here by Alex Kotlowitz?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like There Are No Children Here include Gang Leader for a Day by Sudhir Venkatesh, Evicted by Matthew Desmond, The New Jim Crow by Michelle Alexander, Behind the Beautiful Forevers by Katherine Boo, Savage Inequalities by Jonathan Kozol, and Just Mercy by Bryan Stevenson. Our full guide covers 8 picks for fans of Kotlowitz's Chicago poverty journalism." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Thinking, Fast and Slow by Daniel Kahneman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Thinking, Fast and Slow include The Righteous Mind by Jonathan Haidt, Predictably Irrational by Dan Ariely, Nudge by Richard Thaler, The Black Swan by Nassim Taleb, The Undoing Project by Michael Lewis, and Misbehaving by Richard Thaler. Our full guide covers 8 picks for fans of Kahneman's cognitive psychology." },
     },
     {
       '@type': 'Question',
