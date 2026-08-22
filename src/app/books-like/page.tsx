@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Ficciones Borges library of babel short stories',
+    'books like Hopscotch Cortázar experimental Latin American novel',
+    'books like The House of the Spirits Allende Chile magical realism',
+    'books like The Book of Disquiet Pessoa Lisbon consciousness fragments',
+    'books like Conversation in the Cathedral Vargas Llosa Lima dictatorship',
     'books like Invisible Cities Italo Calvino Marco Polo imaginary cities',
     'books like The Leopard Lampedusa Sicily aristocracy Risorgimento',
     'books like The Baron in the Trees Calvino Cosimo philosophical fable',
@@ -2390,6 +2395,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ficciones by Jorge Luis Borges?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ficciones include Labyrinths and The Aleph by Borges, Invisible Cities by Calvino, If on a winter's night a traveler by Calvino, Pale Fire by Nabokov, Dictionary of the Khazars by Milorad Pavić, Hopscotch by Cortázar, and House of Leaves by Danielewski. Our full guide covers 8 picks for fans of Borges's groundbreaking story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hopscotch by Julio Cortázar?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hopscotch include Blow-Up by Cortázar, Ficciones by Borges, One Hundred Years of Solitude by García Márquez, Naked Lunch by Burroughs, Ulysses by Joyce, If on a winter's night a traveler by Calvino, The House of the Spirits by Allende, and Conversation in the Cathedral by Vargas Llosa. Our full guide covers 8 picks for fans of Cortázar's two-order experimental novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The House of the Spirits by Isabel Allende?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House of the Spirits include One Hundred Years of Solitude by García Márquez, Like Water for Chocolate by Esquivel, In the Time of the Butterflies by Julia Alvarez, Love in the Time of Cholera by García Márquez, Beloved by Toni Morrison, The Kite Runner by Hosseini, Eva Luna by Allende, and The Tin Drum by Günter Grass. Our full guide covers 8 picks for fans of Allende's Chile family saga." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Book of Disquiet by Fernando Pessoa?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Book of Disquiet include Nausea by Sartre, Notes from Underground by Dostoevsky, In Search of Lost Time by Proust, A Writer's Diary by Virginia Woolf, The Waves by Virginia Woolf, Steppenwolf by Hesse, Zeno's Conscience by Svevo, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for fans of Pessoa's Lisbon consciousness diary." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Conversation in the Cathedral by Mario Vargas Llosa?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Conversation in the Cathedral include The Feast of the Goat by Vargas Llosa, The Autumn of the Patriarch by García Márquez, Hopscotch by Cortázar, Aunt Julia and the Scriptwriter by Vargas Llosa, The General in His Labyrinth by García Márquez, Darkness at Noon by Koestler, The Brief Wondrous Life of Oscar Wao by Junot Díaz, and Life and Fate by Grossman. Our full guide covers 8 picks for fans of Vargas Llosa's Lima dictatorship novel." },
     },
     {
       '@type': 'Question',
