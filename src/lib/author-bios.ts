@@ -252,6 +252,84 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Where the Wild Things Are', 'In the Night Kitchen', 'Higglety Pigglety Pop!'],
   },
+  {
+    name: 'Caitlin Crews',
+    bio: "Caitlin Crews is a USA Today and New York Times bestselling author of over 100 contemporary and category romance novels, primarily for Harlequin Presents. Known for glamorous settings, brooding heroes, and emotionally charged plots, she writes billionaire romance, royal romance, and enemies-to-lovers stories beloved by romance readers worldwide.",
+    genre: 'romance',
+    knownFor: ['Harlequin Presents', 'The Playboy of Argentina', 'A Baby to Bind His Bride'],
+  },
+  {
+    name: 'Millie Adams',
+    bio: "Millie Adams is a pen name for a New York Times and USA Today bestselling romance author known for emotionally intense Harlequin Presents novels. Writing under the Adams name, she delivers passionate category romance featuring powerful heroes, strong heroines, and the kind of sweeping drama that defines the Presents line.",
+    genre: 'romance',
+    knownFor: ['Harlequin Presents', 'His Secretly Pregnant Cinderella'],
+  },
+  {
+    name: 'Jackie Ashenden',
+    bio: "Jackie Ashenden is a New Zealand-based New York Times and USA Today bestselling romance author with over 80 novels to her name, writing primarily for Harlequin Presents and Harlequin Dare. She's known for deeply emotional heroes, intense chemistry, and a penchant for brooding billionaires and alpha males who meet their match.",
+    genre: 'romance',
+    knownFor: ['Harlequin Presents', 'The Maid the Greek Married', 'A Vow to Claim His Hidden Son'],
+  },
+  {
+    name: 'Louise Jensen',
+    bio: "Louise Jensen is a Sunday Times and international bestselling author of psychological thrillers set primarily in the UK. Her novels The Date, The Family, The Stolen Sisters, and The Missing are known for domestic suspense, complex family dynamics, and twisty plots that keep readers guessing until the final page. Her debut novel The Sister was a Kindle #1 bestseller.",
+    genre: 'thriller',
+    knownFor: ['The Date', 'The Family', 'The Sister'],
+  },
+  {
+    name: 'Rona Halsall',
+    bio: "Rona Halsall is a UK bestselling author of psychological thrillers known for dark domestic suspense and unreliable narrators. Her novels including Keep You Safe, Love You Gone, and Her Mother's Lies feature gripping plots built around family secrets, betrayal, and dangerous obsessions. She has sold over a million copies worldwide.",
+    genre: 'thriller',
+    knownFor: ['Keep You Safe', 'Love You Gone', "Her Mother's Lies"],
+  },
+  {
+    name: 'Pepper Winters',
+    bio: "Pepper Winters is a New York Times and USA Today bestselling author of dark romance, known for morally complex characters and emotionally intense storylines. Her Tears of Tess series launched her career, and she has since written dozens of novels across multiple series including Dollar, Indebted, and Monsters in the Dark, consistently appearing on bestseller lists.",
+    genre: 'romance',
+    knownFor: ['Tears of Tess', 'Dollar Series', 'Indebted Series'],
+  },
+  {
+    name: 'Skye Warren',
+    bio: "Skye Warren is a New York Times and USA Today bestselling author of dark and contemporary romance. Known for her psychological depth and exploration of taboo themes within romance, she has published over 50 novels including the Endgame trilogy, The Trust Fund Duet, and Survival of the Richest. Her books consistently land on major bestseller lists.",
+    genre: 'romance',
+    knownFor: ['Endgame Series', 'Survival of the Richest', 'The Trust Fund Duet'],
+  },
+  {
+    name: 'Willow Winters',
+    bio: "Willow Winters is a USA Today bestselling author of contemporary and dark romance with over 60 novels published. Known for standalone novels and connected series featuring emotionally complex romances, her prolific output and dedicated readership have made her a staple of the self-publishing romance market. Her Merciless World and This Love Hurts series are among her most popular.",
+    genre: 'romance',
+    knownFor: ['Merciless World', 'This Love Hurts', 'Bad Boys series'],
+  },
+  {
+    name: 'Suzanne Enoch',
+    bio: "Suzanne Enoch is a New York Times bestselling author of historical and contemporary romance with over 40 novels to her name. Best known for her Regency romance series including Scandalous Brides, Lessons in Love, and The Adventurers Club, she brings witty heroines and roguish heroes to the Georgian and Regency eras with warmth and humor.",
+    genre: 'romance',
+    knownFor: ['Scandalous Brides', 'The Adventurers Club', 'Samantha Jellicoe series'],
+  },
+  {
+    name: 'Karen Hawkins',
+    bio: "Karen Hawkins is a New York Times and USA Today bestselling author of historical and contemporary romance. She is best known for her MacLean Curse series and the Hurst Amulet series set in Regency England, as well as her charming contemporary romance series set in Dove Pond, South Carolina — small-town romance featuring sisterhood and Southern warmth.",
+    genre: 'romance',
+    knownFor: ['MacLean Curse', 'Dove Pond series', 'Hurst Amulet'],
+  },
+  {
+    name: 'Charlie Jane Anders',
+    bio: "Charlie Jane Anders is a Hugo, Nebula, and Locus Award-winning author of science fiction and fantasy. Her debut novel All the Birds in the Sky won the Nebula Award for Best Novel. She is also known for The City in the Middle of the Night and the Unstoppable series. Anders co-founded io9, the influential science fiction blog, and is a prominent voice in speculative fiction.",
+    genre: 'sci-fi',
+    knownFor: ['All the Birds in the Sky', 'The City in the Middle of the Night', 'Victories Greater Than Death'],
+  },
+  {
+    name: 'Fran Wilde',
+    bio: "Fran Wilde is a Hugo and Nebula Award-winning author of science fiction and fantasy. Her debut novel Updraft won the Andre Norton Nebula Award and is the first book in the Bone Universe series. She is known for intricate world-building that defies genre conventions, weaving together fantasy, science fiction, and social commentary. Her novella The Jewel and Her Lapidary is also a fan favorite.",
+    genre: 'fantasy',
+    knownFor: ['Updraft', 'Cloudbound', 'The Jewel and Her Lapidary'],
+  },
+  {
+    name: 'Dani Collins',
+    bio: "Dani Collins is a USA Today bestselling author of category romance, publishing almost exclusively with Harlequin Presents. A prolific Canadian author with over 70 novels, she is known for sweeping international settings, deeply emotional plots, and the glamorous tension that defines the Presents line. She writes alpha billionaires and independent heroines navigating love against all odds.",
+    genre: 'romance',
+    knownFor: ['Harlequin Presents', 'Their Reunion Vow', 'A Hidden Heir to Redeem Him'],
+  },
 ];
 
 function normalize(s: string) {
