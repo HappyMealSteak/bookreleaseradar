@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like We Have Always Lived in the Castle Shirley Jackson',
+    'books like Educated Tara Westover',
+    'books like The Warmth of Other Suns Isabel Wilkerson',
+    'books like Evicted Matthew Desmond',
+    'books like The Bloody Chamber Angela Carter',
     'books like Her Body and Other Parties Carmen Maria Machado',
     'books like Just Mercy Bryan Stevenson',
     'books like The New Jim Crow Michelle Alexander',
@@ -2180,6 +2185,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked We Have Always Lived in the Castle by Shirley Jackson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like We Have Always Lived in the Castle include The Haunting of Hill House by Shirley Jackson, Her Body and Other Parties by Carmen Maria Machado, Mexican Gothic by Silvia Moreno-Garcia, Rebecca by Daphne du Maurier, The Secret History by Donna Tartt, and Piranesi by Susanna Clarke. Our full guide covers 8 picks for fans of Jackson's Gothic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Educated by Tara Westover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Educated include The Glass Castle by Jeannette Walls, Know My Name by Chanel Miller, The Liar's Club by Mary Karr, Angela's Ashes by Frank McCourt, Between the World and Me by Ta-Nehisi Coates, and Hillbilly Elegy by J.D. Vance. Our full guide covers 8 picks for fans of Westover's memoir about self-education and family." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Warmth of Other Suns by Isabel Wilkerson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Warmth of Other Suns include Caste by Isabel Wilkerson, The New Jim Crow by Michelle Alexander, Between the World and Me by Ta-Nehisi Coates, Beloved by Toni Morrison, Homegoing by Yaa Gyasi, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for fans of Wilkerson's Great Migration narrative." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Evicted by Matthew Desmond?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Evicted include The New Jim Crow by Michelle Alexander, Just Mercy by Bryan Stevenson, The Warmth of Other Suns by Isabel Wilkerson, Nickel and Dimed by Barbara Ehrenreich, Gang Leader for a Day by Sudhir Venkatesh, and The Color of Law by Richard Rothstein. Our full guide covers 8 picks for fans of Desmond's poverty and eviction ethnography." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bloody Chamber by Angela Carter?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bloody Chamber include Her Body and Other Parties by Carmen Maria Machado, We Have Always Lived in the Castle by Shirley Jackson, Beloved by Toni Morrison, The Handmaid's Tale by Margaret Atwood, Nights at the Circus by Angela Carter, and Circe by Madeline Miller. Our full guide covers 8 picks for fans of Carter's feminist fairy tale retellings." },
     },
     {
       '@type': 'Question',
