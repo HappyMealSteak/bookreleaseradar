@@ -1321,6 +1321,82 @@ export const SERIES: SeriesDefinition[] = [
       "Winner's Trilogy reading order",
     ],
   },
+  {
+    slug: 'enders-game',
+    name: "Ender's Game",
+    author: 'Orson Scott Card',
+    authorQuery: 'Orson Scott Card',
+    genre: 'sci-fi',
+    description:
+      "Orson Scott Card's Ender's Game is a classic science fiction novel about Andrew 'Ender' Wiggin, a child genius trained at Battle School to command humanity's fleet against an alien species called the Formics. The novel stands alone as a complete story and is one of the most widely read science fiction novels ever published. The series continues in two parallel tracks: the Ender track (Speaker for the Dead) and the Shadow track (Ender's Shadow).",
+    searchTerms: [
+      "Ender's Game reading order",
+      "Ender's Game series order",
+      "Ender's Shadow reading order",
+      'Orson Scott Card new book',
+    ],
+  },
+  {
+    slug: 'a-deadly-education',
+    name: 'The Scholomance',
+    shortName: 'Scholomance',
+    author: 'Naomi Novik',
+    authorQuery: 'Naomi Novik',
+    genre: 'fantasy',
+    description:
+      "Naomi Novik's The Scholomance trilogy is a complete three-book YA fantasy series about a magical school that kills students for survival rather than malice. The protagonist El has a prophesied ability to destroy everything, which everyone around her assumes means she is destined to become a dark mage — a problem she is extremely tired of.",
+    searchTerms: [
+      'Naomi Novik new book',
+      'A Deadly Education reading order',
+      'Scholomance reading order',
+      'Scholomance books in order',
+    ],
+  },
+  {
+    slug: 'american-gods',
+    name: 'American Gods',
+    author: 'Neil Gaiman',
+    authorQuery: 'Neil Gaiman',
+    genre: 'fantasy',
+    description:
+      "Neil Gaiman's American Gods is a standalone novel about Shadow Moon, who discovers that the old gods brought to America by immigrants are dying — and that a war between them and the new gods of technology and media is coming. The companion novel Anansi Boys is set in the same world but has no shared plot.",
+    searchTerms: [
+      'Neil Gaiman new book',
+      'American Gods reading order',
+      'Neil Gaiman books to read',
+    ],
+  },
+  {
+    slug: 'foundation',
+    name: 'Foundation',
+    author: 'Isaac Asimov',
+    authorQuery: 'Isaac Asimov',
+    genre: 'sci-fi',
+    description:
+      "Isaac Asimov's Foundation is a classic science fiction series about the fall of a galactic empire and mathematician Hari Seldon's plan to reduce the resulting dark age from 30,000 years to 1,000 years using psychohistory — a mathematical science that predicts the behavior of large populations. The original trilogy is complete in itself; Asimov later added prequels and sequels.",
+    searchTerms: [
+      'Foundation reading order',
+      'Foundation series order',
+      'Isaac Asimov new book',
+      'Foundation books in order',
+    ],
+  },
+  {
+    slug: 'hyperion',
+    name: 'Hyperion Cantos',
+    shortName: 'Hyperion',
+    author: 'Dan Simmons',
+    authorQuery: 'Dan Simmons',
+    genre: 'sci-fi',
+    description:
+      "Dan Simmons' Hyperion Cantos is a four-book science fiction series set in a future interstellar civilization on the eve of collapse. The first two books — Hyperion and The Fall of Hyperion — form a complete story structured as a Canterbury Tales-style pilgrimage in which seven characters tell their stories on the way to a dangerous world.",
+    searchTerms: [
+      'Dan Simmons new book',
+      'Hyperion reading order',
+      'Hyperion Cantos reading order',
+      'Hyperion books in order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

@@ -87,6 +87,11 @@ export const metadata: Metadata = {
     'books like Project Hail Mary Andy Weir',
     'books like Legendborn Tracy Deonn',
     "books like The Winner's Curse Marie Rutkoski",
+    "books like Ender's Game Orson Scott Card",
+    'books like A Deadly Education Naomi Novik',
+    'books like American Gods Neil Gaiman',
+    'books like Foundation Isaac Asimov',
+    'books like Hyperion Dan Simmons',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -389,6 +394,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: "What should I read if I liked The Winner's Curse?",
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Winner's Curse include The Cruel Prince by Holly Black, An Ember in the Ashes by Sabaa Tahir, Six of Crows by Leigh Bardugo, Strange the Dreamer by Laini Taylor, and Shadow and Bone by Leigh Bardugo. Our full Winner's Trilogy guide covers 8 picks for fans of enemies-to-lovers YA fantasy with real political stakes." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Ender's Game?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ender's Game include Ender's Shadow by Orson Scott Card (the parallel novel from Bean's POV), Speaker for the Dead, The Hunger Games, The Maze Runner, Red Rising by Pierce Brown, and Project Hail Mary by Andy Weir. Our full Ender's Game guide covers 8 picks for fans of tactical genius protagonists and first-contact science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Deadly Education by Naomi Novik?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Deadly Education include Carry On by Rainbow Rowell, Uprooted by Naomi Novik, Six of Crows by Leigh Bardugo, Legendborn by Tracy Deonn, The Folk of the Air by Holly Black, and The Atlas Six by Olivie Blake. Our full Scholomance guide covers 8 picks for fans of dark magical school fantasy with a sardonic heroine." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked American Gods by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like American Gods include Stardust (also by Gaiman), Neverwhere (also by Gaiman), Anansi Boys (companion novel), Jonathan Strange & Mr Norrell by Susanna Clarke, The Night Circus by Erin Morgenstern, and The Ocean at the End of the Lane by Neil Gaiman. Our full American Gods guide covers 8 picks for fans of modern mythology and literary dark fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Foundation by Isaac Asimov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Foundation include Dune by Frank Herbert, Hyperion by Dan Simmons, A Memory Called Empire by Arkady Martine, The Expanse by James S.A. Corey, Red Rising by Pierce Brown, and Revelation Space by Alastair Reynolds. Our full Foundation guide covers 8 picks for fans of galactic-scale science fiction and civilizational history." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hyperion by Dan Simmons?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hyperion include The Fall of Hyperion (the direct second half), Foundation by Isaac Asimov, Dune by Frank Herbert, A Memory Called Empire by Arkady Martine, The Expanse, and The Name of the Wind by Patrick Rothfuss. Our full Hyperion Cantos guide covers 8 picks for fans of literary epic science fiction." },
     },
   ],
 };

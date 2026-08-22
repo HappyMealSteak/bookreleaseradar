@@ -1581,6 +1581,88 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: "Is The Winner's Curse similar to The Cruel Prince or An Ember in the Ashes?", a: "Yes — The Winner's Curse shares core DNA with both. Like The Cruel Prince, it features a morally complicated power dynamic and a protagonist who weaponizes intelligence against everyone around her. Like An Ember in the Ashes, it features two protagonists from opposite sides of a colonial system falling in love in ways that complicate both of their political positions." },
     ],
   },
+  {
+    slug: 'enders-game',
+    intro: "Orson Scott Card's Ender's Game is the first book in the Ender's Game series — though the novel functions as a complete standalone and can be read without the sequels. The series follows Andrew 'Ender' Wiggin, a child genius recruited to Battle School to be trained as humanity's military commander against an alien species called the Formics. The series splits into two parallel tracks after the first book: the Ender track (Speaker for the Dead, Xenocide, Children of the Mind) and the Shadow track (Ender's Shadow and sequels), which follows Bean and the Battle School characters on Earth.",
+    startWith: "Ender's Game",
+    books: [
+      { title: "Ender's Game", author: 'Orson Scott Card', year: 1985, note: "Book 1 — Andrew Wiggin is trained at Battle School to command humanity's fleet against the Formics; functions as a complete standalone" },
+      { title: "Ender's Shadow", author: 'Orson Scott Card', year: 1999, note: "Parallel novel — the same events as Ender's Game from Bean's perspective; standalone entry point to the Shadow series", isOptional: true },
+      { title: 'Speaker for the Dead', author: 'Orson Scott Card', year: 1986, note: "Ender's Game sequel — 3,000 years later; Ender is now the Speaker for the Dead on a planet with a new alien species; very different in tone", isOptional: true },
+    ],
+    faq: [
+      { q: "What is the Ender's Game reading order?", a: "Most readers recommend starting with Ender's Game (1985), which stands alone as a complete novel. The series splits into two parallel tracks: the Ender track continues with Speaker for the Dead (1986), Xenocide (1991), and Children of the Mind (1996); the Shadow track begins with Ender's Shadow (1999), retelling Ender's Game from Bean's perspective. You can read either track after the first book without reading the other." },
+      { q: "How many Ender's Game books are there?", a: "The Ender universe has two main series: the Ender track (4 books) and the Shadow track (5 books), plus several companion anthologies and short fiction collections. The most commonly read are Ender's Game, Ender's Shadow, and Speaker for the Dead." },
+      { q: "Is Ender's Game appropriate for all ages?", a: "Ender's Game is frequently assigned in middle school and high school curricula. The novel deals with psychological manipulation of children, violence in a training context, and the moral weight of military command — themes that are handled in ways appropriate for readers 10 and up, though the implications deepen as readers get older." },
+      { q: "Is Ender's Game still worth reading in 2024?", a: "Yes — Ender's Game remains one of the most widely read science fiction novels for good reason. The tactical puzzle-solving, the psychological dynamics of Battle School, and the moral weight of the ending are as effective as they were in 1985. Many readers discover it as teenagers and reread it as adults with a completely different response to the twist." },
+    ],
+  },
+  {
+    slug: 'a-deadly-education',
+    intro: "Naomi Novik's The Scholomance trilogy is a complete three-book YA fantasy series about a school for magical students that is specifically designed to kill them — because the alternative is being killed by the monsters attracted by magical children outside the school. The protagonist, El (Galadriel), has a prophesied ability to kill everything, which everyone around her assumes means she will become a dark mage. The series must be read in order.",
+    startWith: 'A Deadly Education',
+    books: [
+      { title: 'A Deadly Education', author: 'Naomi Novik', year: 2020, note: "Book 1 — El navigates the Scholomance, a school that kills students for survival rather than sport, while an annoyingly helpful classmate named Orion Lake keeps saving her" },
+      { title: 'The Last Graduate', author: 'Naomi Novik', year: 2021, note: "Book 2 — senior year at the Scholomance; the graduation gauntlet looms" },
+      { title: 'The Golden Enclaves', author: 'Naomi Novik', year: 2022, note: "Book 3 — the trilogy conclusion; El and Orion face what comes after survival" },
+    ],
+    faq: [
+      { q: 'What is the Scholomance reading order?', a: "Read A Deadly Education (2020), then The Last Graduate (2021), then The Golden Enclaves (2022). All three must be read in order. The trilogy is complete." },
+      { q: 'How many Scholomance books are there?', a: "The Scholomance trilogy by Naomi Novik consists of three books: A Deadly Education (2020), The Last Graduate (2021), and The Golden Enclaves (2022). The trilogy is complete." },
+      { q: 'Is The Scholomance similar to Harry Potter?', a: "The Scholomance is partly a direct critique of the magical-school fantasy — the school has no teachers, no staff, no sports, and no extracurriculars. Its purpose is not education but survival. El's mordant narration, which is consistently aware of the genre conventions she is inside, treats the magical-school premise with the same satirical affection that Holly Black's Folk of the Air treats the fantasy-court premise." },
+      { q: 'Is A Deadly Education appropriate for all ages?', a: "A Deadly Education is YA with a darker edge than most — students die regularly, and El's internal monologue is caustic, intelligent, and often very funny about terrible things. The romantic subplot is slow-burn and not explicit. Recommended for readers 14 and up." },
+    ],
+  },
+  {
+    slug: 'american-gods',
+    intro: "Neil Gaiman's American Gods (2001) is a standalone novel — there is no sequel, though Gaiman has written companion short fiction including 'The Monarch of the Glen' and 'Black Dog'. The novel follows Shadow Moon, released from prison three days before his wife's death in a car accident, who is immediately recruited by a man calling himself Mr. Wednesday to work as his bodyguard. Mr. Wednesday is traveling across America to gather the old gods — brought to America by the immigrants who believed in them — for a war against the new gods of technology, media, and celebrity.",
+    startWith: 'American Gods',
+    books: [
+      { title: 'American Gods', author: 'Neil Gaiman', year: 2001, note: "Standalone — Shadow Moon is recruited by Mr. Wednesday, an old god, to travel America gathering allies for a war against the new gods of technology and media" },
+      { title: 'Anansi Boys', author: 'Neil Gaiman', year: 2005, note: "Companion standalone — Fat Charlie Nancy discovers his late father was the African trickster god Anansi; set in the same world but no shared plot", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is American Gods a standalone novel?', a: "Yes — American Gods is a complete standalone novel. Anansi Boys (2005) is set in the same world and features the character Mr. Nancy from American Gods, but the two books have no shared plot and Anansi Boys can be read first, last, or not at all." },
+      { q: 'Is American Gods related to Neil Gaiman\'s other books?', a: "American Gods is set in its own world — not connected to Stardust, Neverwhere, Coraline, Good Omens, or any of Gaiman's other novels. The tone is darker and more grounded in American mythology than Stardust, closer to Neverwhere in its sense of a hidden world behind ordinary life." },
+      { q: 'What is American Gods about?', a: "American Gods is a road trip through America as a religious landscape — a novel about what happens to gods when the people who believed in them emigrate to a new country. The old gods brought from Africa, Europe, and Asia are diminished and forgotten, surviving by working ordinary jobs; the new gods of television, the internet, and celebrity are young and arrogant. The war between them is about who owns American belief." },
+      { q: 'Is the American Gods TV show based on the book?', a: "Yes — the American Gods TV series (Starz, 2017–2021) was based directly on the novel and adapted by Bryan Fuller and Michael Green. The show ran for three seasons and covered roughly the events of the novel. Gaiman was an executive producer. The show is considered a largely faithful adaptation with some significant expansions of supporting characters." },
+    ],
+  },
+  {
+    slug: 'foundation',
+    intro: "Isaac Asimov's Foundation is a classic science fiction series about the fall of a galactic empire and one man's plan to reduce the dark age that follows from 30,000 years to 1,000 years. The original trilogy — Foundation, Foundation and Empire, and Second Foundation — was written in the 1950s and is complete in itself. Asimov later added prequels (Prelude to Foundation, Forward the Foundation) and sequels (Foundation's Edge, Foundation and Earth) that expand the universe. Most readers start with the original trilogy.",
+    startWith: 'Foundation',
+    books: [
+      { title: 'Foundation', author: 'Isaac Asimov', year: 1951, note: "Book 1 — Hari Seldon's psychohistory predicts the fall of the Galactic Empire; he establishes a Foundation at the edge of the galaxy to preserve knowledge" },
+      { title: 'Foundation and Empire', author: 'Isaac Asimov', year: 1952, note: "Book 2 — the Foundation faces its greatest crisis: the Mule, a mutant whose abilities psychohistory could not predict" },
+      { title: 'Second Foundation', author: 'Isaac Asimov', year: 1953, note: "Book 3 — the original trilogy concludes; the search for the Second Foundation" },
+      { title: "Foundation's Edge", author: 'Isaac Asimov', year: 1982, note: "Book 4 — Asimov's sequel, written 30 years later; set 500 years after the trilogy", isOptional: true },
+      { title: 'Prelude to Foundation', author: 'Isaac Asimov', year: 1988, note: "Prequel — Hari Seldon's early life and the development of psychohistory; written for new readers", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Foundation reading order?', a: "Most readers recommend starting with Foundation (1951) and reading the original trilogy in order (Foundation, Foundation and Empire, Second Foundation). Asimov later added two prequels (Prelude to Foundation, Forward the Foundation) and two sequels (Foundation's Edge, Foundation and Earth). The prequels are a good entry point for new readers; the sequels extend the universe but are less essential." },
+      { q: 'How many Foundation books are there?', a: "Asimov wrote seven Foundation novels in total: the original trilogy (3 books), two prequels (Prelude to Foundation, Forward the Foundation), and two sequels (Foundation's Edge, Foundation and Earth). There are also Foundation stories and companion novels by other authors." },
+      { q: "Is Foundation still worth reading in 2024?", a: "Foundation remains one of the most influential science fiction series ever written, and the central concept — psychohistory, a mathematical science that predicts the behavior of large populations — is as intellectually interesting now as it was in 1951. The prose is more functional than literary, but the ideas are the point. The Apple TV+ adaptation (2021–) has introduced many new readers to the series." },
+      { q: "What is psychohistory in Foundation?", a: "Psychohistory is the fictional science at the center of Foundation — a branch of mathematics that uses statistics to predict the behavior of large populations over long periods of time. Like statistical mechanics, it works at scale: it can predict what civilizations will do but cannot predict what individuals will do. The plan Hari Seldon builds around psychohistory is the engine of the entire series." },
+    ],
+  },
+  {
+    slug: 'hyperion',
+    intro: "Dan Simmons' Hyperion Cantos is a four-book science fiction series, though the first two books (Hyperion and The Fall of Hyperion) form a complete story and are most commonly read as a pair. The series is set in a future interstellar civilization on the eve of its collapse, centering on the planet Hyperion, where an entity called the Shrike — worshipped by one cult, feared by all — has been killing pilgrims for centuries. The first novel is structured as a Canterbury Tales-style pilgrimage in which seven characters tell the stories of why they came to Hyperion.",
+    startWith: 'Hyperion',
+    books: [
+      { title: 'Hyperion', author: 'Dan Simmons', year: 1989, note: "Book 1 — seven pilgrims on a final journey to Hyperion tell their stories in the mode of The Canterbury Tales; ends on a cliffhanger" },
+      { title: 'The Fall of Hyperion', author: 'Dan Simmons', year: 1990, note: "Book 2 — the conclusion of the first story arc; read immediately after Hyperion" },
+      { title: 'Endymion', author: 'Dan Simmons', year: 1996, note: "Book 3 — set 274 years after the first duet; a new story arc with new protagonists in a transformed civilization", isOptional: true },
+      { title: 'The Rise of Endymion', author: 'Dan Simmons', year: 1997, note: "Book 4 — the Endymion arc concludes", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Hyperion Cantos reading order?', a: "Read Hyperion (1989), then The Fall of Hyperion (1990) immediately after — they form one complete story published in two volumes. Endymion (1996) and The Rise of Endymion (1997) form a separate but connected story set centuries later and can be read as a standalone duet after the first pair." },
+      { q: 'How many Hyperion books are there?', a: "The Hyperion Cantos consists of four novels: Hyperion (1989), The Fall of Hyperion (1990), Endymion (1996), and The Rise of Endymion (1997). The series is complete." },
+      { q: 'Why is Hyperion structured like The Canterbury Tales?', a: "The first novel is structured as a pilgrimage to a dangerous site, in which each pilgrim tells their story — drawing directly on Chaucer's Canterbury Tales. Each of the seven tales is told in a completely different literary mode: one is a detective story, one is a military thriller, one is a scholar's tragedy, one is a priest's crisis of faith. The structure lets Simmons write seven different kinds of science fiction novel inside one book." },
+      { q: 'Is Hyperion worth reading even if I am not usually a sci-fi reader?', a: "Hyperion is frequently recommended to literary fiction readers who don't usually read science fiction, because the Canterbury Tales structure foregrounds voice and story-within-story rather than world-building exposition. The tale of the Consul, the Sol Weintraub story, and the detective tale in particular read as distinct literary fiction genres that happen to take place in space." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
