@@ -1602,6 +1602,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Brick Lane', 'In the Kitchen', 'Love Marriage'],
   },
+  {
+    name: 'Sam Selvon',
+    bio: "Sam Selvon — Samuel Dickson Selvon (1923–1994) — was a Trinidadian novelist and short story writer whose novel The Lonely Londoners (1956) is one of the founding texts of Black British literature, a pioneering work of immigrant fiction that invented a prose style — a modified Standard English inflected with Trinidadian dialect — that subsequent generations of Caribbean-British writers have learned from. Born in San Fernando, Trinidad, to a father of Indian descent and a mother of Indian and Scottish descent, he worked as a wireless operator in the Trinidad Royal Naval Volunteer Reserve during the Second World War and subsequently as a journalist for the Trinidad Guardian. He arrived in England in 1950, the same year as his contemporary George Lamming, and worked for the Indian High Commission in London while writing fiction. A Brighter Sun (1952), his debut novel, was set in Trinidad; The Lonely Londoners (1956) was the first major novel to center the experience of Caribbean immigrants in London, written in a narrative voice that was neither Standard English nor pure Creole but something of Selvon's own invention. The Lonely Londoners generated two sequels — Moses Ascending (1975) and Moses Migrating (1983) — which showed the Windrush generation twenty and thirty years on. Selvon emigrated to Canada in 1978, eventually settling in Calgary, where he died of a heart attack in 1994. He was awarded the Hummingbird Medal by the government of Trinidad and Tobago in 1969.",
+    genre: 'fiction',
+    knownFor: ['The Lonely Londoners', 'Moses Ascending', 'A Brighter Sun'],
+  },
+  {
+    name: 'Peter Carey',
+    bio: "Peter Carey (born 1943) is an Australian novelist who has won the Booker Prize twice — for Oscar and Lucinda (1988) and True History of the Kelly Gang (2001) — and who is widely regarded as one of the greatest novelists writing in English. Born in Bacchus Marsh, Victoria, the son of car dealers, he was educated at Geelong Grammar School and briefly at Monash University before leaving to work in advertising in Melbourne, a career he continued for many years while publishing short stories. His first collection of stories, The Fat Man in History (1974), established him as a distinctive voice in Australian fiction; his debut novel Bliss (1981) was made into a successful film. Illywhacker (1985), his second novel — a 600-page comic epic narrated by a self-proclaimed liar across 139 years of Australian history — was shortlisted for the Booker Prize and established his international reputation. Oscar and Lucinda (1988), which won the Booker Prize, is a novel about gambling, faith, and the transport of a glass church through the Australian Outback in the 1860s; it has been widely translated and adapted for film (1997, directed by Gillian Armstrong). After moving to New York in 1990, Carey continued to write about Australia from a distance; True History of the Kelly Gang (2001), a fictional autobiography of the bushranger Ned Kelly, won the Booker Prize and the Commonwealth Writers' Prize. His subsequent novels include My Life as a Fake (2003), Theft (2006), His Illegal Self (2008), Parrot and Olivier in America (2010), The Chemistry of Tears (2012), Amnesia (2014), and A Long Way from Home (2017). He has been a longstanding resident of New York, where he has taught at Hunter College.",
+    genre: 'fiction',
+    knownFor: ['Oscar and Lucinda', 'True History of the Kelly Gang', 'Illywhacker', 'Bliss'],
+  },
 ];
 
 function normalize(s: string) {

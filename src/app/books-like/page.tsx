@@ -353,6 +353,11 @@ export const metadata: Metadata = {
     'books like The Rings of Saturn W.G. Sebald',
     'books like The Prime of Miss Jean Brodie Muriel Spark',
     'books like Brick Lane Monica Ali',
+    'books like The Lonely Londoners Sam Selvon',
+    'books like The Long Song Andrea Levy',
+    'books like Oscar and Lucinda Peter Carey',
+    'books like A Handful of Dust Evelyn Waugh',
+    'books like The Emigrants W.G. Sebald',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1990,6 +1995,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Brick Lane by Monica Ali?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Brick Lane include Small Island by Andrea Levy, White Teeth by Zadie Smith, The Kite Runner by Khaled Hosseini, The God of Small Things by Arundhati Roy, Arranged Marriage by Chitra Banerjee Divakaruni, The Reluctant Fundamentalist by Mohsin Hamid, Oranges Are Not the Only Fruit by Jeanette Winterson, and The Color Purple by Alice Walker. Our full guide covers 8 picks for fans of Ali's debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lonely Londoners by Sam Selvon?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lonely Londoners include Small Island by Andrea Levy, Moses Ascending by Sam Selvon, The Enigma of Arrival by V.S. Naipaul, In the Castle of My Skin by George Lamming, White Teeth by Zadie Smith, Brick Lane by Monica Ali, The Buddha of Suburbia by Hanif Kureishi, and Feeding the Ghosts by Fred D'Aguiar. Our full guide covers 8 picks for fans of Selvon's West Indian London novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Long Song by Andrea Levy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Long Song include Small Island by Andrea Levy, Beloved by Toni Morrison, The History of Mary Prince by Mary Prince, Washington Black by Esi Edugyan, Kindred by Octavia Butler, The Luminaries by Eleanor Catton, and Fruit of the Lemon by Andrea Levy. Our full guide covers 8 picks for fans of Levy's Jamaican slavery novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Oscar and Lucinda by Peter Carey?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Oscar and Lucinda include True History of the Kelly Gang by Peter Carey, Illywhacker by Peter Carey, The Riders by Tim Winton, Possession by A.S. Byatt, The Shipping News by Annie Proulx, The Master and Margarita by Mikhail Bulgakov, Cloudstreet by Tim Winton, and The English Patient by Michael Ondaatje. Our full guide covers 8 picks for fans of Carey's Booker Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Handful of Dust by Evelyn Waugh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Handful of Dust include Brideshead Revisited by Evelyn Waugh, Decline and Fall by Evelyn Waugh, The Prime of Miss Jean Brodie by Muriel Spark, Scoop by Evelyn Waugh, The Remains of the Day by Kazuo Ishiguro, Good Behaviour by Molly Keane, The Pursuit of Love by Nancy Mitford, and Cold Comfort Farm by Stella Gibbons. Our full guide covers 8 picks for fans of Waugh's satirical classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Emigrants by W.G. Sebald?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Emigrants include Austerlitz by W.G. Sebald, The Rings of Saturn by W.G. Sebald, Maus by Art Spiegelman, If This Is a Man by Primo Levi, The Unconsoled by Kazuo Ishiguro, Open City by Teju Cole, The Periodic Table by Primo Levi, and Everything Is Illuminated by Jonathan Safran Foer. Our full guide covers 8 picks for fans of Sebald's four emigrant narratives." },
     },
   ],
 };
