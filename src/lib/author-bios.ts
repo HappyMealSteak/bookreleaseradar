@@ -936,6 +936,12 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'sci-fi',
     knownFor: ['Fahrenheit 451', 'The Martian Chronicles', 'The Illustrated Man'],
   },
+  {
+    name: 'Yevgeny Zamyatin',
+    bio: "Yevgeny Zamyatin (1884–1937) was a Russian novelist, playwright, and literary critic born in Lebedyan, Russia. He trained as a naval architect and worked as a ship designer throughout his literary career. His major work is We (1920–21), a dystopian novel set in the One State — a future society of glass apartments, regulated schedules, and collective identity — which he wrote following the Russian Revolution and which was the first novel to be banned by the Soviet censorship bureau, the Glavlit, in 1921. We was first published in English translation in 1924 (translated by Gregory Zilboorg) and in Czech in 1927; it was not published in the Soviet Union until 1988. Zamyatin left the Soviet Union in 1931 after a personal appeal to Stalin, citing his inability to write under Soviet censorship. He died in Paris in 1937 in obscurity. We directly influenced Aldous Huxley's Brave New World (1932) — Huxley always denied having read it, a claim scholars have debated given the structural parallels — and George Orwell's 1984 (1949), which Orwell confirmed in a 1946 review of We, calling it superior to Brave New World. Through Huxley and Orwell, Zamyatin's structural innovations — the surveillance state, the numbered citizen, the rebellion that fails — established the template for virtually all twentieth-century dystopian fiction that followed.",
+    genre: 'sci-fi',
+    knownFor: ['We'],
+  },
 ];
 
 function normalize(s: string) {
