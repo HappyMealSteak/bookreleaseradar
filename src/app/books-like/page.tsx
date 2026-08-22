@@ -378,6 +378,11 @@ export const metadata: Metadata = {
     'books like The Night Watchman Louise Erdrich',
     'books like LaRose Louise Erdrich',
     'books like The Argonauts Maggie Nelson',
+    'books like The Emperor of All Maladies Siddhartha Mukherjee',
+    'books like Being Mortal Atul Gawande',
+    'books like The Immortal Life of Henrietta Lacks Rebecca Skloot',
+    'books like Born a Crime Trevor Noah',
+    'books like The Glass Castle Jeannette Walls',
     'books like Shoe Dog Phil Knight',
     'books like Creativity Inc Ed Catmull',
     'books like When Breath Becomes Air Paul Kalanithi',
@@ -2245,6 +2250,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Emperor of All Maladies by Siddhartha Mukherjee?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Emperor of All Maladies include The Gene by Mukherjee, The Immortal Life of Henrietta Lacks by Rebecca Skloot, Being Mortal by Atul Gawande, The Code Breaker by Walter Isaacson, When Breath Becomes Air by Paul Kalanithi, and Genome by Matt Ridley. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Being Mortal by Atul Gawande?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Being Mortal include When Breath Becomes Air by Paul Kalanithi, The Year of Magical Thinking by Joan Didion, The Emperor of All Maladies by Siddhartha Mukherjee, Mortality by Christopher Hitchens, The Checklist Manifesto by Atul Gawande, and How We Die by Sherwin Nuland. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Immortal Life of Henrietta Lacks by Rebecca Skloot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Immortal Life of Henrietta Lacks include The Emperor of All Maladies by Siddhartha Mukherjee, Medical Apartheid by Harriet Washington, Being Mortal by Atul Gawande, Bad Blood by John Carreyrou, The Warmth of Other Suns by Isabel Wilkerson, and The Code Breaker by Walter Isaacson. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Born a Crime by Trevor Noah?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Born a Crime include Long Walk to Freedom by Nelson Mandela, Educated by Tara Westover, Between the World and Me by Ta-Nehisi Coates, The Glass Castle by Jeannette Walls, Yes Please by Amy Poehler, Kaffir Boy by Mark Mathabane, and I Am Malala by Malala Yousafzai. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Glass Castle by Jeannette Walls?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Glass Castle include Educated by Tara Westover, Born a Crime by Trevor Noah, Hillbilly Elegy by J.D. Vance, The Liars' Club by Mary Karr, Angela's Ashes by Frank McCourt, Half Broke Horses by Jeannette Walls, and The Brief Wondrous Life of Oscar Wao by Junot Díaz. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',

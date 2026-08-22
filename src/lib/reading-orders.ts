@@ -5992,6 +5992,71 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-emperor-of-all-maladies',
+    intro: "Siddhartha Mukherjee's The Emperor of All Maladies: A Biography of Cancer (2010) is a sweeping narrative history of cancer — from its earliest recorded appearances in ancient Egypt to the targeted therapies and immunotherapies of the 21st century — told through the stories of the scientists, physicians, patients, and advocates who transformed the understanding and treatment of the disease. It won the Pulitzer Prize for General Non-Fiction in 2011.",
+    startWith: 'The Emperor of All Maladies',
+    books: [
+      { title: 'The Emperor of All Maladies', author: 'Siddhartha Mukherjee', year: 2010, note: 'The complete biography of cancer. Pulitzer Prize winner. Start here.' },
+      { title: 'The Gene', author: 'Siddhartha Mukherjee', year: 2016, note: "Mukherjee's companion biography of the gene — from Mendel's peas to CRISPR — which provides the molecular biology framework underlying modern cancer genetics. Read second." },
+      { title: 'The Laws of Medicine', author: 'Siddhartha Mukherjee', year: 2015, note: "Mukherjee's short meditation on the principles that govern medical knowledge — uncertainty, imperfect information, and the limits of clinical evidence. Read as a companion.", isOptional: true },
+    ],
+    faq: [
+      { q: "Why does Mukherjee call cancer 'the emperor of all maladies'?", a: "The phrase comes from an 1850s characterization of tuberculosis as 'the king of diseases' — and Mukherjee appropriates the language to argue that cancer holds a comparably dominant and defining position in the medical imagination of our time. Cancer is the disease that has consumed the most scientific effort, the most funding, the most public fear, and the most political attention of the late 20th and early 21st centuries; it is the disease that gave us oncology as a discipline, clinical trials as a methodology, and the chemotherapy ward as a medical institution. Mukherjee uses the phrase to capture both cancer's seeming invulnerability and its centrality to the modern medical and cultural experience." },
+      { q: "What is the most important insight about cancer biology that the book conveys?", a: "Mukherjee's most important insight is that cancer is not a foreign invader but a distorted version of ourselves — it is made of our own cells, driven by mutations in our own genes, using the same growth and survival mechanisms that normal cells use but freed from the regulatory constraints that normally keep those mechanisms in check. This insight — that cancer hijacks the normal biology of cell growth — is what makes it so difficult to treat: anything that kills cancer cells tends to kill normal cells too, and cancer cells are constantly evolving resistance to the very therapies designed to eliminate them. The therapeutic revolution of the late 20th century — targeted therapy — is built on the premise that the specific molecular mutations driving a particular cancer can be identified and targeted with drugs that spare normal cells." },
+    ],
+  },
+  {
+    slug: 'being-mortal',
+    intro: "Atul Gawande's Being Mortal: Medicine and What Matters in the End (2014) examines how modern medicine has changed the experience of aging and dying — arguing that the medical system's reflexive drive to extend life has often robbed patients of the ability to live and die on their own terms — and what a medicine genuinely focused on the quality of life at its end would look like.",
+    startWith: 'Being Mortal',
+    books: [
+      { title: 'Being Mortal', author: 'Atul Gawande', year: 2014, note: 'The complete standalone book. Start here.' },
+      { title: 'Complications', author: 'Atul Gawande', year: 2002, note: "Gawande's debut — a young surgeon's account of the uncertainties and failures that are inherent to medicine — which established his voice and his subject. Read after Being Mortal for the full Gawande arc." },
+      { title: 'Better', author: 'Atul Gawande', year: 2007, note: "Gawande's investigation of performance in medicine — how doctors and hospitals get better, what performance means in a field where failure means death. Read third." },
+    ],
+    faq: [
+      { q: "What is Gawande's main argument about modern medicine and death?", a: "Gawande argues that modern medicine has achieved extraordinary things — eliminating many diseases, extending life significantly, developing treatments that would have seemed miraculous a generation ago — but has failed catastrophically at one of the most universal human experiences: aging and dying well. The medical system treats dying as a problem to be solved rather than an experience to be managed, defaulting to aggressive interventions (surgery, chemotherapy, ICU admission) that offer small chances of extending life at the cost of the quality of the remaining time. Gawande argues that patients and families almost never have frank conversations with doctors about what matters to them — what they fear, what they hope for, what makes life worth living — and that doctors are rarely trained to have those conversations." },
+      { q: "What alternatives to hospital death does Gawande discuss?", a: "Gawande discusses hospice care extensively — arguing that the hospice movement, which focuses on comfort and quality of life rather than life extension, produces better outcomes for patients and families on almost every measure, including sometimes longer lives, than aggressive curative treatment in the final months. He also examines the assisted living movement and the nursing home alternatives that attempt to preserve residents' autonomy and sense of home rather than subordinating everything to safety and medical management. His argument is not that medicine should give up on patients but that it should ask different questions — not 'what can we do to extend life?' but 'what does this person value, what are they afraid of, and what tradeoffs are they willing to make?'" },
+    ],
+  },
+  {
+    slug: 'the-immortal-life-of-henrietta-lacks',
+    intro: "Rebecca Skloot's The Immortal Life of Henrietta Lacks (2010) is the story of Henrietta Lacks, a Black woman who died of cervical cancer in 1951 at the age of thirty-one, and of the HeLa cells taken from her tumor without her knowledge or consent — cells that became one of the most important tools in medical research, contributing to the development of the polio vaccine, cancer research, and countless other breakthroughs, while her family remained in poverty and ignorance of her contribution.",
+    startWith: 'The Immortal Life of Henrietta Lacks',
+    books: [
+      { title: 'The Immortal Life of Henrietta Lacks', author: 'Rebecca Skloot', year: 2010, note: 'The complete standalone book. Start here.' },
+    ],
+    faq: [
+      { q: "What are HeLa cells and why are they important?", a: "HeLa cells are the first human cell line successfully grown in a laboratory culture — cells taken from Henrietta Lacks's cervical cancer tumor in 1951 by Johns Hopkins researcher George Gey, which turned out to be uniquely capable of surviving and reproducing outside the human body indefinitely. Before HeLa cells, researchers could not maintain human cells alive in culture long enough to study them; the availability of an unlimited supply of living human cells transformed biological research. HeLa cells were used to develop the polio vaccine (Jonas Salk used them to test his vaccine in 1952), have been used in cancer research, genetics, toxicology testing, the development of the COVID-19 vaccine, and thousands of other applications. Billions of HeLa cells exist today in laboratories around the world." },
+      { q: "What are the ethical issues raised by The Immortal Life?", a: "Skloot's book raises multiple intersecting ethical issues: the lack of informed consent (Henrietta Lacks was not told her cells were being taken or that they would be used in research); the racial dimensions of that failure (as a Black woman in a segregated hospital in 1951, she had even less power to question medical authority than a white patient would have); the commercialization of her cells (the HeLa cell line became worth billions of dollars to the biotech industry, while her family couldn't afford health insurance); and the broader questions about who owns cells and tissues taken from a patient's body, which were not resolved by American law until decades later and remain contested. The book contributed to ongoing conversations about biobank consent and genomic privacy." },
+    ],
+  },
+  {
+    slug: 'born-a-crime',
+    intro: "Trevor Noah's Born a Crime: Stories from a South African Childhood (2016) is the memoir of the South African comedian and Daily Show host's childhood — growing up mixed-race in apartheid and post-apartheid South Africa, the son of a Black South African mother and a white Swiss-German father at a time when their relationship was literally a criminal offense, with humor, insight, and deep affection for his remarkable mother Patricia.",
+    startWith: 'Born a Crime',
+    books: [
+      { title: 'Born a Crime', author: 'Trevor Noah', year: 2016, note: 'The complete standalone memoir. Start here.' },
+    ],
+    faq: [
+      { q: "What does 'born a crime' mean in the context of the book?", a: "Trevor Noah was 'born a crime' in the literal sense that his very existence was a criminal offense under apartheid law. The Immorality Act of 1927 (amended 1950) made sexual relations between whites and non-whites illegal in South Africa; his mother Patricia Nombuyiselo Noah, a Black South African Xhosa woman, and his father Robert, a white Swiss-German man, committed a crime by having a child together. Trevor himself, as the physical evidence of an illegal relationship, existed in a legal gray area — he was mixed-race (Coloured in apartheid terminology) in a system that had no comfortable place for him, which meant he was too white for the Black townships and too Black for white spaces." },
+      { q: "How does Noah describe apartheid's effect on identity and language?", a: "One of the book's most striking observations is how Noah used language to navigate apartheid's racial categories: by speaking different languages fluently — Zulu, Xhosa, Afrikaans, Tsonga, Pedi, and English — he could present himself differently to different racial groups and pass through barriers that would have been insurmountable if he had a fixed visible identity. In a society organized entirely around racial classification, language was a form of camouflage. He also describes how apartheid created deep divisions within Black South African communities — between different ethnic groups (Zulu, Xhosa, Sotho), between those who spoke Afrikaans and those who didn't, between those who collaborated with the system and those who resisted it — divisions that outlasted apartheid itself." },
+    ],
+  },
+  {
+    slug: 'the-glass-castle',
+    intro: "Jeannette Walls's The Glass Castle: A Memoir (2005) is the account of her nomadic, impoverished, profoundly unconventional childhood at the hands of her charismatic but deeply irresponsible parents — her alcoholic father Rex, who moved the family constantly to escape creditors and pursue failed mining schemes, and her bohemian artist mother Rose Mary, who prioritized her creative freedom over her children's basic needs — told with remarkable lack of bitterness or sentimentality.",
+    startWith: 'The Glass Castle',
+    books: [
+      { title: 'The Glass Castle', author: 'Jeannette Walls', year: 2005, note: 'The complete standalone memoir. Start here.' },
+      { title: 'Half Broke Horses', author: 'Jeannette Walls', year: 2009, note: "Walls's 'true life novel' about her maternal grandmother Lily Casey Smith — the woman who raised her mother Rose Mary — told in the first person. Read second for the family backstory." },
+    ],
+    faq: [
+      { q: "What is the 'glass castle' of the title?", a: "The glass castle is the house Rex Walls promised to build for his family — an elaborate structure of glass, solar-powered and self-sustaining, that he had drawn detailed blueprints for — which became the symbol of both his grandiose vision and his fundamental unreliability. He promised it for years, began digging the foundation in Welch, West Virginia, and then used the excavated hole as a trash pit when money ran out. For Jeannette, the glass castle represents the essence of her relationship with her father: his extraordinary imagination and the dreams he inspired in her, and his complete inability to transform those dreams into reality or to prioritize his children's welfare over his own fantasies and addictions." },
+      { q: "How does Walls avoid bitterness in writing about her parents?", a: "Walls has said in interviews that she genuinely loves her parents and sees them as complex human beings rather than villains, which shapes the memoir's tone throughout. She presents both of them with their virtues intact: Rex is brilliant, funny, genuinely gifted at making children feel loved and at sparking their curiosity, and she clearly adored him as a child and continues to feel complicated love for him as an adult. Rose Mary is free-spirited, principled in her own way, and genuinely talented as a painter. The memoir never quite decides whether what they did was child abuse or an extreme version of bohemian child-rearing — Walls mostly lets the reader make that judgment while she herself maintains an affectionate if clear-eyed distance." },
+    ],
+  },
+  {
     slug: 'shoe-dog',
     intro: "Phil Knight's Shoe Dog: A Memoir by the Creator of Nike (2016) is the autobiography of Nike's co-founder, tracing the company's improbable origins — a handshake deal with a Japanese shoe manufacturer struck by a twenty-four-year-old with $50 borrowed from his father — through years of near-bankruptcy, legal battles, and manufacturing crises to the 1980 IPO that made Nike a global brand. It is widely considered one of the most honest and well-written business memoirs ever published.",
     startWith: 'Shoe Dog',
