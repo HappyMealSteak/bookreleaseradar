@@ -239,6 +239,11 @@ export const metadata: Metadata = {
     'books like Steppenwolf Hermann Hesse',
     'books like The Awakening Kate Chopin',
     'books like The House of Mirth Edith Wharton',
+    'books like The Age of Innocence Edith Wharton',
+    'books like The Portrait of a Lady Henry James',
+    'books like Their Eyes Were Watching God Zora Neale Hurston',
+    'books like The Picture of Dorian Gray Oscar Wilde',
+    'books like The Quiet American Graham Greene',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1306,6 +1311,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The House of Mirth by Edith Wharton?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The House of Mirth include The Age of Innocence and The Custom of the Country (also by Wharton), Madame Bovary by Gustave Flaubert, The Portrait of a Lady by Henry James, The Awakening by Kate Chopin, Anna Karenina by Leo Tolstoy, The Forsyte Saga by John Galsworthy, and Washington Square by Henry James. Our full guide covers 8 picks for fans of Wharton's novel about Lily Bart's destruction by Gilded Age society." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Age of Innocence by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Age of Innocence include The House of Mirth and The Custom of the Country (also by Wharton), Anna Karenina by Leo Tolstoy, The Portrait of a Lady by Henry James, Middlemarch by George Eliot, The Remains of the Day by Kazuo Ishiguro, Washington Square by Henry James, and Persuasion by Jane Austen. Our full guide covers 8 picks for fans of Wharton's Pulitzer-winning novel about Newland Archer and Ellen Olenska in Old New York." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Portrait of a Lady by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Portrait of a Lady include The Wings of the Dove and The Ambassadors (also by Henry James), The Age of Innocence by Edith Wharton, Middlemarch by George Eliot, Madame Bovary by Gustave Flaubert, The Awakening by Kate Chopin, Washington Square by James, and The House of Mirth by Edith Wharton. Our full guide covers 8 picks for fans of James's novel about Isabel Archer's journey from American freedom to European imprisonment." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Their Eyes Were Watching God by Zora Neale Hurston?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Their Eyes Were Watching God include Beloved by Toni Morrison, The Color Purple by Alice Walker, Song of Solomon by Toni Morrison, Homegoing by Yaa Gyasi, The Awakening by Kate Chopin, Go Tell It on the Mountain by James Baldwin, Invisible Man by Ralph Ellison, and Passing by Nella Larsen. Our full guide covers 8 picks for fans of Hurston's novel about Janie Crawford's search for love and selfhood in early twentieth-century Florida." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Picture of Dorian Gray by Oscar Wilde?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Picture of Dorian Gray include Steppenwolf by Hermann Hesse, Lolita by Vladimir Nabokov, The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson, The Remains of the Day by Kazuo Ishiguro, The Metamorphosis by Franz Kafka, Rebecca by Daphne du Maurier, The Secret History by Donna Tartt, and Brideshead Revisited by Evelyn Waugh. Our full guide covers 8 picks for fans of Wilde's novel about Dorian Gray's portrait." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Quiet American by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Quiet American include The Power and the Glory and The Third Man (also by Graham Greene), The Sympathizer by Viet Thanh Nguyen, Lord Jim by Joseph Conrad, The Heart of the Matter by Greene, Matterhorn by Karl Marlantes, A Burnt-Out Case by Greene, and The Ugly American by Lederer and Burdick. Our full guide covers 8 picks for fans of Greene's novel about Fowler and Pyle in 1950s Saigon." },
     },
   ],
 };

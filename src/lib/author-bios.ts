@@ -1224,6 +1224,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Of Human Bondage', 'The Razor\'s Edge', 'The Moon and Sixpence', 'Ashenden'],
   },
+  {
+    name: 'Henry James',
+    bio: "Henry James (1843–1916) was an American-British novelist, short story writer, and literary critic, and one of the key figures in the history of the novel. Born in New York City into a wealthy and intellectually distinguished family — his father was the Swedenborgian philosopher Henry James Sr. and his brother was the philosopher and psychologist William James — he grew up in New York and Europe, receiving an informal but wide-ranging education. He spent much of his adult life in Europe and settled permanently in England in 1876, becoming a British subject in 1915. His work falls broadly into three phases: the early novels (Roderick Hudson, 1875; The American, 1877; The Europeans, 1878; Daisy Miller, 1878; Washington Square, 1880) in which he established the 'international theme' — the encounter between American naivety and European sophistication; the major middle-period novels (The Portrait of a Lady, 1881; The Bostonians, 1886; The Princess Casamassima, 1886; The Tragic Muse, 1890); and the late major phase (The Wings of the Dove, 1902; The Ambassadors, 1903; The Golden Bowl, 1904) in which his style became increasingly complex and indirect. He is credited with developing the technique of limited third-person narration — the 'central consciousness' — in which the story is filtered entirely through a single character's perception, and with making the psychological interiority of that perception the primary subject of the novel. His criticism, collected in The Art of Fiction (1884) and the prefaces to the New York Edition of his work, is the most important body of novelistic theory in the English language.",
+    genre: 'fiction',
+    knownFor: ['The Portrait of a Lady', 'The Wings of the Dove', 'The Ambassadors', 'Washington Square'],
+  },
+  {
+    name: 'Robert Louis Stevenson',
+    bio: "Robert Louis Stevenson (1850–1894) was a Scottish novelist, poet, and travel writer whose work ranged from adventure stories for children to dark explorations of the divided self. Born in Edinburgh into a family of engineers who had built many of Scotland's lighthouses, he studied engineering briefly at the University of Edinburgh before switching to law, qualifying as an advocate in 1875 but never practicing. His early career was devoted to travel writing and essays before the publication of Treasure Island (1883) — serialized in the children's magazine Young Folks from 1881 to 1882 — brought him popular success. The Strange Case of Dr Jekyll and Mr Hyde (1886), written rapidly in a burst of creative energy after a dream, is his most influential work: a novella about a London doctor who experiments on himself and releases his suppressed amoral self in the form of the murderous Edward Hyde. Kidnapped (1886), The Black Arrow (1888), and The Master of Ballantrae (1889) followed. Stevenson suffered from pulmonary tuberculosis throughout his adult life and spent his later years in search of a climate that would allow him to work; he eventually settled in Samoa, where he became a beloved figure to the Samoan people and was buried under the title 'Tusitala' (Teller of Tales) on Mount Vaea at his death. He died at forty-four, with his later work — Weir of Hermiston, his unfinished masterpiece — left incomplete.",
+    genre: 'fiction',
+    knownFor: ['Treasure Island', 'The Strange Case of Dr Jekyll and Mr Hyde', 'Kidnapped'],
+  },
 ];
 
 function normalize(s: string) {
