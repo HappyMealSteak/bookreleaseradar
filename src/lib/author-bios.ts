@@ -762,6 +762,18 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['Shuggie Bain', 'Young Mungo'],
   },
+  {
+    name: 'Alex Michaelides',
+    bio: "Alex Michaelides is a British-Cypriot author and screenwriter born in Cyprus. He studied English literature at Cambridge and earned a master's degree in screenwriting from the American Film Institute in Los Angeles. After years of working in film and television, he wrote The Silent Patient (2019) — a psychological thriller that debuted at number one on the New York Times bestseller list and remained on it for over a year. The Silent Patient became an international bestseller, was translated into more than 50 languages, and turned Michaelides into one of the most successful debut thriller writers of the decade. It was followed by The Maidens (2021) and The Life We Left Behind (2024). Michaelides's work draws on Greek tragedy, mythology, and classical literature as structural frameworks for psychological suspense.",
+    genre: 'fiction',
+    knownFor: ['The Silent Patient', 'The Maidens', 'The Life We Left Behind'],
+  },
+  {
+    name: "Maggie O'Farrell",
+    bio: "Maggie O'Farrell is a British-Irish novelist born in Northern Ireland in 1972. She grew up in Wales and Scotland after a childhood illness left her temporarily paralyzed; she has written about surviving multiple near-death experiences in her memoir I Am, I Am, I Am (2017). O'Farrell is the author of nine novels, including After You'd Gone (2000), The Hand That First Held Mine (Baileys Women's Prize for Fiction winner, 2010), Instructions for a Heatwave (2013), and Hamnet (2020), which won the Women's Prize for Fiction and was one of the most celebrated literary novels of its decade. Hamnet imagines the life of Agnes, wife of the man who would become William Shakespeare, and the death of their son from plague in 1596. Her 2022 novel The Marriage Portrait returned to historical fiction, following Lucrezia de' Medici in Renaissance Florence. O'Farrell's fiction is characterized by lyrical prose, psychological depth, and an interest in women who have been made invisible by the famous men around them.",
+    genre: 'fiction',
+    knownFor: ['Hamnet', 'I Am, I Am, I Am', 'The Hand That First Held Mine', 'The Marriage Portrait'],
+  },
 ];
 
 function normalize(s: string) {
