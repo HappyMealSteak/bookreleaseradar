@@ -363,6 +363,11 @@ export const metadata: Metadata = {
     'books like The Pursuit of Love Nancy Mitford',
     'books like Washington Black Esi Edugyan',
     'books like Everything Is Illuminated Jonathan Safran Foer',
+    'books like The Underground Railroad Colson Whitehead',
+    'books like Cloudstreet Tim Winton',
+    'books like I Capture the Castle Dodie Smith',
+    'books like The Book of Night Women Marlon James',
+    'books like Cold Comfort Farm Stella Gibbons',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -2050,6 +2055,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Everything Is Illuminated by Jonathan Safran Foer?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Everything Is Illuminated include Maus by Art Spiegelman, The Emigrants by W.G. Sebald, Austerlitz by W.G. Sebald, The History of Love by Nicole Krauss, The Tin Drum by Günter Grass, Sophie's Choice by William Styron, The Painted Bird by Jerzy Kosiński, and HHhH by Laurent Binet. Our full guide covers 8 picks for fans of Foer's debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Underground Railroad by Colson Whitehead?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Underground Railroad include Beloved by Toni Morrison, The Nickel Boys by Colson Whitehead, Homegoing by Yaa Gyasi, Washington Black by Esi Edugyan, Kindred by Octavia Butler, Twelve Years a Slave by Solomon Northup, The Color Purple by Alice Walker, and Song of Solomon by Toni Morrison. Our full guide covers 8 picks for fans of Whitehead's Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cloudstreet by Tim Winton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cloudstreet include Dirt Music by Tim Winton, Breath by Tim Winton, True History of the Kelly Gang by Peter Carey, Oscar and Lucinda by Peter Carey, Carpentaria by Alexis Wright, The Slap by Christos Tsiolkas, and The Riders by Tim Winton. Our full guide covers 8 picks for fans of Winton's Miles Franklin Award winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked I Capture the Castle by Dodie Smith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like I Capture the Castle include The Pursuit of Love by Nancy Mitford, Cold Comfort Farm by Stella Gibbons, Excellent Women by Barbara Pym, The Secret History by Donna Tartt, Anne of Green Gables by L.M. Montgomery, A Room with a View by E.M. Forster, and Prep by Curtis Sittenfeld. Our full guide covers 8 picks for fans of Dodie Smith's beloved novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Book of Night Women by Marlon James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Book of Night Women include A Brief History of Seven Killings by Marlon James, Beloved by Toni Morrison, The Long Song by Andrea Levy, Washington Black by Esi Edugyan, The Dew Breaker by Edwidge Danticat, The Underground Railroad by Colson Whitehead, and Roots by Alex Haley. Our full guide covers 8 picks for fans of James's Jamaican slavery novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cold Comfort Farm by Stella Gibbons?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cold Comfort Farm include The Pursuit of Love by Nancy Mitford, I Capture the Castle by Dodie Smith, Excellent Women by Barbara Pym, A Handful of Dust by Evelyn Waugh, Decline and Fall by Evelyn Waugh, Scoop by Evelyn Waugh, Three Men in a Boat by Jerome K. Jerome, and Behind the Scenes at the Museum by Kate Atkinson. Our full guide covers 8 picks for fans of Gibbons's comic classic." },
     },
   ],
 };
