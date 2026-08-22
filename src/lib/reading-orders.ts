@@ -776,6 +776,77 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Will there be more Alagaësia books after Murtagh?', a: "Christopher Paolini has expressed intent to write more Alagaësia books. He is also working on The Fractal Shroud, a new science fiction novel outside the Alagaësia universe. Future Alagaësia books have not been formally announced with release dates." },
     ],
   },
+  {
+    slug: 'maze-runner',
+    intro: "James Dashner's Maze Runner trilogy starts in the Glade — a community of boys with no memory, enclosed by a massive maze that kills after dark. Reading order matters here because each book directly follows the previous, and there are two prequel novels that reveal how the maze was built and the world fell apart.",
+    startWith: 'The Maze Runner',
+    books: [
+      { title: 'The Maze Runner', author: 'James Dashner', year: 2009, note: 'Book 1 — Thomas arrives in the Glade with no memory; the maze waits' },
+      { title: 'The Scorch Trials', author: 'James Dashner', year: 2010, note: 'Book 2 — The Gladers escape only to face a new, deadlier test' },
+      { title: 'The Death Cure', author: 'James Dashner', year: 2011, note: 'Book 3 — The final trial; what W.I.C.K.E.D. was really building toward' },
+      { title: 'The Kill Order', author: 'James Dashner', year: 2012, note: 'Prequel — how the Flare virus spread and the world ended; optional but adds context', isOptional: true },
+      { title: 'The Fever Code', author: 'James Dashner', year: 2016, note: 'Prequel — how the Maze was built and how the Gladers were chosen; reveals major answers', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Maze Runner reading order?', a: "Read the main trilogy first: The Maze Runner (2009) → The Scorch Trials (2010) → The Death Cure (2011). The prequels The Kill Order and The Fever Code are optional and best read after the trilogy — The Fever Code especially, as it reveals major answers." },
+      { q: 'How many Maze Runner books are there?', a: "There are 3 main trilogy books (Maze Runner, Scorch Trials, Death Cure) and 2 prequel novels (The Kill Order, The Fever Code), plus a short story companion. The main trilogy is complete; the prequels expand the world." },
+      { q: 'Should I read the Maze Runner prequels?', a: "The Kill Order gives more context on how the Flare virus wiped out civilization. The Fever Code is the most important prequel — it shows exactly how the Maze was built and how Thomas and the other Gladers were chosen. Both are optional but add depth to the world." },
+      { q: 'Is The Maze Runner based on a book?', a: "Yes — the 2014 film (and its sequels) adapts the Maze Runner trilogy by James Dashner. The films follow the main plot but simplify some characters and condense the world-building that makes the books compelling." },
+    ],
+  },
+  {
+    slug: 'red-queen',
+    intro: "Victoria Aveyard's Red Queen series starts with a girl who shouldn't have powers — and a court that will do anything to use or destroy her. The series spans 4 main books plus a collection of novellas. Reading order matters because each book ends on a major revelation that sets up the next.",
+    startWith: 'Red Queen',
+    books: [
+      { title: 'Red Queen', author: 'Victoria Aveyard', year: 2015, note: 'Book 1 — Mare Barrow discovers her Silver-level powers in a Red girl\'s body' },
+      { title: 'Glass Sword', author: 'Victoria Aveyard', year: 2016, note: 'Book 2 — Mare becomes the Scarlet Guard\'s reluctant symbol while hunting for other newbloods' },
+      { title: 'King\'s Cage', author: 'Victoria Aveyard', year: 2017, note: 'Book 3 — Mare is captured; the war for Norta reaches a turning point' },
+      { title: 'War Storm', author: 'Victoria Aveyard', year: 2018, note: 'Book 4 — The final battle; all sides converge' },
+      { title: 'Broken Throne', author: 'Victoria Aveyard', year: 2019, note: 'Novella collection — stories from secondary characters and the world history; best read after War Storm', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Red Queen reading order?', a: "Read in order: Red Queen (2015) → Glass Sword (2016) → King's Cage (2017) → War Storm (2018). The novella collection Broken Throne is optional and best read after War Storm, as it contains major spoilers." },
+      { q: 'How many Red Queen books are there?', a: "There are 4 main novels (Red Queen, Glass Sword, King's Cage, War Storm) and 1 novella collection (Broken Throne). The main series is complete. Victoria Aveyard has since written the Realm Breaker epic fantasy trilogy." },
+      { q: 'Does Red Queen have a good ending?', a: "War Storm provides a complete ending to the Red Queen saga that most fans find satisfying, though some aspects are bittersweet. The series earned its ending through the consequences it sets up across all four books." },
+      { q: 'Is there a Red Queen movie or show?', a: "As of 2025, there is no Red Queen film or show adaptation, though Universal Pictures acquired the rights early on. No production has been officially confirmed." },
+    ],
+  },
+  {
+    slug: 'legend',
+    intro: "Marie Lu's Legend trilogy is one of the tightest YA dystopian trilogies — three books, three escalating stages of June and Day's revolution, and no filler. The series follows a linear timeline and must be read in order. Lu has also written The Young Elites trilogy and Warcross, set in separate universes.",
+    startWith: 'Legend',
+    books: [
+      { title: 'Legend', author: 'Marie Lu', year: 2011, note: 'Book 1 — Day (most-wanted criminal) and June (military prodigy) are sent to destroy each other' },
+      { title: 'Prodigy', author: 'Marie Lu', year: 2013, note: 'Book 2 — Day and June reach the Colonies and discover the Patriot rebels have their own agenda' },
+      { title: 'Champion', author: 'Marie Lu', year: 2013, note: 'Book 3 — The Republic and Colonies are at war; Day is dying; June faces an impossible choice' },
+      { title: 'Rebel', author: 'Marie Lu', year: 2019, note: 'Companion novel — picks up 10 years after Champion; Day\'s younger brother Eden takes center stage', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Legend reading order?', a: "Read the main trilogy in order: Legend (2011) → Prodigy (2013) → Champion (2013). The companion novel Rebel (2019) takes place 10 years later from a new protagonist's perspective and is best read after the trilogy." },
+      { q: 'How many Legend books are there?', a: "There are 3 main trilogy books (Legend, Prodigy, Champion) and 1 companion novel (Rebel, set 10 years after Champion). The Legend series is complete. Marie Lu has also written The Young Elites trilogy and the Warcross duology, set in separate universes." },
+      { q: 'Is Legend by Marie Lu a series?', a: "Yes — Legend is the first book in the Legend trilogy by Marie Lu. The story continues in Prodigy and Champion, with a companion novel Rebel set 10 years later. The main trilogy must be read in order." },
+      { q: 'What is Legend about?', a: "Legend is set in a future United States divided into the Republic and the Colonies, where the government runs brutal Trials to eliminate the weak. Day is the Republic's most wanted criminal; June is its most brilliant military prodigy. When June is sent to hunt Day, what she discovers changes everything." },
+    ],
+  },
+  {
+    slug: 'selection',
+    intro: "Kiera Cass's Selection series is a five-book dystopian romance that blends The Hunger Games' competition premise with a royal love story. The original trilogy (The Selection, The Elite, The One) follows America Singer. The Crown and The Heir continue with the next generation. Plus there are two novellas giving the competition from the Prince's perspective.",
+    startWith: 'The Selection',
+    books: [
+      { title: 'The Selection', author: 'Kiera Cass', year: 2012, note: 'Book 1 — America Singer is Selected to compete to become Prince Maxon\'s wife' },
+      { title: 'The Elite', author: 'Kiera Cass', year: 2013, note: 'Book 2 — The competition narrows; America is caught between Maxon and Aspen' },
+      { title: 'The One', author: 'Kiera Cass', year: 2014, note: 'Book 3 — The original trilogy concludes; one girl wins' },
+      { title: 'The Heir', author: 'Kiera Cass', year: 2015, note: 'Book 4 — America and Maxon\'s daughter Eadlyn holds her own Selection; new protagonist', isOptional: true },
+      { title: 'The Crown', author: 'Kiera Cass', year: 2016, note: 'Book 5 — Eadlyn\'s Selection reaches its conclusion', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Selection reading order?', a: "The core trilogy: The Selection (2012) → The Elite (2013) → The One (2014). The Heir (2015) and The Crown (2016) continue with a new protagonist (America's daughter) and can be read as an optional continuation after the original trilogy." },
+      { q: 'How many Selection books are there?', a: "There are 5 main novels (The Selection, The Elite, The One, The Heir, The Crown) plus 2 novellas (The Prince and The Guard, from Maxon and Aspen's perspectives). The series is complete." },
+      { q: 'Do I have to read The Heir and The Crown?', a: "The Heir and The Crown are optional if you just want America and Maxon's story — the original trilogy ends completely in The One. The Heir and Crown follow a new protagonist in the same world. Most fans who love the first three books eventually read them." },
+      { q: 'Is The Selection a dystopia?', a: "The Selection takes place in a future America called Illea, divided into numbered castes (1 through 8). While there is a dystopian framework, the series leans much more heavily on the romance and competition than on the dystopian politics. Readers who want pure dystopia should try The Hunger Games; Selection fans enjoy the romance first." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

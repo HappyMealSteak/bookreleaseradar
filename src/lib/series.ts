@@ -542,6 +542,70 @@ export const SERIES: SeriesDefinition[] = [
       'Alagaësia new book',
     ],
   },
+  {
+    slug: 'maze-runner',
+    name: 'The Maze Runner',
+    shortName: 'Maze Runner',
+    author: 'James Dashner',
+    authorQuery: 'James Dashner',
+    genre: 'fiction',
+    description:
+      "James Dashner's Maze Runner trilogy begins in the Glade — a community of teenage boys with no memories, enclosed by a massive stone maze that closes every night and fills with mechanical monsters called Grievers. Thomas arrives with no memory and a sense that he's seen this place before. The Maze Runner is a high-concept survival thriller that launched one of the defining YA dystopian film franchises of the 2010s.",
+    searchTerms: [
+      'James Dashner new book',
+      'Maze Runner reading order',
+      'Maze Runner series order',
+      'Maze Runner books in order',
+    ],
+  },
+  {
+    slug: 'red-queen',
+    name: 'Red Queen',
+    shortName: 'Red Queen',
+    author: 'Victoria Aveyard',
+    authorQuery: 'Victoria Aveyard',
+    genre: 'fiction',
+    description:
+      "Victoria Aveyard's Red Queen series is set in a world divided by blood — Silvers with superhuman abilities rule over Reds who serve them. Mare Barrow is Red, born without abilities, but when she discovers she has Silver-level powers nobody can explain, she's thrust into the Silver court with a fake noble identity and a dangerous secret. The Red Queen series spans 4 novels and is known for its shocking betrayal twists.",
+    searchTerms: [
+      'Victoria Aveyard new book',
+      'Red Queen reading order',
+      'Red Queen series order',
+      'Red Queen books in order',
+    ],
+  },
+  {
+    slug: 'legend',
+    name: 'Legend',
+    shortName: 'Legend',
+    author: 'Marie Lu',
+    authorQuery: 'Marie Lu',
+    genre: 'fiction',
+    description:
+      "Marie Lu's Legend trilogy is set in a future United States split between the Republic and the Colonies, where Day is the Republic's most-wanted criminal and June is its most brilliant military prodigy. When June is sent to hunt Day, what she discovers about the Republic changes everything. The trilogy is known for its dual-POV structure, kinetic pacing, and the electric relationship between its two protagonists.",
+    searchTerms: [
+      'Marie Lu new book',
+      'Legend reading order',
+      'Legend series Marie Lu',
+      'Legend books in order',
+    ],
+  },
+  {
+    slug: 'selection',
+    name: 'The Selection',
+    shortName: 'Selection',
+    author: 'Kiera Cass',
+    authorQuery: 'Kiera Cass',
+    genre: 'romance',
+    description:
+      "Kiera Cass's Selection series is set in a future America called Illea, where a prince must choose his bride from 35 girls selected from across the castes in a televised competition. America Singer didn't want to enter — but the palace, the prince, and the truth about her world will change everything. The Selection is a dystopian romance series beloved for its addictive competition premise and love triangle.",
+    searchTerms: [
+      'Kiera Cass new book',
+      'Selection reading order',
+      'Selection series order',
+      'Selection books in order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
