@@ -74,6 +74,9 @@ export const metadata: Metadata = {
     'books like Daughter of Smoke and Bone',
     'books like Long Way Small Angry Planet Becky Chambers',
     'books like The Scorpio Races Maggie Stiefvater',
+    'books like First Law Joe Abercrombie',
+    'books like Carry On Rainbow Rowell',
+    'books like Shiver Maggie Stiefvater',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -311,6 +314,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after Children of Blood and Bone?',
       acceptedAnswer: { '@type': 'Answer', text: 'Books like Children of Blood and Bone include An Ember in the Ashes by Sabaa Tahir, The Poppy War by R.F. Kuang, Shadow and Bone by Leigh Bardugo, The City of Brass by S.A. Chakraborty, and The Rage of Dragons by Evan Winter. Our full guide covers 8 picks for fans of diverse fantasy worlds.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after The First Law trilogy by Joe Abercrombie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The First Law include The Lies of Locke Lamora by Scott Lynch, The Way of Kings by Brandon Sanderson, Mistborn by Brandon Sanderson, Red Rising by Pierce Brown, and The Name of the Wind by Patrick Rothfuss. Our full First Law guide covers 8 picks for fans of grimdark fantasy with morally compromised characters." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Carry On by Rainbow Rowell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Carry On include Harry Potter, The House in the Cerulean Sea by TJ Klune, Shadow and Bone by Leigh Bardugo, The Raven Boys by Maggie Stiefvater, Six of Crows, and Strange the Dreamer by Laini Taylor. Our full Carry On guide covers 8 picks for fans of magical school fantasy and enemies-to-lovers romance." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Shiver by Maggie Stiefvater?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shiver include The Raven Boys by Maggie Stiefvater (her own series), Twilight by Stephenie Meyer, Hush Hush by Becca Fitzpatrick, Fallen by Lauren Kate, and Beautiful Creatures by Kami Garcia. Our full Shiver guide covers 8 paranormal YA romance picks for fans of atmospheric forbidden love." },
     },
   ],
 };

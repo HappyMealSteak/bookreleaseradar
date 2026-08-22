@@ -785,6 +785,54 @@ export const SERIES: SeriesDefinition[] = [
     ],
   },
   {
+    slug: 'first-law',
+    name: 'First Law World',
+    shortName: 'First Law',
+    author: 'Joe Abercrombie',
+    authorQuery: 'Joe Abercrombie',
+    genre: 'fantasy',
+    description:
+      "Joe Abercrombie's First Law World is a grimdark fantasy universe that began with the First Law Trilogy (The Blade Itself, Before They Are Hanged, Last Argument of Kings) and has expanded into six additional novels. The original trilogy follows three morally compromised protagonists — a barbarian trying to leave his violent past, a torturer who was once a great swordsman, and a vain soldier who thinks he's the hero — across a continent-spanning war orchestrated by the First of the Magi. Abercrombie is known for his dark humor, his subversion of fantasy heroism, and his endings, which consistently refuse to be satisfying in the ways fantasy endings usually are.",
+    searchTerms: [
+      'Joe Abercrombie new book',
+      'First Law reading order',
+      'First Law trilogy order',
+      'Blade Itself reading order',
+    ],
+  },
+  {
+    slug: 'carry-on',
+    name: 'Simon Snow Trilogy',
+    shortName: 'Carry On',
+    author: 'Rainbow Rowell',
+    authorQuery: 'Rainbow Rowell',
+    genre: 'fantasy',
+    description:
+      "Rainbow Rowell's Simon Snow trilogy reimagines the chosen-hero-at-magical-school genre through a YA fantasy lens — and specifically through a same-sex romance between Simon Snow, the chosen one who doesn't quite fit the prophecy, and Baz, his vampire roommate who Simon has always assumed wants to kill him. The trilogy began with Carry On (2015), which originated as a fanfiction-within-fanfiction in Rowell's novel Fangirl. The series is known for its warm humor, its deep affection for fantasy genre conventions, and its central love story.",
+    searchTerms: [
+      'Rainbow Rowell new book',
+      'Carry On reading order',
+      'Simon Snow books in order',
+      'Wayward Son reading order',
+    ],
+  },
+  {
+    slug: 'shiver',
+    name: 'Wolves of Mercy Falls',
+    shortName: 'Shiver',
+    author: 'Maggie Stiefvater',
+    authorQuery: 'Maggie Stiefvater',
+    genre: 'romance',
+    description:
+      "Maggie Stiefvater's Wolves of Mercy Falls trilogy is a YA paranormal romance about Grace Brisbane, who has been fascinated by the yellow-eyed wolves behind her house since one saved her life as a child, and Sam Roth, the wolf in question — who shifts between human and wolf form based on temperature, becoming wolf in cold weather and human in warmth. As Sam ages, he spends more and more time as wolf; their romance is shadowed by the certainty that he will eventually stop returning. The trilogy is known for its lyrical prose and its bittersweet romance.",
+    searchTerms: [
+      'Maggie Stiefvater new book',
+      'Shiver reading order',
+      'Wolves of Mercy Falls books in order',
+      'Shiver series order',
+    ],
+  },
+  {
     slug: 'daughter-of-smoke-and-bone',
     name: 'Daughter of Smoke and Bone',
     shortName: 'Smoke & Bone',

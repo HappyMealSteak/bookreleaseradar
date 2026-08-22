@@ -1384,6 +1384,58 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is The Scorpio Races similar to the Raven Cycle?', a: "Both The Scorpio Races and the Raven Cycle are by Maggie Stiefvater and share her atmospheric, lyrical prose and her sense of a magical world hidden inside or alongside the ordinary one. The Scorpio Races is set on an island with Celtic-influenced mythology and is more contained and romantic; the Raven Cycle is a four-book epic about Welsh mythology in Virginia." },
     ],
   },
+  {
+    slug: 'first-law',
+    intro: "Joe Abercrombie's First Law World is an ongoing series of grimdark fantasy novels. It began with the First Law Trilogy (three books), continued with three standalone novels in the same world, and then launched a new trilogy (Age of Madness) set 30 years later. The original trilogy can be read as a complete, standalone story. The standalones and the Age of Madness trilogy build on the original but can largely be appreciated without it.",
+    startWith: 'The Blade Itself',
+    books: [
+      { title: 'The Blade Itself', author: 'Joe Abercrombie', year: 2006, note: "Book 1 — The First Law Trilogy: Logen Ninefingers, a barbarian trying to leave his past; Jezal, a vain soldier; Sand dan Glokta, a torturer who was once a hero" },
+      { title: 'Before They Are Hanged', author: 'Joe Abercrombie', year: 2007, note: "Book 2 — Two campaigns split the cast across the continent; the war begins" },
+      { title: 'Last Argument of Kings', author: 'Joe Abercrombie', year: 2008, note: "Book 3 — The trilogy conclusion; famous for one of fantasy's most devastating final acts" },
+      { title: 'Best Served Cold', author: 'Joe Abercrombie', year: 2009, note: "Standalone — set in the same world, 10 years later; a mercenary captain pursues revenge", isOptional: true },
+      { title: 'The Heroes', author: 'Joe Abercrombie', year: 2011, note: "Standalone — a single battle across three days; multiple POVs", isOptional: true },
+      { title: 'A Little Hatred', author: 'Joe Abercrombie', year: 2019, note: "Age of Madness Book 1 — set 30 years after the trilogy; the Industrial Revolution comes to the Circle of the World", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the First Law reading order?', a: "Start with the First Law Trilogy: The Blade Itself (2006), Before They Are Hanged (2007), and Last Argument of Kings (2008). After the trilogy, you can read the standalone novels (Best Served Cold, The Heroes, Red Country) in any order, then the Age of Madness trilogy starting with A Little Hatred (2019)." },
+      { q: 'How many First Law books are there?', a: "Joe Abercrombie has written nine books in the First Law World: the original trilogy (3 books), three standalones (Best Served Cold, The Heroes, Red Country), and the Age of Madness trilogy (A Little Hatred, The Trouble with Peace, The Wisdom of Crowds). All nine are published and available." },
+      { q: 'Do I need to read the First Law Trilogy before the Age of Madness?', a: "The Age of Madness trilogy is set 30 years after the original First Law Trilogy and features some returning characters. While it can be read as a starting point, readers consistently get more from the Age of Madness having read the original trilogy, particularly its ending." },
+      { q: 'What is the First Law series about?', a: "The First Law is grimdark fantasy — fantasy that subverts the heroic tradition by showing that war is brutal, heroes are compromised, and institutions serve their own interests. The original trilogy follows a barbarian, a torturer, and a vain soldier across a continent-spanning war orchestrated by a mysterious figure called Bayaz, the First of the Magi." },
+    ],
+  },
+  {
+    slug: 'carry-on',
+    intro: "Rainbow Rowell's Simon Snow series is a complete two-book duology about a chosen hero at a magical school who doesn't fit the prophecy as neatly as anyone expected. The series can be read in order (Carry On, then Wayward Son), or Carry On can be read as a standalone. There is a third book, Any Way the Wind Blows, which concludes the trilogy.",
+    startWith: 'Carry On',
+    books: [
+      { title: 'Carry On', author: 'Rainbow Rowell', year: 2015, note: "Book 1 — Simon Snow's final year at Watford School of Magicks, the prophecy, the Humdrum, and his enemy-turned-something-else Baz" },
+      { title: 'Wayward Son', author: 'Rainbow Rowell', year: 2019, note: "Book 2 — Simon, Penny, and Baz take a road trip across America; the war is over but Simon doesn't know what to do with himself" },
+      { title: 'Any Way the Wind Blows', author: 'Rainbow Rowell', year: 2021, note: "Book 3 — The trilogy conclusion; what happens after the chosen one's story is supposed to be over" },
+    ],
+    faq: [
+      { q: 'What is the Carry On reading order?', a: "Read Carry On (2015), then Wayward Son (2019), then Any Way the Wind Blows (2021). The trilogy should be read in order. Carry On can function as a standalone, but Wayward Son and Any Way the Wind Blows continue the story directly." },
+      { q: 'How many Carry On books are there?', a: "Rainbow Rowell's Simon Snow trilogy consists of three books: Carry On (2015), Wayward Son (2019), and Any Way the Wind Blows (2021). The trilogy is complete." },
+      { q: 'Is Carry On related to Harry Potter?', a: "Carry On originated as fanfiction-within-fanfiction — in Rowell's novel Fangirl, the protagonist writes fanfiction about a fictional Harry Potter-esque series called Simon Snow. Carry On then brought Simon Snow to life as its own novel. Carry On is an original work and not a Harry Potter parody, though it engages lovingly with the tropes of the chosen-hero-at-magical-school genre." },
+      { q: 'Is Carry On appropriate for all ages?', a: "Carry On is a YA novel with an explicit same-sex romance between Simon and Baz. The romance is the emotional center of the book. The content is more explicit than most YA but less so than adult fiction. The novel is generally recommended for readers 14 and up." },
+    ],
+  },
+  {
+    slug: 'shiver',
+    intro: "Maggie Stiefvater's Wolves of Mercy Falls trilogy is a complete three-book YA paranormal romance series about Grace, a girl who has loved a yellow-eyed wolf since he saved her life as a child, and Sam, the wolf in question. The trilogy must be read in order. There is also a companion/spinoff novel, Sinner (2014), following a different character from the Shiver world.",
+    startWith: 'Shiver',
+    books: [
+      { title: 'Shiver', author: 'Maggie Stiefvater', year: 2009, note: "Book 1 — Grace discovers the yellow-eyed wolf she's loved is a boy named Sam; their time together is limited by the cold" },
+      { title: 'Linger', author: 'Maggie Stiefvater', year: 2010, note: "Book 2 — Sam tries to stay human; Grace begins to transform; new wolves complicate everything" },
+      { title: 'Forever', author: 'Maggie Stiefvater', year: 2011, note: "Book 3 — The trilogy conclusion; hunters come for the pack" },
+      { title: 'Sinner', author: 'Maggie Stiefvater', year: 2014, note: "Companion — follows Cole and Isabel from the trilogy; standalone", isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Shiver reading order?', a: "Read Shiver (2009), then Linger (2010), then Forever (2011). All three must be read in order. Sinner (2014) is a companion novel following secondary characters from the trilogy and can be read after Forever or as a standalone." },
+      { q: 'How many Shiver books are there?', a: "The Wolves of Mercy Falls trilogy by Maggie Stiefvater consists of three books: Shiver (2009), Linger (2010), and Forever (2011). Sinner (2014) is a companion novel following Cole and Isabel." },
+      { q: 'Is Shiver similar to Twilight?', a: "Shiver is frequently compared to Twilight — both feature a teenage girl falling in love with a paranormal boy, an elemental trigger for transformation (cold for the wolves vs. sunlight for the Cullens), and a threat to the relationship from the paranormal world. Stiefvater's prose is more literary and atmospheric than Meyer's, and the romance is equally central to both." },
+      { q: 'What makes the wolves in Shiver different?', a: "The werewolves in Shiver shift between human and wolf form based on temperature rather than the full moon — they are wolves in winter and humans in summer. As they age, they spend more and more time as wolves until eventually they can no longer return to human form. This creates a ticking-clock element to Grace and Sam's romance." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
