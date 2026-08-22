@@ -293,6 +293,11 @@ export const metadata: Metadata = {
     'books like The Name of the Rose Umberto Eco',
     'books like The Painted Bird Jerzy Kosiński',
     'books like Blood Meridian Cormac McCarthy',
+    'books like Pale Fire Vladimir Nabokov',
+    'books like The Collector John Fowles',
+    'books like Brighton Rock Graham Greene',
+    'books like True Grit Charles Portis',
+    'books like Pillars of the Earth Ken Follett',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1630,6 +1635,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Blood Meridian by Cormac McCarthy?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Blood Meridian include The Road (also by McCarthy), No Country for Old Men (McCarthy), Outer Dark (McCarthy), The Power of the Dog by Thomas Savage, True Grit by Charles Portis, Lonesome Dove by Larry McMurtry, Butcher's Crossing by John Williams, and The Crossing by Cormac McCarthy. Our full guide covers 8 picks for fans of McCarthy's frontier masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pale Fire by Vladimir Nabokov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pale Fire include Lolita (also by Nabokov), If on a winter's night a traveler by Italo Calvino, The French Lieutenant's Woman by John Fowles, The Tin Drum by Günter Grass, House of Leaves by Mark Z. Danielewski, The Real Life of Sebastian Knight by Nabokov, The Unbearable Lightness of Being by Milan Kundera, and Speak, Memory by Nabokov. Our full guide covers 8 picks for fans of Nabokov's formally revolutionary novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Collector by John Fowles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Collector include Lolita by Vladimir Nabokov, Perfume by Patrick Süskind, Misery by Stephen King, Room by Emma Donoghue, The French Lieutenant's Woman by John Fowles, Gone Girl by Gillian Flynn, The Secret History by Donna Tartt, and Rebecca by Daphne du Maurier. Our full guide covers 8 picks for fans of Fowles's dual-perspective psychological thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Brighton Rock by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Brighton Rock include The Power and the Glory (also by Greene), The Heart of the Matter (Greene), A Burnt-Out Case (Greene), The Talented Mr. Ripley by Patricia Highsmith, The End of the Affair by Greene, Crime and Punishment by Dostoevsky, and Brideshead Revisited by Evelyn Waugh. Our full guide covers 8 picks for fans of Greene's Catholic thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked True Grit by Charles Portis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like True Grit include Dog of the South (also by Portis), Blood Meridian by Cormac McCarthy, Lonesome Dove by Larry McMurtry, Little House on the Prairie by Laura Ingalls Wilder, Plainsong by Kent Haruf, The Professor's House by Willa Cather, Ceremony by Leslie Marmon Silko, and Horseman Pass By by Larry McMurtry. Our full guide covers 8 picks for fans of Portis's frontier masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Pillars of the Earth by Ken Follett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Pillars of the Earth include World Without End (also by Follett), The Name of the Rose by Umberto Eco, Shogun by James Clavell, the Wolf Hall Trilogy by Hilary Mantel, The Bronze Horseman by Paullina Simons, Exodus by Leon Uris, Ivanhoe by Sir Walter Scott, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of Follett's medieval epic." },
     },
   ],
 };
