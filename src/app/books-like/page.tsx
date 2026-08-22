@@ -8,7 +8,7 @@ export const revalidate = 2592000;
 export const metadata: Metadata = {
   title: 'Books Like… — Reading Recommendations | BookReleaseRadar',
   description:
-    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, Dune, Divergent, Eragon, Vampire Academy, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
+    "Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Twilight, Dune, Divergent, Maze Runner, Red Queen, Eragon, Vampire Academy, The Handmaid's Tale, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.",
   keywords: [
     'books like ACOTAR',
     'books like Fourth Wing',
@@ -41,6 +41,8 @@ export const metadata: Metadata = {
     'books like Divergent',
     'books like Eragon',
     'books like Vampire Academy',
+    'books like Maze Runner',
+    'books like Red Queen',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -117,6 +119,16 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after Eragon?',
       acceptedAnswer: { '@type': 'Answer', text: 'After Eragon, fans love Fourth Wing by Rebecca Yarros, Temeraire by Naomi Novik, The Name of the Wind by Patrick Rothfuss, and The Stormlight Archive by Brandon Sanderson. Our full Eragon guide covers 8 dragon fantasy picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Maze Runner?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Maze Runner include The Hunger Games by Suzanne Collins, Divergent by Veronica Roth, Ender's Game by Orson Scott Card, Legend by Marie Lu, and Unwind by Neal Shusterman. Our full Maze Runner guide covers 8 survival dystopia picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What books are similar to Red Queen?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Books like Red Queen include An Ember in the Ashes by Sabaa Tahir, Shadow and Bone by Leigh Bardugo, The Hunger Games by Suzanne Collins, Three Dark Crowns by Kendare Blake, and Shatter Me by Tahereh Mafi. Our full Red Queen guide has 8 picks for fans of class war and court intrigue.' },
     },
   ],
 };

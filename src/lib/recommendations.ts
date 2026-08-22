@@ -985,6 +985,52 @@ export const RECOMMENDATIONS: BooksLikeEntry[] = [
       { title: 'The Stormlight Archive', author: 'Brandon Sanderson', why: "The most ambitious fantasy series being written today — with spren (bonded spirits) that parallel the dragon bond, Radiants with powers tied to their oaths, and a world-building scope that dwarfs Alagaësia. Sanderson is where Eragon fans end up.", genre: 'fantasy' },
     ],
   },
+  {
+    slug: 'maze-runner',
+    sourceTitle: 'The Maze Runner',
+    sourceShortName: 'Maze Runner',
+    tagline: 'Survival, mystery, and brotherhood in a world designed to destroy you',
+    description: "James Dashner's Maze Runner drops Thomas into the Glade with no memory — surrounded by boys, enclosed by a deadly maze, and with no explanation for any of it. The Glade, the Maze, and W.I.C.K.E.D.'s experiments are high-concept survival fiction at its best. If the Maze's mystery, the brotherhood of the Gladers, and the desperate survival instinct gripped you, these eight picks deliver the same pulse.",
+    keywords: [
+      'books like Maze Runner',
+      'YA dystopia survival books',
+      'books like James Dashner',
+      'survival thriller YA fiction',
+    ],
+    recommendations: [
+      { title: 'The Hunger Games', author: 'Suzanne Collins', why: "Teenagers fighting to survive in a government-engineered death trap — the Hunger Games is the Maze Runner's closest companion in YA dystopia. If you haven't read it, start immediately.", genre: 'fiction' },
+      { title: 'Divergent', author: 'Veronica Roth', why: "A society where your personality decides your fate, and the main character doesn't fit the system. The faction initiation sequences have the same trial-by-fire energy as the first weeks in the Glade.", genre: 'fiction' },
+      { title: "Ender's Game", author: 'Orson Scott Card', why: "A child prodigy is trained in brutal simulations for a war he doesn't understand. The best sci-fi companion to the Maze Runner — the same sense of kids being weaponized by adults who know more than they reveal.", genre: 'sci-fi' },
+      { title: 'Lord of the Flies', author: 'William Golding', why: "Boys stranded without adults, building order — and then destroying it. The Maze Runner's Glade dynamic is Golding's island with a science fiction twist.", genre: 'fiction' },
+      { title: 'Legend', author: 'Marie Lu', why: "A criminal prodigy and the Republic's best soldier hunt each other through a dystopian Los Angeles — then discover they're fighting the same enemy. Marie Lu's kinetic pacing matches the Maze Runner's propulsive drive.", genre: 'fiction' },
+      { title: 'Unwind', author: 'Neal Shusterman', why: "In a future America, teenagers can be 'unwound' — disassembled and their parts used for others. Shusterman's premise is as disturbing as W.I.C.K.E.D.'s experiments, and the survival instinct equally desperate.", genre: 'sci-fi' },
+      { title: 'Red Rising', author: 'Pierce Brown', why: "A miner is infiltrated into the ruling class's brutal survival game — Hunger Games for adults. The same high-stakes competition and society designed to kill you, with more political complexity.", genre: 'sci-fi' },
+      { title: 'Wool', author: 'Hugh Howey', why: "People live in an underground silo, told the outside world is too toxic to survive. Howey's controlled-information dystopia has the same DNA as W.I.C.K.E.D. — what the people in charge know versus what the characters are allowed to discover.", genre: 'sci-fi' },
+    ],
+  },
+  {
+    slug: 'red-queen',
+    sourceTitle: 'Red Queen',
+    sourceShortName: 'Red Queen',
+    tagline: 'Blood divides the world — until a Red girl discovers she doesn\'t fit the rules',
+    description: "Victoria Aveyard's Red Queen divides humanity by blood — Silvers with superhuman abilities rule over Reds who serve them. Mare Barrow is Red, but when she discovers she has Silver-level powers she can't explain, she's thrust into the Silver court with a cover story and a deadly secret. The betrayal twists, political court games, and slow unraveling of everything Mare thought she understood are what these eight picks deliver.",
+    keywords: [
+      'books like Red Queen',
+      'books like Victoria Aveyard',
+      'YA dystopia fantasy with betrayal',
+      'class divided society books YA',
+    ],
+    recommendations: [
+      { title: 'The Hunger Games', author: 'Suzanne Collins', why: "A girl from the underclass forced to perform for the ruling elite — with a revolution building under the surface. The political DNA of Red Queen comes directly from Katniss's world.", genre: 'fiction' },
+      { title: 'An Ember in the Ashes', author: 'Sabaa Tahir', why: "A Roman-inspired empire where Scholar slaves serve Martial rulers, and two young people from opposite sides of the divide fall into forbidden connection. The closest book to Red Queen's blend of class war and romance.", genre: 'fantasy' },
+      { title: 'Shadow and Bone', author: 'Leigh Bardugo', why: "A girl from the common class discovers extraordinary power — and is immediately swept into the court of those who want to use her. The political trap and morally complex love interest are essential Red Queen ingredients.", genre: 'fantasy' },
+      { title: 'Three Dark Crowns', author: 'Kendare Blake', why: "Three queens — each with a different power — compete to rule an island kingdom, with only one surviving. The court intrigue and betrayals within family map directly onto Red Queen's best moments.", genre: 'fantasy' },
+      { title: 'Shatter Me', author: 'Tahereh Mafi', why: "A girl whose touch kills has been locked away by the regime — until she's pulled out for use as a weapon. The power-as-danger theme and soldier love interest echo Red Queen closely.", genre: 'fiction' },
+      { title: 'A Court of Thorns and Roses', author: 'Sarah J. Maas', why: "For Red Queen fans ready for adult romantasy — a girl captured by a world of power and politics, a morally complex love interest, and a system designed to control her. The natural next step.", genre: 'fantasy' },
+      { title: 'Legend', author: 'Marie Lu', why: "Two characters who are stars of opposite sides of a class-divided society, told from alternating POVs — until they discover they're aligned against the same system. Mare Barrow fans almost always love June and Day.", genre: 'fiction' },
+      { title: 'Selection', author: 'Kiera Cass', why: "America Singer enters a competition to become the prince's bride — a dystopia built around a televised romance competition with strict caste rules. Lighter than Red Queen but appeals to the same readers who love political courts.", genre: 'romance' },
+    ],
+  },
 ];
 
 export function getBooksLike(slug: string): BooksLikeEntry | undefined {
