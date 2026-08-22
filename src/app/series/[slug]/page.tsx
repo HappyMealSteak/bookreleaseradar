@@ -8,6 +8,7 @@ import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { authorSlug } from '@/lib/utils';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
 
@@ -225,6 +226,8 @@ export default async function SeriesPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      <NewsletterSignup />
     </>
   );
 }
