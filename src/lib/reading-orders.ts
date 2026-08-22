@@ -928,6 +928,23 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What is An Ember in the Ashes inspired by?', a: "Sabaa Tahir drew on ancient Rome for the empire's military structure and brutality, Mughal and Afghan culture for the Scholar people, and the ongoing realities of racial oppression and occupation for the series' emotional core. The world is not a direct historical analogue but draws heavily from multiple real-world sources." },
     ],
   },
+  {
+    slug: 'scythe',
+    intro: "Neal Shusterman's Arc of a Scythe trilogy imagines a world where disease and war have been eliminated by an AI called the Thunderhead, and the only remaining death is by gleaning — administered by an order of Scythes. The trilogy is complete at 3 books and must be read in order, as the story follows a continuous arc. There is also a novella collection, Gleanings, set within the same world.",
+    startWith: 'Scythe',
+    books: [
+      { title: 'Scythe', author: 'Neal Shusterman', year: 2016, note: 'Book 1 — Two teenagers are apprenticed to a Scythe and discover the institution is fracturing' },
+      { title: 'Thunderhead', author: 'Neal Shusterman', year: 2018, note: 'Book 2 — The benevolent AI observes the Scythedom\'s corruption; Rowan goes rogue' },
+      { title: 'The Toll', author: 'Neal Shusterman', year: 2019, note: 'Book 3 — Three years later; Citra and Rowan face the final reckoning with the Scythedom' },
+      { title: 'Gleanings', author: 'Neal Shusterman & various authors', year: 2022, note: 'Novella collection — stories from other characters and corners of the Scythedom world; best read after the trilogy', isOptional: true },
+    ],
+    faq: [
+      { q: 'What is the Scythe reading order?', a: "Read in trilogy order: Scythe (2016) → Thunderhead (2018) → The Toll (2019). The novella collection Gleanings (2022) is optional and best read after the main trilogy. The trilogy is complete." },
+      { q: 'How many Scythe books are there?', a: "There are 3 main trilogy books (Scythe, Thunderhead, The Toll) and 1 novella collection (Gleanings). The Arc of a Scythe trilogy is complete. Neal Shusterman also wrote the Unwind series, which has thematically similar moral questions about bodily autonomy and societal control." },
+      { q: 'Is Scythe a standalone book?', a: "Scythe can technically be read as a standalone — the first book has a satisfying arc. However, the story continues and escalates significantly in Thunderhead and The Toll, and major plot threads from Scythe are not resolved until Book 3. Most readers who love Scythe read all three." },
+      { q: 'What age is Scythe appropriate for?', a: "Scythe is typically classified as YA (ages 12+), but it deals with themes of death, institutionalized killing, and political corruption that are more sophisticated than typical YA. It is one of the most philosophically ambitious YA novels of its decade and is widely read by adults as well as teenagers." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

@@ -672,6 +672,22 @@ export const SERIES: SeriesDefinition[] = [
       'Sabaa Tahir series order',
     ],
   },
+  {
+    slug: 'scythe',
+    name: 'Arc of a Scythe',
+    shortName: 'Scythe',
+    author: 'Neal Shusterman',
+    authorQuery: 'Neal Shusterman',
+    genre: 'sci-fi',
+    description:
+      "Neal Shusterman's Arc of a Scythe trilogy is set in a post-mortal world where disease and war have been eliminated by a benevolent AI called the Thunderhead, and an order of Scythes administers the only remaining death to control population. Two teenagers are apprenticed to a Scythe in Book 1 and discover the institution is being corrupted from within. The series is a philosophical YA thriller that asks what the value of human life is when it has been stripped of natural death — and what happens when the people who decide who dies gain absolute power.",
+    searchTerms: [
+      'Neal Shusterman new book',
+      'Scythe reading order',
+      'Arc of a Scythe order',
+      'Scythe books in order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {
