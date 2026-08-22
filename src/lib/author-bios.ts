@@ -414,6 +414,12 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'romance',
     knownFor: ['Twilight', 'New Moon', 'Eclipse', 'Breaking Dawn', 'The Host', 'Midnight Sun'],
   },
+  {
+    name: 'Kendare Blake',
+    bio: "Kendare Blake is an American author of young adult fantasy known for the Three Dark Crowns series, a dark four-book saga set on a fictional island where every generation three triplet queens must fight to the death for the throne. Blake also wrote the Anna Dressed in Blood duology, a YA supernatural thriller about a teenage ghost hunter, and the Goddess War trilogy. Her work is known for its dark tone, morally complex female characters, and subversion of fairy-tale tropes. Three Dark Crowns was a New York Times bestseller and established Blake as a major voice in dark YA fantasy.",
+    genre: 'fantasy',
+    knownFor: ['Three Dark Crowns', 'One Dark Throne', 'Two Dark Reigns', 'Five Dark Fates', 'Anna Dressed in Blood'],
+  },
 ];
 
 function normalize(s: string) {
