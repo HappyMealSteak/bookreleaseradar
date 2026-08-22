@@ -288,6 +288,11 @@ export const metadata: Metadata = {
     'books like Miss Lonelyhearts Nathanael West',
     "books like It Can't Happen Here Sinclair Lewis",
     'books like Chocolat Joanne Harris',
+    'books like Lolita Vladimir Nabokov',
+    'books like The Talented Mr Ripley Patricia Highsmith',
+    'books like The Name of the Rose Umberto Eco',
+    'books like The Painted Bird Jerzy Kosiński',
+    'books like Blood Meridian Cormac McCarthy',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1600,6 +1605,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Chocolat by Joanne Harris?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Chocolat include Like Water for Chocolate by Laura Esquivel, The House of the Spirits by Isabel Allende, The No. 1 Ladies' Detective Agency by Alexander McCall Smith, Babette's Feast by Isak Dinesen, Captain Corelli's Mandolin by Louis de Bernières, The Shadow of the Wind by Carlos Ruiz Zafón, Cranford by Elizabeth Gaskell, and The Particular Sadness of Lemon Cake by Aimee Bender. Our full guide covers 8 picks for fans of Harris's magical chocolate fable." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lolita by Vladimir Nabokov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lolita include Pale Fire (also by Nabokov), The Talented Mr. Ripley by Patricia Highsmith, The Remains of the Day by Kazuo Ishiguro, American Psycho by Bret Easton Ellis, Notes from Underground by Dostoevsky, The Collector by John Fowles, The Picture of Dorian Gray by Oscar Wilde, and Speak by Laurie Halse Anderson. Our full guide covers 8 picks for fans of Nabokov's morally complex masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Talented Mr. Ripley by Patricia Highsmith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Talented Mr. Ripley include Lolita by Vladimir Nabokov, the Ripley sequels by Patricia Highsmith, The Day of the Jackal by Frederick Forsyth, The Secret History by Donna Tartt, Brighton Rock by Graham Greene, A Simple Plan by Scott Smith, and The Killer Inside Me by Jim Thompson. Our full guide covers 8 picks for fans of Highsmith's amoral thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Name of the Rose by Umberto Eco?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Name of the Rose include Foucault's Pendulum (also by Eco), Pillars of the Earth by Ken Follett, The Historian by Elizabeth Kostova, The Seven Deaths of Evelyn Hardcastle by Stuart Turton, Baudolino by Umberto Eco, The Club Dumas by Arturo Pérez-Reverte, and An Instance of the Fingerpost by Iain Pears. Our full guide covers 8 picks for fans of Eco's medieval detective novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Painted Bird by Jerzy Kosiński?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Painted Bird include Night by Elie Wiesel, If This Is a Man by Primo Levi, Maus by Art Spiegelman, The Tin Drum by Günter Grass, The Shawl by Cynthia Ozick, This Way for the Gas Ladies and Gentlemen by Tadeusz Borowski, Suite Française by Irène Némirovsky, and The Reader by Bernhard Schlink. Our full guide covers 8 picks for fans of Kosiński's wartime novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Blood Meridian by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Blood Meridian include The Road (also by McCarthy), No Country for Old Men (McCarthy), Outer Dark (McCarthy), The Power of the Dog by Thomas Savage, True Grit by Charles Portis, Lonesome Dove by Larry McMurtry, Butcher's Crossing by John Williams, and The Crossing by Cormac McCarthy. Our full guide covers 8 picks for fans of McCarthy's frontier masterpiece." },
     },
   ],
 };
