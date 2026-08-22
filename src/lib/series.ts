@@ -752,6 +752,54 @@ export const SERIES: SeriesDefinition[] = [
       'Tomi Adeyemi next book',
     ],
   },
+  {
+    slug: 'matched',
+    name: 'Matched Trilogy',
+    shortName: 'Matched',
+    author: 'Ally Condie',
+    authorQuery: 'Ally Condie',
+    genre: 'fiction',
+    description:
+      "Ally Condie's Matched trilogy is set in the Society — a future civilization that controls every aspect of citizens' lives, including who they love. Cassia Reyes has always trusted the Society's Matching system, which pairs citizens with their ideal lifelong partner. But when Cassia's Match data shows two faces — her best friend Xander and the mysterious Ky Markham — she begins to question the Society's control for the first time. The trilogy launched alongside The Hunger Games and Divergent as one of the defining YA dystopian series of the early 2010s.",
+    searchTerms: [
+      'Ally Condie new book',
+      'Matched reading order',
+      'Matched trilogy books in order',
+      'Matched series order',
+    ],
+  },
+  {
+    slug: 'three-dark-crowns',
+    name: 'Three Dark Crowns',
+    shortName: 'Three Dark Crowns',
+    author: 'Kendare Blake',
+    authorQuery: 'Kendare Blake',
+    genre: 'fantasy',
+    description:
+      "Kendare Blake's Three Dark Crowns series is set on the island of Fennbirn, where every generation three triplet queens are born — each with a different power — and they must fight each other to the death to claim the crown. Katharine is the poisoner, immune to all poisons; Mirabella commands the elements; Arsinoe has a wild nature power. As the Quickening approaches, alliances form, betrayals multiply, and the island's darkest secrets surface. The four-book series is one of the most inventive dark YA fantasy series of the 2010s.",
+    searchTerms: [
+      'Kendare Blake new book',
+      'Three Dark Crowns reading order',
+      'Three Dark Crowns series order',
+      'Three Dark Crowns books in order',
+    ],
+  },
+  {
+    slug: 'warcross',
+    name: 'Warcross',
+    shortName: 'Warcross',
+    author: 'Marie Lu',
+    authorQuery: 'Marie Lu',
+    genre: 'sci-fi',
+    description:
+      "Marie Lu's Warcross duology is set in a near-future world where a virtual reality game called Warcross has become the world's most popular sport and pastime, with billions of players. Emika Chen is a teenage bounty hunter who accidentally glitches into the opening ceremony of the Warcross Championships — and is immediately recruited by the game's reclusive billionaire creator Hideo Tanaka to go undercover in the tournament and find a hacker. The duology combines high-stakes action with Lu's signature dual-POV storytelling and a twisty conspiracy thriller.",
+    searchTerms: [
+      'Marie Lu new book',
+      'Warcross reading order',
+      'Warcross books in order',
+      'Warcross duology order',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

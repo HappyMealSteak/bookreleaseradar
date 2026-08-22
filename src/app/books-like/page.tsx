@@ -50,6 +50,9 @@ export const metadata: Metadata = {
     'books like The Giver Lois Lowry',
     'books like Children of Blood and Bone',
     'books like Unwind Neal Shusterman',
+    'books like Matched Ally Condie',
+    'books like Three Dark Crowns Kendare Blake',
+    'books like Warcross Marie Lu',
     'feminist dystopia books',
     'dragon fantasy books',
     'YA dystopia books',
@@ -151,6 +154,21 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read after An Ember in the Ashes?',
       acceptedAnswer: { '@type': 'Answer', text: 'After An Ember in the Ashes, readers love Red Queen by Victoria Aveyard, Shadow and Bone by Leigh Bardugo, Six of Crows by Leigh Bardugo, Children of Blood and Bone by Tomi Adeyemi, and The Cruel Prince by Holly Black. Our full Ember in the Ashes guide covers 8 picks.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Matched?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Matched by Ally Condie include Delirium by Lauren Oliver, The Selection by Kiera Cass, The Giver by Lois Lowry, Divergent by Veronica Roth, and The Hunger Games by Suzanne Collins. Our full Matched guide covers 8 picks for fans of dystopian romance and controlled societies." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Three Dark Crowns?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Three Dark Crowns include Red Queen by Victoria Aveyard, An Ember in the Ashes by Sabaa Tahir, The Cruel Prince by Holly Black, Shadow and Bone by Leigh Bardugo, and Children of Blood and Bone by Tomi Adeyemi. Our full Three Dark Crowns guide has 8 dark fantasy picks for fans of lethal queens and court intrigue." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Warcross?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Warcross by Marie Lu include Legend (also by Marie Lu), The Hunger Games, Ready Player One, Ender's Game, Red Queen, and The Young Elites. Our full Warcross guide covers 8 picks for fans of high-stakes VR competition and morally complex romance." },
     },
     {
       '@type': 'Question',

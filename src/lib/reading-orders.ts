@@ -1011,6 +1011,54 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'What mythology is Children of Blood and Bone based on?', a: "Children of Blood and Bone draws heavily on Yoruba mythology and West African culture, particularly Nigerian history and folklore. Author Tomi Adeyemi drew on her own Nigerian heritage and conducted extensive research into Yoruba religious and mythological traditions to create the world of Orïsha." },
     ],
   },
+  {
+    slug: 'matched',
+    intro: "Ally Condie's Matched trilogy is a complete dystopian romance trilogy set in the Society — a future civilization that controls every aspect of citizens' lives, including who they marry (their Match). The series follows Cassia Reyes, who begins to question the Society's perfect order when she falls for someone other than her Matched partner. All three books should be read in order.",
+    startWith: 'Matched',
+    books: [
+      { title: 'Matched', author: 'Ally Condie', year: 2010, note: 'Book 1 — Cassia is Matched with her best friend Xander, but then sees another face on her card' },
+      { title: 'Crossed', author: 'Ally Condie', year: 2011, note: 'Book 2 — Cassia escapes the Society to find Ky in the Outer Provinces' },
+      { title: 'Reached', author: 'Ally Condie', year: 2012, note: 'Book 3 — The Rising begins; all three POVs converge for the finale' },
+    ],
+    faq: [
+      { q: 'What is the Matched reading order?', a: "Read Matched (2010), then Crossed (2011), then Reached (2012). The trilogy must be read in order — each book ends on a cliffhanger resolved in the next." },
+      { q: 'How many Matched books are there?', a: "Ally Condie's Matched series is a complete trilogy: Matched (2010), Crossed (2011), and Reached (2012). There are also two short novellas — Xander's Choice and Ky's Story — which are optional companion pieces." },
+      { q: 'Is Matched similar to The Hunger Games?', a: "Matched shares the YA dystopia genre with The Hunger Games but focuses far more on romance and the emotional experience of living under a controlling government than on action and survival. If you loved the Hunger Games but want more romance and less violence, Matched is a perfect next read." },
+      { q: 'Is Matched a standalone or series?', a: "Matched is the first book in a trilogy. It ends on a cliffhanger, so you will need to continue with Crossed and Reached for the full story." },
+    ],
+  },
+  {
+    slug: 'three-dark-crowns',
+    intro: "Kendare Blake's Three Dark Crowns is a complete four-book YA dark fantasy series. On the island of Fennbirn, every generation three triplet queens are born, each with a different power, and they must kill each other to claim the throne. The series is brutal, twisty, and best read in order — each book recontextualizes what came before.",
+    startWith: 'Three Dark Crowns',
+    books: [
+      { title: 'Three Dark Crowns', author: 'Kendare Blake', year: 2016, note: 'Book 1 — Meet the three sisters: poisoner Katharine, elemental Mirabella, and naturalist Arsinoe' },
+      { title: 'One Dark Throne', author: 'Kendare Blake', year: 2017, note: 'Book 2 — The Quickening begins; alliances form and first blood is drawn' },
+      { title: 'Two Dark Reigns', author: 'Kendare Blake', year: 2018, note: 'Book 3 — A fourth queen emerges; the island\'s history is rewritten' },
+      { title: 'Five Dark Fates', author: 'Kendare Blake', year: 2019, note: 'Book 4 — The final battle for the throne; all fates converge' },
+    ],
+    faq: [
+      { q: 'What is the Three Dark Crowns reading order?', a: "Read Three Dark Crowns (2016), One Dark Throne (2017), Two Dark Reigns (2018), and Five Dark Fates (2019). All four books must be read in order — the series has major plot twists that build on each book." },
+      { q: 'How many Three Dark Crowns books are there?', a: "The Three Dark Crowns series by Kendare Blake is a complete four-book series: Three Dark Crowns, One Dark Throne, Two Dark Reigns, and Five Dark Fates. The series is fully published with no further books planned." },
+      { q: 'Is Three Dark Crowns similar to Red Queen?', a: "Three Dark Crowns and Red Queen both feature class power dynamics and women fighting for power in a corrupt system. Three Dark Crowns is darker and more focused on court intrigue, magic, and sisterhood, while Red Queen has more action and romance. Fans of one typically love the other." },
+      { q: 'Is Three Dark Crowns a standalone?', a: "No — Three Dark Crowns is the first book in a four-book series by Kendare Blake. The first book ends on a significant cliffhanger and the story is not complete until Five Dark Fates." },
+    ],
+  },
+  {
+    slug: 'warcross',
+    intro: "Marie Lu's Warcross duology is a complete two-book YA sci-fi series set in a near-future world dominated by the Warcross virtual reality game. Emika Chen is a bounty hunter who accidentally hacks her way into the game's global championship — and is recruited by the game's billionaire creator to go undercover. The duology must be read in order.",
+    startWith: 'Warcross',
+    books: [
+      { title: 'Warcross', author: 'Marie Lu', year: 2017, note: 'Book 1 — Emika accidentally glitches into the Warcross championships and is recruited as a spy' },
+      { title: 'Wildcard', author: 'Marie Lu', year: 2018, note: 'Book 2 — Emika goes deeper into the conspiracy behind Warcross; the duology conclusion' },
+    ],
+    faq: [
+      { q: 'What is the Warcross reading order?', a: "Read Warcross (2017) first, then Wildcard (2018). Warcross is a complete two-book duology by Marie Lu — read both books in order for the full story." },
+      { q: 'How many Warcross books are there?', a: "Warcross is a duology by Marie Lu: Warcross (2017) and Wildcard (2018). Both books are published and the story is complete." },
+      { q: 'Is Warcross by the same author as Legend?', a: "Yes — both Warcross and Legend are by Marie Lu. If you loved Legend's dual-POV storytelling and high-stakes action, Warcross delivers a similar cinematic pace with a futuristic virtual reality setting instead of a post-apocalyptic world." },
+      { q: 'Is Warcross part of the Legend series?', a: "No — Warcross and Legend are separate series by Marie Lu set in entirely different worlds. Legend is a dystopian series with military themes; Warcross is a near-future sci-fi series about virtual reality gaming. They share Marie Lu's signature dual-POV storytelling and pacing, but are otherwise unconnected." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
