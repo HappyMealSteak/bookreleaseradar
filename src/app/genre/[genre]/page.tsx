@@ -5,6 +5,7 @@ import BookGrid from '@/components/BookGrid';
 import { getBooksByGenre, getBookCountByGenre } from '@/lib/db';
 import { GENRES, GENRE_LABELS, GENRE_DESCRIPTIONS, type Genre } from '@/lib/types';
 import { SERIES } from '@/lib/series';
+import NewsletterSignup from '@/components/NewsletterSignup';
 
 const GENRE_FAQS: Record<Genre, Array<{ q: string; a: string }>> = {
   fantasy: [
@@ -193,6 +194,8 @@ export default async function GenrePage({ params }: Props) {
         </Link>
       </div>
     </div>
+
+    <NewsletterSignup />
     </>
   );
 }
