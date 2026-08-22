@@ -2168,6 +2168,76 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is the film adaptation of The Lovely Bones good?', a: "The Lovely Bones was adapted into a film by Peter Jackson in 2009, starring Saoirse Ronan as Susie, Rachel Weisz, Mark Wahlberg, and Stanley Tucci. The adaptation received mixed reviews; Stanley Tucci received an Academy Award nomination for his portrayal of the killer. Most readers found the visual representation of Susie's heaven the least successful element of the adaptation." },
     ],
   },
+  {
+    slug: 'homegoing',
+    intro: "Yaa Gyasi's Homegoing (2016) is a complete standalone novel. There is no sequel. The novel follows two half-sisters in 18th-century Ghana — Effia, who marries a British colonial officer, and Esi, who is sold into the Atlantic slave trade — and then traces each sister's lineage through eight chapters, one per generation, from the 1750s through contemporary Harlem. Each chapter follows a new descendant, a new historical moment, and a new dimension of what the slave trade and its aftermath produce across centuries.",
+    startWith: 'Homegoing',
+    books: [
+      { title: 'Homegoing', author: 'Yaa Gyasi', year: 2016, note: "Standalone — two half-sisters in 18th-century Ghana begin a family history Gyasi traces through eight generations across two continents; a debut novel" },
+    ],
+    faq: [
+      { q: 'Is Homegoing a standalone?', a: "Yes — Homegoing is a complete standalone novel. Yaa Gyasi's second novel, Transcendent Kingdom (2020), is an entirely independent standalone about a neuroscience PhD student and her relationship with her mother." },
+      { q: 'Is Homegoing hard to follow with so many characters?', a: "Homegoing introduces a new protagonist in each of its fourteen chapters — one per generation per lineage — which means the cast is always changing. Most readers find that the chapter structure (each a complete story in itself) makes the individual characters vivid enough that the transitions are natural rather than confusing. A family tree at the front of the book helps track the lineages." },
+      { q: 'Is Homegoing historical fiction?', a: "Homegoing spans from the 1750s through the early 21st century, which makes most of it historical fiction. But Gyasi's interest is not in documenting history as such — each chapter is a short story about a specific person in a specific historical moment, and the accumulated effect is about how history lives in individual lives across generations rather than about history as an archive of events." },
+      { q: 'How does Homegoing relate to Colson Whitehead and Toni Morrison?', a: "Homegoing, The Underground Railroad, and Beloved are the three most discussed contemporary novels about the African Atlantic world and American slavery. Homegoing begins in Ghana and traces both sides of the slave trade across the full Atlantic arc; The Underground Railroad focuses on the escape from slavery; Beloved focuses on the psychological aftermath. Reading all three gives a comprehensive picture." },
+    ],
+  },
+  {
+    slug: 'pachinko',
+    intro: "Min Jin Lee's Pachinko (2017) is a complete standalone novel. There is no sequel. The novel follows a Korean family across four generations — from Sunja's girlhood in early-20th-century Japanese-occupied Korea through her grandson Solomon's life in 1980s Japan — organized around the premise that to be Korean in Japan is to be permanently defined by others' perception of you regardless of who you actually are. Pachinko was a finalist for the National Book Award and one of the most discussed literary novels of 2017.",
+    startWith: 'Pachinko',
+    books: [
+      { title: 'Pachinko', author: 'Min Jin Lee', year: 2017, note: "Standalone — a Korean family across four generations in Japanese-occupied Korea and Japan, from the 1910s through the 1980s; a National Book Award finalist about identity, survival, and what gets passed down" },
+    ],
+    faq: [
+      { q: 'Is Pachinko a standalone?', a: "Yes — Pachinko is a complete standalone novel. Min Jin Lee's debut novel, Free Food for Millionaires (2007), is an earlier entirely independent standalone." },
+      { q: 'What does pachinko mean in the novel?', a: "Pachinko is a Japanese gambling parlor game — a form of pinball-slot machine hybrid — that was one of the few industries Zainichi Koreans (Koreans living in Japan) were allowed to enter during the novel's historical period. The game is partly a symbol of the narrow options available to the characters, and partly a literal business that the family enters. It has the reputation of being low-status and the reality of being profitable — an apt metaphor for the family's position in Japanese society." },
+      { q: 'How long is Pachinko?', a: "Pachinko is approximately 490 pages and covers about 70 years of the Sunja family's history across four generations. Min Jin Lee spent decades researching and writing it — she has said she worked on the novel for nearly 30 years in different forms before publication." },
+      { q: 'Is Pachinko being adapted?', a: "Yes — Pachinko was adapted into a television series for Apple TV+, premiering in 2022. The series was praised for its performances and its visual approach to the material; it was renewed for a second season. The series presents the story non-linearly, cutting between the 1910s and 1980s timelines." },
+    ],
+  },
+  {
+    slug: 'all-the-light-we-cannot-see',
+    intro: "Anthony Doerr's All the Light We Cannot See (2014) is a complete standalone novel. There is no sequel. The novel follows two characters in parallel: Marie-Laure, a blind French girl who escapes Paris when the Germans invade with her father — a locksmith at the Natural History Museum — who carries a legendary diamond, and Werner, a German orphan boy with a talent for radio who is recruited into the Nazi military. The two characters move toward each other through the war. All the Light We Cannot See won the Pulitzer Prize for Fiction in 2015.",
+    startWith: 'All the Light We Cannot See',
+    books: [
+      { title: 'All the Light We Cannot See', author: 'Anthony Doerr', year: 2014, note: "Standalone — a blind French girl and a German orphan move toward each other through World War II, connected by a legendary diamond and a radio; Pulitzer Prize winner" },
+    ],
+    faq: [
+      { q: 'Is All the Light We Cannot See a standalone?', a: "Yes — All the Light We Cannot See is a complete standalone novel. Anthony Doerr has also written Cloud Cuckoo Land (2021), an entirely independent novel, and several short story collections." },
+      { q: 'Is All the Light We Cannot See accurate historically?', a: "All the Light We Cannot See is a work of fiction set against a historically accurate backdrop — the German occupation of France, the liberation of Saint-Malo, the specific geography of the city and the German military organization. The characters are fictional, but the historical events they move through are meticulously researched." },
+      { q: 'Is All the Light We Cannot See difficult to read?', a: "All the Light We Cannot See uses very short chapters — some as short as a page — and two parallel timelines that begin in different years and converge toward the end. Some readers find this structure initially disorienting; most find it creates a natural momentum. The prose is accessible and was designed to be read widely rather than as a narrow literary challenge." },
+      { q: 'Is All the Light We Cannot See being adapted?', a: "Yes — All the Light We Cannot See was adapted as a Netflix limited series in 2023, starring Aria Mia Loberti and Louis Hofmann. The series received mixed reviews; most critics felt the adaptation compressed and simplified the novel's structure. Doerr wrote an episode of the series himself." },
+    ],
+  },
+  {
+    slug: 'a-gentleman-in-moscow',
+    intro: "Amor Towles's A Gentleman in Moscow (2016) is a complete standalone novel. There is no sequel. In 1922, Count Alexander Rostov is sentenced to house arrest in Moscow's Metropol Hotel by a Bolshevik tribunal — sentenced to live the rest of his life in the hotel's attic room rather than shot, because of a poem he wrote before the Revolution. The novel follows the count across the following 32 years as Russia changes around him and he builds a full life within the hotel's walls.",
+    startWith: 'A Gentleman in Moscow',
+    books: [
+      { title: 'A Gentleman in Moscow', author: 'Amor Towles', year: 2016, note: "Standalone — Count Alexander Rostov is sentenced to house arrest in Moscow's Metropol Hotel in 1922 and must build a full life within its walls across the following 32 years of Soviet history" },
+    ],
+    faq: [
+      { q: 'Is A Gentleman in Moscow a standalone?', a: "Yes — A Gentleman in Moscow is a complete standalone novel. Amor Towles has written other standalone novels (Rules of Civility, The Lincoln Highway), but A Gentleman in Moscow is entirely independent." },
+      { q: 'Do you need to know Russian history to read A Gentleman in Moscow?', a: "No. A Gentleman in Moscow is a character novel first — the Count's wit, his values, his friendships, and his ability to make a rich interior life within severe constraints are the novel's subject. Russian history from the 1920s through the 1950s forms the backdrop, and Towles builds in enough context that the story works without prior knowledge." },
+      { q: 'Is A Gentleman in Moscow sad?', a: "A Gentleman in Moscow is primarily a warm and humane novel — it believes in manners, friendship, beauty, and the pleasures of a well-made life, and the Count embodies these beliefs even in constraint. It deals with loss, with the passage of time, and with what happens to people under a totalitarian system, but it is not a dark book. Most readers describe it as the best novel they've read for making them feel that life is worth living." },
+      { q: 'Is A Gentleman in Moscow being adapted?', a: "Yes — A Gentleman in Moscow was adapted as a Paramount+ / Sky Atlantic limited series in 2024, starring Ewan McGregor as Count Rostov. The series received positive reviews and was praised for McGregor's performance and the recreation of the Metropol Hotel's interior." },
+    ],
+  },
+  {
+    slug: 'room',
+    intro: "Emma Donoghue's Room (2010) is a complete standalone novel. There is no sequel. The novel is narrated by Jack, a five-year-old boy who has lived his entire life in a single 11x11 room — 'Room' — with his mother, who has been held captive for seven years by a man they call Old Nick. The novel follows Jack's experience of Room (which is his entire world, infinitely varied and sufficient) and then the outside world (which is overwhelming and incomprehensible), and his mother's recovery from what Room was for her. Room was shortlisted for the Man Booker Prize in 2010.",
+    startWith: 'Room',
+    books: [
+      { title: 'Room', author: 'Emma Donoghue', year: 2010, note: "Standalone — a five-year-old boy who has lived his entire life in a single room with his captive mother narrates his experience of Room and then the overwhelming outside world; Man Booker Prize shortlist" },
+    ],
+    faq: [
+      { q: 'Is Room a standalone?', a: "Yes — Room is a complete standalone novel with no sequel. Emma Donoghue has published many other novels (Slammerkin, The Wonder, Akin, Haven), but Room is entirely independent." },
+      { q: 'Is Room too dark to read?', a: "Room is about a kidnapping and extended captivity, but Donoghue chose to narrate it from Jack's five-year-old perspective, which means the horror is present but refracted through a consciousness that doesn't fully understand it. The novel is primarily about Jack's curiosity, his adaptation, and his love for his mother rather than about the violence of what was done to her. Most readers find it more life-affirming than disturbing, though the first third, which establishes the situation, is the most difficult." },
+      { q: 'Is Room based on a true story?', a: "Room is fiction, but Donoghue has said it was influenced by the Josef Fritzl case in Austria (2008), in which a woman was held captive in a basement for 24 years and had seven children with her captor, and other similar cases. The novel is not based on any specific case and is entirely invented." },
+      { q: 'Is the Room film adaptation worth watching?', a: "Room was adapted into a film in 2015, directed by Lenny Abrahamson and starring Brie Larson (who won the Academy Award for Best Actress) and Jacob Tremblay. The adaptation is widely considered one of the most successful literary adaptations of the decade — it preserves the first-person child's perspective that makes the novel distinctive and adds visual texture the prose cannot supply." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

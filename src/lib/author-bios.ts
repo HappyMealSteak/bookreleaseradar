@@ -708,6 +708,36 @@ const AUTHOR_BIOS: AuthorBio[] = [
     genre: 'fiction',
     knownFor: ['If We Were Villains'],
   },
+  {
+    name: 'Yaa Gyasi',
+    bio: "Yaa Gyasi is a Ghanaian-American novelist born in Mampong, Ghana in 1989 and raised in Huntsville, Alabama. Her debut novel Homegoing (2016), written while she was at the Iowa Writers' Workshop, won the National Book Critics Circle's John Leonard Award for best debut, the PEN/Hemingway Award, the Vilcek Prize for Creative Promise in Literature, and several other honors; it was also a finalist for the National Book Award and the PEN/Faulkner Award. Her second novel, Transcendent Kingdom (2020), was a finalist for the Booker Prize and has been translated into over 30 languages. Gyasi is known for her structural ambition — Homegoing spans 300 years and 14 chapters — and her interest in what history does to individual lives across generations.",
+    genre: 'fiction',
+    knownFor: ['Homegoing', 'Transcendent Kingdom'],
+  },
+  {
+    name: 'Min Jin Lee',
+    bio: "Min Jin Lee is a Korean-American novelist born in Seoul, South Korea in 1968 and raised in New York City. She studied history at Yale and law at Georgetown before turning to fiction. Her debut novel, Free Food for Millionaires (2007), was a New York Times Notable Book. Her second novel, Pachinko (2017), spent years in research and drafting, was a finalist for the National Book Award, and was selected as one of the best novels of 2017 by more than 100 publications. Pachinko was adapted into an Apple TV+ series premiering in 2022. Lee is known for her detailed research into the lives of communities she portrays — particularly the Zainichi Korean community in Japan — and for her belief that fiction can illuminate what history alone cannot show.",
+    genre: 'fiction',
+    knownFor: ['Pachinko', 'Free Food for Millionaires'],
+  },
+  {
+    name: 'Anthony Doerr',
+    bio: "Anthony Doerr is an American novelist and short story writer from Cleveland, Ohio who won the Pulitzer Prize for Fiction in 2015 for All the Light We Cannot See (2014), which had taken him ten years to write. The novel also won the Carnegie Medal for Excellence in Fiction. His earlier work includes the short story collections The Shell Collector (2002) and Memory Wall (2010), both of which won multiple awards, and a novel, About Grace (2004). His third novel, Cloud Cuckoo Land (2021), weaves together stories across multiple centuries and won the Carnegie Medal. Doerr is known for his lyrical prose, his meticulous research, and his interest in science, light, and the physical world as subjects for literary fiction.",
+    genre: 'fiction',
+    knownFor: ['All the Light We Cannot See', 'Cloud Cuckoo Land', 'The Shell Collector'],
+  },
+  {
+    name: 'Amor Towles',
+    bio: "Amor Towles is an American novelist who spent many years as an investment professional before publishing his debut novel, Rules of Civility (2011). His second novel, A Gentleman in Moscow (2016), became one of the best-selling literary novels of the decade, spending years on bestseller lists around the world and selling over 3 million copies in the US alone. It was adapted into a Paramount+ / Sky Atlantic miniseries in 2024, starring Ewan McGregor. His third novel, The Lincoln Highway (2021), debuted at number one on the New York Times bestseller list. Towles is known for his elegant prose, his wit, his period detail, and his warmly humanist philosophy — a rare literary novelist whose work is simultaneously critically respected and enormously popular.",
+    genre: 'fiction',
+    knownFor: ['A Gentleman in Moscow', 'Rules of Civility', 'The Lincoln Highway'],
+  },
+  {
+    name: 'Emma Donoghue',
+    bio: "Emma Donoghue is an Irish-Canadian novelist, playwright, and literary historian born in Dublin in 1969. She is best known for Room (2010), which was shortlisted for the Man Booker Prize and the Orange Prize and was adapted into an Academy Award–winning film (2015) with Brie Larson and Jacob Tremblay. Room's premise — narrated entirely by a five-year-old who has spent his whole life in a single room — was inspired by the Josef Fritzl case and other captivity cases. Donoghue has also written historical fiction (Slammerkin, The Wonder, Akin, Haven), a study of lesbian novels (Passions Between Women), and several plays. She holds a PhD in English from Cambridge and has written extensively on Jane Austen.",
+    genre: 'fiction',
+    knownFor: ['Room', 'The Wonder', 'Akin'],
+  },
 ];
 
 function normalize(s: string) {

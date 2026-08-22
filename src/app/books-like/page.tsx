@@ -127,6 +127,11 @@ export const metadata: Metadata = {
     'books like The Vanishing Half Brit Bennett',
     'books like If We Were Villains ML Rio',
     'books like The Lovely Bones Alice Sebold',
+    'books like Homegoing Yaa Gyasi',
+    'books like Pachinko Min Jin Lee',
+    'books like All the Light We Cannot See Anthony Doerr',
+    'books like A Gentleman in Moscow Amor Towles',
+    'books like Room Emma Donoghue',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -629,6 +634,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Lovely Bones by Alice Sebold?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Lovely Bones include A Little Life by Hanya Yanagihara, The Secret History by Donna Tartt, Where the Crawdads Sing by Delia Owens, Room by Emma Donoghue, The Virgin Suicides by Jeffrey Eugenides, and Lucky (also by Sebold). Our full guide covers 8 picks for fans of grief fiction and novels narrated from unusual positions after a death." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Homegoing by Yaa Gyasi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Homegoing include Transcendent Kingdom (also by Gyasi), Beloved by Toni Morrison, The Underground Railroad by Colson Whitehead, The Vanishing Half by Brit Bennett, Roots by Alex Haley, Song of Solomon by Toni Morrison, and An American Marriage by Tayari Jones. Our full guide covers 8 picks for fans of multigenerational sagas about the African Atlantic world." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pachinko by Min Jin Lee?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pachinko include Homegoing by Yaa Gyasi, The Joy Luck Club by Amy Tan, A Gentleman in Moscow by Amor Towles, The Goldfinch by Donna Tartt, All the Light We Cannot See by Anthony Doerr, Shuggie Bain by Douglas Stuart, and Free Food for Millionaires (also by Min Jin Lee). Our full guide covers 8 picks for fans of multigenerational family sagas about identity and what gets passed down." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked All the Light We Cannot See by Anthony Doerr?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like All the Light We Cannot See include The Nightingale by Kristin Hannah, A Gentleman in Moscow by Amor Towles, Cloud Cuckoo Land (also by Doerr), The Boy in the Striped Pajamas by John Boyne, The Tattooist of Auschwitz by Heather Morris, Beneath a Scarlet Sky by Mark Sullivan, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of WWII literary fiction and Pulitzer Prize historical fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Gentleman in Moscow by Amor Towles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Gentleman in Moscow include Rules of Civility and The Lincoln Highway (also by Towles), All the Light We Cannot See by Anthony Doerr, The Goldfinch by Donna Tartt, The Shadow of the Wind by Carlos Ruiz Zafón, The House of the Spirits by Isabel Allende, and The Count of Monte Cristo by Alexandre Dumas. Our full guide covers 8 picks for fans of warm, elegant historical fiction about dignity surviving constraint." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Room by Emma Donoghue?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Room include The Lovely Bones by Alice Sebold, A Little Life by Hanya Yanagihara, Shuggie Bain by Douglas Stuart, The Curious Incident of the Dog in the Night-Time by Mark Haddon, My Absolute Darling by Gabriel Tallent, and The Wonder (also by Emma Donoghue). Our full guide covers 8 picks for fans of unusual narrative perspectives on difficult subjects." },
     },
   ],
 };
