@@ -1469,6 +1469,78 @@ export const SERIES: SeriesDefinition[] = [
       'Kingdom of the Wicked series order',
     ],
   },
+  {
+    slug: 'spinning-silver',
+    name: 'Spinning Silver',
+    author: 'Naomi Novik',
+    authorQuery: 'Naomi Novik',
+    genre: 'fantasy',
+    description:
+      "Naomi Novik's Spinning Silver is a complete standalone dark fairy tale novel drawing on Russian and Jewish folklore. When Miryem discovers she can turn silver into gold through her skill as a moneylender, the Staryk king — a being of winter — takes notice. The novel retells elements of Rumpelstiltskin with multiple POV characters in a medieval Russia-inspired world, and won the Hugo Award for Best Novel.",
+    searchTerms: [
+      'Naomi Novik new book',
+      'Spinning Silver reading order',
+      'Spinning Silver sequel',
+    ],
+  },
+  {
+    slug: 'parable-of-the-sower',
+    name: 'Parable Series',
+    shortName: 'Parable',
+    author: 'Octavia Butler',
+    authorQuery: 'Octavia Butler',
+    genre: 'sci-fi',
+    description:
+      "Octavia Butler's Parable series is a two-book speculative fiction duology following Lauren Olamina, a Black teenager with hyperempathy, who survives the collapse of near-future California and builds a new community around a philosophy called Earthseed. The duology is considered one of the most prescient American science fiction works of the 20th century.",
+    searchTerms: [
+      'Octavia Butler new book',
+      'Parable of the Sower reading order',
+      'Parable series order',
+      'Octavia Butler books to read',
+    ],
+  },
+  {
+    slug: 'station-eleven',
+    name: 'Station Eleven',
+    author: 'Emily St. John Mandel',
+    authorQuery: 'Emily St. John Mandel',
+    genre: 'fiction',
+    description:
+      "Emily St. John Mandel's Station Eleven is a standalone literary fiction novel set 20 years after a flu pandemic kills most of the global population, following a traveling Shakespeare company in the Great Lakes region. The novel interweaves the post-pandemic present with the night before the pandemic — when a famous actor collapses on a Toronto stage.",
+    searchTerms: [
+      'Emily St. John Mandel new book',
+      'Station Eleven reading order',
+      'Station Eleven companion books',
+    ],
+  },
+  {
+    slug: 'midnight-library',
+    name: 'The Midnight Library',
+    author: 'Matt Haig',
+    authorQuery: 'Matt Haig',
+    genre: 'fiction',
+    description:
+      "Matt Haig's The Midnight Library is a standalone literary fiction novel about Nora Seed, who discovers at the moment of ending her life a library between life and death where every book is a version of the life she didn't live. The novel is a meditation on regret, alternate lives, and what we actually need to be content.",
+    searchTerms: [
+      'Matt Haig new book',
+      'Midnight Library reading order',
+      'Matt Haig books to read',
+    ],
+  },
+  {
+    slug: 'kindred',
+    name: 'Kindred',
+    author: 'Octavia Butler',
+    authorQuery: 'Octavia Butler',
+    genre: 'sci-fi',
+    description:
+      "Octavia Butler's Kindred is a standalone science fiction novel about Dana, a Black woman living in 1976 Los Angeles who is repeatedly transported back to antebellum Maryland — where she discovers she is compelled to protect a white slaveholder's son who may be her ancestor. The novel uses time travel to place a contemporary consciousness inside the experience of American slavery.",
+    searchTerms: [
+      'Octavia Butler new book',
+      'Kindred reading order',
+      'Octavia Butler books to read',
+    ],
+  },
 ];
 
 export function getSeriesBySlug(slug: string): SeriesDefinition | undefined {

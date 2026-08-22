@@ -97,6 +97,11 @@ export const metadata: Metadata = {
     'books like Left Hand of Darkness Ursula Le Guin',
     "books like Old Man's War John Scalzi",
     'books like Kingdom of the Wicked Kerri Maniscalco',
+    'books like Spinning Silver Naomi Novik',
+    'books like Parable of the Sower Octavia Butler',
+    'books like Station Eleven Emily Mandel',
+    'books like The Midnight Library Matt Haig',
+    'books like Kindred Octavia Butler',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -449,6 +454,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Kingdom of the Wicked?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Kingdom of the Wicked include The Folk of the Air by Holly Black, A Court of Thorns and Roses, Caraval by Stephanie Garber, Daughter of Smoke and Bone by Laini Taylor, An Ember in the Ashes by Sabaa Tahir, and City of Bones by Cassandra Clare. Our full Kingdom of the Wicked guide covers 8 gothic fantasy picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Spinning Silver by Naomi Novik?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Spinning Silver include Uprooted (also by Novik), A Deadly Education (also by Novik), The Bear and the Nightingale by Katherine Arden, Circe by Madeline Miller, and Jonathan Strange & Mr Norrell. Our full Spinning Silver guide covers 8 picks for fans of dark fairy tale fantasy with Eastern European folklore." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Parable of the Sower?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Parable of the Sower include Kindred (also by Butler), The Handmaid's Tale by Margaret Atwood, Station Eleven by Emily St. John Mandel, The Left Hand of Darkness by Ursula K. Le Guin, and The Road by Cormac McCarthy. Our full Parable guide covers 8 picks for fans of near-future cli-fi with female-led communities." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Station Eleven?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Station Eleven include The Glass Hotel and Sea of Tranquility (also by Mandel), Parable of the Sower by Octavia Butler, A Little Life by Hanya Yanagihara, The Road by Cormac McCarthy, and The Night Circus by Erin Morgenstern. Our full Station Eleven guide covers 8 literary fiction picks for fans of post-pandemic narrative." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Midnight Library?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Midnight Library include The Humans (also by Haig), Recursion by Blake Crouch, A Man Called Ove by Fredrik Backman, Eleanor Oliphant Is Completely Fine by Gail Honeyman, The First Fifteen Lives of Harry August, and The House in the Cerulean Sea. Our full Midnight Library guide covers 8 picks for fans of uplifting literary fiction about alternate lives." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kindred by Octavia Butler?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kindred include Parable of the Sower (also by Butler), The Underground Railroad by Colson Whitehead, Beloved by Toni Morrison, The Handmaid's Tale by Margaret Atwood, The Left Hand of Darkness by Ursula Le Guin, and Their Eyes Were Watching God by Zora Neale Hurston. Our full Kindred guide covers 8 picks for fans of speculative literary fiction examining race and history." },
     },
   ],
 };

@@ -1738,6 +1738,79 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Is Kingdom of the Wicked related to Stalking Jack the Ripper?', a: "Both series are by Kerri Maniscalco, but they are set in completely different worlds and have no shared characters or plot. Stalking Jack the Ripper is historical fiction set in Victorian London; Kingdom of the Wicked is supernatural fantasy set in 1888 Sicily." },
     ],
   },
+  {
+    slug: 'spinning-silver',
+    intro: "Naomi Novik's Spinning Silver (2018) is a complete standalone dark fantasy novel. There is no sequel. The novel is a fairy tale retelling drawing on the Rumpelstiltskin story and Russian folklore, following Miryem, a Jewish moneylender's daughter who discovers she can turn silver into gold — which attracts the attention of the Staryk king, a being of winter who has been taking girls who fail his test. The novel has multiple POV characters and is set in a medieval Russia-inspired world.",
+    startWith: 'Spinning Silver',
+    books: [
+      { title: 'Spinning Silver', author: 'Naomi Novik', year: 2018, note: "Standalone — Miryem discovers she can turn silver into gold, which attracts the Staryk king; multiple POV fairy tale retelling inspired by Russian Jewish folklore" },
+    ],
+    faq: [
+      { q: 'Is Spinning Silver a standalone?', a: "Yes — Spinning Silver is a complete standalone novel with no sequels or prequels. Naomi Novik has written other fantasy (Uprooted, the Scholomance trilogy), but Spinning Silver is entirely independent." },
+      { q: 'Is Spinning Silver a retelling of Rumpelstiltskin?', a: "Spinning Silver draws on the Rumpelstiltskin fairy tale — the idea of a girl who must spin straw into gold — but Novik transforms it significantly. Miryem turns silver into gold through her skill as a moneylender, not through magic, and the Staryk king is a far more developed figure than Rumpelstiltskin. The novel also draws heavily on Russian and Jewish folklore." },
+      { q: 'Is Spinning Silver similar to Uprooted?', a: "Both Spinning Silver and Uprooted are standalone dark fairy tales by Naomi Novik drawing on Eastern European folklore. Uprooted draws more on Polish folklore; Spinning Silver draws on Russian and Jewish folklore. Spinning Silver has a larger cast of POV characters and a more complex plot structure. Both won the Hugo Award for Best Novel." },
+      { q: 'Is Spinning Silver appropriate for all ages?', a: "Spinning Silver is dark fairy tale for adult readers — it deals with danger, violence (within the fairy tale register), and adult relationships. The novel is generally appropriate for readers 14 and up, with the caveat that the threats in the novel are genuinely threatening rather than softened." },
+    ],
+  },
+  {
+    slug: 'parable-of-the-sower',
+    intro: "Octavia Butler's Parable of the Sower is the first book in the Parable series — a two-book completed duology set in a near-future California that has collapsed under climate change and economic inequality. The series follows Lauren Olamina, a Black teenage girl with hyperempathy (she feels others' pain and pleasure as her own) who watches her walled neighborhood destroyed, begins walking north, and starts writing the philosophy that will become her new religion. The two books must be read in order.",
+    startWith: 'Parable of the Sower',
+    books: [
+      { title: 'Parable of the Sower', author: 'Octavia Butler', year: 1993, note: "Book 1 — Lauren Olamina survives the destruction of her neighborhood, walks north, and begins writing Earthseed" },
+      { title: 'Parable of the Talents', author: 'Octavia Butler', year: 1998, note: "Book 2 — Lauren's community faces the rise of a Christian nationalist movement; the Earthseed community must survive" },
+    ],
+    faq: [
+      { q: 'What is the Parable series reading order?', a: "Read Parable of the Sower (1993) first, then Parable of the Talents (1998). The two books must be read in order. Butler planned additional Parable books but died in 2006 before completing them. The duology is considered complete as a two-book story." },
+      { q: 'How many Parable books are there?', a: "The Parable series by Octavia Butler consists of two published novels: Parable of the Sower (1993) and Parable of the Talents (1998). Butler had planned a third book called Parable of the Trickster, but she died in 2006 before completing it." },
+      { q: 'Is Parable of the Sower science fiction or dystopia?', a: "Parable of the Sower is science fiction that reads as dystopian — set in 2024 (in the novel's timeline), Butler's near-future California is recognizable but collapsed under climate change, corporate power, and failed governance. The novel is striking to contemporary readers because its future looks more like the recent past than the far future." },
+      { q: 'What is Earthseed?', a: "Earthseed is the religion Lauren Olamina develops in Parable of the Sower. Its central tenet is 'God is Change' — meaning that change is the fundamental force of the universe and that human survival requires shaping it rather than resisting it. The goal of Earthseed is to take humans to the stars. Earthseed is an original and internally coherent philosophy, not a parody of existing religion." },
+    ],
+  },
+  {
+    slug: 'station-eleven',
+    intro: "Emily St. John Mandel's Station Eleven (2014) is a complete standalone literary fiction novel. There is a companion novel, The Glass Hotel (2020), that takes place in the same world and shares some characters, and a sequel, Sea of Tranquility (2022), that connects all three. All three can be read independently. Station Eleven is set 20 years after a flu pandemic kills most of the global population, following a traveling Shakespeare company in the Great Lakes region — and the night before the pandemic, when a famous actor collapses on a Toronto stage.",
+    startWith: 'Station Eleven',
+    books: [
+      { title: 'Station Eleven', author: 'Emily St. John Mandel', year: 2014, note: "Standalone — a traveling Shakespeare company 20 years after a flu pandemic, interwoven with the lives of people connected to an actor who died the night the pandemic began" },
+      { title: 'The Glass Hotel', author: 'Emily St. John Mandel', year: 2020, note: "Companion standalone — a Ponzi scheme, a remote hotel in British Columbia, and the people whose lives it connects; shares some characters with Station Eleven", isOptional: true },
+      { title: 'Sea of Tranquility', author: 'Emily St. John Mandel', year: 2022, note: "Connected standalone — links all three Mandel novels across centuries through a time-travel mystery", isOptional: true },
+    ],
+    faq: [
+      { q: 'Is Station Eleven a standalone?', a: "Yes — Station Eleven is a complete standalone novel. Emily St. John Mandel has since written The Glass Hotel (2020), which shares some characters with Station Eleven, and Sea of Tranquility (2022), which connects all three novels across time. All three can be read in any order or as standalones." },
+      { q: 'Is Station Eleven science fiction?', a: "Station Eleven is most commonly described as literary fiction or speculative fiction — it is set in a post-pandemic future but does not engage with the conventions of science fiction genre. It won the Arthur C. Clarke Award (a science fiction prize) but is primarily shelved in literary fiction. Readers who don't usually read science fiction consistently find it accessible." },
+      { q: 'Is Station Eleven appropriate for reading during or after a pandemic?', a: "Station Eleven has been described by many readers as both more and less difficult to read after COVID-19. The novel is fundamentally optimistic — about art, memory, community, and the human capacity to survive catastrophe — and most readers find it consoling rather than distressing. The pandemic in the novel is more complete than COVID-19 (most people die), which makes it feel more fictional than familiar." },
+      { q: 'Is the Station Eleven TV show based on the book?', a: "Yes — the Station Eleven HBO Max miniseries (2021, 10 episodes) is based directly on the novel and was adapted by Patrick Somerville. The show follows the novel's core structure and characters but expands significantly on several storylines. Mandel was a consultant on the adaptation. The show won several Emmy nominations and is considered one of the best TV adaptations of a literary novel." },
+    ],
+  },
+  {
+    slug: 'midnight-library',
+    intro: "Matt Haig's The Midnight Library (2020) is a complete standalone literary fiction novel. There is no sequel. The novel follows Nora Seed, who at 35 has given up on her life — and discovers, at the moment of ending it, a library between life and death where every book is a version of the life she didn't live. Each book represents a different choice she could have made. The novel is a meditation on regret, alternate lives, and what we actually need to be happy.",
+    startWith: 'The Midnight Library',
+    books: [
+      { title: 'The Midnight Library', author: 'Matt Haig', year: 2020, note: "Standalone — Nora Seed discovers the Midnight Library between life and death, where she can try the lives she didn't live" },
+    ],
+    faq: [
+      { q: 'Is The Midnight Library a standalone?', a: "Yes — The Midnight Library is a complete standalone novel with no sequels or prequels. Matt Haig has written other novels and nonfiction (Reasons to Stay Alive, The Humans, How to Stop Time), but The Midnight Library is entirely independent." },
+      { q: 'Is The Midnight Library appropriate for readers with mental health challenges?', a: "The Midnight Library deals directly with suicidal ideation and the desire to no longer exist. The novel treats these topics with care and uses them to arrive at an ultimately affirmative argument about the value of continued life. Many readers with mental health challenges find it meaningful; others find it difficult. Content warnings for suicidal ideation and depression are appropriate." },
+      { q: 'Is The Midnight Library science fiction or literary fiction?', a: "The Midnight Library is most commonly described as literary fiction or contemporary fiction — it uses a speculative premise (the library between life and death) but is shelved in literary fiction and does not engage with science fiction genre conventions. It is closely related to the parallel-lives sub-genre that includes works like One Day in December and The First Fifteen Lives of Harry August." },
+      { q: 'What is the message of The Midnight Library?', a: "The Midnight Library argues that the life you are living, with all its failures and wrong turns, has possibilities you can't see from the middle of it — and that regret is often based on an incomplete picture of what would have happened in the alternate version. The novel is fundamentally about the value of the particular life you have, rather than the abstract life you wish you had." },
+    ],
+  },
+  {
+    slug: 'kindred',
+    intro: "Octavia Butler's Kindred (1979) is a complete standalone science fiction novel. There is no sequel. The novel follows Dana, a Black woman living in Los Angeles in 1976, who is suddenly and without explanation transported back to antebellum Maryland — where she discovers she is being pulled back by Rufus, a white slaveholder's son whose life she is compelled to save. Dana must survive 1815 Maryland repeatedly, returning to the present each time she or Rufus are in danger, while discovering the origins of her own family.",
+    startWith: 'Kindred',
+    books: [
+      { title: 'Kindred', author: 'Octavia Butler', year: 1979, note: "Standalone — Dana, a modern Black woman, is repeatedly transported to 1815 Maryland, where she must protect a white slaveholder's son who may be her ancestor" },
+    ],
+    faq: [
+      { q: 'Is Kindred a standalone?', a: "Yes — Kindred is a complete standalone novel with no sequels, prequels, or related books required. Octavia Butler has written other science fiction (the Parable series, the Patternist series, Bloodchild), but Kindred is entirely independent." },
+      { q: 'Is Kindred science fiction?', a: "Kindred uses a science fiction premise (time travel) but does not explain the mechanism or engage with science fiction genre conventions. Butler called it 'a kind of grim fantasy.' It is widely taught in literature courses and is shelved variously as science fiction, literary fiction, and historical fiction. The time travel is a device to place a contemporary Black woman inside the experience of American slavery." },
+      { q: 'Is Kindred historically accurate?', a: "The antebellum Maryland setting is researched and realistic — the violence, the legal structures of slavery, the social dynamics between enslaved people and enslavers, and the geography are historically accurate. Butler was known for the depth of her historical research. Dana's experience of those conditions is the central subject of the novel." },
+      { q: 'Why is Kindred so widely taught?', a: "Kindred is one of the most widely assigned novels in American university courses because it uses the science fiction premise of time travel to place a contemporary reader inside the experience of American slavery — making it visceral and immediate in a way that historical fiction cannot. Dana's modern consciousness (and her white husband, who joins her in the past) gives readers a point of identification that historical fiction set entirely in the period cannot provide." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {
