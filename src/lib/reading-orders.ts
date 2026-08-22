@@ -2818,6 +2818,82 @@ const READING_ORDERS: SeriesReadingOrder[] = [
       { q: 'Why is the novel called Middlesex?', a: "Middlesex is the name of the street in Grosse Pointe, Michigan where the Stephanides family eventually settles — but it is also a reference to middle sexes, to the in-between state of being intersex, and to the long tradition in literature of using a physical or geographic place as a metaphor for an interior condition. The title operates on several levels simultaneously." },
     ],
   },
+  {
+    slug: 'the-hours',
+    intro: "Michael Cunningham's The Hours (1998) is a complete standalone novel. There is no sequel or connected series. The novel follows three women across three different time periods — Virginia Woolf writing Mrs Dalloway in 1920s Richmond, a housewife in 1951 Los Angeles reading Mrs Dalloway, and a book editor in 1990s New York living out a day structured like Mrs Dalloway. All three women are connected by Woolf's novel, by the threat of death, and by the question of what a life is worth. The Hours won the Pulitzer Prize for Fiction and the PEN/Faulkner Award in 1999 and was adapted into a film in 2002 starring Nicole Kidman, Julianne Moore, and Meryl Streep.",
+    startWith: 'The Hours',
+    books: [
+      { title: 'The Hours', author: 'Michael Cunningham', year: 1998, note: "Standalone — three women across three time periods connected by Virginia Woolf's Mrs Dalloway; Pulitzer Prize winner 1999; reading Mrs Dalloway first enriches The Hours but is not required" },
+      { title: 'Mrs Dalloway', author: 'Virginia Woolf', year: 1925, note: "The novel at the center of The Hours — one day in London in the early 1920s, told in stream of consciousness; reading it first deepens The Hours but is not required", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read Mrs Dalloway before The Hours?', a: "The Hours can be read without having read Mrs Dalloway. Cunningham provides enough context for readers unfamiliar with Woolf. However, reading Mrs Dalloway first enriches The Hours significantly — the structural parallels, the echoes, and the way Cunningham uses and transforms Woolf's novel are more visible with the source text in mind." },
+      { q: 'Is The Hours about Virginia Woolf?', a: "One of the three protagonists of The Hours is Virginia Woolf, depicted in 1923 Richmond writing Mrs Dalloway. The novel imagines Woolf's interior life at a specific moment and is in dialogue with Woolf's own fiction — particularly the stream-of-consciousness technique Woolf pioneered. But The Hours is equally about the two other women, and Woolf is one element of a larger structure rather than the novel's sole focus." },
+      { q: "What is the connection between the three women in The Hours?", a: "Laura Brown (1951 Los Angeles) is reading Mrs Dalloway and its vision of choosing life over death helps her make a decision about her own life. Clarissa Vaughan (1990s New York) is nicknamed 'Mrs Dalloway' by her friend Richard and lives out a day that parallels the structure of Woolf's novel. The three storylines are connected by the novel and by the threat of death — suicide or the AIDS epidemic." },
+      { q: 'Is The Hours an LGBTQ novel?', a: "The Hours deals centrally with LGBTQ experience. Virginia Woolf's love for Vita Sackville-West is part of her characterization; Clarissa Vaughan's partner Sally is a woman; Richard, the friend Clarissa cares for, is dying of AIDS. Cunningham has said he wrote the novel partly in response to the AIDS crisis and its relationship to the literary culture he belonged to." },
+    ],
+  },
+  {
+    slug: 'giovannis-room',
+    intro: "James Baldwin's Giovanni's Room (1956) is a complete standalone novel. It is unrelated to Baldwin's other novels — Go Tell It on the Mountain, Another Country, Tell Me How Long the Train's Been Gone, If Beale Street Could Talk. Giovanni's Room follows David, a white American man in Paris in the 1950s who is engaged to a woman named Hella but falls in love with an Italian bartender named Giovanni. The novel is a foundational text of American queer literature.",
+    startWith: "Giovanni's Room",
+    books: [
+      { title: "Giovanni's Room", author: 'James Baldwin', year: 1956, note: "Standalone — a white American man in 1950s Paris falls in love with an Italian bartender; a foundational text of American queer literature; Baldwin's most formally elegant novel" },
+    ],
+    faq: [
+      { q: "Is Giovanni's Room a standalone?", a: "Yes — Giovanni's Room is entirely self-contained and unrelated to Baldwin's other novels. His debut novel Go Tell It on the Mountain (1953) and his other fiction are independent of Giovanni's Room." },
+      { q: "Why did Baldwin write a novel with a white protagonist?", a: "Baldwin was advised by publishers not to write about both race and sexuality in the same novel — they feared it would limit the book's audience. By giving Giovanni's Room a white protagonist, Baldwin could focus entirely on the sexuality and the psychology of closeting without his own experiences of racial injustice as a Black American being used to dismiss or explain away the novel's queer content. Baldwin remained ambivalent about this decision. It also allowed him to write about European queer culture from an outside perspective." },
+      { q: "What happens to Giovanni in the novel?", a: "The novel opens with David waiting on the night of Giovanni's execution — the reader knows from the first page that Giovanni will die. The novel is structured as David's narration of the events that led there: his love for Giovanni, his self-deception about that love, and his complicity in what happened to Giovanni. The ending is not a mystery but a reckoning." },
+      { q: "Is Giovanni's Room appropriate for all readers?", a: "Giovanni's Room contains sexual content (described indirectly rather than explicitly) and deals with self-loathing, repression, and the consequences of choosing to deny one's sexuality. It is adult literary fiction. The novel's treatment of these themes is frank but not gratuitous — Baldwin's interest is psychological and moral rather than sensational." },
+    ],
+  },
+  {
+    slug: 'their-eyes-were-watching-god',
+    intro: "Zora Neale Hurston's Their Eyes Were Watching God (1937) is a complete standalone novel. It is Hurston's second and most celebrated novel. The novel follows Janie Crawford, a Black woman in rural Florida, through three marriages and her search for love on her own terms — first to a man chosen by her grandmother, then to a town mayor who wants to display her, finally to a younger man named Tea Cake whose love is what she has been seeking. The novel is celebrated for its use of Black Southern vernacular dialogue and is considered one of the most important novels in the African American literary tradition.",
+    startWith: 'Their Eyes Were Watching God',
+    books: [
+      { title: 'Their Eyes Were Watching God', author: 'Zora Neale Hurston', year: 1937, note: "Standalone — Janie Crawford's search for love through three marriages in rural Florida; the central novel of the Harlem Renaissance and one of the most celebrated African American novels" },
+    ],
+    faq: [
+      { q: 'Is Their Eyes Were Watching God a standalone?', a: "Yes — Their Eyes Were Watching God is entirely self-contained. Hurston's other novels (Jonah's Gourd Vine, Moses, Man of the Mountain, Seraph on the Suwanee) and her autobiography (Dust Tracks on a Road) are independent." },
+      { q: 'Why was Their Eyes Were Watching God out of print for so long?', a: "Their Eyes Were Watching God was published in 1937 to mixed reviews — Richard Wright famously criticized it for not engaging with Black political protest, and Hurston's refusal to write about racial oppression in the way the Black literary establishment expected led to her work being largely forgotten after her death in 1960. Alice Walker's 1975 essay 'In Search of Zora Neale Hurston' is credited with reviving interest in her work; Walker also found and marked Hurston's unmarked grave. The novel is now one of the most widely taught texts in American literature." },
+      { q: "What is the meaning of the pear tree in Their Eyes Were Watching God?", a: "In the novel's opening pages, a sixteen-year-old Janie watches bees pollinating a pear tree in spring and experiences a vision of what love should be — mutual, natural, overflowing. The pear tree becomes the novel's standard against which Janie measures her three marriages: the first two fall short; Tea Cake finally fulfills what the pear tree promised. The image recurs throughout the novel as a marker of Janie's inner life." },
+      { q: "How does the vernacular dialogue work in Their Eyes Were Watching God?", a: "Hurston — who was an anthropologist trained under Franz Boas and collected folk tales throughout the South — wrote the dialogue in Black Southern vernacular, capturing the rhythms, idioms, and music of the speech she recorded. The narrative prose (not dialogue) is in standard English; this contrast allows Hurston to honor the vernacular as expressive and rich rather than treating it as a deficiency. Many readers initially find the dialect difficult and then find it beautiful." },
+    ],
+  },
+  {
+    slug: 'i-know-why-the-caged-bird-sings',
+    intro: "Maya Angelou's I Know Why the Caged Bird Sings (1969) is the first of seven autobiographical volumes that together form a memoir series — followed by Gather Together in My Name (1974), Singin' and Swingin' and Gettin' Merry Like Christmas (1976), The Heart of a Woman (1981), All God's Children Need Traveling Shoes (1986), A Song Flung Up to Heaven (2002), and Mom & Me & Mom (2013). Each volume covers a different period of Angelou's life and can be read independently, but they are sequential. I Know Why the Caged Bird Sings covers Angelou's childhood through age seventeen.",
+    startWith: 'I Know Why the Caged Bird Sings',
+    books: [
+      { title: 'I Know Why the Caged Bird Sings', author: 'Maya Angelou', year: 1969, note: "Begin here — Angelou's childhood in Stamps, Arkansas with her grandmother, her years in St. Louis, and her adolescence in San Francisco through age seventeen; one of the most celebrated memoirs in American literature" },
+      { title: 'Gather Together in My Name', author: 'Maya Angelou', year: 1974, note: "Covers Angelou's life from ages seventeen to nineteen — her struggles as a single mother in the American South", isOptional: true },
+      { title: 'The Heart of a Woman', author: 'Maya Angelou', year: 1981, note: "Covers Angelou's involvement in the Civil Rights Movement and her time in New York and Cairo; the most politically engaged volume", isOptional: true },
+    ],
+    faq: [
+      { q: 'Can I Know Why the Caged Bird Sings be read as a standalone?', a: "Yes — I Know Why the Caged Bird Sings is entirely self-contained as a reading experience. Each of Angelou's seven autobiographical volumes covers a different period of her life and can be read independently. Most readers read only I Know Why the Caged Bird Sings, which is the most celebrated and most widely taught." },
+      { q: "What is the meaning of the title I Know Why the Caged Bird Sings?", a: "The title is an allusion to the poem 'Sympathy' by Paul Laurence Dunbar, which uses the image of a caged bird singing as a metaphor for the longing for freedom under oppression. Angelou's use of the title positions her memoir within the African American literary tradition of using the bird's song to express a truth that cannot be spoken directly." },
+      { q: 'Is I Know Why the Caged Bird Sings appropriate for all readers?', a: "I Know Why the Caged Bird Sings is one of the most frequently challenged books in American libraries. It contains a scene of child sexual assault that is central to the memoir — the assault on Angelou at age eight by a family friend, and its aftermath. The memoir also contains frank discussion of racism, poverty, and adolescent sexuality. It is recommended for adult readers and is widely taught in high school and college courses." },
+      { q: 'Who is Maya Angelou?', a: "Maya Angelou (1928–2014) was an American author, poet, and civil rights activist. Beyond her seven-volume autobiography, she was a poet whose work is studied worldwide — her poem 'Still I Rise' is one of the most widely quoted American poems. She delivered her poem 'On the Pulse of Morning' at President Clinton's inauguration in 1993. She was a close friend of Malcolm X, Martin Luther King Jr., and James Baldwin, and was involved in the Civil Rights Movement throughout the 1960s." },
+    ],
+  },
+  {
+    slug: 'the-pillars-of-the-earth',
+    intro: "Ken Follett's The Pillars of the Earth (1989) is the first book in the Kingsbridge Series. The series currently includes four novels: The Pillars of the Earth (1989), World Without End (2007), A Column of Fire (2017), and The Armor of Light (2023). Each novel is set in the fictional English town of Kingsbridge across different centuries and can be read independently, though The Pillars of the Earth and World Without End form the most direct pair.",
+    startWith: 'The Pillars of the Earth',
+    books: [
+      { title: 'The Pillars of the Earth', author: 'Ken Follett', year: 1989, note: "Begin here — the building of a cathedral in 12th-century England; prior master builder Tom and monk Philip against the corrupt Bishop Waleran; the novel that established Follett as a major historical fiction author" },
+      { title: 'World Without End', author: 'Ken Follett', year: 2007, note: "Set 200 years later in the same Kingsbridge — the Black Death, the Hundred Years War, and four characters whose descendants include characters from Pillars; can be read independently" },
+      { title: 'A Column of Fire', author: 'Ken Follett', year: 2017, note: "Set in Elizabethan England — the Reformation, Mary Queen of Scots, and the Spanish Armada; the most politically complex novel in the series; can be read independently", isOptional: true },
+      { title: 'The Armor of Light', author: 'Ken Follett', year: 2023, note: "Set in the early 19th century — the Industrial Revolution in Kingsbridge; can be read independently", isOptional: true },
+    ],
+    faq: [
+      { q: 'Do I need to read The Pillars of the Earth before World Without End?', a: "World Without End is set 200 years after The Pillars of the Earth in the same town and references it in minor ways — some characters are descendants of characters from the first novel. However, World Without End is fully self-contained and can be read without having read Pillars. Most readers read them in order; some prefer World Without End as the stronger novel." },
+      { q: 'Is The Pillars of the Earth a romance?', a: "The Pillars of the Earth is primarily historical fiction — about the building of a cathedral in 12th-century England and the political and religious conflicts of the period. It contains significant romantic and sexual elements (including violence against women) as part of its panoramic portrait of medieval life. It is marketed as historical fiction rather than romance." },
+      { q: "How long is The Pillars of the Earth?", a: "The Pillars of the Earth is approximately 1,000 pages in most editions — one of the longest popular historical fiction novels. Many readers describe it as impossible to put down despite its length, because Follett's storytelling is structured around alternating perspectives and cliffhanger chapter endings that make the novel read faster than its size suggests." },
+      { q: "How accurate is The Pillars of the Earth historically?", a: "The novel is set during the civil war between King Stephen and Empress Maud (known as 'the Anarchy'), which is a real historical period in 12th-century England. The town of Kingsbridge and the cathedral are fictional, though modeled on real medieval English cathedrals — particularly Wells and Salisbury. Follett consulted extensively with cathedral builders and medieval historians. The broad outlines of English medieval society, church politics, and cathedral construction are accurate." },
+    ],
+  },
 ];
 
 export function getReadingOrder(slug: string): SeriesReadingOrder | undefined {

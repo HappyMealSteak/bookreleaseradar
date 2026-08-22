@@ -172,6 +172,11 @@ export const metadata: Metadata = {
     'books like A Long Petal of the Sea Isabel Allende',
     'books like The Color Purple Alice Walker',
     'books like Middlesex Jeffrey Eugenides',
+    'books like The Hours Michael Cunningham',
+    "books like Giovanni's Room James Baldwin",
+    'books like Their Eyes Were Watching God Zora Neale Hurston',
+    'books like I Know Why the Caged Bird Sings Maya Angelou',
+    'books like The Pillars of the Earth Ken Follett',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -899,6 +904,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Middlesex by Jeffrey Eugenides?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Middlesex include The Virgin Suicides and The Marriage Plot (also by Jeffrey Eugenides), Homegoing by Yaa Gyasi, The Joy Luck Club by Amy Tan, The Amazing Adventures of Kavalier and Clay by Michael Chabon, The Namesake by Jhumpa Lahiri, Giovanni's Room by James Baldwin, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of multi-generational family sagas with literary ambition and deeply searching character study." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Hours by Michael Cunningham?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Giovanni's Room by James Baldwin?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Giovanni's Room include Go Tell It on the Mountain and Another Country and If Beale Street Could Talk (also by Baldwin), The Hours by Michael Cunningham, Call Me by Your Name by André Aciman, Maurice by E. M. Forster, The Price of Salt by Patricia Highsmith, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of queer literary fiction that examines the cost of choosing convention over love." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Their Eyes Were Watching God by Zora Neale Hurston?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Their Eyes Were Watching God include The Color Purple by Alice Walker, Beloved and Song of Solomon and The Bluest Eye by Toni Morrison, I Know Why the Caged Bird Sings by Maya Angelou, Passing by Nella Larsen, Dust Tracks on a Road by Zora Neale Hurston, and Go Tell It on the Mountain by James Baldwin. Our full guide covers 8 picks for fans of African American literary fiction celebrating Black womanhood and Black vernacular." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked I Know Why the Caged Bird Sings by Maya Angelou?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like I Know Why the Caged Bird Sings include Their Eyes Were Watching God by Zora Neale Hurston, The Color Purple by Alice Walker, Between the World and Me by Ta-Nehisi Coates, The Autobiography of Malcolm X, Educated by Tara Westover, The Woman Warrior by Maxine Hong Kingston, Beloved by Toni Morrison, and Long Way Down by Jason Reynolds. Our full guide covers 8 picks for fans of lyrical Black memoir and coming-of-age stories about finding one's voice." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Pillars of the Earth by Ken Follett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Pillars of the Earth include World Without End by Ken Follett (the direct sequel set 200 years later), The Name of the Rose by Umberto Eco, Shōgun by James Clavell, Lonesome Dove by Larry McMurtry, The Shadow of the Wind by Carlos Ruiz Zafón, An Instance of the Fingerpost by Iain Pears, and the Outlander series by Diana Gabaldon. Our full guide covers 8 picks for fans of epic historical fiction with vast casts and immersive world-building." },
     },
   ],
 };
