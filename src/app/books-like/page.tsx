@@ -372,6 +372,11 @@ export const metadata: Metadata = {
     'books like A Brief History of Seven Killings Marlon James',
     'books like Behind the Scenes at the Museum Kate Atkinson',
     'books like The Slap Christos Tsiolkas',
+    'books like Romeo and Juliet Shakespeare',
+    'books like Macbeth Shakespeare tragedy',
+    'books like The Divine Comedy Dante Inferno',
+    'books like The Iliad Homer',
+    'books like Pride and Prejudice Jane Austen',
     'books like The Dew Breaker Edwidge Danticat',
     'books like Winter in the Blood James Welch',
     'books like The Absolutely True Diary of a Part-Time Indian Sherman Alexie',
@@ -2295,6 +2300,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Romeo and Juliet by Shakespeare?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Romeo and Juliet include A Midsummer Night's Dream by Shakespeare, The Fault in Our Stars by John Green, Wuthering Heights by Emily Brontë, Atonement by Ian McEwan, Anna Karenina by Tolstoy, Hamlet by Shakespeare, and The Bronze Horseman by Paullina Simons. Our full guide covers 8 picks for fans of Shakespeare's doomed romance." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Macbeth by Shakespeare?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Macbeth include Hamlet by Shakespeare, King Lear by Shakespeare, Crime and Punishment by Dostoevsky, Richard III by Shakespeare, Wolf Hall by Hilary Mantel, The Power of the Dog by Don Winslow, and The Terror by Dan Simmons. Our full guide covers 8 picks for fans of Shakespeare's tragedy of ambition." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Divine Comedy by Dante?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Divine Comedy include Paradise Lost by Milton, The Aeneid by Virgil, The Name of the Rose by Umberto Eco, Gilead by Marilynne Robinson, His Dark Materials by Philip Pullman, The Silmarillion by Tolkien, and Stoner by John Williams. Our full guide covers 8 picks for fans of Dante's epic journey." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Iliad by Homer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Iliad include The Odyssey by Homer, The Song of Achilles by Madeline Miller, The Silence of the Girls by Pat Barker, All Quiet on the Western Front by Remarque, The Things They Carried by Tim O'Brien, Gates of Fire by Steven Pressfield, and The Oresteia by Aeschylus. Our full guide covers 8 picks for fans of Homer's war epic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pride and Prejudice by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pride and Prejudice include Emma by Jane Austen, Persuasion by Jane Austen, North and South by Elizabeth Gaskell, Jane Eyre by Charlotte Brontë, The Tenant of Wildfell Hall by Anne Brontë, Jonathan Strange & Mr Norrell by Susanna Clarke, and the Bridgerton Series by Julia Quinn. Our full guide covers 8 picks for fans of Austen's Regency romance." },
     },
     {
       '@type': 'Question',
