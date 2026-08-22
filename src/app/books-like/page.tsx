@@ -278,6 +278,11 @@ export const metadata: Metadata = {
     'books like The Autumn of the Patriarch García Márquez',
     'books like The Spy Who Came in from the Cold le Carré',
     'books like Notes from Underground Dostoevsky',
+    'books like Blindness José Saramago',
+    'books like Like Water for Chocolate Esquivel',
+    'books like Hunger Knut Hamsun',
+    'books like Demons Dostoevsky',
+    'books like The Manchurian Candidate Richard Condon',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1540,6 +1545,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Notes from Underground by Fyodor Dostoevsky?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Notes from Underground include Crime and Punishment (also by Dostoevsky), The Stranger by Albert Camus, The Brothers Karamazov by Dostoevsky, Nausea by Jean-Paul Sartre, The Idiot by Dostoevsky, Hunger by Knut Hamsun, Demons by Dostoevsky, and The Catcher in the Rye by J.D. Salinger. Our full guide covers 8 picks for fans of Dostoevsky's foundational existentialist novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Blindness by José Saramago?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Blindness include The Plague by Albert Camus, The Road by Cormac McCarthy, Station Eleven by Emily St. John Mandel, Lord of the Flies by William Golding, The Death of Ivan Ilyich by Leo Tolstoy, Seeing (also by Saramago), The Handmaid's Tale by Margaret Atwood, and The Trial by Franz Kafka. Our full guide covers 8 picks for fans of Saramago's epidemic parable." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Like Water for Chocolate by Laura Esquivel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Like Water for Chocolate include The House of the Spirits by Isabel Allende, Love in the Time of Cholera by Gabriel García Márquez, Chocolat by Joanne Harris, Daughter of Fortune by Isabel Allende, Perfume by Patrick Süskind, The Alchemist by Paulo Coelho, Captain Corelli's Mandolin by Louis de Bernières, and Heartburn by Nora Ephron. Our full guide covers 8 picks for fans of Esquivel's Mexican magical realist romance." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hunger by Knut Hamsun?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hunger include Notes from Underground by Fyodor Dostoevsky, The Trial by Franz Kafka, Nausea by Jean-Paul Sartre, Petersburg by Andrei Bely, Miss Lonelyhearts by Nathanael West, The Metamorphosis by Franz Kafka, Steppenwolf by Hermann Hesse, and A Portrait of the Artist as a Young Man by James Joyce. Our full guide covers 8 picks for fans of Hamsun's modernist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Demons by Fyodor Dostoevsky?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Demons include The Brothers Karamazov (also by Dostoevsky), The Secret Agent by Joseph Conrad, Darkness at Noon by Arthur Koestler, Under Western Eyes by Joseph Conrad, Nostromo by Conrad, The Man Who Was Thursday by G.K. Chesterton, and The Joke by Milan Kundera. Our full guide covers 8 picks for fans of Dostoevsky's revolutionary terror novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Manchurian Candidate by Richard Condon?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Manchurian Candidate include The Spy Who Came in from the Cold by John le Carré, 1984 by George Orwell, Catch-22 by Joseph Heller, The Parallax View by Loren Singer, It Can't Happen Here by Sinclair Lewis, The Plot Against America by Philip Roth, and Seven Days in May by Fletcher Knebel. Our full guide covers 8 picks for fans of Condon's Cold War satire-thriller." },
     },
   ],
 };
