@@ -8,7 +8,7 @@ export const revalidate = 2592000;
 export const metadata: Metadata = {
   title: 'Books Like… — Reading Recommendations | BookReleaseRadar',
   description:
-    'Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Colleen Hoover, Game of Thrones, Mistborn, Wheel of Time, and more.',
+    'Find your next favorite series. Curated reading recommendations for fans of ACOTAR, Fourth Wing, Harry Potter, Shadow and Bone, Game of Thrones, Colleen Hoover, Mistborn, Wheel of Time, and more.',
   keywords: [
     'books like ACOTAR',
     'books like Fourth Wing',
@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     'books like Wheel of Time',
     'books like The Poppy War',
     'books like Dark Tower',
+    'books like Harry Potter',
+    'books like Shadow and Bone',
+    'books like Grishaverse',
     'reading recommendations',
     'what to read next',
     'book recommendations fantasy romance',
@@ -72,6 +75,16 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read next after Game of Thrones?',
       acceptedAnswer: { '@type': 'Answer', text: 'After Game of Thrones, readers typically love The Name of the Wind by Patrick Rothfuss, The Way of Kings by Brandon Sanderson, The Lies of Locke Lamora by Scott Lynch, and Pillars of the Earth by Ken Follett. See our full Game of Thrones reading recommendations.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Harry Potter?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Harry Potter include The Name of the Wind by Patrick Rothfuss, Percy Jackson by Rick Riordan, The Magicians by Lev Grossman, Jonathan Strange & Mr Norrell by Susanna Clarke, and The Night Circus by Erin Morgenstern. Our full guide covers 8 picks for readers of all ages." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read after Shadow and Bone?',
+      acceptedAnswer: { '@type': 'Answer', text: 'After Shadow and Bone, read Six of Crows (also by Leigh Bardugo in the same world), An Ember in the Ashes by Sabaa Tahir, The Cruel Prince by Holly Black, and The Bear and the Nightingale by Katherine Arden. Our full Grishaverse/Shadow and Bone guide covers 8 picks.' },
     },
   ],
 };
