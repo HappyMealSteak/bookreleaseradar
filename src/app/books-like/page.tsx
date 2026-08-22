@@ -298,6 +298,11 @@ export const metadata: Metadata = {
     'books like Brighton Rock Graham Greene',
     'books like True Grit Charles Portis',
     'books like Pillars of the Earth Ken Follett',
+    'books like Lonesome Dove Larry McMurtry',
+    'books like Rebecca Daphne du Maurier',
+    'books like Misery Stephen King',
+    'books like Shogun James Clavell',
+    'books like The End of the Affair Graham Greene',
     'cozy fantasy book recommendations',
     'feminist dystopia books',
     'dragon fantasy books',
@@ -1660,6 +1665,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Pillars of the Earth by Ken Follett?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Pillars of the Earth include World Without End (also by Follett), The Name of the Rose by Umberto Eco, Shogun by James Clavell, the Wolf Hall Trilogy by Hilary Mantel, The Bronze Horseman by Paullina Simons, Exodus by Leon Uris, Ivanhoe by Sir Walter Scott, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for fans of Follett's medieval epic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lonesome Dove by Larry McMurtry?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lonesome Dove include Blood Meridian by Cormac McCarthy, True Grit by Charles Portis, Centennial by James Michener, Angle of Repose by Wallace Stegner, The Son by Philipp Meyer, Butcher's Crossing by John Williams, Deadwood by Pete Dexter, and All the Pretty Horses by Cormac McCarthy. Our full guide covers 8 picks for fans of McMurtry's Pulitzer Prize-winning Western epic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Rebecca by Daphne du Maurier?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Rebecca include Jane Eyre by Charlotte Brontë, My Cousin Rachel (also by du Maurier), The Woman in White by Wilkie Collins, Wuthering Heights by Emily Brontë, The Haunting of Hill House by Shirley Jackson, Rebecca's Tale by Sally Beauman, The Turn of the Screw by Henry James, and Dark Places by Kate Mosse. Our full guide covers 8 picks for fans of du Maurier's Gothic classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Misery by Stephen King?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Misery include The Shining (also by King), Room by Emma Donoghue, The Collector by John Fowles, Gerald's Game by Stephen King, 1984 by George Orwell, Dolores Claiborne by Stephen King, The Silent Patient by Alex Michaelides, and Sharp Objects by Gillian Flynn. Our full guide covers 8 picks for fans of King's psychological captivity thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Shōgun by James Clavell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shōgun include The Pillars of the Earth by Ken Follett, Tai-Pan (also by Clavell), Centennial by James Michener, Silence by Shusaku Endo, Hawaii by James Michener, Kim by Rudyard Kipling, and The Name of the Rose by Umberto Eco. Our full guide covers 8 picks for fans of Clavell's feudal Japan epic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The End of the Affair by Graham Greene?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The End of the Affair include Brighton Rock (also by Greene), The Heart of the Matter (Greene), Brideshead Revisited by Evelyn Waugh, A Farewell to Arms by Ernest Hemingway, The Remains of the Day by Kazuo Ishiguro, The Unbearable Lightness of Being by Milan Kundera, On Chesil Beach by Ian McEwan, and The French Lieutenant's Woman by John Fowles. Our full guide covers 8 picks for fans of Greene's masterpiece." },
     },
   ],
 };
