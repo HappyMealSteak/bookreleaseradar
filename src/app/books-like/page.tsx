@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Foundation Isaac Asimov Hari Seldon psychohistory Galactic Empire',
+    'books like Neuromancer William Gibson cyberpunk Case Molly Sprawl cyberspace',
+    'books like The Left Hand of Darkness Ursula Le Guin Genly Ai Gethen gender',
+    'books like The Dispossessed Ursula Le Guin Shevek Anarres anarchist utopia',
+    'books like Hyperion Dan Simmons Shrike Time Tombs Canterbury Tales pilgrims',
     'books like Jonathan Strange Mr Norrell Susanna Clarke English magic Napoleonic Raven King',
     'books like Piranesi Susanna Clarke House statues tidal seas mystery',
     'books like The Lies of Locke Lamora Scott Lynch Camorr Gentleman Bastard heist',
@@ -2510,6 +2515,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Foundation by Isaac Asimov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Foundation include Foundation and Empire and Second Foundation (Foundation series), Dune by Herbert, The Left Hand of Darkness by Le Guin, Hyperion by Simmons, The Caves of Steel by Asimov, A Fire Upon the Deep by Vinge, and The Three-Body Problem by Liu Cixin. Our full guide covers 8 picks for fans of Asimov's galactic civilization SF." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Neuromancer by William Gibson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Neuromancer include Count Zero and Mona Lisa Overdrive (Sprawl trilogy), Snow Crash by Stephenson, Do Androids Dream of Electric Sheep? by Dick, Pattern Recognition by Gibson, The Diamond Age by Stephenson, and Accelerando by Stross. Our full guide covers 8 picks for fans of Gibson's cyberpunk classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Left Hand of Darkness by Ursula K. Le Guin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Left Hand of Darkness include The Dispossessed and The Word for World is Forest (other Le Guin Hainish Cycle), The Handmaid's Tale by Atwood, Parable of the Sower by Butler, The Female Man by Russ, Kindred by Butler, and Station Eleven by Mandel. Our full guide covers 8 picks for fans of Le Guin's feminist SF." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Dispossessed by Ursula K. Le Guin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Dispossessed include The Left Hand of Darkness and The Word for World is Forest (other Le Guin), Brave New World by Huxley, Nineteen Eighty-Four by Orwell, News from Nowhere by Morris, Parable of the Sower by Butler, The Power by Alderman, and A Wizard of Earthsea by Le Guin. Our full guide covers 8 picks for fans of Le Guin's anarchist utopia." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hyperion by Dan Simmons?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hyperion include The Fall of Hyperion and Endymion (Hyperion Cantos), Foundation by Asimov, Dune by Herbert, A Fire Upon the Deep by Vinge, The Left Hand of Darkness by Le Guin, Old Man's War by Scalzi, and The Three-Body Problem by Liu Cixin. Our full guide covers 8 picks for fans of Simmons's Hugo-winning SF." },
     },
     {
       '@type': 'Question',
