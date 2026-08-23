@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    "books like L'Assommoir Émile Zola Gervaise Macquart Coupeau alcoholism Paris working class 1877",
+    "books like The Ladies' Paradise Zola Au Bonheur des Dames Denise Mouret department store 1883",
+    'books like The Europeans Henry James Baroness Eugenia Felix Young Wentworths Boston 1878',
+    'books like Pierre and Jean Maupassant Pierre Jean Roland inheritance paternity Le Havre 1888',
+    'books like The Custom of the Country Edith Wharton Undine Spragg social climbing Gilded Age 1913',
     'books like Daisy Miller Henry James Winterbourne Roman fever expatriate 1878',
     'books like The Bostonians Henry James Olive Chancellor Basil Ransom Verena suffrage Boston 1886',
     'books like Nana Zola Anna Coupeau courtesan Second Empire Paris smallpox 1880',
@@ -2745,6 +2750,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked L'Assommoir by Émile Zola?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like L'Assommoir include Germinal and Nana (also Zola, with characters linked to Gervaise Macquart), The Ragged Trousered Philanthropists by Tressell, Maggie: A Girl of the Streets by Stephen Crane, The Jungle by Upton Sinclair, Sister Carrie by Dreiser, Pot-Bouille by Zola, and Earth (La Terre) by Zola. Our full guide covers 8 picks for fans of Zola's great working-class naturalist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Ladies' Paradise by Émile Zola?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ladies' Paradise include Pot-Bouille and Germinal (also Zola), L'Assommoir by Zola, The House of Mirth by Wharton, Middlemarch by George Eliot, The Portrait of a Lady by Henry James, Vanity Fair by Thackeray, and Sister Carrie by Dreiser. Our full guide covers 8 picks for fans of Zola's department store novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Europeans by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Europeans include Daisy Miller and Washington Square (also James), The Portrait of a Lady by James, Pride and Prejudice by Austen, The Bostonians by James, The American by James, Emma by Austen, and The Reverberator by James. Our full guide covers 8 picks for fans of James's light comic international novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pierre and Jean by Guy de Maupassant?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pierre and Jean include Bel-Ami and Une Vie (also Maupassant), Thérèse Raquin by Zola, The Beast in the Jungle by Henry James, The Brothers Karamazov by Dostoevsky, The Turn of the Screw by James, Madame Bovary by Flaubert, and A Simple Heart by Flaubert. Our full guide covers 8 picks for fans of Maupassant's psychological masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Custom of the Country by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Custom of the Country include The House of Mirth and The Age of Innocence (also Wharton), Vanity Fair by Thackeray, The Portrait of a Lady by Henry James, Sister Carrie by Dreiser, The Buccaneers by Wharton, The Awakening by Chopin, and The Prime of Miss Jean Brodie by Muriel Spark. Our full guide covers 8 picks for fans of Wharton's sardonic social satire." },
     },
     {
       '@type': 'Question',
