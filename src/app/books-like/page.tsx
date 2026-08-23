@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Oryx and Crake Margaret Atwood Snowman Jimmy Crake biotech dystopia MaddAddam',
+    'books like Outline Rachel Cusk autofiction Athens novelist conversations negative space',
+    'books like Transit Rachel Cusk London flat renovation listening Outline trilogy second novel',
+    'books like Acts of Desperation Megan Nolan Dublin Ciaran abjection obsessive relationship debut',
+    'books like A Tale for the Time Being Ruth Ozeki Nao Ruth BC island diary Jiko Buddhist',
     'books like Weather Jenny Offill Lizzie librarian climate anxiety fragmented 2020 Overstory',
     'books like My Year of Rest Ottessa Moshfegh Manhattan beautiful sleeping medication dark comedy',
     "books like Beautiful World Where Are You Sally Rooney Alice Eileen thirties Ireland philosophy",
@@ -2600,6 +2605,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Oryx and Crake by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Oryx and Crake include The Year of the Flood and MaddAddam (completing the trilogy), The Handmaid's Tale by Atwood, Never Let Me Go by Kazuo Ishiguro, Station Eleven by Emily St. John Mandel, The Road by Cormac McCarthy, Brave New World by Aldous Huxley, and The Drowned World by J.G. Ballard. Our full guide covers 8 picks for readers of Atwood's biotech dystopia." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Outline by Rachel Cusk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Outline include Transit, Kudos, and Aftermath (all Cusk), Dept. of Speculation by Jenny Offill, Sleepless Nights by Elizabeth Hardwick, The Rings of Saturn by W.G. Sebald, Normal People by Sally Rooney, and My Brilliant Friend by Elena Ferrante. Our full guide covers 8 picks for readers of Cusk's autofiction debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Transit by Rachel Cusk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Transit include Outline, Kudos, and Aftermath (all Cusk), Dept. of Speculation by Jenny Offill, The Waves by Virginia Woolf, Speedboat by Renata Adler, On Beauty by Zadie Smith, and A Lover's Discourse by Roland Barthes. Our full guide covers 8 picks for readers of the second Outline trilogy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Acts of Desperation by Megan Nolan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Acts of Desperation include Normal People and Conversations with Friends (both Rooney), Exciting Times by Naoise Dolan, Still Born by Megan Nolan, My Year of Rest and Relaxation by Ottessa Moshfegh, The Piano Teacher by Elfriede Jelinek, Dept. of Speculation by Jenny Offill, and A Grief Observed by C.S. Lewis. Our full guide covers 8 picks for readers of Nolan's debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Tale for the Time Being by Ruth Ozeki?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Tale for the Time Being include My Year of Meats and All Over Creation (both Ozeki), The Blind Assassin by Margaret Atwood, The Wind-Up Bird Chronicle by Haruki Murakami, Norwegian Wood by Murakami, The Remains of the Day by Kazuo Ishiguro, Piranesi by Susanna Clarke, and Pachinko by Min Jin Lee. Our full guide covers 8 picks for readers of Ozeki's Booker-shortlisted novel." },
     },
     {
       '@type': 'Question',
