@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Apples Never Fall Liane Moriarty Joy Delaney tennis family Sydney disappeared Peacock 2024',
+    'books like The Easter Parade Richard Yates Sarah Emily Grimes sisters five decades American life disappointment',
+    'books like The Bonfire of the Vanities Tom Wolfe Sherman McCoy bond trader Bronx accident 1980s New York',
+    'books like American Psycho Bret Easton Ellis Patrick Bateman Wall Street banker murders consumer satire 1991',
+    'books like Less Than Zero Bret Easton Ellis Clay Los Angeles wealthy friends empty surface 1980s debut',
     'books like Falling Man Don DeLillo 9/11 September 11 Keith Neudecker survivor World Trade Center aftermath',
     'books like Mao II Don DeLillo Bill Gray reclusive novelist terrorists PEN Faulkner Award 1991',
     'books like Cosmopolis Don DeLillo Eric Packer billionaire Manhattan limousine haircut currency collapse Cronenberg',
@@ -2640,6 +2645,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Apples Never Fall by Liane Moriarty?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Apples Never Fall include Big Little Lies, The Husband's Secret, What Alice Forgot, and Nine Perfect Strangers by Liane Moriarty, The Family Upstairs by Lisa Jewell, Behind Closed Doors by B.A. Paris, The Woman in the Window by A.J. Finn, and Here One Moment by Liane Moriarty. Our full guide covers 8 picks for readers of Moriarty's tennis-family mystery." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Easter Parade by Richard Yates?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Easter Parade include Revolutionary Road and Disturbing the Peace by Richard Yates, The Women's Room by Marilyn French, The Bell Jar by Sylvia Plath, Mrs. Bridge by Evan S. Connell, and Age of Grief by Jane Smiley. Our full guide covers 8 picks for readers of Yates's two-sisters American-life novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bonfire of the Vanities by Tom Wolfe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bonfire of the Vanities include A Man in Full by Tom Wolfe, American Psycho by Bret Easton Ellis, Cosmopolis by Don DeLillo, The Corrections by Jonathan Franzen, Bright Lights Big City by Jay McInerney, Money: A Suicide Note by Martin Amis, and Liar's Poker by Michael Lewis. Our full guide covers 8 picks for readers of Wolfe's 1980s New York satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked American Psycho by Bret Easton Ellis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like American Psycho include Less Than Zero and Glamorama by Bret Easton Ellis, The Bonfire of the Vanities by Tom Wolfe, You by Caroline Kepnes, Bright Lights Big City by Jay McInerney, Notes from Underground by Fyodor Dostoevsky, Lolita by Vladimir Nabokov, and Blood Meridian by Cormac McCarthy. Our full guide covers 8 picks for readers of Ellis's controversial Wall Street satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Less Than Zero by Bret Easton Ellis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Less Than Zero include American Psycho and Imperial Bedrooms by Bret Easton Ellis, Bright Lights Big City by Jay McInerney, The Virgin Suicides by Jeffrey Eugenides, The Perks of Being a Wallflower by Stephen Chbosky, and Prozac Nation by Elizabeth Wurtzel. Our full guide covers 8 picks for readers of Ellis's 1980s Los Angeles debut." },
     },
     {
       '@type': 'Question',

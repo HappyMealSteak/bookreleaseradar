@@ -5992,6 +5992,79 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'apples-never-fall',
+    intro: "Apples Never Fall (2021) by Liane Moriarty is a domestic mystery organized around the disappearance of Joy Delaney, the sixty-nine-year-old matriarch of a tennis family in Sydney. Joy has been missing for several days when the novel opens; her husband Stan is the first suspect; their four adult children have gathered, divided, and begun to doubt one another. The novel moves back and forth between the investigation and the events of the previous year, when a mysterious young woman named Savannah appeared at the Delaneys' door and stayed for months, altering the family's dynamics in ways that led to Joy's disappearance. Moriarty's most recent major standalone, organized around the question of what happens when the couple at the center of a family is more fragile than anyone realized.",
+    startWith: 'Apples Never Fall (2021)',
+    books: [
+      { title: 'Apples Never Fall', author: 'Liane Moriarty', year: 2021 },
+      { title: 'Big Little Lies', author: 'Liane Moriarty', year: 2014, note: "Moriarty's most celebrated novel — the natural starting point for Moriarty readers, more thriller-paced than Apples Never Fall but similarly focused on female friendship, marriage, and dark secrets." },
+      { title: "The Husband's Secret", author: 'Liane Moriarty', year: 2013, note: "Moriarty's other domestic mystery — a woman who finds a letter she wasn't supposed to read; similar in its preoccupation with marriage and the secrets couples keep." },
+    ],
+    faq: [
+      { q: 'Is Apples Never Fall part of a series?', a: "No — all of Liane Moriarty's novels are standalones. They share her Sydney settings and her blend of dark humor and domestic suspense, but have no plot or character connections." },
+      { q: 'Is Apples Never Fall similar to Big Little Lies?', a: "They share the same formula — multiple perspectives, a central mystery, dark humor about domestic life — but Apples Never Fall is organized around a family rather than a group of school-gate mothers, and it reaches further back into a marriage to understand what might have caused a woman to disappear." },
+      { q: 'Was Apples Never Fall adapted for television?', a: "Yes — Peacock adapted Apples Never Fall as a seven-part miniseries in 2024, with Annette Bening as Joy Delaney and Sam Neill as Stan Delaney." },
+    ],
+  },
+  {
+    slug: 'the-easter-parade',
+    intro: "The Easter Parade (1976) by Richard Yates follows two sisters — Sarah and Emily Grimes — across five decades of American life, from their parents' divorce in the 1930s through old age in the 1970s. Neither sister is happy; each is unhappy in different ways. Sarah marries young, into a domestic life that curdles; Emily keeps moving, from affair to affair and job to job, always on the verge of something that doesn't arrive. The Easter Parade is Yates at his most heartbreaking — the novel in which his belief that ordinary American life is organized for disappointment finds its fullest expression. It is often paired with Revolutionary Road as one of his two masterworks.",
+    startWith: 'The Easter Parade (1976)',
+    books: [
+      { title: 'The Easter Parade', author: 'Richard Yates', year: 1976 },
+      { title: 'Revolutionary Road', author: 'Richard Yates', year: 1961, note: "Yates's debut novel — a couple trapped in Connecticut suburbia, equally organized around the defeat of American aspiration; often considered his masterpiece." },
+    ],
+    faq: [
+      { q: 'Is The Easter Parade part of a series?', a: "No — The Easter Parade is a standalone novel. Yates did not write series fiction; his eleven books are independent works." },
+      { q: 'Is The Easter Parade depressing?', a: "Yes — Yates's novels are not cheerful, and The Easter Parade opens with the sentence 'Neither of the Grimes sisters would have a happy life, and looking back it always seemed that the trouble began with their parents' divorce.' The novel delivers exactly what that sentence promises: a clear-eyed account of two women whose lives do not work out. Many readers find it devastating; many find it liberating in its honesty." },
+      { q: 'Which Richard Yates novel should I read first?', a: "Most readers recommend starting with Revolutionary Road (1961) — it was his debut, it received the most critical attention, and it is slightly more plot-driven than The Easter Parade. The Easter Parade is widely considered the stronger novel, but Revolutionary Road's structure gives Yates's despairing worldview its first full articulation." },
+    ],
+  },
+  {
+    slug: 'bonfire-of-the-vanities',
+    intro: "The Bonfire of the Vanities (1987) by Tom Wolfe is the Great American Novel of the 1980s — a satirical panorama of New York in the age of Wall Street excess, organized around Sherman McCoy, a bond trader who calls himself a 'Master of the Universe,' whose life unravels when he and his mistress accidentally strike a Black teenager with his Mercedes in the Bronx. The novel weaves together a Bronx assistant DA seeking political advancement, a British tabloid journalist on the make, a Black community organizer, a corrupt judge, and a swarm of New York media and legal professionals, all circling McCoy's fall. Wolfe researched the novel by immersion in New York legal and financial culture for several years, and the result is one of the most detailed portraits of a city and a decade in American fiction.",
+    startWith: 'The Bonfire of the Vanities (1987)',
+    books: [
+      { title: 'The Bonfire of the Vanities', author: 'Tom Wolfe', year: 1987 },
+      { title: 'A Man in Full', author: 'Tom Wolfe', year: 1998, note: "Wolfe's second novel — a real estate developer in Atlanta and a young man in prison; similarly massive and satirical, organized around the collapse of a powerful man." },
+    ],
+    faq: [
+      { q: 'Is The Bonfire of the Vanities based on real events?', a: "The novel's premise — a wealthy white man's car strikes a Black teenager in the Bronx, and the case becomes a racial and media circus — was inspired by several real incidents from 1980s New York, including the Robert Chambers case and events in the Howard Beach neighborhood. No specific case is the direct model; Wolfe synthesized a variety of elements from the decade's racial and legal controversies." },
+      { q: 'Is The Bonfire of the Vanities long?', a: "The Bonfire of the Vanities is approximately 700 pages — Wolfe\'s first novel, and he wrote it at the scale he believed the subject required. Despite its length, it is widely described as fast-paced; the satirical energy and the density of social detail keep the narrative moving." },
+      { q: 'Was The Bonfire of the Vanities adapted into a film?', a: "Yes — Brian De Palma directed a film adaptation in 1990, starring Tom Hanks as Sherman McCoy and Bruce Willis as the British journalist. The film was widely considered a failure, but the novel's reputation has remained high independent of it." },
+    ],
+  },
+  {
+    slug: 'american-psycho',
+    intro: "American Psycho (1991) by Bret Easton Ellis is a novel narrated by Patrick Bateman — a twenty-six-year-old investment banker at Pierce & Pierce in Manhattan, living the privileged, interchangeable, brand-saturated life of his Wall Street cohort, and (in the novel's version of events) committing grotesque murders in his spare time. The novel was refused by its original publisher (Simon & Schuster) and released by Vintage, to immediate controversy; it was banned in Queensland, Australia and sparked a feminist boycott. But it has been reappraised as a serious novel — a satire of consumer capitalism and masculine violence in which the murders may be real or may be Bateman's fantasy, and in which the horror lies partly in the fact that no one around him notices either way.",
+    startWith: 'American Psycho (1991)',
+    books: [
+      { title: 'American Psycho', author: 'Bret Easton Ellis', year: 1991 },
+      { title: 'Less Than Zero', author: 'Bret Easton Ellis', year: 1985, note: "Ellis's debut — a college student returns to Los Angeles for the holidays and observes his wealthy peers' emptiness; the same blank affect and designer-brand saturation, less violent." },
+      { title: 'Glamorama', author: 'Bret Easton Ellis', year: 1998, note: "Ellis's next major novel — a male model drawn into a world of international terrorism; more plot-driven than American Psycho but similarly organized around surfaces and violence." },
+    ],
+    faq: [
+      { q: 'Is American Psycho too violent to read?', a: "American Psycho contains very graphic violence. The violent scenes are interspersed with extended passages of designer-brand enumeration and Wall Street social comedy, and many readers find the novel readable by skimming the violent chapters. The question of whether the murders are real (within the fiction) is never definitively resolved by the novel." },
+      { q: 'Is American Psycho a serious novel or just violent provocation?', a: "Both — Ellis intended the violence as a response to the violence of capitalist culture, and the novel works as a satire of 1980s Wall Street excess in which the murders are the logical extension of the commodity fetishism that surrounds them. It has been widely taught in university literature courses and is included in serious literary discussions of the period." },
+      { q: 'Was American Psycho adapted into a film?', a: "Yes — Mary Harron directed a film adaptation in 2000, starring Christian Bale as Patrick Bateman. The film is widely considered excellent, significantly less graphic than the novel, and more darkly comic in tone. It was a critical success and has become a cult classic." },
+    ],
+  },
+  {
+    slug: 'less-than-zero',
+    intro: "Less Than Zero (1985) by Bret Easton Ellis is a debut novel narrated by Clay, a college student who returns from Camden College in New Hampshire to Los Angeles for Christmas vacation. Over the course of a few weeks, Clay observes his wealthy friends' emptiness — the drugs, the casual sex, the music videos, the designer clothes, the complete absence of feeling — without being able to fully leave or fully participate. The novel was written when Ellis was nineteen and is organized around its mood rather than its plot: a portrait of a generation of wealthy California young people raised on surfaces, incapable of connection, and heading somewhere without being able to name what it is.",
+    startWith: 'Less Than Zero (1985)',
+    books: [
+      { title: 'Less Than Zero', author: 'Bret Easton Ellis', year: 1985 },
+      { title: 'American Psycho', author: 'Bret Easton Ellis', year: 1991, note: "Ellis's most controversial and most discussed novel — the same blank affect and brand-name saturation, amplified to grotesque violence on Wall Street." },
+      { title: 'Imperial Bedrooms', author: 'Bret Easton Ellis', year: 2010, note: "Ellis's direct sequel to Less Than Zero — Clay returns to Los Angeles decades later, and the novel revisits the original characters and their fates." },
+    ],
+    faq: [
+      { q: 'Is Less Than Zero part of a series?', a: "Less Than Zero has a direct sequel — Imperial Bedrooms (2010) — in which Clay returns to Los Angeles many years later. The two novels share characters but Imperial Bedrooms is a much darker, more explicitly noir work." },
+      { q: 'Is Less Than Zero a difficult novel?', a: "Less Than Zero is short (about 200 pages) and written in a deliberately flat, affect-free style that some readers find instantly hypnotic and others find impossible to engage with. The novel is organized around mood and observation rather than plot; very little 'happens' in a conventional narrative sense." },
+      { q: 'Is Less Than Zero similar to The Catcher in the Rye?', a: "Both are first-person novels about a young man who observes the world around him with detachment and cannot connect. But The Catcher in the Rye is saturated with feeling (Holden's alienation is passionate); Less Than Zero is deliberately evacuated of feeling. Clay doesn't feel much about anything he sees; that absence of feeling is the novel's subject." },
+    ],
+  },
+  {
     slug: 'falling-man',
     intro: "Falling Man (2007) by Don DeLillo is his novel of September 11 — a narrowly focused account of Keith Neudecker, a survivor of the World Trade Center attacks, his wife Lianne, and the months after the attacks as the characters struggle to reabsorb themselves into ordinary life. DeLillo interweaves three timelines: Keith's slow return to his family, Lianne's work with an Alzheimer's group, and, in the novel's three short interstitial chapters, the interior of one of the hijackers. Falling Man is DeLillo at his most restrained and elegiac — a quieter novel than his earlier work, concerned with the private aftermath of historical catastrophe rather than with the catastrophe itself.",
     startWith: 'Falling Man (2007)',
