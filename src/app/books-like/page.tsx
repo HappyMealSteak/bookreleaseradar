@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Confessions of Zeno Italo Svevo Trieste psychoanalysis unreliable narrator',
+    'books like The Radetzky March Joseph Roth Habsburg empire Austrian decline',
+    'books like The Recognitions William Gaddis forgery postmodern American novel',
+    'books like The Death of Artemio Cruz Carlos Fuentes Mexican Revolution dying magnate',
+    'books like The Ghost Writer Philip Roth Nathan Zuckerman Anne Frank Lonoff',
     'books like If This Is a Man Primo Levi Auschwitz Holocaust memoir',
     'books like The Plague Albert Camus Oran epidemic solidarity allegory',
     'books like Henderson the Rain King Saul Bellow Africa rain king Connecticut',
@@ -2465,6 +2470,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Confessions of Zeno by Italo Svevo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Confessions of Zeno include As a Man Grows Older (other Svevo), Ulysses by Joyce (Svevo's champion), The Magic Mountain by Mann, In Search of Lost Time by Proust, Steppenwolf by Hesse, Lolita by Nabokov, The Remains of the Day by Ishiguro, and The Man Without Qualities by Musil. Our full guide covers 8 picks for fans of Svevo's unreliable narrator classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Radetzky March by Joseph Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Radetzky March include The Capuchin Crypt and Job (other Roth), The Man Without Qualities by Musil, Doctor Zhivago by Pasternak, The Magic Mountain by Mann, A Gentleman in Moscow by Towles, The Tin Drum by Grass, and The Trial by Kafka. Our full guide covers 8 picks for fans of Roth's Habsburg elegey." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Recognitions by William Gaddis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Recognitions include JR and A Frolic of His Own (other Gaddis), Gravity's Rainbow by Pynchon, Infinite Jest by Wallace, White Noise and Underworld by DeLillo, Blood Meridian by McCarthy, and Mason & Dixon by Pynchon. Our full guide covers 8 picks for fans of Gaddis's postmodern masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Death of Artemio Cruz by Carlos Fuentes?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Death of Artemio Cruz include Where the Air Is Clear and Terra Nostra (other Fuentes), Pedro Páramo by Rulfo, One Hundred Years of Solitude by García Márquez, Hopscotch by Cortázar, The House of the Spirits by Allende, Conversation in the Cathedral by Vargas Llosa, and The General in His Labyrinth by García Márquez. Our full guide covers 8 picks for fans of Fuentes's Mexican novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Ghost Writer by Philip Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ghost Writer include Zuckerman Unbound, The Anatomy Lesson, and American Pastoral (other Zuckerman novels), Portnoy's Complaint by Roth, Herzog by Bellow, Goodbye Columbus by Roth, The Plot Against America by Roth, and The Counterlife by Roth. Our full guide covers 8 picks for fans of Roth's Zuckerman debut." },
     },
     {
       '@type': 'Question',
