@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Year of the Flood Margaret Atwood MaddAddam trilogy Toby Ren God\'s Gardeners Waterless Flood',
+    'books like MaddAddam Margaret Atwood trilogy conclusion Crakers Toby Zeb post-apocalyptic rebuild',
+    "books like Cat's Eye Margaret Atwood Elaine Risley painter Toronto Cordelia childhood female bullying Booker",
+    'books like Cloud Atlas David Mitchell nested stories five centuries Pacific Japan Korea Hawaii Booker',
+    'books like The Bone Clocks David Mitchell Holly Sykes Horologists Anchorites 1984 2043 six voices',
     'books like The Overstory Richard Powers Pulitzer Prize trees environmental fiction nine storylines Patricia Westerford',
     'books like Bewilderment Richard Powers Theo Byrne Robin neurofeedback neurodivergent son ecological grief Booker shortlist',
     'books like Rules of Civility Amor Towles 1938 New York Katey Kontent social climbing debut Edith Wharton',
@@ -2615,6 +2620,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Year of the Flood by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Year of the Flood include Oryx and Crake and MaddAddam (both Atwood), The Handmaid's Tale by Margaret Atwood, Station Eleven by Emily St. John Mandel, The Road by Cormac McCarthy, The Power by Naomi Alderman, Never Let Me Go by Kazuo Ishiguro, and Parable of the Sower by Octavia E. Butler. Our full guide covers 8 picks for readers of the MaddAddam trilogy's second novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked MaddAddam by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like MaddAddam include Oryx and Crake and The Year of the Flood (both Atwood), The Handmaid's Tale and The Testaments by Margaret Atwood, Station Eleven by Emily St. John Mandel, Riddley Walker by Russell Hoban, and Parable of the Sower by Octavia E. Butler. Our full guide covers 8 picks for readers of the concluding MaddAddam trilogy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Cat's Eye by Margaret Atwood?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cat's Eye include Alias Grace and The Blind Assassin (both Atwood), Prep by Curtis Sittenfeld, My Brilliant Friend by Elena Ferrante, Conversations with Friends by Sally Rooney, The Girls by Emma Cline, and The Virgin Suicides by Jeffrey Eugenides. Our full guide covers 8 picks for readers of Atwood's Booker-shortlisted novel about childhood cruelty and memory." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cloud Atlas by David Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cloud Atlas include The Bone Clocks and The Thousand Autumns of Jacob de Zoet (both Mitchell), Life of Pi by Yann Martel, Lincoln in the Bardo by George Saunders, The Raw Shark Texts by Steven Hall, and Midnight's Children by Salman Rushdie. Our full guide covers 8 picks for readers of Mitchell's Booker-shortlisted nested-stories novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bone Clocks by David Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bone Clocks include Cloud Atlas and Slade House (both Mitchell), The Thousand Autumns of Jacob de Zoet by David Mitchell, The Passage by Justin Cronin, Jonathan Strange & Mr Norrell by Susanna Clarke, Life After Life by Kate Atkinson, and The Time Traveler's Wife by Audrey Niffenegger. Our full guide covers 8 picks for readers of Mitchell's six-decade life-and-immortality epic." },
     },
     {
       '@type': 'Question',

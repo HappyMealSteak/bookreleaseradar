@@ -5992,6 +5992,82 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'year-of-the-flood-atwood',
+    intro: "The Year of the Flood (2009) by Margaret Atwood is the second novel in the MaddAddam trilogy — a parallel account of the same catastrophic 'Waterless Flood' depicted in Oryx and Crake (2003), this time narrated from the perspective of Toby and Ren, two women who have survived the pandemic by hiding in a rooftop garden and a sex club respectively. Where Oryx and Crake followed Jimmy and Crake through the corporate enclaves of a near-future biotech dystopia, The Year of the Flood follows the God's Gardeners — a religious environmental movement that has been predicting and preparing for exactly this kind of civilizational collapse. The two novels share the same timeline and eventually converge; MaddAddam (2013) brings both sets of survivors together. The trilogy can be read in any order, but the intended sequence is Oryx and Crake first.",
+    startWith: 'Oryx and Crake (2003)',
+    books: [
+      { title: 'Oryx and Crake', author: 'Margaret Atwood', year: 2003, note: "Start here — the MaddAddam trilogy's first novel, following Jimmy and Crake through the corporate enclaves of a biotech dystopia before the Waterless Flood." },
+      { title: 'The Year of the Flood', author: 'Margaret Atwood', year: 2009, note: "The parallel account of the same catastrophe, narrated by Toby and Ren from the margins of the corporate world." },
+      { title: 'MaddAddam', author: 'Margaret Atwood', year: 2013, note: "The concluding novel — the two groups of survivors converge, the history of Crake's plan is fully revealed, and Atwood builds a new world from what remains." },
+    ],
+    faq: [
+      { q: 'Do I need to read Oryx and Crake before The Year of the Flood?', a: 'They are designed to be read in publication order — Oryx and Crake first, then The Year of the Flood — but The Year of the Flood can stand alone. Reading Oryx and Crake first gives The Year of the Flood\'s parallel timeline its full resonance.' },
+      { q: 'Are The Year of the Flood and Oryx and Crake the same story?', a: 'They cover the same catastrophic event — the engineered pandemic called the Waterless Flood — but from completely different perspectives. Oryx and Crake follows the corporate insiders who created the disaster; The Year of the Flood follows the religious environmentalists who survived it from the outside.' },
+      { q: 'Is the MaddAddam trilogy dystopian or speculative fiction?', a: 'Atwood prefers "speculative fiction" — the trilogy contains nothing that current science or corporate behavior does not already make plausible. The biotechnology, social stratification, and environmental collapse are all extrapolations of real trends rather than fantasy scenarios.' },
+    ],
+  },
+  {
+    slug: 'maddaddam-atwood',
+    intro: "MaddAddam (2013) by Margaret Atwood is the concluding novel of the MaddAddam trilogy. In its aftermath, the survivors of the Waterless Flood — Toby and Ren from The Year of the Flood, and the former biotech underground from Oryx and Crake — find themselves living alongside the Crakers, the engineered humanoids that Crake designed to replace humanity. Toby narrates, telling the Crakers the story of Zeb and the founding of MaddAddam while fending off a band of violent Painballers and building whatever kind of future is possible from the materials that remain. MaddAddam is warmer than its predecessors — more interested in what survives catastrophe than in how catastrophe happens — and gives full shape to Atwood's vision of how intelligence and narrative might persist through extinction.",
+    startWith: 'Oryx and Crake (2003)',
+    books: [
+      { title: 'Oryx and Crake', author: 'Margaret Atwood', year: 2003, note: "The trilogy's first novel — start here for the corporate insiders' story and the creation of the Waterless Flood." },
+      { title: 'The Year of the Flood', author: 'Margaret Atwood', year: 2009, note: "The parallel account of the same catastrophe from the outside, through the God's Gardeners — read second." },
+      { title: 'MaddAddam', author: 'Margaret Atwood', year: 2013, note: "The concluding novel — the survivors converge and begin to build again." },
+    ],
+    faq: [
+      { q: 'Can I read MaddAddam without reading Oryx and Crake and The Year of the Flood first?', a: 'No — MaddAddam is the concluding volume of a trilogy and depends heavily on the events and characters of the first two novels. Read Oryx and Crake first, then The Year of the Flood, then MaddAddam.' },
+      { q: 'Who are the Crakers in MaddAddam?', a: "The Crakers are the engineered humanoids that the scientist Crake designed in Oryx and Crake to replace humanity — gentle, herbivorous, sexually uncomplicated, immune to the most dangerous diseases. In MaddAddam, the human survivors live alongside them, and Toby serves as their storyteller, weaving an origin myth from the raw materials of what actually happened." },
+      { q: 'Does MaddAddam have a hopeful ending?', a: "Relatively — MaddAddam is the most humanly warm of the three novels, and Atwood builds into its conclusion a guarded possibility that something worth having might survive the end of the world as it was. It ends as a story being told, which is itself an act of hope." },
+    ],
+  },
+  {
+    slug: 'cat-eye-atwood',
+    intro: "Cat's Eye (1988) by Margaret Atwood is a novel about memory, female cruelty, and the strange persistence of the past in the present. Elaine Risley, a painter returning to Toronto for a retrospective of her work, finds herself ambushed by memories of her childhood friendship with Cordelia — a friendship that, between the ages of eight and twelve, was organized around Cordelia's systematic psychological cruelty toward Elaine. The novel alternates between Elaine's adult present and her childhood past, examining how the girl she was shaped the woman she became, and how childhood cruelties leave marks that never entirely heal. It was shortlisted for the Booker Prize in 1989 and is often cited alongside The Handmaid's Tale and Alias Grace as one of Atwood's finest novels.",
+    startWith: "Cat's Eye (1988)",
+    books: [
+      { title: "Cat's Eye", author: 'Margaret Atwood', year: 1988 },
+      { title: 'Alias Grace', author: 'Margaret Atwood', year: 1996, note: "Atwood's historical psychological fiction at its most sustained — a serving girl convicted of murder, a doctor who doubts her guilt." },
+      { title: 'The Blind Assassin', author: 'Margaret Atwood', year: 2000, note: "Atwood's Booker Prize winner — two sisters, a pulp science fiction novel within a novel, and a family secret that unfolds across decades." },
+    ],
+    faq: [
+      { q: 'Is Cat\'s Eye part of a series?', a: "No — Cat's Eye is a standalone novel. It shares Atwood's preoccupations and her Toronto setting with other novels (The Edible Woman, Lady Oracle) but has no plot or character connections to them." },
+      { q: "What does 'Cat's Eye' mean?", a: "The title refers to a type of glass marble — the transparent kind with a colorful swirl at the center that looks like a cat's eye — that Elaine is given as a child and that becomes a talisman of protection during the worst years of Cordelia's bullying. The cat's eye marble is one of the novel's central symbols: the distant, unemotional gaze that protects by not feeling." },
+      { q: "Is Cat's Eye autobiographical?", a: "Not literally, but Atwood has acknowledged that the Toronto of Cat's Eye is close to the Toronto of her own childhood, and that the childhood experiences of feeling like an outsider and the female social dynamics the novel describes are drawn from observation and memory rather than pure invention." },
+    ],
+  },
+  {
+    slug: 'cloud-atlas-mitchell',
+    intro: "Cloud Atlas (2004) by David Mitchell is a novel in six nested stories spanning five centuries — from a nineteenth-century Pacific voyage journal to a distant post-apocalyptic future and back again — each story interrupted at its midpoint before the sequence reverses and each narrative is concluded. A nineteenth-century American notary crosses the Pacific; a young composer in 1930s Belgium becomes the amanuensis of a dying musician; a journalist in 1970s California investigates a nuclear power conspiracy; a vanity publisher in contemporary London becomes a prisoner in a nursing home; a fabricant clone in a near-future Korea is interviewed about her awakening; a goatherd in a far-future Hawaii speaks of the old world. The novel asks whether human compassion and creativity might persist across time and circumstance even as civilizations rise and fall. It was shortlisted for the Booker Prize in 2004 and adapted by the Wachowskis and Tom Tykwer into a film in 2012.",
+    startWith: 'Cloud Atlas (2004)',
+    books: [
+      { title: 'Cloud Atlas', author: 'David Mitchell', year: 2004 },
+      { title: 'The Bone Clocks', author: 'David Mitchell', year: 2014, note: "Mitchell's companion epic — a woman named Holly Sykes whose long life intersects a hidden war between two immortal factions, told in six sections spanning the twentieth and twenty-first centuries." },
+      { title: 'The Thousand Autumns of Jacob de Zoet', author: 'David Mitchell', year: 2010, note: "Mitchell's most historically focused novel — a Dutch trading post in 1799 Nagasaki, a love story, and a cult — more conventionally structured than Cloud Atlas but equally vivid." },
+    ],
+    faq: [
+      { q: 'What order do the stories in Cloud Atlas go in?', a: "Cloud Atlas is structured as a Russian nesting doll: story 1 is interrupted halfway through, then story 2 begins, then story 3, then story 4, then story 5, then story 6 completes in full, and then the sequence reverses — story 5 concludes, then story 4, then story 3, then story 2, then story 1. Each story is set in a different era and genre, moving from past to far future and back." },
+      { q: 'Do you need to read Cloud Atlas in a specific order?', a: "The novel's structure is fixed — it is presented in a specific order (nested forward and backward) and should be read from page 1 to page last. The structure is itself part of the meaning." },
+      { q: 'Is Cloud Atlas a series?', a: "No — Cloud Atlas is a standalone novel. David Mitchell's novels share minor recurring characters and references, but they are not a series and can be read in any order." },
+      { q: 'Is Cloud Atlas hard to read?', a: "Each of the six sections is written in a distinct style — nineteenth-century journal, 1930s letters, 1970s thriller, contemporary comic novel, science fiction interview, post-apocalyptic dialect — which means the novel makes different demands in different sections. Most readers find the outer sections (especially the post-apocalyptic dialect) initially challenging but quickly absorbing." },
+    ],
+  },
+  {
+    slug: 'bone-clocks-mitchell',
+    intro: "The Bone Clocks (2014) by David Mitchell follows Holly Sykes from her teenage years in 1984 to a dystopian 2043 through six sections spanning more than half a century, each narrated by a different voice. Holly herself — a working-class girl from Gravesend who, at fifteen, hears voices and runs away from home — is the novel's connective tissue: we return to her at intervals across a lifetime, watching her age while the novel's hidden war between two factions of immortals (the Horologists and the Anchorites) erupts and subsides around her. Mitchell layers a mainstream literary novel about an ordinary life's joys and losses over a metaphysical thriller about consciousness, predation, and what might persist after civilization as we know it ends.",
+    startWith: 'The Bone Clocks (2014)',
+    books: [
+      { title: 'The Bone Clocks', author: 'David Mitchell', year: 2014 },
+      { title: 'Cloud Atlas', author: 'David Mitchell', year: 2004, note: "Mitchell's most celebrated novel — six nested stories across five centuries, similarly structured around the question of what persists across time." },
+      { title: 'Slade House', author: 'David Mitchell', year: 2015, note: "A short, horror-inflected companion to The Bone Clocks — shares its Horologist-Anchorite mythology and can be read immediately after." },
+    ],
+    faq: [
+      { q: 'Do I need to read Cloud Atlas before The Bone Clocks?', a: "No — The Bone Clocks is a standalone novel. It shares minor recurring characters with other Mitchell novels (Cloud Atlas, Black Swan Green) but does not require prior knowledge of them." },
+      { q: 'Is Slade House a companion to The Bone Clocks?', a: "Yes — Slade House (2015) is set in the same fictional universe as The Bone Clocks, shares its mythology, and features some of the same characters. Mitchell has described it as a companion piece. It is best read after The Bone Clocks rather than before." },
+      { q: 'What is the Bone Clocks mythology about?', a: "The novel describes two factions of immortals: the Horologists, who are reborn into new bodies after death (bone clocks — their bodies keep ticking), and the Anchorites, who extend their immortality by 'decanting' the psychic energy of others. The conflict between them is the novel's supernatural layer; Holly Sykes's ordinary life is the human layer." },
+    ],
+  },
+  {
     slug: 'the-overstory-powers',
     intro: "The Overstory (2018) by Richard Powers is a Pulitzer Prize–winning novel about trees, the people who love them, and the radical measures some will take to preserve them. A vast, polyphonic narrative, it begins with nine separate stories about nine people and the trees that changed their lives — a family's chestnut, an aerial photographer's redwood, a video-game designer's chestnuts, a Vietnamese-American immigrant's mulberry — before weaving them together into a collective campaign to save old-growth forest. Powers drew on decades of scientific research into tree communication and intelligence — the mycorrhizal networks (the 'wood wide web') by which trees share nutrients and signals underground — to argue that forests think, remember, and care for one another in ways humans are only beginning to understand. Structurally the novel mirrors a tree: it opens with 'Roots' (the origin stories), proceeds to 'Trunk' (where the lives converge), then 'Crown' (the widening consequences), and finally 'Seeds' (what remains). It won the Pulitzer Prize for Fiction in 2019, was shortlisted for the Man Booker Prize in 2018, and was named one of the 100 best books of the 21st century by The New York Times in 2024.",
     startWith: 'The Overstory (2018)',
