@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Weather Jenny Offill Lizzie librarian climate anxiety fragmented 2020 Overstory',
+    'books like My Year of Rest Ottessa Moshfegh Manhattan beautiful sleeping medication dark comedy',
+    "books like Beautiful World Where Are You Sally Rooney Alice Eileen thirties Ireland philosophy",
+    'books like Exciting Times Naoise Dolan Ava Hong Kong Julian Edith class banker debut',
+    'books like The Blind Assassin Margaret Atwood Booker Prize Iris Chase nested narrative',
     'books like Dept of Speculation Jenny Offill fragmented marriage motherhood infidelity lyrical',
     'books like Invisible Man Ralph Ellison Black narrator Harlem racial identity National Book Award',
     'books like White Teeth Zadie Smith multicultural London Willesden Iqbal Jones five decades',
@@ -2595,6 +2600,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Weather by Jenny Offill?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Weather include Dept. of Speculation by Jenny Offill, The Overstory by Richard Powers, Bewilderment by Richard Powers, The End of Nature by Bill McKibben, Flight Behavior by Barbara Kingsolver, Outline by Rachel Cusk, and A Field Guide to Getting Lost by Rebecca Solnit. Our full guide covers 8 picks for readers of Offill's climate-anxiety novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Year of Rest and Relaxation by Ottessa Moshfegh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Year of Rest and Relaxation include Eileen, Lapvona, and McGlue (all Moshfegh), Normal People by Sally Rooney, Exciting Times by Naoise Dolan, The Bell Jar by Sylvia Plath, Dept. of Speculation by Jenny Offill, and The Virgin Suicides by Jeffrey Eugenides. Our full guide covers 8 picks for readers of Moshfegh's dark satirical New York novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Beautiful World, Where Are You by Sally Rooney?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Beautiful World, Where Are You include Normal People and Conversations with Friends (both Rooney), My Brilliant Friend by Elena Ferrante, Weather by Jenny Offill, Dept. of Speculation by Jenny Offill, Exciting Times by Naoise Dolan, On Beauty by Zadie Smith, and Intermezzo by Rooney. Our full guide covers 8 picks for readers of Rooney's third novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Exciting Times by Naoise Dolan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Exciting Times include Normal People and Conversations with Friends (both Rooney), The Happy Couple by Naoise Dolan, Acts of Desperation by Megan Nolan, My Year of Rest and Relaxation by Ottessa Moshfegh, Prep by Curtis Sittenfeld, Beautiful World Where Are You by Rooney, and Outline by Rachel Cusk. Our full guide covers 8 picks for readers of Dolan's debut Hong Kong novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Blind Assassin by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Blind Assassin include The Handmaid's Tale, Alias Grace, Cat's Eye, and The Testaments (all Atwood), Atonement by Ian McEwan, The French Lieutenant's Woman by John Fowles, The Name of the Rose by Umberto Eco, and A Tale for the Time Being by Ruth Ozeki. Our full guide covers 8 picks for readers of Atwood's Booker Prize-winning nested novel." },
     },
     {
       '@type': 'Question',
