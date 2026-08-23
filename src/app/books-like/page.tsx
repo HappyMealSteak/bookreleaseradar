@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Jonathan Strange Mr Norrell Susanna Clarke English magic Napoleonic Raven King',
+    'books like Piranesi Susanna Clarke House statues tidal seas mystery',
+    'books like The Lies of Locke Lamora Scott Lynch Camorr Gentleman Bastard heist',
+    'books like The Blade Itself Joe Abercrombie First Law Logen Ninefingers Glokta grimdark',
+    'books like The Way of Kings Brandon Sanderson Stormlight Archive Kaladin Roshar',
     'books like The Graveyard Book Neil Gaiman Bod Owens ghosts graveyard Newbery',
     'books like Coraline Neil Gaiman Other Mother button eyes horror children',
     'books like The Sandman Neil Gaiman Dream Morpheus comics graphic novel',
@@ -2505,6 +2510,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jonathan Strange & Mr Norrell by Susanna Clarke?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jonathan Strange & Mr Norrell include Piranesi and The Ladies of Grace Adieu (other Clarke), His Majesty's Dragon by Novik, The Name of the Rose by Eco, Wolf Hall by Mantel, The Magicians by Grossman, and American Gods by Gaiman. Our full guide covers 8 picks for fans of Clarke's English magic fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Piranesi by Susanna Clarke?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Piranesi include Jonathan Strange & Mr Norrell and The Ladies of Grace Adieu (other Clarke), The House of Leaves by Danielewski, Never Let Me Go by Ishiguro, The Ocean at the End of the Lane by Gaiman, The Name of the Rose by Eco, and Good Omens by Pratchett and Gaiman. Our full guide covers 8 picks for fans of Clarke's puzzle-box mystery." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lies of Locke Lamora by Scott Lynch?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lies of Locke Lamora include Red Seas Under Red Skies and The Republic of Thieves (Gentleman Bastard sequence), The Blade Itself by Abercrombie, The Name of the Wind by Rothfuss, The Way of Kings by Sanderson, Six of Crows by Bardugo, and American Gods by Gaiman. Our full guide covers 8 picks for fans of Lynch's heist fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Blade Itself by Joe Abercrombie?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Blade Itself include Before They Are Hanged, Last Argument of Kings, and Best Served Cold (other Abercrombie), The Lies of Locke Lamora by Lynch, A Song of Ice and Fire by Martin, The Way of Kings by Sanderson, and Prince of Thorns by Lawrence. Our full guide covers 8 picks for fans of Abercrombie's grimdark fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Way of Kings by Brandon Sanderson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Way of Kings include Words of Radiance and The Final Empire (other Sanderson), The Lies of Locke Lamora by Lynch, The Name of the Wind by Rothfuss, The Blade Itself by Abercrombie, A Memory of Light by Jordan and Sanderson, and The Eye of the World by Jordan. Our full guide covers 8 picks for fans of Sanderson's Stormlight Archive." },
     },
     {
       '@type': 'Question',
