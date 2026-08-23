@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'vanity-fair-thackeray',
+    intro: "Vanity Fair (1847-48) by William Makepeace Thackeray is the great English novel of social ambition — a panoramic portrait of English and European society during the Napoleonic Wars organized around two women: Becky Sharp, the clever, ruthless daughter of a drawing-master who climbs as high as ability and luck allow, and Amelia Sedley, the passive, sentimental daughter of a City merchant whose emotional and financial fortunes chart the opposite trajectory. Thackeray subtitled it 'A Novel Without a Hero' and enforced this promise through his narrator's relentless undercutting of every character's claim to moral seriousness — Becky is brilliant but dishonest, Amelia is sincere but blind, and the various men they love and marry are vain, selfish, cowardly, or merely weak. The novel is a sustained exercise in social satire that finds its emotional center unexpectedly in Becky Sharp's determination to survive by any means in a world that would have assigned her to governessing.",
+    startWith: 'Vanity Fair (1847-48) — the only novel in the Vanity Fair sequence',
+    books: [
+      { title: 'Vanity Fair', author: 'William Makepeace Thackeray', year: 1848 },
+    ],
+    faq: [
+      { q: 'Is Vanity Fair a standalone novel?', a: 'Yes — Vanity Fair is completely standalone. Thackeray wrote other novels (Pendennis, The History of Henry Esmond, Barry Lyndon) but none continues the Becky Sharp story or Vanity Fair characters.' },
+      { q: 'Is Becky Sharp the villain or the heroine of Vanity Fair?', a: "Both — and that's the point. Thackeray refuses to let the reader simply condemn Becky for climbing socially by any available means: her intelligence and determination are the most compelling things in the novel, and the alternative (Amelia's passive sentimentality) is presented as its own kind of moral failure. Vanity Fair asks whether a woman in Becky's position has any 'honest' options available to her." },
+      { q: 'What is the Napoleonic Wars setting of Vanity Fair?', a: "The novel's chronology spans roughly 1813 to the late 1820s — the Battle of Waterloo (1815) occurs at the novel's emotional center, where the husbands of both Becky and Amelia are involved in the campaign. The historical setting allows Thackeray to portray English society during a period of national crisis and to use the battlefield as a backdrop for his satire of social ambition." },
+    ],
+  },
+  {
+    slug: 'the-woodlanders-hardy',
+    intro: "The Woodlanders (1887) by Thomas Hardy is the Hardy novel that Hardy himself considered his finest — a tragedy of thwarted love and social incompatibility set in the woodland village of Little Hintock (based on the area around Melbury Osmund in Dorset), where the forester Giles Winterborne and the farmer's daughter Grace Melbury cannot marry because Grace's education has elevated her beyond her origins, and where the charming surgeon Edred Fitzpiers introduces into the enclosed woodland community a sexual sophistication and social ambition that destroys several lives. The novel is quieter than Hardy's more celebrated tragedies — neither as Gothic as Tess nor as savage as Jude — but its treatment of the class and education themes that run through Hardy's fiction is arguably more nuanced, and its woodland setting (the novel's actual protagonist, some critics argue) gives it an atmospheric density that the later novels lack.",
+    startWith: 'The Woodlanders (1887) — the only novel in the Little Hintock sequence',
+    books: [
+      { title: 'The Woodlanders', author: 'Thomas Hardy', year: 1887 },
+    ],
+    faq: [
+      { q: 'Is The Woodlanders a standalone novel?', a: 'Yes — it is completely standalone. The woodland setting of Little Hintock is unique to this novel; Hardy\'s other Wessex novels share the geographical frame but feature no continuing characters.' },
+      { q: 'Which Hardy novel should I start with?', a: "Hardy himself said The Woodlanders was his best, but most readers begin with Far from the Madding Crowd (his most romantic and accessible) or The Mayor of Casterbridge (his most focused tragic narrative) before approaching The Woodlanders. Tess and Jude are his most emotionally demanding novels; save them for after you've established your Hardy tolerance." },
+      { q: 'How does The Woodlanders compare to Tess of the d\'Urbervilles?', a: "Both treat social class and female vulnerability in rural Wessex, but where Tess is a straightforwardly sympathetic victim of Alec's predation and Angel's cruelty, Grace Melbury participates more actively in her own situation — she chooses Fitzpiers over Giles, and her later regret is more complicated; Hardy's sympathy for Grace is qualified in ways that make The Woodlanders more psychologically ambiguous." },
+    ],
+  },
+  {
+    slug: 'aurora-floyd-braddon',
+    intro: "Aurora Floyd (1863) by Mary Elizabeth Braddon was her follow-up to Lady Audley's Secret and, by many accounts, her best novel — the story of Aurora Floyd, the beautiful heiress of a banker and a racehorse trainer's daughter, whose hasty first marriage to a groom (concealed) complicates her subsequent marriage to the respectable John Mellish. Braddon's treatment of Aurora is more psychologically developed than Lady Audley — Aurora is not a criminal but a woman whose impulsive first marriage was a genuine mistake, and the novel's concern is with how she navigates the exposure of that mistake in a society with one set of rules for women and another for men. Aurora Floyd is more sympathetic than Lady Audley, more interesting than the sensation convention required, and the novel as a whole represents Braddon's attempt to move beyond the simple scheming-villainess formula she had established.",
+    startWith: 'Aurora Floyd (1863) — the only novel in the Aurora Floyd sequence',
+    books: [
+      { title: 'Aurora Floyd', author: 'Mary Elizabeth Braddon', year: 1863 },
+    ],
+    faq: [
+      { q: 'Is Aurora Floyd a sequel to Lady Audley\'s Secret?', a: "No — Aurora Floyd is entirely standalone and shares no characters with Lady Audley's Secret. It was written immediately afterward and features the same basic formula (beautiful woman with a concealed first marriage, devoted investigative male) but Aurora Floyd is a more sympathetic character than Lady Audley and her situation morally clearer." },
+      { q: 'What is Aurora Floyd\'s secret?', a: "Aurora, at eighteen, secretly married Conyers, a groom who worked for her father's racing stables, after a whirlwind romance. The marriage was a mistake she recognized almost immediately; believing Conyers dead, she later married the more respectable John Mellish — and Conyers then reappears, alive and blackmailing. Unlike Lady Audley, Aurora's secret does not involve genuine criminality on her part." },
+      { q: 'How does Aurora Floyd compare to Lady Audley\'s Secret?', a: "Lady Audley is the more celebrated sensation novel, but Aurora Floyd is the better one — Braddon's treatment of Aurora is more psychologically nuanced, the class dynamics are more explicitly analyzed, and the horse-racing world gives the novel a social texture Lady Audley's Secret lacks. Readers who find Lady Audley too villainous to sympathize with often prefer Aurora Floyd." },
+    ],
+  },
+  {
+    slug: 'the-hound-of-the-baskervilles',
+    intro: "The Hound of the Baskervilles (1901-02) by Arthur Conan Doyle is the most celebrated Sherlock Holmes novel and the one that most successfully combines the Gothic atmosphere of the Dartmoor setting with Holmes's rationalist detection — a story in which the Baskerville family curse (a spectral hound that pursues the heirs to death on the moor) proves to have a rational explanation involving phosphorescent paint, but whose evocation of the moor itself gives the novel a genuine atmosphere of threat that the short stories rarely achieve. Watson's more sustained narrative role (Holmes is absent for much of the novel) gives the story a different texture from the short-story formula, and Stapleton is one of the more genuinely chilling Holmes villains. The novel is the best entry point for readers encountering Doyle's detective for the first time and the most widely read of the full-length Holmes narratives.",
+    startWith: "A Study in Scarlet (1887) — the first Holmes novel, establishing Watson and Holmes's partnership",
+    books: [
+      { title: 'A Study in Scarlet', author: 'Arthur Conan Doyle', year: 1887 },
+      { title: 'The Sign of the Four', author: 'Arthur Conan Doyle', year: 1890 },
+      { title: 'The Hound of the Baskervilles', author: 'Arthur Conan Doyle', year: 1902 },
+      { title: 'The Valley of Fear', author: 'Arthur Conan Doyle', year: 1915 },
+    ],
+    faq: [
+      { q: 'Do I need to read the Holmes short stories before The Hound of the Baskervilles?', a: 'No — The Hound of the Baskervilles works perfectly as a standalone novel and is the best entry point for new Holmes readers. The Adventures (1892) and Memoirs (1893) short story collections are highly recommended for afterward, but the novel is self-contained and assumes no prior knowledge of Holmes.' },
+      { q: 'What is the reading order for Sherlock Holmes?', a: 'Publication order: A Study in Scarlet (1887), The Sign of the Four (1890), The Adventures (1892), The Memoirs (1893), The Return (1905), The Hound of the Baskervilles (1902 — though published before The Return, it is set earlier), The Valley of Fear (1915), His Last Bow (1917), The Case-Book (1927). Many readers start with The Hound or the Adventures and read in any order.' },
+      { q: 'Who is Stapleton in The Hound of the Baskervilles?', a: 'Jack Stapleton is the naturalist neighbor of the Baskervilles — a mild, scholarly man apparently devoted to entomology whose identity and motive form the mystery\'s core. His relationship to the Baskerville family constitutes the central revelation of the novel, and the hound itself is his instrument. He is one of Holmes\'s more effectively understated antagonists.' },
+    ],
+  },
+  {
+    slug: 'kim-kipling',
+    intro: "Kim (1901) by Rudyard Kipling is his masterpiece — the story of Kimball O'Hara (Kim), the orphaned Irish-Indian street boy of Lahore who becomes an agent in the 'Great Game' (the British-Russian intelligence competition for Central Asian influence) while also becoming the disciple of a Tibetan lama seeking a sacred river. The novel holds these two worlds — the espionage adventure and the spiritual quest — in deliberate tension, and Kim's freedom to inhabit both worlds (as Irish, as Indian, as spy, as disciple) without fully belonging to either is the novel's central concern. Kim is both the most vividly realized recreation of colonial India in English fiction and the most searching exploration of the divided identity that colonial rule produced — a book that Kipling's admirers and critics have argued over ever since Edward Said's reading of it in Culture and Imperialism (1993).",
+    startWith: 'Kim (1901) — the only novel in the Kim sequence',
+    books: [
+      { title: 'Kim', author: 'Rudyard Kipling', year: 1901 },
+    ],
+    faq: [
+      { q: 'Is Kim a children\'s novel?', a: "Kim has always been read by children and adults simultaneously — it has the surface appeal of an adventure story and the depth of a meditation on identity, empire, and spiritual seeking. Unlike The Jungle Book, it is primarily an adult novel that children can enjoy; it rewards re-reading in ways that most adventure fiction does not." },
+      { q: 'What is the Great Game in Kim?', a: "The 'Great Game' was the phrase used (by Kipling himself, among others) to describe the nineteenth-century competition between Britain and Russia for influence in Central Asia — a competition fought through intelligence agents, diplomatic missions, and proxy conflicts that Kipling believed determined the security of India. In the novel, Kim becomes an agent for Lurgan Sahib and Colonel Creighton in this game while simultaneously pursuing his spiritual education with the lama." },
+      { q: 'How should I approach Kim as a contemporary reader?', a: "Edward Said's analysis in Culture and Imperialism (1993) is essential — Said both admired Kim's narrative achievement and diagnosed its ideological investment in British imperialism. Reading Kim alongside Said illuminates both the novel's extraordinary achievement and its political limitations; Kim is simultaneously one of the great English novels and a document of imperial ideology, and both claims are true." },
+    ],
+  },
+  {
     slug: 'lady-audleys-secret-braddon',
     intro: "Lady Audley's Secret (1862) by Mary Elizabeth Braddon was the sensation novel that competed with The Woman in White for Victorian readership and outsold every other book of its era — a story of bigamy, arson, and attempted murder organized around the figure of Lady Audley, the beautiful governess-turned-aristocrat who has concealed an earlier marriage and will destroy anyone who threatens her social position. Robert Audley, the languid barrister nephew who investigates his friend George Talboys's disappearance, is one of Victorian fiction's more surprising detective figures — a man who begins the novel as a comic type and gradually develops into a genuine moral center as the evidence against Lady Audley accumulates. The novel is both a product of its sensation moment and a critique of the domestic ideology that produced Lady Audley: a novel that asks what a woman of intelligence and beauty is supposed to do in a world that offers her no legitimate path to security.",
     startWith: 'Lady Audley\'s Secret (1862) — the only novel in Braddon\'s main sequence featuring Robert Audley',

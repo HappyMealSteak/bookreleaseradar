@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like Vanity Fair Thackeray Becky Sharp Amelia Sedley Napoleon England 1848',
+    'books like The Woodlanders Thomas Hardy Giles Winterborne Grace Melbury Fitzpiers 1887',
+    'books like Aurora Floyd Mary Elizabeth Braddon Aurora Conyers John Mellish racing 1863',
+    'books like Hound of the Baskervilles Arthur Conan Doyle Holmes Watson Dartmoor Stapleton 1902',
+    'books like Kim Kipling Kim O\'Hara Great Game Lahore India Tibet lama 1901',
     'books like East Lynne Ellen Wood Mrs Henry Wood Lady Isabel fallen woman governess 1861',
     'books like Shirley Charlotte Brontë Caroline Helstone Shirley Keeldar Luddites Yorkshire 1849',
     'books like Villette Charlotte Brontë Lucy Snowe M Paul Emanuel Belgian school dark 1853',
@@ -2730,6 +2735,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Vanity Fair by Thackeray?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Vanity Fair include Barry Lyndon by Thackeray, Middlemarch by George Eliot, Lady Audley's Secret by Braddon, The Way We Live Now by Trollope, The Red and the Black by Stendhal, The House of Mirth by Wharton, Gone Girl by Gillian Flynn, and The Forsyte Saga by Galsworthy. Our full guide covers 8 picks for fans of Thackeray's satirical masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Woodlanders by Thomas Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woodlanders include Far from the Madding Crowd and Tess of the d'Urbervilles (also by Hardy), The Mayor of Casterbridge, The Return of the Native, Wives and Daughters by Gaskell, The Mill on the Floss by George Eliot, Jude the Obscure, and Under the Greenwood Tree by Hardy. Our full guide covers 8 picks for fans of Hardy's own favorite novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Aurora Floyd by Braddon?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Aurora Floyd include Lady Audley's Secret by Braddon, The Woman in White by Collins, Armadale by Collins, The Tenant of Wildfell Hall by Anne Brontë, Anna Karenina by Tolstoy, East Lynne by Wood, Vanity Fair by Thackeray, and Rebecca by du Maurier. Our full guide covers 8 picks for fans of Braddon's best sensation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Hound of the Baskervilles by Doyle?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Hound of the Baskervilles include The Adventures of Sherlock Holmes, A Study in Scarlet, The Moonstone by Collins, And Then There Were None by Christie, The Name of the Rose by Eco, The Big Sleep by Chandler, Dracula by Stoker, and The Seven-Per-Cent Solution by Nicholas Meyer. Our full guide covers 8 picks for fans of Doyle's greatest Holmes novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kim by Rudyard Kipling?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kim include The Jungle Book by Kipling, A Passage to India by Forster, Burmese Days by Orwell, The Man Who Would Be King by Kipling, The Great Game by Peter Hopkirk, Midnight's Children by Rushdie, The Secret Agent by Conrad, and The Spy Who Came in from the Cold by le Carré. Our full guide covers 8 picks for fans of Kipling's masterpiece." },
     },
     {
       '@type': 'Question',
