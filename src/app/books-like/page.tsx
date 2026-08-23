@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Eugene Onegin Pushkin superfluous man Russian verse novel',
+    'books like A Hero of Our Time Lermontov Pechorin psychological Caucasus',
+    'books like The Cherry Orchard Chekhov Russian drama dissolution comedy',
+    'books like Uncle Vanya Chekhov wasted life Russian play',
+    'books like The Lady with the Dog Chekhov short story love Yalta',
     'books like Fathers and Sons Turgenev nihilism Russian intelligentsia generational',
     'books like Oblomov Goncharov inertia superfluous man Russian novel',
     'books like Dead Souls Gogol Russian satire provincial Chichikov',
@@ -2410,6 +2415,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Eugene Onegin by Alexander Pushkin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Eugene Onegin include A Hero of Our Time by Lermontov, The Captain's Daughter by Pushkin, Fathers and Sons by Turgenev, Oblomov by Goncharov, Notes from Underground by Dostoevsky, Uncle Vanya by Chekhov, The Tales of Belkin by Pushkin, and Rudin by Turgenev. Our full guide covers 8 picks for fans of Pushkin's founding Russian novel in verse." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Hero of Our Time by Mikhail Lermontov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Hero of Our Time include Eugene Onegin by Pushkin, Notes from Underground by Dostoevsky, Fathers and Sons by Turgenev, The Stranger by Camus, Oblomov by Goncharov, Steppenwolf by Hesse, The Demon and Other Poems by Lermontov, and Dead Souls by Gogol. Our full guide covers 8 picks for fans of Lermontov's psychological Caucasus novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Cherry Orchard by Anton Chekhov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Cherry Orchard include Uncle Vanya and Three Sisters and The Seagull by Chekhov, The Lady with the Dog by Chekhov, Oblomov by Goncharov, Waiting for Godot by Beckett, The Three Sisters and Other Plays by Chekhov, and Fathers and Sons by Turgenev. Our full guide covers 8 picks for fans of Chekhov's Russian drama." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Uncle Vanya by Anton Chekhov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Uncle Vanya include The Cherry Orchard and Three Sisters and The Seagull by Chekhov, The Lady with the Dog by Chekhov, Oblomov by Goncharov, Fathers and Sons by Turgenev, Waiting for Godot by Beckett, and A Hero of Our Time by Lermontov. Our full guide covers 8 picks for fans of Chekhov's play about wasted life." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lady with the Dog by Anton Chekhov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lady with the Dog include Uncle Vanya and The Cherry Orchard by Chekhov, Dubliners by Joyce, The Essential Tales of Chekhov, Lives of Girls and Women by Alice Munro, In the Penal Colony by Kafka, Selected Stories by John Cheever, and Selected Stories by John Updike. Our full guide covers 8 picks for fans of Chekhov's short story masterpiece." },
     },
     {
       '@type': 'Question',
