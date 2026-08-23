@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Charterhouse of Parma Stendhal Fabrice del Dongo Clelia Waterloo Parma 1839 Italian novel',
+    'books like Lost Illusions Honore de Balzac Lucien Chardon journalism Paris literary world 1837 Comedie Humaine',
+    'books like Cousin Bette Honore de Balzac Lisbeth Fischer Valerie Marneffe Hulot envy destruction 1846',
+    'books like Eugenie Grandet Honore de Balzac Pere Grandet miser provincial Saumur 1833 classic',
+    'books like The Golden Bowl Henry James Maggie Verver Prince Amerigo adultery London 1904 late James',
     'books like War and Peace Leo Tolstoy Pierre Bezukhov Natasha Rostova Napoleonic Wars Pierre Andrei 1869 epic Russian novel',
     'books like Pere Goriot Honore de Balzac Rastignac Vautrin Paris boarding house Comedie Humaine 1835',
     'books like The Red and the Black Stendhal Julien Sorel ambition Restoration France social climbing psychological 1830',
@@ -2655,6 +2660,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Charterhouse of Parma by Stendhal?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Charterhouse of Parma include The Red and the Black (also by Stendhal), Père Goriot by Balzac, War and Peace by Tolstoy, The Count of Monte Cristo by Dumas, Lost Illusions by Balzac, The Leopard by Lampedusa, and A Room with a View by Forster. Our full guide covers 8 picks for readers of Stendhal's romantic Italian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lost Illusions by Honoré de Balzac?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lost Illusions include A Harlot High and Low (Balzac's sequel), Père Goriot and Cousin Bette (also by Balzac), Sentimental Education by Flaubert, New Grub Street by Gissing, The Red and the Black by Stendhal, and Hunger by Hamsun. Our full guide covers 8 picks for readers of Balzac's greatest novel about literary ambition and disillusionment." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cousin Bette by Honoré de Balzac?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cousin Bette include Cousin Pons and Père Goriot (also by Balzac), Lost Illusions by Balzac, Middlemarch by George Eliot, Vanity Fair by Thackeray, Gone Girl by Gillian Flynn, and A Gentleman in Moscow by Amor Towles. Our full guide covers 8 picks for readers of Balzac's darkest novel of envy and destruction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Eugénie Grandet by Honoré de Balzac?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Eugénie Grandet include Père Goriot and Lost Illusions (also by Balzac), Silas Marner by George Eliot, A Christmas Carol by Dickens, Ethan Frome by Edith Wharton, The Mill on the Floss by George Eliot, and Washington Square by Henry James. Our full guide covers 8 picks for readers of Balzac's portrait of a miser's daughter." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Golden Bowl by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Golden Bowl include The Wings of the Dove and The Ambassadors (also by James), The Portrait of a Lady by James, Washington Square by James, Madame Bovary by Flaubert, The Age of Innocence by Wharton, Mrs Dalloway by Virginia Woolf, and The Remains of the Day by Ishiguro. Our full guide covers 8 picks for readers of James's final major novel." },
     },
     {
       '@type': 'Question',
