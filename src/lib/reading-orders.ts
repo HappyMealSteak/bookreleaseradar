@@ -5992,6 +5992,71 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-moonstone-collins',
+    intro: "The Moonstone (1868) by Wilkie Collins is the novel that T.S. Eliot called the first, the longest, and the best detective novel in the English language — a story of the theft of a sacred Hindu diamond from the country house of Rachel Verinder on her eighteenth birthday, investigated first by the Somerset constable Seargent Cuff (the prototype of all subsequent eccentric literary detectives) and ultimately resolved through the revelation of a secret that implicates the most morally respectable character in the novel. The book is organized around multiple first-person narratives from different witnesses, each revealing different facets of the same events, and the formal innovation of this multiple-narrator structure was Collins's most influential contribution to the development of detective fiction — a technique that allows the reader to be misled and enlightened by the same set of events seen from different angles. The ultimate explanation of the theft turns on the psychological concept of somnambulism, and the novel's most striking achievement is that the explanation, when it comes, is both formally inevitable (all the clues were available) and psychologically credible.",
+    startWith: 'The Moonstone (1868) — the only novel',
+    books: [
+      { title: 'The Moonstone', author: 'Wilkie Collins', year: 1868 },
+    ],
+    faq: [
+      { q: 'Is The Moonstone a standalone novel?', a: 'Yes — The Moonstone is a complete standalone novel with a full resolution. Wilkie Collins wrote it as a one-volume work with no sequels or continuations.' },
+      { q: 'What makes The Moonstone historically important?', a: 'T.S. Eliot called it the first, longest, and best English detective novel. It introduced the country-house mystery, multiple narrators, an eccentric detective (Sergeant Cuff), and the surprise-revelation structure that detective fiction has used ever since.' },
+      { q: 'How long is The Moonstone?', a: 'The Moonstone is approximately 500 pages in most modern editions — a substantial Victorian novel organized around the mystery of a stolen diamond.' },
+    ],
+  },
+  {
+    slug: 'the-mystery-of-edwin-drood-dickens',
+    intro: "The Mystery of Edwin Drood (1870) by Charles Dickens is the unfinished novel Dickens was writing at his death in June 1870 — only six of the twelve planned monthly parts were completed, leaving the central mystery of Edwin Drood's disappearance and the identity of his murderer permanently unresolved. The novel is set in the cathedral city of Cloisterham (based on Rochester in Kent) and centers on the choirmaster John Jasper, Edwin Drood's uncle, whose obsessive opium-fed passion for Rosa Bud (Edwin's fiancée) gives him an obvious motive for his nephew's murder — though Dickens's narrative technique keeps the reader uncertain whether the murder was committed or whether Edwin survived. The fragment that exists is widely regarded as Dickens's most tightly constructed writing and as evidence that the late Dickens was developing new techniques of psychological density and atmospheric compression that would have made the completed novel very different from his earlier sprawling masterworks.",
+    startWith: 'The Mystery of Edwin Drood (1870) — the unfinished fragment',
+    books: [
+      { title: 'The Mystery of Edwin Drood', author: 'Charles Dickens', year: 1870, note: 'Unfinished — only six of twelve planned parts completed' },
+    ],
+    faq: [
+      { q: 'Was The Mystery of Edwin Drood ever finished?', a: 'No — Dickens died in June 1870 having completed only six of the twelve planned monthly parts. The mystery of Edwin Drood\'s fate remains permanently unresolved. Several continuations have been written, but none is authoritative.' },
+      { q: 'Is it worth reading an unfinished novel?', a: 'Absolutely — the six completed parts are widely regarded as Dickens\'s most tightly constructed writing, and the atmospheric Cloisterham setting and the psychologically complex Jasper make it essential reading for Dickens enthusiasts.' },
+      { q: 'What was Edwin Drood\'s mystery?', a: 'Edwin Drood disappears on Christmas Eve. The mystery is whether he was murdered by his uncle Jasper (the obvious suspect) or survived; Dickens never reached the resolution, and the identity of the murderer (if any) has been debated by scholars for 150 years.' },
+    ],
+  },
+  {
+    slug: 'lady-audleys-secret-braddon',
+    intro: "Lady Audley's Secret (1862) by Mary Elizabeth Braddon was the sensation novel that competed with The Woman in White for Victorian readership and outsold every other book of its era — a story of bigamy, arson, and attempted murder organized around the figure of Lady Audley, the beautiful governess-turned-aristocrat who has concealed an earlier marriage and will destroy anyone who threatens her social position. Robert Audley, the languid barrister nephew who investigates his friend George Talboys's disappearance, is one of Victorian fiction's more surprising detective figures — a man who begins the novel as a comic type and gradually develops into a genuine moral center as the evidence against Lady Audley accumulates. The novel is both a product of its sensation moment and a critique of the domestic ideology that produced Lady Audley: a novel that asks what a woman of intelligence and beauty is supposed to do in a world that offers her no legitimate path to security.",
+    startWith: 'Lady Audley\'s Secret (1862) — the only novel in Braddon\'s main sequence featuring Robert Audley',
+    books: [
+      { title: "Lady Audley's Secret", author: 'Mary Elizabeth Braddon', year: 1862 },
+    ],
+    faq: [
+      { q: 'Is Lady Audley a villain or a victim?', a: "Braddon's genius is that Lady Audley is both — a woman whose intelligence and survival instincts drive her to genuinely criminal acts, but whose situation (abandoned by her first husband, left penniless with a child) gives those acts a comprehensible rationale. Victorian readers were disturbed that she was so likeable." },
+      { q: 'How does Lady Audley\'s Secret compare to The Woman in White?', a: "Both are sensation novels featuring female transgression and a male investigator, but where Collins's Laura Fairlie is an innocent victim of conspiracy, Braddon's Lady Audley is the conspiracy's architect. Lady Audley's Secret was the popular sensation novel; The Woman in White is the literary one." },
+      { q: 'Is there a sequel to Lady Audley\'s Secret?', a: "Not a direct sequel, though Braddon wrote several other sensation novels featuring similar themes. Aurora Floyd (1863) is the closest — another novel featuring a beautiful woman with a concealed secret and a devoted male investigator." },
+    ],
+  },
+  {
+    slug: 'east-lynne-wood',
+    intro: "East Lynne (1861) by Ellen (Mrs. Henry) Wood was the bestselling sensation novel of the Victorian era — a story of Lady Isabel Vane's flight from her husband Archibald Carlyle, her liaison with the aristocratic seducer Francis Levison, and her eventual return in disguise as the governess to her own children. The novel was adapted for the stage (its most famous line, 'Dead, dead — and never called me mother!' derives from these adaptations), and its plot became so widely known that parody of it was possible for the rest of the Victorian era. Where Braddon's Lady Audley is a calculating schemer who drives the plot, Wood's Lady Isabel is a passive victim of her own emotional impulsiveness — her flight from Archibald is a mistake she recognizes almost immediately and spends the rest of the novel paying for in the standard Victorian currency of female transgression: suffering and death.",
+    startWith: 'East Lynne (1861) — the only novel in the East Lynne sequence',
+    books: [
+      { title: 'East Lynne', author: 'Ellen Wood', year: 1861 },
+    ],
+    faq: [
+      { q: "Who is Mrs. Henry Wood?", a: "Ellen Wood (1814–1887), who published under the name Mrs. Henry Wood, was one of the most commercially successful Victorian novelists. East Lynne was her breakthrough novel; she followed it with the Johnny Ludlow stories and over thirty other novels, most published in her own magazine Argosy." },
+      { q: 'Why is East Lynne significant?', a: "East Lynne was the bestselling sensation novel of its era and the template for the 'fallen woman' narrative that Victorian sensation fiction required — Lady Isabel's transgression, suffering, and death became the standard punishment pattern that later sensation novelists (like Wilkie Collins) complicated or subverted." },
+      { q: 'How does East Lynne compare to Lady Audley\'s Secret?', a: "Both appeared in 1861-62 and defined the sensation genre, but they represent opposite approaches to female transgression: Braddon's Lady Audley is a scheming villain who takes action; Wood's Lady Isabel is a passive victim of feeling who suffers the consequences passively. Together they defined the range of the sensation heroine." },
+    ],
+  },
+  {
+    slug: 'the-mayor-of-casterbridge-hardy',
+    intro: "The Mayor of Casterbridge (1886) by Thomas Hardy is the most Shakespearean of Hardy's novels — a tragedy of a man destroyed by his own character flaws as much as by the indifferent social forces that Hardy usually foregrounds. Michael Henchard, the hay-trusser who sells his wife and daughter at a drunken fair and spends the rest of the novel attempting to recover the respectability he has thrown away, is Hardy's most compelling male protagonist: driven by pride, capable of genuine generosity, undone by a jealousy and impulsiveness that reassert themselves precisely when he has most nearly achieved rehabilitation. The novel is set in the fictional Casterbridge (based on Dorchester) and is the Hardy novel most focused on a single character rather than on a doomed love triangle, making it both the most accessible entry point for new Hardy readers and the most satisfying for readers who want to see Hardy's dark determinism applied to a figure who might be called tragic in the classical sense.",
+    startWith: 'The Mayor of Casterbridge (1886) — the only novel in the Henchard sequence',
+    books: [
+      { title: 'The Mayor of Casterbridge', author: 'Thomas Hardy', year: 1886 },
+    ],
+    faq: [
+      { q: 'Is The Mayor of Casterbridge a standalone novel?', a: 'Yes — it is completely standalone. Casterbridge (based on Dorchester) appears in several Hardy novels as a setting, but the Henchard story is complete in this one volume with no sequels.' },
+      { q: 'What is the famous opening of The Mayor of Casterbridge?', a: "The novel opens with Henchard selling his wife and daughter at a country fair while drunk — one of the most arresting openings in Victorian fiction, establishing immediately that Henchard is a man capable of destroying everything he values through a single catastrophic impulsive act." },
+      { q: 'Where should I start with Thomas Hardy?', a: "The Mayor of Casterbridge is the best starting point for new Hardy readers — more tightly focused than Tess of the D'Urbervilles or Far from the Madding Crowd, with a single compelling protagonist and a cleaner tragic arc. Read it first, then Far from the Madding Crowd for Hardy at his most romantic, then Tess for Hardy at his most devastating." },
+    ],
+  },
+  {
     slug: 'the-woman-in-white-collins',
     intro: "The Woman in White (1859-60) by Wilkie Collins is the novel that established the sensation genre in Victorian fiction — a story of conspiracy, impersonation, and the deliberate suppression of a woman's identity organized around the figure of the mysterious Anne Catherick (the woman in white of the title) and the conspiracy of Count Fosco and Sir Percival Glyde to deprive Laura Fairlie of her inheritance. The novel is told through multiple first-person narratives by the various witnesses and participants in the events — a technique Collins had used with even greater structural sophistication in The Moonstone — and is built around a mystery that the reader can in principle solve from the available evidence. Count Fosco is one of the great villains of Victorian fiction — enormously fat, obsessed with his white mice, genuinely intelligent, and possessed of a charm that makes him more appealing than most of the novel's heroines — and the novel's most surprising formal move is the decision to give Fosco his own final confession, which is far more honest about his motivations than any of the morally earnest narrators manage to be.",
     startWith: 'The Woman in White (1859)',
