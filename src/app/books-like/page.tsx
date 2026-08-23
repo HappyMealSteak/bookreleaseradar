@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    "books like If on a winter's night a traveler Calvino metafiction reader protagonist",
+    'books like The Reader Bernhard Schlink Hanna Michael war crimes postwar Germany',
+    'books like My Name Is Red Orhan Pamuk Ottoman miniaturists Istanbul Nobel',
+    'books like In the Skin of a Lion Michael Ondaatje Toronto immigrant workers lyrical',
+    'books like Snow Orhan Pamuk Ka Kars Turkey Islamism secularism',
     'books like The Moviegoer Walker Percy Binx Bolling New Orleans search malaise',
     'books like Stoner John Williams professor Missouri quiet literary',
     'books like The Good Soldier Ford Madox Ford Dowell unreliable narrator',
@@ -2450,6 +2455,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked If on a winter's night a traveler by Italo Calvino?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If on a winter's night a traveler include Invisible Cities, The Baron in the Trees, and Cosmicomics (other Calvino), The Name of the Rose by Eco, Pale Fire by Nabokov, House of Leaves by Danielewski, Foucault's Pendulum by Eco, and Piranesi by Clarke. Our full guide covers 8 picks for fans of Calvino's metafictional masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Reader by Bernhard Schlink?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Reader include The Tin Drum by Grass, Suite Française by Némirovsky, The Zone of Interest by Amis, Homecoming by Schlink, Night by Wiesel, Maus by Spiegelman, Sophie's Choice by Styron, and Man's Search for Meaning by Frankl. Our full guide covers 8 picks for fans of Schlink's postwar German novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Name Is Red by Orhan Pamuk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Name Is Red include Snow, The Museum of Innocence, and Istanbul (other Pamuk), The Name of the Rose by Eco, Girl with a Pearl Earring by Chevalier, The Pillars of the Earth by Follett, Shogun by Clavell, and An Instance of the Fingerpost by Pears. Our full guide covers 8 picks for fans of Pamuk's Ottoman masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In the Skin of a Lion by Michael Ondaatje?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In the Skin of a Lion include The English Patient, Running in the Family, and Divisadero (other Ondaatje), A Fine Balance by Mistry, Alias Grace by Atwood, The Stone Diaries by Shields, One Hundred Years of Solitude by García Márquez, and Fugitive Pieces by Michaels. Our full guide covers 8 picks for fans of Ondaatje's lyrical Toronto masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Snow by Orhan Pamuk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Snow include My Name Is Red, Istanbul, and The Museum of Innocence (other Pamuk), The Bastard of Istanbul by Shafak, Reading Lolita in Tehran by Nafisi, The Reluctant Fundamentalist by Hamid, City of Thieves by Benioff, and The Kite Runner by Hosseini. Our full guide covers 8 picks for fans of Pamuk's political novel." },
     },
     {
       '@type': 'Question',
