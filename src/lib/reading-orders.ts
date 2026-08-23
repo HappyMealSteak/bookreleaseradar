@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'kindred-butler',
+    intro: "Octavia E. Butler's Kindred (1979) is the time travel slavery novel — Dana, a Black woman living in 1970s Los Angeles, repeatedly pulled back in time to antebellum Maryland to save the life of her white ancestor Rufus, a slaveholder. Butler used the science fiction device of time travel to force an imaginative confrontation with the experience of American slavery — to make the reader understand it not as history but as something lived. It is her most accessible and most widely taught novel, required reading in countless American high school and college curricula, and the novel most often cited as the entry point to Octavia Butler's work.",
+    startWith: 'Kindred',
+    books: [
+      { title: 'Kindred', author: 'Octavia E. Butler', year: 1979, note: "The complete standalone novel — approximately 264 pages, structured around Dana's increasingly dangerous involuntary journeys to the antebellum South. An essay from Butler explains her intention in the afterword of some editions." },
+      { title: 'Parable of the Sower', author: 'Octavia E. Butler', year: 1993, note: "The companion Butler — Lauren Olamina in a climate-collapsed California, Butler's other most celebrated novel, showing her at her most future-oriented and most political." },
+      { title: 'Bloodchild and Other Stories', author: 'Octavia E. Butler', year: 1995, note: "The essential Butler story collection — 'Bloodchild' (Hugo and Nebula winner), 'Speech Sounds,' and other essential shorter Butler, with her illuminating essays on her own work." },
+      { title: 'Dawn', author: 'Octavia E. Butler', year: 1987, note: "The Xenogenesis/Lilith's Brood opening — Lilith Iyapo, the lone human woman awakened on an alien ship after humanity has nearly destroyed itself, Butler's most formally alien work." },
+    ],
+    faq: [
+      { q: 'Is Kindred science fiction or historical fiction?', a: "Kindred is classified as science fiction because it uses a science fiction device (involuntary time travel) as its premise, but the novel does not explain the time travel mechanism — it simply happens, like a kind of supernatural compulsion. The bulk of the novel is set in 1810s–1820s Maryland and reads as historical fiction about slavery. Butler herself described it as a 'grim fantasy' rather than science fiction, and it is taught in both literature and history courses. It is her most accessible novel for readers who do not normally read SF." },
+      { q: 'What inspired Octavia Butler to write Kindred?', a: "Butler has said that Kindred was partly a response to young Black people in the 1970s who told her that, had they been enslaved, they would have resisted differently from their ancestors. She wanted to make the imaginative experience of slavery real enough that a contemporary reader would understand why resistance was so difficult — why enslaved people made the choices they did, including the choice to survive at cost. The novel's time travel mechanism serves this purpose by forcing Dana to experience the situation firsthand rather than reading about it." },
+    ],
+  },
+  {
+    slug: 'the-three-body-problem',
+    intro: "Liu Cixin's The Three-Body Problem (2008; English translation 2014) is the first volume of the Remembrance of Earth's Past trilogy — the most celebrated science fiction novel to emerge from China, beginning during the Cultural Revolution and expanding to encompass first contact with an alien civilization and the fate of the solar system. Liu Cixin is the bestselling science fiction author in Chinese history; Ken Liu's English translation won the Hugo Award for Best Novel in 2015, the first time a translated work won the Hugo. The trilogy is one of the most ambitious works of hard science fiction of the last twenty years and the most visible example of Chinese SF in the international market.",
+    startWith: 'The Three-Body Problem',
+    books: [
+      { title: 'The Three-Body Problem', author: 'Liu Cixin', year: 2008, note: "Volume 1 — the Cultural Revolution, Wang Miao and the Three Body virtual reality game, the first contact situation, the discovery that Earth has announced its existence to a hostile universe." },
+      { title: 'The Dark Forest', author: 'Liu Cixin', year: 2008, note: "Volume 2 — the Wallfacer Project, Luo Ji, the Trisolaran invasion fleet approaching over four centuries, and the revelation of what makes the universe so terrifyingly quiet. The most widely praised individual volume." },
+      { title: 'Death\'s End', author: 'Liu Cixin', year: 2010, note: "Volume 3 — the most ambitious and most science-fictionally extreme of the three volumes, spanning billions of years, Cheng Xin and the fate of the universe, the culmination of the trilogy's physics speculations." },
+    ],
+    faq: [
+      { q: "What is the Dark Forest theory in The Three-Body Problem?", a: "The Dark Forest theory is the central philosophical proposition of the second volume — Liu Cixin's answer to the Fermi paradox (why the universe is silent if civilizations are abundant). The theory holds that every civilization in the universe is a hunter hiding in a dark forest, because: resources are finite; civilizations expand to use resources; any civilization that reveals its location to another might be destroyed before it can destroy the other; and the risk of communication is therefore annihilation. The rational strategy is to stay hidden and to destroy any civilization you discover before it can destroy you. This is why the universe is silent: every civilization that announces itself is eliminated." },
+      { q: "Do I need to read all three books of The Three-Body Problem trilogy?", a: "The Three-Body Problem works as a standalone novel with a complete story, though it ends with the main conflict unresolved. The Dark Forest (volume 2) is widely considered the best and most complete individual volume. Death's End (volume 3) is the most ambitious but also the most demanding. Many readers read all three; some stop after The Dark Forest and feel satisfied. If you find the Cultural Revolution sections of Volume 1 slow, most readers say the novel picks up significantly in its second half and through Volumes 2 and 3." },
+    ],
+  },
+  {
+    slug: 'the-martian-weir',
+    intro: "Andy Weir's The Martian (2011/2012) is the most celebrated hard science fiction debut of the twenty-first century — Mark Watney, NASA astronaut stranded alone on Mars after an accident leaves his crew believing him dead, surviving by growing potatoes in his own excrement while his colleagues at NASA race to retrieve him. Weir self-published the novel in 2011 after being unable to sell it to publishers; it became a viral success and was picked up by Crown Publishers in 2012, followed by Ridley Scott's 2015 film adaptation starring Matt Damon. The novel's cheerful, problem-solving tone and accurate science made it one of the most popular SF novels of the decade.",
+    startWith: 'The Martian',
+    books: [
+      { title: 'The Martian', author: 'Andy Weir', year: 2011, note: "The complete standalone novel — Mark Watney's survival on Mars, structured as mission logs and alternating perspectives between Watney, NASA, and the Hermes crew." },
+      { title: 'Project Hail Mary', author: 'Andy Weir', year: 2021, note: "Weir's most ambitious novel — Ryland Grace waking alone on a spaceship with no memory, gradually realizing he is on a mission to save the solar system, widely considered an improvement on The Martian by many fans." },
+      { title: 'Artemis', author: 'Andy Weir', year: 2017, note: "Weir's second novel — Jazz Bashara, criminal porter and smuggler in the lunar city of Artemis, a heist novel set on the Moon, for readers who want more Weir after The Martian." },
+    ],
+    faq: [
+      { q: 'How accurate is the science in The Martian?', a: "The Martian is generally regarded as one of the most scientifically accurate popular SF novels ever written. Weir worked out the orbital mechanics, botany, chemistry, and engineering problems in real detail before writing the novel. NASA scientists have praised the book's accuracy. The main scientific liberty Weir acknowledges is that the dust storm that opens the novel would not have the force he depicts — Martian air is so thin that a 175 mph dust storm would feel like a light breeze and would not be strong enough to damage equipment. The film makes the same concession for dramatic purposes." },
+    ],
+  },
+  {
+    slug: 'blindsight',
+    intro: "Peter Watts's Blindsight (2006) is the most intellectually challenging first contact novel in science fiction — the crew of the Theseus traveling to the edge of the solar system to investigate a mysterious object, only to find aliens who are intelligent but possibly not conscious, forcing a confrontation with what consciousness actually is and whether it has survival value. Blindsight is philosophical hard SF at its darkest — Watts uses the first contact scenario as a vehicle for neuroscience, evolutionary biology, and the most disturbing possible answers to questions about the nature of human identity. It was shortlisted for the Hugo Award and is freely available on Watts's website.",
+    startWith: 'Blindsight',
+    books: [
+      { title: 'Blindsight', author: 'Peter Watts', year: 2006, note: "The first novel — the Theseus and its crew, the Rorschach, the Scramblers, the philosophical horror of an intelligence without consciousness. Dense and richly footnoted with real neuroscience." },
+      { title: 'Echopraxia', author: 'Peter Watts', year: 2014, note: "The companion novel (not a sequel) — Daniel Bruks, a baseline human, traveling to the sun aboard a ship full of posthumans, the Bicameral Order of monks and their zombie-process theology, the Blindsight universe from a different angle." },
+    ],
+    faq: [
+      { q: "What is the main philosophical argument of Blindsight?", a: "Blindsight's central argument — supported by extensive footnotes citing actual neuroscience — is that consciousness may be an evolutionary epiphenomenon: useful in small doses for certain kinds of creative problem-solving, but ultimately a metabolic cost that slows neural processing. The aliens in Blindsight (the Scramblers) are highly intelligent without being conscious in any sense we would recognize; they are faster and more efficient than conscious beings in every way that matters for survival. The novel asks whether consciousness — and by extension, everything that makes humans human — is a temporary accident that evolution may be moving away from." },
+    ],
+  },
+  {
+    slug: 'the-martian-chronicles',
+    intro: "Ray Bradbury's The Martian Chronicles (1950) is the classic American science fiction fantasy — a sequence of linked stories about the colonization of Mars, from the first Rocket Summer in 1999 to the final evacuation of 2057, following the destruction of Martian civilization and the gradual failure of Earth. Bradbury himself distinguished between science fiction (which he said he didn't write) and fantasy (which he did), and The Martian Chronicles is fantasy in SF clothing — the Martians are mythological rather than scientific, and the book's interest is in American culture, nostalgia, and the consequences of colonialism, not in rocketry or physics. It is one of the most lyrical and most widely read works in the SF tradition.",
+    startWith: 'The Martian Chronicles',
+    books: [
+      { title: 'The Martian Chronicles', author: 'Ray Bradbury', year: 1950, note: "The complete work — twenty-eight stories arranged chronologically, each complete in itself, best read in order as a single melancholy meditation. Some editions include additional stories not in the original." },
+      { title: 'The Illustrated Man', author: 'Ray Bradbury', year: 1951, note: "The companion Bradbury — eighteen stories framed by a tattooed man whose illustrations come to life, including 'The Veldt,' 'Kaleidoscope,' and 'The Other Foot,' many of the finest Bradbury stories." },
+      { title: 'Fahrenheit 451', author: 'Ray Bradbury', year: 1953, note: "The Bradbury novel — Guy Montag the fireman who burns books in a future where reading is illegal, Bradbury's most celebrated single work and the most direct expression of his fears about American culture." },
+      { title: 'Something Wicked This Way Comes', author: 'Ray Bradbury', year: 1962, note: "The dark fantasy Bradbury — Jim Nightshade and Will Halloway and the carnival that arrives in Green Town, Illinois, Bradbury's most gothic and most autumnal novel." },
+    ],
+    faq: [
+      { q: 'Is The Martian Chronicles science fiction or fantasy?', a: "Bradbury himself was emphatic that The Martian Chronicles is not science fiction in the hard SF sense — he had no interest in the science of rocketry or Martian geology and borrowed the Martian landscape as a poetic device rather than a scientific one. He described himself as a writer of fantasies, fables, and morality tales who used the imagery of science fiction. The Martian Chronicles is better understood as a meditation on American culture, manifest destiny, nostalgia, and the costs of colonialism, dressed in SF imagery. Its Martians are mythological figures, its rockets are symbols of American desire, and its melancholy is directed at what humans do with the worlds they colonize." },
+    ],
+  },
+  {
     slug: 'foundation-asimov',
     intro: "Isaac Asimov's Foundation (1951) is the foundational work of science fiction's galactic civilization — Hari Seldon's psychohistory predicting the fall of the Galactic Empire and the establishment of a Foundation to shorten the dark age that follows, from thirty thousand years to a single millennium. Asimov wrote the original Foundation trilogy (Foundation, Foundation and Empire, Second Foundation) between 1942 and 1953 as a series of short stories in Astounding Science Fiction magazine. He returned to the universe in the 1980s to add prequels and sequels. The series won the Hugo Award for Best All-Time Series in 1966. Apple TV+ has adapted it into a streaming series beginning in 2021.",
     startWith: 'Foundation',

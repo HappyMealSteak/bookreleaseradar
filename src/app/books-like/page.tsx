@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Kindred Octavia Butler Dana time travel slavery antebellum',
+    'books like The Three-Body Problem Liu Cixin Dark Forest Trisolaran first contact',
+    'books like The Martian Andy Weir Mark Watney Mars survival potato engineering',
+    'books like Blindsight Peter Watts Theseus Scramblers consciousness alien',
+    'books like The Martian Chronicles Ray Bradbury Mars colonization nostalgia',
     'books like Foundation Isaac Asimov Hari Seldon psychohistory Galactic Empire',
     'books like Neuromancer William Gibson cyberpunk Case Molly Sprawl cyberspace',
     'books like The Left Hand of Darkness Ursula Le Guin Genly Ai Gethen gender',
@@ -2515,6 +2520,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kindred by Octavia E. Butler?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kindred include Parable of the Sower, Bloodchild, and Dawn (other Butler), Beloved by Morrison, The Underground Railroad by Whitehead, The Left Hand of Darkness by Le Guin, and Roots by Haley. Our full guide covers 8 picks for fans of Butler's time travel slavery novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Three-Body Problem by Liu Cixin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Three-Body Problem include The Dark Forest and Death's End (trilogy), Hyperion by Simmons, Foundation by Asimov, A Fire Upon the Deep by Vinge, Blindsight by Watts, Sphere by Crichton, and The Expanse by Corey. Our full guide covers 8 picks for fans of Liu Cixin's hard SF." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Martian by Andy Weir?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Martian include Project Hail Mary and Artemis (other Weir), The Martian Chronicles by Bradbury, Red Mars by Robinson, Seveneves by Stephenson, Old Man's War by Scalzi, and The Expanse by Corey. Our full guide covers 8 picks for fans of Weir's Mars survival SF." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Blindsight by Peter Watts?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Blindsight include Echopraxia (other Watts), The Three-Body Problem by Liu Cixin, Do Androids Dream of Electric Sheep? by Dick, Flowers for Algernon by Keyes, Neuromancer by Gibson, A Fire Upon the Deep by Vinge, and Solaris by Lem. Our full guide covers 8 picks for fans of Watts's philosophical hard SF." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Martian Chronicles by Ray Bradbury?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Martian Chronicles include The Illustrated Man, Fahrenheit 451, and Something Wicked This Way Comes (other Bradbury), The Left Hand of Darkness by Le Guin, I Robot by Asimov, Flowers for Algernon by Keyes, and Solaris by Lem. Our full guide covers 8 picks for fans of Bradbury's lyrical SF." },
     },
     {
       '@type': 'Question',
