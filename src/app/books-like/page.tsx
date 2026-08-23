@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Lord of the Rings J.R.R. Tolkien Fellowship Ring Frodo Sauron',
+    'books like The Hobbit J.R.R. Tolkien Bilbo Baggins dragon Smaug dwarves',
+    'books like The Magic Barrel Bernard Malamud Jewish stories Brooklyn National Book Award',
+    "books like Lady Chatterley's Lover D.H. Lawrence Connie Mellors censored 1960 trial",
+    'books like Go Set a Watchman Harper Lee Jean Louise Scout Atticus Maycomb adult',
     'books like The Catcher in the Rye J.D. Salinger Holden Caulfield phonies New York',
     'books like Franny and Zooey J.D. Salinger Glass family spiritual crisis',
     'books like Nine Stories J.D. Salinger Bananafish Esmé Glass family stories',
@@ -2485,6 +2490,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lord of the Rings by J.R.R. Tolkien?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lord of the Rings include The Hobbit, The Silmarillion, and Unfinished Tales (other Tolkien), A Wizard of Earthsea by Le Guin, The Name of the Wind by Rothfuss, The Way of Kings by Sanderson, The Chronicles of Narnia by Lewis, and A Song of Ice and Fire by Martin. Our full guide covers 8 picks for fans of Tolkien's epic fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Hobbit by J.R.R. Tolkien?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books to read after The Hobbit include The Fellowship of the Ring, The Two Towers, and The Return of the King (The Lord of the Rings), The Chronicles of Narnia by Lewis, A Wizard of Earthsea by Le Guin, Redwall by Jacques, The Name of the Wind by Rothfuss, and Sabriel by Garth Nix. Our full guide covers 8 picks for fans of Tolkien's Bilbo Baggins adventure." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Magic Barrel by Bernard Malamud?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Magic Barrel include Idiots First (other Malamud), The Assistant and The Fixer by Malamud, Nine Stories by Salinger, The Complete Stories by O'Connor, Dubliners by Joyce, Goodbye Columbus by Roth, and The Collected Stories by Singer. Our full guide covers 8 picks for fans of Malamud's Jewish-American story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Lady Chatterley's Lover by D.H. Lawrence?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lady Chatterley's Lover include Women in Love, Sons and Lovers, and The Rainbow (other Lawrence), Madame Bovary by Flaubert, The Awakening by Chopin, Ulysses by Joyce, The Unbearable Lightness of Being by Kundera, and Tropic of Cancer by Miller. Our full guide covers 8 picks for fans of Lawrence's banned novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Go Set a Watchman by Harper Lee?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Go Set a Watchman include To Kill a Mockingbird by Harper Lee, The Help by Stockett, Invisible Man by Ellison, The Color Purple by Walker, A Lesson Before Dying by Gaines, Beloved by Morrison, The Secret Life of Bees by Kidd, and Just Mercy by Stevenson. Our full guide covers 8 picks for fans of Lee's Maycomb novel." },
     },
     {
       '@type': 'Question',
