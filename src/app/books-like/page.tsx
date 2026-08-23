@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Once and Future King T.H. White Arthur Merlyn Round Table Camelot',
+    'books like The Princess Bride William Goldman Westley Buttercup Inigo Montoya',
+    'books like Stardust Neil Gaiman Tristran Thorn Faerie fallen star fairy tale',
+    'books like Neverwhere Neil Gaiman Richard Mayhew London Below hidden city',
+    'books like Good Omens Terry Pratchett Neil Gaiman Aziraphale Crowley Apocalypse',
     'books like The Silmarillion J.R.R. Tolkien Middle-earth mythology First Age',
     'books like The Chronicles of Narnia C.S. Lewis Aslan Narnia wardrobe',
     'books like A Wizard of Earthsea Ursula Le Guin Ged Earthsea magic',
@@ -2495,6 +2500,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Once and Future King by T.H. White?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Once and Future King include The Book of Merlyn (posthumous fifth book by White), Le Morte d'Arthur by Malory, The Lord of the Rings by Tolkien, The Mists of Avalon by Bradley, A Connecticut Yankee in King Arthur's Court by Twain, and Jonathan Strange & Mr Norrell by Clarke. Our full guide covers 8 picks for fans of White's Arthurian fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Princess Bride by William Goldman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Princess Bride include Good Omens by Pratchett and Gaiman, The Hitchhiker's Guide to the Galaxy by Adams, Don Quixote by Cervantes, Stardust by Gaiman, The Name of the Wind by Rothfuss, Captain Blood by Sabatini, and Redwall by Jacques. Our full guide covers 8 picks for fans of Goldman's comic fantasy adventure." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Stardust by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Stardust include Neverwhere, American Gods, and The Ocean at the End of the Lane (other Gaiman), Good Omens by Pratchett and Gaiman, Jonathan Strange & Mr Norrell by Clarke, The Princess Bride by Goldman, and The King of Elfland's Daughter by Dunsany. Our full guide covers 8 picks for fans of Gaiman's fairy-tale fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Neverwhere by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Neverwhere include Stardust, American Gods, and Good Omens (other Gaiman/Pratchett), The City & The City by Miéville, Anansi Boys by Gaiman, Kraken by Miéville, Jonathan Strange & Mr Norrell by Clarke, and The Ocean at the End of the Lane by Gaiman. Our full guide covers 8 picks for fans of Gaiman's urban fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Good Omens by Terry Pratchett and Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Good Omens include The Colour of Magic and Small Gods by Pratchett, Neverwhere and American Gods by Gaiman, The Hitchhiker's Guide to the Galaxy by Adams, The Princess Bride by Goldman, Going Postal by Pratchett, and Stardust by Gaiman. Our full guide covers 8 picks for fans of Pratchett and Gaiman's comic fantasy." },
     },
     {
       '@type': 'Question',
