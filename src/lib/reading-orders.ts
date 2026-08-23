@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'atonement-mcewan',
+    intro: "Atonement (2001) by Ian McEwan opens on a hot summer's day in 1935 at a country house in Surrey, where thirteen-year-old Briony Tallis witnesses — and catastrophically misinterprets — a sequence of events involving her older sister Cecilia and Cecilia's childhood friend Robbie Turner. Briony's false accusation sends Robbie to prison and then to France as a soldier, separating him from Cecilia in ways that the war will make permanent. The novel's second and third sections follow Robbie at Dunkirk and Cecilia as a nurse in wartime London; the fourth section reveals the full complexity of what we have been reading. Atonement was shortlisted for the Booker Prize in 2001 and adapted by Joe Wright into a widely acclaimed film in 2007 with James McAvoy and Keira Knightley.",
+    startWith: 'Atonement (2001)',
+    books: [
+      { title: 'Atonement', author: 'Ian McEwan', year: 2001 },
+    ],
+    faq: [
+      { q: 'Is Atonement based on a true story?', a: "No — Atonement is entirely fictional, though McEwan drew on historical research into Dunkirk and wartime nursing, and on a real incident described to him by a friend who had, as a child, written a letter accusing a relative of something they hadn't done." },
+      { q: 'What is the meaning of the ending of Atonement?', a: "The fourth section reveals that the novel we have been reading is itself the novel Briony Tallis has written as an old woman — an act of atonement for her false accusation. But Briony also reveals that the 'happy ending' she gave Cecilia and Robbie in the novel is a fiction: they died during the war without ever reuniting. The ending asks whether art can provide the kind of atonement that life denies." },
+      { q: 'Is Atonement part of a series?', a: "No — Atonement is a standalone novel. McEwan does not write series fiction; his novels are independent works." },
+    ],
+  },
+  {
+    slug: 'saturday-mcewan',
+    intro: "Saturday (2005) by Ian McEwan follows Henry Perowne — a neurosurgeon in London — through a single Saturday in February 2003, the day of the vast anti-Iraq War march that brought a million people to the streets. Perowne plays squash, visits his mother with dementia, collects his jazz-musician son from the airport, prepares a fish stew for a family dinner, and has a minor traffic accident with a man named Baxter who will return that evening to change everything. Saturday is McEwan's most Woolfian novel — a day in the consciousness of a confident, prosperous man who is forced by events to confront what underlies the civilization he has benefited from. It won the James Tait Black Memorial Prize for fiction in 2006.",
+    startWith: 'Saturday (2005)',
+    books: [
+      { title: 'Saturday', author: 'Ian McEwan', year: 2005 },
+      { title: 'Atonement', author: 'Ian McEwan', year: 2001, note: "McEwan's most celebrated novel — if Saturday is your first McEwan, Atonement is the natural next read." },
+    ],
+    faq: [
+      { q: 'Is Saturday part of a series?', a: "No — Saturday is a standalone novel. McEwan does not write series fiction." },
+      { q: 'Why is Saturday set on the day of the Iraq War march?', a: "McEwan has described wanting to write a novel about a single day in the life of a successful professional at a moment of historical uncertainty — a secular, liberal humanist whose worldview is tested. The February 2003 anti-war march was the largest political demonstration in British history, and Perowne's ambivalent attitude to it — he supports the war — is central to the novel's moral argument." },
+      { q: 'Is Saturday a difficult novel?', a: "Saturday is among McEwan's most accessible novels — it is linear, written in close third person, and its plot builds to a suspenseful domestic confrontation. The neurosurgery sections are detailed but not technical; McEwan researched them with real neurosurgeons." },
+    ],
+  },
+  {
+    slug: 'enduring-love-mcewan',
+    intro: "Enduring Love (1997) by Ian McEwan opens with a balloon accident in an English field — a child in an escaped hot-air balloon, five strangers who run to help, and a man who falls to his death holding the rope. Joe Rose, a science journalist, cannot stop thinking about one of the other men who ran to help: Jed Parry, who believes that God brought them together and has since begun stalking Joe. The novel is a study of obsession from the outside — of what it is like to be the object of a delusional love — and of the difficulty of persuading others (including Joe's partner Clarissa) that the threat is real. McEwan includes in an appendix a clinical paper on the psychiatric syndrome he invented for Jed, presented as real.",
+    startWith: 'Enduring Love (1997)',
+    books: [
+      { title: 'Enduring Love', author: 'Ian McEwan', year: 1997 },
+      { title: 'Atonement', author: 'Ian McEwan', year: 2001, note: "McEwan's most celebrated novel — if Enduring Love is your first McEwan, Atonement is the natural next read." },
+    ],
+    faq: [
+      { q: 'Is Enduring Love based on a true psychiatric case?', a: "The stalker's syndrome McEwan gives Jed — de Clérambault's syndrome, an erotomania in which the sufferer believes a stranger is in love with them — is a real diagnosis. McEwan invented the appendix (a fake clinical paper by two psychiatrists) and it was apparently mistaken for a real paper by some early reviewers." },
+      { q: 'What is de Clérambault\'s syndrome?', a: "De Clérambault's syndrome is a rare form of erotomania in which the sufferer believes that another person — usually of higher social status — is secretly in love with them and communicating this love through coded signs. In Enduring Love, Jed Parry believes Joe Rose is in love with him and that God has arranged their meeting; the more Joe tries to reject him, the more Jed interprets this rejection as coded affirmation." },
+    ],
+  },
+  {
+    slug: 'on-chesil-beach-mcewan',
+    intro: "On Chesil Beach (2007) by Ian McEwan is a novella set on the wedding night of Edward and Florence in 1962 — a young couple who love each other and have made an irreversible mistake. As they sit in a hotel room on the Dorset coast, unable to eat the dinner before them, the novel moves backward and forward through their courtship and the specific circumstances — class, upbringing, temperament, and history — that have made this night impossible. McEwan gives each character full interiority and then shows how they fail, in a single conversation on the beach, to reach each other. It was shortlisted for the Booker Prize in 2007 and adapted by Dominic Cooke into a film in 2017.",
+    startWith: 'On Chesil Beach (2007)',
+    books: [
+      { title: 'On Chesil Beach', author: 'Ian McEwan', year: 2007 },
+      { title: 'Atonement', author: 'Ian McEwan', year: 2001, note: "McEwan's most celebrated novel — On Chesil Beach explores similar territory (the catastrophic failure of communication at a hinge moment) in more concentrated form." },
+    ],
+    faq: [
+      { q: 'Is On Chesil Beach a novel or a novella?', a: "On Chesil Beach is typically classified as a novella — it is approximately 40,000 words, significantly shorter than a standard novel. It was published as a standalone book but is sometimes bound with other McEwan works in collected editions." },
+      { q: 'When is On Chesil Beach set?', a: "On Chesil Beach is set in 1962 — specifically on the Chesil Beach in Dorset, the night of Edward and Florence's wedding. The pre-sexual-revolution setting is essential: the novel argues that a few years later (or a few years earlier, in another social context) the story might have ended differently." },
+      { q: 'Is On Chesil Beach a sad novel?', a: "Yes — On Chesil Beach is one of McEwan's most melancholy works. The ending, which follows Edward decades into a life defined by what was lost on this night, is written with great precision and considerable grief. But McEwan does not assign blame: both characters are clearly drawn with sympathy." },
+    ],
+  },
+  {
+    slug: 'the-children-act-mcewan',
+    intro: "The Children Act (2014) by Ian McEwan follows Fiona Maye — a distinguished High Court judge in the Family Division — in two parallel stories that begin on the same night: her husband of thirty years tells her he wants to have an affair, and she is presented with a case involving a seventeen-year-old Jehovah's Witness named Adam Henry who is refusing a blood transfusion that would save his life. Fiona makes an unusual decision — she visits Adam in hospital before ruling — and the ruling she makes and the relationship it triggers prove to have consequences she could not have anticipated. The novel is McEwan at his most schematic but also, in the Adam sections, at his most moving.",
+    startWith: 'The Children Act (2014)',
+    books: [
+      { title: 'The Children Act', author: 'Ian McEwan', year: 2014 },
+      { title: 'Saturday', author: 'Ian McEwan', year: 2005, note: "McEwan's other close third-person study of a professional at a moment of personal and historical crisis — a natural companion." },
+    ],
+    faq: [
+      { q: 'Is The Children Act based on a real case?', a: "McEwan researched real Family Division judgments about Jehovah's Witness minors refusing blood transfusions — these judgments are publicly available — and found that some judges did visit patients before ruling, as Fiona does. The characters and the specific case are fictional." },
+      { q: 'Is The Children Act part of a series?', a: "No — The Children Act is a standalone novel. McEwan does not write series fiction." },
+      { q: 'What is the Children Act in the title?', a: "The Children Act is a real piece of British legislation (passed in 1989) that governs decisions about the welfare of minors in English law. Its central principle — that in any case involving a child, the welfare of the child must be the primary consideration — is the framework within which Fiona must decide Adam's case, and the tension between Adam's autonomy and his welfare is the novel's central legal and moral question." },
+    ],
+  },
+  {
     slug: 'slade-house-mitchell',
     intro: "Slade House (2015) by David Mitchell is a slim, intensely atmospheric horror novella — the companion piece to The Bone Clocks, set in the same fictional mythology. Every nine years, on the last Saturday of October, a door appears in a narrow alley in a British town, opening into the grounds of Slade House, where two powerful twins — the Grayer siblings — feed on the psychic energy of visitors whose souls they trap in a 'lacuna', a repeating pocket of falsified reality. The novel follows five successive visitors across five decades, each arriving through different means and each initially unaware of what Slade House is. Mitchell published it partly as a Halloween project, and it has the pleasures of a very well-executed ghost story as well as the deeper satisfactions of his larger fictional universe.",
     startWith: 'The Bone Clocks (2014)',

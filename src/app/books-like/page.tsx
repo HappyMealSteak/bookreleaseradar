@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Atonement Ian McEwan Briony Tallis Cecilia Robbie Turner 1935 WWII Dunkirk false accusation Booker',
+    'books like Saturday Ian McEwan Henry Perowne neurosurgeon February 2003 Iraq War march London one day',
+    'books like Enduring Love Ian McEwan Joe Rose Jed Parry balloon accident stalker erotomania obsession',
+    "books like On Chesil Beach Ian McEwan Edward Florence 1962 Dorset wedding night Booker shortlist novella",
+    'books like The Children Act Ian McEwan Fiona Maye judge Adam Henry Jehovah\'s Witness blood transfusion',
     'books like Slade House David Mitchell horror novella Grayer twins soul trap Horologists Bone Clocks companion',
     'books like The Thousand Autumns of Jacob de Zoet David Mitchell Dejima Nagasaki 1799 Dutch East India Company',
     'books like Life After Life Kate Atkinson Ursula Todd 1910 repeating lives Costa Award WWII Blitz',
@@ -2625,6 +2630,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Atonement by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Atonement include Saturday and On Chesil Beach by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, Life After Life by Kate Atkinson, The Go-Between by L.P. Hartley, The English Patient by Michael Ondaatje, and Never Let Me Go by Kazuo Ishiguro. Our full guide covers 8 picks for readers of McEwan's Booker-shortlisted WWII novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Saturday by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Saturday include Atonement and The Children Act by Ian McEwan, Mrs. Dalloway by Virginia Woolf, Ulysses by James Joyce, The Remains of the Day by Kazuo Ishiguro, Solar by Ian McEwan, Amsterdam by Ian McEwan, and The Corrections by Jonathan Franzen. Our full guide covers 8 picks for readers of McEwan's one-day London novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Enduring Love by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Enduring Love include Atonement and Saturday by Ian McEwan, You by Caroline Kepnes, We Need to Talk About Kevin by Lionel Shriver, Damage by Josephine Hart, The Wasp Factory by Iain Banks, and Notes from Underground by Fyodor Dostoevsky. Our full guide covers 8 picks for readers of McEwan's balloon-accident-and-stalker literary thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked On Chesil Beach by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like On Chesil Beach include Atonement and Saturday by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, Never Let Me Go by Kazuo Ishiguro, The Go-Between by L.P. Hartley, Revolutionary Road by Richard Yates, Brokeback Mountain by Annie Proulx, and Enduring Love by Ian McEwan. Our full guide covers 8 picks for readers of McEwan's 1962 wedding-night novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Children Act by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Children Act include Saturday and Atonement by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, Bewilderment by Richard Powers, We Need to Talk About Kevin by Lionel Shriver, The Casual Vacancy by J.K. Rowling, and My Absolute Darling by Gabriel Tallent. Our full guide covers 8 picks for readers of McEwan's family-court legal novel." },
     },
     {
       '@type': 'Question',
