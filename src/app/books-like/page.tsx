@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like A Study in Scarlet Arthur Conan Doyle Holmes Watson Baker Street RACHE 1887',
+    'books like The Jungle Book Rudyard Kipling Mowgli wolves Baloo Bagheera India 1894',
+    'books like Barry Lyndon Thackeray Redmond Barry Ireland Georgian unreliable narrator 1844',
+    'books like The Aspern Papers Henry James Aspern Juliana Venice letters 1888',
+    'books like Under the Greenwood Tree Thomas Hardy Dick Dewy Fancy Day Mellstock choir 1872',
     'books like Vanity Fair Thackeray Becky Sharp Amelia Sedley Napoleon England 1848',
     'books like The Woodlanders Thomas Hardy Giles Winterborne Grace Melbury Fitzpiers 1887',
     'books like Aurora Floyd Mary Elizabeth Braddon Aurora Conyers John Mellish racing 1863',
@@ -2735,6 +2740,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Study in Scarlet by Conan Doyle?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Study in Scarlet include The Adventures of Sherlock Holmes, The Hound of the Baskervilles, The Moonstone by Collins, And Then There Were None by Christie, The Adventures of Arsène Lupin by Leblanc, The Name of the Rose by Eco, The Seven-Per-Cent Solution by Meyer, and the complete Holmes canon. Our full guide covers 8 picks for Holmes fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Jungle Book by Rudyard Kipling?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Jungle Book include The Second Jungle Book, Kim (also Kipling), The Just So Stories, Lord of the Flies by Golding, The Sword in the Stone by T.H. White, A Passage to India by Forster, The Animal Family by Randall Jarrell, and The Jungle by Upton Sinclair. Our full guide covers 8 picks for Kipling fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Barry Lyndon by Thackeray?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Barry Lyndon include Vanity Fair by Thackeray, Tom Jones by Fielding, Lolita by Nabokov, Moll Flanders by Defoe, Pendennis by Thackeray, The Tin Drum by Grass, the Kubrick film adaptation, and Lucky Jim by Amis. Our full guide covers 8 picks for fans of Thackeray's picaresque unreliable narrator." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Aspern Papers by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Aspern Papers include The Turn of the Screw, Washington Square, and The Portrait of a Lady (all James), Death in Venice by Mann, Brideshead Revisited by Waugh, The Wings of the Dove by James, Pale Fire by Nabokov, and The Sense of an Ending by Barnes. Our full guide covers 8 picks for James fans." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Under the Greenwood Tree by Hardy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Under the Greenwood Tree include Far from the Madding Crowd, The Mayor of Casterbridge, and The Woodlanders (all Hardy), Cranford by Gaskell, Lark Rise to Candleford by Flora Thompson, Wives and Daughters by Gaskell, A Pair of Blue Eyes by Hardy, and Miss Read's Village School. Our full guide covers 8 picks for Hardy pastoral fans." },
     },
     {
       '@type': 'Question',

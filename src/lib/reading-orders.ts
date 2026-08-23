@@ -5992,6 +5992,85 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'a-study-in-scarlet',
+    intro: "A Study in Scarlet (1887) by Arthur Conan Doyle is the novel that introduced Sherlock Holmes and Dr. Watson to the world — a two-part narrative in which Watson meets Holmes in Baker Street and they investigate the murder of Enoch Drebber in a Brixton house with the word 'RACHE' written in blood on the wall, while the second part explains the background to the murder in a flash-forward to Utah's Mormon territory in the 1840s. Holmes's methods — observation of physical detail, logical deduction, chemical experimentation — are established here in their essentials, as are the relationship dynamics with Watson (admiring, methodical) and Inspector Lestrade (competent, resistant). A Study in Scarlet is shorter and more uneven than the great Holmes short stories that followed, but essential reading for anyone who wants to encounter the world's most famous fictional detective in his first appearance.",
+    startWith: 'A Study in Scarlet (1887) — the first Holmes novel',
+    books: [
+      { title: 'A Study in Scarlet', author: 'Arthur Conan Doyle', year: 1887 },
+      { title: 'The Sign of the Four', author: 'Arthur Conan Doyle', year: 1890 },
+      { title: 'The Adventures of Sherlock Holmes', author: 'Arthur Conan Doyle', year: 1892 },
+      { title: 'The Memoirs of Sherlock Holmes', author: 'Arthur Conan Doyle', year: 1894 },
+      { title: 'The Hound of the Baskervilles', author: 'Arthur Conan Doyle', year: 1902 },
+      { title: 'The Return of Sherlock Holmes', author: 'Arthur Conan Doyle', year: 1905 },
+      { title: 'The Valley of Fear', author: 'Arthur Conan Doyle', year: 1915 },
+      { title: "His Last Bow", author: 'Arthur Conan Doyle', year: 1917 },
+      { title: "The Case-Book of Sherlock Holmes", author: 'Arthur Conan Doyle', year: 1927 },
+    ],
+    faq: [
+      { q: 'What is the best reading order for Sherlock Holmes?', a: "Publication order works well: A Study in Scarlet (1887), The Sign of the Four (1890), then the short story collections — The Adventures (1892), The Memoirs (1893), The Return (1905), His Last Bow (1917), The Case-Book (1927) — with The Hound of the Baskervilles (1902) and The Valley of Fear (1915) interspersed. Many readers start with the Adventures short stories or The Hound rather than A Study in Scarlet, both of which are excellent entry points." },
+      { q: 'Can I read the Sherlock Holmes stories in any order?', a: "Yes — the short story collections and novels are largely independent, and most stories assume no prior knowledge of Holmes. The only important exception is 'The Final Problem' (in the Memoirs) and 'The Adventure of the Empty House' (in the Return), which should be read in that order as Holmes dies in the first and is resurrected in the second. Start wherever interests you most." },
+      { q: 'Is A Study in Scarlet a good introduction to Sherlock Holmes?', a: "It is essential historically but uneven as a novel — the flash-forward to Utah's Mormon territory in the second half is widely regarded as the weakest element Doyle ever wrote for Holmes. Many readers prefer to begin with The Adventures short stories or The Hound of the Baskervilles, then return to A Study in Scarlet for completeness." },
+    ],
+  },
+  {
+    slug: 'the-jungle-book-kipling',
+    intro: "The Jungle Book (1894) by Rudyard Kipling is the collection that gave world literature Mowgli — the man-cub raised by wolves in the Seoni jungle of central India — and the frame of stories that explores through animal fable the laws of community, belonging, and the passage from childhood to adult responsibility. The Mowgli stories (which run through both The Jungle Book and The Second Jungle Book of 1895) chart Mowgli's education among the wolves, his conflict with Shere Khan the tiger, his eventual mastery of the jungle's laws, and his ultimate return to human society — a return that is presented as loss as much as homecoming. The non-Mowgli stories — 'Rikki-Tikki-Tavi', 'The White Seal', 'Toomai of the Elephants', 'The Miracle of Purun Bhagat' — are equally accomplished and together make The Jungle Book one of the finest short fiction collections in English.",
+    startWith: 'The Jungle Book (1894) — the first Mowgli collection',
+    books: [
+      { title: 'The Jungle Book', author: 'Rudyard Kipling', year: 1894 },
+      { title: 'The Second Jungle Book', author: 'Rudyard Kipling', year: 1895 },
+    ],
+    faq: [
+      { q: 'Is The Jungle Book a children\'s book?', a: "The Jungle Book has always been read by children and adults simultaneously — the Mowgli stories work as adventure and as philosophical fable about law, belonging, and identity. The Disney adaptation has shaped the popular image of the book, but Kipling's original is darker, more complex, and more interested in the laws that govern community than any adaptation has captured." },
+      { q: 'What is the difference between The Jungle Book and The Second Jungle Book?', a: "Both collections contain Mowgli stories and non-Mowgli stories. The key Mowgli arc in the first volume includes 'Mowgli's Brothers', 'Kaa's Hunting', and 'Tiger! Tiger!'; the second volume completes the arc with 'The Spring Running' and 'The King's Ankus'. The Second Jungle Book also contains 'The Miracle of Purun Bhagat', arguably Kipling's finest single story." },
+      { q: 'How does The Jungle Book relate to Kim?', a: "Both Mowgli and Kim are children who belong to multiple worlds and are shaped by codes that transcend the conventional distinction between civilized and wild — Mowgli learns the Law of the Jungle, Kim learns the Great Game. Both characters are defined by their exceptional intelligence and their ability to move between different communities without being wholly claimed by any." },
+    ],
+  },
+  {
+    slug: 'barry-lyndon-thackeray',
+    intro: "The Luck of Barry Lyndon (1844, revised 1856) by William Makepeace Thackeray is the first-person memoir of Redmond Barry, an Irish adventurer who rises from poverty to aristocratic marriage through a combination of cunning, violence, and charm, and who narrates his own story with a magnificent unreliability that Thackeray makes the novel's central joke — Barry is one of the great unreliable narrators in literature, a man who describes his own brutality as boldness and his own dishonesty as cleverness while the gap between his account and what the events actually reveal grows steadily wider. The novel anticipates Vanity Fair's social satire but focuses it through the single consciousness of a villain, and it was one of Thackeray's own favorites among his works despite being less celebrated than Vanity Fair.",
+    startWith: 'Barry Lyndon (1844, revised 1856) — the only Barry Lyndon novel',
+    books: [
+      { title: 'Barry Lyndon', author: 'William Makepeace Thackeray', year: 1856 },
+    ],
+    faq: [
+      { q: 'Is Barry Lyndon a sequel to Vanity Fair?', a: "No — Barry Lyndon is entirely standalone and was written before Vanity Fair. It features no shared characters and is set in the eighteenth century, not the Napoleonic era. It is best read as a companion to Vanity Fair that shows Thackeray using the unreliable narrator in a single concentrated blast rather than the panoramic satirical frame of the later novel." },
+      { q: 'What makes Barry an unreliable narrator?', a: "Barry narrates his own villainy as if it were heroism — his brutal treatment of his wife, his gambling, his opportunistic violence — and Thackeray trusts the reader to see through the self-serving account without authorial commentary. The gap between what Barry says happened and what the reader understands happened is the source of the novel's comedy and its moral critique." },
+      { q: 'Is Barry Lyndon related to the Stanley Kubrick film?', a: "Yes — Kubrick's 1975 film adapts Thackeray's novel closely in period and plot, though the film's mood (melancholy, visually sumptuous, elegiac) is very different from the novel's comic irony. Kubrick strips the first-person narration and replaces it with a detached third-person voice, which produces a very different emotional effect. Both are worthwhile but require different things from their audiences." },
+    ],
+  },
+  {
+    slug: 'the-aspern-papers-james',
+    intro: "The Aspern Papers (1888) by Henry James is the novella that best distills James's essential subject — the collision between the aesthete's pursuit of art and the human costs of that pursuit — in a story about an American editor who travels to Venice to obtain the love letters of the (fictional) great American Romantic poet Jeffrey Aspern from the aged Juliana Bordereau, Aspern's former lover, who lives in a crumbling palazzo with her spinster niece Tita. The narrator's willingness to deceive, exploit, and eventually destroy these two women in pursuit of the papers is presented without any of the moral condemnation James's own position would seem to require — the unreliable narrator of The Aspern Papers is as self-serving as Barry Lyndon but far more genteel about it — and the climax, in which Tita offers herself as a condition of receiving the papers and the narrator recoils, is one of the finest ironical endings in short fiction.",
+    startWith: 'The Aspern Papers (1888) — the most accessible James novella',
+    books: [
+      { title: 'The Aspern Papers', author: 'Henry James', year: 1888 },
+      { title: 'The Turn of the Screw', author: 'Henry James', year: 1898 },
+      { title: 'The Portrait of a Lady', author: 'Henry James', year: 1881 },
+      { title: 'The Wings of the Dove', author: 'Henry James', year: 1902 },
+      { title: 'The Ambassadors', author: 'Henry James', year: 1903 },
+      { title: 'The Golden Bowl', author: 'Henry James', year: 1904 },
+    ],
+    faq: [
+      { q: 'What is the best order to read Henry James?', a: "Start with the novellas: The Aspern Papers (1888) is the most concentrated entry point, followed by The Turn of the Screw (1898) for James's Gothic mode. Then the novels in rough order of difficulty: Washington Square (1880), The Portrait of a Lady (1881), The Bostonians (1886), The Wings of the Dove (1902), The Ambassadors (1903), The Golden Bowl (1904). Save the late trilogy for after you've established a taste for James's style." },
+      { q: 'Is The Aspern Papers based on a true story?', a: "Yes — loosely. James based the story on an anecdote about an American scholar's attempt to obtain the letters of the poet Percy Bysshe Shelley from an aged woman in Florence. He moved the setting to Venice and the poet to the fictional Jeffrey Aspern, but the essential situation — the pursuit of dead genius's papers from his surviving intimate — was historical." },
+      { q: 'Is The Aspern Papers a good introduction to Henry James?', a: "Yes — it is the most concentrated and accessible James narrative, short enough to read in a single sitting and complex enough to reward sustained attention; the novella's controlled irony and the narrator's unreliability are James's characteristic techniques in miniature. The Turn of the Screw is also an excellent entry point for readers interested in James's Gothic side." },
+    ],
+  },
+  {
+    slug: 'under-the-greenwood-tree-hardy',
+    intro: "Under the Greenwood Tree (1872) by Thomas Hardy is his first pastoral novel and the only one organized around pastoral comedy rather than tragedy — a short, affectionate portrait of the village of Mellstock (based on Stinsford, Hardy's own village in Dorset) and the love affair between the tranter's son Dick Dewy and the schoolmistress Fancy Day, set against the displacement of the church choir by a barrel organ. Hardy named it after the song in As You Like It, and the novel shares something of Shakespeare's pastoral comedy in its treatment of the village community — a world of seasonal rhythms and social ritual that the novel clearly regards as more valuable than anything the modern world might offer in exchange. Under the Greenwood Tree is the novel that Hardy's readers most often give to readers who have found his tragic novels too devastating.",
+    startWith: 'Under the Greenwood Tree (1872) — the only novel in the Mellstock sequence',
+    books: [
+      { title: 'Under the Greenwood Tree', author: 'Thomas Hardy', year: 1872 },
+    ],
+    faq: [
+      { q: 'Is Under the Greenwood Tree a good starting point for Hardy?', a: "Yes — it is Hardy's most accessible novel and the most cheerful; unlike Far from the Madding Crowd, Tess, Jude, or The Mayor of Casterbridge, it ends happily and without tragedy. Start here if you want to try Hardy without committing to his tragic mode; move to Far from the Madding Crowd next for a longer, more complex pastoral experience." },
+      { q: 'What is the Mellstock Quire?', a: "The Mellstock Quire (choir) is the group of village musicians who play at church services — violins, bass viol, clarinet — whose displacement by the new barrel organ forms one of the novel's two plots. Hardy's grandfather was himself a member of the Stinsford choir on which the Mellstock Quire is based, and Hardy regarded this world with great personal affection." },
+      { q: 'How does Under the Greenwood Tree relate to Hardy\'s tragic novels?', a: "It is the positive counterpart to the tragedies — the same Wessex world, the same social determinants, but seen in a moment of pastoral equilibrium before the forces of modernity have fully arrived. Reading Under the Greenwood Tree first and The Woodlanders or The Return of the Native afterward shows what Hardy valued in the world his tragedies show being destroyed." },
+    ],
+  },
+  {
     slug: 'vanity-fair-thackeray',
     intro: "Vanity Fair (1847-48) by William Makepeace Thackeray is the great English novel of social ambition — a panoramic portrait of English and European society during the Napoleonic Wars organized around two women: Becky Sharp, the clever, ruthless daughter of a drawing-master who climbs as high as ability and luck allow, and Amelia Sedley, the passive, sentimental daughter of a City merchant whose emotional and financial fortunes chart the opposite trajectory. Thackeray subtitled it 'A Novel Without a Hero' and enforced this promise through his narrator's relentless undercutting of every character's claim to moral seriousness — Becky is brilliant but dishonest, Amelia is sincere but blind, and the various men they love and marry are vain, selfish, cowardly, or merely weak. The novel is a sustained exercise in social satire that finds its emotional center unexpectedly in Becky Sharp's determination to survive by any means in a world that would have assigned her to governessing.",
     startWith: 'Vanity Fair (1847-48) — the only novel in the Vanity Fair sequence',
