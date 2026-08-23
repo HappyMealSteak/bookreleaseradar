@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Thirteenth Tale Diane Setterfield Gothic reclusive author twins secrets',
+    'books like The Historian Elizabeth Kostova Vlad Impaler vampire European archives mystery',
+    'books like People of the Book Geraldine Brooks Sarajevo Haggadah manuscript five centuries',
+    'books like Labyrinth Kate Mosse Cathar Crusade Carcassonne dual timeline thriller',
+    'books like The Bronze Horseman Paullina Simons Tatiana Alexander Siege Leningrad WWII',
     'books like The Elegance of the Hedgehog Muriel Barbery concierge Paris philosophy class',
     'books like The Guernsey Literary and Potato Peel Pie Society WWII book club epistolary',
     "books like Captain Corelli's Mandolin Louis de Bernieres Cephalonia WWII love story",
@@ -2545,6 +2550,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Thirteenth Tale by Diane Setterfield?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Thirteenth Tale include Once Upon a River (other Setterfield), Rebecca by Daphne du Maurier, Jane Eyre by Charlotte Bronte, The Woman in White by Wilkie Collins, Fingersmith and The Little Stranger by Sarah Waters, The Historian by Elizabeth Kostova, and The Shadow of the Wind by Carlos Ruiz Zafón. Our full guide covers 8 picks for fans of Setterfield's Gothic bestseller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Historian by Elizabeth Kostova?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Historian include Dracula by Bram Stoker, The Shadow of the Wind by Carlos Ruiz Zafón, The Thirteenth Tale by Diane Setterfield, Interview with the Vampire by Anne Rice, Labyrinth by Kate Mosse, People of the Book by Geraldine Brooks, The Name of the Rose by Umberto Eco, and The Count of Monte Cristo by Alexandre Dumas. Our full guide covers 8 picks for fans of Kostova's literary vampire novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked People of the Book by Geraldine Brooks?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like People of the Book include March and Year of Wonders (other Brooks), All the Light We Cannot See by Anthony Doerr, The Historian by Elizabeth Kostova, Suite Française by Irène Némirovsky, The Pillars of the Earth by Ken Follett, The Chosen by Chaim Potok, and The Alchemist by Paulo Coelho. Our full guide covers 8 picks for fans of Brooks's multi-century manuscript novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Labyrinth by Kate Mosse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Labyrinth include Sepulchre and Citadel (other Mosse), The Da Vinci Code by Dan Brown, The Name of the Rose by Umberto Eco, The Historian by Elizabeth Kostova, People of the Book by Geraldine Brooks, The Pillars of the Earth by Ken Follett, and The Shadow of the Wind by Carlos Ruiz Zafón. Our full guide covers 8 picks for fans of Mosse's Languedoc Trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bronze Horseman by Paullina Simons?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bronze Horseman include Tatiana and Alexander and The Summer Garden (other Simons), Captain Corelli's Mandolin by de Bernières, Gone with the Wind by Margaret Mitchell, Outlander by Diana Gabaldon, Doctor Zhivago by Boris Pasternak, A Farewell to Arms by Hemingway, and The Nightingale by Kristin Hannah. Our full guide covers 8 picks for fans of Simons's epic WWII romance." },
     },
     {
       '@type': 'Question',

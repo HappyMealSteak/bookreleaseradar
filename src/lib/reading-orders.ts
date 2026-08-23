@@ -5992,6 +5992,71 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-thirteenth-tale',
+    intro: "Diane Setterfield's The Thirteenth Tale (2006) is the Gothic literary novel about a reclusive bestselling author named Vida Winter who summons biographer Margaret Lea to finally tell the true story of her past — a past involving twins, a crumbling house, a mad woman in the attic, and a story that has been suppressed for decades. Deliberately written in the tradition of the Victorian Gothic novel — Jane Eyre, Wuthering Heights, Rebecca — it was a massive international bestseller and remains one of the most beloved contemporary Gothic novels.",
+    startWith: 'The Thirteenth Tale',
+    books: [
+      { title: 'The Thirteenth Tale', author: 'Diane Setterfield', year: 2006, note: "Start here — the complete standalone Gothic novel." },
+      { title: 'Bellman and Black', author: 'Diane Setterfield', year: 2013, note: "Setterfield's second novel — a Victorian businessman and a mysterious stranger; a more slender Gothic novel than The Thirteenth Tale but with the same atmospheric quality." },
+    ],
+    faq: [
+      { q: "Is The Thirteenth Tale a standalone novel?", a: "Yes. The Thirteenth Tale is a complete standalone novel with no sequel, though Diane Setterfield has published two subsequent novels: Bellman and Black (2013) and Once Upon a River (2018). All three are standalones." },
+      { q: "What should I read next after The Thirteenth Tale?", a: "Setterfield readers continue with Once Upon a River (2018), her richly atmospheric novel set in a Thames-side inn in Victorian England. For readers who loved The Thirteenth Tale's Gothic atmosphere and its debt to Victorian fiction, Rebecca by Daphne du Maurier, Jane Eyre by Charlotte Bronte, The Woman in White by Wilkie Collins, Fingersmith by Sarah Waters, and The Little Stranger by Sarah Waters are the natural companions." },
+    ],
+  },
+  {
+    slug: 'the-historian',
+    intro: "Elizabeth Kostova's The Historian (2005) is the literary vampire novel that spent decades being written — a young woman discovers her father's correspondence with a mysterious scholar named Bartholomew Rossi, which leads her into a multi-generational quest across Europe for the tomb of Vlad the Impaler, who may not be entirely historical. Kostova's debut novel spent four weeks at number one on the New York Times bestseller list and was sold for a then-record advance of over two million dollars.",
+    startWith: 'The Historian',
+    books: [
+      { title: 'The Historian', author: 'Elizabeth Kostova', year: 2005, note: "Start here — the complete standalone novel. Kostova's second novel, The Swan Thieves (2010), is a separate standalone." },
+    ],
+    faq: [
+      { q: "Is The Historian a standalone novel?", a: "Yes. The Historian is a complete standalone novel with no sequels or prequels, though it shares the same fictional world as the Dracula mythology. Kostova's second novel, The Swan Thieves (2010), is a completely separate story about a painter and his obsession. Both can be read independently." },
+      { q: "What should I read next after The Historian?", a: "Kostova readers continue with The Swan Thieves. For readers who loved The Historian's atmosphere, historical sweep, and Gothic quality, Dracula by Bram Stoker is the essential predecessor; The Shadow of the Wind by Carlos Ruiz Zafón, The Thirteenth Tale by Diane Setterfield, and Interview with the Vampire by Anne Rice are strong companions in the same literary Gothic tradition." },
+    ],
+  },
+  {
+    slug: 'people-of-the-book',
+    intro: "Geraldine Brooks's People of the Book (2008) is the novel that traces a rare Jewish illuminated manuscript — the Sarajevo Haggadah — across five centuries and five countries, from its creation in fifteenth-century Seville through its appearance in Vienna in 1894 to its survival during the siege of Sarajevo in 1992. Inspired by the real Sarajevo Haggadah, Brooks interweaves the stories of the book's successive owners with the story of its present-day conservator. Brooks won the Pulitzer Prize for Fiction for March (2005).",
+    startWith: 'People of the Book',
+    books: [
+      { title: 'People of the Book', author: 'Geraldine Brooks', year: 2008, note: "Start here — the complete standalone novel. Brooks's Pulitzer Prize winner, March (2005), is a separate standalone novel about the Civil War." },
+    ],
+    faq: [
+      { q: "Is People of the Book a standalone novel?", a: "Yes. People of the Book is a complete standalone novel with no sequels. Brooks's other novels — Year of Wonders (2001), March (2005, Pulitzer Prize), Caleb's Crossing (2011), and The Secret Chord (2015) — are all standalone historical novels." },
+      { q: "What should I read next after People of the Book?", a: "Brooks readers continue with March, her Pulitzer Prize winner imagining the father of Louisa May Alcott's Little Women during the Civil War, or with Year of Wonders, her account of a Derbyshire village during the bubonic plague of 1666. For readers who loved People of the Book's multi-century structure, The Bronze Horseman by Paullina Simons, The Shadow of the Wind by Carlos Ruiz Zafón, and Suite Française by Irène Némirovsky are strong companions." },
+    ],
+  },
+  {
+    slug: 'labyrinth-kate-mosse',
+    intro: "Kate Mosse's Labyrinth (2005) is the dual-timeline historical thriller that alternates between Alice Tanner, an archaeological volunteer in the Languedoc in 2005, and Alais, a young woman in thirteenth-century Carcassonne during the Cathar Crusade. The novel centers on the Holy Grail of Cathar tradition and the secret society protecting it across eight centuries. A global bestseller — over five million copies sold in thirty languages — and the first of Mosse's Languedoc Trilogy.",
+    startWith: 'Labyrinth',
+    books: [
+      { title: 'Labyrinth', author: 'Kate Mosse', year: 2005, note: "Start here — the first novel in the Languedoc Trilogy. Standalones in the same world." },
+      { title: 'Sepulchre', author: 'Kate Mosse', year: 2007, note: "Book 2 — 2007 Paris and 1891 Carcassonne, connected themes of tarot and the Languedoc region. Standalone but reads better after Labyrinth." },
+      { title: 'Citadel', author: 'Kate Mosse', year: 2012, note: "Book 3 — 1942-1944 Carcassonne under German occupation. Completes the Languedoc Trilogy." },
+    ],
+    faq: [
+      { q: "Do I need to read the Languedoc Trilogy in order?", a: "The three Languedoc novels — Labyrinth, Sepulchre, and Citadel — are written to stand alone and are set in different historical periods, but they share the same geographical setting (the Languedoc region of southern France) and thematic concerns. Start with Labyrinth, the first and most celebrated. Each successive novel rewards knowing the earlier ones but can be read independently." },
+      { q: "What should I read next after Labyrinth?", a: "Mosse readers continue with Sepulchre and Citadel to complete the Languedoc Trilogy. For readers who loved Labyrinth's dual-timeline historical thriller structure, The Historian by Elizabeth Kostova, The Shadow of the Wind by Carlos Ruiz Zafón, The Da Vinci Code by Dan Brown, People of the Book by Geraldine Brooks, and The Name of the Rose by Umberto Eco are strong companions." },
+    ],
+  },
+  {
+    slug: 'the-bronze-horseman',
+    intro: "Paullina Simons's The Bronze Horseman (2001) is the epic Russian WWII romance — Tatiana Metanova and Alexander Belov in the Siege of Leningrad (1941-1944), one of the most devastating military sieges in history. One of the most popular epic romantic novels published since Gone with the Wind, it has a devoted readership despite mixed critical reception and is the first of a trilogy. The Siege of Leningrad, in which Leningrad endured 872 days of blockade by German forces, was one of the most catastrophic events of the Second World War.",
+    startWith: 'The Bronze Horseman',
+    books: [
+      { title: 'The Bronze Horseman', author: 'Paullina Simons', year: 2001, note: "Start here — the first and most essential book in the trilogy; the Siege of Leningrad." },
+      { title: 'Tatiana and Alexander', author: 'Paullina Simons', year: 2004, note: "Book 2 — Alexander's story and survival after Leningrad; equally epic and equally devastating." },
+      { title: 'The Summer Garden', author: 'Paullina Simons', year: 2006, note: "Book 3 — Tatiana and Alexander in America after the war; the conclusion of the trilogy." },
+    ],
+    faq: [
+      { q: "Do I need to read The Bronze Horseman trilogy in order?", a: "Yes. The Bronze Horseman trilogy must be read in order — The Bronze Horseman, Tatiana and Alexander, The Summer Garden — as each book picks up directly from the previous one. The trilogy tells a single continuous story and none of the books works without the others. Paullina Simons has also written companion novels set in the same universe: The Girl in Times Square (2004) and Songs of the Bronze Horseman (2020)." },
+      { q: "What should I read next after The Bronze Horseman?", a: "Readers continue with Tatiana and Alexander, the second book in the trilogy. For readers who loved The Bronze Horseman's scale and passion, Captain Corelli's Mandolin by Louis de Bernières, Gone with the Wind by Margaret Mitchell, Outlander by Diana Gabaldon, Doctor Zhivago by Boris Pasternak, and A Farewell to Arms by Hemingway are strong companions in the epic wartime romance tradition." },
+    ],
+  },
+  {
     slug: 'the-elegance-of-the-hedgehog',
     intro: "Muriel Barbery's The Elegance of the Hedgehog (2006, English translation 2008) is the French phenomenon that became an international bestseller — two narrators in a Paris apartment building: Renée Michel, the fifty-four-year-old self-educated concierge who hides her intellectual life behind the mask of stupidity the bourgeoisie expect of her, and Paloma Josse, a precocious twelve-year-old from the wealthy fifth floor who plans to kill herself on her thirteenth birthday. A philosophical novel about class, aesthetics, and the unexpected bridges between people, it sold over two million copies in France and has been translated into forty languages.",
     startWith: 'The Elegance of the Hedgehog',
