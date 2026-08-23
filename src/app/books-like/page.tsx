@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Falling Man Don DeLillo 9/11 September 11 Keith Neudecker survivor World Trade Center aftermath',
+    'books like Mao II Don DeLillo Bill Gray reclusive novelist terrorists PEN Faulkner Award 1991',
+    'books like Cosmopolis Don DeLillo Eric Packer billionaire Manhattan limousine haircut currency collapse Cronenberg',
+    "books like The Husband's Secret Liane Moriarty Cecilia Fitzpatrick Sydney letter husband attic domestic suspense",
+    'books like What Alice Forgot Liane Moriarty Alice Love spinning bike amnesia ten years marriage memory loss',
     'books like The Little Friend Donna Tartt Harriet Cleve Mississippi Southern Gothic 1970s brother murder unsolved',
     "books like The Corrections Jonathan Franzen Lambert family Alfred Parkinson's Christmas National Book Award",
     "books like Portnoy's Complaint Philip Roth Alexander Portnoy psychiatrist Newark Jewish mother guilt sexuality",
@@ -2635,6 +2640,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Falling Man by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Falling Man include White Noise and Underworld by Don DeLillo, Extremely Loud and Incredibly Close by Jonathan Safran Foer, Saturday by Ian McEwan, The Emperor's Children by Claire Messud, Netherland by Joseph O'Neill, The Reluctant Fundamentalist by Mohsin Hamid, and Mao II by Don DeLillo. Our full guide covers 8 picks for readers of DeLillo's 9/11 novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Mao II by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Mao II include White Noise and Libra by Don DeLillo, Falling Man by Don DeLillo, The Ghost Writer by Philip Roth, The Information by Martin Amis, The Unconsoled by Kazuo Ishiguro, The Spy Who Came in from the Cold by John le Carré, and The Remains of the Day by Kazuo Ishiguro. Our full guide covers 8 picks for readers of DeLillo's PEN/Faulkner Award–winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cosmopolis by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cosmopolis include White Noise and Mao II by Don DeLillo, American Psycho by Bret Easton Ellis, The Big Short by Michael Lewis, Glamorama by Bret Easton Ellis, The Bonfire of the Vanities by Tom Wolfe, My Year of Rest and Relaxation by Ottessa Moshfegh, and Falling Man by Don DeLillo. Our full guide covers 8 picks for readers of DeLillo's billionaire-in-a-limousine novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Husband's Secret by Liane Moriarty?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Husband's Secret include Big Little Lies and Nine Perfect Strangers by Liane Moriarty, What Alice Forgot by Liane Moriarty, The Woman in the Window by A.J. Finn, The Silent Patient by Alex Michaelides, Eleanor Oliphant Is Completely Fine by Gail Honeyman, and Apples Never Fall by Liane Moriarty. Our full guide covers 8 picks for readers of Moriarty's domestic suspense novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked What Alice Forgot by Liane Moriarty?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like What Alice Forgot include Big Little Lies and The Husband's Secret by Liane Moriarty, Nine Perfect Strangers by Liane Moriarty, Before I Go to Sleep by S.J. Watson, Still Alice by Lisa Genova, Life After Life by Kate Atkinson, and The Age of Miracles by Karen Thompson Walker. Our full guide covers 8 picks for readers of Moriarty's amnesia-marriage novel." },
     },
     {
       '@type': 'Question',

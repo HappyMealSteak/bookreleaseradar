@@ -5992,6 +5992,80 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'falling-man',
+    intro: "Falling Man (2007) by Don DeLillo is his novel of September 11 — a narrowly focused account of Keith Neudecker, a survivor of the World Trade Center attacks, his wife Lianne, and the months after the attacks as the characters struggle to reabsorb themselves into ordinary life. DeLillo interweaves three timelines: Keith's slow return to his family, Lianne's work with an Alzheimer's group, and, in the novel's three short interstitial chapters, the interior of one of the hijackers. Falling Man is DeLillo at his most restrained and elegiac — a quieter novel than his earlier work, concerned with the private aftermath of historical catastrophe rather than with the catastrophe itself.",
+    startWith: 'Falling Man (2007)',
+    books: [
+      { title: 'Falling Man', author: 'Don DeLillo', year: 2007 },
+      { title: 'White Noise', author: 'Don DeLillo', year: 1985, note: "DeLillo's breakthrough novel — if Falling Man is your first DeLillo, White Noise is the natural companion: funnier, more satirical, but exploring the same terrain of American anxiety and media-saturated death." },
+      { title: 'Underworld', author: 'Don DeLillo', year: 1997, note: "DeLillo's most ambitious novel — 827 pages from the 1951 Shot Heard Round the World to the 1990s; a panoramic account of postwar American consciousness." },
+    ],
+    faq: [
+      { q: 'Is Falling Man DeLillo\'s best 9/11 novel?', a: "DeLillo had already written presciently about mass death and terrorism in Mao II (1991) and about the September 11 attacks in an essay in Harper's Magazine shortly after they happened. Falling Man is his only full novel directly about 9/11. It received respectful reviews but is generally considered a minor work compared to White Noise and Underworld." },
+      { q: 'Who is the Falling Man in the novel?', a: "The Falling Man is a performance artist named David Janiak who recreates the iconic photograph of a man falling from the World Trade Center by suspending himself from buildings and bridges in a business suit. He appears at several points in Lianne's narrative, disturbing pedestrians and prompting reflection on how public performance processes private grief." },
+      { q: 'Should I read White Noise or Underworld before Falling Man?', a: "Falling Man is a standalone novel and requires no prior DeLillo. Most DeLillo readers recommend starting with White Noise (1985) — it is his most accessible novel and the one that established his major themes. Falling Man makes more sense in the context of DeLillo's broader project if you have read White Noise first." },
+    ],
+  },
+  {
+    slug: 'mao-ii',
+    intro: "Mao II (1991) by Don DeLillo is a short, compressed novel about a reclusive novelist named Bill Gray — a figure modeled in part on Thomas Pynchon — who has been working on a novel for twenty-three years and has not published since his early work. Drawn out of hiding first to participate in a mass Unification Church wedding at Yankee Stadium, and then to Beirut in an attempt to secure the release of a kidnapped poet, Bill Gray finds himself confronting the question that drives the novel: in the late twentieth century, have terrorists replaced novelists as the people who change the imagination of the world? Mao II won the PEN/Faulkner Award for fiction in 1992 and remains one of DeLillo's finest and most concentrated works.",
+    startWith: 'Mao II (1991)',
+    books: [
+      { title: 'Mao II', author: 'Don DeLillo', year: 1991 },
+      { title: 'White Noise', author: 'Don DeLillo', year: 1985, note: "DeLillo's breakthrough novel — the natural starting point for DeLillo, funnier and more accessible than Mao II." },
+      { title: 'Libra', author: 'Don DeLillo', year: 1988, note: "DeLillo's historical fiction of the Kennedy assassination — published three years before Mao II, it explores the relationship between violence, media, and historical meaning in the mode of documentary thriller." },
+    ],
+    faq: [
+      { q: 'Is Mao II part of a series?', a: "No — Mao II is a standalone novel. DeLillo's novels share themes (terrorism, media, crowd psychology, the relationship between violence and meaning) but are entirely independent works." },
+      { q: 'What is the significance of the title Mao II?', a: "Mao II refers to the Andy Warhol silkscreen portrait of Mao Zedong — a work in which the most powerful face of the twentieth century is reproduced in serial multiples. The title encapsulates the novel's theme: the tension between the individual face (the novelist in hiding) and the crowd face (the mass movements of the late twentieth century that have replaced individual vision with collective will)." },
+      { q: 'Is Mao II difficult to read?', a: "Mao II is more concentrated and prose-intensive than White Noise — DeLillo's sentences are often very dense and require slow reading. But it is substantially shorter than White Noise or Underworld, and its three-part structure (New York, London, Beirut) is clear. Most readers consider it more demanding than White Noise but rewarding for patient readers." },
+    ],
+  },
+  {
+    slug: 'cosmopolis-delillo',
+    intro: "Cosmopolis (2003) by Don DeLillo is a short, hallucinatory novel set during a single day in April 2000, following Eric Packer — a twenty-eight-year-old billionaire asset manager — as he crosses Manhattan in his stretch limousine to get a haircut, while his fortune collapses in the currency markets and someone plots to kill him. The city is in gridlock for a presidential motorcade; anti-capitalist protests erupt around him; a rapper's funeral procession passes; protesters throw rats at Wall Street traders. DeLillo strips the day to its elements — capital, body, violence, death — and shows the world of financial abstraction meeting the world of physical reality. It was adapted by David Cronenberg into a film in 2012.",
+    startWith: 'Cosmopolis (2003)',
+    books: [
+      { title: 'Cosmopolis', author: 'Don DeLillo', year: 2003 },
+      { title: 'White Noise', author: 'Don DeLillo', year: 1985, note: "DeLillo's breakthrough — the natural starting point for DeLillo, more satirically warm than Cosmopolis but exploring the same terrain of American anxiety and mediated reality." },
+    ],
+    faq: [
+      { q: 'Is Cosmopolis a difficult novel?', a: "Cosmopolis is short (about 200 pages) but stylistically demanding — DeLillo writes in an extremely controlled, almost minimalist prose that deliberately drains affect from the narration. Eric Packer's interior voice is alien and cold. Some readers find this thrilling; others find it inaccessible. It rewards rereading." },
+      { q: 'When is Cosmopolis set?', a: "Cosmopolis is set in April 2000 — just after the peak of the dot-com bubble and before its collapse. Eric Packer's fortune is made in currency speculation, and the day of the novel is the day his massive short position against the yen begins to unravel." },
+      { q: 'Is the David Cronenberg film a good adaptation of Cosmopolis?', a: "Cronenberg's 2012 adaptation is very faithful to the novel — much of the novel's dialogue is reproduced verbatim — and starred Robert Pattinson as Eric Packer. It received a mixed reception from critics, who admired its faithfulness but found it as cold and alienating as the novel itself." },
+    ],
+  },
+  {
+    slug: 'the-husband-secret',
+    intro: "The Husband's Secret (2013) by Liane Moriarty is a domestic suspense novel in which Cecilia Fitzpatrick, a devoted mother and Tupperware party organizer in Sydney, finds a letter from her husband John-Paul in the attic addressed to her to be opened only in the event of his death — and opens it anyway while he's still alive. What she reads destroys her understanding of her marriage and implicates her in a moral dilemma she cannot solve without destroying others. Moriarty weaves together three storylines — Cecilia's, a grieving mother's, and a third Sydney woman's — that converge with the precision of a thriller and the emotional depth of a literary novel.",
+    startWith: "The Husband's Secret (2013)",
+    books: [
+      { title: "The Husband's Secret", author: 'Liane Moriarty', year: 2013 },
+      { title: 'Big Little Lies', author: 'Liane Moriarty', year: 2014, note: "Moriarty's most celebrated novel — three women, a murder at a school trivia night, and the secrets women keep from each other; adapted for HBO by Jean-Marc Vallée." },
+      { title: 'Nine Perfect Strangers', author: 'Liane Moriarty', year: 2018, note: "Moriarty's third major hit — nine guests at a wellness resort, a mysterious director, and what happens when a retreat goes wrong." },
+    ],
+    faq: [
+      { q: 'Is The Husband\'s Secret part of a series?', a: "No — all of Liane Moriarty's novels are standalones. They share her characteristic blend of domestic suspense, multiple female perspectives, and Sydney settings, but have no plot or character connections." },
+      { q: 'Is The Husband\'s Secret similar to Big Little Lies?', a: "They are very similar in structure — multiple female perspectives converging on a dark secret, with Moriarty's characteristic dark humor and social observation — but The Husband's Secret is somewhat more domestic and less thriller-paced than Big Little Lies. Most readers who love one will love the other." },
+      { q: 'What is the moral dilemma at the center of The Husband\'s Secret?', a: "Cecilia knows something that would bring justice to one family but destroy another — her own. The novel's central question is whether a person can be morally obligated to destroy her own life to repair the damage done by someone she loves, and whether doing nothing is itself a moral choice." },
+    ],
+  },
+  {
+    slug: 'what-alice-forgot',
+    intro: "What Alice Forgot (2009) by Liane Moriarty is a novel in which thirty-nine-year-old Alice Love falls off her spinning bike during an exercise class and wakes up believing she is twenty-nine — the last ten years of her life have been erased. She doesn't know she's getting divorced, that she has three children, that she's become a different woman from the one she was, or why. What Alice Forgot is Moriarty's most moving novel — a domestic story about what we lose in the course of growing up, what we owe to the people we used to be, and whether marriages can be saved by remembering what was worth preserving.",
+    startWith: 'What Alice Forgot (2009)',
+    books: [
+      { title: 'What Alice Forgot', author: 'Liane Moriarty', year: 2009 },
+      { title: 'Big Little Lies', author: 'Liane Moriarty', year: 2014, note: "Moriarty's breakout novel — more thriller-paced than What Alice Forgot but equally driven by female friendship and domestic suspense." },
+      { title: "The Husband's Secret", author: 'Liane Moriarty', year: 2013, note: "Moriarty's companion domestic suspense novel — a woman discovers her husband's terrible secret; similar emotional register to What Alice Forgot." },
+    ],
+    faq: [
+      { q: 'Is What Alice Forgot part of a series?', a: "No — all of Liane Moriarty's novels are standalones. What Alice Forgot was published in 2009 and was Moriarty's breakout novel in Australia before Big Little Lies became her international breakthrough in 2014." },
+      { q: 'Is What Alice Forgot similar to a time-travel novel?', a: "What Alice Forgot is not a time-travel novel — Alice doesn't go back in time, she simply can't remember the last ten years. The novel uses the amnesia premise as a way to look at a marriage from two perspectives simultaneously: the young woman who fell in love and the older woman who has become estranged from that love." },
+      { q: 'Is What Alice Forgot as good as Big Little Lies?', a: "What Alice Forgot is considered by many Moriarty readers to be her most emotionally resonant novel — it received excellent reviews and is often recommended alongside Big Little Lies as one of her two best works. It is less thriller-paced than Big Little Lies but more moving." },
+    ],
+  },
+  {
     slug: 'the-little-friend',
     intro: "The Little Friend (2002) by Donna Tartt is a Southern Gothic novel set in Alexandria, Mississippi in the 1970s, following twelve-year-old Harriet Cleve Dufresnes as she investigates the unsolved murder of her older brother Robin, who was found hanged in the family's backyard nine years earlier when Harriet was an infant. The murder destroyed her family — her parents separated, her mother became a ghost of herself — and Harriet, raised on adventure stories and a fierce moral certainty about justice, becomes convinced she knows who did it. Tartt's second novel after The Secret History is slower, stranger, more Southern, and more interested in children and the world as seen through their eyes; it received a more mixed reception than its predecessor but has been reappraised over time as a masterpiece of its own kind.",
     startWith: 'The Little Friend (2002)',
