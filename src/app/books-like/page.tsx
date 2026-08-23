@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Moviegoer Walker Percy Binx Bolling New Orleans search malaise',
+    'books like Stoner John Williams professor Missouri quiet literary',
+    'books like The Good Soldier Ford Madox Ford Dowell unreliable narrator',
+    "books like Appointment in Samarra John O'Hara Julian English social self-destruction",
+    'books like Pnin Vladimir Nabokov emigre professor American academe',
     "books like Gravity's Rainbow Thomas Pynchon V-2 rocket World War II postmodern",
     'books like The Crying of Lot 49 Pynchon Oedipa Maas Tristero conspiracy',
     "books like Rabbit Run John Updike Harry Angstrom Pennsylvania tetralogy",
@@ -2445,6 +2450,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Moviegoer by Walker Percy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Moviegoer include The Last Gentleman and Love in the Ruins (other Percy novels), A Good Man Is Hard to Find by O'Connor, The Remains of the Day by Ishiguro, Stoner by Williams, The Stranger by Camus, Confederacy of Dunces by Toole, and The Virgin Suicides by Eugenides. Our full guide covers 8 picks for fans of Percy's National Book Award winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Stoner by John Williams?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Stoner include Butcher's Crossing and Augustus (other Williams novels), The Remains of the Day by Ishiguro, A Gentleman in Moscow by Towles, Gilead by Robinson, The Moviegoer by Percy, What Maisie Knew by James, and The Pedant and the Shuffly by Bellairs. Our full guide covers 8 picks for fans of Williams's quietly devastating masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Good Soldier by Ford Madox Ford?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Good Soldier include Parade's End (the other major Ford), The Remains of the Day by Ishiguro, Atonement by McEwan, The Age of Innocence by Wharton, Howards End by Forster, The Turn of the Screw by James, Mrs. Dalloway by Woolf, and The House of Mirth by Wharton. Our full guide covers 8 picks for fans of Ford's modernist masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Appointment in Samarra by John O'Hara?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Appointment in Samarra include The Great Gatsby by Fitzgerald, Revolutionary Road by Yates, BUtterfield 8 by O'Hara, The House of Mirth by Wharton, The Hours by Cunningham, Tender is the Night by Fitzgerald, The Corrections by Franzen, and American Pastoral by Roth. Our full guide covers 8 picks for fans of O'Hara's social masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pnin by Vladimir Nabokov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pnin include Lolita and Pale Fire (other Nabokov novels), Speak Memory by Nabokov, Stoner by Williams, Lucky Jim by Amis, The Human Stain by Roth, Herzog by Bellow, and The Remains of the Day by Ishiguro. Our full guide covers 8 picks for fans of Nabokov's tender émigré comedy." },
     },
     {
       '@type': 'Question',
