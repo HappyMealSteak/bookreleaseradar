@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Shirley Charlotte Brontë Caroline Helstone Shirley Keeldar Luddites Yorkshire 1849',
+    'books like Villette Charlotte Brontë Lucy Snowe M Paul Emanuel Belgian school dark 1853',
+    'books like The Professor Charlotte Brontë William Crimsworth Frances Henri Belgian 1857',
+    'books like Agnes Grey Anne Brontë governess households autobiographical documentary 1847',
+    'books like The Moonstone Wilkie Collins Sergeant Cuff Indian diamond mystery narrators 1868',
     'books like The Way We Live Now Anthony Trollope Melmotte financial fraud satire Victorian 1874',
     'books like He Knew He Was Right Anthony Trollope Louis Trevelyan jealousy obsession dark 1868',
     'books like Can You Forgive Her Anthony Trollope Alice Vavasor Lady Glencora Burgo Fitzgerald 1864',
@@ -2700,6 +2705,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Shirley by Charlotte Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shirley include Jane Eyre by Charlotte Brontë, North and South by Gaskell, The Tenant of Wildfell Hall by Anne Brontë, Villette by Charlotte Brontë, Mary Barton by Gaskell, Middlemarch by George Eliot, Sybil by Disraeli, and Wuthering Heights by Emily Brontë. Our full guide covers 8 picks for readers of Charlotte Brontë's industrial novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Villette by Charlotte Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Villette include Jane Eyre by Charlotte Brontë, The Portrait of a Lady by Henry James, Middlemarch by George Eliot, Wide Sargasso Sea by Jean Rhys, The Bell Jar by Sylvia Plath, The Tenant of Wildfell Hall by Anne Brontë, Shirley by Charlotte Brontë, and Rebecca by Daphne du Maurier. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Professor by Charlotte Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Professor include Villette and Jane Eyre (both Charlotte Brontë), The Tenant of Wildfell Hall by Anne Brontë, Shirley by Charlotte Brontë, Agnes Grey by Anne Brontë, The Aspern Papers by Henry James, To the Lighthouse by Virginia Woolf, and The Eyre Affair by Jasper Fforde. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Agnes Grey by Anne Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Agnes Grey include The Tenant of Wildfell Hall by Anne Brontë, Jane Eyre by Charlotte Brontë, The Turn of the Screw by Henry James, Wuthering Heights by Emily Brontë, Villette by Charlotte Brontë, North and South by Gaskell, and Daniel Deronda by George Eliot. Our full guide covers 8 picks for readers of Anne Brontë's governess novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Moonstone by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Moonstone include The Woman in White (also Collins), The Hound of the Baskervilles by Conan Doyle, Bleak House by Dickens, And Then There Were None by Agatha Christie, The Mystery of Edwin Drood by Dickens, The Name of the Rose by Umberto Eco, and And Then There Were None by Christie. Our full guide covers 8 picks for readers of Collins's founding detective novel." },
     },
     {
       '@type': 'Question',
