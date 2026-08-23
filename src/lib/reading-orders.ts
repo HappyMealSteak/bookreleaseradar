@@ -5992,6 +5992,70 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'atonement',
+    intro: "Ian McEwan's Atonement (2001) is his most celebrated novel and one of the most celebrated British novels of the twenty-first century — a story of a thirteen-year-old girl's false accusation in 1935, its devastating consequences through Dunkirk and wartime London, and the elderly novelist trying to atone for what she did. McEwan won the Booker Prize for Amsterdam (1998) and has been shortlisted multiple times; Atonement is often placed on lists of the greatest novels of its era. It was adapted into the Academy Award-nominated film (2007) with Keira Knightley and James McAvoy.",
+    startWith: 'Atonement',
+    books: [
+      { title: 'Atonement', author: 'Ian McEwan', year: 2001, note: "Start here — the complete novel in one volume; no prequels or sequels exist." },
+    ],
+    faq: [
+      { q: "Is Atonement a standalone novel?", a: "Yes. Atonement is a complete standalone novel with no sequels or prequels. McEwan's other novels are similarly self-contained." },
+      { q: "What period does Atonement cover?", a: "Atonement spans from a summer afternoon in 1935 through the evacuation at Dunkirk in 1940, wartime London, and finally the late 1990s, when an elderly Briony Tallis reflects on what she did and what her fiction has done to atone for it. The third part reveals that the preceding narrative was Briony's novel — a formal revelation that reframes everything that came before." },
+      { q: "What should I read next after Atonement?", a: "McEwan readers typically continue with Saturday (2005), his novel of a neurosurgeon's day in London on the day of the February 2003 anti-war march; On Chesil Beach (2007), a short, devastating novel of a young couple on their wedding night in 1962; or The Child in Time (1987), his Whitbread Prize-winning novel about a child's disappearance. For readers who loved Atonement's use of the past and the consequences of a single act, Never Let Me Go by Kazuo Ishiguro and The Remains of the Day by Ishiguro are the natural companions." },
+    ],
+  },
+  {
+    slug: 'on-earth-we-were-briefly-gorgeous',
+    intro: "Ocean Vuong's On Earth We Were Briefly Gorgeous (2019) is the debut novel by the celebrated Vietnamese-American poet — an autobiographical letter from a son to his illiterate mother, covering his childhood in Hartford, Connecticut, his relationship with a farmworker named Trevor, addiction, and Vietnam. Vuong's background as a poet is evident on every page; the novel is one of the most praised debut novels of the 2010s and established Vuong as a major figure in contemporary American literature alongside his poetry collection Night Sky with Exit Wounds (2016).",
+    startWith: 'On Earth We Were Briefly Gorgeous',
+    books: [
+      { title: 'On Earth We Were Briefly Gorgeous', author: 'Ocean Vuong', year: 2019, note: "Start here — the only novel Vuong has published; his other major work is the poetry collection Night Sky with Exit Wounds (2016)." },
+    ],
+    faq: [
+      { q: "Is On Earth We Were Briefly Gorgeous based on a true story?", a: "The novel is autobiographical in many of its details — Vuong was born in Ho Chi Minh City, came to the United States as a child, grew up in Hartford, Connecticut, and the book's portrait of the narrator's Vietnamese immigrant family, drug addiction in rural New England, and early sexual experience are drawn from his life. Vuong has described it as a novel rather than a memoir, which gives him more freedom in the telling, but its emotional truth is his own." },
+      { q: "What should I read next after On Earth We Were Briefly Gorgeous?", a: "Vuong readers continue with Night Sky with Exit Wounds (2016), his debut poetry collection, which covers many of the same themes as the novel in verse. For readers who loved the novel's quality of prose, The Sympathizer by Viet Thanh Nguyen (Vietnam from the other side), Pachinko by Min Jin Lee (Korean diaspora over generations), and Lincoln in the Bardo by George Saunders (another formally ambitious novel of grief and American history) are strong companions." },
+    ],
+  },
+  {
+    slug: 'gilead-robinson',
+    intro: "Marilynne Robinson's Gilead (2004) is her second novel and the Pulitzer Prize-winning letter that seventy-six-year-old Congregationalist minister John Ames writes to his young son in the fictional Iowa town of Gilead in 1956, knowing he will die before the boy can read it. It is one of the most celebrated American novels of the twenty-first century — meditative, theological, and deeply Protestant in its attention to grace, light, and the presence of the divine in ordinary life. It was followed by Home (2008) and Lila (2014), companion novels covering the same period from different characters' perspectives.",
+    startWith: 'Gilead',
+    books: [
+      { title: 'Gilead', author: 'Marilynne Robinson', year: 2004, note: "Start here — the Pulitzer Prize winner and the entry point to the Gilead sequence." },
+      { title: 'Home', author: 'Marilynne Robinson', year: 2008, note: "Companion novel — the same period from the perspective of Robert Boughton's household next door; Glory and the prodigal Jack." },
+      { title: 'Lila', author: 'Marilynne Robinson', year: 2014, note: "Companion novel — the backstory of John Ames's young wife, told in her voice; her itinerant life before she arrived in Gilead." },
+      { title: 'Jack', author: 'Marilynne Robinson', year: 2020, note: "Companion novel — Jack Boughton in St. Louis in the 1950s, his relationship with a Black schoolteacher named Della Miles, and segregation." },
+    ],
+    faq: [
+      { q: "Do I need to read the Gilead novels in order?", a: "Each novel in the Gilead sequence is written to stand alone, but reading order does matter for full appreciation. Start with Gilead — it establishes the voice and world. Home can be read alongside or immediately after; it covers the same summer of 1956 from the perspective of the household next door. Lila is best read after Gilead, as it fills in the backstory of the character whose presence in Gilead is already established. Jack takes place in St. Louis in the 1950s and can technically be read at any point, but rewards having met the character first in Gilead and Home." },
+      { q: "What should I read next after Gilead?", a: "Robinson's other novel Housekeeping (1980) is her debut — a very different book, gothic and Northwestern, about two sisters growing up in a transient house by an Idaho lake. For readers who loved Gilead's meditative Protestantism, works by writers who share Robinson's theological seriousness include Silence by Shusaku Endo, The Brothers Karamazov by Dostoevsky, and Jayber Crow by Wendell Berry." },
+    ],
+  },
+  {
+    slug: 'housekeeping-robinson',
+    intro: "Marilynne Robinson's Housekeeping (1980) is her debut novel — one of the most celebrated debut novels in American literary history — set in the fictional town of Fingerbone, Idaho, on a lake where a train once fell through the ice. Ruth and Lucille, orphaned sisters, are raised by a succession of relatives until their eccentric Aunt Sylvie arrives, and the novel becomes a meditation on transience, domesticity, loss, and the difference between those who root themselves in the world and those who, like Sylvie, remain perpetually drifting. Robinson won the Pulitzer Prize for Gilead (2004), her second novel.",
+    startWith: 'Housekeeping',
+    books: [
+      { title: 'Housekeeping', author: 'Marilynne Robinson', year: 1980, note: "Start here — the standalone debut novel; thematically related to but narratively separate from the later Gilead sequence." },
+    ],
+    faq: [
+      { q: "Is Housekeeping related to the Gilead novels?", a: "Housekeeping is not set in Gilead and does not share characters or events with the Gilead sequence (Gilead, Home, Lila, Jack). It is thematically related — Robinson's characteristic concerns with grace, transience, and the desire to be rooted or free appear in both — but it is set in Idaho rather than Iowa and can be read completely independently. Many readers encounter Gilead first (it won the Pulitzer Prize) and come to Housekeeping as Robinson's debut; others read them in order of publication." },
+      { q: "What should I read next after Housekeeping?", a: "Robinson readers continue with the Gilead sequence, starting with Gilead (2004). For readers who loved Housekeeping's prose and its meditation on transience and women's solitude, The Virgin Suicides by Jeffrey Eugenides, Beloved by Toni Morrison, Wise Blood by Flannery O'Connor, and The Wide Net by Eudora Welty are strong companions." },
+    ],
+  },
+  {
+    slug: 'middle-passage-johnson',
+    intro: "Charles Johnson's Middle Passage (1990) is the National Book Award-winning novel narrated by Rutherford Calhoun, a freed slave who stows away on a slave ship called the Republic in 1830, not knowing the ship is headed for West Africa to collect members of the Allmuseri tribe. A novel of ideas in the tradition of Moby-Dick — philosophical, comic, and violent — it confronts the history of the Middle Passage through one man's journey from self-centeredness toward something larger. Johnson is a philosopher as well as a novelist, and the book's moral seriousness is matched by its formal ambition.",
+    startWith: 'Middle Passage',
+    books: [
+      { title: 'Middle Passage', author: 'Charles Johnson', year: 1990, note: "Start here — the complete standalone novel; the National Book Award winner." },
+    ],
+    faq: [
+      { q: "Is Middle Passage a historical novel?", a: "Middle Passage is historical fiction set in 1830, narrated by Rutherford Calhoun in the voice and style of nineteenth-century adventure novels — Robinson Crusoe, Moby-Dick — while being unmistakably a twentieth-century novel of ideas about race, freedom, colonialism, and identity. Johnson has written and spoken extensively about his philosophical influences, particularly phenomenology and Buddhism, which inform the novel's engagement with what it means to be a self and how one becomes free." },
+      { q: "What should I read next after Middle Passage?", a: "Johnson's other novels include Oxherding Tale (1982), a philosophical slave narrative that also draws on Eastern philosophy, and Dreamer (1998), about a Martin Luther King Jr. double. For readers who loved Middle Passage's philosophical engagement with race and history, Beloved by Toni Morrison, The Known World by Edward P. Jones, Song of Solomon by Toni Morrison, and Roots by Alex Haley are strong companions." },
+    ],
+  },
+  {
     slug: 'tenth-of-december',
     intro: "George Saunders's Tenth of December (2013) is his most celebrated story collection — ten stories set in a recognizable near-future America, combining Saunders's comic satirical voice with genuine emotional depth. The title story, about a middle-aged man planning to end his life and a boy who interrupts him, is widely considered one of the finest American stories of the decade. Saunders won the Man Booker Prize for his novel Lincoln in the Bardo (2017), but most readers encounter him first through his short fiction, which appeared in The New Yorker and elsewhere. His influence on American short story writing since the 1990s has been enormous.",
     startWith: 'Tenth of December',

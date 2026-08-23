@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Atonement Ian McEwan Briony Tallis Dunkirk false accusation guilt',
+    'books like On Earth We Were Briefly Gorgeous Ocean Vuong Vietnamese American letter mother',
+    'books like Gilead Marilynne Robinson minister letter dying Iowa Pulitzer',
+    'books like Housekeeping Marilynne Robinson Idaho sisters Aunt Sylvie transience',
+    'books like Middle Passage Charles Johnson freed slave ship National Book Award',
     'books like Tenth of December George Saunders stories near-future satire empathy',
     'books like Lincoln in the Bardo George Saunders Abraham Lincoln Willie ghost',
     'books like The Overstory Richard Powers trees ecology Pulitzer Prize',
@@ -2530,6 +2535,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Atonement by Ian McEwan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Atonement include Saturday and On Chesil Beach (other McEwan), Never Let Me Go and The Remains of the Day by Kazuo Ishiguro, The English Patient by Michael Ondaatje, Birdsong by Sebastian Faulks, The Hours by Michael Cunningham, and Fingersmith by Sarah Waters. Our full guide covers 8 picks for fans of McEwan's most celebrated novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked On Earth We Were Briefly Gorgeous by Ocean Vuong?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like On Earth We Were Briefly Gorgeous include Night Sky with Exit Wounds (Vuong's poetry), The Sympathizer by Viet Thanh Nguyen, Pachinko by Min Jin Lee, The House on Mango Street by Sandra Cisneros, Giovanni's Room by James Baldwin, Beloved and The Bluest Eye by Toni Morrison, and Let the Great World Spin by Colum McCann. Our full guide covers 8 picks for fans of Vuong's debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Gilead by Marilynne Robinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gilead include Home, Lila, and Housekeeping (other Robinson), Jayber Crow by Wendell Berry, Silence by Shusaku Endo, Crossing to Safety by Wallace Stegner, The Brothers Karamazov by Dostoevsky, and A Man Called Ove by Fredrik Backman. Our full guide covers 8 picks for fans of Robinson's Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Housekeeping by Marilynne Robinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Housekeeping include Gilead, Home, and Lila (other Robinson), The Virgin Suicides by Jeffrey Eugenides, Beloved by Toni Morrison, A Thousand Acres by Jane Smiley, Wise Blood by Flannery O'Connor, Bastard Out of Carolina by Dorothy Allison, and The Hours by Michael Cunningham. Our full guide covers 8 picks for fans of Robinson's debut novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Middle Passage by Charles Johnson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Middle Passage include Oxherding Tale (other Johnson), Beloved and Song of Solomon by Toni Morrison, The Known World by Edward P. Jones, Moby-Dick by Melville, The Underground Railroad by Colson Whitehead, Kindred by Octavia Butler, and Roots by Alex Haley. Our full guide covers 8 picks for fans of Johnson's National Book Award winner." },
     },
     {
       '@type': 'Question',
