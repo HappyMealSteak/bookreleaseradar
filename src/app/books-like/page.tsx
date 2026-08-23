@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Les Liaisons Dangereuses Laclos Valmont Merteuil epistolary libertine 18th century French 1782',
+    'books like Tristram Shandy Laurence Sterne digressions Walter Uncle Toby experimental 1759 comic',
+    'books like Robinson Crusoe Daniel Defoe island survival Friday colonial 1719 first English novel',
+    'books like Moll Flanders Daniel Defoe thief marriages Virginia colonial female protagonist 1722',
+    "books like Gulliver's Travels Jonathan Swift Lilliput Brobdingnag satire Yahoo Houyhnhnm 1726",
     'books like New Grub Street George Gissing Reardon Milvain literary marketplace Victorian London 1891',
     'books like The Sorrows of Young Werther Goethe Werther Charlotte romantic passion suicide epistolary 1774',
     'books like Clarissa Samuel Richardson Clarissa Harlowe Lovelace epistolary longest English novel 1748',
@@ -2665,6 +2670,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Les Liaisons Dangereuses by Laclos?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Les Liaisons Dangereuses include Clarissa and Pamela by Richardson, The Red and the Black by Stendhal, Gone Girl by Gillian Flynn, The Talented Mr. Ripley by Patricia Highsmith, The Portrait of a Lady by Henry James, and Vanity Fair by Thackeray. Our full guide covers 8 picks for readers of Laclos's brilliant epistolary novel about libertine manipulation." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tristram Shandy by Laurence Sterne?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tristram Shandy include A Sentimental Journey (also by Sterne), Don Quixote by Cervantes, Tom Jones by Fielding, Ulysses by Joyce, Jacques the Fatalist by Diderot, If on a winter's night a traveler by Calvino, Pale Fire by Nabokov, and The Unfortunates by B.S. Johnson. Our full guide covers 8 picks for readers of Sterne's experimental comic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Robinson Crusoe by Daniel Defoe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Robinson Crusoe include Moll Flanders and A Journal of the Plague Year (also by Defoe), Foe by J.M. Coetzee, Lord of the Flies by Golding, The Life of Pi by Yann Martel, and The Martian by Andy Weir. Our full guide covers 8 picks for readers of Defoe's founding novel of survival and solitude." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Moll Flanders by Daniel Defoe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Moll Flanders include Robinson Crusoe and Roxana (also by Defoe), Pamela by Richardson, Tom Jones by Fielding, The Crimson Petal and the White by Michel Faber, and Half of a Yellow Sun by Chimamanda Ngozi Adichie. Our full guide covers 8 picks for readers of Defoe's pioneering novel of female survival." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Gulliver's Travels by Jonathan Swift?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gulliver's Travels include A Modest Proposal (also by Swift), Candide by Voltaire, Animal Farm by Orwell, Brave New World by Huxley, The Tin Drum by Günter Grass, and A Connecticut Yankee in King Arthur's Court by Twain. Our full guide covers 8 picks for readers of Swift's comprehensive satire of human nature." },
     },
     {
       '@type': 'Question',
