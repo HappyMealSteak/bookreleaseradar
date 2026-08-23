@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like If This Is a Man Primo Levi Auschwitz Holocaust memoir',
+    'books like The Plague Albert Camus Oran epidemic solidarity allegory',
+    'books like Henderson the Rain King Saul Bellow Africa rain king Connecticut',
+    'books like The Assistant Bernard Malamud Morris Bober Brooklyn grocer',
+    'books like The Fall Albert Camus Jean-Baptiste Clamence Amsterdam confession',
     'books like Death in Venice Thomas Mann Aschenbach Venice artistic dissolution',
     'books like The Glass Bead Game Hermann Hesse Castalia Josef Knecht Nobel',
     'books like Fatelessness Imre Kertesz Holocaust Auschwitz flat narration Nobel',
@@ -2460,6 +2465,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked If This Is a Man by Primo Levi?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If This Is a Man include The Truce, The Periodic Table, and The Drowned and the Saved (other Primo Levi), Night by Elie Wiesel, This Way for the Gas, Ladies and Gentlemen by Borowski, Fatelessness by Kertész, Man's Search for Meaning by Frankl, and The Diary of a Young Girl by Anne Frank. Our full guide covers 8 picks for fans of Levi's Auschwitz memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Plague by Albert Camus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Plague include The Stranger and The Fall (other Camus), The Myth of Sisyphus, Nausea by Sartre, Crime and Punishment by Dostoevsky, All Quiet on the Western Front by Remarque, Station Eleven by Mandel, and Love in the Time of Cholera by García Márquez. Our full guide covers 8 picks for fans of Camus's epidemic allegory." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Henderson the Rain King by Saul Bellow?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Henderson the Rain King include Herzog, The Adventures of Augie March, and Humboldt's Gift (other Bellow), Don Quixote by Cervantes, A Confederacy of Dunces by Toole, Gargantua and Pantagruel by Rabelais, Adventures of Huckleberry Finn by Twain, and Travels with My Aunt by Greene. Our full guide covers 8 picks for fans of Bellow's comic Africa novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Assistant by Bernard Malamud?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Assistant include The Natural, The Fixer, and The Magic Barrel (other Malamud), Herzog by Bellow, Goodbye Columbus by Roth, Call It Sleep by Henry Roth, The Bread Givers by Yezierska, and Stoner by John Williams. Our full guide covers 8 picks for fans of Malamud's Brooklyn grocery novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Fall by Albert Camus?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Fall include The Stranger and The Plague (other Camus), Notes from Underground by Dostoevsky, Nausea by Sartre, Lolita by Nabokov, The Good Soldier by Ford Madox Ford, Steppenwolf by Hesse, and The First Man by Camus. Our full guide covers 8 picks for fans of Camus's Amsterdam monologue novel." },
     },
     {
       '@type': 'Question',
