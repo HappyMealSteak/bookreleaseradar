@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like War and Peace Leo Tolstoy Pierre Bezukhov Natasha Rostova Napoleonic Wars Pierre Andrei 1869 epic Russian novel',
+    'books like Pere Goriot Honore de Balzac Rastignac Vautrin Paris boarding house Comedie Humaine 1835',
+    'books like The Red and the Black Stendhal Julien Sorel ambition Restoration France social climbing psychological 1830',
+    'books like Madame Bovary Gustave Flaubert Emma Bovary romantic delusion provincial France bovarysme 1857',
+    'books like The Count of Monte Cristo Alexandre Dumas Edmond Dantes revenge Chateau dIf treasure 1844',
     'books like Ethan Frome Edith Wharton Zeena Mattie Silver New England tragedy 1911',
     'books like The Turn of the Screw Henry James governess Bly Miles Flora ghosts Victorian 1898',
     'books like Adventures of Huckleberry Finn Mark Twain Huck Jim Mississippi River 1884 American classic',
@@ -2650,6 +2655,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked War and Peace by Leo Tolstoy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like War and Peace include Anna Karenina (also by Tolstoy), The Brothers Karamazov by Dostoevsky, Les Misérables by Victor Hugo, The Death of Ivan Ilyich by Tolstoy, The Charterhouse of Parma by Stendhal, Middlemarch by George Eliot, and Doctor Zhivago by Boris Pasternak. Our full guide covers 8 picks for readers of Tolstoy's epic Napoleonic panorama." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Père Goriot by Honoré de Balzac?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Père Goriot include Lost Illusions and Cousin Bette (also by Balzac), Sentimental Education by Flaubert, The Red and the Black by Stendhal, Eugénie Grandet by Balzac, Germinal by Zola, and Vanity Fair by Thackeray. Our full guide covers 8 picks for readers of Balzac's founding realist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Red and the Black by Stendhal?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Red and the Black include The Charterhouse of Parma (also by Stendhal), Père Goriot by Balzac, Madame Bovary by Flaubert, The Idiot by Dostoevsky, The Portrait of a Lady by Henry James, and Crime and Punishment by Dostoevsky. Our full guide covers 8 picks for readers of Stendhal's psychologically acute portrait of Julien Sorel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Madame Bovary by Gustave Flaubert?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Madame Bovary include Sentimental Education (also by Flaubert), The Red and the Black by Stendhal, Anna Karenina by Tolstoy, The Awakening by Kate Chopin, The Portrait of a Lady by Henry James, and The House of Mirth by Edith Wharton. Our full guide covers 8 picks for readers of Flaubert's masterpiece of literary realism." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Count of Monte Cristo by Alexandre Dumas?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Count of Monte Cristo include The Three Musketeers and The Man in the Iron Mask (also by Dumas), Les Misérables by Victor Hugo, The Scarlet Pimpernel by Baroness Orczy, Rebecca by Daphne du Maurier, The Name of the Rose by Umberto Eco, and Jonathan Strange & Mr Norrell by Susanna Clarke. Our full guide covers 8 picks for fans of Dumas's great revenge adventure." },
     },
     {
       '@type': 'Question',
