@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Underworld Don DeLillo Cold War postmodern American memory',
+    'books like Freedom Jonathan Franzen Berglund family contemporary America',
+    'books like On the Road Jack Kerouac Beat Generation road trip',
+    "books like One Flew Over the Cuckoo's Nest Ken Kesey McMurphy Nurse Ratched",
+    'books like In Cold Blood Truman Capote Clutter family true crime nonfiction novel',
     'books like American Pastoral Philip Roth Pulitzer American Dream Vietnam',
     'books like The Human Stain Philip Roth race identity Clinton era',
     'books like No Country for Old Men McCarthy Chigurh border thriller',
@@ -2435,6 +2440,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Underworld by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Underworld include White Noise and Libra (other DeLillo novels), Gravity's Rainbow by Pynchon, The Corrections by Franzen, American Pastoral by Roth, Blood Meridian by McCarthy, The Recognitions by Gaddis, A Visit from the Goon Squad by Egan, and The Fortress of Solitude by Lethem. Our full guide covers 8 picks for fans of DeLillo's Cold War masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Freedom by Jonathan Franzen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Freedom include The Corrections (Franzen's own predecessor), American Pastoral by Roth, The Interestings by Wolitzer, A Little Life by Yanagihara, The Sympathizer by Nguyen, Crossroads by Franzen, Olive Kitteridge by Strout, and Atonement by McEwan. Our full guide covers 8 picks for fans of Franzen's social realist masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked On the Road by Jack Kerouac?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like On the Road include The Dharma Bums and Big Sur (other Kerouac novels), Howl by Ginsberg, Naked Lunch by Burroughs, The Electric Kool-Aid Acid Test by Wolfe, Travels with Charley by Steinbeck, Lonesome Dove by McMurtry, and Zen and the Art of Motorcycle Maintenance by Pirsig. Our full guide covers 8 picks for fans of Kerouac's Beat classic." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked One Flew Over the Cuckoo's Nest by Ken Kesey?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Flew Over the Cuckoo's Nest include Catch-22 by Heller, The Bell Jar by Plath, Sometimes a Great Notion by Kesey, The Electric Kool-Aid Acid Test by Wolfe, Slaughterhouse-Five by Vonnegut, The Chosen by Potok, The Plot Against America by Roth, and Man's Search for Meaning by Frankl. Our full guide covers 8 picks for fans of Kesey's countercultural classic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked In Cold Blood by Truman Capote?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In Cold Blood include The Executioner's Song by Mailer, Devil in the White City by Larson, Midnight in the Garden of Good and Evil by Berendt, I'll Be Gone in the Dark by McNamara, The Stranger Beside Me by Rule, Columbine by Cullen, Breakfast at Tiffany's by Capote, and Killers of a Certain Age by Raybourn. Our full guide covers 8 picks for fans of Capote's nonfiction novel." },
     },
     {
       '@type': 'Question',
