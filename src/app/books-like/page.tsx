@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like Daisy Miller Henry James Winterbourne Roman fever expatriate 1878',
+    'books like The Bostonians Henry James Olive Chancellor Basil Ransom Verena suffrage Boston 1886',
+    'books like Nana Zola Anna Coupeau courtesan Second Empire Paris smallpox 1880',
+    'books like Thérèse Raquin Émile Zola Thérèse Laurent Camille murder guilt 1867',
+    'books like Bel-Ami Maupassant Georges Duroy Third Republic journalism 1885',
     'books like A Study in Scarlet Arthur Conan Doyle Holmes Watson Baker Street RACHE 1887',
     'books like The Jungle Book Rudyard Kipling Mowgli wolves Baloo Bagheera India 1894',
     'books like Barry Lyndon Thackeray Redmond Barry Ireland Georgian unreliable narrator 1844',
@@ -2740,6 +2745,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Daisy Miller by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Daisy Miller include The Aspern Papers, The Portrait of a Lady, and Washington Square (all James), The Age of Innocence by Wharton, The Bostonians by James, A Room with a View by Forster, The Innocents Abroad by Twain, and The House of Mirth by Wharton. Our full guide covers 8 picks for fans of James's breakthrough novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Bostonians by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bostonians include The Portrait of a Lady, Washington Square, and Daisy Miller (all James), The Awakening by Chopin, Little Women by Alcott, The House of Mirth by Wharton, A Vindication of the Rights of Woman by Wollstonecraft, and Democracy by Henry Adams. Our full guide covers 8 picks for fans of James's most political novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nana by Émile Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nana include L'Assommoir and Germinal (also Zola), Bel-Ami by Maupassant, Thérèse Raquin by Zola, Madame Bovary by Flaubert, Camille by Dumas fils, La Traviata (Verdi opera), and Moulin Rouge by Pierre La Mure. Our full guide covers 8 picks for fans of Zola's Second Empire courtesan novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Thérèse Raquin by Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Thérèse Raquin include L'Assommoir and Nana (also Zola), Crime and Punishment by Dostoevsky, Madame Bovary by Flaubert, The Postman Always Rings Twice and Double Indemnity by Cain, Rebecca by du Maurier, and An American Tragedy by Dreiser. Our full guide covers 8 picks for fans of Zola's Gothic Naturalist study." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bel-Ami by Maupassant?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bel-Ami include Maupassant's complete short stories, The Red and the Black by Stendhal, Nana by Zola, Lost Illusions by Balzac, Vanity Fair by Thackeray, The Great Gatsby by Fitzgerald, A Sentimental Education by Flaubert, and American Psycho by Ellis. Our full guide covers 8 picks for fans of Maupassant's social-climbing novel." },
     },
     {
       '@type': 'Question',

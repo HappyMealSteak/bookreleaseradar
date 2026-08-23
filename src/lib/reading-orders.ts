@@ -5992,6 +5992,73 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'daisy-miller-james',
+    intro: "Daisy Miller (1878) by Henry James is the novella that first brought James international notice and that best represents his early American-in-Europe theme in its simplest and most affecting form — the story of Annie P. Miller (Daisy), the innocent and unconventional American girl from Schenectady, New York, whose Roman social behavior is misinterpreted by both the cynical expatriate society that judges her and the admiring but paralyzed Frederick Winterbourne who watches her. The novella is organized around the question of whether Daisy is innocent or flirtatious, and James keeps the answer deliberately ambiguous throughout — the irony of the ending (Daisy dies of Roman fever, vindicated by her dying words, but only posthumously recognized by Winterbourne) is one of the most perfectly calibrated in nineteenth-century short fiction.",
+    startWith: 'Daisy Miller (1878) — the most accessible James novella',
+    books: [
+      { title: 'Daisy Miller', author: 'Henry James', year: 1878 },
+    ],
+    faq: [
+      { q: 'Is Daisy Miller innocent or flirtatious?', a: "Both readings are available and James refuses to close the ambiguity — that is the novella's central ironic device. Daisy's behavior (walking alone with men, resisting social convention) is innocent by American standards and scandalous by Roman expatriate standards, and the tragedy is that both Winterbourne's paralysis and Giovanelli's ultimate testimony suggest she was entirely innocent; but James never lets the reader be certain." },
+      { q: 'What is Daisy Miller about thematically?', a: "The novella is James's first and clearest treatment of the 'international theme' — the collision between American innocence and European sophistication, and the destruction of the innocent American by the more knowing European social world. It is also about Winterbourne's failure to act on his perception of Daisy's innocence, which makes him as guilty as the society that judges her." },
+      { q: 'Is Daisy Miller a good introduction to Henry James?', a: "Yes — it is the most accessible and concentrated James narrative and the best first novella for readers approaching James for the first time; it introduces the international theme that runs through all his major work in its cleanest form, and its length (under 100 pages) means it can be read in one sitting before committing to the long late novels." },
+    ],
+  },
+  {
+    slug: 'the-bostonians-james',
+    intro: "The Bostonians (1886) by Henry James is his most American novel and arguably his most political — a story about the struggle between the progressive reformer Olive Chancellor and the conservative Mississippian Basil Ransom for possession of the natural orator Verena Tarrant, set against the backdrop of the women's suffrage movement in 1870s and 1880s Boston. The novel's treatment of the suffrage movement is politically complicated: James gives genuine weight to the feminist arguments while also allowing Ransom's reactionary resistance its own integrity, and the love triangle between Olive, Ransom, and Verena is presented with an ambiguity that has produced very different feminist and anti-feminist readings. The Bostonians is James's most novelistically direct narrative — less convoluted than the late novels — and a useful bridge between his accessible early work and his more demanding mature style.",
+    startWith: 'The Bostonians (1886) — the only novel in the Bostonians sequence',
+    books: [
+      { title: 'The Bostonians', author: 'Henry James', year: 1886 },
+    ],
+    faq: [
+      { q: 'What is The Bostonians about?', a: "The struggle between the feminist reformer Olive Chancellor and the conservative Southerner Basil Ransom for possession of the natural speaker Verena Tarrant — a love triangle that is also an allegory for the battle between progressive and reactionary forces in post-Civil War American culture. James treats both sides with ironic distance: the Boston feminists are presented as both admirable and slightly absurd, and Ransom as both attractive and profoundly wrong." },
+      { q: 'Is The Bostonians feminist or anti-feminist?', a: "James's political position in The Bostonians has been debated since its publication — the women's movement is treated with complex ambivalence that refuses simple endorsement or dismissal, and the ending (Ransom takes Verena away from the suffrage platform as Olive watches) is presented with deliberate irony that prevents it from being read as simply reactionary. Contemporary feminist readers have read both sympathy and hostility into James's treatment." },
+      { q: 'How does The Bostonians compare to the late Henry James novels?', a: "The Bostonians is the most directly political and most narratively straightforward of James's major novels — it lacks the elaborate psychological complexity of The Wings of the Dove or The Ambassadors, and many readers who find the late James difficult find The Bostonians much more accessible; it is the best bridge between James's early accessible work (Washington Square, Daisy Miller) and the late style." },
+    ],
+  },
+  {
+    slug: 'nana-zola',
+    intro: "Nana (1880) by Émile Zola is the ninth novel in the twenty-novel Rougon-Macquart cycle — a portrait of the courtesan Anna Coupeau ('Nana'), daughter of the laundress Gervaise from L'Assommoir, who rises from slum poverty to become the most celebrated demi-mondaine of Second Empire Paris, destroying a series of aristocratic men who give her fortunes in exchange for her pleasure, before dying of smallpox in a hotel room as the crowds outside shout 'To Berlin!' at the outbreak of the Franco-Prussian War. The novel is Zola's most sustained study of desire, corruption, and the degradation of the bourgeoisie under the Second Empire — Nana's body is explicitly figured as a symbol of the decadence that will produce the catastrophe of 1870; but Nana herself is also one of the most complex and sympathetic female characters in the Naturalist tradition.",
+    startWith: "L'Assommoir (1877) — introduces Gervaise, Nana's mother, before Nana; or start directly with Nana",
+    books: [
+      { title: "L'Assommoir", author: 'Émile Zola', year: 1877, note: "Introduces Nana's mother Gervaise; read first for full context" },
+      { title: 'Nana', author: 'Émile Zola', year: 1880 },
+      { title: 'Pot-Bouille', author: 'Émile Zola', year: 1882, note: 'Set in Nana\'s Paris world' },
+    ],
+    faq: [
+      { q: 'Do I need to read L\'Assommoir before Nana?', a: "No — Nana works completely as a standalone novel; the backstory of her mother Gervaise in L'Assommoir is referenced but fully explained. However, L'Assommoir is Zola's greatest individual novel, and reading both together gives you the full arc of Gervaise's family across two generations — the laundress's degradation and her daughter's spectacular and equally destructive rise." },
+      { q: 'What is the Rougon-Macquart cycle?', a: "Zola's twenty-novel naturalist series (1871-1893) traces the hereditary and environmental influences on two branches of a French family — the Rougons (legitimate, bourgeois) and the Macquarts (illegitimate, working-class) — across the Second Empire period (1851-1870). Each novel focuses on a different social milieu; the most famous are L'Assommoir (the laundry/working-class world), Nana (the demi-monde), Germinal (the coal mines), and Zola's masterwork, which is variously cited as any of these three." },
+      { q: 'What is Nana\'s symbolic role in the novel?', a: "Zola explicitly figures Nana's body as a symbol of the corruption eating at the Second Empire — the aristocratic and bourgeois men who give her their fortunes represent the French ruling class's decadence; when they are destroyed by desire for her, it prefigures the military and political catastrophe of the Franco-Prussian War. But Zola never lets the symbolism flatten Nana into a mere symbol — her survival instinct, her moments of genuine feeling, and her horrifying death are all presented with naturalist particularity." },
+    ],
+  },
+  {
+    slug: 'therese-raquin-zola',
+    intro: "Thérèse Raquin (1867) by Émile Zola is the novel Zola wrote before the Rougon-Macquart cycle as a demonstration of his Naturalist method — a study in what he called 'the scientific' examination of character and fate, following the adulterous passion of Thérèse Raquin and the painter Laurent for each other, their murder of her husband Camille, and their mutual destruction by guilt and revulsion in the years afterward. The novel is darker and more compressed than most of the Rougon-Macquart novels, without their social panorama — a Gothic horror story organized around the mechanics of desire, crime, and psychological consequence, whose central conceit (the murderers' sexual attraction turns to disgust after the murder) anticipates Dostoyevsky's Crime and Punishment in its treatment of guilt.",
+    startWith: 'Thérèse Raquin (1867) — the only novel in the Thérèse Raquin sequence',
+    books: [
+      { title: 'Thérèse Raquin', author: 'Émile Zola', year: 1867 },
+    ],
+    faq: [
+      { q: 'What is Thérèse Raquin about?', a: "Thérèse Raquin and her lover Laurent drown her husband Camille in the Seine and then find that their passion turns to mutual revulsion and guilt; Camille's paralyzed mother witnesses their crime and their destruction without being able to speak. The novel is Zola's most concentrated study in psychological consequence and the one most accessible to readers unfamiliar with the Rougon-Macquart cycle." },
+      { q: 'Is Thérèse Raquin part of the Rougon-Macquart cycle?', a: "No — Thérèse Raquin was written before Zola began the cycle and is entirely standalone. It is best read as Zola's proof-of-concept for the Naturalist method before the cycle's broader social ambitions; it shows Zola at his most concentrated and Gothic, and many readers find it more immediately powerful than the longer cycle novels." },
+      { q: 'How does Thérèse Raquin compare to Crime and Punishment?', a: "Both novels were published in the same year (1866-67) and share the central concern with how guilt operates on the murderer's psychology after the crime; Dostoyevsky gives the guilt a spiritual and religious dimension that Zola's materialist method excludes, while Zola gives it a physiological dimension (the sexual revulsion) that Dostoyevsky doesn't explore. The two together define the range of the nineteenth-century guilt novel." },
+    ],
+  },
+  {
+    slug: 'bel-ami-maupassant',
+    intro: "Bel-Ami (1885) by Guy de Maupassant is his most ambitious and most celebrated novel — the story of Georges Duroy ('Bel-Ami'), the handsome, ambitious, and fundamentally amoral Norman who arrives in Paris from North Africa with ten francs and rises to wealth and political influence through a series of sexual relationships with well-connected women. The novel is a ferocious study in the social mechanisms of Third Republic France — the newspaper world, the colonial policy debates, the political marriages — and Duroy's ruthless ascent is both a personal character study and an analysis of how the Third Republic had turned the Second Empire's open corruption into a more hypocritical version of the same game. Maupassant's style is at its most controlled here, and the final image — Duroy ascending the Madeleine's steps to his society marriage as the crowd outside stares at him — is one of the most devastating endings in French fiction.",
+    startWith: 'Bel-Ami (1885) — the only novel in the Georges Duroy sequence',
+    books: [
+      { title: 'Bel-Ami', author: 'Guy de Maupassant', year: 1885 },
+    ],
+    faq: [
+      { q: 'Is Bel-Ami Maupassant\'s best novel?', a: "Yes — Bel-Ami is Maupassant's most sustained and structurally ambitious work. He is better known for short stories (the finest short-story writer in French, most critics agree), but Bel-Ami shows what he could do with a longer form. The novel's control of its satirical targets — journalism, colonialism, political marriage — and its ruthless protagonist make it one of the great French social novels of the nineteenth century." },
+      { q: 'What is the social world of Bel-Ami?', a: "The Third Republic newspaper world of the 1880s — the era when newspapers were the primary vehicle for political opinion and for the manipulation of public debate by financial and political interests. Maupassant worked as a journalist himself and knew this world intimately; Duroy's career at La Vie française is a precise portrait of how political journalism worked as an instrument of financial corruption and colonial propaganda." },
+      { q: 'How does Bel-Ami compare to Stendhal\'s The Red and the Black?', a: "Both novels follow an ambitious young man of limited means who rises through a series of relationships with more powerful women, and both use the protagonist's rise as a vehicle for social satire — Julien Sorel in the Restoration, Georges Duroy in the Third Republic. But where Stendhal's Julien is ultimately a romantic idealist who gets himself killed, Maupassant's Duroy is entirely cynical and ultimately triumphs; the comparison defines the shift in French social fiction from Romantic idealism to Naturalist disillusion." },
+    ],
+  },
+  {
     slug: 'a-study-in-scarlet',
     intro: "A Study in Scarlet (1887) by Arthur Conan Doyle is the novel that introduced Sherlock Holmes and Dr. Watson to the world — a two-part narrative in which Watson meets Holmes in Baker Street and they investigate the murder of Enoch Drebber in a Brixton house with the word 'RACHE' written in blood on the wall, while the second part explains the background to the murder in a flash-forward to Utah's Mormon territory in the 1840s. Holmes's methods — observation of physical detail, logical deduction, chemical experimentation — are established here in their essentials, as are the relationship dynamics with Watson (admiring, methodical) and Inspector Lestrade (competent, resistant). A Study in Scarlet is shorter and more uneven than the great Holmes short stories that followed, but essential reading for anyone who wants to encounter the world's most famous fictional detective in his first appearance.",
     startWith: 'A Study in Scarlet (1887) — the first Holmes novel',
