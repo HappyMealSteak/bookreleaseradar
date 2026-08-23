@@ -370,6 +370,7 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like A Clockwork Orange Anthony Burgess Alex droogs Nadsat ultra-violence Ludovico Technique 1962 Kubrick',
     'books like Apples Never Fall Liane Moriarty Joy Delaney tennis family Sydney disappeared Peacock 2024',
     'books like The Easter Parade Richard Yates Sarah Emily Grimes sisters five decades American life disappointment',
     'books like The Bonfire of the Vanities Tom Wolfe Sherman McCoy bond trader Bronx accident 1980s New York',
@@ -2645,6 +2646,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Clockwork Orange by Anthony Burgess?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Clockwork Orange include 1984 by George Orwell, Brave New World by Aldous Huxley, The Handmaid's Tale by Margaret Atwood, Lolita by Vladimir Nabokov, Lord of the Flies by William Golding, American Psycho by Bret Easton Ellis, and The Road by Cormac McCarthy. Our full guide covers 8 picks for fans of dystopian fiction about free will, state control, and immersive narrative voice." },
     },
     {
       '@type': 'Question',
