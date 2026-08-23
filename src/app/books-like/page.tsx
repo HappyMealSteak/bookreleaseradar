@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Fathers and Sons Turgenev nihilism Russian intelligentsia generational',
+    'books like Oblomov Goncharov inertia superfluous man Russian novel',
+    'books like Dead Souls Gogol Russian satire provincial Chichikov',
+    'books like We Zamyatin dystopia One State Russian science fiction',
+    'books like One Day in the Life of Ivan Denisovich Solzhenitsyn Gulag',
     'books like Snow Country Kawabata Japanese fiction beauty transience',
     'books like Kokoro Sōseki Meiji Japan modernization alienation',
     'books like The Sound of Waves Mishima island love story Japan',
@@ -2405,6 +2410,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fathers and Sons by Ivan Turgenev?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fathers and Sons include Rudin and Home of the Gentry by Turgenev, Oblomov by Goncharov, Dead Souls by Gogol, Notes from Underground by Dostoevsky, Virgin Soil by Turgenev, On the Eve by Turgenev, and What Is to Be Done? by Chernyshevsky. Our full guide covers 8 picks for fans of Turgenev's nihilism and generational conflict novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Oblomov by Ivan Goncharov?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Oblomov include Fathers and Sons by Turgenev, A Common Story and The Precipice by Goncharov, Dead Souls by Gogol, The Cherry Orchard and Uncle Vanya by Chekhov, Notes from Underground by Dostoevsky, and Rudin by Turgenev. Our full guide covers 8 picks for fans of Goncharov's superfluous man novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dead Souls by Nikolai Gogol?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dead Souls include The Overcoat and The Government Inspector by Gogol, The Master and Margarita by Bulgakov, Fathers and Sons by Turgenev, Oblomov by Goncharov, The History of a Town by Saltykov-Shchedrin, We by Zamyatin, and Notes from Underground by Dostoevsky. Our full guide covers 8 picks for fans of Gogol's Russian satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked We by Yevgeny Zamyatin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like We include Nineteen Eighty-Four by Orwell, Brave New World by Huxley, The Master and Margarita by Bulgakov, Life and Fate by Grossman, One Day in the Life of Ivan Denisovich by Solzhenitsyn, The Trial by Kafka, Darkness at Noon by Koestler, and Dead Souls by Gogol. Our full guide covers 8 picks for fans of Zamyatin's founding dystopia." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked One Day in the Life of Ivan Denisovich by Alexander Solzhenitsyn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Day include The Gulag Archipelago and In the First Circle by Solzhenitsyn, Life and Fate by Grossman, Kolyma Tales by Shalamov, We by Zamyatin, The Master and Margarita by Bulgakov, Cancer Ward by Solzhenitsyn, and Darkness at Noon by Koestler. Our full guide covers 8 picks for fans of Solzhenitsyn's Gulag novel." },
     },
     {
       '@type': 'Question',
