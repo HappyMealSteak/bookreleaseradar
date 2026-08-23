@@ -370,6 +370,10 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Ethan Frome Edith Wharton Zeena Mattie Silver New England tragedy 1911',
+    'books like The Turn of the Screw Henry James governess Bly Miles Flora ghosts Victorian 1898',
+    'books like Adventures of Huckleberry Finn Mark Twain Huck Jim Mississippi River 1884 American classic',
+    'books like The Scarlet Letter Nathaniel Hawthorne Hester Prynne Puritan Boston adultery 1850',
     'books like A Clockwork Orange Anthony Burgess Alex droogs Nadsat ultra-violence Ludovico Technique 1962 Kubrick',
     'books like Apples Never Fall Liane Moriarty Joy Delaney tennis family Sydney disappeared Peacock 2024',
     'books like The Easter Parade Richard Yates Sarah Emily Grimes sisters five decades American life disappointment',
@@ -2646,6 +2650,26 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Ethan Frome by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Ethan Frome include The House of Mirth and The Age of Innocence (also by Wharton), Summer by Edith Wharton, Tess of the d'Urbervilles by Thomas Hardy, The Awakening by Kate Chopin, Of Mice and Men by John Steinbeck, and Jude the Obscure by Thomas Hardy. Our full guide covers 8 picks for fans of Wharton's spare novella about entrapment and inescapable circumstances." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Turn of the Screw by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Turn of the Screw include Rebecca by Daphne du Maurier, The Haunting of Hill House by Shirley Jackson, Washington Square and The Portrait of a Lady (also by James), The Woman in White by Wilkie Collins, and We Have Always Lived in the Castle by Shirley Jackson. Our full guide covers 8 picks for fans of James's ambiguous ghost story about a governess and two haunted children." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Adventures of Huckleberry Finn by Mark Twain?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Huckleberry Finn include The Adventures of Tom Sawyer (also by Twain), To Kill a Mockingbird by Harper Lee, The Catcher in the Rye by J.D. Salinger, Beloved by Toni Morrison, The Underground Railroad by Colson Whitehead, and Life on the Mississippi by Mark Twain. Our full guide covers 8 picks for fans of Twain's foundational American novel about race, freedom, and the Mississippi River." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Scarlet Letter by Nathaniel Hawthorne?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Scarlet Letter include The House of the Seven Gables (also by Hawthorne), Beloved by Toni Morrison, The Awakening by Kate Chopin, The Crucible by Arthur Miller, Young Goodman Brown by Hawthorne, and Moby-Dick by Herman Melville. Our full guide covers 8 picks for fans of Hawthorne's Puritan novel about guilt, sin, and the weight of public judgment." },
     },
     {
       '@type': 'Question',
