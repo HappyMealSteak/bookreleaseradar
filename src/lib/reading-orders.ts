@@ -5992,6 +5992,74 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'invisible-man-ellison',
+    intro: "Ralph Ellison's Invisible Man (1952) is the great American novel of racial identity and invisibility — the unnamed Black narrator's journey from the Deep South to Harlem and his dawning recognition that American society treats him as invisible, refusing to see him as an individual human being. Winner of the National Book Award in 1953, the novel follows the narrator from his humiliating debut at a 'battle royal' to his work for a political organization called the Brotherhood, weaving a story that is at once a realistic account of Black American life in the mid-twentieth century, a meditation on the nature of identity and self-knowledge, and a stylistic achievement — influenced by modernism, blues, jazz, and folk tradition — that no American novelist before Ellison had managed. It is one of the most frequently taught and most important American novels of the postwar era.",
+    startWith: 'Invisible Man',
+    books: [
+      { title: 'Invisible Man', author: 'Ralph Ellison', year: 1952 },
+    ],
+    faq: [
+      { q: "What is Invisible Man about?", a: "Invisible Man follows an unnamed Black narrator from the American South to Harlem, exploring how American society refuses to see him as an individual — how racial prejudice renders him 'invisible.' The novel traces his experiences at a Black college, working for a paint factory, and eventually joining a political organization called the Brotherhood, through which Ellison explores questions of identity, self-determination, and the psychology of race in America." },
+      { q: "Is Invisible Man based on a true story?", a: "Invisible Man is not based on a specific true story, but it draws heavily on Ralph Ellison's own experiences as a Black man in mid-twentieth-century America, as well as the oral traditions, folklore, and musical heritage of African American culture. The Brotherhood in the novel is generally understood as a fictionalized version of the American Communist Party, which did recruit Black members during the 1930s and 1940s." },
+      { q: "Why is Invisible Man considered important?", a: "Invisible Man is considered one of the most important American novels because it combines a realistic portrait of Black American life with modernist technical ambition — Ellison draws on jazz, blues, and folk tradition to create a narrative form as original as its subject. It won the National Book Award in 1953 and in a 1965 poll of two hundred authors, critics, and editors was voted the most distinguished American novel of the postwar era. Its central metaphor of invisibility — the idea that racism denies Black people their individuality — remains one of the most influential concepts in American cultural criticism." },
+    ],
+  },
+  {
+    slug: 'white-teeth-zadie-smith',
+    intro: "Zadie Smith's White Teeth (2000) is the sprawling, comic, multi-generational novel about two families — one Bangladeshi-British, one English-Jamaican — whose friendship spans five decades from the last day of World War II to the millennial anxieties of 1990s multicultural London. Smith's debut novel, published when she was twenty-four, follows Archie Jones and Samad Iqbal from their service together on the Eastern Front to their lives in Willesden, North London, and the wildly different paths taken by their children. Hailed as the defining novel of British multiculturalism, White Teeth is a Dickensian comedy of manners and a serious meditation on identity, history, immigration, and the question of whether the past can ever be escaped.",
+    startWith: 'White Teeth',
+    books: [
+      { title: 'White Teeth', author: 'Zadie Smith', year: 2000 },
+    ],
+    faq: [
+      { q: "What is White Teeth about?", a: "White Teeth follows two families — the English-Bangladeshi Iqbals and the English-Jamaican Joneses — across five decades in multicultural North London. It traces the friendship of Archie Jones and Samad Iqbal from World War II to the late 1990s, and the very different lives of their children, using humor and a Dickensian density of incident to explore questions of immigration, identity, cultural assimilation, and what it means to be British in the late twentieth century." },
+      { q: "Is White Teeth Zadie Smith's best book?", a: "White Teeth is the book that established Zadie Smith's reputation and remains her most widely read novel. Her later novels — The Autograph Man (2002), On Beauty (2005), NW (2012), and Swing Time (2016) — are all acclaimed, with On Beauty (which won the Orange Prize for Fiction) particularly praised for its literary craft. Most readers and critics consider White Teeth and On Beauty the essential Zadie Smith novels; many rank NW as her most formally experimental and ambitious." },
+      { q: "What themes does White Teeth explore?", a: "White Teeth explores immigration and cultural identity in postwar Britain, the difficulty of escaping family history and national past, generational conflict between immigrant parents and their British-born children, religious fundamentalism and secular liberalism, and the chaos of multicultural urban life. Ellison's Invisible Man is a frequent companion text, as both novels examine how identity is shaped by the social forces a person is born into and cannot simply choose to transcend." },
+    ],
+  },
+  {
+    slug: 'remains-of-the-day',
+    intro: "Kazuo Ishiguro's The Remains of the Day (1989) is the Booker Prize-winning novel of an English butler named Stevens who, in taking a road trip through the English countryside, begins to reckon with the choices he made in service to an aristocrat who turned out to be a Nazi sympathizer — and with the love he suppressed for a housekeeper named Miss Kenton. Told entirely in Stevens's formal, self-deceiving first-person voice, the novel is a masterpiece of unreliable narration: the reader sees, in the gap between what Stevens says and what the novel makes clear, the extent of his self-betrayal and loss. The Remains of the Day is among the most widely admired British novels of the twentieth century and was adapted as a film by James Ivory in 1993.",
+    startWith: 'The Remains of the Day',
+    books: [
+      { title: 'The Remains of the Day', author: 'Kazuo Ishiguro', year: 1989 },
+    ],
+    faq: [
+      { q: "What is The Remains of the Day about?", a: "The Remains of the Day follows Stevens, an aging English butler, on a road trip through the English countryside to visit Miss Kenton, a former housekeeper at Darlington Hall. Through Stevens's formal, careful narration, the novel reveals the choices he made in dedicating his life to Lord Darlington — who turned out to be a Nazi sympathizer — and the love for Miss Kenton that he suppressed in the name of professionalism and duty. It is a novel about regret, self-deception, and the life that passes while we are devoted to the wrong things." },
+      { q: "What other books has Kazuo Ishiguro written?", a: "Ishiguro has written eight novels: A Pale View of Hills (1982), An Artist of the Floating World (1986), The Remains of the Day (1989), The Unconsoled (1995), When We Were Orphans (2000), Never Let Me Go (2005), The Buried Giant (2015), and Klara and the Sun (2021). He was awarded the Nobel Prize in Literature in 2017. Never Let Me Go — a dystopian novel about cloned children raised as organ donors — and The Remains of the Day are his most widely read works." },
+      { q: "What is the meaning of the title The Remains of the Day?", a: "The title refers to the end of Stevens's road trip — the evening on a pier when he watches the sun setting and contemplates what is left of his life — but more broadly to the question of what remains when a life devoted to service is finally examined. The phrase captures both the literal remains of the day (the afternoon and evening of life's end) and the emotional residue of choices made: what dignity, meaning, and human connection remain after decades of self-suppression in the name of professional duty." },
+    ],
+  },
+  {
+    slug: 'my-brilliant-friend',
+    intro: "Elena Ferrante's My Brilliant Friend (2011, translated by Ann Goldstein) is the first novel in the Neapolitan Quartet — the cycle of four novels following Elena Greco and Lila Cerullo from childhood in a poor Naples neighborhood in the 1950s through old age at the turn of the twenty-first century. Written under a pseudonym by the famously reclusive Italian author known as Elena Ferrante, the quartet — My Brilliant Friend, The Story of a New Name, Those Who Leave and Those Who Stay, and The Story of the Lost Child — is widely considered one of the greatest achievements in contemporary literary fiction, a portrait of female friendship, rivalry, ambition, and the tangled relationship between education and class that has sold more than ten million copies in translation.",
+    startWith: 'My Brilliant Friend',
+    books: [
+      { title: 'My Brilliant Friend', author: 'Elena Ferrante', year: 2011 },
+      { title: 'The Story of a New Name', author: 'Elena Ferrante', year: 2012 },
+      { title: 'Those Who Leave and Those Who Stay', author: 'Elena Ferrante', year: 2013 },
+      { title: 'The Story of the Lost Child', author: 'Elena Ferrante', year: 2014 },
+    ],
+    faq: [
+      { q: "Do I need to read all four Neapolitan novels?", a: "My Brilliant Friend functions as a stand-alone novel — it covers Elena and Lila's childhood and early adolescence and ends at a natural stopping point — but the quartet is designed as one continuous narrative, and most readers find that the experience of the four books together is qualitatively different from any single volume. The Story of a New Name, which covers the girls' transition into womanhood and early marriage, is often considered the most emotionally intense of the four. Most readers who begin the quartet complete it." },
+      { q: "Who is Elena Ferrante?", a: "Elena Ferrante is a pseudonym for an Italian author whose real identity is unknown and has been the subject of significant journalistic investigation. Ferrante has stated that she wishes to let the books speak for themselves without the distraction of a public persona. The most widely discussed candidate based on documentary investigation is the translator Anita Raja, but Ferrante has consistently declined to confirm or deny any identification. The anonymity is itself part of the literary project — Ferrante has written thoughtfully about why she believes a writer's public persona distorts the reception of her work." },
+      { q: "What is the Neapolitan Quartet about?", a: "The Neapolitan Quartet follows two women — Elena Greco, the narrator, and Lila Cerullo, the brilliant friend — from childhood in a violent, impoverished Naples neighborhood in the 1950s through old age. It is a novel about female friendship and rivalry, the difference that education and class make in women's lives, the constraints that Italian patriarchal society places on women, the political transformations of postwar Italy, and the impossibility of fully knowing even the people closest to you. It is also one of the most compelling portrayals of intellectual jealousy in literary fiction." },
+    ],
+  },
+  {
+    slug: 'the-buried-giant',
+    intro: "Kazuo Ishiguro's The Buried Giant (2015) is the Nobel laureate's literary fantasy — a quiet, haunting novel set in post-Arthurian Britain, where an elderly Briton couple named Axl and Beatrice journey through a mist-covered landscape in which no one can remember the past. The mist — the breath of the she-dragon Querig — suppresses memory across the land, and the novel uses the conventions of fantasy (knights, Arthurian legend, ogres, a quest) to explore questions that preoccupy all of Ishiguro's fiction: what we choose to remember, what we choose to forget, and whether a relationship, a community, or a nation can survive the truth buried beneath the forgetting.",
+    startWith: 'The Buried Giant',
+    books: [
+      { title: 'The Buried Giant', author: 'Kazuo Ishiguro', year: 2015 },
+    ],
+    faq: [
+      { q: "What is The Buried Giant about?", a: "The Buried Giant follows Axl and Beatrice, an elderly British couple in post-Arthurian Britain, on a journey to visit their son in a distant village. They travel through a land blanketed by a mist that erases memory — they cannot remember their own past together — and encounter the knight Sir Gawain, a young warrior named Wistan, and the she-dragon Querig whose breath is the source of the forgetting. The novel explores what it means to choose to remember or forget — and whether a society that has survived great violence can continue to coexist once the truth about that violence is remembered." },
+      { q: "Is The Buried Giant a fantasy novel?", a: "The Buried Giant uses the surface conventions of Arthurian fantasy — knights, a dragon, a quest — but it is primarily a literary novel about memory, forgetting, and the ethical question of whether peace is worth the price of collective amnesia. Ishiguro has said he was surprised by the reception from fantasy readers and critics who evaluated it primarily as genre fiction, because he intended it as a companion to his other novels about what we suppress and what the suppression costs. Readers who come to it as a Kazuo Ishiguro novel (after The Remains of the Day or Never Let Me Go) generally find it a natural extension of his themes." },
+      { q: "What other books should I read after The Buried Giant?", a: "Readers who loved The Buried Giant typically move to Ishiguro's other novels: The Remains of the Day (1989) and Never Let Me Go (2005) are the most widely read and most celebrated. For fantasy readers who want something with similar emotional weight and literary ambition, The Once and Future King by T.H. White — the definitive literary retelling of Arthurian legend — is the natural companion; Susanna Clarke's Jonathan Strange & Mr Norrell and Piranesi are the closest British literary fantasy equivalents in recent decades." },
+    ],
+  },
+  {
     slug: 'i-am-malala',
     intro: "Malala Yousafzai's I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban (2013, written with Christina Lamb) is the memoir of a Pakistani girl who became the world's most famous education activist. Growing up in the Swat Valley in Pakistan, Malala defied the Taliban's prohibition on girls' education and was shot in the head by a Taliban gunman on her school bus in October 2012 at the age of fifteen. She survived, was flown to Birmingham for treatment, and went on to become the youngest Nobel Peace Prize laureate in history (2014). I Am Malala became a worldwide bestseller and is required reading in schools across the United States and Europe.",
     startWith: 'I Am Malala',

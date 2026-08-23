@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Invisible Man Ralph Ellison Black narrator Harlem racial identity National Book Award',
+    'books like White Teeth Zadie Smith multicultural London Willesden Iqbal Jones five decades',
+    'books like The Remains of the Day Kazuo Ishiguro Stevens butler Darlington Hall regret duty',
+    'books like My Brilliant Friend Elena Ferrante Naples Lila Elena Neapolitan Quartet friendship',
+    'books like The Buried Giant Kazuo Ishiguro Axl Beatrice post-Arthurian Britain mist forgetting',
     'books like I Am Malala Yousafzai Pakistan Taliban education Nobel Peace Prize',
     'books like Wild Cheryl Strayed Pacific Crest Trail grief recovery addiction memoir',
     'books like The Glass Castle Jeannette Walls chaotic childhood poverty nomadic parents',
@@ -2565,6 +2570,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Invisible Man by Ralph Ellison?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Invisible Man include Native Son by Richard Wright, Go Tell It on the Mountain by James Baldwin, Their Eyes Were Watching God by Zora Neale Hurston, Beloved by Toni Morrison, The Autobiography of Malcolm X, White Teeth by Zadie Smith, The Underground Railroad by Colson Whitehead, and Song of Solomon by Toni Morrison. Our full guide covers 8 picks for readers of Ellison's National Book Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked White Teeth by Zadie Smith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like White Teeth include On Beauty and NW and Swing Time (all Zadie Smith), Brick Lane by Monica Ali, Small Island by Andrea Levy, Americanah by Chimamanda Ngozi Adichie, The Kite Runner by Khaled Hosseini, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for readers of Smith's multicultural North London debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Remains of the Day by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Remains of the Day include Never Let Me Go, The Buried Giant, and Klara and the Sun (all Ishiguro), Atonement by Ian McEwan, A Month in the Country by J.L. Carr, Howards End by E.M. Forster, Gilead by Marilynne Robinson, and Stoner by John Williams. Our full guide covers 8 picks for readers of Ishiguro's Booker Prize-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Brilliant Friend by Elena Ferrante?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Brilliant Friend include The Story of a New Name, Those Who Leave and Those Who Stay, The Story of the Lost Child (all Ferrante's Neapolitan Quartet), The Days of Abandonment by Ferrante, A Little Life by Hanya Yanagihara, Normal People by Sally Rooney, Dept. of Speculation by Jenny Offill, and White Teeth by Zadie Smith. Our full guide covers 8 picks for readers of Ferrante's debut Neapolitan novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Buried Giant by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Buried Giant include The Remains of the Day, Never Let Me Go, and Klara and the Sun (all Ishiguro), The Once and Future King by T.H. White, Le Morte d'Arthur by Thomas Malory, Jonathan Strange & Mr Norrell by Susanna Clarke, Piranesi by Clarke, and The Name of the Rose by Umberto Eco. Our full guide covers 8 picks for readers of Ishiguro's post-Arthurian literary fantasy." },
     },
     {
       '@type': 'Question',
