@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    "books like Gravity's Rainbow Thomas Pynchon V-2 rocket World War II postmodern",
+    'books like The Crying of Lot 49 Pynchon Oedipa Maas Tristero conspiracy',
+    "books like Rabbit Run John Updike Harry Angstrom Pennsylvania tetralogy",
+    'books like Herzog Saul Bellow unsent letters intellectual comedy',
+    'books like The Adventures of Augie March Bellow Chicago picaresque American',
     'books like Underworld Don DeLillo Cold War postmodern American memory',
     'books like Freedom Jonathan Franzen Berglund family contemporary America',
     'books like On the Road Jack Kerouac Beat Generation road trip',
@@ -2440,6 +2445,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Gravity's Rainbow by Thomas Pynchon?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gravity's Rainbow include The Crying of Lot 49 and Mason & Dixon (other Pynchon novels), Underworld by DeLillo, The Recognitions by Gaddis, Inherent Vice by Pynchon, Blood Meridian by McCarthy, The Sot-Weed Factor by Barth, and Against the Day by Pynchon. Our full guide covers 8 picks for fans of Pynchon's postmodern masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Crying of Lot 49 by Thomas Pynchon?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Crying of Lot 49 include Gravity's Rainbow and Inherent Vice (other Pynchon novels), White Noise by DeLillo, The Recognitions by Gaddis, Remainder by Tom McCarthy, House of Leaves by Danielewski, The Master and Margarita by Bulgakov, and V. by Pynchon. Our full guide covers 8 picks for fans of Pynchon's concentrated masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Rabbit, Run by John Updike?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Rabbit, Run include Rabbit Redux, Rabbit Is Rich (the sequels), The Corrections by Franzen, American Pastoral by Roth, Revolutionary Road by Yates, The Remains of the Day by Ishiguro, The Moviegoer by Percy, and Ford's Independence Day by Richard Ford. Our full guide covers 8 picks for fans of Updike's Rabbit tetralogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Herzog by Saul Bellow?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Herzog include The Adventures of Augie March and Humboldt's Gift (other Bellow novels), Portnoy's Complaint by Roth, The Tenants by Malamud, Stoner by John Williams, The Dean's December by Bellow, Mating by Norman Rush, and The Ghost Writer by Roth. Our full guide covers 8 picks for fans of Bellow's intellectual masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Adventures of Augie March by Saul Bellow?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Adventures of Augie March include Herzog and Henderson the Rain King (other Bellow novels), Invisible Man by Ellison, On the Road by Kerouac, The Catcher in the Rye by Salinger, Tom Jones by Fielding, The Great American Novel by Roth, and A House for Mr. Biswas by Naipaul. Our full guide covers 8 picks for fans of Bellow's Chicago picaresque." },
     },
     {
       '@type': 'Question',
