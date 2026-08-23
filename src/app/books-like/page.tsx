@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Golden Compass Philip Pullman Lyra Belacqua Dust parallel worlds',
+    'books like Emma Jane Austen Emma Woodhouse matchmaker Highbury social comedy',
+    'books like Persuasion Jane Austen Anne Elliot Captain Wentworth second chance',
+    'books like The Alchemist Paulo Coelho Santiago Personal Legend allegorical fable',
+    'books like The Diving Bell and the Butterfly Bauby locked-in syndrome memoir blink',
     'books like Atonement Ian McEwan Briony Tallis Dunkirk false accusation guilt',
     'books like On Earth We Were Briefly Gorgeous Ocean Vuong Vietnamese American letter mother',
     'books like Gilead Marilynne Robinson minister letter dying Iowa Pulitzer',
@@ -2535,6 +2540,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Golden Compass by Philip Pullman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Golden Compass include The Subtle Knife, The Amber Spyglass, and La Belle Sauvage (other Pullman), Jonathan Strange and Mr Norrell by Susanna Clarke, The Chronicles of Narnia by C.S. Lewis, A Wizard of Earthsea by Ursula Le Guin, The Name of the Wind by Patrick Rothfuss, and Paradise Lost by John Milton. Our full guide covers 8 picks for fans of Pullman's His Dark Materials trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Emma by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Emma include Pride and Prejudice, Persuasion, and Mansfield Park (other Austen), Middlemarch by George Eliot, The Age of Innocence by Edith Wharton, Vanity Fair by Thackeray, North and South by Elizabeth Gaskell, and Can You Forgive Her? by Anthony Trollope. Our full guide covers 8 picks for fans of Austen's most technically accomplished novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Persuasion by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Persuasion include Emma, Pride and Prejudice, and Sense and Sensibility (other Austen), The Age of Innocence by Edith Wharton, The Remains of the Day by Kazuo Ishiguro, Middlemarch by George Eliot, North and South by Elizabeth Gaskell, and The Tenant of Wildfell Hall by Anne Bronte. Our full guide covers 8 picks for fans of Austen's final novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Alchemist by Paulo Coelho?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Alchemist include Eleven Minutes and The Zahir (other Coelho), Siddhartha by Hermann Hesse, The Little Prince by Antoine de Saint-Exupery, Jonathan Livingston Seagull by Richard Bach, The Power of Now by Eckhart Tolle, The Prophet by Kahlil Gibran, and Illusions by Richard Bach. Our full guide covers 8 picks for fans of Coelho's global bestseller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Diving Bell and the Butterfly by Jean-Dominique Bauby?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Diving Bell and the Butterfly include On Immunity by Eula Biss, When Breath Becomes Air by Paul Kalanithi, Being Mortal by Atul Gawande, The Year of Magical Thinking by Joan Didion, Tuesdays with Morrie by Mitch Albom, Still Alice by Lisa Genova, and Walden by Henry David Thoreau. Our full guide covers 8 picks for fans of Bauby's locked-in syndrome memoir." },
     },
     {
       '@type': 'Question',

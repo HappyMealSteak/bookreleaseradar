@@ -5992,6 +5992,71 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-golden-compass',
+    intro: "Philip Pullman's His Dark Materials trilogy begins with The Golden Compass (1995, published in the UK as Northern Lights) — a parallel-world fantasy in which twelve-year-old Lyra Belacqua leaves Oxford to rescue her friend Roger and discovers the truth about Dust and about herself. The trilogy is one of the most celebrated works of fantasy written in the twentieth century, winning the Carnegie Medal, the Guardian Children's Fiction Prize, and the Whitbread Book of the Year Award (for The Amber Spyglass, the first children's book to win). Pullman has continued the world with The Book of Dust trilogy.",
+    startWith: 'The Golden Compass',
+    books: [
+      { title: 'The Golden Compass', author: 'Philip Pullman', year: 1995, note: "Start here — Northern Lights in the UK; Lyra and her daemon Pantalaimon, the Gyptians, the armoured bears, and the mystery of Dust. The opening of the trilogy." },
+      { title: 'The Subtle Knife', author: 'Philip Pullman', year: 1997, note: "Book 2 — Will Parry and the subtle knife that cuts between worlds; he and Lyra meet in Cittàgazze and begin to understand the nature of Dust and what the Magisterium fears." },
+      { title: 'The Amber Spyglass', author: 'Philip Pullman', year: 2000, note: "Book 3 — Lord Asriel's war in heaven, the land of the dead, and the resolution of Lyra and Will's story. The first children's book to win the Whitbread Book of the Year Award." },
+      { title: 'La Belle Sauvage', author: 'Philip Pullman', year: 2017, note: "The Book of Dust, Volume 1 — set ten years before The Golden Compass; eleven-year-old Malcolm Polstead and a great flood. Can be read before or after the main trilogy." },
+      { title: 'The Secret Commonwealth', author: 'Philip Pullman', year: 2019, note: "The Book of Dust, Volume 2 — Lyra twenty years later, at Oxford, and Pantalaimon's departure. Continues the world for adult readers of the original trilogy." },
+    ],
+    faq: [
+      { q: "Do I need to read His Dark Materials in order?", a: "Yes. His Dark Materials should be read in order — The Golden Compass, The Subtle Knife, The Amber Spyglass — as each book picks up immediately where the previous one ends and the full emotional and thematic weight of the trilogy depends on the sequence. The Book of Dust trilogy (La Belle Sauvage, The Secret Commonwealth, and the forthcoming third volume) is a companion series; La Belle Sauvage is set before The Golden Compass and can be read first, but it is often recommended to read it after the main trilogy for maximum appreciation." },
+      { q: "Is The Golden Compass a children's book?", a: "His Dark Materials was originally published as children's or young adult fantasy, but it is read as seriously by adults. Pullman's theological and philosophical concerns — his engagement with Milton's Paradise Lost, his critique of religious authoritarianism, his exploration of consciousness and mortality — make it one of the richest fantasy sequences for adult readers. The later books in particular (The Amber Spyglass, The Secret Commonwealth) are recognizably adult in their emotional register." },
+      { q: "What should I read next after His Dark Materials?", a: "Pullman readers continue with The Book of Dust trilogy. For readers who loved the fantasy world-building, Jonathan Strange & Mr Norrell by Susanna Clarke, the Earthsea series by Ursula K. Le Guin, and The Chronicles of Narnia by C.S. Lewis are strong companions. For readers who loved the theological dimension, Paradise Lost by John Milton (which Pullman explicitly works in dialogue with) and The Brothers Karamazov are worth exploring." },
+    ],
+  },
+  {
+    slug: 'emma-austen',
+    intro: "Jane Austen's Emma (1815) is widely considered her most technically accomplished novel — the story of Emma Woodhouse, 'handsome, clever, and rich,' who meddles in the romantic lives of her neighbors in the village of Highbury and must learn, through a series of comic and painful misapprehensions, to see the world as it actually is. Unlike Austen's other heroines, Emma is not in need of money; her journey is entirely one of moral perception. Austen herself said she was 'going to take a heroine whom no one but myself will much like,' and Emma remains the most debated of her heroines.",
+    startWith: 'Emma',
+    books: [
+      { title: 'Emma', author: 'Jane Austen', year: 1815, note: "Start here — the complete standalone novel; no sequels exist. All six of Austen's finished novels are standalones." },
+    ],
+    faq: [
+      { q: "Is Emma a standalone novel?", a: "Yes. Emma is a complete standalone novel, as are all six of Austen's finished novels — Sense and Sensibility (1811), Pride and Prejudice (1813), Mansfield Park (1814), Emma (1815), Northanger Abbey (1818, posthumous), and Persuasion (1818, posthumous). None of the novels are sequels to one another, though they occupy the same social world." },
+      { q: "What should I read next after Emma?", a: "Austen readers typically continue with Persuasion (1818), her final completed novel — Anne Elliot's second chance with Captain Wentworth, the most emotionally direct of Austen's novels. Pride and Prejudice is usually the entry point readers have already encountered; if not, it is the natural companion to Emma in its combination of social comedy, romantic misunderstanding, and moral growth. Mansfield Park is the most serious and the one most readers come to last." },
+    ],
+  },
+  {
+    slug: 'persuasion-austen',
+    intro: "Jane Austen's Persuasion (1818), published posthumously, is her final completed novel — the story of Anne Elliot, who at nineteen was persuaded to break off her engagement to Captain Frederick Wentworth by her family and her mentor Lady Russell, and who eight years later meets him again, now a successful naval officer. It is the most emotionally direct and the most melancholy of Austen's novels, and many readers consider it her most perfect. Austen died in July 1817, before the novel was published.",
+    startWith: 'Persuasion',
+    books: [
+      { title: 'Persuasion', author: 'Jane Austen', year: 1818, note: "Start here — the complete standalone novel, Austen's final finished work. All six of Austen's novels are standalone." },
+    ],
+    faq: [
+      { q: "Is Persuasion a standalone novel?", a: "Yes. Persuasion is complete and standalone; no prior Austen novel is required. Characters from Persuasion do not appear in other Austen novels. The novel was published posthumously in 1818 in a volume with Northanger Abbey. Some readers come to Persuasion after Pride and Prejudice or Emma; others begin here." },
+      { q: "What should I read next after Persuasion?", a: "Austen readers continue with Emma — widely considered her most technically accomplished novel — or with Pride and Prejudice if not already read. For readers who loved Persuasion's emotional directness, The Age of Innocence by Edith Wharton and The Remains of the Day by Kazuo Ishiguro share its concern with the cost of choosing propriety over feeling." },
+    ],
+  },
+  {
+    slug: 'the-alchemist-coelho',
+    intro: "Paulo Coelho's The Alchemist (1988, English translation 1993) is one of the bestselling novels in history — an allegorical fable about a young Andalusian shepherd named Santiago who travels from Spain to Egypt in pursuit of his Personal Legend. Originally published in Portuguese, it has sold over 65 million copies and been translated into 80 languages, making it one of the most translated books in history. Coelho is the bestselling Portuguese-language author of all time. The novel's message — that the universe conspires to help those who pursue their dreams — has made it a global phenomenon.",
+    startWith: 'The Alchemist',
+    books: [
+      { title: 'The Alchemist', author: 'Paulo Coelho', year: 1988, note: "Start here — the standalone novel; no sequels exist. The novel takes roughly 2-3 hours to read." },
+    ],
+    faq: [
+      { q: "Is The Alchemist a standalone novel?", a: "Yes. The Alchemist is a complete standalone novel with no sequel. Coelho's other novels are similarly standalone, though they share his characteristic concern with personal destiny, spiritual journey, and the universe's responsiveness to human intention. His other widely read novels include The Valkyries (1992), By the River Piedra I Sat Down and Wept (1994), The Fifth Mountain (1996), Veronika Decides to Die (1998), and The Zahir (2005)." },
+      { q: "What should I read next after The Alchemist?", a: "Coelho readers typically continue with Eleven Minutes (2003), his novel about a Brazilian woman who becomes a prostitute in Switzerland and learns something about love and sex; or The Zahir (2005), about a man searching for his missing wife. For readers who loved The Alchemist's allegorical quality, Siddhartha by Hermann Hesse, Jonathan Livingston Seagull by Richard Bach, and The Little Prince by Antoine de Saint-Exupéry are strong companions in the tradition of short philosophical fables." },
+    ],
+  },
+  {
+    slug: 'the-diving-bell-and-the-butterfly',
+    intro: "Jean-Dominique Bauby's The Diving Bell and the Butterfly (1997) was written entirely by blinking — Bauby, former editor-in-chief of French Elle, suffered a massive stroke in 1995 that left him with locked-in syndrome; he could move only his left eyelid. Over ten months, he dictated the book letter by letter to a transcriber who recited the alphabet while Bauby blinked to select each letter. The result is a meditation on memory, imagination, and consciousness — the mind (the butterfly) trapped inside the immobile body (the diving bell). Bauby died two days after the book's publication in France.",
+    startWith: 'The Diving Bell and the Butterfly',
+    books: [
+      { title: 'The Diving Bell and the Butterfly', author: 'Jean-Dominique Bauby', year: 1997, note: "The complete short memoir — approximately 130 pages. No sequels; Bauby died two days after the French publication." },
+    ],
+    faq: [
+      { q: "How was The Diving Bell and the Butterfly written?", a: "Jean-Dominique Bauby suffered a massive stroke on December 8, 1995, at age 43 — a brainstem stroke that destroyed his ability to speak or move any part of his body except his left eyelid. Over the next ten months, he composed the book by blinking as an assistant read out the letters of the alphabet in order of frequency; one blink meant yes, that letter. The process took roughly four hours a day. Bauby died on March 9, 1997, two days after the French publication of Le scaphandre et le papillon. Julian Schnabel's 2007 film adaptation won the Palme d'Or at Cannes." },
+      { q: "What should I read next after The Diving Bell and the Butterfly?", a: "For readers who loved the book's meditation on consciousness and the body, A Change of Gravity by George V. Higgins, I Am the Messenger by Markus Zusak, and Christopher Reeve's Still Me (1998) are companions in the genre of writing about disability and the inner life. The broader category of short, powerful French memoirs includes Irène Némirovsky's Suite Française, Patrick Modiano's Nobel lecture, and Annie Ernaux's The Years." },
+    ],
+  },
+  {
     slug: 'atonement',
     intro: "Ian McEwan's Atonement (2001) is his most celebrated novel and one of the most celebrated British novels of the twenty-first century — a story of a thirteen-year-old girl's false accusation in 1935, its devastating consequences through Dunkirk and wartime London, and the elderly novelist trying to atone for what she did. McEwan won the Booker Prize for Amsterdam (1998) and has been shortlisted multiple times; Atonement is often placed on lists of the greatest novels of its era. It was adapted into the Academy Award-nominated film (2007) with Keira Knightley and James McAvoy.",
     startWith: 'Atonement',
