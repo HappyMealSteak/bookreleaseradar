@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Death in Venice Thomas Mann Aschenbach Venice artistic dissolution',
+    'books like The Glass Bead Game Hermann Hesse Castalia Josef Knecht Nobel',
+    'books like Fatelessness Imre Kertesz Holocaust Auschwitz flat narration Nobel',
+    'books like The Berlin Stories Christopher Isherwood Sally Bowles Weimar Germany',
+    'books like Doctor Faustus Thomas Mann Leverkühn Faustian pact Germany allegory',
     "books like If on a winter's night a traveler Calvino metafiction reader protagonist",
     'books like The Reader Bernhard Schlink Hanna Michael war crimes postwar Germany',
     'books like My Name Is Red Orhan Pamuk Ottoman miniaturists Istanbul Nobel',
@@ -2455,6 +2460,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Death in Venice by Thomas Mann?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Death in Venice include Tonio Kröger, The Magic Mountain, Buddenbrooks, and Doctor Faustus (other Mann), The Picture of Dorian Gray by Wilde, Lolita by Nabokov, The Aspern Papers by James, and A Portrait of the Artist as a Young Man by Joyce. Our full guide covers 8 picks for fans of Mann's novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Glass Bead Game by Hermann Hesse?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Glass Bead Game include Siddhartha, Steppenwolf, and Narcissus and Goldmund (other Hesse), The Magic Mountain by Mann, Brave New World by Huxley, Doctor Faustus by Mann, The Name of the Rose by Eco, and A Gentleman in Moscow by Towles. Our full guide covers 8 picks for fans of Hesse's Nobel novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Fatelessness by Imre Kertész?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Fatelessness include Kaddish for an Unborn Child (other Kertész), Night by Wiesel, This Way for the Gas Ladies and Gentlemen by Borowski, The Reader by Schlink, Maus by Spiegelman, If This Is a Man by Levi, The Painted Bird by Kosiński, and Suite Française by Némirovsky. Our full guide covers 8 picks for fans of Kertész's Nobel novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Berlin Stories by Christopher Isherwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Berlin Stories include A Single Man and Christopher and His Kind (other Isherwood), The Magic Mountain by Mann, Berlin Alexanderplatz by Döblin, Suite Française by Némirovsky, The Reader by Schlink, Atonement by McEwan, and The Hours by Cunningham. Our full guide covers 8 picks for fans of Isherwood's Weimar portrait." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Doctor Faustus by Thomas Mann?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Doctor Faustus include The Magic Mountain, Buddenbrooks, and Death in Venice (other Mann), The Master and Margarita by Bulgakov, Faust Part One by Goethe, The Tin Drum by Grass, Austerlitz by Sebald, and Doktor Glas by Söderberg. Our full guide covers 8 picks for fans of Mann's allegorical masterpiece." },
     },
     {
       '@type': 'Question',
