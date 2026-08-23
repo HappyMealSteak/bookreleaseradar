@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like New Grub Street George Gissing Reardon Milvain literary marketplace Victorian London 1891',
+    'books like The Sorrows of Young Werther Goethe Werther Charlotte romantic passion suicide epistolary 1774',
+    'books like Clarissa Samuel Richardson Clarissa Harlowe Lovelace epistolary longest English novel 1748',
+    'books like Tom Jones Henry Fielding foundling Sophia Western picaresque comedy 1749 18th century',
+    'books like Hunger Knut Hamsun writer Oslo poverty modernism Kafka Beckett influence 1890',
     'books like The Charterhouse of Parma Stendhal Fabrice del Dongo Clelia Waterloo Parma 1839 Italian novel',
     'books like Lost Illusions Honore de Balzac Lucien Chardon journalism Paris literary world 1837 Comedie Humaine',
     'books like Cousin Bette Honore de Balzac Lisbeth Fischer Valerie Marneffe Hulot envy destruction 1846',
@@ -2660,6 +2665,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked New Grub Street by George Gissing?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like New Grub Street include The Private Papers of Henry Ryecroft (also by Gissing), Lost Illusions by Balzac, Pendennis by Thackeray, The Aspern Papers by Henry James, Hunger by Hamsun, Martin Eden by Jack London, Stoner by John Williams, and The Information by Martin Amis. Our full guide covers 8 picks for readers of Gissing's portrait of the Victorian literary marketplace." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sorrows of Young Werther by Goethe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sorrows of Young Werther include Faust (also by Goethe), The Red and the Black by Stendhal, Hyperion by Hölderlin, Manfred by Byron, A Hero of Our Time by Lermontov, Adolphe by Benjamin Constant, and Stoner by John Williams. Our full guide covers 8 picks for readers of Goethe's founding Romantic novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Clarissa by Samuel Richardson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Clarissa include Pamela (also by Richardson), Tom Jones by Fielding, Les Liaisons Dangereuses by Laclos, The Color Purple by Alice Walker, Middlemarch by George Eliot, and The Handmaid's Tale by Margaret Atwood. Our full guide covers 8 picks for readers of Richardson's monumental epistolary novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tom Jones by Henry Fielding?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tom Jones include Joseph Andrews and Jonathan Wild (also by Fielding), Don Quixote by Cervantes, Clarissa by Richardson, Tristram Shandy by Sterne, Vanity Fair by Thackeray, and The Adventures of Roderick Random by Smollett. Our full guide covers 8 picks for readers of Fielding's great picaresque comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hunger by Knut Hamsun?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hunger include Pan and Growth of the Soil (also by Hamsun), The Trial by Kafka, Molloy by Beckett, Martin Eden by Jack London, City of Glass by Paul Auster, Post Office by Bukowski, and The Tartar Steppe by Buzzati. Our full guide covers 8 picks for readers of Hamsun's modernist masterpiece." },
     },
     {
       '@type': 'Question',
