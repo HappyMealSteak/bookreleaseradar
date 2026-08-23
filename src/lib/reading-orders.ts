@@ -5992,32 +5992,6 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
-    slug: 'the-moonstone-collins',
-    intro: "The Moonstone (1868) by Wilkie Collins is the novel that T.S. Eliot called the first, the longest, and the best detective novel in the English language — a story of the theft of a sacred Hindu diamond from the country house of Rachel Verinder on her eighteenth birthday, investigated first by the Somerset constable Seargent Cuff (the prototype of all subsequent eccentric literary detectives) and ultimately resolved through the revelation of a secret that implicates the most morally respectable character in the novel. The book is organized around multiple first-person narratives from different witnesses, each revealing different facets of the same events, and the formal innovation of this multiple-narrator structure was Collins's most influential contribution to the development of detective fiction — a technique that allows the reader to be misled and enlightened by the same set of events seen from different angles. The ultimate explanation of the theft turns on the psychological concept of somnambulism, and the novel's most striking achievement is that the explanation, when it comes, is both formally inevitable (all the clues were available) and psychologically credible.",
-    startWith: 'The Moonstone (1868) — the only novel',
-    books: [
-      { title: 'The Moonstone', author: 'Wilkie Collins', year: 1868 },
-    ],
-    faq: [
-      { q: 'Is The Moonstone a standalone novel?', a: 'Yes — The Moonstone is a complete standalone novel with a full resolution. Wilkie Collins wrote it as a one-volume work with no sequels or continuations.' },
-      { q: 'What makes The Moonstone historically important?', a: 'T.S. Eliot called it the first, longest, and best English detective novel. It introduced the country-house mystery, multiple narrators, an eccentric detective (Sergeant Cuff), and the surprise-revelation structure that detective fiction has used ever since.' },
-      { q: 'How long is The Moonstone?', a: 'The Moonstone is approximately 500 pages in most modern editions — a substantial Victorian novel organized around the mystery of a stolen diamond.' },
-    ],
-  },
-  {
-    slug: 'the-mystery-of-edwin-drood-dickens',
-    intro: "The Mystery of Edwin Drood (1870) by Charles Dickens is the unfinished novel Dickens was writing at his death in June 1870 — only six of the twelve planned monthly parts were completed, leaving the central mystery of Edwin Drood's disappearance and the identity of his murderer permanently unresolved. The novel is set in the cathedral city of Cloisterham (based on Rochester in Kent) and centers on the choirmaster John Jasper, Edwin Drood's uncle, whose obsessive opium-fed passion for Rosa Bud (Edwin's fiancée) gives him an obvious motive for his nephew's murder — though Dickens's narrative technique keeps the reader uncertain whether the murder was committed or whether Edwin survived. The fragment that exists is widely regarded as Dickens's most tightly constructed writing and as evidence that the late Dickens was developing new techniques of psychological density and atmospheric compression that would have made the completed novel very different from his earlier sprawling masterworks.",
-    startWith: 'The Mystery of Edwin Drood (1870) — the unfinished fragment',
-    books: [
-      { title: 'The Mystery of Edwin Drood', author: 'Charles Dickens', year: 1870, note: 'Unfinished — only six of twelve planned parts completed' },
-    ],
-    faq: [
-      { q: 'Was The Mystery of Edwin Drood ever finished?', a: 'No — Dickens died in June 1870 having completed only six of the twelve planned monthly parts. The mystery of Edwin Drood\'s fate remains permanently unresolved. Several continuations have been written, but none is authoritative.' },
-      { q: 'Is it worth reading an unfinished novel?', a: 'Absolutely — the six completed parts are widely regarded as Dickens\'s most tightly constructed writing, and the atmospheric Cloisterham setting and the psychologically complex Jasper make it essential reading for Dickens enthusiasts.' },
-      { q: 'What was Edwin Drood\'s mystery?', a: 'Edwin Drood disappears on Christmas Eve. The mystery is whether he was murdered by his uncle Jasper (the obvious suspect) or survived; Dickens never reached the resolution, and the identity of the murderer (if any) has been debated by scholars for 150 years.' },
-    ],
-  },
-  {
     slug: 'lady-audleys-secret-braddon',
     intro: "Lady Audley's Secret (1862) by Mary Elizabeth Braddon was the sensation novel that competed with The Woman in White for Victorian readership and outsold every other book of its era — a story of bigamy, arson, and attempted murder organized around the figure of Lady Audley, the beautiful governess-turned-aristocrat who has concealed an earlier marriage and will destroy anyone who threatens her social position. Robert Audley, the languid barrister nephew who investigates his friend George Talboys's disappearance, is one of Victorian fiction's more surprising detective figures — a man who begins the novel as a comic type and gradually develops into a genuine moral center as the evidence against Lady Audley accumulates. The novel is both a product of its sensation moment and a critique of the domestic ideology that produced Lady Audley: a novel that asks what a woman of intelligence and beauty is supposed to do in a world that offers her no legitimate path to security.",
     startWith: 'Lady Audley\'s Secret (1862) — the only novel in Braddon\'s main sequence featuring Robert Audley',

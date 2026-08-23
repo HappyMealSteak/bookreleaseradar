@@ -374,6 +374,7 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like East Lynne Ellen Wood Mrs Henry Wood Lady Isabel fallen woman governess 1861',
     'books like Shirley Charlotte Brontë Caroline Helstone Shirley Keeldar Luddites Yorkshire 1849',
     'books like Villette Charlotte Brontë Lucy Snowe M Paul Emanuel Belgian school dark 1853',
     'books like The Professor Charlotte Brontë William Crimsworth Frances Henri Belgian 1857',
@@ -2729,6 +2730,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked East Lynne by Ellen Wood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like East Lynne include Lady Audley's Secret by Braddon, The Woman in White by Collins, The Tenant of Wildfell Hall by Anne Brontë, Madame Bovary by Flaubert, Anna Karenina by Tolstoy, Tess of the d'Urbervilles by Hardy, No Name by Collins, and Jane Eyre by Charlotte Brontë. Our full guide covers 8 picks for fans of Wood's Victorian fallen-woman classic." },
     },
     {
       '@type': 'Question',
