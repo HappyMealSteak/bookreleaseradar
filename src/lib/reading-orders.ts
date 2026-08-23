@@ -5992,6 +5992,67 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'suite-francaise',
+    intro: "Irène Némirovsky's Suite Française (2004, written 1940-1942) is the novel Némirovsky never finished — she was arrested by the French police in July 1942 and died in Auschwitz six weeks later. Her daughters carried the notebook containing the manuscript for sixty years before finally transcribing and publishing it in France, where it won the Prix Renaudot (posthumously). The novel depicts the German invasion and occupation of France in two movements: 'Storm in June,' following Parisians fleeing the advancing Germans, and 'Dolce,' set in a small French village under occupation. One of the most extraordinary literary discoveries of recent decades.",
+    startWith: 'Suite Française',
+    books: [
+      { title: "Suite Française", author: "Irène Némirovsky", year: 2004, note: "The two completed movements — 'Storm in June' and 'Dolce' — published posthumously in France in 2004. The novel was planned to have five movements; only these two were completed before Némirovsky's arrest and death." },
+    ],
+    faq: [
+      { q: "How was Suite Française discovered?", a: "Irène Némirovsky was arrested by French police in July 1942 and deported to Auschwitz, where she died on August 19, 1942, at the age of thirty-nine. Her daughters, Denise and Élisabeth, preserved the manuscript notebook without reading it for sixty years — they believed it was a diary too painful to open. When Denise finally transcribed it in the late 1990s to donate to a Holocaust memorial archive, she discovered it was a novel. Suite Française was published in France in 2004, sixty-two years after Némirovsky's death, and won the Prix Renaudot." },
+      { q: "What should I read next after Suite Française?", a: "Readers continue with Némirovsky's earlier novels — David Golder (1929), her debut, and Fire in the Blood (1941). For readers who loved Suite Française's portrait of France under occupation, The Guernsey Literary and Potato Peel Pie Society, Captain Corelli's Mandolin, All the Light We Cannot See by Anthony Doerr, and The Nightingale by Kristin Hannah are natural companions. For the extraordinary backstory, David Golder and Irène Némirovsky: A Life and Her Books by Jonathan Weiss are worth exploring." },
+    ],
+  },
+  {
+    slug: 'the-tattooist-of-auschwitz',
+    intro: "Heather Morris's The Tattooist of Auschwitz (2018) is the novel based on the true story of Lale Sokolov — the Jewish Slovakian man who, as the Tätowierer of Auschwitz-Birkenau (the man who tattooed prisoner numbers on arriving inmates), met and fell in love with a young woman named Gita Furman. Morris spent several years interviewing Lale before his death at ninety-seven, and the result became one of the most popular WWII novels of recent years — a bestseller in thirty-five countries.",
+    startWith: 'The Tattooist of Auschwitz',
+    books: [
+      { title: 'The Tattooist of Auschwitz', author: 'Heather Morris', year: 2018, note: "Start here — the primary novel; the true story of Lale and Gita Sokolov." },
+      { title: 'Cilka\'s Journey', author: 'Heather Morris', year: 2019, note: "The companion novel — the story of Cilka Klein, who appears briefly in The Tattooist; set after the war in a Soviet labor camp in Siberia." },
+    ],
+    faq: [
+      { q: "Is The Tattooist of Auschwitz a true story?", a: "The Tattooist of Auschwitz is based on the real story of Ludwig 'Lale' Sokolov and his wife Gita, both Holocaust survivors whom author Heather Morris interviewed extensively before Lale's death in 2006. The novel is a fictionalized account — some scenes are invented or composite — but the central facts (Lale's role as the Tätowierer, his relationship with Gita, their survival) are true. The Auschwitz-Birkenau Memorial and Museum has noted some historical inaccuracies in the novel." },
+      { q: "What should I read next after The Tattooist of Auschwitz?", a: "Morris readers continue with Cilka's Journey. For readers who loved The Tattooist's focus on love and survival in Auschwitz, Night by Elie Wiesel, Man's Search for Meaning by Viktor Frankl, Maus by Art Spiegelman, Sophie's Choice by William Styron, and The Boy in the Striped Pajamas by John Boyne are strong companions." },
+    ],
+  },
+  {
+    slug: 'the-alice-network',
+    intro: "Kate Quinn's The Alice Network (2017) is the dual-timeline historical thriller alternating between an American college girl named Charlie St. Clair searching for her missing cousin in 1947, and Evelyn Gardiner, a World War I spy in the real Alice Network (the British intelligence ring run by Louise de Bettignies in occupied France from 1915 to 1917). Quinn's bestselling novel opened the floodgates for the now-popular subgenre of dual-timeline WWI and WWII women's espionage fiction.",
+    startWith: 'The Alice Network',
+    books: [
+      { title: 'The Alice Network', author: 'Kate Quinn', year: 2017, note: "Start here — the complete standalone novel. Quinn's other dual-timeline historical thrillers (The Rose Code, The Diamond Eye, The Briar Club) are similarly standalone." },
+    ],
+    faq: [
+      { q: "Is The Alice Network a standalone novel?", a: "Yes. The Alice Network is a complete standalone novel with no sequels. Kate Quinn writes standalone dual-timeline historical thrillers; her other novels — The Rose Code (2021, WWII codebreakers at Bletchley Park), The Diamond Eye (2022, Soviet female sniper), and The Briar Club (2024) — all use the same structure and can be read in any order." },
+      { q: "What should I read next after The Alice Network?", a: "Quinn readers continue with The Rose Code, her WWII novel about three codebreakers at Bletchley Park, or The Diamond Eye, about Soviet female sniper Lyudmila Pavlichenko. For readers who loved The Alice Network's dual-timeline structure, Kristin Hannah's The Nightingale, Pam Jenoff's The Orphan's Tale, and Beatriz Williams's The Summer Wives are strong companions." },
+    ],
+  },
+  {
+    slug: 'educated-westover',
+    intro: "Tara Westover's Educated (2018) is the memoir of a woman who grew up in rural Idaho in a survivalist Mormon family, never went to school, and by self-directed study earned a PhD from Cambridge University. The contrast between her isolated, abusive childhood — her father believed the End Times were coming, her brother was violent, her parents refused all engagement with institutions — and her eventual arrival at the world's most prestigious educational institutions is one of the most extraordinary personal trajectories in recent memoir.",
+    startWith: 'Educated',
+    books: [
+      { title: 'Educated', author: 'Tara Westover', year: 2018, note: "Start here — the complete standalone memoir. Westover has not published subsequent books." },
+    ],
+    faq: [
+      { q: "Is Educated a memoir or fiction?", a: "Educated is a memoir — Tara Westover's account of her own life. Some family members have disputed certain events in the book. Westover maintains that the memoir represents her memory and experience; she notes that her siblings who support her account corroborate the key events. The Westovers are a real family in rural Idaho, and the central facts — Westover's lack of formal schooling, her self-directed study, her Cambridge PhD — are verifiable." },
+      { q: "What should I read next after Educated?", a: "Readers continue with other extraordinary education and escape memoirs: The Glass Castle by Jeannette Walls (chaotic nomadic childhood and self-education), Wild by Cheryl Strayed (a woman rebuilding herself through a solo hike), Hillbilly Elegy by J.D. Vance (growing up in working-class Appalachian Ohio), The Color of Water by James McBride, and I Am Malala by Malala Yousafzai are the most commonly recommended companions." },
+    ],
+  },
+  {
+    slug: 'the-nightingale-kristin-hannah',
+    intro: "Kristin Hannah's The Nightingale (2015) is the dual-perspective WWII novel about two French sisters — Vianne Rossignol, a mother trying to protect her children in occupied France, and Isabelle Rossignol, the resistance fighter who becomes the Nightingale, guiding Allied airmen across the Pyrenees to Spain. Hannah's most celebrated novel by far, it became one of the bestselling historical novels of recent decades and is frequently cited as one of the most emotionally powerful WWII novels written.",
+    startWith: 'The Nightingale',
+    books: [
+      { title: 'The Nightingale', author: 'Kristin Hannah', year: 2015, note: "Start here — the complete standalone novel. Hannah's other novels share some overlapping settings but are all standalone." },
+    ],
+    faq: [
+      { q: "Is The Nightingale a standalone novel?", a: "Yes. The Nightingale is a complete standalone novel with no sequels or prequels. Kristin Hannah has written over twenty novels, all standalones. Her other widely read novels include The Great Alone (2018, Alaska), Firefly Lane (2008, female friendship across decades), and The Four Winds (2021, the Dust Bowl and the Great Depression)." },
+      { q: "What should I read next after The Nightingale?", a: "Hannah readers continue with The Great Alone (2018), her novel about a family in 1970s Alaska, and The Four Winds (2021), her Dust Bowl novel. For readers who loved The Nightingale's WWII women-in-resistance focus, All the Light We Cannot See by Anthony Doerr, The Alice Network by Kate Quinn, Suite Française by Irène Némirovsky, and The Guernsey Literary and Potato Peel Pie Society are strong companions." },
+    ],
+  },
+  {
     slug: 'the-thirteenth-tale',
     intro: "Diane Setterfield's The Thirteenth Tale (2006) is the Gothic literary novel about a reclusive bestselling author named Vida Winter who summons biographer Margaret Lea to finally tell the true story of her past — a past involving twins, a crumbling house, a mad woman in the attic, and a story that has been suppressed for decades. Deliberately written in the tradition of the Victorian Gothic novel — Jane Eyre, Wuthering Heights, Rebecca — it was a massive international bestseller and remains one of the most beloved contemporary Gothic novels.",
     startWith: 'The Thirteenth Tale',

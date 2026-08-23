@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    "books like Suite Française Irène Némirovsky French occupation WWII posthumous Prix Renaudot",
+    'books like The Tattooist of Auschwitz Heather Morris Lale Gita Sokolov Auschwitz love',
+    'books like The Alice Network Kate Quinn WWI spy women resistance dual timeline France',
+    'books like Educated Tara Westover survivalist Idaho Cambridge PhD self-education memoir',
+    'books like The Nightingale Kristin Hannah WWII French sisters Isabelle Vianne resistance',
     'books like The Thirteenth Tale Diane Setterfield Gothic reclusive author twins secrets',
     'books like The Historian Elizabeth Kostova Vlad Impaler vampire European archives mystery',
     'books like People of the Book Geraldine Brooks Sarajevo Haggadah manuscript five centuries',
@@ -2550,6 +2555,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Suite Française by Irène Némirovsky?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Suite Française include Fire in the Blood (other Némirovsky), The Nightingale by Kristin Hannah, All the Light We Cannot See by Anthony Doerr, The Guernsey Literary Society, Captain Corelli's Mandolin, The Tattooist of Auschwitz by Heather Morris, The Alice Network by Kate Quinn, and Night by Elie Wiesel. Our full guide covers 8 picks for fans of Némirovsky's posthumous masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tattooist of Auschwitz by Heather Morris?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tattooist of Auschwitz include Cilka's Journey (other Morris), Night by Elie Wiesel, Man's Search for Meaning by Viktor Frankl, Maus by Art Spiegelman, Sophie's Choice by William Styron, The Diary of a Young Girl by Anne Frank, Suite Française by Némirovsky, and The Zookeeper's Wife by Diane Ackerman. Our full guide covers 8 picks for fans of Morris's Auschwitz love story." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Alice Network by Kate Quinn?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Alice Network include The Rose Code and The Diamond Eye (other Quinn), The Nightingale by Kristin Hannah, Suite Française by Irène Némirovsky, The Guernsey Literary Society, Code Name Verity by Elizabeth Wein, The Women by Kristin Hannah, and All the Light We Cannot See by Anthony Doerr. Our full guide covers 8 picks for fans of Quinn's dual-timeline spy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Educated by Tara Westover?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Educated include The Glass Castle by Jeannette Walls, Wild by Cheryl Strayed, Hillbilly Elegy by J.D. Vance, The Color of Water by James McBride, I Am Malala by Malala Yousafzai, The Liar's Club by Mary Karr, A Tree Grows in Brooklyn by Betty Smith, and Becoming by Michelle Obama. Our full guide covers 8 picks for fans of Westover's acclaimed memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Nightingale by Kristin Hannah?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Nightingale include The Great Alone, The Four Winds, and The Women (other Hannah), All the Light We Cannot See by Anthony Doerr, Suite Française by Irène Némirovsky, The Alice Network by Kate Quinn, The Guernsey Literary Society, and The Tattooist of Auschwitz by Heather Morris. Our full guide covers 8 picks for fans of Hannah's WWII bestseller." },
     },
     {
       '@type': 'Question',
