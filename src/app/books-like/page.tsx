@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Dream of the Red Chamber Cao Xueqin Chinese classical novel',
+    'books like Journey to the West Wu Chengen Monkey King pilgrimage',
+    'books like To Live Yu Hua Cultural Revolution Chinese fiction',
+    'books like Soul Mountain Gao Xingjian Nobel Chinese landscape',
+    'books like Border Town Shen Congwen Chinese pastoral Cuicui',
     'books like Eugene Onegin Pushkin superfluous man Russian verse novel',
     'books like A Hero of Our Time Lermontov Pechorin psychological Caucasus',
     'books like The Cherry Orchard Chekhov Russian drama dissolution comedy',
@@ -2415,6 +2420,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dream of the Red Chamber by Cao Xueqin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dream of the Red Chamber include Journey to the West and The Romance of the Three Kingdoms and Water Margin (the other great classical Chinese novels), Border Town by Shen Congwen, To Live by Yu Hua, Soul Mountain by Gao Xingjian, Red Sorghum by Mo Yan, and The Story of the Stone (the Hawkes translation). Our full guide covers 8 picks for fans of the great Chinese novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Journey to the West by Wu Cheng'en?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Journey to the West include Dream of the Red Chamber and The Romance of the Three Kingdoms and Water Margin by the other classical novelists, Border Town by Shen Congwen, Monkey (Waley's abridged translation), One Hundred Years of Solitude by García Márquez, The Name of the Rose by Eco, and Soul Mountain by Gao Xingjian. Our full guide covers 8 picks for fans of the Monkey King epic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked To Live by Yu Hua?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like To Live include Chronicle of a Blood Merchant and Brothers by Yu Hua, Soul Mountain by Gao Xingjian, Border Town by Shen Congwen, Red Sorghum by Mo Yan, One Day in the Life of Ivan Denisovich by Solzhenitsyn, Life and Fate by Grossman, and Wild Swans by Jung Chang. Our full guide covers 8 picks for fans of Yu Hua's Cultural Revolution novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Soul Mountain by Gao Xingjian?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Soul Mountain include One Man's Bible by Gao Xingjian, To Live by Yu Hua, Border Town by Shen Congwen, The Unbearable Lightness of Being by Kundera, Austerlitz by Sebald, Invisible Cities by Calvino, Wild Swans by Jung Chang, and Red Sorghum by Mo Yan. Our full guide covers 8 picks for fans of Gao's Nobel Prize novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Border Town by Shen Congwen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Border Town include To Live by Yu Hua, Soul Mountain by Gao Xingjian, Dream of the Red Chamber by Cao Xueqin, Red Sorghum by Mo Yan, Snow Country by Kawabata, Ethan Frome by Wharton, The Go-Between by Hartley, and Under the Greenwood Tree by Hardy. Our full guide covers 8 picks for fans of Shen Congwen's Chinese pastoral." },
     },
     {
       '@type': 'Question',
