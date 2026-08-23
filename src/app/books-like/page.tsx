@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Good Soldier Svejk Hasek Czech anti-war satire absurdism',
+    'books like The Unbearable Lightness of Being Kundera Prague Spring Czech',
+    'books like Too Loud a Solitude Hrabal Czech books totalitarianism',
+    'books like Berlin Alexanderplatz Doblin Weimar Germany modernist city',
+    'books like The Book of Laughter and Forgetting Kundera Czech memory',
     'books like A Suitable Boy Vikram Seth India 1951 family saga',
     'books like Arrow of God Chinua Achebe Igbo colonial Nigeria',
     'books like Palace Walk Mahfouz Cairo Trilogy Egyptian Arabic fiction',
@@ -2425,6 +2430,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Good Soldier Švejk by Jaroslav Hašek?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Good Soldier Švejk include Catch-22 by Heller, The Trial by Kafka, Too Loud a Solitude by Hrabal, The Tin Drum by Grass, Mother Courage by Brecht, Closely Watched Trains by Hrabal, The Unbearable Lightness of Being by Kundera, and Dead Souls by Gogol. Our full guide covers 8 picks for fans of Hašek's Czech anti-war satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Unbearable Lightness of Being by Milan Kundera?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Unbearable Lightness of Being include The Book of Laughter and Forgetting, The Joke, and Life Is Elsewhere by Kundera, Too Loud a Solitude by Hrabal, The Good Soldier Švejk by Hašek, We by Zamyatin, Steppenwolf by Hesse, and The Trial by Kafka. Our full guide covers 8 picks for fans of Kundera's Prague Spring novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Too Loud a Solitude by Bohumil Hrabal?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Too Loud a Solitude include Closely Watched Trains and I Served the King of England by Hrabal, The Unbearable Lightness of Being by Kundera, The Good Soldier Švejk by Hašek, Fahrenheit 451 by Bradbury, The Name of the Rose by Eco, The Shadow of the Wind by Zafón, and The Book of Laughter and Forgetting by Kundera. Our full guide covers 8 picks for fans of Hrabal's Czech novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Berlin Alexanderplatz by Alfred Döblin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Berlin Alexanderplatz include Ulysses by Joyce, The Tin Drum by Grass, Manhattan Transfer by Dos Passos, Steppenwolf by Hesse, The Magic Mountain by Thomas Mann, The Trial by Kafka, Mrs Dalloway by Woolf, and Petersburg by Andrei Bely. Our full guide covers 8 picks for fans of Döblin's Weimar modernist city novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Book of Laughter and Forgetting by Milan Kundera?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Book of Laughter and Forgetting include The Unbearable Lightness of Being, The Joke, and Life Is Elsewhere by Kundera, Too Loud a Solitude by Hrabal, The Good Soldier Švejk by Hašek, Nineteen Eighty-Four by Orwell, We by Zamyatin, and Life and Fate by Grossman. Our full guide covers 8 picks for fans of Kundera's Czech memory novel." },
     },
     {
       '@type': 'Question',
