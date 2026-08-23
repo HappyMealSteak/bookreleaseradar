@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like American Pastoral Philip Roth Pulitzer American Dream Vietnam',
+    'books like The Human Stain Philip Roth race identity Clinton era',
+    'books like No Country for Old Men McCarthy Chigurh border thriller',
+    'books like The Road Cormac McCarthy father son post-apocalyptic',
+    'books like Suttree McCarthy Knoxville Tennessee river Joycean',
     'books like The Good Soldier Svejk Hasek Czech anti-war satire absurdism',
     'books like The Unbearable Lightness of Being Kundera Prague Spring Czech',
     'books like Too Loud a Solitude Hrabal Czech books totalitarianism',
@@ -2430,6 +2435,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked American Pastoral by Philip Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like American Pastoral include The Human Stain and I Married a Communist (the rest of the American Trilogy), Sabbath's Theater by Roth, The Corrections by Franzen, White Noise and Underworld by DeLillo, The Plot Against America by Roth, and Invisible Man by Ellison. Our full guide covers 8 picks for fans of Roth's Pulitzer-winning American Dream novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Human Stain by Philip Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Human Stain include American Pastoral and I Married a Communist by Roth, Passing by Nella Larsen, Invisible Man by Ellison, The Talented Mr. Ripley by Highsmith, The Namesake by Lahiri, Native Son by Richard Wright, and The Plot Against America by Roth. Our full guide covers 8 picks for fans of Roth's race and identity novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked No Country for Old Men by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like No Country for Old Men include The Road, Blood Meridian, All the Pretty Horses, and Suttree by McCarthy, Winter's Bone by Woodrell, True Grit by Portis, American Pastoral by Roth, and The Killer Inside Me by Jim Thompson. Our full guide covers 8 picks for fans of McCarthy's borderlands thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Road by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Road include No Country for Old Men, Blood Meridian, All the Pretty Horses, and Suttree by McCarthy, Station Eleven by Mandel, The Children of Men by James, Riddley Walker by Hoban, and American Pastoral by Roth. Our full guide covers 8 picks for fans of McCarthy's Pulitzer post-apocalyptic novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Suttree by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Suttree include Blood Meridian and Outer Dark and No Country for Old Men by McCarthy, Adventures of Huckleberry Finn by Twain, Ulysses by Joyce, Ask the Dust by Fante, The Grapes of Wrath by Steinbeck, and On the Road by Kerouac. Our full guide covers 8 picks for fans of McCarthy's Knoxville river novel." },
     },
     {
       '@type': 'Question',
