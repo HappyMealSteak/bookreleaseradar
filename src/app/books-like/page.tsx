@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Kudos Rachel Cusk literary festivals narrator Outline trilogy concluding volume',
+    'books like The Penelopiad Margaret Atwood Penelope maids Hades Odyssey feminist retelling',
+    'books like The Memory Police Yoko Ogawa island things disappear novelist editor hidden',
+    'books like Klara and the Sun Kazuo Ishiguro Klara AF solar-powered robot Josie Artificial Friend',
+    'books like The Sea John Banville Booker Prize 2005 Max Morden widower Grace family drowning',
     'books like Oryx and Crake Margaret Atwood Snowman Jimmy Crake biotech dystopia MaddAddam',
     'books like Outline Rachel Cusk autofiction Athens novelist conversations negative space',
     'books like Transit Rachel Cusk London flat renovation listening Outline trilogy second novel',
@@ -2605,6 +2610,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kudos by Rachel Cusk?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kudos include Outline, Transit, and Aftermath (all Cusk), Second Place by Rachel Cusk, Speedboat by Renata Adler, The Waves by Virginia Woolf, Dept. of Speculation by Jenny Offill, and My Brilliant Friend by Elena Ferrante. Our full guide covers 8 picks for readers of the concluding Outline trilogy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Penelopiad by Margaret Atwood?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Penelopiad include The Handmaid's Tale and Alias Grace (both Atwood), Circe and The Song of Achilles (both Madeline Miller), Wide Sargasso Sea by Jean Rhys, The Silence of the Girls by Pat Barker, and A Thousand Ships by Natalie Haynes. Our full guide covers 8 picks for readers of Atwood's feminist Odyssey retelling." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Memory Police by Yoko Ogawa?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Memory Police include The Housekeeper and the Professor and Hotel Iris (both Ogawa), Never Let Me Go and The Unconsoled (both Ishiguro), The Trial by Kafka, Piranesi by Susanna Clarke, The Wind-Up Bird Chronicle by Murakami, and The Buried Giant by Ishiguro. Our full guide covers 8 picks for readers of Ogawa's disappearance novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Klara and the Sun by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Klara and the Sun include Never Let Me Go, The Remains of the Day, and The Buried Giant (all Ishiguro), Do Androids Dream of Electric Sheep by Philip K. Dick, Flowers for Algernon by Daniel Keyes, The Memory Police by Yoko Ogawa, Exhalation by Ted Chiang, and The Unconsoled by Ishiguro. Our full guide covers 8 picks for readers of Ishiguro's AI narrator novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sea by John Banville?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sea include The Book of Evidence and The Infinities (both Banville), The Remains of the Day by Kazuo Ishiguro, A Month in the Country by J.L. Carr, Gilead by Marilynne Robinson, Birchwood by Banville, Grief Is the Thing with Feathers by Max Porter, and The Go-Between by L.P. Hartley. Our full guide covers 8 picks for readers of Banville's Booker Prize novel." },
     },
     {
       '@type': 'Question',
