@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Overstory Richard Powers Pulitzer Prize trees environmental fiction nine storylines Patricia Westerford',
+    'books like Bewilderment Richard Powers Theo Byrne Robin neurofeedback neurodivergent son ecological grief Booker shortlist',
+    'books like Rules of Civility Amor Towles 1938 New York Katey Kontent social climbing debut Edith Wharton',
+    'books like The Lincoln Highway Amor Towles Emmett Watson Billy 1954 road trip ten days California New York',
+    'books like Pachinko Min Jin Lee Korean Japanese multigenerational saga Sunja four generations Apple TV',
     'books like Kudos Rachel Cusk literary festivals narrator Outline trilogy concluding volume',
     'books like The Penelopiad Margaret Atwood Penelope maids Hades Odyssey feminist retelling',
     'books like The Memory Police Yoko Ogawa island things disappear novelist editor hidden',
@@ -2610,6 +2615,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Overstory by Richard Powers?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Overstory include Bewilderment by Richard Powers, Braiding Sweetgrass by Robin Wall Kimmerer, The Hidden Life of Trees by Peter Wohlleben, Station Eleven by Emily St. John Mandel, Flight Behavior by Barbara Kingsolver, Migrations by Charlotte McConaghy, and Underland by Robert Macfarlane. Our full guide covers 8 picks for readers of Powers's Pulitzer-winning environmental novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Bewilderment by Richard Powers?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Bewilderment include The Overstory by Richard Powers, We Need to Talk About Kevin by Lionel Shriver, The Curious Incident of the Dog in the Night-Time by Mark Haddon, Flowers for Algernon by Daniel Keyes, The Children Act by Ian McEwan, and Never Let Me Go by Kazuo Ishiguro. Our full guide covers 8 picks for readers of Powers's Booker-shortlisted novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Rules of Civility by Amor Towles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Rules of Civility include A Gentleman in Moscow and The Lincoln Highway (both Towles), The Age of Innocence and The Custom of the Country by Edith Wharton, The Great Gatsby by F. Scott Fitzgerald, The Remains of the Day by Kazuo Ishiguro, and Washington Square by Henry James. Our full guide covers 8 picks for readers of Towles's 1938 New York debut." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lincoln Highway by Amor Towles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lincoln Highway include A Gentleman in Moscow and Rules of Civility (both Towles), The Adventures of Tom Sawyer by Mark Twain, East of Eden by John Steinbeck, True Grit by Charles Portis, The Remains of the Day by Kazuo Ishiguro, and A Man Called Ove by Fredrik Backman. Our full guide covers 8 picks for readers of Towles's 1954 American road novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pachinko by Min Jin Lee?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pachinko include Free Food for Millionaires by Min Jin Lee, The Sympathizer by Viet Thanh Nguyen, Homegoing by Yaa Gyasi, A Thousand Splendid Suns by Khaled Hosseini, The Joy Luck Club by Amy Tan, Everything I Never Told You by Celeste Ng, and When the Emperor Was Divine by Julie Otsuka. Our full guide covers 8 picks for readers of Lee's multigenerational Korean-Japanese saga." },
     },
     {
       '@type': 'Question',

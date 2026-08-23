@@ -5992,6 +5992,80 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-overstory-powers',
+    intro: "The Overstory (2018) by Richard Powers is a Pulitzer Prize–winning novel about trees, the people who love them, and the radical measures some will take to preserve them. A vast, polyphonic narrative, it begins with nine separate stories about nine people and the trees that changed their lives — a family's chestnut, an aerial photographer's redwood, a video-game designer's chestnuts, a Vietnamese-American immigrant's mulberry — before weaving them together into a collective campaign to save old-growth forest. Powers drew on decades of scientific research into tree communication and intelligence — the mycorrhizal networks (the 'wood wide web') by which trees share nutrients and signals underground — to argue that forests think, remember, and care for one another in ways humans are only beginning to understand. Structurally the novel mirrors a tree: it opens with 'Roots' (the origin stories), proceeds to 'Trunk' (where the lives converge), then 'Crown' (the widening consequences), and finally 'Seeds' (what remains). It won the Pulitzer Prize for Fiction in 2019, was shortlisted for the Man Booker Prize in 2018, and was named one of the 100 best books of the 21st century by The New York Times in 2024.",
+    startWith: 'The Overstory (2018)',
+    books: [
+      { title: 'The Overstory', author: 'Richard Powers', year: 2018 },
+      { title: 'Bewilderment', author: 'Richard Powers', year: 2021, note: 'A looser thematic companion — a widowed astrobiologist and his neurodivergent son in a near-future world running out of time.' },
+    ],
+    faq: [
+      { q: 'Do I need to read Richard Powers\'s other novels before The Overstory?', a: 'No — The Overstory is entirely standalone. Powers\'s earlier novels (Galatea 2.2, The Echo Wife, The Time of Our Singing) share his interest in science and consciousness but are unrelated in characters or plot.' },
+      { q: 'Is The Overstory based on real science?', a: 'Yes. Powers drew heavily on the research of scientists like Suzanne Simard, whose work on mycorrhizal networks (the "wood wide web" by which trees share nutrients and signals underground) is referenced throughout the novel and is represented by the character Patricia Westerford.' },
+      { q: 'Why does The Overstory begin with nine separate stories?', a: 'Each of the nine opening sections — named for a tree — introduces a character whose life has been shaped by a specific tree. The "Roots" section establishes nine separate trajectories that gradually converge in the "Trunk" section when the characters\' paths cross in a campaign to save old-growth trees.' },
+      { q: 'Won The Overstory any major awards?', a: 'Yes — it won the Pulitzer Prize for Fiction in 2019, was shortlisted for the Man Booker Prize in 2018, and was named one of the 100 best novels of the 21st century by The New York Times (2024).' },
+    ],
+  },
+  {
+    slug: 'bewilderment-powers',
+    intro: "Bewilderment (2021) by Richard Powers is a quiet, devastating novel about a widowed astrobiologist named Theo Byrne and his nine-year-old son Robin — neurodivergent, intensely empathic, and struggling in a world that is running out of time. When Robin's behavior at school threatens to get him placed on medication, Theo instead enrolls him in an experimental neurofeedback study that trains Robin's brain patterns against recordings of his late mother's neural activity, with results that are extraordinary and ultimately unbearable. Set in a near-future United States where environmental destruction is accelerating and political will has collapsed, Bewilderment is also a novel about what it costs to pay attention to the world, and what is lost when we stop. It was shortlisted for the Booker Prize in 2021.",
+    startWith: 'Bewilderment (2021)',
+    books: [
+      { title: 'Bewilderment', author: 'Richard Powers', year: 2021 },
+      { title: 'The Overstory', author: 'Richard Powers', year: 2018, note: 'Powers\'s Pulitzer-winning previous novel — larger in scope and more widely celebrated, but driven by the same grief for the living world.' },
+    ],
+    faq: [
+      { q: 'Is Bewilderment a sequel to The Overstory?', a: 'No — they are completely independent novels. Bewilderment shares Powers\'s preoccupation with the natural world and the crisis of attention, but has different characters, a different setting, and a different story.' },
+      { q: 'Which Powers novel should I read first?', a: 'Either works as a starting point. The Overstory (Pulitzer Prize, 2019) is more expansive and widely acclaimed; Bewilderment is shorter, more intimate, and emotionally concentrated. Most readers encounter The Overstory first, then read Bewilderment as a counterpart.' },
+      { q: 'Is Bewilderment based on real neuroscience?', a: 'The neurofeedback premise is speculative but grounded in real research into neural patterns and brain-computer interfaces. Powers consulted with neuroscientists while writing the novel.' },
+    ],
+  },
+  {
+    slug: 'rules-of-civility',
+    intro: "Rules of Civility (2011) by Amor Towles is a debut novel set in New York City in 1938, narrated by Katey Kontent — a twenty-five-year-old typist from a working-class background who, on New Year's Eve, meets a charismatic young man named Tinker Grey in a Greenwich Village jazz bar. What follows is a portrait of a year in which Katey moves through New York's social strata — from Greenwich Village bohemia to the genteel Upper East Side — observing the city's elaborate codes of conduct and the people who navigate or violate them. Towles writes in a voice of polished precision influenced by Henry James and Edith Wharton, and the novel captures both the glamour and the cruelty of a world organized around class, manners, and what it costs to appear to belong.",
+    startWith: 'Rules of Civility (2011)',
+    books: [
+      { title: 'Rules of Civility', author: 'Amor Towles', year: 2011 },
+      { title: 'A Gentleman in Moscow', author: 'Amor Towles', year: 2016, note: 'Towles\'s breakout novel — a Count under house arrest in Moscow\'s Hotel Metropol, similarly concerned with grace under constraint.' },
+      { title: 'The Lincoln Highway', author: 'Amor Towles', year: 2021, note: 'Towles\'s third novel — a 1954 American road story with an ensemble cast, more plot-driven than his first two.' },
+    ],
+    faq: [
+      { q: 'Is Rules of Civility part of a series?', a: 'No — all of Amor Towles\'s novels are standalones. Rules of Civility, A Gentleman in Moscow, and The Lincoln Highway have no plot or character connections beyond being by the same author.' },
+      { q: 'What are the "rules of civility" the title refers to?', a: 'The title alludes to a set of 110 rules of conduct that the young George Washington copied out by hand — rules governing how a gentleman should behave in society. The novel uses these as an ironic lens for examining the unspoken codes governing New York society in 1938.' },
+      { q: 'Is A Gentleman in Moscow or Rules of Civility a better starting point for Amor Towles?', a: 'A Gentleman in Moscow is typically recommended first — it is warmer, more plot-driven, and more widely beloved. Rules of Civility is more stylistically austere and appeals to readers drawn to the social novel tradition of Edith Wharton.' },
+    ],
+  },
+  {
+    slug: 'lincoln-highway-towles',
+    intro: "The Lincoln Highway (2021) by Amor Towles is a novel set over ten days in June 1954, beginning on the day eighteen-year-old Emmett Watson is released from a work farm in Kansas and driven home to Nebraska by the warden. Emmett's plan is simple: pick up his eight-year-old brother Billy and drive to California to start over. But two friends from the work farm — Woolly and Duchess — have stowed away in the warden's trunk, and their own plans redirect the journey to New York, transforming a simple road trip into something more digressive, more dangerous, and ultimately more moving. Told in multiple voices across a single week, The Lincoln Highway is Towles's most formally adventurous novel — a meditation on American mobility, the stories we tell about ourselves, and what it means to keep going.",
+    startWith: 'The Lincoln Highway (2021)',
+    books: [
+      { title: 'The Lincoln Highway', author: 'Amor Towles', year: 2021 },
+      { title: 'A Gentleman in Moscow', author: 'Amor Towles', year: 2016, note: 'Towles\'s previous novel — more intimate in scale but similarly sustained by warmth, wit, and memorable characters.' },
+      { title: 'Rules of Civility', author: 'Amor Towles', year: 2011, note: 'Towles\'s debut — 1938 New York, more stylistically austere than his later work.' },
+    ],
+    faq: [
+      { q: 'Is The Lincoln Highway part of a series?', a: 'No — all of Amor Towles\'s novels are standalones. The Lincoln Highway has no connection to Rules of Civility or A Gentleman in Moscow.' },
+      { q: 'What is the Lincoln Highway?', a: 'The Lincoln Highway was the first transcontinental automobile road in the United States, running from New York to San Francisco — 3,389 miles, established in 1913. In the novel it operates both literally (as a route) and symbolically (as an American promise of movement and self-invention).' },
+      { q: 'What order should I read Amor Towles\'s novels?', a: 'Publication order works well: Rules of Civility (2011), A Gentleman in Moscow (2016), then The Lincoln Highway (2021). Most readers recommend starting with A Gentleman in Moscow, which is his most accessible and beloved novel, then going in either direction.' },
+    ],
+  },
+  {
+    slug: 'pachinko-lee',
+    intro: "Pachinko (2017) by Min Jin Lee is a multigenerational saga following a Korean family across four generations — from a fishing village in early twentieth-century Korea to the pachinko parlors of Osaka and the corporate towers of modern Tokyo. Beginning in 1910 with a young woman named Sunja, whose life is altered by an affair with a powerful man, the novel traces her descendants through decades of war, displacement, discrimination, and survival, examining the specific precariousness of Koreans in Japan — a community that remains marginal, stateless, and despised across generations regardless of where it was born. Lee spent twenty-five years researching and writing the novel; it was a finalist for the National Book Award in 2017 and has since been adapted for Apple TV+.",
+    startWith: 'Pachinko (2017)',
+    books: [
+      { title: 'Pachinko', author: 'Min Jin Lee', year: 2017 },
+      { title: 'Free Food for Millionaires', author: 'Min Jin Lee', year: 2007, note: 'Lee\'s debut novel — a Korean-American woman in New York navigating class, identity, and family expectation, smaller in scale but sharing Lee\'s preoccupations.' },
+    ],
+    faq: [
+      { q: 'Is Pachinko a series or standalone?', a: 'Pachinko is a standalone novel. Min Jin Lee has spoken about a possible companion novel set in Korea, but as of 2024 no sequel has been published.' },
+      { q: 'Why is the novel called Pachinko?', a: 'Pachinko is a Japanese mechanical game — similar to a pinball machine — whose parlors were among the few businesses open to Koreans in postwar Japan. In the novel, running a pachinko business is both a livelihood and a marker of social stigma; the title captures how chance, inheritance, and structural inequality determine the characters\' outcomes.' },
+      { q: 'Is there a TV adaptation of Pachinko?', a: 'Yes — Apple TV+ produced a Pachinko series beginning in 2022, starring Youn Yuh-jung, Lee Min-ho, and Jin Ha. The series adapts the novel nonlinearly, interweaving the 1910s storyline with a 1980s timeline.' },
+      { q: 'Is Pachinko based on a true story?', a: 'No — the characters are fictional, though the historical circumstances (Japanese colonization of Korea, the experience of Zainichi Koreans in Japan, the pachinko industry) are based on extensive research, including Lee\'s years living in Japan and interviews with Zainichi Koreans.' },
+    ],
+  },
+  {
     slug: 'kudos-cusk',
     intro: "Rachel Cusk's Kudos (2018) is the concluding novel of the Outline trilogy — the same unnamed narrator from Outline and Transit is now at literary festivals and events, giving interviews, answering questions about writing and life and experience, and continuing to constitute herself through the stories of others. The most abstract of the three novels, it brings the formal project to its conclusion: a woman who has reduced herself to pure observation, refusing all the narratives of selfhood that others try to impose on her.",
     startWith: 'Outline',
