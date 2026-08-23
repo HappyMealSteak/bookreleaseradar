@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Candide Voltaire Pangloss philosophical optimism Cunegonde best of all worlds satire 1759',
+    'books like Joseph Andrews Henry Fielding Parson Adams picaresque comedy 1742 Richardson Pamela parody',
+    'books like Humphry Clinker Tobias Smollett Bramble family epistolary British tour comedy 1771',
+    'books like The Princess of Cleves Madame de La Fayette Duc de Nemours court passion self-mastery 1678',
+    'books like Pamela Samuel Richardson virtue rewarded Pamela Andrews Mr B epistolary 1740 founding novel',
     'books like Les Liaisons Dangereuses Laclos Valmont Merteuil epistolary libertine 18th century French 1782',
     'books like Tristram Shandy Laurence Sterne digressions Walter Uncle Toby experimental 1759 comic',
     'books like Robinson Crusoe Daniel Defoe island survival Friday colonial 1719 first English novel',
@@ -2670,6 +2675,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Candide by Voltaire?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Candide include Zadig (also by Voltaire), Gulliver's Travels by Swift, Don Quixote by Cervantes, Rasselas by Samuel Johnson, Catch-22 by Joseph Heller, Invisible Man by Ralph Ellison, and The Master and Margarita by Bulgakov. Our full guide covers 8 picks for readers of Voltaire's compressed satirical masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Joseph Andrews by Henry Fielding?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Joseph Andrews include Tom Jones and Shamela (also by Fielding), Pamela by Richardson, Don Quixote by Cervantes, Humphry Clinker by Smollett, Vanity Fair by Thackeray, and Pickwick Papers by Dickens. Our full guide covers 8 picks for readers of Fielding's first comic novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Humphry Clinker by Tobias Smollett?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Humphry Clinker include Roderick Random and Peregrine Pickle (also by Smollett), Tom Jones by Fielding, Les Liaisons Dangereuses by Laclos, Clarissa by Richardson, and Pamela by Richardson. Our full guide covers 8 picks for readers of Smollett's warmly comic epistolary tour of Britain." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Princess of Clèves by Madame de La Fayette?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Princess of Clèves include Les Liaisons Dangereuses by Laclos, Madame Bovary by Flaubert, The Red and the Black by Stendhal, The Portrait of a Lady by Henry James, The Golden Bowl by Henry James, and Middlemarch by George Eliot. Our full guide covers 8 picks for readers of the first great French novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pamela by Samuel Richardson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pamela include Clarissa (also by Richardson), Shamela and Joseph Andrews by Fielding, Les Liaisons Dangereuses by Laclos, Evelina by Fanny Burney, Emma by Jane Austen, Jane Eyre by Brontë, and The Color Purple by Alice Walker. Our full guide covers 8 picks for readers of Richardson's founding epistolary novel." },
     },
     {
       '@type': 'Question',
