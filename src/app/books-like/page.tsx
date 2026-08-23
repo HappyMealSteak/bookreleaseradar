@@ -370,6 +370,10 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Woman in White Wilkie Collins Count Fosco Laura Marian Halcombe 1859',
+    'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
+    'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
+    'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
     'books like Shirley Charlotte Brontë Caroline Helstone Shirley Keeldar Luddites Yorkshire 1849',
     'books like Villette Charlotte Brontë Lucy Snowe M Paul Emanuel Belgian school dark 1853',
     'books like The Professor Charlotte Brontë William Crimsworth Frances Henri Belgian 1857',
@@ -2705,6 +2709,26 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Woman in White by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woman in White include The Moonstone (also by Collins), Armadale, No Name, Bleak House by Dickens, Rebecca by Daphne du Maurier, The Turn of the Screw by Henry James, The Suspicions of Mr Whicher by Kate Summerscale, and Gone Girl by Gillian Flynn. Our full guide covers 8 picks for fans of Collins's founding sensation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Armadale by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Armadale include The Woman in White and The Moonstone (also by Collins), Lady Audley's Secret by Mary Elizabeth Braddon, Vanity Fair by Thackeray, No Name by Collins, The Eustace Diamonds by Trollope, The Picture of Dorian Gray by Wilde, and East Lynne by Ellen Wood. Our full guide covers 8 picks for fans of Collins's most ambitious novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked No Name by Wilkie Collins?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like No Name include The Woman in White, Armadale, and The Moonstone (all by Collins), The Tenant of Wildfell Hall by Anne Brontë, Lady Audley's Secret by Braddon, The Portrait of a Lady by Henry James, Great Expectations by Dickens, and Middlemarch by George Eliot. Our full guide covers 8 picks for fans of Collins's most morally complex novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
     },
     {
       '@type': 'Question',
