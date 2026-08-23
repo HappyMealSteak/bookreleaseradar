@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Night Elie Wiesel Holocaust memoir Auschwitz Buchenwald teenager Nobel',
+    'books like The Diary of a Young Girl Anne Frank Amsterdam hiding annex 1942 WWII',
+    'books like Maus Art Spiegelman Holocaust graphic memoir Pulitzer mice cats Auschwitz',
+    'books like Unbroken Laura Hillenbrand Louie Zamperini Olympic runner POW Pacific WWII',
+    "books like The Zookeeper's Wife Diane Ackerman Warsaw Zoo Jan Antonina Jewish rescue",
     "books like Suite Française Irène Némirovsky French occupation WWII posthumous Prix Renaudot",
     'books like The Tattooist of Auschwitz Heather Morris Lale Gita Sokolov Auschwitz love',
     'books like The Alice Network Kate Quinn WWI spy women resistance dual timeline France',
@@ -2555,6 +2560,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Night by Elie Wiesel?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Night include Dawn (other Wiesel), Man's Search for Meaning by Viktor Frankl, The Diary of a Young Girl by Anne Frank, Maus by Art Spiegelman, Survival in Auschwitz by Primo Levi, The Tattooist of Auschwitz by Heather Morris, Suite Française by Irène Némirovsky, and Mila 18 by Leon Uris. Our full guide covers 8 picks for readers of Wiesel's essential Holocaust memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Diary of a Young Girl by Anne Frank?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Diary of a Young Girl include Night by Elie Wiesel, Anne Frank Remembered by Miep Gies, Man's Search for Meaning by Viktor Frankl, Maus by Art Spiegelman, The Diary of Etty Hillesum, The Boy in the Striped Pajamas by John Boyne, The Hiding Place by Corrie ten Boom, and Sarah's Key by Tatiana de Rosnay. Our full guide covers 8 picks for readers of Anne Frank's diary." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Maus by Art Spiegelman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Maus include Night by Elie Wiesel, Man's Search for Meaning by Viktor Frankl, In the Shadow of No Towers (other Spiegelman), Persepolis by Marjane Satrapi, Fun Home by Alison Bechdel, Survival in Auschwitz by Primo Levi, and The Tattooist of Auschwitz by Heather Morris. Our full guide covers 8 picks for readers of Spiegelman's Pulitzer Prize-winning graphic memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Unbroken by Laura Hillenbrand?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Unbroken include Seabiscuit (other Hillenbrand), The Pacific by Hugh Ambrose, With the Old Breed by Eugene Sledge, Band of Brothers by Stephen Ambrose, Into Thin Air by Jon Krakauer, Endurance by Alfred Lansing, Flyboys by James Bradley, and The Things They Carried by Tim O'Brien. Our full guide covers 8 picks for readers of Hillenbrand's WWII survival narrative." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Zookeeper's Wife by Diane Ackerman?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Zookeeper's Wife include The Hiding Place by Corrie ten Boom, Schindler's List by Thomas Keneally, Unbroken by Laura Hillenbrand, Night by Elie Wiesel, The Tattooist of Auschwitz by Heather Morris, In the Garden of Beasts by Erik Larson, Number the Stars by Lois Lowry, and Suite Française by Irène Némirovsky. Our full guide covers 8 picks for readers of Ackerman's Warsaw rescue story." },
     },
     {
       '@type': 'Question',

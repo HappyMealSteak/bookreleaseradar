@@ -5992,6 +5992,69 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'night-wiesel',
+    intro: "Elie Wiesel's Night (1960, originally Un di velt hot geshvign in Yiddish, 1956) is the essential Holocaust memoir — Wiesel's account of his deportation from the Hungarian town of Sighet to Auschwitz and then to Buchenwald at the age of fifteen. The first of three autobiographical novels that form a loose trilogy (Night, Dawn, Day), Night is the book Wiesel spent ten years unable to write, so traumatic was the experience of transforming his experience into language. He was awarded the Nobel Peace Prize in 1986, and Night is one of the most widely read books in the world, taught in schools across the United States and Europe.",
+    startWith: 'Night',
+    books: [
+      { title: 'Night', author: 'Elie Wiesel', year: 1960, note: "Start here — the essential memoir; approximately 120 pages in most editions." },
+      { title: 'Dawn', author: 'Elie Wiesel', year: 1961, note: "The companion novel — Elisha, a Holocaust survivor and now a Jewish underground fighter in British Mandatory Palestine, who must execute an English officer at dawn. Less memoir than Night, more a philosophical novel." },
+      { title: 'Day', author: 'Elie Wiesel', year: 1962, note: "The third part of the loose trilogy — Elisha in New York, struck by a taxi, confronting whether he wants to live. Also published as The Accident in some editions." },
+    ],
+    faq: [
+      { q: "Is Night a memoir or fiction?", a: "Night is a memoir — Elie Wiesel's account of his own experience. It began as a 900-page Yiddish testimony, Un di velt hot geshvign (And the World Remained Silent), published in Argentina in 1956 as part of a series of Holocaust testimonies. Wiesel condensed it to approximately 120 pages in French, La Nuit, with the help of François Mauriac, who also wrote the preface. The book has been revised once since its original publication in French, most substantially in Marion Wiesel's 2006 English translation. Dawn and Day are novels inspired by his experience rather than memoirs." },
+      { q: "What should I read next after Night?", a: "Wiesel readers continue with Dawn and Day to complete the trilogy. For readers who want more Holocaust testimony, Man's Search for Meaning by Viktor Frankl, The Diary of a Young Girl by Anne Frank, Maus by Art Spiegelman, Primo Levi's Survival in Auschwitz, and Imre Kertész's Fatelessness are the essential companions." },
+    ],
+  },
+  {
+    slug: 'the-diary-of-a-young-girl',
+    intro: "Anne Frank's The Diary of a Young Girl (1947) is the most widely read Holocaust document in the world — the diary Anne Frank kept while hiding with her family and four others in a secret annex in Amsterdam from July 1942 until their arrest on August 4, 1944. Anne Frank died in Bergen-Belsen concentration camp in February or March 1945, several weeks before its liberation. The diary was found and preserved by Miep Gies, one of the helpers, and published by Anne's father Otto Frank — the only member of the annex who survived — in 1947.",
+    startWith: 'The Diary of a Young Girl',
+    books: [
+      { title: 'The Diary of a Young Girl', author: 'Anne Frank', year: 1947, note: "The complete diary. The 'definitive edition' (1995) restores passages that Otto Frank removed from the first edition, including some about Anne's developing sexuality and her criticism of her mother." },
+    ],
+    faq: [
+      { q: "Are there different editions of The Diary of a Young Girl?", a: "There are three primary versions. The 'a' version is the diary as Anne originally wrote it; the 'b' version is Anne's own revised version, which she began editing in 1944 after hearing a radio broadcast that diaries of the occupation would be published after the war. The first published edition (1947) was edited by Otto Frank from the a and b versions, removing some personal passages. The 'definitive edition' (1995) restores the passages Otto Frank removed and is the most complete version available." },
+      { q: "What should I read next after The Diary of a Young Girl?", a: "Readers continue with Night by Elie Wiesel — the essential companion, also written by a teenager deported from Hungary, showing what happened to those who were not in hiding. Man's Search for Meaning by Viktor Frankl, Maus by Art Spiegelman, The Tattooist of Auschwitz by Heather Morris, and Miep Gies's memoir Anne Frank Remembered are strong companions." },
+    ],
+  },
+  {
+    slug: 'maus',
+    intro: "Art Spiegelman's Maus (1986-1991) is the Pulitzer Prize-winning graphic memoir — the story of Spiegelman's father Vladek, a Polish Jew who survived Auschwitz, told in two volumes with Jews depicted as mice and Nazis as cats. Maus won a special Pulitzer Prize in 1992, the first comic ever to do so, and is widely regarded as one of the most significant works about the Holocaust and one of the foundational works of the graphic novel form. The second volume, Maus II: And Here My Troubles Began (1991), covers Vladek's time in Auschwitz.",
+    startWith: 'Maus I',
+    books: [
+      { title: 'Maus I: A Survivor\'s Tale', author: 'Art Spiegelman', year: 1986, note: "Start here — Vladek's story through the beginning of his deportation to Auschwitz; the first volume of the complete work." },
+      { title: 'Maus II: And Here My Troubles Began', author: 'Art Spiegelman', year: 1991, note: "The second volume — Vladek in Auschwitz and after; must be read after Maus I. The two volumes are often published together as The Complete Maus." },
+    ],
+    faq: [
+      { q: "Do I need to read Maus I and II in order?", a: "Yes. Maus I: A Survivor's Tale and Maus II: And Here My Troubles Began tell a single continuous story and should be read in order. Most editions are now published together as The Complete Maus. The story alternates between two timelines: Spiegelman interviewing his elderly father Vladek in the present, and Vladek's story of surviving the Holocaust in the past." },
+      { q: "What should I read next after Maus?", a: "Spiegelman readers continue with his other graphic works, including In the Shadow of No Towers (2004) about September 11. For Holocaust readers, Night by Elie Wiesel, The Diary of a Young Girl by Anne Frank, Man's Search for Meaning by Viktor Frankl, and Primo Levi's Survival in Auschwitz are the essential companions. For graphic memoir readers, Fun Home by Alison Bechdel, Persepolis by Marjane Satrapi, and Watchmen by Alan Moore are strong companions." },
+    ],
+  },
+  {
+    slug: 'unbroken-hillenbrand',
+    intro: "Laura Hillenbrand's Unbroken: A World War II Story of Survival, Resilience, and Redemption (2010) is the nonfiction narrative of Louis 'Louie' Zamperini — Olympic runner, WWII bombardier, survivor of forty-seven days on a raft in the Pacific Ocean after his plane was shot down, and prisoner of war in a series of Japanese camps including the most brutal, Naoetsu. Hillenbrand's account of Zamperini's extraordinary life and its aftermath of trauma and faith became one of the most celebrated works of narrative nonfiction of recent decades and spent over four years on the New York Times bestseller list.",
+    startWith: 'Unbroken',
+    books: [
+      { title: 'Unbroken', author: 'Laura Hillenbrand', year: 2010, note: "Start here — the complete narrative. Hillenbrand's earlier book, Seabiscuit (2001), is a separate nonfiction narrative about a racehorse during the Depression." },
+    ],
+    faq: [
+      { q: "Is Unbroken a true story?", a: "Yes. Unbroken is narrative nonfiction — Laura Hillenbrand's account of Louie Zamperini's real life. Zamperini (1917-2014) cooperated with Hillenbrand over many years of interviews; she also drew on diaries, letters, military records, and interviews with other survivors and witnesses. Zamperini's story is verified by multiple independent sources. The 2014 film directed by Angelina Jolie covers the earlier part of the book; a 2019 film, Unbroken: Path to Redemption, covers the postwar portion." },
+      { q: "What should I read next after Unbroken?", a: "Readers continue with Hillenbrand's earlier book Seabiscuit (2001). For readers who loved Unbroken's Pacific War setting, The Pacific by Hugh Ambrose, With the Old Breed by Eugene Sledge, Band of Brothers by Stephen Ambrose, and Flyboys by James Bradley are strong companions. For readers who loved the survival and resilience theme, Into Thin Air by Jon Krakauer and Endurance by Alfred Lansing are natural companions." },
+    ],
+  },
+  {
+    slug: 'the-zookeeper-wife',
+    intro: "Diane Ackerman's The Zookeeper's Wife (2007) is the nonfiction narrative of Jan and Antonina Żabiński — the Warsaw Zoo directors who used their bombed-out zoo to hide and save approximately three hundred Jewish men, women, and children during the Nazi occupation of Poland from 1939 to 1945. Antonina Żabiński's diaries and Jan's postwar memoir provided the primary sources for Ackerman's account, which was adapted into the 2017 film with Jessica Chastain.",
+    startWith: "The Zookeeper's Wife",
+    books: [
+      { title: "The Zookeeper's Wife", author: 'Diane Ackerman', year: 2007, note: "Start here — the complete standalone narrative; the story of the Warsaw Zoo during the German occupation." },
+    ],
+    faq: [
+      { q: "Is The Zookeeper's Wife a true story?", a: "Yes. The Zookeeper's Wife is a work of narrative nonfiction based on the real lives of Jan and Antonina Żabiński, who ran the Warsaw Zoo and who used the zoo's bombed-out buildings and underground network to hide Jewish escapees from the Warsaw Ghetto during the Nazi occupation. Antonina Żabiński's diaries, which she wrote in a coded style to hide their content from German inspectors, provided Ackerman's primary source material. Jan Żabiński also participated in the Warsaw Uprising. Both Jan and Antonina Żabiński were honored by Yad Vashem as Righteous Among the Nations." },
+      { q: "What should I read next after The Zookeeper's Wife?", a: "Readers continue with other WWII nonfiction narratives about those who risked their lives to save Jews: The Hiding Place by Corrie ten Boom, Schindler's List by Thomas Keneally, and The Tattooist of Auschwitz by Heather Morris are popular companions. For readers who loved Ackerman's natural history dimension, A Natural History of the Senses (1990) and The Human Age (2014) are Ackerman's own broader works." },
+    ],
+  },
+  {
     slug: 'suite-francaise',
     intro: "Irène Némirovsky's Suite Française (2004, written 1940-1942) is the novel Némirovsky never finished — she was arrested by the French police in July 1942 and died in Auschwitz six weeks later. Her daughters carried the notebook containing the manuscript for sixty years before finally transcribing and publishing it in France, where it won the Prix Renaudot (posthumously). The novel depicts the German invasion and occupation of France in two movements: 'Storm in June,' following Parisians fleeing the advancing Germans, and 'Dolce,' set in a small French village under occupation. One of the most extraordinary literary discoveries of recent decades.",
     startWith: 'Suite Française',
