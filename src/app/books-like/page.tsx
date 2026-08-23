@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Slade House David Mitchell horror novella Grayer twins soul trap Horologists Bone Clocks companion',
+    'books like The Thousand Autumns of Jacob de Zoet David Mitchell Dejima Nagasaki 1799 Dutch East India Company',
+    'books like Life After Life Kate Atkinson Ursula Todd 1910 repeating lives Costa Award WWII Blitz',
+    'books like A God in Ruins Kate Atkinson Teddy Todd RAF bomber pilot WWII Costa Award companion Life After Life',
+    'books like Black Swan Green David Mitchell Jason Taylor 1982 England stammer adolescence coming of age',
     'books like The Year of the Flood Margaret Atwood MaddAddam trilogy Toby Ren God\'s Gardeners Waterless Flood',
     'books like MaddAddam Margaret Atwood trilogy conclusion Crakers Toby Zeb post-apocalyptic rebuild',
     "books like Cat's Eye Margaret Atwood Elaine Risley painter Toronto Cordelia childhood female bullying Booker",
@@ -2620,6 +2625,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Slade House by David Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Slade House include The Bone Clocks and Cloud Atlas by David Mitchell, The Haunting of Hill House by Shirley Jackson, Jonathan Strange & Mr Norrell by Susanna Clarke, We Have Always Lived in the Castle by Shirley Jackson, The Little Stranger by Sarah Waters, and Mexican Gothic by Silvia Moreno-Garcia. Our full guide covers 8 picks for readers of Mitchell's horror companion novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Thousand Autumns of Jacob de Zoet by David Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Thousand Autumns of Jacob de Zoet include Cloud Atlas and The Bone Clocks by David Mitchell, Silence by Shusaku Endo, Memoirs of a Geisha by Arthur Golden, Shogun by James Clavell, and The Remains of the Day by Kazuo Ishiguro. Our full guide covers 8 picks for readers of Mitchell's 1799 Nagasaki historical novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Life After Life by Kate Atkinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Life After Life include A God in Ruins by Kate Atkinson, The First Fifteen Lives of Harry August by Claire North, Cloud Atlas by David Mitchell, Mrs. Dalloway by Virginia Woolf, Atonement by Ian McEwan, The Remains of the Day by Kazuo Ishiguro, and Slaughterhouse-Five by Kurt Vonnegut. Our full guide covers 8 picks for readers of Atkinson's Costa-winning repeating-lives novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A God in Ruins by Kate Atkinson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A God in Ruins include Life After Life by Kate Atkinson, Atonement by Ian McEwan, Catch-22 by Joseph Heller, Birdsong by Sebastian Faulks, The English Patient by Michael Ondaatje, Slaughterhouse-Five by Kurt Vonnegut, and The Remains of the Day by Kazuo Ishiguro. Our full guide covers 8 picks for readers of Atkinson's WWII Costa-winning companion novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Black Swan Green by David Mitchell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Black Swan Green include Cloud Atlas and The Bone Clocks by David Mitchell, The Catcher in the Rye by J.D. Salinger, The Perks of Being a Wallflower by Stephen Chbosky, Stoner by John Williams, A Portrait of the Artist as a Young Man by James Joyce, About a Boy by Nick Hornby, and Prep by Curtis Sittenfeld. Our full guide covers 8 picks for readers of Mitchell's 1982 coming-of-age novel." },
     },
     {
       '@type': 'Question',

@@ -5992,6 +5992,76 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'slade-house-mitchell',
+    intro: "Slade House (2015) by David Mitchell is a slim, intensely atmospheric horror novella — the companion piece to The Bone Clocks, set in the same fictional mythology. Every nine years, on the last Saturday of October, a door appears in a narrow alley in a British town, opening into the grounds of Slade House, where two powerful twins — the Grayer siblings — feed on the psychic energy of visitors whose souls they trap in a 'lacuna', a repeating pocket of falsified reality. The novel follows five successive visitors across five decades, each arriving through different means and each initially unaware of what Slade House is. Mitchell published it partly as a Halloween project, and it has the pleasures of a very well-executed ghost story as well as the deeper satisfactions of his larger fictional universe.",
+    startWith: 'The Bone Clocks (2014)',
+    books: [
+      { title: 'The Bone Clocks', author: 'David Mitchell', year: 2014, note: "Read first — Slade House is a companion to The Bone Clocks and shares its mythology; the novella rewards reading after the full novel." },
+      { title: 'Slade House', author: 'David Mitchell', year: 2015, note: "The horror companion — best immediately after The Bone Clocks while the mythology is fresh." },
+    ],
+    faq: [
+      { q: 'Can I read Slade House without reading The Bone Clocks first?', a: "Slade House works as a standalone horror story, but it is much more rewarding after The Bone Clocks — it shares the same fictional mythology (Horologists, Anchorites, lacunas) and several character connections that will mean nothing without the context of the longer novel." },
+      { q: 'Is Slade House part of David Mitchell\'s fictional universe?', a: "Yes — all of Mitchell's novels share a connected fictional universe with minor recurring characters and references. Slade House is more explicitly connected than most, sharing the Horologist-Anchorite mythology directly with The Bone Clocks." },
+      { q: 'How long is Slade House?', a: "Slade House is a novella of about 230 pages — significantly shorter than Mitchell's other novels. It was originally published in a shorter form on Twitter, then expanded and published as a book in October 2015." },
+    ],
+  },
+  {
+    slug: 'thousand-autumns-jacob-de-zoet',
+    intro: "The Thousand Autumns of Jacob de Zoet (2010) by David Mitchell is a historical novel set in Dejima — the artificial island in Nagasaki Harbor that was Japan's only point of contact with the outside world from 1641 to 1853 — in the years 1799 to 1817. Jacob de Zoet, a young Dutch clerk with an inconvenient conscience, arrives on Dejima to audit the books of the Dutch East India Company and falls in love with Orito Aibagawa, a Japanese midwife scarred by a burn who is one of the few women allowed near the trading post. When Orito is taken to a mountain shrine run by a corrupt monk, Jacob must decide how far outside his safe enclave he is willing to go. The novel is Mitchell's most conventionally structured — a love story and a thriller — and his most meticulously researched.",
+    startWith: 'The Thousand Autumns of Jacob de Zoet (2010)',
+    books: [
+      { title: 'The Thousand Autumns of Jacob de Zoet', author: 'David Mitchell', year: 2010 },
+      { title: 'Cloud Atlas', author: 'David Mitchell', year: 2004, note: "Mitchell's Booker-shortlisted nested-stories novel — formally very different but sharing the same gift for period immersion and the same connected fictional universe." },
+    ],
+    faq: [
+      { q: 'Is The Thousand Autumns of Jacob de Zoet part of a series?', a: "No — it is a standalone novel. Minor characters recur across Mitchell's connected fictional universe, but The Thousand Autumns of Jacob de Zoet does not require knowledge of any other Mitchell novel." },
+      { q: 'Why is Dejima the setting?', a: "Dejima was the sole point of contact between Japan and the outside world during Japan's period of sakoku (national seclusion) — a 120-meter artificial island in Nagasaki Harbor where Dutch East India Company merchants were permitted to trade under strict conditions. Mitchell was drawn to it as a site of maximum cultural friction: two worlds in contact through a single constricted opening, each largely invisible to the other." },
+      { q: 'Is this a good starting point for David Mitchell?', a: "Yes — The Thousand Autumns of Jacob de Zoet is Mitchell's most conventionally structured novel and one of the most accessible starting points. Cloud Atlas is the most celebrated; Ghostwritten and Black Swan Green offer different entry points. Many readers recommend starting with Cloud Atlas, then reading the rest in any order." },
+    ],
+  },
+  {
+    slug: 'life-after-life-atkinson',
+    intro: "Life After Life (2013) by Kate Atkinson is a novel in which Ursula Todd is born on a snowy February night in 1910 in an English country house — and then born again, and again, living each life to a different end before dying and starting over. Some lives are short; some are long; some take Ursula through the Blitz, through Nazi Germany, through marriage and loss and ordinary middle age. The novel does not explain the mechanism of Ursula's repeated lives, nor does Ursula understand them — she is guided only by a sense of déjà vu and a compulsion to choose differently when she can feel that something is wrong. It won the Costa Novel Award in 2013, was shortlisted for the Women's Prize, and was adapted for television by the BBC in 2022.",
+    startWith: 'Life After Life (2013)',
+    books: [
+      { title: 'Life After Life', author: 'Kate Atkinson', year: 2013 },
+      { title: 'A God in Ruins', author: 'Kate Atkinson', year: 2015, note: "The companion novel — Ursula's brother Teddy, a wartime RAF pilot, living a single continuous life; best read immediately after Life After Life." },
+    ],
+    faq: [
+      { q: 'Is A God in Ruins a sequel to Life After Life?', a: "A God in Ruins is a companion novel — not a direct sequel, but a counterpart. Where Life After Life follows Ursula through multiple lives, A God in Ruins follows Ursula's brother Teddy through a single life from wartime to old age. They can be read in either order, but Life After Life first is strongly recommended." },
+      { q: 'Is Life After Life similar to The First Fifteen Lives of Harry August?', a: "They share the premise of a character who relives their life repeatedly, but treat it very differently. The First Fifteen Lives of Harry August (Claire North) is more plot-driven and genre-oriented; Life After Life is more meditative, focused on how small decisions shape a life, and less interested in explaining the mechanism." },
+      { q: 'Does Life After Life have a definitive ending?', a: "Life After Life has a carefully constructed ending that resolves its central preoccupation without fully explaining the mechanism of Ursula's repeating lives. Atkinson has described the novel as being about the relationship between free will and determinism, and the ending is consistent with that ambiguity." },
+    ],
+  },
+  {
+    slug: 'a-god-in-ruins-atkinson',
+    intro: "A God in Ruins (2015) by Kate Atkinson is the companion to Life After Life — a novel about Ursula Todd's younger brother Teddy, a gentle, bird-loving boy who becomes an RAF bomber pilot during the Second World War and then must live a single long life in the aftermath, knowing that he survived when so many of his crew did not. Where Life After Life fragmented a woman's life into infinite versions, A God in Ruins follows one man through one life — from childhood in the 1920s through marriage, parenthood, and old age — and asks what it means to survive when you expected to die, and what the rest of a life is for. It won the Costa Novel Award in 2015.",
+    startWith: 'Life After Life (2013)',
+    books: [
+      { title: 'Life After Life', author: 'Kate Atkinson', year: 2013, note: "Read first — A God in Ruins is Ursula's brother Teddy's story; knowing Ursula gives Teddy's life its full depth." },
+      { title: 'A God in Ruins', author: 'Kate Atkinson', year: 2015, note: "The companion novel — Teddy's single continuous life, from wartime to old age." },
+    ],
+    faq: [
+      { q: 'Do I need to read Life After Life before A God in Ruins?', a: "Strongly recommended — A God in Ruins follows Ursula's brother Teddy, and knowing Ursula from Life After Life gives his story additional resonance. A God in Ruins can stand alone, but many readers find it more moving after Life After Life." },
+      { q: 'Is A God in Ruins sad?', a: "Yes — A God in Ruins is primarily a novel about survival and its costs: the weight of wartime loss, the difficulty of converting wartime intensity into peacetime life, and the long arc of Teddy's relationship with his children and grandchildren. Atkinson brings considerable warmth to it, but it earns its grief." },
+      { q: 'Are Kate Atkinson\'s Jackson Brodie crime novels related to Life After Life and A God in Ruins?', a: "No — the Jackson Brodie novels (Case Histories, One Good Turn, When Will There Be Good News?, Started Early Took My Dog) are a separate crime series with different characters and no connection to the Ursula Todd novels. Atkinson writes in both literary and crime fiction modes." },
+    ],
+  },
+  {
+    slug: 'black-swan-green-mitchell',
+    intro: "Black Swan Green (2006) by David Mitchell is his most autobiographical novel — a coming-of-age story set across thirteen months in 1982 in the small English village of Black Swan Green, narrated by thirteen-year-old Jason Taylor, who is bullied, stammers, writes poetry under a pseudonym, and tries to navigate the minefield of adolescent social hierarchy while his parents' marriage slowly dissolves around him. Where Mitchell's other novels are formally elaborate and structurally experimental, Black Swan Green is deliberately conventional in structure — each chapter covers a month — and deliberately local and intimate in subject. It is often cited as a companion to Catcher in the Rye and About a Boy in the tradition of the honest adolescent novel.",
+    startWith: 'Black Swan Green (2006)',
+    books: [
+      { title: 'Black Swan Green', author: 'David Mitchell', year: 2006 },
+      { title: 'Cloud Atlas', author: 'David Mitchell', year: 2004, note: "Mitchell's most celebrated novel — very different in form, but Jason Taylor of Black Swan Green appears briefly as a minor character in Cloud Atlas, connecting the two novels." },
+    ],
+    faq: [
+      { q: 'Is Black Swan Green part of David Mitchell\'s connected fictional universe?', a: "Yes — Jason Taylor of Black Swan Green appears as a minor character in Cloud Atlas, and the village of Black Swan Green appears in other Mitchell novels. All of Mitchell's novels share a loose connected universe." },
+      { q: 'Is Black Swan Green a good starting point for David Mitchell?', a: "Yes — Black Swan Green is Mitchell's most accessible and conventionally structured novel, and an excellent entry point for readers who find Cloud Atlas's formal complexity daunting. It requires no knowledge of any other Mitchell novel." },
+      { q: 'Is Black Swan Green autobiographical?', a: "Substantially — Mitchell has confirmed that Jason Taylor's experiences closely parallel his own growing up in Worcestershire in the early 1980s, including his stammer, his poetry writing, and his parents' divorce. He has called it his most personal novel." },
+    ],
+  },
+  {
     slug: 'year-of-the-flood-atwood',
     intro: "The Year of the Flood (2009) by Margaret Atwood is the second novel in the MaddAddam trilogy — a parallel account of the same catastrophic 'Waterless Flood' depicted in Oryx and Crake (2003), this time narrated from the perspective of Toby and Ren, two women who have survived the pandemic by hiding in a rooftop garden and a sex club respectively. Where Oryx and Crake followed Jimmy and Crake through the corporate enclaves of a near-future biotech dystopia, The Year of the Flood follows the God's Gardeners — a religious environmental movement that has been predicting and preparing for exactly this kind of civilizational collapse. The two novels share the same timeline and eventually converge; MaddAddam (2013) brings both sets of survivors together. The trilogy can be read in any order, but the intended sequence is Oryx and Crake first.",
     startWith: 'Oryx and Crake (2003)',
