@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Pickwick Papers Charles Dickens Sam Weller Mr Pickwick Fleet Prison picaresque 1836',
+    'books like Old Curiosity Shop Charles Dickens Little Nell death Quilp Dick Swiveller 1840',
+    'books like Little Dorrit Charles Dickens Amy Dorrit Marshalsea Prison Circumlocution Office 1855',
+    'books like Hard Times Charles Dickens Gradgrind Bounderby Coketown utilitarian satire 1854',
+    'books like Mystery of Edwin Drood Charles Dickens Jasper opium cathedral unfinished 1870',
     'books like Vicar of Wakefield Oliver Goldsmith Primrose family providential comedy 1766 Goethe',
     'books like Barnaby Rudge Charles Dickens Gordon Riots 1780 Grip raven Newgate burning 1841',
     'books like Dombey and Son Charles Dickens Paul Dombey Florence Captain Cuttle commercial pride 1846',
@@ -2685,6 +2690,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Pickwick Papers by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Pickwick Papers include Nicholas Nickleby by Dickens, Tom Jones by Fielding, David Copperfield by Dickens, Roderick Random by Smollett, The Vicar of Wakefield by Goldsmith, Don Quixote by Cervantes, Bleak House by Dickens, and Adventures of Huckleberry Finn by Twain. Our full guide covers 8 picks for readers of Dickens's first picaresque novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Old Curiosity Shop by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Old Curiosity Shop include David Copperfield and Bleak House (both Dickens), Oliver Twist by Dickens, The Turn of the Screw by Henry James, What Maisie Knew by James, Barnaby Rudge by Dickens, The Woman in White by Collins, and Dombey and Son by Dickens. Our full guide covers 8 picks for readers of Dickens's Little Nell novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Little Dorrit by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Little Dorrit include Bleak House and Our Mutual Friend (both Dickens), The Way We Live Now by Trollope, Hard Times by Dickens, The Trial by Kafka, Middlemarch by George Eliot, and the Dickens biography by Peter Ackroyd. Our full guide covers 8 picks for readers of Dickens's prison and bureaucracy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Hard Times by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Hard Times include North and South by Gaskell, Little Dorrit by Dickens, Bleak House by Dickens, Mary Barton by Gaskell, The Road to Wigan Pier by Orwell, Germinal by Zola, The Jungle by Upton Sinclair, and Animal Farm by Orwell. Our full guide covers 8 picks for readers of Dickens's utilitarian satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Mystery of Edwin Drood by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Mystery of Edwin Drood include Bleak House by Dickens, The Woman in White by Collins, Jekyll and Hyde by Stevenson, The Moonstone by Collins, Our Mutual Friend by Dickens, Rebecca by Daphne du Maurier, and Little Dorrit by Dickens. Our full guide covers 8 picks for readers of Dickens's unfinished mystery." },
     },
     {
       '@type': 'Question',
