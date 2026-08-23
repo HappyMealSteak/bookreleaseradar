@@ -5992,6 +5992,75 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'outer-dark',
+    intro: "Cormac McCarthy's Outer Dark (1968) is his second novel and the most formally gothic — a man who impregnates his sister in the Tennessee hill country and abandons the infant in the woods; the sister goes searching for the child while the man pursues his own shadow, and three nameless, murderous figures move through the landscape killing everything they encounter. McCarthy was writing in the tradition of Flannery O'Connor and William Faulkner, and Outer Dark is his most stylistically concentrated early work, with the three tramps functioning as an almost supernatural evil that cannot be explained or confronted. It received almost no attention on publication but is now recognized as essential McCarthy.",
+    startWith: 'Outer Dark',
+    books: [
+      { title: 'Outer Dark', author: 'Cormac McCarthy', year: 1968, note: "The complete novel — short, concentrated, and terrifying, less than 250 pages, essential reading as part of the Southern trilogy (Outer Dark, Child of God, Suttree) that precedes Blood Meridian." },
+      { title: 'Child of God', author: 'Cormac McCarthy', year: 1973, note: "The companion Southern novel — Lester Ballard, dispossessed from his Appalachian land, descending into violence and necrophilia, McCarthy's most disturbing early novel." },
+      { title: 'Suttree', author: 'Cormac McCarthy', year: 1979, note: "The Southern masterpiece — Cornelius Suttree living on a houseboat on the Tennessee River in 1950s Knoxville, McCarthy's most Faulknerian novel and the one he spent longest writing." },
+      { title: 'Blood Meridian', author: 'Cormac McCarthy', year: 1985, note: "The novel McCarthy himself considers his masterpiece — the Kid in 1850s Texas and the Glanton Gang, the Judge as metaphysical evil, the most acclaimed and most violent American novel of the twentieth century." },
+    ],
+    faq: [
+      { q: 'What is the recommended reading order for Cormac McCarthy\'s early novels?', a: "McCarthy's early novels form a loose Southern Tennessee trilogy before he moved to the Southwest. The recommended order is: The Orchard Keeper (1965, his debut, set in East Tennessee), Outer Dark (1968), Child of God (1973), and Suttree (1979). These four novels share a setting in the rural South and a sensibility drawn from Faulkner and O'Connor. Blood Meridian (1985) represents a major shift — McCarthy moves to the American West and his prose style changes significantly. The Border Trilogy (All the Pretty Horses, The Crossing, Cities of the Plain) comes after Blood Meridian." },
+    ],
+  },
+  {
+    slug: 'child-of-god',
+    intro: "Cormac McCarthy's Child of God (1973) is his most disturbing novel — Lester Ballard, a dispossessed Appalachian man who loses his land and his place in the community, and descends into isolation, murder, and necrophilia, living in a cave and claiming the dead. McCarthy narrates Ballard's story with the same biblical prose style and the same matter-of-fact treatment of extreme violence that he would develop into Blood Meridian — Child of God is shorter and more concentrated but equally harrowing. It was dismissed on publication and is now recognized as one of the essential McCarthy novels, his most formally radical early work.",
+    startWith: 'Child of God',
+    books: [
+      { title: 'Child of God', author: 'Cormac McCarthy', year: 1973, note: "The complete novel — approximately 200 pages, structured in three parts following Ballard's descent, the McCarthy title that most directly anticipates the Judge in Blood Meridian." },
+      { title: 'Outer Dark', author: 'Cormac McCarthy', year: 1968, note: "The preceding Southern gothic — the hill country incest story with the three tramps, the McCarthy novel that most directly precedes Child of God in style and geography." },
+      { title: 'Suttree', author: 'Cormac McCarthy', year: 1979, note: "The concluding Southern novel — Suttree on his houseboat in Knoxville, the most expansive and humane of the early McCarthy novels, essential reading after Child of God." },
+      { title: 'Blood Meridian', author: 'Cormac McCarthy', year: 1985, note: "The Western masterpiece that Child of God leads to — the Judge as the most fully developed version of the evil that Child of God begins to sketch in Lester Ballard and in the three tramps of Outer Dark." },
+    ],
+    faq: [
+      { q: "What is the significance of the title Child of God?", a: "The title is McCarthy's ironic description of Lester Ballard — a creature of the same substance as all of us, as the novel says, made in God's image, a child of God much like yourself perhaps. The phrase first appears in the novel as a description of Ballard in the mouth of the county sheriff, and it is simultaneously an assertion of Ballard's common humanity (he is as much a child of God as anyone) and a meditation on what that claim means when applied to a man who has become a murderer and necrophile. McCarthy is interested in the theological question of what it means to say that all humans are children of God when humans are capable of what Ballard becomes." },
+    ],
+  },
+  {
+    slug: 'infinite-jest',
+    intro: "David Foster Wallace's Infinite Jest (1996) is the most celebrated and most daunting American novel of the 1990s — approximately 1,100 pages plus 96 pages of endnotes, set in a near-future America and a Quebec separatist group, an Enfield Tennis Academy, and a Boston-area halfway house, circling around a film so entertaining that viewers lose all desire to do anything else. Wallace was attempting the most comprehensive engagement with American culture and addiction in the literary tradition — entertainment, distraction, drugs, depression, tennis — and Infinite Jest is simultaneously a comedy, a tragic addiction novel, a science fiction satire, a sports novel, and an examination of depression. No American novel of the last thirty years has been more influential on subsequent writers.",
+    startWith: 'Infinite Jest',
+    books: [
+      { title: 'Infinite Jest', author: 'David Foster Wallace', year: 1996, note: "The complete novel — typically read alongside an endnote guide or companion. The novel is difficult on first approach but rewards patience; most readers recommend committing to the first 200 pages before judging it." },
+      { title: 'A Supposedly Fun Thing I\'ll Never Do Again', author: 'David Foster Wallace', year: 1997, note: "The essential DFW essay collection — 'E Unibus Pluram: Television and U.S. Fiction,' the cruise ship essay, the tennis essays, the best introduction to Wallace's nonfiction voice and essential context for Infinite Jest." },
+      { title: 'The Pale King', author: 'David Foster Wallace', year: 2011, note: "The posthumous unfinished novel — Wallace's final project, about IRS examiners in Peoria, Illinois, a meditation on boredom and attention that extends the concerns of Infinite Jest." },
+    ],
+    faq: [
+      { q: 'How do I read Infinite Jest? Do I need to read the endnotes?', a: "Most experienced readers recommend reading the endnotes, despite the inconvenience of constantly flipping to the back of the book. A significant portion of the novel's content is in the endnotes — character development, jokes, and information that matters. Many readers use two bookmarks or sticky notes to allow quick movement between the text and notes. The most common reading experience: the first 200 pages are very difficult (Wallace withholds chronology and explanation deliberately), the middle third is more absorbing, and the final third becomes almost compulsively readable. It is a novel that many readers have to start twice before the first start takes hold." },
+      { q: "What is the Samizdat in Infinite Jest?", a: "The Entertainment (or Samizdat) is the master cartridge of the film Infinite Jest — an entertainment so perfectly pleasurable that anyone who views it loses all desire to do anything else, and will view it on a loop until they die. It was supposedly created by James O. Incandenza Sr., the patriarch of the Enfield Tennis Academy's founding family and an experimental filmmaker. The Quebecois separatists are trying to obtain it as a weapon against the United States. Wallace never shows us the film or fully reveals what's on it — it functions as the central MacGuffin of the novel and as a metaphor for the problem of entertainment, distraction, and addiction that the novel is examining." },
+    ],
+  },
+  {
+    slug: 'libra-delillo',
+    intro: "Don DeLillo's Libra (1988) is the most celebrated American political novel of its decade — a novelization of the conspiracy behind the assassination of John F. Kennedy, following Lee Harvey Oswald from his boyhood through his defection to the Soviet Union and his return to Dallas, alongside a group of CIA operatives planning an assassination attempt that gets out of control. DeLillo spent three years researching the Warren Commission testimony and writing the novel, which was praised for its formal ambition, its psychologically complex portrait of Oswald, and its treatment of conspiracy as the central fact of American public life. It is widely considered DeLillo's finest novel alongside White Noise and Underworld.",
+    startWith: 'Libra',
+    books: [
+      { title: 'Libra', author: 'Don DeLillo', year: 1988, note: "The complete standalone novel — structured in two main storylines: Oswald's biography moving forward chronologically, and a retired CIA analyst reconstructing the conspiracy moving backward in time. The two storylines converge at Dallas." },
+      { title: 'White Noise', author: 'Don DeLillo', year: 1985, note: "The preceding DeLillo novel — Jack Gladney, professor of Hitler Studies, confronting the airborne toxic event, DeLillo's most accessible novel and the most frequently taught, for readers who want more DeLillo." },
+      { title: 'Underworld', author: 'Don DeLillo', year: 1997, note: "The succeeding DeLillo masterwork — the most ambitious American novel of the 1990s, beginning at the 1951 Giants-Dodgers playoff game and moving through the Cold War to the 1990s, 800+ pages." },
+    ],
+    faq: [
+      { q: 'Is Libra based on real events?', a: "Yes, but it is a work of fiction. DeLillo researched the Warren Commission materials extensively and draws on documented facts — Oswald's biography, the principal figures in the Dallas conspiracy theories, the timeline of events — but creates fictional scenes, dialogue, and interior life that are entirely invented. DeLillo includes an 'Author's Note' stating that 'This is a work of the imagination' and acknowledging that some of Oswald's known views and statements are incorporated into the novel. The novel does not endorse any specific conspiracy theory but treats the assassination as an event that exceeded any single explanation." },
+    ],
+  },
+  {
+    slug: 'v-pynchon',
+    intro: "Thomas Pynchon's V. (1963) is his debut novel — Herbert Stencil searching for the mysterious figure V., who appears across a century of historical upheavals (Egypt 1898, Florence 1899, Malta 1919, Southwest Africa 1904), interspersed with the present-day adventures of Benny Profane, a schlemihl who yo-yos between New York and Norfolk. V. established Pynchon's signature style — the paranoid historical conspiracy, the dense erudition, the comic set pieces, the stylistic range from vaudeville to tragedy — and it remains the entry point for readers who find Gravity's Rainbow too demanding. It won the Faulkner Award for debut fiction in 1963.",
+    startWith: 'V.',
+    books: [
+      { title: "V.", author: 'Thomas Pynchon', year: 1963, note: "The debut novel — Herbert Stencil's pursuit of V. across a century of historical catastrophe, the alternating Profane storylines in the present, Pynchon's most accessible full-length novel." },
+      { title: 'The Crying of Lot 49', author: 'Thomas Pynchon', year: 1966, note: "The compact Pynchon — Oedipa Maas unraveling a mystery involving an underground mail system, approximately 150 pages, the most accessible entry point to Pynchon and the best place to start for new readers." },
+      { title: "Gravity's Rainbow", author: 'Thomas Pynchon', year: 1973, note: "The masterpiece and the most demanding Pynchon — Tyrone Slothrop in WWII-era Europe, the V-2 rocket and its relationship to an erection, approximately 800 pages of baroque historical paranoia. National Book Award finalist, Pulitzer committee refused to award." },
+      { title: 'Vineland', author: 'Thomas Pynchon', year: 1990, note: "The California novel — Zoyd Wheeler in 1984 Reagan-era California, the most politically explicit Pynchon and the most accessible full-length novel after V." },
+    ],
+    faq: [
+      { q: 'What is the recommended reading order for Thomas Pynchon?', a: "Most readers recommend starting with The Crying of Lot 49 (1966) — it is the shortest, most concentrated, and most approachable Pynchon. After that: V. (1963) for a longer but more structurally accessible work; then Gravity's Rainbow (1973), which most readers consider his masterpiece but find very demanding on a first approach. Vineland (1990), Mason & Dixon (1997), and Against the Day (2006) are for dedicated readers. Inherent Vice (2009) is his most accessible novel and works well as an alternative entry point. Bleeding Edge (2013) is his most recent as of 2023." },
+    ],
+  },
+  {
     slug: 'kindred-butler',
     intro: "Octavia E. Butler's Kindred (1979) is the time travel slavery novel — Dana, a Black woman living in 1970s Los Angeles, repeatedly pulled back in time to antebellum Maryland to save the life of her white ancestor Rufus, a slaveholder. Butler used the science fiction device of time travel to force an imaginative confrontation with the experience of American slavery — to make the reader understand it not as history but as something lived. It is her most accessible and most widely taught novel, required reading in countless American high school and college curricula, and the novel most often cited as the entry point to Octavia Butler's work.",
     startWith: 'Kindred',

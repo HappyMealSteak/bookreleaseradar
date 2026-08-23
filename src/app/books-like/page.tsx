@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Outer Dark Cormac McCarthy Tennessee gothic three tramps incest',
+    'books like Child of God Cormac McCarthy Lester Ballard Appalachian descent',
+    'books like Infinite Jest David Foster Wallace tennis addiction entertainment endnotes',
+    'books like Libra Don DeLillo JFK assassination Lee Harvey Oswald conspiracy',
+    'books like V Thomas Pynchon Herbert Stencil Benny Profane historical mystery',
     'books like Kindred Octavia Butler Dana time travel slavery antebellum',
     'books like The Three-Body Problem Liu Cixin Dark Forest Trisolaran first contact',
     'books like The Martian Andy Weir Mark Watney Mars survival potato engineering',
@@ -2520,6 +2525,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Outer Dark by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Outer Dark include Child of God, Suttree, and Blood Meridian (other McCarthy), Wise Blood and A Good Man Is Hard to Find by O'Connor, The Sound and the Fury by Faulkner, As I Lay Dying by Faulkner, and No Country for Old Men by McCarthy. Our full guide covers 8 picks for fans of McCarthy's Southern gothic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Child of God by Cormac McCarthy?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Child of God include Outer Dark, Suttree, and Blood Meridian (other McCarthy), The Violent Bear It Away by O'Connor, American Psycho by Ellis, In Cold Blood by Capote, The Killer Inside Me by Thompson, and Wise Blood by O'Connor. Our full guide covers 8 picks for fans of McCarthy's Appalachian gothic." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Infinite Jest by David Foster Wallace?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Infinite Jest include A Supposedly Fun Thing I'll Never Do Again, The Pale King, and Brief Interviews with Hideous Men (other DFW), White Noise by DeLillo, The Corrections by Franzen, Gravity's Rainbow by Pynchon, The Recognitions by Gaddis, and Consider the Lobster by Wallace. Our full guide covers 8 picks for fans of Wallace's maximalist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Libra by Don DeLillo?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Libra include White Noise, Underworld, and Falling Man (other DeLillo), American Tabloid by Ellroy, The Manchurian Candidate by Condon, Infinite Jest by Wallace, Gravity's Rainbow by Pynchon, and The Spy Who Came in from the Cold by le Carré. Our full guide covers 8 picks for fans of DeLillo's JFK conspiracy novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked V. by Thomas Pynchon?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like V. include The Crying of Lot 49, Gravity's Rainbow, and Vineland (other Pynchon), White Noise and Libra by DeLillo, Infinite Jest by Wallace, The Recognitions by Gaddis, and Against the Day by Pynchon. Our full guide covers 8 picks for fans of Pynchon's debut postmodern novel." },
     },
     {
       '@type': 'Question',
