@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Northanger Abbey Jane Austen Catherine Morland Henry Tilney Gothic parody Bath society 1817',
+    'books like Mansfield Park Jane Austen Fanny Price Edmund Bertram Crawford moral novel 1814',
+    'books like Evelina Fanny Burney Evelina Anville entrance into world epistolary novel 1778',
+    'books like Felix Holt the Radical George Eliot Mrs Transome reform act working class 1866',
+    'books like Cranford Elizabeth Gaskell Miss Matty Jenkyns Victorian women community sketches 1851',
     'books like Candide Voltaire Pangloss philosophical optimism Cunegonde best of all worlds satire 1759',
     'books like Joseph Andrews Henry Fielding Parson Adams picaresque comedy 1742 Richardson Pamela parody',
     'books like Humphry Clinker Tobias Smollett Bramble family epistolary British tour comedy 1771',
@@ -2675,6 +2680,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Northanger Abbey by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Northanger Abbey include Pride and Prejudice and Emma (both Austen), The Mysteries of Udolpho by Ann Radcliffe, Evelina by Fanny Burney, Persuasion by Austen, The Female Quixote by Charlotte Lennox, Mansfield Park by Austen, and Sense and Sensibility by Austen. Our full guide covers 8 picks for readers of Austen's Gothic parody." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Mansfield Park by Jane Austen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Mansfield Park include Middlemarch by George Eliot, Emma by Austen, Wide Sargasso Sea by Jean Rhys, Persuasion by Austen, The Portrait of a Lady by Henry James, Felix Holt the Radical by Eliot, North and South by Gaskell, and The Awakening by Kate Chopin. Our full guide covers 8 picks for readers of Austen's most serious novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Evelina by Fanny Burney?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Evelina include Pride and Prejudice by Jane Austen, Cecilia (also by Burney), Northanger Abbey by Austen, Pamela by Richardson, Emma by Austen, Clarissa by Richardson, Camilla by Burney, and Sense and Sensibility by Austen. Our full guide covers 8 picks for readers of Burney's founding novel of manners." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Felix Holt, the Radical by George Eliot?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Felix Holt include Middlemarch and The Mill on the Floss (both Eliot), North and South by Gaskell, Daniel Deronda by Eliot, Hard Times by Dickens, Shirley by Charlotte Brontë, Mary Barton by Gaskell, and Wives and Daughters by Gaskell. Our full guide covers 8 picks for readers of Eliot's political novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cranford by Elizabeth Gaskell?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cranford include North and South and Wives and Daughters (both Gaskell), Middlemarch by George Eliot, The Watsons by Jane Austen, Mary Barton by Gaskell, Barchester Towers by Trollope, Our Village by Mary Russell Mitford, and Ruth by Gaskell. Our full guide covers 8 picks for readers of Gaskell's miniature Victorian masterpiece." },
     },
     {
       '@type': 'Question',
