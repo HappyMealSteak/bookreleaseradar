@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Way We Live Now Anthony Trollope Melmotte financial fraud satire Victorian 1874',
+    'books like He Knew He Was Right Anthony Trollope Louis Trevelyan jealousy obsession dark 1868',
+    'books like Can You Forgive Her Anthony Trollope Alice Vavasor Lady Glencora Burgo Fitzgerald 1864',
+    "books like Duke's Children Anthony Trollope widower Palliser Isabel Boncassen Silverbridge 1879",
+    'books like Tenant of Wildfell Hall Anne Brontë Helen Graham Huntingdon feminist 1848',
     'books like The Warden Anthony Trollope Septimus Harding Barchester clerical sinecure 1855',
     'books like Barchester Towers Anthony Trollope Mrs Proudie Slope Eleanor Bold Signora 1857',
     'books like Phineas Finn Anthony Trollope parliament Victorian political novel Ireland MP 1867',
@@ -2695,6 +2700,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Way We Live Now by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Way We Live Now include Vanity Fair by Thackeray, Our Mutual Friend by Dickens, The Great Gatsby by Fitzgerald, Bleak House by Dickens, The Eustace Diamonds by Trollope, The Bonfire of the Vanities by Tom Wolfe, The Age of Innocence by Wharton, and Too Big to Fail by Sorkin. Our full guide covers 8 picks for readers of Trollope's great fraud satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked He Knew He Was Right by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like He Knew He Was Right include Othello by Shakespeare, Madame Bovary by Flaubert, The Way We Live Now by Trollope, The Tenant of Wildfell Hall by Anne Brontë, The Kreutzer Sonata by Tolstoy, Barchester Towers by Trollope, and Doctor Thorne by Trollope. Our full guide covers 8 picks for readers of Trollope's darkest novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Can You Forgive Her? by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Can You Forgive Her? include Phineas Finn and The Eustace Diamonds (both Trollope), Middlemarch by George Eliot, The Mill on the Floss by Eliot, The Prime Minister by Trollope, He Knew He Was Right by Trollope, The Duke's Children by Trollope, and The Portrait of a Lady by Henry James. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Duke's Children by Anthony Trollope?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Duke's Children include The Prime Minister and Can You Forgive Her? (both Trollope), Middlemarch by George Eliot, Fathers and Sons by Turgenev, The Ambassadors by Henry James, Phineas Redux by Trollope, The Way We Live Now by Trollope, and Washington Square by James. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Tenant of Wildfell Hall by Anne Brontë?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Tenant of Wildfell Hall include Jane Eyre by Charlotte Brontë, Middlemarch by George Eliot, North and South by Gaskell, Agnes Grey by Anne Brontë, A Doll's House by Ibsen, Wuthering Heights by Emily Brontë, The Awakening by Kate Chopin, and The Yellow Wallpaper by Charlotte Perkins Gilman. Our full guide covers 8 picks." },
     },
     {
       '@type': 'Question',
