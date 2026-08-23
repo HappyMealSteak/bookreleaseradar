@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Silmarillion J.R.R. Tolkien Middle-earth mythology First Age',
+    'books like The Chronicles of Narnia C.S. Lewis Aslan Narnia wardrobe',
+    'books like A Wizard of Earthsea Ursula Le Guin Ged Earthsea magic',
+    "books like Wise Blood Flannery O'Connor Hazel Motes Church Without Christ",
+    'books like The Name of the Wind Patrick Rothfuss Kvothe Kingkiller Chronicle',
     'books like The Lord of the Rings J.R.R. Tolkien Fellowship Ring Frodo Sauron',
     'books like The Hobbit J.R.R. Tolkien Bilbo Baggins dragon Smaug dwarves',
     'books like The Magic Barrel Bernard Malamud Jewish stories Brooklyn National Book Award',
@@ -2490,6 +2495,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Silmarillion by J.R.R. Tolkien?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Silmarillion include The Children of Húrin and Beren and Lúthien (other Tolkien posthumous mythology), The Iliad by Homer, The Prose Edda by Snorri Sturluson, A Wizard of Earthsea by Le Guin, A Song of Ice and Fire by Martin, and Unfinished Tales by Tolkien. Our full guide covers 8 picks for fans of Tolkien's Middle-earth mythology." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Chronicles of Narnia by C.S. Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Chronicles of Narnia include The Lord of the Rings by Tolkien, The Screwtape Letters and Mere Christianity by C.S. Lewis, His Dark Materials by Philip Pullman, A Wizard of Earthsea by Le Guin, The Phantom Tollbooth by Juster, and The Golden Compass by Pullman. Our full guide covers 8 picks for fans of Lewis's Narnia fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Wizard of Earthsea by Ursula K. Le Guin?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Wizard of Earthsea include The Tombs of Atuan, The Farthest Shore, and Tehanu (the Earthsea cycle), The Left Hand of Darkness and The Dispossessed by Le Guin, Jonathan Strange & Mr Norrell by Clarke, The Lord of the Rings by Tolkien, and The Name of the Wind by Rothfuss. Our full guide covers 8 picks for fans of Le Guin's Earthsea." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Wise Blood by Flannery O'Connor?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wise Blood include A Good Man Is Hard to Find, The Violent Bear It Away, and Everything That Rises Must Converge (other O'Connor), Blood Meridian by Cormac McCarthy, The Sound and the Fury by Faulkner, The Power and the Glory by Graham Greene, and Lolita by Nabokov. Our full guide covers 8 picks for fans of O'Connor's southern gothic fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Name of the Wind by Patrick Rothfuss?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Name of the Wind include The Wise Man's Fear and The Slow Regard of Silent Things (the Kingkiller Chronicle), The Way of Kings by Sanderson, The Lies of Locke Lamora by Lynch, The Lord of the Rings by Tolkien, A Wizard of Earthsea by Le Guin, Jonathan Strange & Mr Norrell by Clarke, and The Blade Itself by Abercrombie. Our full guide covers 8 picks for fans of Rothfuss." },
     },
     {
       '@type': 'Question',
