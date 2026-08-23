@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like A Month in the Country JL Carr Tom Birkin Yorkshire church fresco WWI summer',
+    'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
+    'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
+    'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Dept of Speculation Jenny Offill fragmented marriage motherhood infidelity lyrical',
     'books like Invisible Man Ralph Ellison Black narrator Harlem racial identity National Book Award',
     'books like White Teeth Zadie Smith multicultural London Willesden Iqbal Jones five decades',
     'books like The Remains of the Day Kazuo Ishiguro Stevens butler Darlington Hall regret duty',
@@ -2570,6 +2575,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Month in the Country by J.L. Carr?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Month in the Country include The Remains of the Day by Kazuo Ishiguro, Stoner by John Williams, Gilead by Marilynne Robinson, The Go-Between by L.P. Hartley, Ethan Frome by Edith Wharton, Never Let Me Go by Kazuo Ishiguro, The Making of the English Landscape by W.G. Hoskins, and A Pale View of Hills by Kazuo Ishiguro. Our full guide covers 8 picks for readers of Carr's Yorkshire summer masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Unconsoled by Kazuo Ishiguro?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Unconsoled include The Remains of the Day and Never Let Me Go and The Buried Giant (all Ishiguro), The Trial and The Castle (both Kafka), Remainder by Tom McCarthy, Mrs Dalloway by Virginia Woolf, and The Metamorphosis by Kafka. Our full guide covers 8 picks for readers of Ishiguro's dream-logic masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked On Beauty by Zadie Smith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like On Beauty include White Teeth, NW, and Swing Time (all Zadie Smith), Howards End by E.M. Forster, Lucky Jim by Kingsley Amis, The Human Stain by Philip Roth, My Brilliant Friend by Elena Ferrante, and Prep by Curtis Sittenfeld. Our full guide covers 8 picks for readers of Smith's Orange Prize-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Normal People by Sally Rooney?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dept. of Speculation by Jenny Offill?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dept. of Speculation include Weather and Last Things (both Offill), Normal People by Sally Rooney, My Year of Rest and Relaxation by Ottessa Moshfegh, A Grief Observed by C.S. Lewis, The Waves by Virginia Woolf, My Brilliant Friend by Elena Ferrante, and A Lover's Discourse by Roland Barthes. Our full guide covers 8 picks for readers of Offill's fragmented marriage novel." },
     },
     {
       '@type': 'Question',
