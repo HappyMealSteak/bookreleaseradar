@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Babbitt Sinclair Lewis Zenith City George Babbitt conformity boosterism',
+    'books like Main Street Sinclair Lewis Carol Kennicott Gopher Prairie small town',
+    'books like Arrowsmith Sinclair Lewis Martin Arrowsmith doctor idealism medicine',
+    'books like Elmer Gantry Sinclair Lewis fraudulent evangelist American religion',
+    'books like The Counterlife Philip Roth Nathan Zuckerman alternative lives',
     'books like Confessions of Zeno Italo Svevo Trieste psychoanalysis unreliable narrator',
     'books like The Radetzky March Joseph Roth Habsburg empire Austrian decline',
     'books like The Recognitions William Gaddis forgery postmodern American novel',
@@ -2470,6 +2475,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Babbitt by Sinclair Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Babbitt include Main Street, Arrowsmith, Elmer Gantry, and It Can't Happen Here (other Lewis), The Great Gatsby by Fitzgerald, Winesburg Ohio by Anderson, The Man in the Gray Flannel Suit by Wilson, and Death of a Salesman by Miller. Our full guide covers 8 picks for fans of Lewis's conformity satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Main Street by Sinclair Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Main Street include Babbitt and Arrowsmith (other Lewis), Winesburg Ohio by Anderson, My Ántonia by Cather, Middlemarch by Eliot, The Awakening by Chopin, Madame Bovary by Flaubert, and Flaubert's Parrot by Barnes. Our full guide covers 8 picks for fans of Lewis's small-town satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Arrowsmith by Sinclair Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Arrowsmith include Babbitt and Main Street (other Lewis), The Citadel by Cronin, Of Human Bondage by Maugham, Microbe Hunters by Paul de Kruif, A Farewell to Arms by Hemingway, Doctor Zhivago by Pasternak, and Being Mortal by Gawande. Our full guide covers 8 picks for fans of Lewis's idealist doctor novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Elmer Gantry by Sinclair Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Elmer Gantry include Babbitt and It Can't Happen Here (other Lewis), Wise Blood by O'Connor, The Poisonwood Bible by Kingsolver, Inherit the Wind by Lawrence and Lee, The Power and the Glory by Greene, Blood Meridian by McCarthy, and A Prayer for Owen Meany by Irving. Our full guide covers 8 picks for fans of Lewis's religious satire." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Counterlife by Philip Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Counterlife include The Ghost Writer, American Pastoral, and Operation Shylock (other Roth), Portnoy's Complaint by Roth, Lolita by Nabokov, Herzog by Bellow, The Human Stain by Roth, and White Noise by DeLillo. Our full guide covers 8 picks for fans of Roth's experimental Zuckerman novel." },
     },
     {
       '@type': 'Question',
