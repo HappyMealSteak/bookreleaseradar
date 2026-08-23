@@ -5992,6 +5992,88 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-catcher-in-the-rye',
+    intro: "J.D. Salinger's The Catcher in the Rye (1951) is the defining coming-of-age novel in American literature — Holden Caulfield's three days of wandering New York after being expelled from Pencey Prep, his fear of adulthood, his contempt for 'phonies,' and his vision of himself as a catcher who keeps children from falling off the cliff into the adult world. Published in 1951, it became one of the bestselling novels in history and the most frequently banned novel in American schools. Salinger never published another novel; Franny and Zooey (1961), Raise High the Roof Beam, Carpenters and Seymour: An Introduction (1963), and Nine Stories (1953) complete the essential Salinger canon, all featuring the Glass family or the same preoccupations with spiritual authenticity and the corruption of adult life.",
+    startWith: 'The Catcher in the Rye',
+    books: [
+      { title: 'The Catcher in the Rye', author: 'J.D. Salinger', year: 1951, note: 'The main novel — Holden Caulfield in New York, three days, the phonies, the carousel, the ducks in Central Park.' },
+      { title: 'Franny and Zooey', author: 'J.D. Salinger', year: 1961, note: 'The Glass family companion — Franny\'s spiritual crisis and Zooey\'s response, the same preoccupation with authentic experience and spiritual corruption, different in tone but essential.' },
+      { title: 'Nine Stories', author: 'J.D. Salinger', year: 1953, note: 'The story collection — "A Perfect Day for Bananafish," "For Esmé — with Love and Squalor," the finest Salinger short fiction, including the first appearances of the Glass family.' },
+      { title: 'Raise High the Roof Beam, Carpenters', author: 'J.D. Salinger', year: 1963, note: 'The Glass novella companion — Buddy Glass narrating Seymour\'s wedding day, required reading for anyone who wants the full Glass family arc.' },
+    ],
+    faq: [
+      { q: 'Is The Catcher in the Rye a series or standalone?', a: "The novel stands alone — Holden Caulfield does not appear in other Salinger works. But Salinger's other books feature the Glass family with the same themes and preoccupations, and Nine Stories, Franny and Zooey, and Raise High the Roof Beam form an essential companion set." },
+      { q: 'Why is The Catcher in the Rye frequently banned?', a: "The novel has been banned from schools most often for its language (frequent profanity), sexual references, and what some readers consider its encouragement of rebellion against authority and conventional values. It consistently ranks among the most challenged books in the United States." },
+      { q: 'Should I read Franny and Zooey before or after Catcher in the Rye?', a: "Catcher first — it's Salinger's most accessible and most famous novel and the best entry point to his world. Franny and Zooey is richer for readers who already know Salinger's preoccupations from Catcher." },
+    ],
+  },
+  {
+    slug: 'franny-and-zooey',
+    intro: "J.D. Salinger's Franny and Zooey (1961) is the most sustained treatment of the Glass family — Franny Glass's spiritual breakdown during a college weekend, and her brother Zooey's attempt to pull her back from it in their mother's bathroom. The two pieces were published separately in The New Yorker (Franny in 1955, Zooey in 1957) before being collected as a book; together they form Salinger's most complex and most debated work. Raise High the Roof Beam, Carpenters and Seymour: An Introduction (1963) is the companion Glass family volume, narrating Seymour's wedding and Buddy's remembrance of him; Nine Stories (1953) contains the first appearances of the Glass children. Salinger published nothing else after 1965; he lived in isolation in Cornish, New Hampshire until his death in 2010.",
+    startWith: 'Franny and Zooey',
+    books: [
+      { title: 'Franny and Zooey', author: 'J.D. Salinger', year: 1961, note: 'The main book — Franny\'s crisis at the Yale game, Zooey\'s bathroom monologue, the Fat Lady, the two novellas that form the Glass family heart.' },
+      { title: 'The Catcher in the Rye', author: 'J.D. Salinger', year: 1951, note: 'The essential predecessor — Holden Caulfield is the young Salinger voice, and the preoccupations with phoniness and spiritual authenticity that drive Franny and Zooey start here.' },
+      { title: 'Raise High the Roof Beam, Carpenters', author: 'J.D. Salinger', year: 1963, note: 'The companion Glass volume — Buddy Glass narrating Seymour\'s wedding day and Buddy\'s remembrance, the necessary continuation of the Glass world after Franny and Zooey.' },
+      { title: 'Nine Stories', author: 'J.D. Salinger', year: 1953, note: 'The story collection — "A Perfect Day for Bananafish" (Seymour\'s suicide), "For Esmé," the first Glass appearances and the essential Salinger short fiction.' },
+    ],
+    faq: [
+      { q: "Can I read Franny and Zooey without reading Catcher in the Rye first?", a: "Yes — the Glass family world is independent of Holden Caulfield. But reading Catcher first gives you the essential Salinger preoccupations (authenticity, phoniness, spiritual longing) in their most accessible form." },
+      { q: "What is the 'Fat Lady' about?", a: "The Fat Lady is Zooey's way of explaining to Franny how to reconnect with the world — every performance, even for a small audience, should be done for the Fat Lady, who turns out to be Christ himself. It's the novel's climactic spiritual insight." },
+      { q: "Should I read Franny before Zooey?", a: "They are designed to be read in order — Franny sets up the crisis that Zooey resolves. Salinger insisted the two pieces had to be published together precisely because neither was complete without the other." },
+    ],
+  },
+  {
+    slug: 'nine-stories-salinger',
+    intro: "J.D. Salinger's Nine Stories (1953) is one of the great American story collections — containing 'A Perfect Day for Bananafish,' 'Uncle Wiggily in Connecticut,' 'For Esmé — with Love and Squalor,' 'The Laughing Man,' and five others that collectively introduce the Glass family world and the Salinger preoccupations with spiritual authenticity, wartime trauma, and childhood innocence that The Catcher in the Rye had established two years earlier. 'A Perfect Day for Bananafish' introduces Seymour Glass (his suicide), while 'Down at the Dinghy' and 'Teddy' introduce other preoccupations that flower in Franny and Zooey (1961) and Raise High the Roof Beam, Carpenters (1963). Each story was first published in The New Yorker between 1948 and 1953; this is Salinger's only story collection.",
+    startWith: 'Nine Stories',
+    books: [
+      { title: 'Nine Stories', author: 'J.D. Salinger', year: 1953, note: 'The main collection — "Bananafish," "For Esmé," "The Laughing Man," nine stories showing Salinger\'s range from wartime trauma to Glass family beginnings.' },
+      { title: 'The Catcher in the Rye', author: 'J.D. Salinger', year: 1951, note: 'The contemporary novel — Holden Caulfield\'s New York wandering, the other great Salinger work of the same moment, essential companion reading.' },
+      { title: 'Franny and Zooey', author: 'J.D. Salinger', year: 1961, note: 'The Glass family continuation — Franny\'s spiritual crisis and Zooey\'s resolution, the full development of the Seymour/Glass world that Nine Stories begins.' },
+      { title: 'Raise High the Roof Beam, Carpenters', author: 'J.D. Salinger', year: 1963, note: 'The final Glass volume — the last Salinger to be published, completing the Glass story.' },
+    ],
+    faq: [
+      { q: "Which story in Nine Stories should I read first?", a: "'A Perfect Day for Bananafish' is the place to start — it introduces Seymour Glass and the Glass family world in a single devastating story that many readers consider the finest short story Salinger ever wrote." },
+      { q: "What is the connection between Nine Stories and the Glass family novels?", a: "'A Perfect Day for Bananafish,' 'Down at the Dinghy,' and 'For Esmé — with Love and Squalor' all connect to the Glass family world developed in Franny and Zooey and Raise High the Roof Beam. Reading them in publication order shows Salinger building the Glass family across two decades." },
+      { q: "Is the Zen epigraph 'We know the sound of two hands clapping' important?", a: "The epigraph — 'We know the sound of two hands clapping. But what is the sound of one hand clapping?' — is a Zen koan that frames the whole collection's interest in spiritual paradox, authenticity, and the impossibility of communicating genuine experience." },
+    ],
+  },
+  {
+    slug: 'a-separate-peace',
+    intro: "John Knowles's A Separate Peace (1959) is one of the essential coming-of-age novels in American literature — Gene Forrester and Phineas ('Finny') at the Devon School in New Hampshire during the Second World War, the friendship between an intellectual and an athlete, and the moment of jealousy that defines Gene's life. Knowles wrote the novel in part from his own experience at Phillips Exeter Academy, and the book became one of the most widely taught novels in American secondary schools — a standard part of the curriculum for decades. There are no sequels; Knowles wrote a second Devon novel (Peace Breaks Out, 1981) set in the same school, but it is entirely independent and much less celebrated.",
+    startWith: 'A Separate Peace',
+    books: [
+      { title: 'A Separate Peace', author: 'John Knowles', year: 1959, note: 'The main novel — Gene and Finny at Devon, the tree, the fall, the trial, the war as backdrop to an interior catastrophe.' },
+      { title: 'The Catcher in the Rye', author: 'J.D. Salinger', year: 1951, note: 'The contemporary companion — Holden Caulfield at Pencey Prep, the other great boarding school novel of the same era and the same preoccupation with adolescent authenticity.' },
+      { title: 'Lord of the Flies', author: 'William Golding', year: 1954, note: 'The darker complement — boys without adult supervision, the same wartime backdrop, civilization as thin cover for violence, the British counterpart to A Separate Peace.' },
+      { title: "Of Mice and Men", author: 'John Steinbeck', year: 1937, note: 'The American novella of friendship and its limits — George and Lennie like Gene and Finny, the story of a friendship destroyed by the gap between what each man is and what the other needs him to be.' },
+      { title: 'The Perks of Being a Wallflower', author: 'Stephen Chbosky', year: 1999, note: 'The contemporary heir to A Separate Peace — Charlie at high school, the same adolescent intensity and emotional vulnerability, the novel most directly in the tradition Knowles established.' },
+    ],
+    faq: [
+      { q: 'Is A Separate Peace autobiographical?', a: "Partly — Knowles based Devon on Phillips Exeter Academy, where he was a student, and Gene's academic-versus-athletic tension has autobiographical roots. But the central incident (the fall from the tree) and Gene's jealousy are fictional." },
+      { q: "What does 'A Separate Peace' mean as a title?", a: "The title refers to the private peace Gene makes with himself — separate from the larger war happening around him — and also to the way each character creates their own psychological armistice with the violence and uncertainty of the war years." },
+      { q: "Why is A Separate Peace so widely taught in schools?", a: "Because it addresses themes of jealousy, friendship, innocence, and the transition to adulthood in a form that is short, clear, and emotionally accessible, while also being rich enough for sustained literary analysis. It was one of the first novels designed for younger readers to be taken seriously as literature." },
+    ],
+  },
+  {
+    slug: 'the-flounder-grass',
+    intro: "Günter Grass's The Flounder (Der Butt, 1977) is his most ambitious post-Danzig Trilogy novel — a vast, feminist-inflected history of patriarchy narrated through the conceit of a talking flounder (borrowed from the Grimm fairy tale 'The Fisherman and His Wife') who serves as advisor to men from the Neolithic to the present. Grass traces the prehistory of Danzig through eleven cooks across the centuries, exploring the relationship between nourishment, power, and gender in a novel that was immediately recognized as a major work and that won the Georg Büchner Prize. The Flounder is more explicitly political than the Danzig Trilogy and more formally inventive — mixing recipes, poems, essays, and narrative — but shares the Danzig setting and the encyclopedic ambition that characterize all of Grass's major work.",
+    startWith: 'The Flounder',
+    books: [
+      { title: 'The Flounder', author: 'Günter Grass', year: 1977, note: 'The main novel — the talking flounder advising men through the centuries, eleven cooks, the history of patriarchy and nourishment from the Neolithic to the present.' },
+      { title: 'The Tin Drum', author: 'Günter Grass', year: 1959, note: 'The foundational Grass — Oskar Matzerath, required reading before The Flounder to understand the Danzig world Grass is working in and expanding.' },
+      { title: 'Dog Years', author: 'Günter Grass', year: 1963, note: 'The formal predecessor — the Danzig Trilogy\'s most ambitious and formally complex novel, the encyclopedic ambition that The Flounder takes even further.' },
+      { title: "The Tin Drum film (1979)", author: 'Volker Schlöndorff', year: 1979, note: 'The Oscar-winning adaptation — useful visual companion to the Danzig world Grass inhabits across his major fiction.' },
+      { title: 'Crabwalk', author: 'Günter Grass', year: 2002, note: 'The late Grass — finally addressing German wartime civilian suffering through the sinking of the Wilhelm Gustloff, essential reading for the full Grass arc.' },
+    ],
+    faq: [
+      { q: 'Do I need to read the Danzig Trilogy before The Flounder?', a: "Reading The Tin Drum first gives you essential context for Grass's Danzig world and his formal methods. The Flounder can be read independently, but it rewards readers who already know the earlier novels." },
+      { q: 'Is The Flounder a feminist novel?', a: "Grass intended it as a contribution to feminist debates of the 1970s — the feminist tribunal that tries the Flounder is central to the novel's structure. Reception was mixed: some readers found it a genuine feminist work, others found its male author's feminist appropriation problematic." },
+      { q: 'What is the connection to the Grimm fairy tale?', a: "Grass borrowed the talking flounder from 'The Fisherman and His Wife' — in the Grimm tale, the flounder is a prince who grants wishes to an increasingly greedy fishwife; Grass inverts this to make the flounder the advisor to ambitious men, rewriting the tale's gender dynamics." },
+    ],
+  },
+  {
     slug: 'the-chosen-potok',
     intro: "Chaim Potok's The Chosen (1967) is the foundational novel of American Jewish religious fiction — Danny Saunders, the brilliant son of a Hasidic rebbe, and Reuven Malter, the Modern Orthodox son of a Talmud scholar, who become friends after a baseball game in wartime Brooklyn. Potok, a Conservative rabbi and scholar, wrote The Chosen as a record of Jewish America in the 1940s — the conflict between Hasidic tradition and Modern Orthodox rationalism, between Zionism and anti-Zionism, between fathers and sons. It was an immediate bestseller, the first novel by an American Jewish writer to enter both the Jewish and secular mainstream simultaneously. The Promise (1969), the direct sequel following Danny and Reuven through graduate school and early professional life, continues the story; Danny Saunders reappears in The Gift of Asher Lev (1990) as an adult character.",
     startWith: 'The Chosen',

@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Catcher in the Rye J.D. Salinger Holden Caulfield phonies New York',
+    'books like Franny and Zooey J.D. Salinger Glass family spiritual crisis',
+    'books like Nine Stories J.D. Salinger Bananafish Esmé Glass family stories',
+    'books like A Separate Peace John Knowles Gene Finny Devon School friendship',
+    'books like The Flounder Günter Grass talking flounder patriarchy history',
     'books like The Chosen Chaim Potok Danny Saunders Reuven Malter Hasidic Brooklyn',
     'books like My Name Is Asher Lev Chaim Potok Hasidic artist Brooklyn crucifixion',
     'books like Cat and Mouse Günter Grass Mahlke Danzig Adam apple Knight Cross',
@@ -2480,6 +2485,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Catcher in the Rye by J.D. Salinger?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Catcher in the Rye include Franny and Zooey and Nine Stories (other Salinger), A Separate Peace by Knowles, The Perks of Being a Wallflower by Chbosky, To Kill a Mockingbird by Lee, Lord of the Flies by Golding, The Bell Jar by Plath, and Portrait of the Artist as a Young Man by Joyce. Our full guide covers 8 picks for fans of Salinger's coming-of-age novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Franny and Zooey by J.D. Salinger?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Franny and Zooey include The Catcher in the Rye, Nine Stories, and Raise High the Roof Beam (other Salinger), The Way of a Pilgrim, Steppenwolf by Hesse, The Bell Jar by Plath, Siddhartha by Hesse, and A Separate Peace by Knowles. Our full guide covers 8 picks for fans of Salinger's Glass family novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nine Stories by J.D. Salinger?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nine Stories include The Catcher in the Rye and Franny and Zooey (other Salinger), The Complete Stories by O'Connor, Dubliners by Joyce, The Magic Barrel by Malamud, Winesburg Ohio by Anderson, Selected Stories by Munro, and Brief Interviews with Hideous Men by Wallace. Our full guide covers 8 picks for fans of Salinger's story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Separate Peace by John Knowles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Separate Peace include The Catcher in the Rye by Salinger, Lord of the Flies by Golding, Dead Poets Society by Kleinbaum, Goodbye Mr. Chips by Hilton, The Perks of Being a Wallflower by Chbosky, The Chocolate War by Cormier, To Kill a Mockingbird by Lee, and Prep by Sittenfeld. Our full guide covers 8 picks for fans of Knowles's school coming-of-age novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Flounder by Günter Grass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Flounder include The Tin Drum, Dog Years, and Crabwalk (other Grass), One Hundred Years of Solitude by García Márquez, Gravity's Rainbow by Pynchon, The White Hotel by Thomas, Possession by Byatt, and Midnight's Children by Rushdie. Our full guide covers 8 picks for fans of Grass's encyclopedic novel of patriarchy." },
     },
     {
       '@type': 'Question',
