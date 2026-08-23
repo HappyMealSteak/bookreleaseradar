@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like Vicar of Wakefield Oliver Goldsmith Primrose family providential comedy 1766 Goethe',
+    'books like Barnaby Rudge Charles Dickens Gordon Riots 1780 Grip raven Newgate burning 1841',
+    'books like Dombey and Son Charles Dickens Paul Dombey Florence Captain Cuttle commercial pride 1846',
+    'books like Nicholas Nickleby Charles Dickens Squeers Yorkshire schools Crummles theatrical 1838',
+    'books like Martin Chuzzlewit Charles Dickens Pecksniff Mrs Gamp selfishness satire America 1843',
     'books like Northanger Abbey Jane Austen Catherine Morland Henry Tilney Gothic parody Bath society 1817',
     'books like Mansfield Park Jane Austen Fanny Price Edmund Bertram Crawford moral novel 1814',
     'books like Evelina Fanny Burney Evelina Anville entrance into world epistolary novel 1778',
@@ -2680,6 +2685,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Vicar of Wakefield by Oliver Goldsmith?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Vicar of Wakefield include She Stoops to Conquer (also Goldsmith), Tom Jones by Henry Fielding, The Sorrows of Young Werther by Goethe, Joseph Andrews by Fielding, The Pickwick Papers by Dickens, Humphry Clinker by Smollett, The Tenant of Wildfell Hall by Anne Brontë, and Candide by Voltaire. Our full guide covers 8 picks for readers of Goldsmith's warmly comic providential novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Barnaby Rudge by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Barnaby Rudge include A Tale of Two Cities (also Dickens), The Raven by Poe, Old Mortality by Walter Scott, Bleak House by Dickens, The Trumpet-Major by Hardy, Romola by George Eliot, The Old Curiosity Shop by Dickens, and Nicholas Nickleby by Dickens. Our full guide covers 8 picks for readers of Dickens's Gordon Riots novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dombey and Son by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dombey and Son include Bleak House and Our Mutual Friend (both Dickens), Middlemarch by George Eliot, The Wings of the Dove by Henry James, Vanity Fair by Thackeray, Little Dorrit by Dickens, The Way We Live Now by Trollope, and Howards End by E.M. Forster. Our full guide covers 8 picks for readers of Dickens's mature commercial-pride novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Nicholas Nickleby by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Nicholas Nickleby include Oliver Twist and David Copperfield (both Dickens), Tom Jones by Henry Fielding, Great Expectations by Dickens, Barnaby Rudge by Dickens, The Pickwick Papers by Dickens, Martin Chuzzlewit by Dickens, and Roderick Random by Tobias Smollett. Our full guide covers 8 picks for readers of Dickens's picaresque social novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Martin Chuzzlewit by Charles Dickens?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Martin Chuzzlewit include Bleak House by Dickens, Vanity Fair by Thackeray, Tartuffe by Molière, Middlemarch by George Eliot, The American by Henry James, Our Mutual Friend by Dickens, Dombey and Son by Dickens, and Notes from Underground by Dostoevsky. Our full guide covers 8 picks for readers of Dickens's satire of selfishness." },
     },
     {
       '@type': 'Question',
