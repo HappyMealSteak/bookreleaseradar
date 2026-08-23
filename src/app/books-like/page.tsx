@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Warden Anthony Trollope Septimus Harding Barchester clerical sinecure 1855',
+    'books like Barchester Towers Anthony Trollope Mrs Proudie Slope Eleanor Bold Signora 1857',
+    'books like Phineas Finn Anthony Trollope parliament Victorian political novel Ireland MP 1867',
+    'books like The Prime Minister Anthony Trollope Duke Omnium Lady Glencora Lopez coalition 1875',
+    'books like Eustace Diamonds Anthony Trollope Lizzie Eustace diamonds stolen Palliser 1871',
     'books like Pickwick Papers Charles Dickens Sam Weller Mr Pickwick Fleet Prison picaresque 1836',
     'books like Old Curiosity Shop Charles Dickens Little Nell death Quilp Dick Swiveller 1840',
     'books like Little Dorrit Charles Dickens Amy Dorrit Marshalsea Prison Circumlocution Office 1855',
@@ -2690,6 +2695,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Warden by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Warden include Barchester Towers and The Last Chronicle of Barset (both Trollope), Middlemarch by George Eliot, The Eustace Diamonds by Trollope, Cranford by Gaskell, The Way We Live Now by Trollope, Wives and Daughters by Gaskell, and A Small House at Allington by Trollope. Our full guide covers 8 picks for readers of Trollope's Barchester opening." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Barchester Towers by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Barchester Towers include The Warden and The Last Chronicle of Barset (both Trollope), Middlemarch by George Eliot, The Eustace Diamonds by Trollope, Cranford by Gaskell, The Vicar of Wakefield by Goldsmith, Doctor Thorne by Trollope, and He Knew He Was Right by Trollope. Our full guide covers 8 picks for readers of Trollope's cathedral comedy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Phineas Finn by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Phineas Finn include Phineas Redux and The Prime Minister (both Trollope), Can You Forgive Her? by Trollope, The Way We Live Now by Trollope, The Eustace Diamonds by Trollope, He Knew He Was Right by Trollope, and The Duke's Children by Trollope. Our full guide covers 8 picks for readers of Trollope's parliamentary novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Prime Minister by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Prime Minister include Phineas Redux and The Duke's Children (both Trollope), Middlemarch by George Eliot, The Way We Live Now by Trollope, Phineas Finn by Trollope, Democracy by Henry Adams, The Remains of the Day by Ishiguro, and Can You Forgive Her? by Trollope. Our full guide covers 8 picks for readers of Trollope's political integrity novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Eustace Diamonds by Anthony Trollope?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Eustace Diamonds include Vanity Fair by Thackeray, The Woman in White by Collins, Phineas Redux by Trollope, The Prime Minister by Trollope, The Portrait of a Lady by Henry James, He Knew He Was Right by Trollope, The Way We Live Now by Trollope, and Can You Forgive Her? by Trollope. Our full guide covers 8 picks for readers of Trollope's Lizzie Eustace novel." },
     },
     {
       '@type': 'Question',
