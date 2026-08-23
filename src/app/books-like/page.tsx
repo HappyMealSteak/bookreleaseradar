@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Chosen Chaim Potok Danny Saunders Reuven Malter Hasidic Brooklyn',
+    'books like My Name Is Asher Lev Chaim Potok Hasidic artist Brooklyn crucifixion',
+    'books like Cat and Mouse Günter Grass Mahlke Danzig Adam apple Knight Cross',
+    'books like Dog Years Günter Grass Amsel Matern Danzig scarecrows three narrators',
+    'books like Dodsworth Sinclair Lewis Sam Dodsworth Europe marriage Zenith City',
     'books like Babbitt Sinclair Lewis Zenith City George Babbitt conformity boosterism',
     'books like Main Street Sinclair Lewis Carol Kennicott Gopher Prairie small town',
     'books like Arrowsmith Sinclair Lewis Martin Arrowsmith doctor idealism medicine',
@@ -2475,6 +2480,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Chosen by Chaim Potok?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Chosen include The Promise and My Name Is Asher Lev (other Potok), The Fixer and The Assistant by Malamud, Herzog by Bellow, Call It Sleep by Henry Roth, Night by Wiesel, and The Talmud by Norman Solomon. Our full guide covers 8 picks for fans of Potok's Hasidic Brooklyn novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked My Name Is Asher Lev by Chaim Potok?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Name Is Asher Lev include The Gift of Asher Lev and The Chosen (other Potok), The Moon and Sixpence by Maugham, Portrait of the Artist as a Young Man by Joyce, Lust for Life by Irving Stone, The Fountainhead by Rand, The Remains of the Day by Ishiguro, and Beautiful Boy by Sheff. Our full guide covers 8 picks for fans of Potok's Hasidic artist novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Cat and Mouse by Günter Grass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Cat and Mouse include The Tin Drum and Dog Years (other Danzig Trilogy), The Reader by Schlink, Alone in Berlin by Fallada, The Diary of a Young Girl by Anne Frank, Fatelessness by Kertész, Crabwalk by Grass, and All Quiet on the Western Front by Remarque. Our full guide covers 8 picks for fans of Grass's Danzig novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dog Years by Günter Grass?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dog Years include The Tin Drum and Cat and Mouse (other Danzig Trilogy), The Reader by Schlink, Alone in Berlin by Fallada, Gravity's Rainbow by Pynchon, If This Is a Man by Primo Levi, and Berlin Alexanderplatz by Döblin. Our full guide covers 8 picks for fans of Grass's three-narrator Danzig novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Dodsworth by Sinclair Lewis?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Dodsworth include Babbitt and Main Street (other Lewis), The Sun Also Rises by Hemingway, The Portrait of a Lady and The Ambassadors by James, A Farewell to Arms by Hemingway, The Beautiful and Damned by Fitzgerald, and Death in Venice by Mann. Our full guide covers 8 picks for fans of Lewis's American-in-Europe novel." },
     },
     {
       '@type': 'Question',
