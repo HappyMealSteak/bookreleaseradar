@@ -5992,6 +5992,70 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'tenth-of-december',
+    intro: "George Saunders's Tenth of December (2013) is his most celebrated story collection — ten stories set in a recognizable near-future America, combining Saunders's comic satirical voice with genuine emotional depth. The title story, about a middle-aged man planning to end his life and a boy who interrupts him, is widely considered one of the finest American stories of the decade. Saunders won the Man Booker Prize for his novel Lincoln in the Bardo (2017), but most readers encounter him first through his short fiction, which appeared in The New Yorker and elsewhere. His influence on American short story writing since the 1990s has been enormous.",
+    startWith: 'Tenth of December',
+    books: [
+      { title: 'Tenth of December', author: 'George Saunders', year: 2013, note: "The essential Saunders — ten stories, including 'The Semplica Girl Diaries,' 'Home,' 'Escape from Spiderhead,' and the title story, covering the full range of his satirical and empathic voice." },
+      { title: 'Lincoln in the Bardo', author: 'George Saunders', year: 2017, note: "The novel — Abraham Lincoln grieving his son Willie in the Georgetown graveyard, narrated by hundreds of ghost voices, the Man Booker Prize winner, Saunders's only novel." },
+      { title: 'Pastoralia', author: 'George Saunders', year: 2000, note: "The earlier story collection — 'Pastoralia,' 'Sea Oak,' 'Winky,' some of Saunders's finest and funniest stories, essential after Tenth of December." },
+      { title: 'CivilWarLand in Bad Decline', author: 'George Saunders', year: 1996, note: "The debut collection — the first Saunders stories, the theme park satires, the stories that introduced his voice to readers and editors in the mid-1990s." },
+    ],
+    faq: [
+      { q: 'What is the best Saunders story to read first?', a: "Most readers and critics recommend starting with 'The Semplica Girl Diaries' or 'Tenth of December' from the 2013 collection as a first Saunders story — they show the full range of his voice (the diary-style formal experiment in 'Semplica Girls,' the directness of emotion in 'Tenth of December') without the satire being so thick that the reader misses the empathy. 'Sea Oak' from Pastoralia is the other most commonly recommended first Saunders story, a zombie horror comedy that shows the earlier, sharper satirical Saunders." },
+    ],
+  },
+  {
+    slug: 'lincoln-in-the-bardo',
+    intro: "George Saunders's Lincoln in the Bardo (2017) is his debut novel — Abraham Lincoln visiting the Georgetown graveyard where his eleven-year-old son Willie has been buried, as hundreds of ghosts (souls in the Tibetan Buddhist 'bardo' state between death and rebirth) watch and comment. Saunders narrates through a polyphony of ghost voices interspersed with historical accounts of Lincoln's grief, often contradicting each other. It won the Man Booker Prize in 2017 and is one of the most formally inventive American novels of the decade — a novel that is both a meditation on grief and an examination of Lincoln's character at a decisive moment in the Civil War.",
+    startWith: 'Lincoln in the Bardo',
+    books: [
+      { title: 'Lincoln in the Bardo', author: 'George Saunders', year: 2017, note: "The complete novel — approximately 350 pages, the polyphonic ghost-voice structure becoming easier to navigate as the novel proceeds; most readers find it easier than it initially appears." },
+      { title: 'Tenth of December', author: 'George Saunders', year: 2013, note: "The essential story collection companion — the best introduction to Saunders's voice and the collection most directly related to Lincoln in the Bardo's emotional concerns." },
+    ],
+    faq: [
+      { q: 'What is the bardo in Lincoln in the Bardo?', a: "The bardo (Tibetan: བར་དོ་, 'intermediate state') is the Tibetan Buddhist concept of the state between death and rebirth — a transitional state in which the soul has left one life but not yet begun another. In the Tibetan Book of the Dead, the bardo is a state of illusion in which the soul may be confused about its condition and must navigate correctly to achieve a good rebirth. Saunders uses the bardo as a framework for the Georgetown graveyard — his ghosts are souls who do not yet know they are dead, or who refuse to accept it, clinging to what they left behind. Willie Lincoln, who died of typhoid fever at eleven, is in the bardo; his father Lincoln's grief keeps him there." },
+    ],
+  },
+  {
+    slug: 'the-overstory',
+    intro: "Richard Powers's The Overstory (2018) is the great American tree novel — nine characters whose lives converge through their relationships with trees, from a chestnut tree that survives American blight and photographs its own changes across a century to the activists who chain themselves to a California redwood to prevent its logging. Powers won the Pulitzer Prize for Fiction in 2019 and the novel is the most celebrated environmental novel in American literature since Desert Solitaire. It is also an unusual structural achievement — eight separate stories told in the first section, converging in the third, with a final dispersal — that most readers find both challenging and deeply moving.",
+    startWith: 'The Overstory',
+    books: [
+      { title: 'The Overstory', author: 'Richard Powers', year: 2018, note: "The complete standalone novel — approximately 500 pages, organized in four sections: 'Roots' (eight separate origin stories), 'Trunk' (the stories converging), 'Crown' (the activists together and apart), and 'Seeds' (the dispersal). The first section seems slow but is essential." },
+      { title: 'Bewilderment', author: 'Richard Powers', year: 2021, note: "The companion Powers novel — a widowed astrobiologist and his son, a Booker Prize shortlist novel that continues The Overstory's concerns about consciousness, ecology, and what humans are doing to the planet." },
+    ],
+    faq: [
+      { q: 'Is The Overstory difficult to read?', a: "The Overstory is not difficult in the conventional sense but it is unusual in structure. The first section, 'Roots,' tells eight separate, disconnected stories — readers who want a single continuous narrative sometimes struggle with this section. Most readers are advised to trust that the eight stories will converge and to read through to 'Trunk' before judging the novel. The prose is clear and Powers's enthusiasm for his subject — trees, ecology, the science of plant communication — carries even the most technical passages. The novel's emotional intensity increases significantly in its later sections." },
+    ],
+  },
+  {
+    slug: 'a-visit-from-goon-squad',
+    intro: "Jennifer Egan's A Visit from the Goon Squad (2010) is the Pulitzer Prize-winning novel of the music industry — thirteen interconnected stories following Sasha and Bennie Salazar and the people around them from San Francisco punk in the 1970s to a near-future New York of toddler music consumers, ranging across decades and continents, with one chapter narrated entirely in PowerPoint slides. Egan called it a 'novel in stories' — its formal experimentation is inseparable from its subject, which is the way time works on people and the way the music industry represents a particular American story about ambition, success, and decline.",
+    startWith: 'A Visit from the Goon Squad',
+    books: [
+      { title: 'A Visit from the Goon Squad', author: 'Jennifer Egan', year: 2010, note: "The complete standalone novel — thirteen chapters that can be read in any order but reward publication order, the PowerPoint chapter being Chapter 12 and most striking in context." },
+      { title: 'The Candy House', author: 'Jennifer Egan', year: 2022, note: "The companion novel — set in the same world, overlapping characters, a near-future in which people can externalize and share their memories, Egan formally inventive again in a companion volume that works as a standalone or a continuation." },
+      { title: 'Look at Me', author: 'Jennifer Egan', year: 2001, note: "The earlier Egan — Charlotte Swenson in New York City and the culture of image and identity, showing the formal interests and thematic concerns that Goon Squad would develop more fully." },
+    ],
+    faq: [
+      { q: 'What order should I read A Visit from the Goon Squad in?', a: "A Visit from the Goon Squad was written so that chapters can be read in any order, and several have been published separately as short stories. However, most readers and the author recommend reading in publication order, since the chapters build on each other cumulatively and the PowerPoint chapter (Chapter 12, 'Pure Language,' narrated by Sasha's daughter Alison using slides) lands differently after the twelve chapters that precede it. The final chapter, 'Pure Language,' is set in the near-future and works as an epilogue to the preceding twelve." },
+    ],
+  },
+  {
+    slug: 'tree-of-smoke',
+    intro: "Denis Johnson's Tree of Smoke (2007) is the great American Vietnam War novel — Skip Sands, CIA operative working for his uncle the Colonel, and his relationship with two brothers from Phoenix, one of whom goes to Vietnam and one of whom runs from the draft, and a Vietnamese woman Nguyen Van Hoa working for the Vietnamese Catholic resistance. Johnson spent twelve years writing the novel and it won the National Book Award for Fiction in 2007. It is the most ambitious American novel about the Vietnam War — longer, stranger, and more formally inventive than The Things They Carried, and willing to take the moral complexity of the war seriously from multiple perspectives.",
+    startWith: 'Tree of Smoke',
+    books: [
+      { title: 'Tree of Smoke', author: 'Denis Johnson', year: 2007, note: "The complete standalone novel — approximately 600 pages, covering 1963-1983, the National Book Award winner and the most comprehensive American fiction treatment of the Vietnam War." },
+      { title: 'Jesus\' Son', author: 'Denis Johnson', year: 1992, note: "The essential Johnson short fiction — eleven stories narrated by a nameless junkie in the American Midwest, Johnson's most celebrated earlier work, the natural companion to Tree of Smoke for readers who want more Johnson." },
+      { title: 'Already Dead', author: 'Denis Johnson', year: 1997, note: "The California gothic Johnson novel — Nelson Fairchild and the Mendocino coast, less celebrated than Tree of Smoke or Jesus' Son but essential for dedicated Johnson readers." },
+    ],
+    faq: [
+      { q: 'Is Tree of Smoke difficult to read?', a: "Tree of Smoke is long (approximately 600 pages) and its structure — multiple viewpoint characters across two decades — requires patience with a narrative that does not always move quickly. Johnson's prose is consistently beautiful but the novel's sense of moral disorientation is deliberate, reflecting the experience of the war itself. Most readers who commit to the first hundred pages find the novel increasingly gripping. It is the most demanding of Johnson's major works but also the most comprehensive." },
+    ],
+  },
+  {
     slug: 'outer-dark',
     intro: "Cormac McCarthy's Outer Dark (1968) is his second novel and the most formally gothic — a man who impregnates his sister in the Tennessee hill country and abandons the infant in the woods; the sister goes searching for the child while the man pursues his own shadow, and three nameless, murderous figures move through the landscape killing everything they encounter. McCarthy was writing in the tradition of Flannery O'Connor and William Faulkner, and Outer Dark is his most stylistically concentrated early work, with the three tramps functioning as an almost supernatural evil that cannot be explained or confronted. It received almost no attention on publication but is now recognized as essential McCarthy.",
     startWith: 'Outer Dark',

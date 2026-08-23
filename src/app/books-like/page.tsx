@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Tenth of December George Saunders stories near-future satire empathy',
+    'books like Lincoln in the Bardo George Saunders Abraham Lincoln Willie ghost',
+    'books like The Overstory Richard Powers trees ecology Pulitzer Prize',
+    'books like A Visit from the Goon Squad Jennifer Egan music industry Pulitzer',
+    'books like Tree of Smoke Denis Johnson Vietnam War CIA National Book Award',
     'books like Outer Dark Cormac McCarthy Tennessee gothic three tramps incest',
     'books like Child of God Cormac McCarthy Lester Ballard Appalachian descent',
     'books like Infinite Jest David Foster Wallace tennis addiction entertainment endnotes',
@@ -2525,6 +2530,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tenth of December by George Saunders?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tenth of December include Lincoln in the Bardo and Pastoralia (other Saunders), A Visit from the Goon Squad by Jennifer Egan, Jesus' Son by Denis Johnson, Interpreter of Maladies by Jhumpa Lahiri, What We Talk About When We Talk About Love by Carver, and Bloodchild by Octavia Butler. Our full guide covers 8 picks for fans of Saunders's acclaimed story collection." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Lincoln in the Bardo by George Saunders?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lincoln in the Bardo include Tenth of December and Pastoralia (other Saunders), Wolf Hall by Hilary Mantel, A Gentleman in Moscow by Amor Towles, The Hours by Michael Cunningham, Lincoln by Gore Vidal, The Pillars of the Earth by Ken Follett, and The Lovely Bones by Alice Sebold. Our full guide covers 8 picks for fans of Saunders's Man Booker Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Overstory by Richard Powers?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Overstory include Bewilderment and The Gold Bug Variations (other Powers), Braiding Sweetgrass by Robin Wall Kimmerer, A Sand County Almanac by Aldo Leopold, Desert Solitaire by Edward Abbey, The Hidden Life of Trees by Peter Wohlleben, Walden by Thoreau, and The Road by Cormac McCarthy. Our full guide covers 8 picks for fans of Powers's Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Visit from the Goon Squad by Jennifer Egan?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Visit from the Goon Squad include The Candy House (other Egan), Tenth of December by George Saunders, The Corrections by Jonathan Franzen, High Fidelity by Nick Hornby, White Noise by Don DeLillo, Cloud Atlas by David Mitchell, and Look at Me by Jennifer Egan. Our full guide covers 8 picks for fans of Egan's Pulitzer Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Tree of Smoke by Denis Johnson?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tree of Smoke include Jesus' Son and Seek (other Johnson), The Things They Carried and Going After Cacciato by Tim O'Brien, Matterhorn by Karl Marlantes, Dispatches by Michael Herr, A Bright Shining Lie by Neil Sheehan, and The Sympathizer by Viet Thanh Nguyen. Our full guide covers 8 picks for fans of Johnson's National Book Award winner." },
     },
     {
       '@type': 'Question',
