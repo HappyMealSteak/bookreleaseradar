@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Elegance of the Hedgehog Muriel Barbery concierge Paris philosophy class',
+    'books like The Guernsey Literary and Potato Peel Pie Society WWII book club epistolary',
+    "books like Captain Corelli's Mandolin Louis de Bernieres Cephalonia WWII love story",
+    'books like We Need to Talk About Kevin Lionel Shriver mother school shooting guilt',
+    'books like The Lincoln Highway Amor Towles Emmett Watson road novel 1954 America',
     'books like The Golden Compass Philip Pullman Lyra Belacqua Dust parallel worlds',
     'books like Emma Jane Austen Emma Woodhouse matchmaker Highbury social comedy',
     'books like Persuasion Jane Austen Anne Elliot Captain Wentworth second chance',
@@ -2540,6 +2545,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Elegance of the Hedgehog by Muriel Barbery?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Elegance of the Hedgehog include Gourmet Rhapsody (other Barbery), A Gentleman in Moscow by Amor Towles, The Shadow of the Wind by Carlos Ruiz Zafón, The Secret History by Donna Tartt, Sophie's World by Jostein Gaarder, The Remains of the Day by Kazuo Ishiguro, and Letters to a Young Poet by Rilke. Our full guide covers 8 picks for fans of Barbery's French philosophical bestseller." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Guernsey Literary and Potato Peel Pie Society?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Guernsey Literary and Potato Peel Pie Society include All the Light We Cannot See by Anthony Doerr, The Nightingale by Kristin Hannah, Atonement by Ian McEwan, A Gentleman in Moscow by Amor Towles, 84 Charing Cross Road by Helene Hanff, Captain Corelli's Mandolin by de Bernières, and Suite Française by Irène Némirovsky. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Captain Corelli's Mandolin by Louis de Bernières?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Captain Corelli's Mandolin include The English Patient by Michael Ondaatje, All the Light We Cannot See by Anthony Doerr, The Guernsey Literary Society, Atonement by Ian McEwan, Suite Française by Irène Némirovsky, The Bronze Horseman by Paullina Simons, Birdsong by Sebastian Faulks, and A Farewell to Arms by Hemingway. Our full guide covers 8 picks." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked We Need to Talk About Kevin by Lionel Shriver?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like We Need to Talk About Kevin include So Much for That and The Post-Birthday World (other Shriver), Atonement by Ian McEwan, A Little Life by Hanya Yanagihara, The Hours by Michael Cunningham, Big Little Lies by Liane Moriarty, The Secret History by Donna Tartt, and Room by Emma Donoghue. Our full guide covers 8 picks for fans of Shriver's Orange Prize winner." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Lincoln Highway by Amor Towles?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lincoln Highway include A Gentleman in Moscow and Rules of Civility (other Towles), On the Road by Jack Kerouac, True Grit by Charles Portis, The Adventures of Huckleberry Finn by Mark Twain, Cannery Row by John Steinbeck, The Outsiders by S.E. Hinton, and Lonesome Dove by Larry McMurtry. Our full guide covers 8 picks for fans of Towles's bestselling road novel." },
     },
     {
       '@type': 'Question',

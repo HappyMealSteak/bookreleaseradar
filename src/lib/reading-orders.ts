@@ -5992,6 +5992,66 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-elegance-of-the-hedgehog',
+    intro: "Muriel Barbery's The Elegance of the Hedgehog (2006, English translation 2008) is the French phenomenon that became an international bestseller — two narrators in a Paris apartment building: Renée Michel, the fifty-four-year-old self-educated concierge who hides her intellectual life behind the mask of stupidity the bourgeoisie expect of her, and Paloma Josse, a precocious twelve-year-old from the wealthy fifth floor who plans to kill herself on her thirteenth birthday. A philosophical novel about class, aesthetics, and the unexpected bridges between people, it sold over two million copies in France and has been translated into forty languages.",
+    startWith: 'The Elegance of the Hedgehog',
+    books: [
+      { title: 'The Elegance of the Hedgehog', author: 'Muriel Barbery', year: 2006, note: "Start here — the complete standalone novel. Barbery's second novel, Gourmet Rhapsody (2008), is a companion set in the same building and narrated by a dying food critic, but is not a sequel." },
+    ],
+    faq: [
+      { q: "Is The Elegance of the Hedgehog a standalone novel?", a: "Yes. The Elegance of the Hedgehog is a complete standalone novel. Barbery's earlier novel Gourmet Rhapsody (French: Une gourmandise, 2000; English translation 2009) is set in the same Paris apartment building and features Renée Michel briefly — it is a companion rather than a prequel or sequel, and can be read independently or alongside." },
+      { q: "What should I read next after The Elegance of the Hedgehog?", a: "Readers continue with Gourmet Rhapsody, Barbery's companion novel. For readers who loved the philosophical and literary quality of The Elegance of the Hedgehog, The Shadow of the Wind by Carlos Ruiz Zafón, A Gentleman in Moscow by Amor Towles, The Secret History by Donna Tartt, and Sophie's World by Jostein Gaarder are strong companions in the tradition of the novel that takes ideas seriously while also telling a compelling story." },
+    ],
+  },
+  {
+    slug: 'the-guernsey-literary',
+    intro: "Mary Ann Shaffer and Annie Barrows's The Guernsey Literary and Potato Peel Pie Society (2008) is an epistolary novel set in the aftermath of World War II — a series of letters between London author Juliet Ashton and the members of a book club on the island of Guernsey that formed under German occupation. Based on the real German occupation of the Channel Islands from 1940 to 1945, it became an international bestseller and was adapted into a 2018 Netflix film with Lily James. Mary Ann Shaffer began the novel but was too ill to complete it; her niece Annie Barrows finished it from Shaffer's notes.",
+    startWith: 'The Guernsey Literary and Potato Peel Pie Society',
+    books: [
+      { title: 'The Guernsey Literary and Potato Peel Pie Society', author: 'Mary Ann Shaffer and Annie Barrows', year: 2008, note: "Start here — the complete standalone epistolary novel; no sequels exist." },
+    ],
+    faq: [
+      { q: "Is The Guernsey Literary and Potato Peel Pie Society a standalone novel?", a: "Yes. The Guernsey Literary and Potato Peel Pie Society is a complete standalone novel told entirely in letters, with no sequels or prequels." },
+      { q: "What should I read next after The Guernsey Literary and Potato Peel Pie Society?", a: "Readers continue with similar epistolary and WWII historical fiction: A Gentleman in Moscow by Amor Towles (a character confined to one location across decades), All the Light We Cannot See by Anthony Doerr (WWII occupied France), The Nightingale by Kristin Hannah (French sisters in WWII), The Alice Network by Kate Quinn, and Atonement by Ian McEwan. For more epistolary fiction, 84 Charing Cross Road by Helene Hanff is a natural companion." },
+    ],
+  },
+  {
+    slug: 'captain-corelli',
+    intro: "Louis de Bernières's Captain Corelli's Mandolin (1994) is the sweeping Italian-Greek love story set on the island of Cephalonia during the Italian and German occupation of World War II — Captain Antonio Corelli, an Italian officer who loves opera and plays the mandolin, and Pelagia, the daughter of the local doctor. A bestseller in Britain and internationally, winner of the Commonwealth Writers' Prize, and adapted into the 2001 film with Nicolas Cage and Penélope Cruz. The novel is part love story, part war novel, part meditation on memory, music, and what the war did to Greece.",
+    startWith: "Captain Corelli's Mandolin",
+    books: [
+      { title: "Captain Corelli's Mandolin", author: "Louis de Bernières", year: 1994, note: "Start here — the complete standalone novel. De Bernières's other novels are set in Latin America and Britain and are not sequels." },
+    ],
+    faq: [
+      { q: "Is Captain Corelli's Mandolin a standalone novel?", a: "Yes. Captain Corelli's Mandolin is a complete standalone novel with no sequels or prequels. De Bernières set his earlier trilogy in Latin America (The War of Don Emmanuel's Nether Parts, Señor Vivo and the Coca Lord, The Troublesome Offspring of Cardinal Guzman) and his later fiction in Britain, but none are continuations of Captain Corelli." },
+      { q: "What should I read next after Captain Corelli's Mandolin?", a: "Readers continue with similar sweeping WWII Mediterranean love stories: The English Patient by Michael Ondaatje, All the Light We Cannot See by Anthony Doerr, The Guernsey Literary and Potato Peel Pie Society, Atonement by Ian McEwan, or Suite Française by Irène Némirovsky. For more Mediterranean historical fiction, The Shadow of the Wind by Carlos Ruiz Zafón and The Bronze Horseman by Paullina Simons are popular companions." },
+    ],
+  },
+  {
+    slug: 'we-need-to-talk-about-kevin',
+    intro: "Lionel Shriver's We Need to Talk About Kevin (2003) is the Orange Prize-winning novel told through letters — Eva Khatchadourian writing to her estranged husband Franklin about their son Kevin, who at fifteen committed a school massacre. Shriver's novel asks who is responsible for a child who becomes a killer: the cold mother who never loved him, the indulgent father who refused to see who he was, or the boy himself? One of the most discussed and debated novels of the 2000s, adapted into the 2011 film with Tilda Swinton.",
+    startWith: 'We Need to Talk About Kevin',
+    books: [
+      { title: 'We Need to Talk About Kevin', author: 'Lionel Shriver', year: 2003, note: "Start here — the complete standalone epistolary novel. No sequels exist." },
+    ],
+    faq: [
+      { q: "Is We Need to Talk About Kevin a standalone novel?", a: "Yes. We Need to Talk About Kevin is a complete standalone novel told entirely in letters from Eva to her husband. No sequels or prequels exist." },
+      { q: "What should I read next after We Need to Talk About Kevin?", a: "Shriver readers continue with So Much for That (2010), her novel about a man whose life savings are consumed by his wife's cancer treatment, and The Post-Birthday World (2007), her parallel-lives novel. For readers who loved We Need to Talk About Kevin's exploration of motherhood and culpability, Atonement by Ian McEwan, The Hours by Michael Cunningham, Big Little Lies by Liane Moriarty, and A Little Life by Hanya Yanagihara are strong companions." },
+    ],
+  },
+  {
+    slug: 'lincoln-highway',
+    intro: "Amor Towles's The Lincoln Highway (2021) is the road novel that follows Emmett Watson, eighteen years old and just released from a work farm, who returns to Nebraska to drive his eight-year-old brother Billy to California to find their mother — only for two fellow work farm residents to stow away in the trunk and redirect the journey to New York City. Covering eight days in 1954 and structured around the Lincoln Highway, the first transcontinental road in America, it became a #1 New York Times bestseller and was praised as Towles's best novel.",
+    startWith: 'The Lincoln Highway',
+    books: [
+      { title: 'The Lincoln Highway', author: 'Amor Towles', year: 2021, note: "Start here — the complete standalone novel; a companion to but not a sequel to A Gentleman in Moscow or Rules of Civility." },
+    ],
+    faq: [
+      { q: "Is The Lincoln Highway a standalone novel?", a: "Yes. The Lincoln Highway is a complete standalone novel with no sequels. Towles's other novels — Rules of Civility (2011) and A Gentleman in Moscow (2016) — are also standalones set in very different periods and places (New York City in 1938; Moscow from 1922 to 1954). They can be read in any order." },
+      { q: "What should I read next after The Lincoln Highway?", a: "Towles readers typically continue with A Gentleman in Moscow, his most celebrated novel — Count Rostov under house arrest in the Metropol Hotel in Moscow for thirty-two years. For readers who loved The Lincoln Highway's American road setting and its portrait of 1950s America, On the Road by Jack Kerouac, True Grit by Charles Portis, Cannery Row by John Steinbeck, and The Adventures of Tom Sawyer by Mark Twain are strong companions." },
+    ],
+  },
+  {
     slug: 'the-golden-compass',
     intro: "Philip Pullman's His Dark Materials trilogy begins with The Golden Compass (1995, published in the UK as Northern Lights) — a parallel-world fantasy in which twelve-year-old Lyra Belacqua leaves Oxford to rescue her friend Roger and discovers the truth about Dust and about herself. The trilogy is one of the most celebrated works of fantasy written in the twentieth century, winning the Carnegie Medal, the Guardian Children's Fiction Prize, and the Whitbread Book of the Year Award (for The Amber Spyglass, the first children's book to win). Pullman has continued the world with The Book of Dust trilogy.",
     startWith: 'The Golden Compass',
