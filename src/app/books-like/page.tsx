@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like Snow Country Kawabata Japanese fiction beauty transience',
+    'books like Kokoro Sōseki Meiji Japan modernization alienation',
+    'books like The Sound of Waves Mishima island love story Japan',
+    'books like No Longer Human Dazai confessional alienation Japan',
+    'books like Norwegian Wood Murakami Tokyo 1960s grief love',
     'books like Pan Knut Hamsun Norwegian forest passion novel',
     'books like Out of Africa Isak Dinesen Karen Blixen Kenya memoir',
     'books like Kristin Lavransdatter Undset medieval Norway trilogy',
@@ -2400,6 +2405,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Snow Country by Yasunari Kawabata?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Snow Country include The Sound of Waves and The Temple of the Golden Pavilion by Yukio Mishima, Kokoro by Natsume Sōseki, No Longer Human by Osamu Dazai, Norwegian Wood by Haruki Murakami, The Woman in the Dunes by Kōbō Abe, and Confessions of a Mask by Mishima. Our full guide covers 8 picks for fans of Kawabata's Japanese fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Kokoro by Natsume Sōseki?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Kokoro include Botchan and I Am a Cat by Natsume Sōseki, Snow Country by Kawabata, No Longer Human by Osamu Dazai, The Sound of Waves by Mishima, Norwegian Wood by Murakami, Sanshiro by Sōseki, and Confessions of a Mask by Mishima. Our full guide covers 8 picks for fans of Sōseki's Meiji Japan novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sound of Waves by Yukio Mishima?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sound of Waves include The Temple of the Golden Pavilion and Confessions of a Mask by Yukio Mishima, Snow Country by Kawabata, Kokoro by Sōseki, No Longer Human by Dazai, Norwegian Wood by Murakami, The Woman in the Dunes by Kōbō Abe, and Silence by Shūsaku Endō. Our full guide covers 8 picks for fans of Mishima's island love story." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked No Longer Human by Osamu Dazai?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like No Longer Human include The Setting Sun by Osamu Dazai, Kokoro by Sōseki, Snow Country by Kawabata, Norwegian Wood by Murakami, The Stranger by Camus, Nausea by Sartre, Confessions of a Mask by Mishima, and The Sound of Waves by Mishima. Our full guide covers 8 picks for fans of Dazai's confessional alienation novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Norwegian Wood by Haruki Murakami?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Norwegian Wood include The Wind-Up Bird Chronicle and Kafka on the Shore by Haruki Murakami, No Longer Human by Dazai, Kokoro by Sōseki, Snow Country by Kawabata, The Catcher in the Rye by Salinger, A Wild Sheep Chase by Murakami, and The Sound of Waves by Mishima. Our full guide covers 8 picks for fans of Murakami's 1960s Tokyo grief novel." },
     },
     {
       '@type': 'Question',
