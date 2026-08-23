@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like The Graveyard Book Neil Gaiman Bod Owens ghosts graveyard Newbery',
+    'books like Coraline Neil Gaiman Other Mother button eyes horror children',
+    'books like The Sandman Neil Gaiman Dream Morpheus comics graphic novel',
+    'books like Anansi Boys Neil Gaiman Charlie Nancy spider god Anansi mythology',
+    'books like The Ocean at the End of the Lane Neil Gaiman Hempstock childhood memory',
     'books like The Once and Future King T.H. White Arthur Merlyn Round Table Camelot',
     'books like The Princess Bride William Goldman Westley Buttercup Inigo Montoya',
     'books like Stardust Neil Gaiman Tristran Thorn Faerie fallen star fairy tale',
@@ -2500,6 +2505,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Graveyard Book by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Graveyard Book include Coraline and American Gods (other Gaiman), The Jungle Book by Kipling, Neverwhere by Gaiman, A Monster Calls by Patrick Ness, The Phantom Tollbooth by Juster, and His Dark Materials by Pullman. Our full guide covers 8 picks for fans of Gaiman's Newbery Medal children's fantasy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Coraline by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Coraline include The Graveyard Book and Neverwhere (other Gaiman), Alice's Adventures in Wonderland by Carroll, The Ocean at the End of the Lane by Gaiman, His Dark Materials by Pullman, The Haunting of Hill House by Jackson, and The Turn of the Screw by James. Our full guide covers 8 picks for fans of Gaiman's children's horror." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Sandman by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sandman include American Gods, Neverwhere, and The Ocean at the End of the Lane (other Gaiman prose), Watchmen and V for Vendetta by Alan Moore, Jonathan Strange & Mr Norrell by Clarke, and Good Omens by Pratchett and Gaiman. Our full guide covers 8 picks for fans of Gaiman's Sandman comics." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Anansi Boys by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Anansi Boys include American Gods and Good Omens (other Gaiman/Pratchett), Neverwhere by Gaiman, The Hitchhiker's Guide to the Galaxy by Adams, Small Gods by Pratchett, The Night Circus by Morgenstern, and The Colour of Magic by Pratchett. Our full guide covers 8 picks for fans of Gaiman's comic mythology." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Ocean at the End of the Lane by Neil Gaiman?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ocean at the End of the Lane include The Graveyard Book and Coraline (other Gaiman), American Gods and Neverwhere by Gaiman, To Kill a Mockingbird by Lee, Housekeeping by Marilynne Robinson, Piranesi by Clarke, and Jonathan Strange & Mr Norrell by Clarke. Our full guide covers 8 picks for fans of Gaiman's most personal novel." },
     },
     {
       '@type': 'Question',

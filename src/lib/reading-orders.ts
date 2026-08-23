@@ -5992,6 +5992,78 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-graveyard-book',
+    intro: "Neil Gaiman's The Graveyard Book (2008) is his most celebrated children's novel — Nobody 'Bod' Owens, raised by ghosts in a graveyard after his family is murdered by the man Jack, growing up among the dead and learning to live. The novel won the Newbery Medal (2009) and the Carnegie Medal (2010), making Gaiman the first author to win both prizes for the same book. Gaiman wrote it as a deliberate homage to Rudyard Kipling's The Jungle Book, replacing the jungle with a graveyard and the animals with ghosts. It is the best entry point to Gaiman's work and one of the finest children's fantasy novels of the last twenty years.",
+    startWith: 'The Graveyard Book',
+    books: [
+      { title: 'The Graveyard Book', author: 'Neil Gaiman', year: 2008, note: "The complete standalone novel — illustrated by Dave McKean in the original edition, by Chris Riddell in subsequent UK editions. Newbery and Carnegie Medal winner, essential Gaiman." },
+      { title: 'Coraline', author: 'Neil Gaiman', year: 2002, note: 'The companion children\'s novel — Coraline discovering the Other Mother behind the small door, Gaiman\'s other children\'s horror fantasy, darker and more concentrated than The Graveyard Book.' },
+      { title: 'Neverwhere', author: 'Neil Gaiman', year: 1996, note: 'The adult Gaiman companion — Richard Mayhew in London Below, the same interest in hidden worlds and chosen families that drives The Graveyard Book in an adult urban fantasy form.' },
+    ],
+    faq: [
+      { q: 'Is The Graveyard Book appropriate for children?', a: "The Graveyard Book is marketed as a children's novel and is appropriate for readers from about age 9 or 10, though it begins with the murder of a family (shown from a distance) and contains genuine moments of menace and horror. Gaiman has said he waited many years before feeling capable of writing it because the premise — a child raised by ghosts — required him to treat the subject of death seriously while keeping the book accessible to young readers. It is considered one of the finest dark children's fantasies in the language and is enjoyed equally by adults." },
+      { q: 'Is The Graveyard Book related to any other Gaiman books?', a: "The Graveyard Book is a standalone novel. It shares its graveyard setting with elements of The Ocean at the End of the Lane (2013) and its concern with death and the afterlife with Gaiman's broader work, but no characters or plot elements connect it to other Gaiman novels. Silas, Bod's guardian who is neither living nor dead, has been interpreted by many readers as a vampire, though Gaiman has been deliberately ambiguous about this." },
+    ],
+  },
+  {
+    slug: 'coraline-gaiman',
+    intro: "Neil Gaiman's Coraline (2002) is a children's horror novel — Coraline Jones, bored in a new house, discovering a small door that leads to the Other Mother, who looks like her real mother but has buttons for eyes and wants to keep Coraline forever. Gaiman wrote it for his daughter Holly, who wanted a story that would be scary, and it became one of the most beloved children's horror novels in English. Dave McKean's illustrations added to the novel's sinister atmosphere; Henry Selick's stop-motion film adaptation (2009) brought it to a wider audience. It is more concentrated and more genuinely frightening than The Graveyard Book.",
+    startWith: 'Coraline',
+    books: [
+      { title: 'Coraline', author: 'Neil Gaiman', year: 2002, note: "The complete short novel — the illustrated edition with Dave McKean's artwork is the original version; the 2009 film is a widely celebrated adaptation that expands several elements." },
+      { title: 'The Graveyard Book', author: 'Neil Gaiman', year: 2008, note: "The companion children's novel — Nobody Owens raised by ghosts in a graveyard, Gaiman's other great children's fantasy, slightly less frightening than Coraline but more emotionally expansive." },
+      { title: "Alice's Adventures in Wonderland", author: 'Lewis Carroll', year: 1865, note: "The source tradition — Alice through the rabbit hole into a world of arbitrary rules and threatening authority figures, the Victorian children's fantasy that Coraline most directly descends from." },
+    ],
+    faq: [
+      { q: 'How scary is Coraline?', a: "Coraline is genuinely frightening — more so than most children's fiction and quite frightening for adult readers as well. The Other Mother with button eyes is one of the most effective horror creations in contemporary fiction. Gaiman has said that parents who read it to their children are often more frightened than the children are. It is suitable for readers from about age 8-10 who enjoy being frightened, and is inappropriate for younger children or children who find horror overwhelming. The film is similarly intense." },
+      { q: 'What is the Other World in Coraline?', a: "The Other World is a parallel version of Coraline's real house, created or sustained by the entity Gaiman calls the Other Mother (or the Beldam), designed specifically to attract and capture children. The Other Mother can make a copy of anything in Coraline's real life — her parents, her neighbors, her flat — and initially the Other World appears better than the real one: the food is better, the parents more attentive, the garden magical. The sinister quality is established gradually as Coraline notices that everything in the Other World is slightly wrong in ways she cannot initially articulate." },
+    ],
+  },
+  {
+    slug: 'the-sandman-gaiman',
+    intro: "Neil Gaiman's The Sandman (1989–1996) is the comic book series that most fully realized the literary potential of the graphic novel form — Dream of the Endless (also called Morpheus, the Sandman, the King of Dreams) ruling the realm of dreams, from his captivity in 1916 through his eventual fate. Published by DC Comics' Vertigo imprint, The Sandman ran for 75 issues over eight years and is collected in ten volumes. It won multiple Hugo Awards, introduced mainstream readers to comic books as a literary form, and established Gaiman's reputation. The series draws on mythology, folklore, literature, and history to create a universe of astonishing breadth.",
+    startWith: "The Sandman: Preludes & Nocturnes",
+    books: [
+      { title: 'The Sandman: Preludes & Nocturnes', author: 'Neil Gaiman', year: 1991, note: "Volume 1 — Dream's escape from captivity, his retrieval of his tools of office, the early issues that established the series' scope and ambition. Sam Kieth and Mike Dringenberg art." },
+      { title: 'The Sandman: The Doll\'s House', author: 'Neil Gaiman', year: 1990, note: 'Volume 2 — Rose Walker and the Vortex, the Serial Killers Convention, the introduction of the Corinthian. The first fully realized Sandman arc and the series at its most horror-inflected.' },
+      { title: 'The Sandman: Dream Country', author: 'Neil Gaiman', year: 1991, note: "Volume 3 — four standalone stories including 'A Midsummer Night's Dream' (Hugo Award winner) and 'Calliope.' The series showing its range beyond the main narrative arc." },
+      { title: 'The Sandman: Season of Mists', author: 'Neil Gaiman', year: 1992, note: "Volume 4 — Dream returning to Hell to release Nala, only to find Lucifer has abandoned the realm, the best single Sandman arc and the place where the series' mythological scope becomes fully clear." },
+      { title: 'The Sandman: The Kindly Ones', author: 'Neil Gaiman', year: 1996, note: "Volume 9 — the Furies pursuing Dream, the longest arc and the most tragic, building to the conclusion of the original run. Read after Volumes 1-8." },
+    ],
+    faq: [
+      { q: 'What is the correct reading order for The Sandman?', a: "Read The Sandman in publication order: Preludes & Nocturnes (Vol. 1), The Doll's House (Vol. 2), Dream Country (Vol. 3), Season of Mists (Vol. 4), A Game of You (Vol. 5), Fables & Reflections (Vol. 6), Brief Lives (Vol. 7), Worlds' End (Vol. 8), The Kindly Ones (Vol. 9), The Wake (Vol. 10). Some readers skip Dream Country and Fables & Reflections on first reading because they are standalone stories; both are worth reading in context on re-read." },
+      { q: 'Is The Sandman available to read other than in comics form?', a: "The Sandman is available as collected editions (ten volumes plus Overture, an interquel), as individual issues, and digitally. Netflix produced a television adaptation (2022) that covers the first two volumes; it is widely considered a faithful adaptation and a good companion to the comics but not a substitute for them. There is also an audio drama adaptation featuring James McAvoy as Dream, produced by Audible, which covers the first few volumes with Gaiman's direct involvement." },
+    ],
+  },
+  {
+    slug: 'anansi-boys',
+    intro: "Neil Gaiman's Anansi Boys (2005) is a comic novel about mythology and inheritance — Charlie Nancy, an ordinary London man, discovering after his father's death that his father was Anansi, the West African spider god of stories. Gaiman intended it as a companion to American Gods, set in the same mythology, but it is a completely different kind of book: lighter, warmer, funnier, and more focused on the comedy of ordinary life disrupted by divine relatives. It is often cited as the most accessible entry point to Gaiman's novels for readers who find American Gods too dark.",
+    startWith: 'Anansi Boys',
+    books: [
+      { title: 'Anansi Boys', author: 'Neil Gaiman', year: 2005, note: "The complete standalone novel — Charlie Nancy in London and Florida and the mythological realm of the spider, a comedy of manners and mythology. No prior knowledge of American Gods required." },
+      { title: 'American Gods', author: 'Neil Gaiman', year: 2001, note: "The companion mythological novel — Shadow Moon in a war between old American gods and new, Anansi appearing as a significant character. Darker and more ambitious than Anansi Boys; some readers prefer to read American Gods first." },
+      { title: 'Good Omens', author: 'Terry Pratchett & Neil Gaiman', year: 1990, note: "The other comic Gaiman — Aziraphale and Crowley in contemporary England, Gaiman collaborating with Pratchett in the same warm and witty register that Anansi Boys uses." },
+    ],
+    faq: [
+      { q: 'Do I need to read American Gods before Anansi Boys?', a: "No. Anansi Boys is a standalone novel, complete in itself, and does not require prior knowledge of American Gods. Anansi (Mr. Nancy) appears in both books, but Anansi Boys is set in a different part of his story — his son Charlie's discovery of his heritage — and the reader needs no prior information about American Gods to follow or enjoy it. Many readers actually prefer to read Anansi Boys first, as it is lighter and more accessible; others read American Gods first to encounter Anansi there and then continue to his own story." },
+      { q: "What mythology is Anansi Boys based on?", a: "Anansi Boys draws primarily on the mythology of Anansi, the spider trickster god central to the folklore of the Ashanti people of Ghana and widely present in Caribbean and African American folklore through the transatlantic slave trade. Anansi — often spelled Ananse or Kwaku Anansi — is a trickster figure associated with stories, wisdom, and cunning who appears throughout West African and African diaspora mythology. Gaiman's novel treats this tradition seriously while also using it for comedy: Charlie's discovery that his father was a god is played both as a profound revelation about his identity and as a source of embarrassing family complications." },
+    ],
+  },
+  {
+    slug: 'ocean-at-the-end-of-the-lane',
+    intro: "Neil Gaiman's The Ocean at the End of the Lane (2013) is his most personal adult novel — a middle-aged man returning to the Sussex farm where he grew up, remembering something impossible that happened when he was seven years old: a girl who lived at the end of the lane, Lettie Hempstock, and the thing she and her family protected him from. Gaiman wrote it in six weeks, for his wife Amanda Palmer, and described it as a book he thought no one would want to read because it was so personal. It received the UK's National Book Awards Book of the Year and is widely considered his finest adult novel. Short, concentrated, and deeply felt.",
+    startWith: 'The Ocean at the End of the Lane',
+    books: [
+      { title: 'The Ocean at the End of the Lane', author: 'Neil Gaiman', year: 2013, note: "The complete standalone novel — approximately 180 pages, the most concentrated and most personal Gaiman adult novel. Read in a single sitting if possible; the brevity is part of the effect." },
+      { title: 'Coraline', author: 'Neil Gaiman', year: 2002, note: "The companion children's horror novel — similarly using the adult's memory of childhood terror, both novels concerned with the things that adults have forgotten about being children and the real threats that are invisible to grown-ups." },
+      { title: 'The Graveyard Book', author: 'Neil Gaiman', year: 2008, note: "The companion children's novel — similarly a story about a childhood lived outside ordinary experience, also organized around a child growing up with protectors who are not quite human." },
+    ],
+    faq: [
+      { q: "Is The Ocean at the End of the Lane a children's book or an adult book?", a: "The Ocean at the End of the Lane is an adult novel. Despite being narrated from a seven-year-old boy's perspective and dealing with childhood memory, it is too psychologically complex and emotionally disturbing for young readers. Gaiman has said that while the book is narrated from the perspective of a seven-year-old, it is not a book about being seven but a book about being an adult who was once seven — about what it means to remember childhood from an adult distance. It is his most personal and most literary adult novel, and is widely considered his finest work." },
+      { q: "Who are the Hempstock women?", a: "Old Mrs. Hempstock, her daughter Ginnie, and her granddaughter Lettie are the three women who live at the farm at the end of the lane. They are of uncertain nature — they might be witches, goddesses, personifications of the three Fates (maiden, mother, crone), or something else entirely; Gaiman is deliberately ambiguous. They have been at the farm since before recorded time: Old Mrs. Hempstock casually mentions remembering events from thousands of years ago. They are protective figures who represent the depth of female wisdom and power, and the ocean behind their farmhouse is something stranger and older than water." },
+    ],
+  },
+  {
     slug: 'the-once-and-future-king',
     intro: "T.H. White's The Once and Future King (1958) is the definitive retelling of the Arthurian legend in English — four books originally published separately, beginning with The Sword in the Stone (1938), following Arthur from his boyhood with Merlyn through his attempt to replace might with right, and ending with the fall of Camelot. White wrote the books during the 1930s and 1940s, largely in response to the rise of fascism in Europe; Arthur's Round Table becomes an attempt to think through the problem of violence and power. The book influenced the musical Camelot (1960) and was a direct source for the Disney film The Sword in the Stone (1963). It stands as the greatest Arthurian novel in English and one of the finest fantasy novels of the twentieth century.",
     startWith: 'The Once and Future King',
