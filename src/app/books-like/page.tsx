@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like A Suitable Boy Vikram Seth India 1951 family saga',
+    'books like Arrow of God Chinua Achebe Igbo colonial Nigeria',
+    'books like Palace Walk Mahfouz Cairo Trilogy Egyptian Arabic fiction',
+    'books like Train to Pakistan Khushwant Singh Partition 1947',
+    "books like Weep Not Child Ngugi Mau Mau Kenya colonial Africa",
     'books like Dream of the Red Chamber Cao Xueqin Chinese classical novel',
     'books like Journey to the West Wu Chengen Monkey King pilgrimage',
     'books like To Live Yu Hua Cultural Revolution Chinese fiction',
@@ -2420,6 +2425,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Suitable Boy by Vikram Seth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Suitable Boy include Midnight's Children by Rushdie, The God of Small Things by Roy, The White Tiger by Adiga, Train to Pakistan by Khushwant Singh, A Fine Balance by Mistry, The Remains of the Day by Ishiguro, The Golden Gate by Seth, and The Moor's Last Sigh by Rushdie. Our full guide covers 8 picks for fans of Seth's India family saga." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Arrow of God by Chinua Achebe?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Arrow of God include Things Fall Apart and No Longer at Ease and A Man of the People by Achebe, Weep Not Child and A Grain of Wheat by Ngũgĩ, Season of Migration to the North by Tayeb Salih, So Long a Letter by Mariama Bâ, and Petals of Blood by Ngũgĩ. Our full guide covers 8 picks for fans of Achebe's Igbo colonial novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Palace Walk (Cairo Trilogy) by Naguib Mahfouz?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Palace Walk include Palace of Desire and Sugar Street (the rest of the trilogy), Midaq Alley by Mahfouz, Season of Migration to the North by Tayeb Salih, The Cairo House by Serageldin, One Thousand and One Nights, A Suitable Boy by Seth, and Buddenbrooks by Thomas Mann. Our full guide covers 8 picks for fans of the Cairo Trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Train to Pakistan by Khushwant Singh?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Train to Pakistan include Midnight's Children by Rushdie, Ice Candy Man by Bapsi Sidhwa, A Suitable Boy by Seth, The God of Small Things by Roy, A Fine Balance by Mistry, The Kite Runner by Hosseini, Half of a Yellow Sun by Adichie, and Weep Not Child by Ngũgĩ. Our full guide covers 8 picks for fans of Khushwant Singh's Partition novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Weep Not, Child by Ngũgĩ wa Thiong'o?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Weep Not, Child include A Grain of Wheat and The River Between and Petals of Blood by Ngũgĩ, Things Fall Apart and Arrow of God by Achebe, Season of Migration to the North by Tayeb Salih, Nervous Conditions by Dangarembga, and Half of a Yellow Sun by Adichie. Our full guide covers 8 picks for fans of Ngũgĩ's Mau Mau novel." },
     },
     {
       '@type': 'Question',
