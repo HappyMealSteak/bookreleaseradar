@@ -370,6 +370,11 @@ export const metadata: Metadata = {
     'books like The Unconsoled Kazuo Ishiguro Ryder pianist Central Europe dream logic 535 pages',
     'books like On Beauty Zadie Smith Orange Prize Belsey Kipps New England university Howards End',
     'books like Normal People Sally Rooney Connell Marianne Sligo Trinity College Dublin Costa Award',
+    'books like The Little Friend Donna Tartt Harriet Cleve Mississippi Southern Gothic 1970s brother murder unsolved',
+    "books like The Corrections Jonathan Franzen Lambert family Alfred Parkinson's Christmas National Book Award",
+    "books like Portnoy's Complaint Philip Roth Alexander Portnoy psychiatrist Newark Jewish mother guilt sexuality",
+    'books like The Plot Against America Philip Roth Lindbergh 1940 Newark Jewish family fascism alternative history HBO',
+    'books like Henderson the Rain King Saul Bellow Gene Henderson Africa Arnewi Wariri Rain King comic picaresque',
     'books like Atonement Ian McEwan Briony Tallis Cecilia Robbie Turner 1935 WWII Dunkirk false accusation Booker',
     'books like Saturday Ian McEwan Henry Perowne neurosurgeon February 2003 Iraq War march London one day',
     'books like Enduring Love Ian McEwan Joe Rose Jed Parry balloon accident stalker erotomania obsession',
@@ -2630,6 +2635,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Normal People by Sally Rooney?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Normal People include Conversations with Friends and Beautiful World Where Are You (both Rooney), My Brilliant Friend by Elena Ferrante, On Earth We're Briefly Gorgeous by Ocean Vuong, Exciting Times by Naoise Dolan, Dept. of Speculation by Jenny Offill, Acts of Desperation by Megan Nolan, and On Beauty by Zadie Smith. Our full guide covers 8 picks for readers of Rooney's Costa Award-winning novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Little Friend by Donna Tartt?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Little Friend include The Secret History and The Goldfinch by Donna Tartt, To Kill a Mockingbird by Harper Lee, A Good Man Is Hard to Find by Flannery O'Connor, Mystic River by Dennis Lehane, The Virgin Suicides by Jeffrey Eugenides, Wise Blood by Flannery O'Connor, and Sharp Objects by Gillian Flynn. Our full guide covers 8 picks for readers of Tartt's Southern Gothic novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Corrections by Jonathan Franzen?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Corrections include Freedom by Jonathan Franzen, American Pastoral by Philip Roth, White Noise by Don DeLillo, The Virgin Suicides by Jeffrey Eugenides, A Little Life by Hanya Yanagihara, The Poisonwood Bible by Barbara Kingsolver, and Saturday by Ian McEwan. Our full guide covers 8 picks for readers of Franzen's National Book Award–winning family novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Portnoy's Complaint by Philip Roth?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Portnoy's Complaint include American Pastoral and The Human Stain by Philip Roth, The Plot Against America by Philip Roth, Adventures of Augie March and Herzog by Saul Bellow, The Catcher in the Rye by J.D. Salinger, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for readers of Roth's 1969 comic monologue." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Plot Against America by Philip Roth?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Plot Against America include American Pastoral and Portnoy's Complaint by Philip Roth, It Can't Happen Here by Sinclair Lewis, The Man in the High Castle by Philip K. Dick, Kindred by Octavia E. Butler, The Handmaid's Tale by Margaret Atwood, Maus by Art Spiegelman, and The Human Stain by Philip Roth. Our full guide covers 8 picks for readers of Roth's 1940 alternative history novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Henderson the Rain King by Saul Bellow?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Henderson the Rain King include Herzog and Humboldt's Gift by Saul Bellow, Adventures of Augie March by Saul Bellow, On the Road by Jack Kerouac, A Confederacy of Dunces by John Kennedy Toole, Steppenwolf by Hermann Hesse, and Invisible Man by Ralph Ellison. Our full guide covers 8 picks for readers of Bellow's exuberant picaresque novel." },
     },
     {
       '@type': 'Question',

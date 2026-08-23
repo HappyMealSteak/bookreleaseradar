@@ -5992,6 +5992,79 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'the-little-friend',
+    intro: "The Little Friend (2002) by Donna Tartt is a Southern Gothic novel set in Alexandria, Mississippi in the 1970s, following twelve-year-old Harriet Cleve Dufresnes as she investigates the unsolved murder of her older brother Robin, who was found hanged in the family's backyard nine years earlier when Harriet was an infant. The murder destroyed her family — her parents separated, her mother became a ghost of herself — and Harriet, raised on adventure stories and a fierce moral certainty about justice, becomes convinced she knows who did it. Tartt's second novel after The Secret History is slower, stranger, more Southern, and more interested in children and the world as seen through their eyes; it received a more mixed reception than its predecessor but has been reappraised over time as a masterpiece of its own kind.",
+    startWith: 'The Little Friend (2002)',
+    books: [
+      { title: 'The Little Friend', author: 'Donna Tartt', year: 2002 },
+      { title: 'The Secret History', author: 'Donna Tartt', year: 1992, note: "Tartt's debut — a group of classics students at a Vermont college who commit a murder; more plot-driven and more immediately gripping than The Little Friend." },
+      { title: 'The Goldfinch', author: 'Donna Tartt', year: 2013, note: "Tartt's Pulitzer-winning third novel — a boy who takes a painting from the site of a terrorist attack; shares The Little Friend's interest in childhood grief and the way a single catastrophic event shapes a life." },
+    ],
+    faq: [
+      { q: 'Is The Little Friend as good as The Secret History?', a: "The Little Friend received a more divided reception than The Secret History — some readers find it slow, digressive, and unresolved; others consider it a deeper and more ambitious novel. It is longer, more atmospheric, and less plot-driven than The Secret History, organized around a child's moral certainty rather than adults' sophisticated guilt." },
+      { q: 'What is the Southern Gothic tradition The Little Friend belongs to?', a: "Southern Gothic is an American literary tradition associated with Flannery O'Connor, William Faulkner, Carson McCullers, and Truman Capote — fiction set in the American South that uses Gothic elements (decay, mystery, grotesque characters, violence) to examine the social and moral failures of Southern culture. The Little Friend is deeply embedded in this tradition." },
+      { q: 'Does The Little Friend solve the mystery?', a: "The Little Friend deliberately declines to solve the central mystery of Robin's murder — Harriet pursues her theory with absolute conviction, but the novel is interested in the nature of her certainty rather than in providing the reader with definitive answers. It is a mystery novel that rejects the mystery novel's contract with the reader." },
+    ],
+  },
+  {
+    slug: 'the-corrections-franzen',
+    intro: "The Corrections (2001) by Jonathan Franzen is a multigenerational family novel following the Lambert family — parents Alfred and Enid in their Midwestern home, and their three adult children Chip, Gary, and Denise — as Enid tries to organize one last Christmas with the whole family before Alfred's Parkinson's disease makes it impossible. Alfred has spent his life building a structure of orderliness and self-denial; his children have spent their adult lives both escaping that structure and reproducing it in different forms. Franzen weaves together the domestic and the global — scenes from a Lithuanian financial collapse, a Chip in Brussels, a pharmaceutical subplot for Alfred's dementia — and won the National Book Award with this novel in 2001, the same year it appeared on Oprah's Book Club.",
+    startWith: 'The Corrections (2001)',
+    books: [
+      { title: 'The Corrections', author: 'Jonathan Franzen', year: 2001 },
+      { title: 'Freedom', author: 'Jonathan Franzen', year: 2010, note: "Franzen's follow-up — another big American family novel, following the Berglunds from Minnesota through thirty years of marriage, parenting, and environmental politics." },
+    ],
+    faq: [
+      { q: 'Is The Corrections part of a series?', a: "No — The Corrections is a standalone novel. Freedom (2010) and Crossroads (2021) are also standalones; Franzen does not write series fiction." },
+      { q: 'Is The Corrections about Alzheimer\'s or Parkinson\'s?', a: "Parkinson\'s — Alfred Lambert has Parkinson's disease, which in the novel is associated with dementia and cognitive decline. Franzen researched Parkinson's while writing the novel, and Alfred's disease is the biological clock that drives the plot: Enid wants one last Christmas before he loses too much of himself." },
+      { q: 'Why is The Corrections considered a great American novel?', a: "The Corrections was widely received as a defining novel of its moment — it captured the American middle-class family at the turn of the millennium, the collision between the values of postwar stability (Alfred's generation) and the restless self-reinvention of the baby boomers (the children), against a backdrop of financial capitalism and pharmaceutical medicine. Its ambition, scope, and formal control are what earned the comparison to nineteenth-century social novels." },
+    ],
+  },
+  {
+    slug: 'portnoys-complaint',
+    intro: "Portnoy's Complaint (1969) by Philip Roth is a monologue delivered to a psychiatrist by Alexander Portnoy — a thirty-three-year-old liberal Jewish man from Newark, New Jersey, who is the Assistant Commissioner for Human Opportunity in New York City. For roughly 300 pages, Portnoy complains: about his suffocating mother, about his constipated father, about his guilty sexuality, about the contradictions of his Jewish identity, about his complicated relationships with non-Jewish women, about the gap between the liberalism he professes and the desires he cannot control. The novel was an immediate scandal in 1969 — celebrated as a comic masterpiece, condemned as Jewish self-hatred, and widely considered the book that made Philip Roth famous.",
+    startWith: "Portnoy's Complaint (1969)",
+    books: [
+      { title: "Portnoy's Complaint", author: 'Philip Roth', year: 1969 },
+      { title: 'American Pastoral', author: 'Philip Roth', year: 1997, note: "Roth's Pulitzer Prize winner — if Portnoy's Complaint is your first Roth, American Pastoral is the natural next read: more serious, more tragic, more controlled." },
+      { title: 'The Human Stain', author: 'Philip Roth', year: 2000, note: "The third novel of the American Trilogy — a classics professor accused of racism who has been hiding a secret about his racial identity for decades." },
+    ],
+    faq: [
+      { q: 'Is Portnoy\'s Complaint anti-Semitic?', a: "Portnoy's Complaint was accused of Jewish self-hatred by some Jewish critics at the time of publication. Roth has consistently argued that the novel's satirical treatment of Jewish identity and Jewish guilt is a form of affection, not contempt — that it represents the inside view of a specific social world with full documentary honesty." },
+      { q: 'Is Portnoy\'s Complaint funny?', a: "Yes — Portnoy's Complaint is one of the great comic novels in American literature. The monologue is written in a voice of barely controlled hysteria, and the comedy of escalating grievance and sexual confession reads as very funny to most audiences, particularly readers who grew up in the world Roth describes." },
+      { q: 'Where does Portnoy\'s Complaint fit in Philip Roth\'s career?', a: "Portnoy's Complaint (1969) was Roth's fourth book and made him internationally famous. His earlier work (Goodbye, Columbus, 1959; Letting Go, 1962) was critically respected but quieter; Portnoy was the breakthrough. His mature novels — the American Trilogy, The Ghost Writer, Sabbath's Theater — are generally considered greater artistic achievements, but Portnoy is still the novel most associated with his name." },
+    ],
+  },
+  {
+    slug: 'the-plot-against-america',
+    intro: "The Plot Against America (2004) by Philip Roth is an alternative history novel in which Charles Lindbergh — the aviator and Nazi sympathizer — defeats Franklin Roosevelt in the 1940 presidential election and pursues a policy of American isolationism and quiet anti-Semitism. Narrated by a child named Philip Roth growing up in Newark, New Jersey, the novel follows the Roth family as Lindbergh's presidency makes their comfortable American Jewish life increasingly precarious. Roth uses the alternative history frame to examine the fragility of American liberal democracy and the specific vulnerability of minority communities within it — questions that felt newly urgent when the novel was published and have felt so again since.",
+    startWith: 'The Plot Against America (2004)',
+    books: [
+      { title: 'The Plot Against America', author: 'Philip Roth', year: 2004 },
+      { title: 'American Pastoral', author: 'Philip Roth', year: 1997, note: "Roth's Pulitzer-winning novel — a different approach to the same preoccupation: the fragility of the American Dream and the violence that disrupts it." },
+    ],
+    faq: [
+      { q: 'Is The Plot Against America based on real history?', a: "The premise is alternative history — Charles Lindbergh did not run for president in 1940, and the America of the novel did not happen. But Lindbergh was a real figure (he won the Spirit of St. Louis transatlantic flight in 1927 and later made anti-Semitic speeches arguing for American neutrality), and Roth drew on real historical materials to construct the plausible alternative." },
+      { q: 'Is The Plot Against America relevant today?', a: "The novel was widely reread after the 2016 US election and again after 2020 as a parable about the fragility of liberal democratic norms. Roth has said the novel was primarily about the 1930s and 1940s, but its implications about how quickly circumstances can change for minority communities have given it an ongoing contemporary resonance." },
+      { q: 'Is there a TV adaptation of The Plot Against America?', a: "Yes — HBO adapted the novel as a six-part miniseries in 2020, with David Simon and Ed Burns as showrunners, and Winona Ryder, Morgan Spector, and Ben Cole in the central roles. The adaptation is closely faithful to the novel." },
+    ],
+  },
+  {
+    slug: 'henderson-rain-king',
+    intro: "Henderson the Rain King (1959) by Saul Bellow is the most exuberant of Bellow's novels — a picaresque account of Gene Henderson, a huge, loud, unsatisfied American millionaire in his mid-fifties who goes to Africa on an impulse, becomes involved in two African tribes (the Arnewi and the Wariri), and finds himself accidentally appointed Rain King. Henderson talks constantly, roars with anxiety and desire, and cannot stop asking the question that drives him: 'What does life want of me?' The novel is at once a comic novel, a bildungsroman, a philosophical quest, and a meditation on American energy and excess. Bellow received the Nobel Prize for Literature in 1976.",
+    startWith: 'Henderson the Rain King (1959)',
+    books: [
+      { title: 'Henderson the Rain King', author: 'Saul Bellow', year: 1959 },
+      { title: 'Herzog', author: 'Saul Bellow', year: 1964, note: "Bellow's other confessional tragicomedy — Moses Herzog writing unsent letters to everyone who has wronged him; less exuberant than Henderson but more moving." },
+      { title: 'Humboldt\'s Gift', author: 'Saul Bellow', year: 1975, note: "Bellow's Pulitzer-winning novel — a writer reckoning with the legacy of a brilliant, destroyed friend; more autobiographical and more melancholy than Henderson." },
+    ],
+    faq: [
+      { q: 'Is Henderson the Rain King part of a series?', a: "No — all of Bellow's novels are standalones. Herzog (1964) and Henderson (1959) are often paired as his two great confessional novels of the early 1960s, but they have no plot or character connections." },
+      { q: 'Is Henderson the Rain King Saul Bellow\'s best novel?', a: "Most literary critics consider Herzog (1964), Humboldt's Gift (1975), or Mr. Sammler's Planet (1970) Bellow's finest achievements. Henderson is often called the most purely enjoyable — the most comic, the most high-energy — but the consensus tends to place Herzog slightly higher as the most artistically controlled." },
+      { q: 'What is the significance of Africa in Henderson the Rain King?', a: "Bellow has been criticized for his depiction of Africa and Africans in Henderson — Edward Said and Chinua Achebe both wrote about the novel's debt to the colonial imagination of Africa as a place for white protagonists to find themselves. The criticism is well-founded: Bellow uses Africa as a backdrop for Henderson's spiritual transformation rather than as a place with its own interior life. Readers should approach the novel with this context." },
+    ],
+  },
+  {
     slug: 'atonement-mcewan',
     intro: "Atonement (2001) by Ian McEwan opens on a hot summer's day in 1935 at a country house in Surrey, where thirteen-year-old Briony Tallis witnesses — and catastrophically misinterprets — a sequence of events involving her older sister Cecilia and Cecilia's childhood friend Robbie Turner. Briony's false accusation sends Robbie to prison and then to France as a soldier, separating him from Cecilia in ways that the war will make permanent. The novel's second and third sections follow Robbie at Dunkirk and Cecilia as a nurse in wartime London; the fourth section reveals the full complexity of what we have been reading. Atonement was shortlisted for the Booker Prize in 2001 and adapted by Joe Wright into a widely acclaimed film in 2007 with James McAvoy and Keira Knightley.",
     startWith: 'Atonement (2001)',
