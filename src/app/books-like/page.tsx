@@ -366,6 +366,11 @@ export const metadata: Metadata = {
     'books like The Underground Railroad Colson Whitehead',
     'books like Cloudstreet Tim Winton',
     'books like I Capture the Castle Dodie Smith',
+    'books like I Am Malala Yousafzai Pakistan Taliban education Nobel Peace Prize',
+    'books like Wild Cheryl Strayed Pacific Crest Trail grief recovery addiction memoir',
+    'books like The Glass Castle Jeannette Walls chaotic childhood poverty nomadic parents',
+    'books like The Boy in the Striped Pajamas Boyne Bruno Shmuel Auschwitz fence Holocaust',
+    'books like Into Thin Air Jon Krakauer 1996 Everest disaster storm eight climbers',
     'books like Night Elie Wiesel Holocaust memoir Auschwitz Buchenwald teenager Nobel',
     'books like The Diary of a Young Girl Anne Frank Amsterdam hiding annex 1942 WWII',
     'books like Maus Art Spiegelman Holocaust graphic memoir Pulitzer mice cats Auschwitz',
@@ -2560,6 +2565,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Argonauts by Maggie Nelson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Argonauts include Fun Home by Alison Bechdel, Bluets by Maggie Nelson, The Lover by Marguerite Duras, Redefining Realness by Janet Mock, Giovanni's Room by James Baldwin, and The Empathy Exams by Leslie Jamison. Our full guide covers 8 picks for fans of Nelson's queer autotheory memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked I Am Malala by Malala Yousafzai?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like I Am Malala include Educated by Tara Westover, Becoming by Michelle Obama, The Diary of a Young Girl by Anne Frank, A Long Way Gone by Ishmael Beah, The Kite Runner by Khaled Hosseini, A Thousand Splendid Suns by Hosseini, Half the Sky by Nicholas Kristof and Sheryl WuDunn, and The Glass Castle by Jeannette Walls. Our full guide covers 8 picks for readers of Yousafzai's Nobel Peace Prize-winning memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Wild by Cheryl Strayed?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wild include Tiny Beautiful Things and Brave Enough (both Strayed), Into the Wild by Jon Krakauer, Into Thin Air by Krakauer, Eat Pray Love by Elizabeth Gilbert, The Glass Castle by Jeannette Walls, Educated by Tara Westover, and A Walk in the Woods by Bill Bryson. Our full guide covers 8 picks for readers of Strayed's Pacific Crest Trail memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Glass Castle by Jeannette Walls?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Glass Castle include Half Broke Horses (other Walls), Educated by Tara Westover, Wild by Cheryl Strayed, The Liar's Club by Mary Karr, Running with Scissors by Augusten Burroughs, This Boy's Life by Tobias Wolff, Angela's Ashes by Frank McCourt, and A Tree Grows in Brooklyn by Betty Smith. Our full guide covers 8 picks for readers of Walls's chaotic childhood memoir." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Boy in the Striped Pajamas by John Boyne?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Boy in the Striped Pajamas include Night by Elie Wiesel, The Diary of a Young Girl by Anne Frank, Number the Stars by Lois Lowry, When Hitler Stole Pink Rabbit by Judith Kerr, The Tattooist of Auschwitz by Heather Morris, Maus by Art Spiegelman, The Book Thief by Markus Zusak, and Sarah's Key by Tatiana de Rosnay. Our full guide covers 8 picks for readers of Boyne's Holocaust fable." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Into Thin Air by Jon Krakauer?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Into Thin Air include Into the Wild and Under the Banner of Heaven (both Krakauer), Unbroken by Laura Hillenbrand, Endurance by Alfred Lansing, The Climb by Anatoli Boukreev, Touching the Void by Joe Simpson, Wild by Cheryl Strayed, and The Perfect Storm by Sebastian Junger. Our full guide covers 8 picks for readers of Krakauer's 1996 Everest disaster account." },
     },
     {
       '@type': 'Question',

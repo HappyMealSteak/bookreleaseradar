@@ -5992,6 +5992,66 @@ const READING_ORDERS: SeriesReadingOrder[] = [
     ],
   },
   {
+    slug: 'i-am-malala',
+    intro: "Malala Yousafzai's I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban (2013, written with Christina Lamb) is the memoir of a Pakistani girl who became the world's most famous education activist. Growing up in the Swat Valley in Pakistan, Malala defied the Taliban's prohibition on girls' education and was shot in the head by a Taliban gunman on her school bus in October 2012 at the age of fifteen. She survived, was flown to Birmingham for treatment, and went on to become the youngest Nobel Peace Prize laureate in history (2014). I Am Malala became a worldwide bestseller and is required reading in schools across the United States and Europe.",
+    startWith: 'I Am Malala',
+    books: [
+      { title: 'I Am Malala', author: 'Malala Yousafzai', year: 2013, note: "Start here — the complete memoir written with journalist Christina Lamb. Malala published a companion book for younger readers, Malala's Magic Pencil, in 2017." },
+    ],
+    faq: [
+      { q: "Did Malala really write I Am Malala?", a: "I Am Malala was co-written with the journalist Christina Lamb, who spent extensive time interviewing Malala and her family and was present at many of the events described. Malala is the primary source and voice; Lamb shaped the narrative and did extensive additional research and reporting. This is a common arrangement for memoirs by people whose first language is not English; Malala also wrote a version for younger readers, Malala's Magic Pencil (2017), which she adapted independently." },
+      { q: "What should I read next after I Am Malala?", a: "Readers continue with Educated by Tara Westover, the closest American parallel — a young woman who also grew up without formal schooling and educated herself against her family's resistance. Becoming by Michelle Obama, The Diary of a Young Girl by Anne Frank, The Glass Castle by Jeannette Walls, and A Long Way Gone by Ishmael Beah are strong companions in the tradition of the memoir about a young person navigating impossible circumstances through extraordinary determination." },
+    ],
+  },
+  {
+    slug: 'wild-strayed',
+    intro: "Cheryl Strayed's Wild: From Lost to Found on the Pacific Crest Trail (2012) is the memoir of a woman who — at twenty-six, recently divorced, in the grip of heroin addiction following her mother's death — impulsively decided to hike the Pacific Crest Trail alone, despite having no outdoor experience. The eleven-hundred-mile solo hike from the Mojave Desert to the Oregon/Washington border became the physical and psychological journey of her recovery. Wild spent more than 100 weeks on the New York Times bestseller list and was adapted into the 2014 film with Reese Witherspoon.",
+    startWith: 'Wild',
+    books: [
+      { title: 'Wild', author: 'Cheryl Strayed', year: 2012, note: "Start here — the complete memoir. Strayed's other books include Tiny Beautiful Things (2012), a collection of her Dear Sugar advice columns, and Torch (2006), a novel." },
+    ],
+    faq: [
+      { q: "Is Wild a true story?", a: "Yes. Wild is a memoir — Cheryl Strayed's account of her own solo hike of the Pacific Crest Trail in 1995. The hike took her eleven weeks. Her mother Bobbi died of lung cancer in 1991; her marriage to Paul ended in divorce partly as a result of her grief-driven behavior. The specific experiences on the trail — the encounters with hikers, the blisters, the lost pack, the snow — are all drawn from Strayed's notebooks and memory." },
+      { q: "What should I read next after Wild?", a: "Strayed readers continue with Tiny Beautiful Things (2012), her collection of advice columns written as Dear Sugar, which many readers consider her best work. For readers who loved Wild's blend of outdoor adventure and inner journey, Into the Wild by Jon Krakauer, Into Thin Air by Jon Krakauer, The Glass Castle by Jeannette Walls, and Educated by Tara Westover are strong companions." },
+    ],
+  },
+  {
+    slug: 'the-glass-castle-walls',
+    intro: "Jeannette Walls's The Glass Castle (2005) is the memoir of a childhood in extreme poverty and neglect — Jeannette Walls grew up with nomadic, eccentric, brilliant, and utterly irresponsible parents who moved the family from one desert town to another, rarely providing adequate food, heating, or stability. Her father Rex was an alcoholic genius who could explain the stars but couldn't hold a job; her mother Rose Mary was an artist who refused to conform to any expectation of motherhood. By seventeen, Jeannette had escaped to New York City. The Glass Castle spent over 261 weeks on the New York Times bestseller list.",
+    startWith: 'The Glass Castle',
+    books: [
+      { title: 'The Glass Castle', author: 'Jeannette Walls', year: 2005, note: "Start here — the complete memoir. Walls's subsequent books include Half Broke Horses (2009), about her grandmother Lily Casey Smith, and the novel The Silver Star (2013)." },
+    ],
+    faq: [
+      { q: "Is The Glass Castle a true story?", a: "Yes. The Glass Castle is a memoir — Jeannette Walls's account of her own childhood with her parents Rex and Rose Mary Walls and her siblings Lori, Brian, and Maureen. Some family members initially disputed the characterizations, but Walls has stood by her account. Her mother Rose Mary has herself written about their life from her perspective. Walls is a journalist (she wrote the 'Scoop' column for New York magazine) and the memoir was extensively reported." },
+      { q: "What should I read next after The Glass Castle?", a: "Walls readers continue with Half Broke Horses, her story of her grandmother Lily Casey Smith. For readers who loved The Glass Castle's blend of a chaotic extraordinary childhood and the narrator's escape through determination, Educated by Tara Westover, Wild by Cheryl Strayed, The Liar's Club by Mary Karr, This Boy's Life by Tobias Wolff, and Running with Scissors by Augusten Burroughs are strong companions." },
+    ],
+  },
+  {
+    slug: 'the-boy-in-the-striped-pajamas',
+    intro: "John Boyne's The Boy in the Striped Pajamas (2006) is the short novel narrated by Bruno, the nine-year-old son of the new commandant of Auschwitz, who befriends a Jewish boy named Shmuel through the camp fence without understanding what the fence separates. One of the most widely read Holocaust novels for young readers, it is taught in schools across the world. Boyne has been both celebrated for making the Holocaust accessible to young readers and criticized for historical inaccuracies and for its fable-like approach to a historical event.",
+    startWith: 'The Boy in the Striped Pajamas',
+    books: [
+      { title: 'The Boy in the Striped Pajamas', author: 'John Boyne', year: 2006, note: "Start here — the complete standalone novel. Boyne has published many other novels for adults and young readers, none of which are sequels." },
+    ],
+    faq: [
+      { q: "Is The Boy in the Striped Pajamas appropriate for children?", a: "The Boy in the Striped Pajamas is widely taught in middle schools (ages 11-13) as an introduction to the Holocaust. However, critics have noted that its historical inaccuracies — the premise that a commandant's son would not understand what Auschwitz was, the existence of a section of the camp fence accessible for unsupervised play — make it a fable about the Holocaust rather than an accurate representation. Teachers often pair it with Night by Elie Wiesel or The Diary of a Young Girl to provide historical context." },
+      { q: "What should I read next after The Boy in the Striped Pajamas?", a: "Readers continue with Night by Elie Wiesel and The Diary of a Young Girl by Anne Frank for more authentic Holocaust testimony. For readers who want more John Boyne, his novel The Absolutist (2011) deals with conscientious objectors in WWI. For readers who loved the child's-eye perspective on extreme historical circumstances, Number the Stars by Lois Lowry and When Hitler Stole Pink Rabbit by Judith Kerr are strong companions." },
+    ],
+  },
+  {
+    slug: 'into-thin-air',
+    intro: "Jon Krakauer's Into Thin Air: A Personal Account of the Mt. Everest Disaster (1997) is the first-hand account of the May 1996 Everest disaster in which eight climbers died in a single storm. Krakauer was on the mountain as a journalist for Outside magazine when the storm hit; he survived, and his account — published first as a magazine article and then as a book — became one of the most celebrated works of narrative nonfiction of the 1990s. Into Thin Air spent fifty-three consecutive weeks on the New York Times bestseller list.",
+    startWith: 'Into Thin Air',
+    books: [
+      { title: 'Into Thin Air', author: 'Jon Krakauer', year: 1997, note: "Start here — the complete standalone narrative. Krakauer's other celebrated books — Into the Wild (1996) and Under the Banner of Heaven (2003) — are separate standalones." },
+    ],
+    faq: [
+      { q: "Is Into Thin Air a true story?", a: "Yes. Into Thin Air is Krakauer's first-hand account of his own experience on Everest during the May 1996 disaster. However, Krakauer's account is not the only one; Anatoli Boukreev, a guide on a competing expedition, disputed aspects of Krakauer's characterization of his actions and co-wrote The Climb (1997) as a response. The basic facts of the disaster — eight deaths, the specific sequence of events on the mountain — are not disputed, but accounts of individual decisions and actions differ." },
+      { q: "What should I read next after Into Thin Air?", a: "Krakauer readers continue with Into the Wild (1996) — his account of Chris McCandless, the young man who abandoned his conventional life for the Alaskan wilderness. Unbroken by Laura Hillenbrand, Endurance by Alfred Lansing, Wild by Cheryl Strayed, and Sebastian Junger's The Perfect Storm are strong companions in the extreme survival and adventure narrative tradition." },
+    ],
+  },
+  {
     slug: 'night-wiesel',
     intro: "Elie Wiesel's Night (1960, originally Un di velt hot geshvign in Yiddish, 1956) is the essential Holocaust memoir — Wiesel's account of his deportation from the Hungarian town of Sighet to Auschwitz and then to Buchenwald at the age of fifteen. The first of three autobiographical novels that form a loose trilogy (Night, Dawn, Day), Night is the book Wiesel spent ten years unable to write, so traumatic was the experience of transforming his experience into language. He was awarded the Nobel Peace Prize in 1986, and Night is one of the most widely read books in the world, taught in schools across the United States and Europe.",
     startWith: 'Night',
