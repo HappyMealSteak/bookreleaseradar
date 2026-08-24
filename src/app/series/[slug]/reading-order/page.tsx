@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${series.author} reading order`,
       `${series.name} complete series`,
     ].filter(Boolean) as string[],
+    alternates: { canonical: `https://bookreleaseradar.com/series/${slug}/reading-order` },
     openGraph: { title, description },
   };
 }

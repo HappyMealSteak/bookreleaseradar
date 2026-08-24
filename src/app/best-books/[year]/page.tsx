@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `best romance books ${year}`,
       `best thriller books ${year}`,
     ],
+    alternates: { canonical: `https://bookreleaseradar.com/best-books/${year}` },
     openGraph: { title, description },
   };
 }

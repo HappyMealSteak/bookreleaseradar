@@ -42,6 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       series.shortName ? `${series.shortName} new book` : undefined,
       series.shortName ? `${series.shortName} series` : undefined,
     ].filter(Boolean) as string[],
+    alternates: { canonical: `https://bookreleaseradar.com/series/${slug}` },
     openGraph: { title, description },
   };
 }

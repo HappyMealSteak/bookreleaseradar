@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     'upcoming romance books',
     'book search',
   ],
+  robots: { index: false, follow: true },
 };
 
 export default function SearchPage() {

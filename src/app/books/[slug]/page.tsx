@@ -73,6 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     keywords,
+    alternates: { canonical: `https://bookreleaseradar.com/books/${slug}` },
     openGraph: { title, description },
   };
 }
