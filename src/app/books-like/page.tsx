@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like The Ambassadors Henry James Lambert Strether Paris unlived life 1903',
+    'books like The Wings of the Dove Henry James Milly Theale deception inheritance 1902',
+    'books like The House of Mirth Edith Wharton Lily Bart Old New York tragedy 1905',
+    'books like The Age of Innocence Edith Wharton Newland Archer Ellen Olenska 1920',
+    'books like La Bête Humaine Émile Zola Jacques Lantier railway murder heredity 1890',
     'books like A Life Une Vie Maupassant Jeanne de Lamare Normandy husband infidelity 1883',
     'books like Pot-Bouille Zola Octave Mouret bourgeois apartment Paris hypocrisy 1882',
     'books like The American Henry James Christopher Newman Paris Bellegarde aristocracy 1877',
@@ -2755,6 +2760,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Ambassadors by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ambassadors include The Wings of the Dove and The Golden Bowl (also late James), The Portrait of a Lady by James, The Remains of the Day by Ishiguro, A Room with a View by Forster, The Europeans by James, What Maisie Knew by James, and The Aspern Papers by James. Our full guide covers 8 picks for fans of James's meditation on unlived life and European civilization." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Wings of the Dove by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Wings of the Dove include The Ambassadors and The Golden Bowl (also late James), The Portrait of a Lady by James, Washington Square by James, The End of the Affair by Graham Greene, Atonement by Ian McEwan, The Remains of the Day by Ishiguro, and The Europeans by James. Our full guide covers 8 picks for fans of James's most heartbreaking late novel." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The House of Mirth by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The House of Mirth include The Age of Innocence and The Custom of the Country (also Wharton), Vanity Fair by Thackeray, The Portrait of a Lady by Henry James, Middlemarch by George Eliot, Sister Carrie by Dreiser, Une Vie by Maupassant, and The Awakening by Kate Chopin. Our full guide covers 8 picks for fans of Wharton's portrait of Lily Bart's tragic exclusion from Old New York." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The Age of Innocence by Edith Wharton?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Age of Innocence include The House of Mirth and The Custom of the Country (also Wharton), The Portrait of a Lady by Henry James, The Ambassadors by James, The Remains of the Day by Ishiguro, Anna Karenina by Tolstoy, Ethan Frome by Wharton, and Washington Square by James. Our full guide covers 8 picks for fans of Wharton's Pulitzer Prize-winning study of social conformity." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked La Bête Humaine by Émile Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like La Bête Humaine include L'Assommoir and Germinal (also Zola, featuring the Lantier-Macquart family), Nana and Pot-Bouille by Zola, Crime and Punishment by Dostoevsky, In Cold Blood by Capote, The Talented Mr. Ripley by Highsmith, and Thérèse Raquin by Zola. Our full guide covers 8 picks for fans of Zola's great crime novel of hereditary violence." },
     },
     {
       '@type': 'Question',
