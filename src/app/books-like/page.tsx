@@ -2433,6 +2433,11 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
+      name: "What should I read if I liked Tess of the D'Urbervilles by Thomas Hardy?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tess of the D'Urbervilles include Jude the Obscure and Far from the Madding Crowd (also Hardy), The Mayor of Casterbridge and The Return of the Native by Hardy, Middlemarch by George Eliot, The Awakening by Kate Chopin, Une Vie by Maupassant, and Anna Karenina by Tolstoy. Our full guide covers 8 picks for fans of Hardy's portrait of Tess Durbeyfield and the society that destroys her." },
+    },
+    {
+      '@type': 'Question',
       name: 'What should I read if I liked Jude the Obscure by Thomas Hardy?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jude the Obscure include Tess of the d'Urbervilles (also by Hardy), Sons and Lovers by D.H. Lawrence, The Way of All Flesh by Samuel Butler, North and South by Elizabeth Gaskell, A Room with a View by E.M. Forster, Of Human Bondage by W. Somerset Maugham, Never Let Me Go by Kazuo Ishiguro, and The Mayor of Casterbridge by Thomas Hardy. Our full guide covers 8 picks for fans of Hardy's final and most savage novel." },
     },
