@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like The Portrait of a Lady Henry James Isabel Archer Osmond Florence 1881',
+    'books like The Earth La Terre Zola Fouan peasant Beauce Jean Macquart 1887',
+    'books like Anna Karenina Leo Tolstoy Vronsky Levin Kitty Russian 1878',
+    'books like Effi Briest Fontane Instetten Prussian honor duel 1896',
+    'books like The Secret Agent Conrad Verloc London anarchism Greenwich 1907',
     'books like The Ambassadors Henry James Lambert Strether Paris unlived life 1903',
     'books like The Wings of the Dove Henry James Milly Theale deception inheritance 1902',
     'books like The House of Mirth Edith Wharton Lily Bart Old New York tragedy 1905',
@@ -2763,23 +2768,8 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: 'What should I read if I liked The Ambassadors by Henry James?',
-      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ambassadors include The Wings of the Dove and The Golden Bowl (also late James), The Portrait of a Lady by James, The Remains of the Day by Ishiguro, A Room with a View by Forster, The Europeans by James, What Maisie Knew by James, and The Aspern Papers by James. Our full guide covers 8 picks for fans of James's meditation on unlived life and European civilization." },
-    },
-    {
-      '@type': 'Question',
-      name: 'What should I read if I liked The Wings of the Dove by Henry James?',
-      acceptedAnswer: { '@type': 'Answer', text: "Books like The Wings of the Dove include The Ambassadors and The Golden Bowl (also late James), The Portrait of a Lady by James, Washington Square by James, The End of the Affair by Graham Greene, Atonement by Ian McEwan, The Remains of the Day by Ishiguro, and The Europeans by James. Our full guide covers 8 picks for fans of James's most heartbreaking late novel." },
-    },
-    {
-      '@type': 'Question',
-      name: 'What should I read if I liked The House of Mirth by Edith Wharton?',
-      acceptedAnswer: { '@type': 'Answer', text: "Books like The House of Mirth include The Age of Innocence and The Custom of the Country (also Wharton), Vanity Fair by Thackeray, The Portrait of a Lady by Henry James, Middlemarch by George Eliot, Sister Carrie by Dreiser, Une Vie by Maupassant, and The Awakening by Kate Chopin. Our full guide covers 8 picks for fans of Wharton's portrait of Lily Bart's tragic exclusion from Old New York." },
-    },
-    {
-      '@type': 'Question',
-      name: 'What should I read if I liked The Age of Innocence by Edith Wharton?',
-      acceptedAnswer: { '@type': 'Answer', text: "Books like The Age of Innocence include The House of Mirth and The Custom of the Country (also Wharton), The Portrait of a Lady by Henry James, The Ambassadors by James, The Remains of the Day by Ishiguro, Anna Karenina by Tolstoy, Ethan Frome by Wharton, and Washington Square by James. Our full guide covers 8 picks for fans of Wharton's Pulitzer Prize-winning study of social conformity." },
+      name: 'What should I read if I liked The Earth (La Terre) by Émile Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Earth (La Terre) include Germinal and L'Assommoir (also Zola, featuring the same Macquart family), Nana and La Bête Humaine by Zola, Tess of the D'Urbervilles by Hardy, Jude the Obscure by Hardy, Sister Carrie by Dreiser, and The Ragged Trousered Philanthropists by Tressell. Our full guide covers 8 picks for fans of Zola's brutal portrait of French peasant life." },
     },
     {
       '@type': 'Question',
