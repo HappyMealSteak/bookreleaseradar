@@ -374,6 +374,11 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    'books like A Life Une Vie Maupassant Jeanne de Lamare Normandy husband infidelity 1883',
+    'books like Pot-Bouille Zola Octave Mouret bourgeois apartment Paris hypocrisy 1882',
+    'books like The American Henry James Christopher Newman Paris Bellegarde aristocracy 1877',
+    'books like What Maisie Knew Henry James Maisie Farange divorced parents child consciousness 1897',
+    'books like Germinie Lacerteux Goncourt Brothers servant working class naturalism 1865',
     "books like L'Assommoir Émile Zola Gervaise Macquart Coupeau alcoholism Paris working class 1877",
     "books like The Ladies' Paradise Zola Au Bonheur des Dames Denise Mouret department store 1883",
     'books like The Europeans Henry James Baroness Eugenia Felix Young Wentworths Boston 1878',
@@ -2750,6 +2755,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Jekyll and Hyde by Robert Louis Stevenson?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Jekyll and Hyde include The Picture of Dorian Gray by Wilde, Dracula by Bram Stoker, The Turn of the Screw by Henry James, Kidnapped by Stevenson, Frankenstein by Mary Shelley, The Double by Dostoevsky, Heart of Darkness by Conrad, and The Island of Doctor Moreau by H.G. Wells. Our full guide covers 8 picks for fans of Stevenson's Gothic novella." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked A Life (Une Vie) by Guy de Maupassant?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Life (Une Vie) include Pierre and Jean and Bel-Ami (also Maupassant), Madame Bovary by Flaubert, The Mill on the Floss by George Eliot, The House of Mirth by Wharton, Effi Briest by Fontane, Thérèse Raquin by Zola, and The Awakening by Kate Chopin. Our full guide covers 8 picks for fans of Maupassant's portrait of a woman's life destroyed by those around her." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Pot-Bouille by Émile Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Pot-Bouille include The Ladies' Paradise (direct sequel, also Zola), L'Assommoir and Germinal (also Zola), Nana by Zola, Vanity Fair by Thackeray, Middlemarch by George Eliot, Cousine Bette by Balzac, and The Way We Live Now by Trollope. Our full guide covers 8 picks for fans of Zola's satire of bourgeois Parisian hypocrisy." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked The American by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The American include The Portrait of a Lady, Daisy Miller, The Europeans, The Ambassadors, The Bostonians, and Washington Square (all James), plus The Innocents Abroad by Twain and A Room with a View by Forster. Our full guide covers 8 picks for fans of James's first international novel and his American-in-Europe theme." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked What Maisie Knew by Henry James?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like What Maisie Knew include The Turn of the Screw, The Awkward Age, and The Spoils of Poynton (also James), The Catcher in the Rye by Salinger, To Kill a Mockingbird by Harper Lee, Atonement by Ian McEwan, The Go-Between by L.P. Hartley, and The Portrait of a Lady by James. Our full guide covers 8 picks for fans of James's child-consciousness masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked Germinie Lacerteux by the Goncourt Brothers?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Germinie Lacerteux include L'Assommoir and Germinal (also naturalist, by Zola), The Ragged Trousered Philanthropists by Tressell, Nana by Zola, Renée Mauperin (also by the Goncourts), Thérèse Raquin by Zola, Maggie: A Girl of the Streets by Crane, and Sister Carrie by Dreiser. Our full guide covers 8 picks for fans of the Goncourts' founding naturalist novel." },
     },
     {
       '@type': 'Question',
