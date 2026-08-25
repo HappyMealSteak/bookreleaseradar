@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like To Kill a Mockingbird Lee 1960 scout finch atticus maycomb tom robinson trial",
+    "books like All the Kings Men Warren 1946 willie stark huey long jack burden louisiana politics",
+    "books like The Moviegoer Percy 1961 binx bolling new orleans search mardi gras gentilly suburb",
+    "books like The Crying of Lot 49 Pynchon 1966 oedipa maas pierce inverarity tristero conspiracy",
+    "books like Humboldt Gift Bellow 1975 charlie citrine humboldt fleisher delmore schwartz chicago",
     "books like Molloy Beckett 1951 molloy vagabond moran agent beckett trilogy french absurdist",
     "books like The Lover Duras 1984 fifteen-year-old colonial indochina chinese lover mekong ferry",
     "books like The Ravishing of Lol Stein Duras 1964 lol stein engagement ball michael richardson",
@@ -4628,6 +4633,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked To Kill a Mockingbird by Harper Lee?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like To Kill a Mockingbird include Go Set a Watchman by Lee (the companion with adult Scout), The Help by Stockett (the companion popular Southern racial justice novel), Their Eyes Were Watching God by Hurston (the companion that takes Black Southern experience seriously on its own terms), The Bluest Eye by Morrison (the companion on racism's damage to Black children), Just Mercy by Stevenson (the real-world companion about wrongly condemned prisoners in Alabama), and A Time to Kill by Grisham (the popular companion courtroom thriller). Our full guide covers 8 picks for fans of Lee's moral courage and Southern setting." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked All the King's Men by Robert Penn Warren?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like All the King's Men include Primary Colors (the companion contemporary political novel), The Power Broker by Caro (the non-fiction companion on political power), The Great Gatsby (the companion narrator-witness structure), Invisible Man by Ellison (the companion great American political novel about race and power), Lincoln by Gore Vidal (the companion historical novel about a great leader's compromises), and The Moviegoer by Percy (the Southern companion in the tradition of the intellectually demanding American novel). Our full guide covers 8 picks for fans of Warren's political masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Moviegoer by Walker Percy?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Moviegoer include The Second Coming by Percy (the companion where Will Barrett appears again), Love in the Ruins by Percy (the companion satirical science-fiction novel), Stoner by Williams (the companion on a man's search for authenticity), Herzog by Bellow (the companion American intellectual novel about a man in existential crisis), Rabbit, Run by Updike (the companion about a man who can't accept what American life offers), and The Stranger by Camus (the French existentialist companion that directly influenced Percy). Our full guide covers 8 picks for fans of Percy's Southern Catholic existentialism." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Crying of Lot 49 by Thomas Pynchon?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Crying of Lot 49 include Gravity's Rainbow by Pynchon (the companion great novel for readers ready for the full Pynchon), White Noise by DeLillo (the companion postmodern American novel about paranoia), The Master and Margarita by Bulgakov (the companion where surface reality conceals a stranger truth), Infinite Jest by Wallace (the companion encyclopedic postmodern novel), House of Leaves by Danielewski (the companion novel about reality's instability), and V. by Pynchon (the companion debut novel). Our full guide covers 8 picks for fans of Pynchon's paranoid postmodern fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Humboldt's Gift by Saul Bellow?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Humboldt's Gift include Herzog by Bellow (widely considered his finest novel), Seize the Day by Bellow (the companion concentrated shorter novel), Henderson the Rain King by Bellow (the companion most exuberant novel), Portnoy's Complaint by Roth (the companion in the comic-serious American Jewish novel tradition), The Adventures of Augie March by Bellow (the companion breakthrough novel), and Stoner by Williams (the companion on the life of the mind's cost in a materialist world). Our full guide covers 8 picks for fans of Bellow's intellectual comedy and elegy." },
     },
     {
       '@type': 'Question',
