@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Women of Brewster Place Gloria Naylor 1982 mattie michael etta mae kiswana lorraine brewster place wall",
+    "books like Linden Hills Gloria Naylor 1985 willie lester dante inferno willa needed black suburb aspiration",
+    "books like Mama Day Gloria Naylor 1988 willow springs miranda day cocoa george gullah sea island magical realism",
+    "books like Bailey's Cafe Gloria Naylor 1992 bailey eve miss maple mariam jesse bell edge world jazz blues structure",
+    "books like 1996 Gloria Naylor 2005 nsa surveillance paranoia electronic harassment gloria naylor island final novel",
     "books like Mumbo Jumbo Ishmael Reed 1972 papa labas jes grew atonist path hoodoo harlem renaissance postmodern detective",
     "books like Yellow Back Radio Broke-Down Ishmael Reed 1969 loop garoo kid drag gibson hoodoo western anachronistic parody",
     "books like The Free-Lance Pallbearers Ishmael Reed 1967 bukka doopeyduk harry sam dystopia satire assimilation black america",
@@ -4448,6 +4453,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Women of Brewster Place by Gloria Naylor?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Women of Brewster Place, Mama Day (1988) is Naylor's masterpiece and the ideal companion. Linden Hills (1985) is the companion in her Brewster Place cycle. Alice Walker's The Color Purple and Toni Morrison's Beloved are the companions in African American women's fiction of the same moment. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in the tradition.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Linden Hills by Gloria Naylor?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Linden Hills, Mama Day (1988) is the essential counterpoint — where Linden Hills depicts spiritual death through Black assimilation, Mama Day depicts spiritual vitality through folk tradition. Ralph Ellison's Invisible Man is the essential comparison in African American fiction about the cost of assimilation. Nella Larsen's Passing is the predecessor in the tradition of African American fiction about racial identity.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mama Day by Gloria Naylor?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mama Day, The Women of Brewster Place (1982) and Linden Hills (1985) are the companions in Naylor's cycle. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in African American women's fiction that takes the folk tradition seriously. Gabriel García Márquez's One Hundred Years of Solitude is the companion in magical realism. Toni Morrison's Beloved and Song of Solomon are essential companions.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Bailey's Cafe by Gloria Naylor?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Bailey's Cafe, Mama Day (1988) is the companion in Naylor's magical fiction. Toni Morrison's Jazz is the companion in African American fiction that uses jazz form — both appeared in 1992. Gayl Jones's Corregidora is the companion in African American women's fiction about women in extremis. The Women of Brewster Place (1982) is the ideal starting point in Naylor's work.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked 1996 by Gloria Naylor?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved 1996, Mama Day (1988) is the companion in Naylor's own fiction about the question of what is real. Kafka's The Trial is the essential comparison in fiction about institutional persecution. Glenn Greenwald's No Place to Hide is the companion in confirmed accounts of NSA surveillance. Mama Day and The Women of Brewster Place are the essential contexts for understanding Naylor's final novel.",
+      },
     },
     {
       '@type': 'Question',
