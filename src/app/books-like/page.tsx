@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Palace Walk Naguib Mahfouz 1956 cairo trilogy abd al-jawad family 1919 revolution al-sayyid ahmad amina",
+    "books like Season of Migration to the North Tayeb Salih 1966 mustafa saeed sudan london heart of darkness reversed",
+    "books like Gate of the Sun Elias Khoury 1998 khalil yunes shatila nakba bab al-shams palestine refugee",
+    "books like The Yacoubian Building Alaa Al Aswany 2002 cairo building ensemble corruption islamism egypt mubarak",
+    "books like My Michael Amos Oz 1968 hannah gonen jerusalem 1950s arab twins fantasy marriage divided city",
     "books like The Poor Christ of Bomba Mongo Beti 1956 cameroon missionary father drumont denis colonial satire anticolonial",
     "books like Houseboy Ferdinand Oyono 1956 cameroon toundi colonial household diary civilizing mission banned",
     "books like Gods Bits of Wood Sembene Ousmane 1960 dakar niger railway strike senegal women march thiès",
@@ -4478,6 +4483,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Palace Walk by Naguib Mahfouz?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Palace Walk include Palace of Desire and Sugar Street (the two remaining volumes of the Cairo Trilogy), Midaq Alley by Mahfouz (the companion Cairo ensemble novel), Season of Migration to the North by Tayeb Salih (the companion in Arabic literature), The Yacoubian Building by Alaa Al Aswany (the companion Egyptian novel set half a century later), Anna Karenina by Tolstoy (the comparison in the large family novel tradition), and Buddenbrooks by Thomas Mann (the comparison in the family saga as cultural portrait). Our full guide covers 8 picks for fans of the Cairo Trilogy." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Season of Migration to the North by Tayeb Salih?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Season of Migration to the North include The Wedding of Zein by Salih (the companion novella), Heart of Darkness by Conrad (the essential source text this novel reverses), Palace Walk by Naguib Mahfouz (the companion in Arabic literature), Things Fall Apart by Achebe (the companion in postcolonial African fiction), Gate of the Sun by Elias Khoury (the companion in Arabic literature), and Midnight's Children by Rushdie (the companion in postcolonial fiction about the colonial past inhabiting the present). Our full guide covers 8 picks for fans of postcolonial Arabic fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Gate of the Sun by Elias Khoury?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Gate of the Sun include Little Mountain by Elias Khoury (the companion debut novel), Season of Migration to the North by Tayeb Salih (the companion in Arabic literature), Beloved by Toni Morrison (the formal companion in traumatic memory fiction), Palace Walk by Naguib Mahfouz (the companion in Arabic literature), My Michael by Amos Oz (the Israeli counterpart), and One Thousand and One Nights (the structural ancestor). Our full guide covers 8 picks for fans of Palestinian literature and Arabic fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Yacoubian Building by Alaa Al Aswany?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Yacoubian Building include Chicago by Al Aswany (the companion novel), Midaq Alley by Naguib Mahfouz (the most direct predecessor in Cairo ensemble fiction), Palace Walk by Mahfouz (the companion Egyptian novel), Season of Migration to the North by Salih (the companion in Arabic literature), The Bonfire of the Vanities by Tom Wolfe (the comparison in the social panorama novel), and A Man of the People by Chinua Achebe (the companion in African satirical fiction about political corruption). Our full guide covers 8 picks for fans of contemporary Egyptian fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked My Michael by Amos Oz?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Michael include A Tale of Love and Darkness by Amos Oz (the autobiographical companion), Madame Bovary by Flaubert (the primary literary model), Gate of the Sun by Elias Khoury (the Palestinian counterpart), Palace Walk by Naguib Mahfouz (the companion in Middle Eastern fiction), Anna Karenina by Tolstoy (the comparison in the psychologically precise woman-trapped-in-marriage tradition), and The Tin Drum by Günter Grass (the comparison in unreliable narrators of historical catastrophe). Our full guide covers 8 picks for fans of Israeli fiction and psychological novels." },
     },
     {
       '@type': 'Question',
