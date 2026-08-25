@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Temple of the Golden Pavilion Mishima 1956 mizoguchi kinkaku-ji golden pavilion kyoto arson",
+    "books like The Old Capital Kawabata 1962 chieko kyoto twin sister naeko cedar forests festival",
+    "books like The Woman in the Dunes Abe 1962 entomologist sand pit dunes woman shoveling village",
+    "books like Some Prefer Nettles Tanizaki 1929 kaname misako marriage bunraku traditional japan modern",
+    "books like Spring Snow Mishima 1969 kiyoaki satoko meiji japan sea of fertility tetralogy doomed love",
     "books like To Kill a Mockingbird Lee 1960 scout finch atticus maycomb tom robinson trial",
     "books like All the Kings Men Warren 1946 willie stark huey long jack burden louisiana politics",
     "books like The Moviegoer Percy 1961 binx bolling new orleans search mardi gras gentilly suburb",
@@ -4633,6 +4638,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Temple of the Golden Pavilion by Yukio Mishima?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Temple of the Golden Pavilion include Spring Snow by Mishima (the companion Sea of Fertility first novel), The Sailor Who Fell from Grace with the Sea by Mishima (the companion shorter novel about beauty and violence), The Woman in the Dunes by Abe (the Japanese existentialist companion), Snow Country by Kawabata (the companion Nobel novel about transient beauty), No Longer Human by Dazai (the companion about radical alienation), and Some Prefer Nettles by Tanizaki (the companion on traditional Japanese beauty). Our full guide covers 8 picks for fans of Mishima's psychological intensity." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Old Capital by Yasunari Kawabata?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Old Capital include Snow Country by Kawabata (the companion most celebrated novel), Thousand Cranes by Kawabata (the companion about the tea ceremony), The Master of Go by Kawabata (the companion about a traditional art and mortality), Some Prefer Nettles by Tanizaki (the companion about Japanese tradition versus modernity), Spring Snow by Mishima (the companion about doomed love and Meiji Japan), and The Tale of Genji (the classical Heian companion). Our full guide covers 8 picks for fans of Kawabata's lyrical Kyoto fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Woman in the Dunes by Kōbō Abe?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Woman in the Dunes include The Box Man by Abe (the companion about a man who lives in a cardboard box), The Face of Another by Abe (the companion about identity and masking), The Metamorphosis by Kafka (the most important Western predecessor), Waiting for Godot by Beckett (the companion in the trapped-existential tradition), The Stranger by Camus (the French existentialist companion), and No Longer Human by Dazai (the Japanese companion about alienation). Our full guide covers 8 picks for fans of Abe's existentialist allegory." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Some Prefer Nettles by Jun'ichirō Tanizaki?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Some Prefer Nettles include The Makioka Sisters by Tanizaki (the companion great ambitious novel), In Praise of Shadows by Tanizaki (the companion non-fiction essay on the Japanese aesthetic), The Key by Tanizaki (the companion late erotic novel), Snow Country by Kawabata (the companion Nobel novel about traditional femininity), The Old Capital by Kawabata (the companion Kyoto-set meditation), and Kokoro by Soseki (the companion Meiji-era Japanese novel). Our full guide covers 8 picks for fans of Tanizaki's Japan." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Spring Snow by Yukio Mishima?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Spring Snow include Runaway Horses by Mishima (the second Sea of Fertility novel), The Temple of the Golden Pavilion by Mishima (the companion most celebrated single novel), Snow Country by Kawabata (the companion Nobel novel about doomed transient love), The Tale of Genji (the classical Heian companion), The Old Capital by Kawabata (the companion Kyoto-set meditation), and Doctor Zhivago by Pasternak (the companion great novel about a doomed love that is also an elegy for a world being destroyed). Our full guide covers 8 picks for fans of Mishima's romantic literary fiction." },
     },
     {
       '@type': 'Question',
