@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Great Gatsby Fitzgerald 1925 jay gatsby daisy buchanan nick carraway green light west egg",
+    "books like The Sound and the Fury Faulkner 1929 compson family benjy quentin jason dilsey yoknapatawpha",
+    "books like East of Eden Steinbeck 1952 trask hamilton salinas valley timshel cain abel california",
+    "books like The Sun Also Rises Hemingway 1926 jake barnes brett ashley lost generation paris pamplona",
+    "books like Absalom Absalom Faulkner 1936 thomas sutpen design mississippi quentin compson rosa coldfield",
     "books like One Hundred Years of Solitude Garcia Marquez 1967 buendia macondo seven generations colombia",
     "books like Love in the Time of Cholera Garcia Marquez 1985 florentino fermina daza cholera river boat",
     "books like The Aleph Borges 1949 zahir death compass aleph buenos aires philosophical fables",
@@ -4608,6 +4613,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Great Gatsby by F. Scott Fitzgerald?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Great Gatsby include Tender Is the Night by Fitzgerald (the companion longer novel), The Sun Also Rises by Hemingway (the companion defining 1920s American novel), An American Tragedy by Dreiser (the naturalist companion about the Dream's cost), East of Eden by Steinbeck (the companion grand American novel about aspiration), Appointment in Samarra by John O'Hara (the most direct stylistic successor), Absalom Absalom! by Faulkner (the companion in the American novel about the impossible dream), and The Age of Innocence by Wharton (the Gilded Age companion). Our full guide covers 8 picks for readers moved by Gatsby's portrait of the American Dream's beauty and corruption." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Sound and the Fury by William Faulkner?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sound and the Fury include As I Lay Dying by Faulkner (the companion in his radical formal technique), Absalom Absalom! by Faulkner (his greatest novel and the essential next step), Mrs Dalloway by Woolf (the companion modernist stream-of-consciousness novel), Ulysses by Joyce (the companion that renders consciousness directly), Beloved by Morrison (the companion American novel about the burden of the Southern past from a Black American perspective), and Light in August by Faulkner (the more accessible Yoknapatawpha companion). Our full guide covers 8 picks for readers changed by Faulkner's radical formal technique and portrait of the Southern mind." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked East of Eden by John Steinbeck?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like East of Eden include The Grapes of Wrath by Steinbeck (the companion California epic), The Brothers Karamazov by Dostoevsky (the companion family novel as theological argument about good and evil), One Hundred Years of Solitude by García Márquez (the companion multigenerational family saga), The Great Gatsby by Fitzgerald (the companion American novel about aspiration), Beloved by Morrison (the companion American novel about evil and the possibility of grace), and Kristin Lavransdatter by Undset (the Norwegian companion in the multigenerational family epic). Our full guide covers 8 picks for readers gripped by Steinbeck's grand meditation on good and evil across three Salinas Valley generations." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Sun Also Rises by Ernest Hemingway?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sun Also Rises include A Farewell to Arms by Hemingway (the companion WWI novel), For Whom the Bell Tolls (the companion in his fiction about men at the edge of death), The Great Gatsby by Fitzgerald (the companion defining 1920s American novel), All Quiet on the Western Front by Remarque (the German companion in the Lost Generation novel), Under the Volcano by Lowry (the companion in the tradition of the damaged modern man), and The Old Man and the Sea by Hemingway (the companion code hero novella). Our full guide covers 8 picks for readers moved by The Sun Also Rises' portrait of the Lost Generation's search for meaning." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Absalom, Absalom! by William Faulkner?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Absalom, Absalom! include The Sound and the Fury by Faulkner (the companion Compson family novel), Beloved by Morrison (the companion American novel about slavery's horror from a Black American perspective), Blood Meridian by McCarthy (the most direct stylistic heir to Faulkner in American fiction), One Hundred Years of Solitude by García Márquez (the Latin American family saga directly influenced by Faulkner), Invisible Man by Ellison (the companion in the American novel about race and identity), and Light in August by Faulkner (the companion more accessible Yoknapatawpha novel). Our full guide covers 8 picks for readers haunted by Absalom, Absalom!'s obsessive reconstruction of the Southern past." },
     },
     {
       '@type': 'Question',
