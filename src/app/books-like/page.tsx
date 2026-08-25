@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Poor Christ of Bomba Mongo Beti 1956 cameroon missionary father drumont denis colonial satire anticolonial",
+    "books like Houseboy Ferdinand Oyono 1956 cameroon toundi colonial household diary civilizing mission banned",
+    "books like Gods Bits of Wood Sembene Ousmane 1960 dakar niger railway strike senegal women march thiès",
+    "books like The Suns of Independence Ahmadou Kourouma 1968 fama doumbouya côte d'ivoire post-independence malinke",
+    "books like Life and a Half Sony Labou Tansi 1979 martial chaïdana congo dictatorship body refuses die grotesque",
     "books like Wide Sargasso Sea Jean Rhys 1966 antoinette cosway bertha mason rochester jane eyre caribbean prequel",
     "books like Annie John Jamaica Kincaid 1985 antigua mother daughter colonial school coming of age caribbean girl",
     "books like Lucy Jamaica Kincaid 1990 antigua new york au pair mother anger daffodils colonial education",
@@ -4473,6 +4478,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Poor Christ of Bomba by Mongo Beti?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Poor Christ of Bomba include Mission to Kala by Mongo Beti (the companion novel), Houseboy by Ferdinand Oyono (the essential companion in Francophone African anticolonial fiction), Things Fall Apart by Chinua Achebe (the Anglophone companion about the missionary encounter), God's Bits of Wood by Sembène Ousmane (the companion in Francophone African anticolonial fiction from a political perspective), and Arrow of God by Achebe (the companion in Igbo missionary encounter fiction). Our full guide covers 8 picks for fans of Francophone African anticolonial satire." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Houseboy by Ferdinand Oyono?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Houseboy include The Old Man and the Medal by Ferdinand Oyono (the companion novel), The Poor Christ of Bomba by Mongo Beti (the essential companion in Francophone African anticolonial fiction), Things Fall Apart by Chinua Achebe (the Anglophone companion), Invisible Man by Ralph Ellison (the American companion about a Black man whose proximity to power makes him dangerous), and The Remains of the Day by Kazuo Ishiguro (the European parallel in servant narration). Our full guide covers 8 picks for fans of colonial diary fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked God's Bits of Wood by Sembène Ousmane?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like God's Bits of Wood include Xala by Sembène Ousmane (the companion post-independence novel), The Poor Christ of Bomba by Mongo Beti (the companion in Francophone African anticolonial fiction), The Grapes of Wrath by Steinbeck (the comparison in labor fiction), The Suns of Independence by Kourouma (the companion in Francophone West African fiction), and Houseboy by Oyono (the companion in Francophone African anticolonial fiction). Our full guide covers 8 picks for fans of collective anticolonial fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Suns of Independence by Ahmadou Kourouma?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Suns of Independence include Monnè, Outrages and Challenges by Kourouma (the companion novel), God's Bits of Wood by Sembène Ousmane (the Francophone West African companion), A Man of the People by Chinua Achebe (the Anglophone companion in post-independence disillusionment), The Beautyful Ones Are Not Yet Born by Ayi Kwei Armah (the Ghanaian companion), and Life and a Half by Sony Labou Tansi (the Francophone companion in post-independence dictatorship fiction). Our full guide covers 8 picks for fans of Francophone African post-independence fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Life and a Half by Sony Labou Tansi?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Life and a Half include The Seven Solitudes of Lorsa Lopez by Sony Labou Tansi (the companion novel), The Autumn of the Patriarch and One Hundred Years of Solitude by García Márquez (the formal ancestors in magical realist political fiction), The Suns of Independence by Kourouma (the Francophone African companion in post-independence political fiction), God's Bits of Wood by Sembène Ousmane (the anticolonial companion), and Midnight's Children by Rushdie (the postcolonial magical realist companion). Our full guide covers 8 picks for fans of African political fiction." },
     },
     {
       '@type': 'Question',
