@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Unbearable Lightness of Being Kundera 1984 prague 1968 tomas tereza sabina franz lightness weight",
+    "books like The Joke Milan Kundera 1967 ludvik postcard joke socialism expelled communist party czechoslovakia",
+    "books like The Book of Laughter and Forgetting Kundera 1979 clementis fur hat tamina memory forgetting exile",
+    "books like The Man Without Qualities Musil 1930 ulrich vienna 1913 austro-hungarian empire parallelaktion",
+    "books like The Painted Bird Kosinski 1965 dark boy wartime eastern europe wandering holocaust painted bird metaphor",
     "books like My Name Is Red Orhan Pamuk 1998 ottoman miniaturist istanbul murder mystery corpse colors narrate",
     "books like Snow Orhan Pamuk 2002 ka poet kars turkey snowbound secularism islamism military coup",
     "books like The Museum of Innocence Orhan Pamuk 2008 kemal fusun istanbul obsession cigarette butts collection",
@@ -4578,6 +4583,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Unbearable Lightness of Being by Milan Kundera?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Unbearable Lightness of Being include The Joke by Kundera (his debut companion in Stalinist Czechoslovakia), The Book of Laughter and Forgetting (his exile companion about memory and erasure), The Castle by Kafka (the Czech literary ancestor), Doctor Zhivago by Pasternak (the Russian parallel in the intellectual under the Communist state), Nausea by Sartre (the philosophical novel tradition Kundera works within), The Death of Ivan Ilyich by Tolstoy (the companion in the meditation on authentic life), and If on a winter's night a traveler by Calvino (the postmodern companion). Our full guide covers 8 picks for fans of Czech literary fiction and philosophical love novels." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Joke by Milan Kundera?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Joke include The Unbearable Lightness of Being by Kundera (his masterwork companion), The Book of Laughter and Forgetting (his exile companion), The Trial by Kafka (the Czech ancestor in the absurd accusation), One Day in the Life of Ivan Denisovich by Solzhenitsyn (the Soviet parallel), Darkness at Noon by Koestler (the companion in Stalinist distortion of justice), The Master and Margarita by Bulgakov (the Russian satirical companion), and Brave New World by Huxley (the Western dystopia complement). Our full guide covers 8 picks for fans of Stalinist Czechoslovakia fiction and political novels about totalitarianism's mechanisms." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Book of Laughter and Forgetting by Milan Kundera?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Book of Laughter and Forgetting include The Unbearable Lightness of Being and The Joke by Kundera (his companion novels), Austerlitz by W.G. Sebald (the literary companion about the recovery of lost memory), The Buried Giant by Ishiguro (the fantastical parallel in forgetting and its consequences), Speak, Memory by Nabokov (the exile's companion memoir about preserving a lost world), W, or the Memory of Childhood by Georges Perec (the French companion about oblique memory and forgetting), and Midnight's Children by Rushdie (the companion in memory and national identity). Our full guide covers 8 picks for fans of Czech exile fiction and novels about memory under political erasure." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Man Without Qualities by Robert Musil?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Man Without Qualities include The Magic Mountain by Thomas Mann (the companion German novel of ideas set on the eve of World War I), Ulysses by Joyce (the companion encyclopedic modernist project), In Search of Lost Time by Proust (the French parallel in the vast modernist project of consciousness), The Unbearable Lightness of Being by Kundera (the Central European philosophical companion), The Trial by Kafka (the companion Central European modernist novel of the same disintegrating empire), Petersburg by Andrei Bely (the Russian modernist parallel set in 1913), and Middlemarch by George Eliot (the 19th-century predecessor in the novel of exceptional intelligence constrained by context). Our full guide covers 8 picks for fans of Austrian modernist fiction and encyclopedic novels of ideas." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Painted Bird by Jerzy Kosiński?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Painted Bird include Night by Elie Wiesel (the defining Holocaust memoir), Maus by Art Spiegelman (the companion Holocaust graphic memoir), This Way for the Gas, Ladies and Gentlemen by Tadeusz Borowski (the closest formal parallel in flat, affectless prose about Auschwitz), The Tin Drum by Günter Grass (the companion European World War II novel from an unusual outsider perspective), Sophie's Choice by Styron (the American companion in Holocaust fiction), Blood Meridian by Cormac McCarthy (the companion in literary fiction about extreme historical violence in flat prose), and The Road by McCarthy (the companion in extreme violence described in precise, affectless prose). Our full guide covers 8 picks for readers of Holocaust-era fiction and literary novels about wartime violence." },
     },
     {
       '@type': 'Question',
