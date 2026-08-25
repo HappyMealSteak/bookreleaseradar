@@ -374,6 +374,9 @@ export const metadata: Metadata = {
     'books like Armadale Wilkie Collins Lydia Gwilt dream narrative two Armadales 1864',
     'books like No Name Wilkie Collins Magdalen Vanstone illegitimacy inheritance Captain Wragge 1862',
     'books like Jekyll Hyde Robert Louis Stevenson divided self Victorian Gothic 1886',
+    "books like La Confession de Claude Zola first novel Paris prostitute love reform Romantic confession 1865",
+    "Zola reading order Confession Claude early first novel Romantic tradition before Naturalism 1865",
+    "French Romantic confessional novel Zola early work Paris prostitute failed redemption love 1865",
     "books like Le Rêve Zola Angélique medieval saints cathedral dream spirituality Félicien Norman 1888",
     "Zola reading order Rêve Rougon-Macquart lyrical medieval spiritual romance cathedral volume 16 1888",
     "French naturalist lyrical novel Zola dream medieval saints Gothic cathedral spiritual romance 1888",
@@ -4131,6 +4134,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked New Grub Street by George Gissing?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like New Grub Street include The Private Papers of Henry Ryecroft (also by Gissing), Lost Illusions by Balzac, Pendennis by Thackeray, The Aspern Papers by Henry James, Hunger by Hamsun, Martin Eden by Jack London, Stoner by John Williams, and The Information by Martin Amis. Our full guide covers 8 picks for readers of Gissing's portrait of the Victorian literary marketplace." },
+    },
+    {
+      '@type': 'Question',
+      name: 'What should I read if I liked La Confession de Claude by Zola?',
+      acceptedAnswer: { '@type': 'Answer', text: "Books like La Confession de Claude include La Confession d'un enfant du siècle by Musset, Adolphe by Constant, Thérèse Raquin by Zola, L'Assommoir by Zola, René by Chateaubriand, Manon Lescaut by Prévost, Le Lys dans la vallée by Balzac, and Nana by Zola. Our full guide covers 8 picks for readers of Zola's 1865 confessional debut, a young man's failed attempt to reform a Parisian prostitute through love, written before the Naturalist method." },
     },
     {
       '@type': 'Question',
