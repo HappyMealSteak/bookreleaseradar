@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like One Hundred Years of Solitude Garcia Marquez 1967 buendia macondo seven generations colombia",
+    "books like Love in the Time of Cholera Garcia Marquez 1985 florentino fermina daza cholera river boat",
+    "books like The Aleph Borges 1949 zahir death compass aleph buenos aires philosophical fables",
+    "books like The Lost Steps Carpentier 1953 musicologist venezuelan jungle lo real maravilloso authenticity",
+    "books like The Vortex Rivera 1924 arturo cova amazon rubber plantation devoured jungle colombia",
     "books like Resurrection Tolstoy 1899 prince nekhlyudov katyusha maslova siberian exile court prison church",
     "books like Demons Dostoevsky 1872 stavrogin verkhovensky nechayev provincial revolutionary cell nihilist",
     "books like A Sportsmans Notebook Turgenev 1852 serfs hunter sketches emancipation movement russian",
@@ -4603,6 +4608,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked One Hundred Years of Solitude by Gabriel García Márquez?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like One Hundred Years of Solitude include Love in the Time of Cholera by García Márquez (the essential companion second masterwork), Pedro Páramo by Juan Rulfo (the Mexican ghost-town novel García Márquez memorized), The House of the Spirits by Isabel Allende (the most direct fictional successor), The Aleph by Borges (the companion foundational text of Latin American magical realism), Beloved by Toni Morrison (the American parallel in using the supernatural to address historical trauma), and Midnight's Children by Salman Rushdie (the Indian companion in the magical realist family saga as national history). Our full guide covers 8 picks for readers swept away by García Márquez's magical world." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Love in the Time of Cholera by Gabriel García Márquez?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Love in the Time of Cholera include One Hundred Years of Solitude by García Márquez (the essential companion masterwork), The Remains of the Day by Ishiguro (the companion in the novel about love deferred until it may be too late), Persuasion by Austen (the Romantic parallel about reunited lovers), Anna Karenina by Tolstoy (the companion in the great novel about love and social convention), Don Quixote by Cervantes (the companion in the Spanish-language tradition of the absurd and sublime romantic quest), and The Unbearable Lightness of Being by Kundera (the European parallel meditation on love's nature). Our full guide covers 8 picks for readers moved by García Márquez's celebration of romantic love's survival into old age." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Aleph by Jorge Luis Borges?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Aleph include Ficciones by Borges (the essential companion first collection), Labyrinths (the standard English-language Borges selection), If on a winter's night a traveler by Calvino (the companion postmodern metafiction directly indebted to Borges), Invisible Cities by Calvino (the companion imaginative philosophical travel fiction), The Name of the Rose by Eco (the companion postmodern European fiction Borges made possible), and Pale Fire by Nabokov (the companion in postmodern games about the nature of reading). Our full guide covers 8 picks for readers dazzled by Borges's philosophical fables and his vision of infinity and labyrinths." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Lost Steps by Alejo Carpentier?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lost Steps include The Kingdom of This World by Carpentier (the companion and first expression of lo real maravilloso), One Hundred Years of Solitude by García Márquez (the companion in the Latin American magical realist tradition Carpentier helped found), Heart of Darkness by Conrad (the literary predecessor in the journey-into-the-interior tradition), Pedro Páramo by Rulfo (the companion in the Latin American journey into the past), and The Vortex by Rivera (the foundational Colombian novel about the Amazon jungle and civilization's limits). Our full guide covers 8 picks for readers gripped by Carpentier's vision of a man journeying backward through time into the Latin American interior." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Vortex by José Eustasio Rivera?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Vortex include One Hundred Years of Solitude by García Márquez (the companion later Colombian masterwork), Heart of Darkness by Conrad (the direct parallel in the literature of the rubber trade's horror), The Lost Steps by Carpentier (the companion in the Latin American journey into the interior), Doña Bárbara by Gallegos (the companion Venezuelan novel about the Llanos), Blood Meridian by McCarthy (the American parallel in extreme violence at the frontier between civilization and wilderness), and The Green House by Vargas Llosa (the modern successor in the Latin American jungle novel). Our full guide covers 8 picks for readers haunted by Rivera's portrait of the Amazon as a place that devours human ambition." },
     },
     {
       '@type': 'Question',
