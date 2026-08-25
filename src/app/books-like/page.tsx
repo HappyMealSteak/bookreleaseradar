@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Girl with the Dragon Tattoo Larsson 2005 lisbeth salander mikael blomkvist harriet vanger mystery",
+    "books like The Discovery of Slowness Nadolny 1983 john franklin arctic explorer slowness attention northwest passage",
+    "books like The Emigrants Vilhelm Moberg 1949 karl oskar kristina smalland 1850s atlantic crossing minnesota",
+    "books like The Red Room August Strindberg 1879 arvid falk stockholm bohemian literary realism satire",
+    "books like Sophie's World Jostein Gaarder 1991 sophie amundsen alberto knox philosophy history metafictional",
     "books like The Unbearable Lightness of Being Kundera 1984 prague 1968 tomas tereza sabina franz lightness weight",
     "books like The Joke Milan Kundera 1967 ludvik postcard joke socialism expelled communist party czechoslovakia",
     "books like The Book of Laughter and Forgetting Kundera 1979 clementis fur hat tamina memory forgetting exile",
@@ -4583,6 +4588,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Girl with the Dragon Tattoo by Stieg Larsson?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Girl with the Dragon Tattoo include The Girl Who Played with Fire and The Girl Who Kicked the Hornets' Nest by Larsson (the essential Millennium trilogy continuation), The Snowman by Jo Nesbø (the most celebrated Scandi noir after Larsson), The Keeper of Lost Causes by Jussi Adler-Olsen (the Danish Department Q companion), Smilla's Sense of Snow by Peter Høeg (the Danish literary predecessor), Gone Girl by Gillian Flynn (the American domestic thriller parallel), and The Secret History by Donna Tartt (the literary thriller about a closed community's dark secrets). Our full guide covers 8 picks for fans of Scandi noir and female-led crime fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Discovery of Slowness by Sten Nadolny?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Discovery of Slowness include The Terror by Dan Simmons (the companion novel about Franklin's fatal final expedition), Moby-Dick by Melville (the companion in obsessive pursuit in extreme natural conditions), The Worst Journey in the World by Cherry-Garrard (the polar exploration memoir companion), The English Patient by Ondaatje (the literary companion in the exploration and mapping novel), The Curious Incident of the Dog in the Night-Time by Mark Haddon (the contemporary companion in the literary celebration of an unusual cognitive style), The Magic Mountain by Thomas Mann (the German novel of ideas about a man in a different relationship to time), and Gulliver's Travels by Swift (the literary voyage narrative ancestor). Our full guide covers 8 picks for fans of philosophical biographical fiction and Arctic exploration novels." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Emigrants by Vilhelm Moberg?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Emigrants include Unto a Good Land, The Settlers, and The Last Letter Home by Moberg (the essential Emigrant cycle continuation), Giants in the Earth by Ole Edvart Rølvaag (the companion Norwegian-American pioneer novel), O Pioneers! and My Ántonia by Willa Cather (the American companions in Scandinavian immigrant fiction on the prairie), The Grapes of Wrath by Steinbeck (the literary novel about migration and building a new life under hardship), and Amerika by Kafka (the literary companion in the European's experience of America). Our full guide covers 8 picks for fans of Swedish historical fiction and Scandinavian immigrant literature." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Red Room by August Strindberg?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Red Room include Miss Julie and A Dream Play by Strindberg (his essential companion plays), Lost Illusions by Balzac (the French model that directly influenced Strindberg — The Red Room has been called the Swedish Lost Illusions), Sentimental Education by Flaubert (the companion in youthful idealism meeting adult compromise), The Emigrants by Moberg (the companion in the great tradition of Swedish literary fiction), Hunger by Knut Hamsun (the Scandinavian companion in the novel about the struggling writer in a city), and New Grub Street by George Gissing (the anglophone parallel about writers in the literary marketplace). Our full guide covers 8 picks for fans of Swedish literary realism and Strindberg's fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Sophie's World by Jostein Gaarder?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Sophie's World include Zen and the Art of Motorcycle Maintenance by Pirsig (the closest anglophone parallel in the accessible philosophical novel), The Hitchhiker's Guide to the Galaxy by Douglas Adams (the comic companion asking the same ultimate questions), The Republic by Plato (the foundational text Sophie's World leads you toward — the ideal next philosophical step), If on a winter's night a traveler by Calvino (the sophisticated adult companion in the metafictional novel), The Little Prince by Saint-Exupéry (the companion in the philosophical story for younger readers), The Name of the Rose by Eco (the sophisticated academic-ideas novel for general readers), and The Discovery of Slowness by Nadolny (the Scandinavian philosophical fiction companion). Our full guide covers 8 picks for fans of philosophical fiction and accessible introductions to the history of ideas." },
     },
     {
       '@type': 'Question',
