@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Reading Lolita in Tehran Azar Nafisi 2003 secret reading group tehran women nabokov fitzgerald",
+    "books like The Blind Owl Sadegh Hedayat 1937 persian modernist hallucinatory monologue narrator dp costello",
+    "books like My Uncle Napoleon Iraj Pezeshkzad 1973 tehran patriarch british conspiracy comedy dick davis",
+    "books like Savushun Simin Daneshvar 1969 first iranian woman novel zari yusof british occupied shiraz",
+    "books like Shahnameh Ferdowsi 1010 persian national epic rostam sohrab book of kings dick davis translation",
     "books like The Reluctant Fundamentalist Mohsin Hamid 2007 changez princeton lahore american post 9/11 monologue",
     "books like Exit West Mohsin Hamid 2017 saeed nadia magical doors refugees migration love story",
     "books like The Kite Runner Khaled Hosseini 2003 amir hassan kabul kite fighting afghanistan redemption",
@@ -4568,6 +4573,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Reading Lolita in Tehran by Azar Nafisi?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Reading Lolita in Tehran include Persepolis by Marjane Satrapi (the Iranian-French graphic memoir companion), Things I've Been Silent About by Nafisi (her companion family memoir), The Blind Owl by Sadegh Hedayat (the foundational Persian fiction the memoir works within), Lolita by Nabokov (the novel at the memoir's center), Savushun by Simin Daneshvar (the first novel by an Iranian woman), My Uncle Napoleon by Pezeshkzad (the companion in Iranian comedy), and The Great Gatsby (which the reading group puts on trial). Our full guide covers 8 picks for fans of Iranian memoirs and literary non-fiction about books under oppression." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Blind Owl by Sadegh Hedayat?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Blind Owl include Reading Lolita in Tehran by Nafisi (the cultural context for Persian literature), The Metamorphosis by Kafka (the closest formal parallel), Pedro Páramo by Juan Rulfo (the companion hallucinatory national masterwork), Notes from Underground by Dostoevsky (the ancestor in the self-examining underground monologue), Invitation to a Beheading by Nabokov (the companion in the dreamlike totalitarian nightmare), House of the Sleeping Beauties by Kawabata (the Eastern parallel in the novella of obsession and death), and Savushun by Daneshvar (the companion in modern Persian fiction). Our full guide covers 8 picks for fans of hallucinatory modernist fiction and Persian literary classics." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked My Uncle Napoleon by Iraj Pezeshkzad?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Uncle Napoleon include Don Quixote by Cervantes (the classic it is most often compared to — the delusional hero whose self-image the world refuses to validate), Savushun by Daneshvar (the companion in pre-revolutionary Iranian fiction), Reading Lolita in Tehran by Nafisi (the cultural context), Catch-22 by Heller (the anglophone military satire companion), The Good Soldier Svejk by Hasek (the Central European military comedy parallel), The Government Inspector by Gogol (the satirical comedy ancestor), and Mansfield Park by Austen (the family politics comedy companion). Our full guide covers 8 picks for fans of Persian comedy and satirical family fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Savushun by Simin Daneshvar?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Savushun include My Uncle Napoleon by Pezeshkzad (the companion in pre-revolutionary Iranian fiction), Reading Lolita in Tehran by Nafisi (the cultural context for the tradition Daneshvar founded), Beloved by Toni Morrison (the companion in the woman's consciousness under historical oppression), The House of the Spirits by Allende (the Latin American companion in women's experience of political violence), Chronicle of a Death Foretold by García Márquez (the companion tragedy around a foreseeable death), A Thousand Splendid Suns by Hosseini (the literary companion in women under wartime patriarchy), and Shahnameh by Ferdowsi (the source of the Siyavash myth structuring the novel). Our full guide covers 8 picks for fans of pre-revolutionary Iranian fiction and wartime women's novels." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Shahnameh by Ferdowsi?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Shahnameh include The Conference of the Birds by Farid ud-Din Attar (the companion at the other pole of classical Persian poetry), The Iliad by Homer (the Western warrior national epic parallel), Savushun by Daneshvar (the modern Iranian novel that takes its tragic structure from the Shahnameh's Siyavash myth), The Mahabharata by Vyasa (the Indian companion in the very long verse epic of civilization), Reading Lolita in Tehran by Nafisi (the cultural context for the Persian tradition Ferdowsi founded), My Uncle Napoleon (the most beloved modern descendant), and Beowulf (the Old English companion in the warrior epic tradition). Our full guide covers 8 picks for fans of Persian epic poetry and classical world literature." },
     },
     {
       '@type': 'Question',
