@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Wife His Youth Chesnutt 1899 blue vein society color line african american social fiction stories",
+    "books like House Behind Cedars Chesnutt 1900 racial passing rena walden color line reconstruction novel",
+    "books like Colonel Dream Chesnutt 1905 white racial liberalism reconstruction failure interracial community novel",
+    "books like Mandy Oxendine Chesnutt 1997 posthumous racial passing post reconstruction south color line fiction",
+    "books like Paul Marchand FMC Chesnutt 1998 free man color antebellum new orleans quadroon caste system",
     "books like Clotel Presidents Daughter William Wells Brown 1853 first african american novel jefferson enslaved",
     "books like Our Nig Harriet Wilson 1859 first african american women novel northern racism indenture frado",
     "books like Running Thousand Miles Freedom Craft 1860 ellen craft disguise escape slave narrative underground railroad",
@@ -4423,6 +4428,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Wife of His Youth by Charles W. Chesnutt?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Wife of His Youth, The Conjure Woman (1899) is the essential companion collection published the same year. The House Behind the Cedars (1900) is the companion novel developing the same themes of racial passing. For Harlem Renaissance successors in the African American tradition of fiction about racial identity, Nella Larsen's Passing and Jessie Fauset's Plum Bun are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The House Behind the Cedars by Chesnutt?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The House Behind the Cedars, The Marrow of Tradition (1901) is the companion Chesnutt novel. The Conjure Woman (1899) and The Wife of His Youth (1899) provide the short fiction context. For the Harlem Renaissance successors in the passing novel tradition, Nella Larsen's Passing and Jessie Fauset's Plum Bun (both 1929) are essential.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Colonel's Dream by Chesnutt?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Colonel's Dream, The Marrow of Tradition (1901) is the essential companion Chesnutt novel. W.E.B. Du Bois's The Souls of Black Folk (1903) is the companion intellectual diagnosis of the same historical moment. For 20th-century fiction about racial liberalism in the South, Harper Lee's To Kill a Mockingbird and William Faulkner's Absalom, Absalom! are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mandy Oxendine by Chesnutt?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mandy Oxendine, The House Behind the Cedars (1900) is the mature published development of the same themes. The Conjure Woman (1899) and The Wife of His Youth (1899) are Chesnutt's published short fiction. Paul Marchand, F.M.C. (1998) is the other posthumously published Chesnutt novel. For the Harlem Renaissance successors in the passing novel tradition, Nella Larsen's Passing and Jessie Fauset's Plum Bun are essential.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Paul Marchand, F.M.C. by Chesnutt?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Paul Marchand, F.M.C., The House Behind the Cedars (1900) is the essential companion published novel. Mandy Oxendine (1997) is the other posthumously published Chesnutt novel. For fiction set in antebellum New Orleans's racial caste system, George Washington Cable's The Grandissimes is the most important companion. James Weldon Johnson's The Autobiography of an Ex-Colored Man is the companion in the African American passing novel tradition.",
+      },
     },
     {
       '@type': 'Question',
