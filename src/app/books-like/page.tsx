@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The English Patient Ondaatje 1992 almasy hana kip caravaggio villa tuscany wwii desert",
+    "books like The French Lieutenants Woman Fowles 1969 charles smithson sarah woodruff lyme regis victorian",
+    "books like The Magus Fowles 1965 nicholas urfe conchis greek island masques psychological",
+    "books like The Golden Notebook Lessing 1962 anna wulf four notebooks communist party feminist",
+    "books like The Sea The Sea Murdoch 1978 charles arrowby theater director hartley coastal",
     "books like The Great Gatsby Fitzgerald 1925 jay gatsby daisy buchanan nick carraway green light west egg",
     "books like The Sound and the Fury Faulkner 1929 compson family benjy quentin jason dilsey yoknapatawpha",
     "books like East of Eden Steinbeck 1952 trask hamilton salinas valley timshel cain abel california",
@@ -4613,6 +4618,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The English Patient by Michael Ondaatje?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The English Patient include In the Skin of a Lion by Ondaatje (the companion Canadian novel), Anil's Ghost by Ondaatje (the companion Sri Lanka novel), Corelli's Mandolin by de Bernières (the literary WWII love story companion), The Remains of the Day by Ishiguro (the Booker Prize companion about duty and repression), The God of Small Things by Roy (the 1990s Booker Prize companion), and Divisadero by Ondaatje (the companion in his later lyrical fiction). Our full guide covers 8 picks for readers moved by Ondaatje's lyrical prose and fragmented wartime memory." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The French Lieutenant's Woman by John Fowles?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The French Lieutenant's Woman include The Magus by Fowles (the companion psychological cult novel), Possession by A.S. Byatt (the most direct postmodern Victorian successor), Wide Sargasso Sea by Jean Rhys (the companion postmodern critique of Victorian fiction), Tess of the d'Urbervilles by Hardy (the companion Victorian Dorset novel about female sexuality), Middlemarch by Eliot (the Victorian tradition Fowles engages with), and The Collector by Fowles (the companion debut novel about power and freedom). Our full guide covers 8 picks for fans of Fowles's postmodern Victorian fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Magus by John Fowles?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Magus include The French Lieutenant's Woman by Fowles (the companion masterwork), The Collector by Fowles (the companion debut), Rebecca by du Maurier (the Gothic companion in the manipulation plot), If on a winter's night a traveler by Calvino (the postmodern companion about reality and fiction), The Name of the Rose by Eco (the companion literary thriller with intellectual argument), and Perfume by Süskind (the companion in the obsession-driven psychological novel). Our full guide covers 8 picks for fans of Fowles's psychological labyrinth." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Golden Notebook by Doris Lessing?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Golden Notebook include The Grass Is Singing by Lessing (the companion colonial Rhodesia debut), The Bell Jar by Plath (the companion on the female artist and breakdown), Middlemarch by Eliot (the Victorian predecessor in the British novel about a woman of exceptional ambition), The Women's Room by French (the American feminist companion), A Room of One's Own by Woolf (the non-fiction companion on women and writing), and The Good Terrorist by Lessing (the companion political novel). Our full guide covers 8 picks for readers moved by Lessing's formally ambitious feminist masterwork." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Sea, The Sea by Iris Murdoch?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sea, The Sea include The Bell by Murdoch (the best entry to her other fiction), A Severed Head by Murdoch (the companion dark comedy about self-deception), The Remains of the Day by Ishiguro (the companion Booker Prize novel about sustained self-deception), Stoner by Williams (the American companion in the literary novel about a man who fails to see others clearly), Middlemarch by Eliot (the Victorian companion in moral seriousness about egoism), and Under the Net by Murdoch (the companion debut novel). Our full guide covers 8 picks for fans of Murdoch's philosophical fiction about love and ego." },
     },
     {
       '@type': 'Question',
