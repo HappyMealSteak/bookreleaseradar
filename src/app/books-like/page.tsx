@@ -548,6 +548,9 @@ export const metadata: Metadata = {
     'books like La Curée Zola Second Empire Paris speculation Haussmann property developer Saccard',
     'Émile Zola reading order La Curée La Fortune des Rougon Rougon-Macquart Second Empire 1871',
     'French Naturalist novel Second Empire speculation Paris Haussmann Saccard bourgeois Zola 1871',
+    "books like Les Misérables Hugo 1862 Jean Valjean Javert Cosette grace barricades transformation",
+    "Victor Hugo Les Misérables reading order Notre-Dame de Paris Toilers Sea Ninety-Three epic",
+    "French Romantic social novel Hugo 1862 Jean Valjean Waterloo barricades grace mercy",
     "books like Manon Lescaut Prévost 1731 Des Grieux Manon helpless passion Louisiana doomed lovers",
     "Abbé Prévost reading order Manon Lescaut Mémoires d'un homme de qualité sentimental France",
     "French 18th century novel doomed love Prévost fatal passion sentimental fiction Manon 1731",
@@ -4697,6 +4700,11 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked Cranford by Elizabeth Gaskell?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Cranford include North and South and Wives and Daughters (both Gaskell), Middlemarch by George Eliot, The Watsons by Jane Austen, Mary Barton by Gaskell, Barchester Towers by Trollope, Our Village by Mary Russell Mitford, and Ruth by Gaskell. Our full guide covers 8 picks for readers of Gaskell's miniature Victorian masterpiece." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Indiana by George Sand?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Indiana include Corinne by Staël (the predecessor Sand answers), Madame Bovary by Flaubert, Jane Eyre by Charlotte Brontë, Lélia by Sand, La Mare au diable by Sand, Effi Briest by Fontane, The Awakening by Kate Chopin, and Consuelo by Sand. Our full guide covers 8 picks for readers of Sand's debut feminist Romantic novel about a woman trapped in marriage and the freedom she cannot find in bourgeois France." },
     },
     {
       '@type': 'Question',
