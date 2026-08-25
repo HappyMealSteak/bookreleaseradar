@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Solaris Stanisław Lem 1961 solaris station sentient ocean harey alien contact consciousness philosophy",
+    "books like The Left Hand of Darkness Ursula Le Guin 1969 gethen winter kemmer genderless planet hainish cycle",
+    "books like The Dispossessed Ursula Le Guin 1974 shevek anarres urras anarchism ambiguous utopia hainish cycle",
+    "books like Flowers for Algernon Daniel Keyes 1966 charlie gordon algernon iq surgery progress reports nebula award",
+    "books like The Time Machine H.G. Wells 1895 time traveller eloi morlocks 802701 class allegory victorian sci-fi",
     "books like Palace Walk Naguib Mahfouz 1956 cairo trilogy abd al-jawad family 1919 revolution al-sayyid ahmad amina",
     "books like Season of Migration to the North Tayeb Salih 1966 mustafa saeed sudan london heart of darkness reversed",
     "books like Gate of the Sun Elias Khoury 1998 khalil yunes shatila nakba bab al-shams palestine refugee",
@@ -4483,6 +4488,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Solaris by Stanisław Lem?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Solaris include The Cyberiad by Lem (the companion in his playful fiction), Roadside Picnic by the Strugatsky brothers (the essential companion in Eastern European philosophical sci-fi), The Left Hand of Darkness by Ursula K. Le Guin (the companion in philosophical science fiction), 2001: A Space Odyssey by Arthur C. Clarke (the comparison in serious alien-contact sci-fi), Flowers for Algernon by Daniel Keyes (the companion in consciousness science fiction), and Blindsight by Peter Watts (the contemporary successor). Our full guide covers 8 picks for fans of philosophical science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Left Hand of Darkness by Ursula K. Le Guin?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Left Hand of Darkness include The Dispossessed by Le Guin (the companion masterpiece), The Handmaid's Tale by Margaret Atwood (the companion in feminist sci-fi), Solaris by Lem (the companion in philosophical sci-fi), Kindred by Octavia Butler (the companion in feminist sci-fi about race and gender), Orlando by Virginia Woolf (the literary ancestor in gender-fluid fiction), and A Wizard of Earthsea by Le Guin (the companion in her fantasy fiction). Our full guide covers 8 picks for fans of the Hainish Cycle." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Dispossessed by Ursula K. Le Guin?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Dispossessed include The Left Hand of Darkness by Le Guin (the companion Hainish Cycle masterpiece), Nineteen Eighty-Four by Orwell (the companion in political sci-fi), The Handmaid's Tale by Atwood (the companion in political thought experiment sci-fi), News from Nowhere by William Morris (the Victorian anarchist ancestor), Utopia by Thomas More (the founding text of the utopian tradition), Brave New World by Huxley (the British dystopian companion), and Solaris by Lem (the companion in philosophical sci-fi). Our full guide covers 8 picks for fans of political science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Flowers for Algernon by Daniel Keyes?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Flowers for Algernon include Of Mice and Men by Steinbeck (the companion in literature about intellectual disability), The Sound and the Fury by Faulkner (the formal ancestor in narration by a cognitively different perspective), Solaris by Lem (the companion in science fiction about consciousness), Never Let Me Go by Ishiguro (the companion in sci-fi about facing the loss of what you are), The Curious Incident of the Dog in the Night-Time by Mark Haddon (the companion in fiction narrated by a non-typical cognitive perspective), and The Left Hand of Darkness by Le Guin (the companion in sci-fi about what makes us human). Our full guide covers 8 picks for fans of consciousness science fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Time Machine by H.G. Wells?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Time Machine include The War of the Worlds and The Island of Doctor Moreau by Wells (the companion early novels), Brave New World by Huxley (the British dystopian companion), Kindred by Octavia Butler (the companion in time travel used for political argument), The Dispossessed by Le Guin (the companion in political sci-fi), and Solaris by Lem (companion at the philosophical end of sci-fi). Our full guide covers 8 picks for fans of H.G. Wells and classic science fiction." },
     },
     {
       '@type': 'Question',
