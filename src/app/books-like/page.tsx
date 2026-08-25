@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like In the Castle of My Skin George Lamming 1953 barbados colonial plantation village coming of age postcolonial",
+    "books like The Emigrants George Lamming 1954 windrush caribbean england disillusionment exile black british",
+    "books like A House for Mr Biswas V.S. Naipaul 1961 trinidad tulsi family colonial indo-caribbean aspiration",
+    "books like The Mystic Masseur V.S. Naipaul 1957 ganesh ramsumair trinidad masseur mystic politician satire",
+    "books like Omeros Derek Walcott 1990 homer caribbean st lucia achille hector helen epic poem nobel",
     "books like Brown Girl Brownstones Paule Marshall 1959 selina boyce silla deighton barbadian brooklyn immigrant coming of age",
     "books like The Chosen Place Timeless People Paule Marshall 1969 merle kinbona bournehills colonialism cuffee ned development",
     "books like Praisesong for the Widow Paule Marshall 1983 avey johnson carriacou big drum ceremony african diasporic heritage",
@@ -4463,6 +4468,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked In the Castle of My Skin by George Lamming?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In the Castle of My Skin include The Emigrants (1954) by Lamming himself (the natural continuation), Wide Sargasso Sea by Jean Rhys (the companion in Caribbean fiction in English), A House for Mr Biswas by V.S. Naipaul (the companion Caribbean coming-of-age novel), The Lonely Londoners by Sam Selvon (the essential Windrush companion), and Things Fall Apart by Chinua Achebe (the companion in postcolonial fiction). Our full guide covers 8 picks for fans of coming-of-age fiction set against the backdrop of colonial transformation." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Emigrants by George Lamming?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Emigrants include The Lonely Londoners by Sam Selvon (the twin pillar of Windrush literature), In the Castle of My Skin by Lamming (the essential predecessor), Brick Lane by Monica Ali (the successor in British immigrant fiction), White Teeth by Zadie Smith (the second-generation immigrant companion), and Wide Sargasso Sea by Jean Rhys (the companion in Caribbean fiction about displacement in Europe). Our full guide covers 8 picks for fans of Windrush literature and Caribbean emigrant fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked A House for Mr Biswas by V.S. Naipaul?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A House for Mr Biswas include The Mystic Masseur by Naipaul (his comic debut), In the Castle of My Skin by George Lamming (the companion Caribbean novel in English), Middlemarch by George Eliot (the comparison in the large novel of social observation), Great Expectations by Dickens (the Victorian predecessor in social aspiration), and Omeros by Derek Walcott (the companion in the West Indian literary tradition). Our full guide covers 8 picks for fans of comic-tragic colonial fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Mystic Masseur by V.S. Naipaul?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Mystic Masseur include A House for Mr Biswas by Naipaul (his masterpiece and the definitive next novel), The Suffrage of Elvira by Naipaul (the companion early Trinidadian comedy), In the Castle of My Skin by George Lamming (the companion Caribbean novel), Catch-22 by Joseph Heller (the companion institutional satire), and A Bend in the River by Naipaul (his darkest later novel). Our full guide covers 8 picks for fans of Caribbean colonial comedy and satire." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Omeros by Derek Walcott?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Omeros include Walcott's own Collected Poems 1948-1984 (the essential context), Homer's Odyssey (the essential source text), In the Castle of My Skin by George Lamming (the companion in Caribbean literature in English), Beloved by Toni Morrison (the companion in African diasporic fiction engaging the history of slavery), and Aimé Césaire's Notebook of a Return to the Native Land (the alternative Caribbean engagement with literary tradition). Our full guide covers 8 picks for fans of epic poetry and Caribbean literary tradition." },
     },
     {
       '@type': 'Question',
