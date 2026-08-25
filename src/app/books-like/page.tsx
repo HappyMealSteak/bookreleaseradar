@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Reluctant Fundamentalist Mohsin Hamid 2007 changez princeton lahore american post 9/11 monologue",
+    "books like Exit West Mohsin Hamid 2017 saeed nadia magical doors refugees migration love story",
+    "books like The Kite Runner Khaled Hosseini 2003 amir hassan kabul kite fighting afghanistan redemption",
+    "books like A Thousand Splendid Suns Hosseini 2007 mariam laila rasheed kabul women taliban afghanistan",
+    "books like The Swallows of Kabul Yasmina Khadra 2002 kabul taliban execution algerian writer",
     "books like Interpreter of Maladies Lahiri 1999 mr kapasi das family konarak indian immigrant pulitzer prize",
     "books like Interpreter of Maladies Jhumpa Lahiri indian american short stories pulitzer prize immigrant two cultures",
     "books like Interpreter of Maladies Lahiri bengali american fiction temporary matter third final continent",
@@ -4563,6 +4568,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Reluctant Fundamentalist by Mohsin Hamid?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Reluctant Fundamentalist include Exit West by Hamid (his magical realist companion about migration), Burnt Shadows by Kamila Shamsie (the companion in Pakistani post-9/11 fiction), Americanah by Chimamanda Ngozi Adichie (the immigrant identity companion), The Namesake by Jhumpa Lahiri (the South Asian immigrant identity companion), Invisible Man by Ralph Ellison (the American ancestor in the minority experience of the transforming gaze), A Passage to India by E.M. Forster (the imperial-era ancestor in East-West misunderstanding), and The Kite Runner by Khaled Hosseini (the companion in South Asian post-9/11 fiction). Our full guide covers 8 picks for fans of post-9/11 literary fiction about identity and belonging." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Exit West by Mohsin Hamid?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Exit West include The Reluctant Fundamentalist by Hamid (his companion post-9/11 monologue novel), Persepolis by Marjane Satrapi (the Iranian-French companion in the displacement narrative), Americanah by Chimamanda Ngozi Adichie (the African companion in the immigration love story), The Buried Giant by Kazuo Ishiguro (the fantasy/allegory companion in the journey that tests a relationship), If Beale Street Could Talk by James Baldwin (the love story under political pressure), The Kite Runner by Khaled Hosseini (the South Asian displacement companion), and Invisible Cities by Italo Calvino (the poetic fiction ancestor in magical geography). Our full guide covers 8 picks for fans of magical realist immigration fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Kite Runner by Khaled Hosseini?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Kite Runner include A Thousand Splendid Suns by Hosseini (his companion Afghan novel from women's perspectives), And the Mountains Echoed by Hosseini (his multigenerational companion), Exit West by Mohsin Hamid (the contemporary South Asian displacement companion), Burnt Shadows by Kamila Shamsie (the literary companion for the same Afghan historical period), Crime and Punishment by Dostoevsky (the companion in guilt and redemption fiction), The Swallows of Kabul by Yasmina Khadra (the literary parallel for the Taliban period), and Behind the Beautiful Forevers by Katherine Boo (the non-fiction companion in social stratification and violence). Our full guide covers 8 picks for fans of Afghan-American fiction and guilt-redemption narratives." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked A Thousand Splendid Suns by Khaled Hosseini?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Thousand Splendid Suns include The Kite Runner by Hosseini (the companion from the male perspective across the same decades), The Swallows of Kabul by Yasmina Khadra (the closest literary parallel for the Taliban period), Persepolis by Marjane Satrapi (the companion in the woman's account of living under Islamic fundamentalism), Burnt Shadows by Kamila Shamsie (the literary companion for the Soviet-Taliban period), Reading Lolita in Tehran by Azar Nafisi (the non-fiction companion), Behind the Beautiful Forevers by Katherine Boo (the non-fiction parallel in women's lives under systems that deny them autonomy), and The Women's Room by Marilyn French (the Western feminist companion). Our full guide covers 8 picks for fans of Afghan women's fiction and historical war narratives." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Swallows of Kabul by Yasmina Khadra?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Swallows of Kabul include The Attack by Khadra (his companion Palestinian-Israeli political novel), A Thousand Splendid Suns by Hosseini (the closest literary parallel for Afghan women under the Taliban), Reading Lolita in Tehran by Azar Nafisi (the non-fiction companion about life under theocratic rule), The Reluctant Fundamentalist by Mohsin Hamid (the companion in literary fiction about Islamic politics), Night by Elie Wiesel (the formal companion in spare, devastating study of totalitarianism), The Kite Runner by Hosseini (the American-published parallel for Taliban Afghanistan), and One Day in the Life of Ivan Denisovich by Solzhenitsyn (the formal parallel in the compressed study of totalitarianism's effects). Our full guide covers 8 picks for fans of literary fiction about life under political extremism." },
     },
     {
       '@type': 'Question',
