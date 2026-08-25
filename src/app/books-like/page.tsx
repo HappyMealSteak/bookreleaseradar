@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Leopard Lampedusa 1958 prince of salina sicily risorgimento tancredi aristocratic decline",
+    "books like My Brilliant Friend Ferrante 2011 elena greco lila cerullo naples neapolitan quartet friendship",
+    "books like If This Is a Man Levi 1947 primo levi auschwitz holocaust memoir survival chemistry",
+    "books like The Name of the Rose Eco 1980 william baskerville medieval monastery murder mystery aristotle",
+    "books like The Conformist Moravia 1951 marcello clerici fascist italy psychology normalcy",
     "books like The Girl with the Dragon Tattoo Larsson 2005 lisbeth salander mikael blomkvist harriet vanger mystery",
     "books like The Discovery of Slowness Nadolny 1983 john franklin arctic explorer slowness attention northwest passage",
     "books like The Emigrants Vilhelm Moberg 1949 karl oskar kristina smalland 1850s atlantic crossing minnesota",
@@ -4588,6 +4593,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Leopard by Giuseppe Tomasi di Lampedusa?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Leopard include The Garden of the Finzi-Continis by Giorgio Bassani (the companion Italian novel about a wealthy family watching their world dissolve under Fascism), Buddenbrooks by Thomas Mann (the multigenerational family decline novel), Doctor Zhivago by Pasternak (the Russian novel about an educated man watching his world dissolve under revolution), The House of the Spirits by Isabel Allende (the Latin American parallel), War and Peace by Tolstoy (the grand historical novel about aristocratic life during national convulsion), and The Cherry Orchard by Chekhov (the theatrical parallel about an aristocratic family's encounter with historical change). Our full guide covers 8 picks for fans of The Leopard's elegiac portrait of a world passing away." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked My Brilliant Friend by Elena Ferrante?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Brilliant Friend include The Story of a New Name by Ferrante (the essential Neapolitan continuation), The Bell Jar by Sylvia Plath (the companion in the novel about a gifted young woman in a constraining world), A Tree Grows in Brooklyn by Betty Smith (the American parallel about a girl growing up in poverty with exceptional intelligence), The Prime of Miss Jean Brodie by Muriel Spark (the companion in female rivalry and mentorship), Normal People by Sally Rooney (the contemporary parallel about class and intelligence), and Olive Kitteridge by Elizabeth Strout (the companion in unsentimental female characterization). Our full guide covers 8 picks for fans of the Neapolitan quartet's fierce female friendship." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked If This Is a Man by Primo Levi?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like If This Is a Man include The Truce by Levi (his essential account of the journey home from Auschwitz), Night by Elie Wiesel (the companion defining Holocaust memoir), Man's Search for Meaning by Viktor Frankl (the philosophical companion about meaning in extreme suffering), The Drowned and the Saved by Levi (his philosophical meditation on the grey zone and ethics of survival), Maus by Art Spiegelman (the companion graphic memoir), and The Periodic Table by Levi (his essential memoir collection). Our full guide covers 8 picks for readers moved by Levi's honest witness to the concentration camp experience." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Name of the Rose by Umberto Eco?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Name of the Rose include Foucault's Pendulum by Eco (the companion modern intellectual thriller), Possession by A.S. Byatt (the postmodern historical literary mystery), My Name Is Red by Orhan Pamuk (the companion intellectual murder mystery in a historical setting), The Pillars of the Earth by Ken Follett (the popular companion in medieval religious history), The Shadow of the Wind by Carlos Ruiz Zafón (the companion literary mystery about a secret library), and An Instance of the Fingerpost by Iain Pears (the historical mystery told from four contradictory perspectives). Our full guide covers 8 picks for fans of Eco's medieval intellectual thriller." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Conformist by Alberto Moravia?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Conformist include The Time of Indifference by Moravia (his debut companion about the hollow Roman bourgeoisie), If This Is a Man by Primo Levi (the companion Italian novel from the victim's perspective on Fascism), The Reader by Bernhard Schlink (the German companion about the psychology of participation in totalitarian violence), Nausea by Sartre (the existentialist philosophical companion), The Trial by Kafka (the formal companion in the study of a man who submits to an authority he doesn't understand), and The Garden of the Finzi-Continis by Bassani (the essential Italian companion about the Fascist period). Our full guide covers 8 picks for fans of Moravia's psychological study of moral complicity." },
     },
     {
       '@type': 'Question',
