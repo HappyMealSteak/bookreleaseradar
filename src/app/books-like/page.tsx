@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Brown Girl Brownstones Paule Marshall 1959 selina boyce silla deighton barbadian brooklyn immigrant coming of age",
+    "books like The Chosen Place Timeless People Paule Marshall 1969 merle kinbona bournehills colonialism cuffee ned development",
+    "books like Praisesong for the Widow Paule Marshall 1983 avey johnson carriacou big drum ceremony african diasporic heritage",
+    "books like Daughters Paule Marshall 1991 ursa mackenzie primus triunion political betrayal caribbean feminist",
+    "books like The Fisher King Paule Marshall 2000 sonny payne brooklyn paris jazz musician arthurian family legacy",
     "books like Corregidora Gayl Jones 1975 ursa corregidora blues singer sexual exploitation brazilian slave owner generations",
     "books like Eva's Man Gayl Jones 1976 eva medina canada prison murder davis carter fragmented narrative sexual violence",
     "books like The Healing Gayl Jones 1998 harlan jane eagleton faith healer road journey jaboti folk tradition",
@@ -4458,6 +4463,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Brown Girl, Brownstones by Paule Marshall?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Brown Girl, Brownstones, Praisesong for the Widow (1983) is Marshall's masterpiece and the ideal companion. The Chosen Place, the Timeless People (1969) is the companion in her Caribbean political fiction. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in African American women's fiction. Jean Rhys's Wide Sargasso Sea is the companion in Caribbean women's fiction in English.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Chosen Place, the Timeless People by Paule Marshall?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Chosen Place, the Timeless People, Praisesong for the Widow (1983) is Marshall's masterpiece and the companion in her Caribbean engagement. Chinua Achebe's Things Fall Apart is the companion in postcolonial fiction. Jean Rhys's Wide Sargasso Sea is the companion in Caribbean fiction in English. George Lamming's In the Castle of My Skin is the essential companion in Barbadian literature.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Praisesong for the Widow by Paule Marshall?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Praisesong for the Widow, Brown Girl, Brownstones (1959) is Marshall's debut and the companion. Toni Morrison's Beloved is the companion in African American women's fiction about the recovery of what slavery has taken. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor. Gloria Naylor's Mama Day is the companion in African American women's fiction about the recovery of the African diasporic spiritual tradition.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Daughters by Paule Marshall?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Daughters, Praisesong for the Widow (1983) is Marshall's masterpiece and the companion in her Caribbean fiction. The Chosen Place, the Timeless People (1969) is the companion in her political fiction. Chinua Achebe's Things Fall Apart is the companion in postcolonial fiction. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in African American women's fiction about finding one's political and spiritual voice.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Fisher King by Paule Marshall?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Fisher King, Praisesong for the Widow (1983) is Marshall's masterpiece and the essential companion. Toni Morrison's Jazz is the companion in African American fiction that uses jazz as both subject and formal model. James Baldwin's Giovanni's Room is the companion in fiction by African American writers set in Paris. Brown Girl, Brownstones (1959) is the companion in Marshall's Brooklyn fiction.",
+      },
     },
     {
       '@type': 'Question',
