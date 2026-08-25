@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Plum Bun Fauset 1929 angela murray passing white harlem renaissance women color line fiction",
+    "books like There Is Confusion Fauset 1924 joanna marshall harlem renaissance founding dinner middle class african american",
+    "books like Comedy American Style Fauset 1933 olivia cary passing obsession internalized racism family destruction",
+    "books like Chinaberry Tree Fauset 1931 african american community red brook new jersey laurentine strange middle class",
+    "books like Fire in the Flint Walter White 1924 kenneth harper lynching accommodation disillusionment protest novel",
     "books like Wife His Youth Chesnutt 1899 blue vein society color line african american social fiction stories",
     "books like House Behind Cedars Chesnutt 1900 racial passing rena walden color line reconstruction novel",
     "books like Colonel Dream Chesnutt 1905 white racial liberalism reconstruction failure interracial community novel",
@@ -4428,6 +4433,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Plum Bun by Jessie Redmon Fauset?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Plum Bun, Nella Larsen's Passing (1929) is the essential comparison — the other central Harlem Renaissance passing novel published the same year. There Is Confusion (1924) is Fauset's first novel. For Harlem Renaissance women's fiction, Zora Neale Hurston's Their Eyes Were Watching God (1937) and Nella Larsen's Quicksand (1928) are essential companions.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked There Is Confusion by Jessie Redmon Fauset?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved There Is Confusion, Plum Bun (1929) is the essential companion Fauset novel. Alain Locke's The New Negro (1925) is the companion historical document. For the Harlem Renaissance companions in fiction, Jean Toomer's Cane (1923), Nella Larsen's Quicksand (1928) and Passing (1929), and Claude McKay's Home to Harlem (1928) are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Comedy: American Style by Jessie Redmon Fauset?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Comedy: American Style, Plum Bun (1929) is the essential comparison Fauset novel. Toni Morrison's The Bluest Eye (1970) is the companion in African American fiction about internalized white beauty standards. Nella Larsen's Passing (1929) is the companion Harlem Renaissance passing novel. For the full Fauset canon, There Is Confusion (1924) and The Chinaberry Tree (1931) complete the picture.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Chinaberry Tree by Jessie Redmon Fauset?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Chinaberry Tree, Plum Bun (1929) is Fauset's masterpiece and essential companion. For the Harlem Renaissance companions in women's fiction, Nella Larsen's Quicksand (1928) and Passing (1929), and Zora Neale Hurston's Their Eyes Were Watching God (1937) are essential. Comedy: American Style (1933) completes the Fauset canon.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Fire in the Flint by Walter White?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Fire in the Flint, Richard Wright's Native Son (1940) is the most powerful successor in the African American protest novel tradition. Charles Chesnutt's The Marrow of Tradition (1901) is the precursor. For the intellectual context of the Du Bois-Washington debate that the novel dramatizes, W.E.B. Du Bois's The Souls of Black Folk is essential. Walter White's own autobiography A Man Called White (1948) gives the context of his NAACP leadership.",
+      },
     },
     {
       '@type': 'Question',
