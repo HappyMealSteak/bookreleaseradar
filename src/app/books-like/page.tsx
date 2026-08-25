@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Narrative Life Frederick Douglass 1845 slave autobiography abolitionist escaped slave memoir",
+    "books like My Bondage My Freedom Douglass 1855 second autobiography abolitionist North Star Garrison",
+    "books like Incidents Life Slave Girl Harriet Jacobs 1861 linda brent women slave narrative crawl space",
+    "books like Iola Leroy Frances Harper 1892 reconstruction racial passing african american women novel",
+    "books like Sport Gods Paul Laurence Dunbar 1902 black new york naturalism great migration fiction",
     "books like God's Trombones James Weldon Johnson 1927 Creation Go Down Death folk sermon poems verse",
     "books like God's Trombones Johnson seven negro sermons verse The Creation Go Down Death",
     "books like God's Trombones Johnson 1927 folk preacher sermon poems harlem renaissance poetry",
@@ -4413,6 +4418,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Narrative of the Life of Frederick Douglass?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Douglass's Narrative, read My Bondage and My Freedom (1855) — his fuller and more explicitly political second autobiography. Incidents in the Life of a Slave Girl (1861) by Harriet Jacobs is the essential companion showing the female enslaved experience. Solomon Northup's Twelve Years a Slave is the companion from the same era. For 20th-century continuations of the tradition, W.E.B. Du Bois's The Souls of Black Folk and The Autobiography of Malcolm X are essential.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked My Bondage and My Freedom by Frederick Douglass?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved My Bondage and My Freedom, the Narrative of the Life of Frederick Douglass (1845) is the essential predecessor. Incidents in the Life of a Slave Girl (1861) by Harriet Jacobs is the companion slave narrative. For the intellectual successor to Douglass's political argument, W.E.B. Du Bois's The Souls of Black Folk and Dusk of Dawn are the most important works. Toni Morrison's Beloved is the companion in African American fiction about slavery.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Incidents in the Life of a Slave Girl by Harriet Jacobs?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Incidents in the Life of a Slave Girl, the Narrative of the Life of Frederick Douglass (1845) and My Bondage and My Freedom (1855) are the companion slave narratives. Frances E.W. Harper's Iola Leroy (1892) is the 19th-century fictional companion. For 20th-century works in the tradition of African American women's writing, Zora Neale Hurston's Their Eyes Were Watching God, Alice Walker's The Color Purple, Maya Angelou's I Know Why the Caged Bird Sings, and Toni Morrison's Beloved are all essential.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Iola Leroy by Frances E.W. Harper?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Iola Leroy, Incidents in the Life of a Slave Girl (1861) by Harriet Jacobs is the companion in 19th-century African American women's writing. Charles Chesnutt's The Conjure Woman (1899) and The Marrow of Tradition (1901) are the companion works in 19th-century African American fiction. For the Harlem Renaissance successors exploring racial identity, Nella Larsen's Passing and Jessie Fauset's Plum Bun are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Sport of the Gods by Paul Laurence Dunbar?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Sport of the Gods, Dunbar's poetry — Lyrics of Lowly Life (1896) — is the essential companion. For the African American naturalist tradition, Richard Wright's Native Son is the most powerful development. Charles Chesnutt's The Conjure Woman and The Marrow of Tradition are the companion works in early African American fiction. Ann Petry's The Street (1946) is the feminist successor in the tradition of African American urban naturalism.",
+      },
     },
     {
       '@type': 'Question',
