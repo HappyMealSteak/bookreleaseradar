@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Molloy Beckett 1951 molloy vagabond moran agent beckett trilogy french absurdist",
+    "books like The Lover Duras 1984 fifteen-year-old colonial indochina chinese lover mekong ferry",
+    "books like The Ravishing of Lol Stein Duras 1964 lol stein engagement ball michael richardson",
+    "books like Memoirs of Hadrian Yourcenar 1951 hadrian antinous roman emperor marcus aurelius letter",
+    "books like Tropisms Sarraute 1939 twenty-four prose pieces consciousness nouveau roman pre-verbal",
     "books like Berlin Alexanderplatz Doblin 1929 franz biberkopf ex-convict weimar berlin alexanderplatz montage",
     "books like Amerika Kafka 1927 karl rossmann america uncle jacob hotel nature theatre oklahoma",
     "books like The Golem Meyrink 1915 athanasius pernath prague ghetto golem rabbi loew occult",
@@ -4623,6 +4628,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Molloy by Samuel Beckett?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Molloy include Malone Dies by Beckett (the second Trilogy novel), The Unnamable by Beckett (the third and most radical), Waiting for Godot (the companion dramatic masterwork), The Trial by Kafka (the most important predecessor in the absurdist tradition), Nausea by Sartre (the French existentialist companion), and Tropisms by Sarraute (the companion in the tradition of French experimental fiction). Our full guide covers 8 picks for fans of Beckett's radically minimalist prose." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Lover by Marguerite Duras?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Lover include The Ravishing of Lol Stein by Duras (the companion formal masterwork), The Sea Wall by Duras (the companion autobiographical Indochina novel), Moderato Cantabile by Duras (the companion nouveau roman novel), Bonjour Tristesse by Sagan (the companion French novel about female adolescent desire), Wide Sargasso Sea by Rhys (the companion colonial memoir-novel), and Memoirs of Hadrian by Yourcenar (the companion in the French tradition of the precise interior monologue). Our full guide covers 8 picks for fans of Duras's lyrical, fragmentary prose." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Ravishing of Lol Stein by Marguerite Duras?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Ravishing of Lol Stein include The Lover by Duras (the companion most celebrated novel), The Vice-Consul by Duras (the companion where Anne-Marie Stretter reappears), Jealousy by Robbe-Grillet (the companion nouveau roman novel about obsessive observation), The Sea, The Sea by Murdoch (the British companion about obsession and the impossibility of seeing another clearly), Moderato Cantabile by Duras (the companion earlier obsession novel), and Tropisms by Sarraute (the companion in the French experimental tradition). Our full guide covers 8 picks for fans of Duras's most formally demanding work." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Memoirs of Hadrian by Marguerite Yourcenar?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Memoirs of Hadrian include The Abyss by Yourcenar (the companion historical novel about an alchemist-physician in the Reformation), I, Claudius by Graves (the companion Roman historical novel in the first-person memoir form), Julian by Gore Vidal (the companion fictional memoir of a Roman emperor), The Name of the Rose by Eco (the companion historical literary novel), Wolf Hall by Mantel (the modern British companion in the tradition of inhabiting the past), and The Meditations by Marcus Aurelius (the actual writings of the man Hadrian addresses). Our full guide covers 8 picks for fans of Yourcenar's historical imagination." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Tropisms by Nathalie Sarraute?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Tropisms include Portrait of a Man Unknown by Sarraute (the companion first novel), The Planetarium by Sarraute (the companion most accessible novel), Jealousy by Robbe-Grillet (the companion objectivist nouveau roman), Molloy by Beckett (the companion in French experimental fiction), Mrs Dalloway by Woolf (the British modernist predecessor in the project of capturing consciousness), and The Age of Suspicion by Sarraute (the non-fiction companion explaining her project). Our full guide covers 8 picks for fans of Sarraute's micro-analysis of the social surface." },
     },
     {
       '@type': 'Question',
