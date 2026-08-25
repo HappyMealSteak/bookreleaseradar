@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Corregidora Gayl Jones 1975 ursa corregidora blues singer sexual exploitation brazilian slave owner generations",
+    "books like Eva's Man Gayl Jones 1976 eva medina canada prison murder davis carter fragmented narrative sexual violence",
+    "books like The Healing Gayl Jones 1998 harlan jane eagleton faith healer road journey jaboti folk tradition",
+    "books like Mosquito Gayl Jones 1999 sojourner nadine johnson truck driver underground railroad immigration oral monologue",
+    "books like White Rat Gayl Jones 1977 short stories blues racial passing sexual violence african american south",
     "books like The Women of Brewster Place Gloria Naylor 1982 mattie michael etta mae kiswana lorraine brewster place wall",
     "books like Linden Hills Gloria Naylor 1985 willie lester dante inferno willa needed black suburb aspiration",
     "books like Mama Day Gloria Naylor 1988 willow springs miranda day cocoa george gullah sea island magical realism",
@@ -4453,6 +4458,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Corregidora by Gayl Jones?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Corregidora, Eva's Man (1976) is Jones's second novel and the immediate companion. Toni Morrison's Beloved is the companion in African American women's fiction about the legacy of slavery and sexual exploitation. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in the tradition. Alice Walker's The Color Purple is the companion in African American women's fiction about sexual violence and survival.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Eva's Man by Gayl Jones?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Eva's Man, Corregidora (1975) is the essential companion — Ursa Corregidora is the predecessor to Eva Medina Canada. Toni Morrison's Beloved is the companion in African American women's fiction about extreme acts resulting from sexual violence. The Color Purple is the companion in the tradition of African American women's fiction about sexual violence and survival.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Healing by Gayl Jones?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Healing, Corregidora (1975) is Jones's most celebrated novel and the essential context. Mosquito (1999) is the companion in her late fiction. Gloria Naylor's Mama Day is the companion in African American women's fiction about a healer who draws on folk tradition. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mosquito by Gayl Jones?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mosquito, Corregidora (1975) is Jones's most celebrated novel and the essential context. The Healing (1998) is the companion in her late fiction. Zora Neale Hurston's Their Eyes Were Watching God is the essential predecessor in the tradition of African American fiction that uses oral storytelling as a literary form. Toni Morrison's Beloved connects the contemporary freedom movement to the history of the Underground Railroad.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked White Rat by Gayl Jones?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved White Rat, Corregidora (1975) is Jones's debut novel and the essential companion in the blues tradition. Eva's Man (1976) is the companion in her fragmented early fiction. Alice Walker's In Love and Trouble is the companion in African American women's short fiction of the same moment. Nella Larsen's Passing is the essential comparison for the title story about racial passing.",
+      },
     },
     {
       '@type': 'Question',
