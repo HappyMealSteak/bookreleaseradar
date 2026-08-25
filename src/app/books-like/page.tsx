@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Wide Sargasso Sea Jean Rhys 1966 antoinette cosway bertha mason rochester jane eyre caribbean prequel",
+    "books like Annie John Jamaica Kincaid 1985 antigua mother daughter colonial school coming of age caribbean girl",
+    "books like Lucy Jamaica Kincaid 1990 antigua new york au pair mother anger daffodils colonial education",
+    "books like Breath Eyes Memory Edwidge Danticat 1994 haiti sophie martine testing intergenerational trauma diaspora",
+    "books like Krik Krak Edwidge Danticat 1995 haiti diaspora refugee boat children of the sea nineteen thirty-seven",
     "books like In the Castle of My Skin George Lamming 1953 barbados colonial plantation village coming of age postcolonial",
     "books like The Emigrants George Lamming 1954 windrush caribbean england disillusionment exile black british",
     "books like A House for Mr Biswas V.S. Naipaul 1961 trinidad tulsi family colonial indo-caribbean aspiration",
@@ -4468,6 +4473,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Wide Sargasso Sea by Jean Rhys?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Wide Sargasso Sea include Jane Eyre by Charlotte Brontë (the essential source text), Voyage in the Dark by Jean Rhys (her earlier Caribbean novel), Annie John by Jamaica Kincaid (the companion in Caribbean women's fiction), The Awakening by Kate Chopin (the companion in the tradition of the woman driven to destruction), The Yellow Wallpaper by Charlotte Perkins Gilman (the essential companion in the madwoman-in-confinement tradition), and Rebecca by Daphne du Maurier (the Gothic companion). Our full guide covers 8 picks for fans of feminist revision and Caribbean women's fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Annie John by Jamaica Kincaid?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Annie John include Lucy by Jamaica Kincaid (the direct companion novel), Wide Sargasso Sea by Jean Rhys (the companion in Caribbean women's fiction), The Bluest Eye by Toni Morrison (the companion in Black women's fiction about girlhood), Their Eyes Were Watching God by Hurston (the predecessor in African American women's fiction), Breath, Eyes, Memory by Edwidge Danticat (the companion in Caribbean women's fiction), and Brown Girl, Brownstones by Paule Marshall (the companion in Caribbean-American women's fiction). Our full guide covers 8 picks for fans of Caribbean coming-of-age fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Lucy by Jamaica Kincaid?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Lucy include Annie John by Jamaica Kincaid (the essential predecessor), The Autobiography of My Mother by Kincaid (her more austere companion novel), Breath, Eyes, Memory by Edwidge Danticat (the companion in Caribbean-American women's fiction), Wide Sargasso Sea by Jean Rhys (the companion in Caribbean women's displacement fiction), Americanah by Chimamanda Ngozi Adichie (the companion in African immigrant fiction), and Their Eyes Were Watching God by Hurston (the predecessor in Black women's fiction about self-definition). Our full guide covers 8 picks for fans of Caribbean immigrant fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Breath, Eyes, Memory by Edwidge Danticat?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Breath, Eyes, Memory include Krik? Krak! by Edwidge Danticat (her companion story collection), The Farming of Bones by Danticat (her historical novel of the 1937 Parsley Massacre), Annie John by Jamaica Kincaid (the companion in Caribbean women's fiction), The Color Purple by Alice Walker (the companion in Black women's fiction about trauma and healing), Wide Sargasso Sea by Jean Rhys (the companion in Caribbean women's fiction), and Brown Girl, Brownstones by Paule Marshall (the companion in Caribbean-American women's fiction). Our full guide covers 8 picks for fans of Haitian-American fiction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Krik? Krak! by Edwidge Danticat?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Krik? Krak! include Breath, Eyes, Memory by Edwidge Danticat (her companion debut novel), The Farming of Bones by Danticat (the novel expanding the 1937 Massacre story), The Things They Carried by Tim O'Brien (the formal companion in linked story collections about survivors), Love Medicine by Louise Erdrich (the companion in linked collections about community survival), Annie John by Jamaica Kincaid (the companion in Caribbean women's fiction), and The House on Mango Street by Sandra Cisneros (the companion in Latinx women's linked short fiction). Our full guide covers 8 picks for fans of Caribbean diaspora stories." },
     },
     {
       '@type': 'Question',
