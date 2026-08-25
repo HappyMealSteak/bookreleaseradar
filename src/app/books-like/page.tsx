@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Clotel Presidents Daughter William Wells Brown 1853 first african american novel jefferson enslaved",
+    "books like Our Nig Harriet Wilson 1859 first african american women novel northern racism indenture frado",
+    "books like Running Thousand Miles Freedom Craft 1860 ellen craft disguise escape slave narrative underground railroad",
+    "books like Narrative William Wells Brown 1847 fugitive slave memoir underground railroad abolitionist autobiography",
+    "books like Life Josiah Henson 1849 uncle tom original dawn settlement canada escape slave narrative",
     "books like Narrative Life Frederick Douglass 1845 slave autobiography abolitionist escaped slave memoir",
     "books like My Bondage My Freedom Douglass 1855 second autobiography abolitionist North Star Garrison",
     "books like Incidents Life Slave Girl Harriet Jacobs 1861 linda brent women slave narrative crawl space",
@@ -4418,6 +4423,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Clotel by William Wells Brown?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Clotel, William Wells Brown's own Narrative of William W. Brown, a Fugitive Slave (1847) is the essential companion. Our Nig (1859) by Harriet E. Wilson is the companion in early African American fiction — the first novel by an African American woman. For the companion in 19th-century African American women's writing, Harriet Jacobs's Incidents in the Life of a Slave Girl and Frances E.W. Harper's Iola Leroy are essential. For the major 20th-century development of the African American novel tradition, Toni Morrison's Beloved is the central work.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Our Nig by Harriet E. Wilson?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Our Nig, Clotel (1853) by William Wells Brown is the companion in early African American fiction. Incidents in the Life of a Slave Girl (1861) by Harriet Jacobs is the companion in African American women's writing from the same period. For the successors in the African American women's novel tradition, Frances E.W. Harper's Iola Leroy (1892), Zora Neale Hurston's Their Eyes Were Watching God (1937), Alice Walker's The Color Purple (1982), and Toni Morrison's Beloved (1987) are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Running a Thousand Miles for Freedom by the Crafts?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Running a Thousand Miles for Freedom, the Narrative of the Life of Frederick Douglass (1845) is the companion in African American slave narrative. Incidents in the Life of a Slave Girl (1861) by Harriet Jacobs is the companion showing a woman's experience of escape. For the contemporary fictional engagement with the same subject, Colson Whitehead's The Underground Railroad and Octavia Butler's Kindred are the most important works.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked the Narrative of William W. Brown?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved the Narrative of William W. Brown, his novel Clotel (1853) is the essential companion — the first African American novel, which draws on the experiences documented in the Narrative. The Narrative of the Life of Frederick Douglass (1845) is the companion in the slave narrative tradition. Running a Thousand Miles for Freedom (1860) by the Crafts is the companion in the tradition of escape narratives.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked the Life of Josiah Henson?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved the Life of Josiah Henson, Uncle Tom's Cabin (1852) by Harriet Beecher Stowe is the famous companion that drew on Henson's narrative. The Narrative of the Life of Frederick Douglass (1845) and Running a Thousand Miles for Freedom (1860) by the Crafts are the companion slave narratives. For the contemporary fictional engagement with the Underground Railroad and Canada, Colson Whitehead's The Underground Railroad is essential.",
+      },
     },
     {
       '@type': 'Question',
