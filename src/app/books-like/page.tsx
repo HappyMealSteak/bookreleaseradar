@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Resurrection Tolstoy 1899 prince nekhlyudov katyusha maslova siberian exile court prison church",
+    "books like Demons Dostoevsky 1872 stavrogin verkhovensky nechayev provincial revolutionary cell nihilist",
+    "books like A Sportsmans Notebook Turgenev 1852 serfs hunter sketches emancipation movement russian",
+    "books like On the Eve Turgenev 1860 elena stakhova insarov bulgarian revolutionary nakanune gentry",
+    "books like Home of the Gentry Turgenev 1859 lavretsky liza kalitina nest nobles provincial manor house",
     "books like In Search of Lost Time Proust 1913 swanns way madeleine involuntary memory belle epoque paris",
     "books like Pere Goriot Balzac 1835 rastignac vautrin maison vauquer paris 1819 la comedie humaine",
     "books like The Count of Monte Cristo Dumas 1844 edmond dantes chateau dif monte cristo treasure revenge",
@@ -4598,6 +4603,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Resurrection by Leo Tolstoy?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Resurrection include Anna Karenina by Tolstoy (the companion second novel showing Tolstoy before his spiritual crisis), The House of the Dead by Dostoevsky (the companion account of Siberian imprisonment), Demons by Dostoevsky (the companion Russian novel about the revolutionary response to injustice), The Death of Ivan Ilyich by Tolstoy (the companion post-crisis short novel), Les Misérables by Hugo (the companion in the nineteenth-century novel about imprisonment and the struggle for dignity), and A Sportsman's Notebook by Turgenev (the companion in using fiction to expose social suffering). Our full guide covers 8 picks for readers moved by Resurrection's indictment of Russian institutions and Tolstoy's vision of moral transformation." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Demons by Fyodor Dostoevsky?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Demons include The Brothers Karamazov by Dostoevsky (the essential companion final novel), Notes from Underground (the companion short novel about the nihilistic personality), Darkness at Noon by Koestler (the twentieth-century companion on revolutionary self-destruction), The Secret Agent by Conrad (the English parallel on the anarchist cell), Crime and Punishment by Dostoevsky (the essential first Dostoevsky to read), and The Idiot (the companion positive counterpart to Stavrogin's spiritual emptiness). Our full guide covers 8 picks for readers disturbed by Demons' prescient portrait of revolutionary politics as its own form of destruction." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked A Sportsman's Notebook by Ivan Turgenev?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like A Sportsman's Notebook include Fathers and Sons by Turgenev (the essential companion masterpiece novel), Uncle Tom's Cabin by Stowe (the transatlantic parallel published the same year, similarly credited with contributing to emancipation), Home of the Gentry by Turgenev (the companion lyrical novel about the Russian rural world), In the Ravine by Chekhov (the direct stylistic heir), Dubliners by Joyce (the companion collection that applies the same method of precise non-judgmental observation to early twentieth-century Dublin), and Resurrection by Tolstoy (the companion in using fiction to expose social suffering). Our full guide covers 8 picks for readers moved by Turgenev's quiet, devastating portraits of Russian serfs." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked On the Eve by Ivan Turgenev?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like On the Eve include Fathers and Sons by Turgenev (the essential companion — Bazarov is the dark answer to the question On the Eve poses), What Is to Be Done? by Chernyshevsky (the companion utopian socialist response), Home of the Gentry by Turgenev (the companion preceding novel), Middlemarch by George Eliot (the English parallel about a woman of exceptional gifts searching for a worthy cause), and The Portrait of a Lady by Henry James (the American parallel filtered through James's admiration for Turgenev). Our full guide covers 8 picks for readers moved by Elena's search for a man and a cause worthy of her devotion." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Home of the Gentry by Ivan Turgenev?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Home of the Gentry include Fathers and Sons by Turgenev (the essential next step), On the Eve (the companion third novel), The Cherry Orchard by Chekhov (the companion in the Russian literary tradition about the passing of the gentry world), Oblomov by Goncharov (published the same year, the companion portrait of the superfluous gentry man), Dead Souls by Gogol (the satirical companion in the Russian provincial gentry world), and The Age of Innocence by Wharton (the companion in the novel about people who renounce what they most want). Our full guide covers 8 picks for readers moved by Home of the Gentry's lyrical evocation of love, renunciation, and a world passing away." },
     },
     {
       '@type': 'Question',
