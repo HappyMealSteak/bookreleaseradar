@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like In Search of Lost Time Proust 1913 swanns way madeleine involuntary memory belle epoque paris",
+    "books like Pere Goriot Balzac 1835 rastignac vautrin maison vauquer paris 1819 la comedie humaine",
+    "books like The Count of Monte Cristo Dumas 1844 edmond dantes chateau dif monte cristo treasure revenge",
+    "books like Against Nature Huysmans 1884 des esseintes fontenay artificial paradise decadent movement",
+    "books like The Three Musketeers Dumas 1844 dartagnan athos porthos aramis cardinal richelieu milady",
     "books like The Leopard Lampedusa 1958 prince of salina sicily risorgimento tancredi aristocratic decline",
     "books like My Brilliant Friend Ferrante 2011 elena greco lila cerullo naples neapolitan quartet friendship",
     "books like If This Is a Man Levi 1947 primo levi auschwitz holocaust memoir survival chemistry",
@@ -4593,6 +4598,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked In Search of Lost Time by Marcel Proust?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like In Search of Lost Time include Swann's Way by Proust (the first and most essential volume, where to begin), Mrs Dalloway by Virginia Woolf (the companion modernist stream-of-consciousness novel), The Magic Mountain by Thomas Mann (the companion ambitious European novel recreating a whole cultural world), The Death of Ivan Ilyich by Tolstoy (the companion meditation on what makes a life meaningful), How Proust Can Change Your Life by Alain de Botton (the accessible companion to Proust's ideas), Buddenbrooks by Mann (the multigenerational companion), and The Waves by Woolf (the companion formal meditation on consciousness and time). Our full guide covers 8 picks for readers transformed by Proust's meditation on time, memory, and art." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Père Goriot by Honoré de Balzac?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Père Goriot include Lost Illusions by Balzac (the essential companion in La Comédie humaine), The Red and the Black by Stendhal (the companion in the young provincial's conquest of Paris society), Madame Bovary by Flaubert (the companion in French literary realism), Germinal by Zola (the companion in French literary naturalism showing the working-class underside), The Count of Monte Cristo by Dumas (the companion in the great nineteenth-century French novel of ambition and social revenge), Cousin Bette by Balzac (his companion late novel and possibly his greatest), and Great Expectations by Dickens (the English parallel about a young man's social ambition and its illusions). Our full guide covers 8 picks for fans of Balzac's portrait of Paris as a machine for crushing naive ambition." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Count of Monte Cristo by Alexandre Dumas?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Count of Monte Cristo include The Three Musketeers by Dumas (the companion adventure novel written the same year), Les Misérables by Victor Hugo (the companion great nineteenth-century French epic about imprisonment and justice), Père Goriot by Balzac (the companion in the French novel of social ambition), The Scarlet Pimpernel by Baroness Orczy (the companion in the English adventure tradition of the dashing hero with a secret identity), Captain Alatriste by Pérez-Reverte (the modern heir to the swashbuckling tradition), and The Man in the Iron Mask by Dumas (the final volume of the Three Musketeers trilogy). Our full guide covers 8 picks for fans of Dumas's epic adventure of betrayal, imprisonment, and systematic revenge." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Against Nature by Joris-Karl Huysmans?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Against Nature include The Picture of Dorian Gray by Oscar Wilde (the companion English Decadent novel directly influenced by Huysmans), The Flowers of Evil by Baudelaire (the foundational companion poetry collection of French Decadence), La-Bas by Huysmans (his companion novel about Satanism in contemporary Paris), Oblomov by Ivan Goncharov (the Russian parallel about a man who withdraws from the world), and Nausea by Sartre (the existentialist parallel about a sensitive man's experience of the world's intolerable contingency). Our full guide covers 8 picks for readers captivated by Huysmans's extreme aestheticism and its vision of art as the only refuge from vulgarity." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Three Musketeers by Alexandre Dumas?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Three Musketeers include The Count of Monte Cristo by Dumas (the companion great Dumas novel written the same year), Twenty Years After by Dumas (the essential sequel with the musketeers in middle age), Captain Alatriste by Pérez-Reverte (the modern heir to the swashbuckling tradition), The Scarlet Pimpernel by Baroness Orczy (the companion English historical adventure about a dashing hero fighting corrupt authority), Les Misérables by Victor Hugo (the companion great nineteenth-century French serial novel), and Ivanhoe by Walter Scott (the historical adventure ancestor that Dumas consciously inherited). Our full guide covers 8 picks for fans of Dumas's swashbuckling friendship, honor, and adventure in the France of Louis XIII." },
     },
     {
       '@type': 'Question',
