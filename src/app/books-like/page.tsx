@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Berlin Alexanderplatz Doblin 1929 franz biberkopf ex-convict weimar berlin alexanderplatz montage",
+    "books like Amerika Kafka 1927 karl rossmann america uncle jacob hotel nature theatre oklahoma",
+    "books like The Golem Meyrink 1915 athanasius pernath prague ghetto golem rabbi loew occult",
+    "books like The Radetzky March Roth 1932 trotta family austro-hungarian empire franz joseph solferino",
+    "books like The Sleepwalkers Broch 1932 pasenow esch huguenau dissolution values german austrian",
     "books like The English Patient Ondaatje 1992 almasy hana kip caravaggio villa tuscany wwii desert",
     "books like The French Lieutenants Woman Fowles 1969 charles smithson sarah woodruff lyme regis victorian",
     "books like The Magus Fowles 1965 nicholas urfe conchis greek island masques psychological",
@@ -4618,6 +4623,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Berlin Alexanderplatz by Alfred Döblin?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Berlin Alexanderplatz include The Radetzky March by Roth (the Austrian companion), The Magic Mountain by Mann (the German modernist companion), Ulysses by Joyce (the parallel modernist urban novel), Manhattan Transfer by Dos Passos (the American montage companion), The Sleepwalkers by Broch (the formally ambitious Austrian companion), and Mrs Dalloway by Woolf (the companion modernist single-day urban novel). Our full guide covers 8 picks for readers moved by Döblin's radical montage portrait of Weimar Berlin." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Amerika (The Man Who Disappeared) by Franz Kafka?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Amerika include The Trial by Kafka (the darker companion masterwork), The Castle by Kafka (the final unfinished companion), Great Expectations by Dickens (the Dickensian tradition Kafka acknowledged), Invisible Man by Ellison (the American companion about social exclusion), The Tin Drum by Grass (the postwar German surrealist companion), and The Metamorphosis by Kafka (the companion novella about inexplicable transformation). Our full guide covers 8 picks for fans of Kafka's lighter, more Dickensian novel." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Golem by Gustav Meyrink?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Golem include The Trial by Kafka (the companion in the Prague literary tradition), The Master and Margarita by Bulgakov (the companion occult masterwork), The Sandman by Hoffmann (the German Romantic Gothic companion), Melmoth the Wanderer by Maturin (the Irish Gothic companion), Rebecca by du Maurier (the popular Gothic companion), and The Name of the Rose by Eco (the companion literary Gothic thriller). Our full guide covers 8 picks for readers haunted by Meyrink's dreamlike Prague Gothic." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Radetzky March by Joseph Roth?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Radetzky March include Job by Roth (the companion shorter novel), The Emperor's Tomb by Roth (the direct narrative sequel), The World of Yesterday by Zweig (the non-fiction companion memoir about Habsburg Austria), The Man Without Qualities by Musil (the great Austrian companion novel), The Sleepwalkers by Broch (the companion Austrian trilogy), and Dr. Zhivago by Pasternak (the companion about an individual overwhelmed by historical catastrophe). Our full guide covers 8 picks for fans of Roth's elegy for the Habsburg world." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Sleepwalkers by Hermann Broch?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Sleepwalkers include The Man Without Qualities by Musil (the companion great Austrian modernist novel), The Radetzky March by Roth (the more accessible companion in the Austrian tradition), Death of Virgil by Broch (the companion later extreme formal experiment), Berlin Alexanderplatz by Döblin (the German modernist companion), The Magic Mountain by Mann (the companion German novel of ideas), and Parade's End by Ford (the British parallel modernist tetralogy). Our full guide covers 8 picks for readers who want the full range of German-language modernism about civilizational dissolution." },
     },
     {
       '@type': 'Question',
