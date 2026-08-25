@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like My Name Is Red Orhan Pamuk 1998 ottoman miniaturist istanbul murder mystery corpse colors narrate",
+    "books like Snow Orhan Pamuk 2002 ka poet kars turkey snowbound secularism islamism military coup",
+    "books like The Museum of Innocence Orhan Pamuk 2008 kemal fusun istanbul obsession cigarette butts collection",
+    "books like The Bridge on the Drina Ivo Andric 1945 visegrrad drina ottoman balkan chronicle four centuries",
+    "books like Death and the Dervish Selimovic 1966 sheikh nuruddin sarajevo ottoman dervish brother imprisoned",
     "books like Reading Lolita in Tehran Azar Nafisi 2003 secret reading group tehran women nabokov fitzgerald",
     "books like The Blind Owl Sadegh Hedayat 1937 persian modernist hallucinatory monologue narrator dp costello",
     "books like My Uncle Napoleon Iraj Pezeshkzad 1973 tehran patriarch british conspiracy comedy dick davis",
@@ -4573,6 +4578,31 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked My Name Is Red by Orhan Pamuk?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like My Name Is Red include Snow and The Museum of Innocence by Pamuk (his companion political and love novels), The Name of the Rose by Umberto Eco (the closest parallel in the intellectual murder mystery in a learned historical setting), Possession by A.S. Byatt (the postmodern historical literary mystery), The Bridge on the Drina by Ivo Andrić (the companion in the great literary novel about the Ottoman world), If on a winter's night a traveler by Calvino (the postmodern multiple-perspective companion), and The Arabian Nights (the formal ancestor in the Islamic nested narrative tradition). Our full guide covers 8 picks for fans of Ottoman historical fiction and postmodern murder mysteries." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Snow by Orhan Pamuk?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Snow include My Name Is Red and The Museum of Innocence by Pamuk (his companion masterpieces), The Brothers Karamazov by Dostoevsky (the companion in faith, doubt, and politics), The Trial by Kafka (the Kafkaesque trap companion), Herzog by Saul Bellow (the American intellectual-in-crisis parallel), The Bridge on the Drina by Andrić (the Ottoman Balkans companion), and Steppenwolf by Hermann Hesse (the alienated intellectual who belongs to no world). Our full guide covers 8 picks for fans of Turkish political fiction and literary novels about identity between East and West." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Museum of Innocence by Orhan Pamuk?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Museum of Innocence include My Name Is Red and Snow by Pamuk (his companion masterpieces), In Search of Lost Time by Proust (the inspiration Pamuk explicitly cites for the treatment of memory and objects), Lolita by Nabokov (the companion in the erotic obsession novel from the obsessive's unreliable perspective), The Great Gatsby (the obsessive love across a class divide), Rebecca by Daphne du Maurier (the power of objects to preserve the absent), and One Hundred Years of Solitude (the man whose love becomes isolation). Our full guide covers 8 picks for fans of Istanbul literary fiction and Proustian novels about memory and obsession." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Bridge on the Drina by Ivo Andrić?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like The Bridge on the Drina include Death and the Dervish by Meša Selimović (the companion Bosnian-Ottoman masterpiece), My Name Is Red by Orhan Pamuk (the Ottoman Istanbul companion), One Hundred Years of Solitude by García Márquez (the multigenerational chronicle companion), War and Peace by Tolstoy (the great historical novel about individual lives under vast historical forces), Midnight's Children by Rushdie (the national historical chronicle companion), The Master and Margarita by Bulgakov (Eastern European literature written under occupation), and The Pillars of the Earth by Follett (the popular historical novel built around a great construction). Our full guide covers 8 picks for fans of Bosnian historical fiction and Ottoman world literature." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Death and the Dervish by Meša Selimović?",
+      acceptedAnswer: { '@type': 'Answer', text: "Books like Death and the Dervish include The Bridge on the Drina by Ivo Andrić (the companion Bosnian-Ottoman masterpiece), The Trial by Kafka (the closest philosophical parallel in the existentialist confrontation with opaque institutional power), My Name Is Red by Pamuk (the Ottoman world literary companion), The Plague by Camus (the existentialist individual facing an indifferent system), The Brothers Karamazov (the companion in faith, doubt, and institutional religion), One Day in the Life of Ivan Denisovich by Solzhenitsyn (the Soviet parallel in the good person destroyed by a totalitarian system), and The Castle by Kafka (the companion in the impossibility of access to the system). Our full guide covers 8 picks for fans of Bosnian-Ottoman existentialist fiction." },
     },
     {
       '@type': 'Question',
