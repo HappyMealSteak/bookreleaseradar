@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Cast the First Stone Chester Himes 1952 prison novel ohio state penitentiary easter fire jim monroe autobiographical",
+    "books like A Rage in Harlem Chester Himes 1957 coffin ed johnson gravedigger jones jackson imabelle harlem detective series",
+    "books like The Real Cool Killers Chester Himes 1959 harlem detective real cool moslems sonny pickens night club murder gang",
+    "books like Cotton Comes to Harlem Chester Himes 1965 deke o malley back to africa scheme coffin ed gravedigger cotton bale",
+    "books like Pinktoes Chester Himes 1961 mamie mason interracial harlem party satire olympia press sexual comedy middle class",
     "books like The Street Ann Petry 1946 lutie johnson harlem naturalism black women sexual predation urban poverty",
     "books like Country Place Ann Petry 1947 white small town new england world war two veterans marriages fracture",
     "books like The Narrows Ann Petry 1953 link williams false rape accusation connecticut black community",
@@ -4438,6 +4443,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Cast the First Stone by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Cast the First Stone, Chester Himes's If He Hollers Let Him Go (1945) and Lonely Crusade (1947) are the companion protest novels. A Rage in Harlem (1957) begins his Harlem detective series. For American prison literature, Jack Henry Abbott's In the Belly of the Beast is essential. Richard Wright's Native Son is the companion in African American fiction about the carceral system.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked A Rage in Harlem by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved A Rage in Harlem, Cotton Comes to Harlem (1965) and The Real Cool Killers (1959) are the next novels in the Harlem Domestic Series. For the successor in Black detective fiction, Walter Mosley's Devil in a Blue Dress is the most important work. If He Hollers Let Him Go (1945) is the essential context in Himes's own protest fiction.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Real Cool Killers by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Real Cool Killers, Cotton Comes to Harlem (1965) is the most celebrated novel in the Harlem Domestic Series and the natural next read. Walter Mosley's Devil in a Blue Dress and the Easy Rawlins series are the most important successors in Black detective fiction. Raymond Chandler's The Big Sleep is the hardboiled tradition Himes is transforming.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Cotton Comes to Harlem by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Cotton Comes to Harlem, Blind Man with a Pistol (1969) is the final complete Harlem detective novel. Walter Mosley's Easy Rawlins series (beginning with Devil in a Blue Dress) is the most important successor. The Autobiography of Malcolm X is the companion in 1960s Harlem politics. Paul Beatty's The Sellout is the most important contemporary successor in African American political comedy.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Pinktoes by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Pinktoes, If He Hollers Let Him Go (1945) and the Harlem detective series are the essential companions in Himes's fiction. Ralph Ellison's Invisible Man is the companion in satire about white liberals and the African American community. Ishmael Reed's Mumbo Jumbo and Paul Beatty's The Sellout are the most important successors in African American comic satire.",
+      },
     },
     {
       '@type': 'Question',
