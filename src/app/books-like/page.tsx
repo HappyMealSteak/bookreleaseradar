@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Street Ann Petry 1946 lutie johnson harlem naturalism black women sexual predation urban poverty",
+    "books like Country Place Ann Petry 1947 white small town new england world war two veterans marriages fracture",
+    "books like The Narrows Ann Petry 1953 link williams false rape accusation connecticut black community",
+    "books like If He Hollers Let Him Go Chester Himes 1945 bob jones wartime los angeles shipyard madge rape accusation",
+    "books like Lonely Crusade Chester Himes 1947 lee gordon black labor organizer communist party wartime los angeles",
     "books like Plum Bun Fauset 1929 angela murray passing white harlem renaissance women color line fiction",
     "books like There Is Confusion Fauset 1924 joanna marshall harlem renaissance founding dinner middle class african american",
     "books like Comedy American Style Fauset 1933 olivia cary passing obsession internalized racism family destruction",
@@ -4433,6 +4438,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Street by Ann Petry?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Street, Richard Wright's Native Son (1940) is the companion in African American urban naturalism. Ann Petry's The Narrows (1953) is the companion in her own work. For the essential contrast in African American women's fiction, Zora Neale Hurston's Their Eyes Were Watching God is essential. Chester Himes's If He Hollers Let Him Go (1945) is the companion from the same period.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Country Place by Ann Petry?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Country Place, Ann Petry's The Street (1946) is her masterpiece and essential companion. The Narrows (1953) is the other Petry novel. For the companion in small-town American fiction, Sinclair Lewis's Main Street, Sherwood Anderson's Winesburg, Ohio, and Grace Metalious's Peyton Place are the most important works. Richard Yates's Revolutionary Road is the companion in postwar domestic fiction.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Narrows by Ann Petry?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Narrows, The Street (1946) is Petry's masterpiece and essential companion. For the companion in African American fiction about a Black man destroyed by the racial system, Richard Wright's Native Son and Ralph Ellison's Invisible Man are essential. Toni Morrison's Song of Solomon is the companion in African American fiction about a young Black man's relationship to community and history.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked If He Hollers Let Him Go by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved If He Hollers Let Him Go, Chester Himes's Lonely Crusade (1947) is the companion protest novel. Richard Wright's Native Son (1940) is the companion in African American urban naturalism. Ann Petry's The Street (1946) is the female complement from the same year. For Himes's later career, A Rage in Harlem begins his famous Harlem detective series.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Lonely Crusade by Chester Himes?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Lonely Crusade, If He Hollers Let Him Go (1945) is the companion Himes protest novel. Ralph Ellison's Invisible Man (1952) is the most important companion in African American fiction about the Communist Party's exploitation of Black people. Richard Wright's The Outsider (1953) is the companion in African American fiction about Communist politics and existentialism. For Himes's later career, A Rage in Harlem (1957) begins his detective series.",
+      },
     },
     {
       '@type': 'Question',
