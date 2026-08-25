@@ -1304,6 +1304,11 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Mumbo Jumbo Ishmael Reed 1972 papa labas jes grew atonist path hoodoo harlem renaissance postmodern detective",
+    "books like Yellow Back Radio Broke-Down Ishmael Reed 1969 loop garoo kid drag gibson hoodoo western anachronistic parody",
+    "books like The Free-Lance Pallbearers Ishmael Reed 1967 bukka doopeyduk harry sam dystopia satire assimilation black america",
+    "books like Flight to Canada Ishmael Reed 1976 raven quickskill arthur swille civil war anachronistic slavery escape uncle robin",
+    "books like The Last Days of Louisiana Red Ishmael Reed 1974 papa labas berkeley louisiana red ed yellings hoodoo detective",
     "books like Cast the First Stone Chester Himes 1952 prison novel ohio state penitentiary easter fire jim monroe autobiographical",
     "books like A Rage in Harlem Chester Himes 1957 coffin ed johnson gravedigger jones jackson imabelle harlem detective series",
     "books like The Real Cool Killers Chester Himes 1959 harlem detective real cool moslems sonny pickens night club murder gang",
@@ -4443,6 +4448,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mumbo Jumbo by Ishmael Reed?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mumbo Jumbo, Yellow Back Radio Broke-Down (1969) and Flight to Canada (1976) are the companions in Reed's postmodern historical series. Henry Louis Gates Jr.'s The Signifying Monkey is the essential critical framework for understanding Reed's work. Zora Neale Hurston's Their Eyes Were Watching God is the companion in African American fiction that celebrates Black folk culture. Thomas Pynchon's Gravity's Rainbow is the companion in American postmodernism of the same moment.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Yellow Back Radio Broke-Down by Ishmael Reed?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Yellow Back Radio Broke-Down, Mumbo Jumbo (1972) is Reed's masterpiece and the fullest development of his Hoodoo aesthetic. The Free-Lance Pallbearers (1967) is the predecessor. For the companion in the deconstruction of American Western mythology, Cormac McCarthy's Blood Meridian and Leslie Marmon Silko's Ceremony are essential. Thomas Pynchon's The Crying of Lot 49 is the companion in American postmodernism.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Free-Lance Pallbearers by Ishmael Reed?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Free-Lance Pallbearers, Yellow Back Radio Broke-Down (1969) is the natural next Reed novel, and Mumbo Jumbo (1972) is his masterpiece. Ralph Ellison's Invisible Man is the essential comparison in African American fiction about institutions designed to destroy Black Americans. Joseph Heller's Catch-22 is the companion in American institutional satire.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Flight to Canada by Ishmael Reed?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Flight to Canada, Mumbo Jumbo (1972) is the companion in Reed's historical revisionism. Toni Morrison's Beloved is the companion in African American historical fiction about slavery. Octavia Butler's Kindred uses temporal disruption to explore the legacy of slavery from a different angle. Harriet Beecher Stowe's Uncle Tom's Cabin is the source text Reed is critiquing.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Last Days of Louisiana Red by Ishmael Reed?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Last Days of Louisiana Red, Mumbo Jumbo (1972) is PaPa LaBas's first appearance and the essential predecessor. Flight to Canada (1976) is the next novel in Reed's series. Ralph Ellison's Invisible Man is the comparison in African American fiction that critiques political organizations claiming to serve the Black community. Paul Beatty's The Sellout is the most important contemporary successor in African American satirical fiction.",
+      },
     },
     {
       '@type': 'Question',
