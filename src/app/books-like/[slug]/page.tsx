@@ -1,11 +1,19 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { ChevronRight, ExternalLink, BookOpen } from 'lucide-react';
 import { RECOMMENDATIONS, getBooksLike, getRecommendationAmazonUrl, ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
+import covers from '@/lib/book-covers.json';
 import NewsletterSignup from '@/components/NewsletterSignup';
+
+function getCoverUrl(title: string, author: string): string | null {
+  const key = `${title}|||${author}`;
+  const url = (covers as Record<string, string | null>)[key];
+  return url ?? null;
+}
 
 export const revalidate = 2592000;
 
@@ -134,36 +142,56 @@ export default async function BooksLikePage({ params }: Props) {
         {/* Recommendations list */}
         <section className="mb-10">
           <ol className="space-y-4">
-            {entry.recommendations.map((rec, i) => (
-              <li
-                key={rec.title}
-                className="flex gap-4 p-5 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/40 transition-colors"
-              >
-                <div className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center">
-                  <span className="text-[var(--accent)] text-sm font-bold">{i + 1}</span>
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div className="min-w-0">
-                      <h2 className="font-[family-name:var(--font-playfair)] font-semibold text-[var(--text)] mb-0.5">
-                        {rec.title}
-                      </h2>
-                      <p className="text-xs text-[var(--text-muted)] mb-2">by {rec.author}</p>
-                      <p className="text-sm text-[var(--text-muted)] leading-relaxed">{rec.why}</p>
-                    </div>
-                    <a
-                      href={getRecommendationAmazonUrl(rec)}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      className="shrink-0 flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors whitespace-nowrap"
-                    >
-                      <ExternalLink size={11} />
-                      Buy
-                    </a>
+            {entry.recommendations.map((rec, i) => {
+              const coverUrl = getCoverUrl(rec.title, rec.author);
+              return (
+                <li
+                  key={rec.title}
+                  className="flex gap-4 p-5 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/40 transition-colors"
+                >
+                  {/* Cover or number badge */}
+                  <div className="shrink-0 flex flex-col items-center gap-1.5">
+                    {coverUrl ? (
+                      <div className="relative w-12 rounded overflow-hidden shadow-sm" style={{ aspectRatio: '2/3' }}>
+                        <Image
+                          src={coverUrl}
+                          alt={`${rec.title} cover`}
+                          fill
+                          sizes="48px"
+                          className="object-cover"
+                          unoptimized
+                        />
+                      </div>
+                    ) : (
+                      <div className="w-12 rounded bg-[var(--border)] flex items-center justify-center" style={{ aspectRatio: '2/3' }}>
+                        <BookOpen size={16} className="text-[var(--text-faint)]" />
+                      </div>
+                    )}
+                    <span className="text-[var(--accent)] text-xs font-bold">{i + 1}</span>
                   </div>
-                </div>
-              </li>
-            ))}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <h2 className="font-[family-name:var(--font-playfair)] font-semibold text-[var(--text)] mb-0.5">
+                          {rec.title}
+                        </h2>
+                        <p className="text-xs text-[var(--text-muted)] mb-2">by {rec.author}</p>
+                        <p className="text-sm text-[var(--text-muted)] leading-relaxed">{rec.why}</p>
+                      </div>
+                      <a
+                        href={getRecommendationAmazonUrl(rec)}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="shrink-0 flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors whitespace-nowrap"
+                      >
+                        <ExternalLink size={11} />
+                        Buy
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
           </ol>
         </section>
 
