@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like The Demon Lermontov 1842 fallen angel Tamara Caucasus Romantic poem narrative verse",
+    "books like Lermontov Demon fallen angel love kills Tamara narrative poem Romantic",
+    "books like Lermontov 1842 Demon Caucasus Georgian princess Romantic poetry supernatural love",
+    "books like Masquerade Lermontov 1835 Arbenin Nina poison jealousy verse drama Romantic theater",
+    "books like Lermontov Masquerade Arbenin innocent wife poisoned masked ball drama Romantic",
+    "books like Lermontov 1835 Masquerade jealous gambler Nina poison Byronic drama verse",
+    "books like Mtsyri Lermontov 1840 captive monk Caucasus three days freedom leopard dies",
+    "books like Lermontov Mtsyri Caucasian captive escapes monastery three days leopard homeland",
+    "books like Lermontov 1840 Mtsyri young monk captive Georgia freedom leopard poem",
+    "books like The Enchanted Wanderer Leskov 1873 Ivan Flyagin serf soldier monk Valaam picaresque",
+    "books like Leskov Enchanted Wanderer Flyagin picaresque serf Tatar captive soldier monk",
+    "books like Leskov 1873 Enchanted Wanderer Ivan Flyagin folk wisdom Russian picaresque novel",
+    "books like Lefty Leskov 1881 steel flea Tula craftsman England horseshoes skaz tale",
+    "books like Leskov Lefty Steel Flea left-handed craftsman Tula England shoes flea skaz",
+    "books like Leskov 1881 Lefty skaz left-handed craftsman steel flea English bureaucracy dies",
     "books like A Common Story Goncharov 1847 Alexander Aduyev uncle Pyotr idealism practical disillusionment",
     "A Common Story Goncharov similar books Alexander Pyotr Aduyev idealism practical world",
     "books like Common Story Goncharov Alexander Pyotr idealist uncle practical exchange positions",
@@ -5683,6 +5698,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Demon by Lermontov?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Demon by Lermontov, try A Hero of Our Time (his prose masterpiece with the same Byronic archetype), Mtsyri (his other major narrative poem), Eugene Onegin by Pushkin (the original Russian Romantic verse novel), and Faust by Goethe (the European supernatural tradition The Demon belongs to).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Masquerade by Lermontov?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Masquerade by Lermontov, try A Hero of Our Time (his prose masterpiece developing the same Byronic archetype), The Demon (his major narrative poem), Othello by Shakespeare (the jealous husband who destroys his innocent wife — the dramatic model Lermontov transformed), and Eugene Onegin by Pushkin.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mtsyri by Lermontov?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mtsyri by Lermontov, try The Demon (his other major narrative poem about captivity and longing), A Hero of Our Time (written the same year; Pechorin's Caucasus as the prose version of the same world), The Prisoner of the Caucasus by Pushkin (the original Romantic Caucasian poem), and Hadji Murat by Tolstoy.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Enchanted Wanderer by Leskov?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Enchanted Wanderer by Leskov, try Lady Macbeth of Mtsensk (his most famous novella — a completely different register but the same physical vitality), Lefty (his most celebrated comic tale), A Sportsman's Sketches by Turgenev (the tradition of encountering the Russian peasant as fully human), and Dead Souls by Gogol.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Lefty by Leskov?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Lefty by Leskov, try The Enchanted Wanderer (Leskov's most expansive picaresque novel), Lady Macbeth of Mtsensk (the dark counterpart), Dead Souls by Gogol (the same tradition of Russian satirical comedy with social observation), The Overcoat by Gogol (the little man in Russian bureaucracy — the pathos beneath Lefty's comedy), and The Master and Margarita by Bulgakov.",
+      },
     },
     {
       '@type': 'Question',
