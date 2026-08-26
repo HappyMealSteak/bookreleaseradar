@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Fences August Wilson Troy Maxson Rose Cory 1957 Pittsburgh Death of Salesman",
+    "plays similar to Fences American tragedy family baseball Negro Leagues",
+    "books about African American domestic drama like August Wilson Pulitzer",
+    "books like Ma Rainey's Black Bottom August Wilson 1927 Chicago recording studio blues",
+    "plays similar to Ma Rainey Black Bottom Levee cornet blues music exploitation",
+    "books about African American music and white exploitation 1920s like Wilson",
+    "books like King Hedley II August Wilson 1985 Pittsburgh crack epidemic Aunt Ester death",
+    "plays similar to King Hedley II urban tragedy inherited trauma Hill District",
+    "books about structural racism and violence Black community 1980s like August Wilson",
+    "books like Radio Golf August Wilson 1997 Pittsburgh urban renewal Hill District developer",
+    "plays similar to Radio Golf Black gentrification Aunt Ester house demolition",
+    "books about what communities preserve and what they destroy like August Wilson",
+    "books like Jitney August Wilson 1977 Pittsburgh gypsy cab station Becker Booster",
+    "plays similar to Jitney Hill District community institution fathers sons estrangement",
+    "books about Black community survival informal economies like August Wilson earliest play",
     "books like Gem of the Ocean Wilson 1904 Citizen Barlow Aunt Ester City of Bones Middle Passage",
     "august wilson gem ocean citizen barlow aunt ester city bones middle passage 1904 pittsburgh cycle",
     "books like gem ocean wilson aunt ester city bones citizen barlow pittsburgh cycle 1904",
@@ -5986,7 +6001,47 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: "What should I read if I liked Gem of the Ocean by August Wilson?",
+      name: "What should I read if I liked Fences by August Wilson?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Fences, read The Piano Lesson by Wilson (the other Pulitzer — the Charles family's piano as the companion object to Troy's fence), Death of a Salesman by Miller (Willy Loman and Biff as the predecessor of Troy and Cory), and A Raisin in the Sun by Hansberry (the Black family's dream as the companion in African American theater). For more Pittsburgh Cycle, try Seven Guitars (the 1948 backyard before Troy's 1957 yard) and Two Trains Running (the neighborhood twelve years later in 1969).",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Ma Rainey's Black Bottom by August Wilson?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Ma Rainey's Black Bottom, read Fences (Wilson's other major work — the comparison shows his full range), The Piano Lesson (the piano as the musical companion to Ma Rainey's voice), and Blues People by Amiri Baraka (the blues as the carrier of African American experience). Their Eyes Were Watching God by Hurston offers the prose parallel — the African American woman of power in the same era. For the Cycle, Joe Turner's Come and Gone (1911) shows the community that produced Ma Rainey.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked King Hedley II by August Wilson?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved King Hedley II, read Seven Guitars first (the 1948 play where Hedley's father appears — essential for understanding the inherited tragedy), then Beloved by Morrison (the weight of history bearing down on the present generation as the prose parallel), and Native Son by Wright (the young Black man shaped toward violence by a society that offers him nothing). For the Cycle, Two Trains Running (1969) and Radio Golf (1997) bracket King Hedley II's 1985 setting.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Radio Golf by August Wilson?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Radio Golf, read Gem of the Ocean (the 1904 play — Aunt Ester at her full power as the bookend to Radio Golf's conclusion), King Hedley II (the immediate predecessor showing what 1985 looked like before 1997's development), and The Death and Life of Great American Cities by Jane Jacobs (the intellectual context for what Harmond's development plan will destroy). Two Trains Running (Memphis Lee's fight to keep his diner in 1969) is the predecessor of Radio Golf's same struggle thirty years earlier.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Jitney by August Wilson?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Jitney, read Two Trains Running (the 1969 diner as the predecessor of the 1977 cab station), Fences (the 1957 yard twenty years before — the comparison shows what twenty years has done to the same community), and King Hedley II (the Hill District eight years after Jitney). A Raisin in the Sun by Hansberry is the essential parallel — the Black family's effort to build something real as the domestic companion to the cab station's community survival.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Gem of the Ocean by August Wilson?",
       acceptedAnswer: { '@type': 'Answer', text: "If you loved Gem of the Ocean by August Wilson, try Joe Turner's Come and Gone (the 1911 play — the immediate successor in the Pittsburgh Cycle), Ma Rainey's Black Bottom (the 1927 play and Wilson's first major success), The Piano Lesson (the Pulitzer-winning 1936 play), and Beloved by Morrison (the African American spiritual inheritance and slavery's past as the prose predecessor of Aunt Ester's City of Bones). Our full guide covers 8 picks for fans of Wilson's most mythic Pittsburgh Cycle play." },
     },
     {
