@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Sweat Lynn Nottage Reading Pennsylvania factory workers deindustrialization bar 2015",
+    "plays similar to Sweat plant closure racial tension working class Pulitzer 2017",
+    "books like Intimate Apparel Nottage Esther Mills Black seamstress 1905 New York Panama Canal",
+    "plays similar to Intimate Apparel Black women economic aspiration love letters 1905",
+    "books like Fabulation Nottage Undine Re-Education Black professional woman falls Brooklyn",
+    "plays similar to Fabulation satirical constructed identity class Black professional",
+    "books like In the Blood Parks Hester LaNeige Scarlet Letter homeless Black woman 1999",
+    "plays similar to In the Blood Scarlet Letter retelling poverty five lovers confession",
+    "books like Topdog Underdog Parks Lincoln Booth brothers rooming house three-card monte",
+    "plays similar to Topdog Underdog fratricidal brothers poverty Pulitzer 2002",
+    "Lynn Nottage complete plays reading order Sweat Ruined Intimate Apparel Fabulation",
+    "Suzan-Lori Parks complete plays reading order Topdog In the Blood America Play",
+    "Lynn Nottage Pulitzer Prize plays reading guide both prizes",
+    "Suzan-Lori Parks Pulitzer reading guide first Black woman",
+    "Black American theater 2000s to 2020s reading guide",
     "books like A Soldier's Play Fuller Black Army base murder mystery 1944 Louisiana internalized racism",
     "plays similar to A Soldier's Play race and murder mystery military Black community",
     "books like The River Niger Walker Harlem family drama deferred dreams 1972",
@@ -6097,6 +6112,46 @@ const faqJsonLd = {
         acceptedAnswer: {
           '@type': 'Answer',
           text: "If you loved Dutchman, read The Slave (Jones's other 1964 play — Walker Vessels as Clay's alternative path; the two plays that frame Jones's pivot year), Invisible Man by Ellison (the Black man who wears a mask for white society as the prose predecessor of Clay), and Blues People (Jones's nonfiction theory — Clay's Bessie Smith speech is the dramatic enactment of Blues People's argument). Native Son by Wright and The Fire Next Time by Baldwin complete the essential context.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Sweat by Lynn Nottage?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Sweat, read Ruined (Nottage's first Pulitzer — the Congo bar as the predecessor; both examine survival under structural pressure), Death of a Salesman by Miller (the theatrical predecessor — Willy Loman and the economy discarding him), and Intimate Apparel (Nottage's earlier play — the Black seamstress as the historical predecessor). Strangers in Their Own Land by Hochschild provides the social context for the racial and class dynamics that destroy the Reading friendships.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Intimate Apparel by Lynn Nottage?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Intimate Apparel, read Ruined (Nottage's first Pulitzer — Mama Nadi as the successor to Esther Mills), Their Eyes Were Watching God by Hurston (Nottage's primary influence — the Black woman who wants love and self-determination), and The Age of Innocence by Wharton (the same 1905 New York from the upper-class perspective). Fabulation is the companion play — Undine's contemporary fall as the counterpart to Esther's 1905 aspiration.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Fabulation by Lynn Nottage?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Fabulation, read Intimate Apparel (the companion drama — Esther's aspiration as the counterpoint to Undine's fall), Passing by Nella Larsen (the Black woman who has constructed an identity above her origins as the prose predecessor), and The Colored Museum by Wolfe (the satirical examination of Black cultural archetypes as the theatrical companion). Ruined shows the tragic Mama Nadi as the counterpart to the comic Undine.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked In the Blood by Suzan-Lori Parks?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved In the Blood, read The Scarlet Letter by Hawthorne (the source text — the parallels and departures become visible when reading both), Topdog/Underdog (Parks' Pulitzer winner from two years later), and Beloved by Morrison (the Black mother in the impossible situation as the prose predecessor of Hester LaNeige). Funnyhouse of a Negro by Kennedy is Parks' formal predecessor — the fragmented Black female psyche as theatrical ancestor.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Topdog/Underdog by Suzan-Lori Parks?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Topdog/Underdog, read The America Play (Parks' earlier Lincoln mythology — the Foundling Father's assassination reenactment as the predecessor), In the Blood (Parks' Scarlet Letter retelling from two years before), and Waiting for Godot by Beckett (Vladimir and Estragon as the theatrical ancestors — two men in a confined space in a mutual dependency). Death of a Salesman by Miller provides the structural predecessor with Biff and Happy.",
         },
       },
       {
