@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Father Comes Home from the Wars Parks Civil War Hero enslaved Confederate master freedom",
+    "plays similar to Father Comes Home from Wars impossible loyalty Black man Civil War",
+    "books about enslaved people Civil War impossible choices like Suzan-Lori Parks",
+    "books like Funnyhouse of a Negro Kennedy Sarah Queen Victoria Lumumba fragmented psyche 1964",
+    "plays similar to Funnyhouse of a Negro formally inventive Black identity theater",
+    "books about fragmented Black identity and internalized racism Adrienne Kennedy",
+    "books like The Owl Answers Kennedy Clara Passmore Tower London biracial identity",
+    "plays similar to The Owl Answers Adrienne Kennedy divided self two worlds",
+    "books like The Slave LeRoi Jones Walker Vessels race war 1964 political commitment",
+    "plays similar to The Slave Black revolution interracial confrontation Jones Baraka",
+    "books like Dutchman LeRoi Jones Clay Lula subway Black assimilation mask 1964",
+    "plays similar to Dutchman Black identity performance white violence Obie Award",
+    "books about Black men performing acceptability for white society like LeRoi Jones",
+    "Adrienne Kennedy plays companion reads formally inventive theater reading guide",
+    "LeRoi Jones Amiri Baraka plays reading order Black Arts movement",
     "books like A Raisin in the Sun Hansberry Younger family Chicago South Side 1959 Walter Lee Mama",
     "plays similar to A Raisin in the Sun Black family dream aspiration racism",
     "books about African American domestic dreams and the American Dream like Hansberry",
@@ -6016,7 +6031,47 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: "What should I read if I liked A Raisin in the Sun by Lorraine Hansberry?",
+      name: "What should I read if I liked Father Comes Home from the Wars by Suzan-Lori Parks?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Father Comes Home from the Wars, read The America Play (Parks' earlier Civil War examination — the Lincoln mythology as the predecessor), Beloved by Morrison (the Civil War and its consequences as the essential prose companion), and Topdog/Underdog (Parks' Pulitzer winner — the domestic successor). The Odyssey is the structural framework Parks explicitly invokes — reading it alongside the trilogy adds resonance to every scene.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Funnyhouse of a Negro by Adrienne Kennedy?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Funnyhouse of a Negro, read The Owl Answers (Kennedy's companion play — Clara Passmore as the successor to Sarah), People Who Led to My Plays (Kennedy's autobiographical portrait — the context for her method), and The America Play by Suzan-Lori Parks (the formally inventive successor Kennedy's work made possible). The Bluest Eye by Morrison is the essential prose companion — the Black girl's psyche destroyed by internalized white standards as the prose parallel.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Owl Answers by Adrienne Kennedy?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The Owl Answers, read Funnyhouse of a Negro (the essential predecessor — Sarah's fragmented psyche as Clara's predecessor; the two plays always appear together), A Movie Star Has to Star in Black and White (Kennedy's third major play — Clara's story continued), and Giovanni's Room by Baldwin (the protagonist who cannot inhabit either of the two worlds available to them as the prose parallel). The America Play by Parks is the formally inventive theatrical successor.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Slave by LeRoi Jones?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The Slave, read Dutchman (Jones's other 1964 play — Clay as Walker Vessels' alternative path; the two 1964 plays always read together), Blues People (Jones's nonfiction theory of the blues as the cultural context), and The Fire Next Time by Baldwin (Baldwin and Jones as the two great public intellectuals of 1963-64 Black America). Native Son by Wright is the prose predecessor — Bigger Thomas as the ancestor of Walker Vessels' political rage.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Dutchman by LeRoi Jones?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Dutchman, read The Slave (Jones's other 1964 play — Walker Vessels as Clay's alternative path; the two plays that frame Jones's pivot year), Invisible Man by Ellison (the Black man who wears a mask for white society as the prose predecessor of Clay), and Blues People (Jones's nonfiction theory — Clay's Bessie Smith speech is the dramatic enactment of Blues People's argument). Native Son by Wright and The Fire Next Time by Baldwin complete the essential context.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked A Raisin in the Sun by Lorraine Hansberry?",
         acceptedAnswer: {
           '@type': 'Answer',
           text: "If you loved A Raisin in the Sun, read Fences by August Wilson (Troy Maxson's 1957 Pittsburgh yard as the companion to the Younger family's 1959 Chicago dreams — the two great African American family plays of mid-century theater), To Be Young, Gifted and Black (Hansberry's autobiographical portrait), and Native Son by Wright (Bigger Thomas in the same South Side — the novel Hansberry was explicitly engaging with). The Sign in Sidney Brustein's Window is Hansberry's second play and shows her full political development.",
