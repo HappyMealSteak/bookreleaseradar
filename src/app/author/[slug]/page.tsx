@@ -20,10 +20,14 @@ function slugToName(slug: string, authors: Array<{ name: string }>): string | nu
 }
 
 export async function generateStaticParams() {
-  const authors = await getAllAuthors();
-  return authors
-    .filter((a) => a.bookCount >= 2)
-    .map((a) => ({ slug: authorSlug(a.name) }));
+  try {
+    const authors = await getAllAuthors();
+    return authors
+      .filter((a) => a.bookCount >= 2)
+      .map((a) => ({ slug: authorSlug(a.name) }));
+  } catch {
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

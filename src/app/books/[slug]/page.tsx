@@ -37,8 +37,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  const books = await getAllBooks(2000);
-  return books.map((b) => ({ slug: b.slug }));
+  try {
+    const books = await getAllBooks(2000);
+    return books.map((b) => ({ slug: b.slug }));
+  } catch {
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -15,11 +15,15 @@ interface Props {
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
 export async function generateStaticParams() {
-  const months = await getPublishedMonths();
-  return months.map(({ year, month }) => ({
-    year: String(year),
-    month: String(month).padStart(2, '0'),
-  }));
+  try {
+    const months = await getPublishedMonths();
+    return months.map(({ year, month }) => ({
+      year: String(year),
+      month: String(month).padStart(2, '0'),
+    }));
+  } catch {
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

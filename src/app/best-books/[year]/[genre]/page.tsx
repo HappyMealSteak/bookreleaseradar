@@ -50,16 +50,20 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  const params: { year: string; genre: string }[] = [];
-  for (const year of SUPPORTED_YEARS) {
-    for (const genre of [...GENRES] as Genre[]) {
-      const books = await getBestBooksByGenreYear(genre, year, 1);
-      if (books.length >= 1) {
-        params.push({ year: String(year), genre });
+  try {
+    const params: { year: string; genre: string }[] = [];
+    for (const year of SUPPORTED_YEARS) {
+      for (const genre of [...GENRES] as Genre[]) {
+        const books = await getBestBooksByGenreYear(genre, year, 1);
+        if (books.length >= 1) {
+          params.push({ year: String(year), genre });
+        }
       }
     }
+    return params;
+  } catch {
+    return [];
   }
-  return params;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
