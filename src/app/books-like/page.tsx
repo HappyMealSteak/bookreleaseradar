@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like A Raisin in the Sun Hansberry Younger family Chicago South Side 1959 Walter Lee Mama",
+    "plays similar to A Raisin in the Sun Black family dream aspiration racism",
+    "books about African American domestic dreams and the American Dream like Hansberry",
+    "books like The Sign in Sidney Brustein's Window Hansberry Greenwich Village 1964 political commitment",
+    "plays similar to Sidney Brustein's Window intellectual disillusionment political engagement",
+    "books about obligation to political action and cost of withdrawal like Hansberry",
+    "books like Les Blancs Hansberry colonialism Africa missionary revolution Tshembe",
+    "plays similar to Les Blancs anti-colonial resistance African independence theater",
+    "books about The Drinking Gourd Hansberry slavery Underground Railroad Hannibal literacy",
+    "plays similar to Drinking Gourd antebellum slavery escape North Star resistance",
+    "books like The America Play Suzan-Lori Parks Foundling Father Lincoln assassination Great Hole",
+    "plays similar to The America Play formally inventive Black American history theater Parks",
+    "books about African American absence from historical mythology like Suzan-Lori Parks",
+    "Lorraine Hansberry complete works reading order companion reads",
+    "Suzan-Lori Parks plays reading order companion books",
     "books like Fences August Wilson Troy Maxson Rose Cory 1957 Pittsburgh Death of Salesman",
     "plays similar to Fences American tragedy family baseball Negro Leagues",
     "books about African American domestic drama like August Wilson Pulitzer",
@@ -6001,7 +6016,47 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: "What should I read if I liked Fences by August Wilson?",
+      name: "What should I read if I liked A Raisin in the Sun by Lorraine Hansberry?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved A Raisin in the Sun, read Fences by August Wilson (Troy Maxson's 1957 Pittsburgh yard as the companion to the Younger family's 1959 Chicago dreams — the two great African American family plays of mid-century theater), To Be Young, Gifted and Black (Hansberry's autobiographical portrait), and Native Son by Wright (Bigger Thomas in the same South Side — the novel Hansberry was explicitly engaging with). The Sign in Sidney Brustein's Window is Hansberry's second play and shows her full political development.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Sign in Sidney Brustein's Window by Hansberry?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Sidney Brustein's Window, read A Raisin in the Sun (Hansberry's first play — the companion that shows her full range), To Be Young, Gifted and Black (her autobiographical portrait — the inner life of the woman who wrote this play while dying), and Who's Afraid of Virginia Woolf? by Albee (the disintegrating marriage in a Greenwich Village intellectual circle as the theatrical parallel). Les Blancs, Hansberry's posthumous anti-colonial play, completes her three major works.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Les Blancs by Lorraine Hansberry?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Les Blancs, read Things Fall Apart by Achebe (the missionary encounter with African culture as the prose context), The Wretched of the Earth by Fanon (the political theory of armed anti-colonial resistance that frames Tshembe's decision), and A Season in the Congo by Aimé Césaire (the theatrical parallel in African political drama). For Hansberry's other work, A Raisin in the Sun and The Sign in Sidney Brustein's Window complete her three major plays.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Drinking Gourd by Lorraine Hansberry?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The Drinking Gourd, read Beloved by Morrison (the prose companion — what slavery did to the people who survived it), the Narrative of the Life of Frederick Douglass (the slave who taught himself to read and escaped North — the historical parallel to Hannibal), and Incidents in the Life of a Slave Girl by Harriet Jacobs. For Hansberry's other work, A Raisin in the Sun shows the descendants of Hannibal's generation a century later in 1959 Chicago.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The America Play by Suzan-Lori Parks?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The America Play, read Topdog/Underdog (Parks' Pulitzer winner — Lincoln and Booth as the successor to the Foundling Father), Venus (Parks' examination of Saartjie Baartman as the companion play about Black bodies and spectacle), and Funnyhouse of a Negro by Adrienne Kennedy (the formally inventive predecessor Parks explicitly learned from). Beloved by Morrison is the essential prose companion — the excavation of buried Black American history as the prose version of the son and wife digging in Act Two.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Fences by August Wilson?",
         acceptedAnswer: {
           '@type': 'Answer',
           text: "If you loved Fences, read The Piano Lesson by Wilson (the other Pulitzer — the Charles family's piano as the companion object to Troy's fence), Death of a Salesman by Miller (Willy Loman and Biff as the predecessor of Troy and Cory), and A Raisin in the Sun by Hansberry (the Black family's dream as the companion in African American theater). For more Pittsburgh Cycle, try Seven Guitars (the 1948 backyard before Troy's 1957 yard) and Two Trains Running (the neighborhood twelve years later in 1969).",
