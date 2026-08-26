@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like A Dream Play Strindberg 1902 Agnes Indra expressionist cosmic suffering human",
+    "books like Strindberg Dream Play Agnes Indra daughter expressionist human suffering",
+    "books like Strindberg 1902 A Dream Play Agnes Indra cosmic expressionist suffering",
+    "books like Creditors Strindberg 1888 Tekla Adolf Gustav psychological triangle destruction",
+    "books like Strindberg Creditors Tekla Adolf Gustav first husband psychological destruction",
+    "books like Strindberg 1888 Creditors psychological triangle Tekla Adolf Gustav debt",
+    "books like Waiting for Godot Beckett 1953 Vladimir Estragon absurdist nothing happens Godot",
+    "books like Beckett Waiting Godot Vladimir Estragon absurdist theater meaninglessness",
+    "books like Beckett 1953 Waiting Godot Vladimir Estragon Lucky Pozzo absurdist",
+    "books like Mother Courage Brecht 1939 epic theater Thirty Years War Anna Fierling Kattrin",
+    "books like Brecht Mother Courage Anna Fierling children Kattrin war epic theater",
+    "books like Brecht 1939 Mother Courage epic theater Anna Fierling Thirty Years War",
+    "books like The Caucasian Chalk Circle Brecht 1944 Grusha Azdak servant baby chalk test",
+    "books like Brecht Caucasian Chalk Circle Grusha servant baby Azdak chalk circle parable",
+    "books like Brecht 1944 Caucasian Chalk Circle Grusha Azdak servant girl baby parable",
     "books like John Gabriel Borkman Ibsen 1896 fallen financier prison wife Gunhild Ella Erhart late play",
     "books like Ibsen John Gabriel Borkman fallen financier pacing room wife hate late Ibsen",
     "books like Ibsen 1896 John Gabriel Borkman financier prison Gunhild Ella ambition waste",
@@ -5743,6 +5758,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked A Dream Play by Strindberg?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved A Dream Play by Strindberg, try The Ghost Sonata (his other major expressionist work — the chamber play as the complement to A Dream Play's cosmic vision), Waiting for Godot by Beckett (the absurdist theatrical successor — suffering without explanation in the secular mode), Peer Gynt by Ibsen (the theatrical cosmic journey as the predecessor), and Faust by Goethe (the ultimate predecessor in the tradition of cosmic drama).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Creditors by Strindberg?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Creditors by Strindberg, try Miss Julie (the essential companion written the same year — the gender and class war in one night), The Father (the predecessor from the year before — the husband destroyed by a wife), The Dance of Death (the long-term marital warfare as the development of Creditors), and Othello by Shakespeare (Iago as the literary ancestor of Gustav's psychological destruction).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Waiting for Godot by Beckett?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Waiting for Godot by Beckett, try Endgame (his most concentrated and bitter play — the darkening of Godot), The Myth of Sisyphus by Camus (the philosophical companion — the argument about absurdism that Beckett dramatizes), The Ghost Sonata by Strindberg (the expressionist predecessor), and The Metamorphosis by Kafka (the absurdist tradition in prose form).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Mother Courage by Brecht?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Mother Courage and Her Children by Brecht, try The Good Woman of Setzuan (the moral fable that complements the historical epic), The Caucasian Chalk Circle (the warmest of Brecht's major plays — the essential contrast), Galileo (the great man who compromises as the contrast to Kattrin's courage), and Waiting for Godot by Beckett (the essential contrast — Brecht's political theater against Beckett's existentialist minimalism).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Caucasian Chalk Circle by Brecht?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Caucasian Chalk Circle by Brecht, try Mother Courage (his masterpiece — the essential darker companion), The Good Woman of Setzuan (the moral fable that precedes it), Galileo (the great man who compromises as the contrast to Grusha's steadfastness), and The Idiot by Dostoevsky (Myshkin as the prose-novel version of the figure who acts with pure goodness in a world that cannot accommodate it).",
+      },
     },
     {
       '@type': 'Question',
