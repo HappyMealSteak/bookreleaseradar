@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Poverty Is No Crime Ostrovsky 1853 Lyubim Tortsov merchant comedy Masha Mitya provincial",
+    "books like Ostrovsky Poverty No Crime Lyubim Tortsov merchant comedy drunken brother sincere",
+    "books like Ostrovsky 1853 Poverty Is No Crime merchant family Lyubim Tortsov drunken comedy",
+    "books like The Forest Ostrovsky 1871 Neschastlivtsev actor provincial estate comedy hypocrisy",
+    "books like Ostrovsky Forest Neschastlivtsev traveling actor provincial estate comedy dignity",
+    "books like Ostrovsky 1871 Forest actor provincial estate comedy Neschastlivtsev Schastlivtsev",
+    "books like Wolves and Sheep Ostrovsky 1875 Murzavetskaya Kupavina estate widow provincial comedy",
+    "books like Ostrovsky Wolves Sheep social predation provincial estate widow Murzavetskaya",
+    "books like Ostrovsky 1875 Wolves Sheep provincial estate widow Murzavetskaya comedy predation",
+    "books like An Enemy of the People Ibsen 1882 Stockmann baths contaminated truth majority whistleblower",
+    "books like Ibsen Enemy People Stockmann truth majority town establishment suppressed political",
+    "books like Ibsen 1882 Enemy People Stockmann contaminated baths town majority whistleblower",
+    "books like Rosmersholm Ibsen 1886 Rosmer Rebecca West guilt liberal idealist emancipation",
+    "books like Ibsen Rosmersholm Rosmer Rebecca West liberal idealist guilt psychological drama",
+    "books like Ibsen 1886 Rosmersholm Rosmer Rebecca West guilt emancipation psychological play",
     "books like Cathedral Folk Leskov 1872 provincial clergy Nihilism Achilla Tuberozov Sobornyane",
     "books like Leskov Cathedral Folk clergy chronicle provincial Nihilism Achilla Tuberozov",
     "books like Leskov 1872 Cathedral Folk Sobornyane provincial clergy Russian chronicle",
@@ -5716,8 +5731,48 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
+      name: "What should I read if I liked Poverty Is No Crime by Ostrovsky?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Poverty Is No Crime by Ostrovsky, try The Thunderstorm (his masterpiece — the same provincial merchant world in its darkest tragic mode), Without a Dowry (his finest late play — the comedy has become tragedy), The Forest (the provincial estate comedy from his mature period — actors exposing hypocrisy), and The Inspector General by Gogol (the foundational work of Russian theatrical comedy that Ostrovsky builds on).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Forest by Ostrovsky?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Forest by Ostrovsky, try The Thunderstorm (his masterpiece in the tragic mode), Without a Dowry (his finest late play), The Seagull by Chekhov (the essential theatrical successor — the provincial estate world and the artist figure in the next generation), and Uncle Vanya by Chekhov (the provincial estate and wasted talent in the Chekhovian mode).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Wolves and Sheep by Ostrovsky?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Wolves and Sheep by Ostrovsky, try The Forest (the provincial estate comedy from four years earlier), Without a Dowry (the same social predation in tragic mode three years later), Dead Souls by Gogol (the essential predecessor in comic social predation), and The Inspector General by Gogol (the foundational work of Russian theatrical comedy).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked An Enemy of the People by Ibsen?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved An Enemy of the People by Ibsen, try The Wild Duck (written two years later — Ibsen's deliberate critique of truth-teller idealism), Rosmersholm (the liberal idealist destroyed by inner guilt rather than outer social pressure), Ghosts (the truth a respectable family refuses to acknowledge — the tragic companion), and A Doll's House (the individual against social convention in its most famous form).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked Rosmersholm by Ibsen?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved Rosmersholm by Ibsen, try Hedda Gabler (written five years later — Rebecca West and Hedda as Ibsen's two most psychologically complex women), Ghosts (Mrs. Alving trapped by the past — the companion in the mode of inescapable history), An Enemy of the People (the liberal idealist in a more external conflict), and Crime and Punishment by Dostoevsky (guilt and the impossibility of freedom from it in the Russian prose tradition).",
+      },
+    },
+    {
+      '@type': 'Question',
       name: "What should I read if I liked Cathedral Folk by Leskov?",
-        acceptedAnswer: {
+      acceptedAnswer: {
           '@type': 'Answer',
           text: "If you loved Cathedral Folk by Leskov, try The Enchanted Wanderer (his most expansive picaresque novel — the same folk-religious vitality in a completely different form), The Sealed Angel (a shorter devotional tale of Old Believers and sacred craft), The Brothers Karamazov by Dostoevsky (Father Zosima's teaching as the fullest portrait of sincere Orthodox life), and Lefty (the most celebrated comic tale — folk genius applied to craft rather than prayer).",
         },
