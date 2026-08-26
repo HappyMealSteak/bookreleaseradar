@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like John Gabriel Borkman Ibsen 1896 fallen financier prison wife Gunhild Ella Erhart late play",
+    "books like Ibsen John Gabriel Borkman fallen financier pacing room wife hate late Ibsen",
+    "books like Ibsen 1896 John Gabriel Borkman financier prison Gunhild Ella ambition waste",
+    "books like When We Dead Awaken Ibsen 1899 Rubek Irene sculptor model mountain avalanche final play",
+    "books like Ibsen When We Dead Awaken sculptor Rubek Irene model sacrifice art awakening",
+    "books like Ibsen 1899 When Dead Awaken Rubek Irene sculptor sacrifice final play epilogue",
+    "books like The Father Strindberg 1887 Captain Laure paternity madness asylum battle sexes",
+    "books like Strindberg Father Captain Laure battle sexes paternity madness asylum naturalistic",
+    "books like Strindberg 1887 Father Captain wife Laure paternity madness straitjacket asylum",
+    "books like The Dance of Death Strindberg 1900 Edgar Alice marital combat fortress island",
+    "books like Strindberg Dance Death Edgar Alice fortress island marital war bitter combat",
+    "books like Strindberg 1900 Dance Death Edgar Alice fortress marital warfare bitter",
+    "books like The Ghost Sonata Strindberg 1907 Student Hummel expressionist corruption chamber play",
+    "books like Strindberg Ghost Sonata expressionist Student Hummel house secrets corruption",
+    "books like Strindberg 1907 Ghost Sonata expressionist chamber play modernism Hummel Student",
     "books like Poverty Is No Crime Ostrovsky 1853 Lyubim Tortsov merchant comedy Masha Mitya provincial",
     "books like Ostrovsky Poverty No Crime Lyubim Tortsov merchant comedy drunken brother sincere",
     "books like Ostrovsky 1853 Poverty Is No Crime merchant family Lyubim Tortsov drunken comedy",
@@ -5728,6 +5743,46 @@ const faqJsonLd = {
       '@type': 'Question',
       name: 'What should I read if I liked The Hours by Michael Cunningham?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like The Hours include Mrs Dalloway by Virginia Woolf (the novel at its center), To the Lighthouse by Woolf, Middlesex by Jeffrey Eugenides, The God of Small Things by Arundhati Roy, On Earth We're Briefly Gorgeous by Ocean Vuong, Gilead by Marilynne Robinson, Beloved by Toni Morrison, and A Little Life by Hanya Yanagihara. Our full guide covers 8 picks for fans of literary fiction about lives constrained by their historical moment and the question of what makes a life meaningful." },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked John Gabriel Borkman by Ibsen?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved John Gabriel Borkman by Ibsen, try When We Dead Awaken (his final play — the sculptor who sacrificed his model to his art, the completing companion of the late period), The Master Builder (the aging artist and the younger woman who awakens him), Rosmersholm (the liberal idealist destroyed by his past), and Hedda Gabler (ambition and destruction in its most concentrated form).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked When We Dead Awaken by Ibsen?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved When We Dead Awaken by Ibsen, try John Gabriel Borkman (the companion late play about sacrifice and waste), The Master Builder (the aging artist and the younger woman in its most dramatic earlier form), Hedda Gabler (the destruction of the creative spirit in its most concentrated form), and The Ghost Sonata by Strindberg (the theatrical modernism that follows immediately from the late Ibsen).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Father by Strindberg?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Father by Strindberg, try Miss Julie (his most famous play — the battle of the sexes concentrated into one night), The Dance of Death (the mature Strindberg marriage drama — Edgar and Alice as the ultimate Strindberg couple), Hedda Gabler by Ibsen (the comparison illuminates both playwrights' views of gender), and A Doll's House by Ibsen (the feminist companion that The Father was partly written against).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Dance of Death by Strindberg?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Dance of Death by Strindberg, try Who's Afraid of Virginia Woolf? by Albee (the American theatrical successor — George and Martha as the descendants of Edgar and Alice), The Ghost Sonata (the expressionist development that follows), The Father (his earlier battle-of-the-sexes drama), and No Exit by Sartre (the philosophical companion — hell as other people).",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "What should I read if I liked The Ghost Sonata by Strindberg?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "If you loved The Ghost Sonata by Strindberg, try A Dream Play (his other great expressionist work), Waiting for Godot by Beckett (the twentieth-century successor that The Ghost Sonata directly anticipates), The Metamorphosis by Kafka (expressionist horror at domestic life in prose form), and When We Dead Awaken by Ibsen (the companion in the late symbolist mode).",
+      },
     },
     {
       '@type': 'Question',
