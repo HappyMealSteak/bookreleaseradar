@@ -1304,6 +1304,21 @@ export const metadata: Metadata = {
     'books like Charterhouse Parma Stendhal Fabrizio Italy Waterloo',
     'Stendhal best novels reading order',
     'Italian Romantic novel Stendhal Balzac comparison',
+    "books like Cathedral Folk Leskov 1872 provincial clergy Nihilism Achilla Tuberozov Sobornyane",
+    "books like Leskov Cathedral Folk clergy chronicle provincial Nihilism Achilla Tuberozov",
+    "books like Leskov 1872 Cathedral Folk Sobornyane provincial clergy Russian chronicle",
+    "books like The Sealed Angel Leskov 1873 Old Believers icon painter sacred craft Zapechatlenny",
+    "books like Leskov Sealed Angel Old Believers icon confiscated restored sacred craft",
+    "books like Leskov 1873 Sealed Angel Old Believers icon painter devotional novella",
+    "books like Lady Macbeth of Mtsensk Leskov 1865 Katerina Izmailova merchant wife murders Sergei Siberia",
+    "books like Leskov Lady Macbeth Mtsensk Katerina merchant wife murders Siberia Shostakovich opera",
+    "books like Leskov 1865 Lady Macbeth Mtsensk Katerina Izmailova murders passion Siberia",
+    "books like The Thunderstorm Ostrovsky 1859 Groza Katerina Kabanova Volga suicide provincial drama",
+    "books like Ostrovsky Thunderstorm Groza Katerina Kabanova suicide Volga merchant Russia",
+    "books like Ostrovsky 1859 Groza Katerina merchant mother-in-law Kabanova Volga confession suicide",
+    "books like Without a Dowry Ostrovsky 1878 Bespridannitsa Larisa Paratov Karandyshev Cruel Romance",
+    "books like Ostrovsky Without a Dowry Bespridannitsa Larisa merchant Paratov Karandyshev shot",
+    "books like Ostrovsky 1878 Bespridannitsa Larisa without dowry Paratov Karandyshev Cruel Romance",
     "books like The Demon Lermontov 1842 fallen angel Tamara Caucasus Romantic poem narrative verse",
     "books like Lermontov Demon fallen angel love kills Tamara narrative poem Romantic",
     "books like Lermontov 1842 Demon Caucasus Georgian princess Romantic poetry supernatural love",
@@ -5701,7 +5716,47 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: "What should I read if I liked The Demon by Lermontov?",
+      name: "What should I read if I liked Cathedral Folk by Leskov?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Cathedral Folk by Leskov, try The Enchanted Wanderer (his most expansive picaresque novel — the same folk-religious vitality in a completely different form), The Sealed Angel (a shorter devotional tale of Old Believers and sacred craft), The Brothers Karamazov by Dostoevsky (Father Zosima's teaching as the fullest portrait of sincere Orthodox life), and Lefty (the most celebrated comic tale — folk genius applied to craft rather than prayer).",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Sealed Angel by Leskov?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The Sealed Angel by Leskov, try Cathedral Folk (his most sustained religious vision in chronicle form), The Enchanted Wanderer (published the same year — the folk-religious world in picaresque form), Lefty (the celebration of Russian craft in comic mode — the left-handed craftsman as secular parallel to the icon painter), and Lady Macbeth of Mtsensk (the essential dark contrast within Leskov).",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Lady Macbeth of Mtsensk by Leskov?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Lady Macbeth of Mtsensk by Leskov, try The Enchanted Wanderer (the complete contrast in register — Flyagin's surviving energy against Katerina's destroying passion), Anna Karenina by Tolstoy (the aristocratic version of the same passion without the murders), Crime and Punishment by Dostoevsky (philosophical murder versus Katerina's passionate murder, published one year later), and The Thunderstorm by Ostrovsky (the same provincial merchant world, female passion, and destruction in dramatic form).",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Thunderstorm by Ostrovsky?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved The Thunderstorm by Ostrovsky, try Without a Dowry (his finest late play — Larisa Ogudalova as the more psychologically complex next generation of Ostrovsky's tragic female protagonist), Lady Macbeth of Mtsensk by Leskov (the same provincial merchant world and female passion in murderous naturalism), The Seagull by Chekhov (the essential theatrical successor that transformed everything The Thunderstorm built), and Anna Karenina by Tolstoy.",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked Without a Dowry by Ostrovsky?",
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: "If you loved Without a Dowry (Bespridannitsa) by Ostrovsky, try The Thunderstorm (the essential predecessor in the same provincial merchant world — the melodrama of 1859 against the psychological complexity of 1878), Anna Karenina by Tolstoy (published the same year — the aristocratic version of Larisa's dilemma), A Doll's House by Ibsen (published one year later — the European parallel with a proto-feminist resolution), and The Seagull by Chekhov (the essential theatrical successor).",
+        },
+      },
+      {
+        '@type': 'Question',
+        name: "What should I read if I liked The Demon by Lermontov?",
       acceptedAnswer: {
         '@type': 'Answer',
         text: "If you loved The Demon by Lermontov, try A Hero of Our Time (his prose masterpiece with the same Byronic archetype), Mtsyri (his other major narrative poem), Eugene Onegin by Pushkin (the original Russian Romantic verse novel), and Faust by Goethe (the European supernatural tradition The Demon belongs to).",
