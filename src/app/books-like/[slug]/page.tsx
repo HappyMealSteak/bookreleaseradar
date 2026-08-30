@@ -182,10 +182,10 @@ export default async function BooksLikePage({ params }: Props) {
                         href={getRecommendationAmazonUrl(rec)}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        className="shrink-0 flex items-center gap-1 px-3 py-1.5 rounded-lg bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors whitespace-nowrap"
+                        className="shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-sm font-semibold transition-colors whitespace-nowrap border border-[var(--gold)]/30 hover:border-transparent"
                       >
-                        <ExternalLink size={11} />
-                        Buy
+                        <ExternalLink size={13} />
+                        Buy on Amazon
                       </a>
                     </div>
                   </div>

@@ -79,16 +79,15 @@ export default function BookCard({ book, size = 'md' }: BookCardProps) {
         {/* Edition dates */}
         {book.editions && book.editions.length > 0 ? (
           <div className="mt-auto pt-1 flex flex-col gap-1">
+            <p className="text-[10px] text-[var(--text-faint)]">{formatReleaseDate(book.publishedDate)}</p>
             <a
               href={book.amazonUrl}
               target="_blank"
               rel="noopener noreferrer nofollow"
-              className="flex items-center justify-between w-full px-2 py-1 rounded bg-[var(--surface-raised)] border border-[var(--border)] hover:border-[var(--accent)] transition-colors group/ed"
+              className="flex items-center justify-center gap-1 w-full py-1.5 px-2 rounded bg-[var(--gold-light)] text-[var(--gold)] hover:bg-[var(--accent)] hover:text-[var(--accent-fg)] text-xs font-semibold transition-colors"
             >
-              <span className="text-[10px] text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors">
-                {formatReleaseDate(book.publishedDate)}
-              </span>
-              <ExternalLink size={9} className="text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors shrink-0" />
+              <ExternalLink size={11} />
+              {book.publishedDate && new Date(book.publishedDate) > new Date() ? 'Pre-order on Amazon' : 'Buy on Amazon'}
             </a>
             {book.editions.map((ed) => (
               <a
@@ -96,12 +95,10 @@ export default function BookCard({ book, size = 'md' }: BookCardProps) {
                 href={ed.amazonUrl}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="flex items-center justify-between w-full px-2 py-1 rounded bg-[var(--surface-raised)] border border-[var(--border)] hover:border-[var(--accent)] transition-colors group/ed"
+                className="flex items-center justify-between w-full px-2 py-1 rounded bg-[var(--surface-raised)] border border-[var(--border)] hover:border-[var(--accent)] transition-colors group/ed text-[10px] text-[var(--text-faint)] group-hover/ed:text-[var(--accent)]"
               >
-                <span className="text-[10px] text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors">
-                  {formatReleaseDate(ed.publishedDate)}
-                </span>
-                <ExternalLink size={9} className="text-[var(--text-faint)] group-hover/ed:text-[var(--accent)] transition-colors shrink-0" />
+                <span className="transition-colors">{formatReleaseDate(ed.publishedDate)} edition</span>
+                <ExternalLink size={9} className="shrink-0 transition-colors" />
               </a>
             ))}
           </div>
