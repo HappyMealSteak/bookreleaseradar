@@ -10129,23 +10129,6 @@ export const RECOMMENDATIONS: BooksLikeEntry[] = [
     ],
   },
   {
-    slug: 'alan-bleasdale-the-yerava-karnataka',
-    sourceTitle: 'The Yerava Karnataka',
-    tagline: "Fiction exploring the Yerava scheduled tribe forest gathering cultivation community of Karnataka",
-    description: "These novels illuminate the Yerava community of Karnataka — a scheduled tribe community navigating India's constitutional framework while maintaining their distinct Yerava identity and traditional forest gathering cultivation practices.",
-    keywords: ['yerava karnataka fiction', 'scheduled tribe forest gathering karnataka novel', 'yerava community karnataka literature'],
-    recommendations: [
-      { title: "A Passage to India", author: "E.M. Forster", why: "Forster's examination of the colonial encounter's structural failure illuminates the conditions shaping Yerava communities navigating India's constitutional framework in Karnataka.", genre: "fiction" },
-      { title: "Kim", author: "Rudyard Kipling", why: "Kipling's frontier novel captures the colonial administrative world mapping Karnataka's communities including the Yerava within colonial categories.", genre: "fiction" },
-      { title: "The Jewel in the Crown", author: "Paul Scott", why: "Scott's administrative portrait traces the machinery governing Karnataka within which the Yerava's distinct identity and forest gathering cultivation practices were classified.", genre: "fiction" },
-      { title: "A Division of the Spoils", author: "Paul Scott", why: "Scott's partition-era volume traces the political transitions determining conditions for the Yerava community's status within India's constitutional framework in Karnataka.", genre: "fiction" },
-      { title: "Burmese Days", author: "George Orwell", why: "Orwell's colonial novel captures the frontier administrative world governing Karnataka's districts while the Yerava's distinct identity and forest gathering cultivation created their community.", genre: "fiction" },
-      { title: "Staying On", author: "Paul Scott", why: "Scott's post-independence portrait resonates with Yerava communities in Karnataka maintaining their distinct identity and traditional forest gathering cultivation within India's constitutional framework.", genre: "fiction" },
-      { title: "The Day of the Scorpion", author: "Paul Scott", why: "Scott's second Raj volume engages the political landscape within which the Yerava community navigated India's constitutional framework while sustaining their distinct identity in Karnataka.", genre: "fiction" },
-      { title: "The Towers of Silence", author: "Paul Scott", why: "Scott's portrait of colonial categorization resonates with the administrative treatment of the Yerava in Karnataka whose distinct identity and forest gathering cultivation were classified within colonial frameworks.", genre: "fiction" },
-    ],
-  },
-  {
     slug: 'alan-bleasdale-the-sholiga-karnataka',
     sourceTitle: 'The Sholiga Karnataka',
     tagline: "Fiction exploring the Sholiga Biligiriranga Hills forest gathering hunting community of Karnataka",

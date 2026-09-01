@@ -5611,15 +5611,6 @@ export const SERIES: SeriesDefinition[] = [
     searchTerms: ['chenchu karnataka fiction', 'scheduled tribe forest hunting karnataka', 'chenchu community karnataka novel', 'chenchu identity literature', 'karnataka chenchu tribe community books', 'india chenchu tribe fiction', 'chenchu culture karnataka books'],
   },
   {
-    slug: 'alan-bleasdale-the-yerava-karnataka',
-    name: 'Alan Bleasdale: The Yerava Karnataka',
-    author: 'Alan Bleasdale',
-    authorQuery: 'Alan Bleasdale',
-    genre: 'fiction',
-    description: "Fiction exploring the Yerava scheduled tribe community of Karnataka, whose distinct Yerava identity, traditional forest gathering cultivation and community practices, and longstanding Karnataka district presence create a community navigating India's constitutional framework.",
-    searchTerms: ['yerava karnataka fiction', 'scheduled tribe forest gathering karnataka', 'yerava community karnataka novel', 'yerava identity literature', 'karnataka yerava tribe community books', 'india yerava tribe fiction', 'yerava culture karnataka books'],
-  },
-  {
     slug: 'alan-bleasdale-the-sholiga-karnataka',
     name: 'Alan Bleasdale: The Sholiga Karnataka',
     author: 'Alan Bleasdale',
