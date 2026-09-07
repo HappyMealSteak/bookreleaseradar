@@ -4909,7 +4909,7 @@ export const SERIES: SeriesDefinition[] = [
     searchTerms: ['Salomeja Neris Lithuania', 'Neris Per lupas tekejo saule Sun Flowed Lips 1935 Lithuanian lyric', 'Salomeja Neris reading order', 'Lithuanian romantic lyric poet Neris Egle serpents folk legend', 'Neris Anna Akhmatova women European lyric poets', 'Salomeja Neris reading guide controversial Soviet', 'Neris Lithuanian poet schoolteacher wartime Soviet 1940'],
   },
   {
-    slug: 'claude-mckay-usa',
+    slug: 'claude-mckay-jamaica-usa',
     name: "Claude McKay Reading Guide",
     author: "Claude McKay",
     authorQuery: "Claude McKay Jamaican American poet Harlem Renaissance If We Must Die",
