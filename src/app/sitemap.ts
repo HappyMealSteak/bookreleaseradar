@@ -53,18 +53,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
     ...ALL_READING_ORDER_SLUGS.map((slug) => ({
       url: `${BASE}/series/${slug}/reading-order`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
+      priority: 0.5,
     })),
     { url: `${BASE}/books-like`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.82 },
     { url: `${BASE}/releases/${currentYear}`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.85 },
     { url: `${BASE}/releases/${currentYear + 1}`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     ...ALL_BOOKS_LIKE_SLUGS.map((slug) => ({
       url: `${BASE}/books-like/${slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.88,
+      priority: 0.5,
     })),
   ];
 
