@@ -98,179 +98,220 @@ export async function upsertBook(book: Book) {
   });
 }
 
+// ---------------------------------------------------------------------------
+// In-memory read layer
+//
+// Every page-facing read is answered from one snapshot of the `books` table
+// (a few hundred rows). The old per-page SQL used unindexed LIKE scans, so each
+// page re-read the whole table several times and a full build burned through
+// the Turso row-read quota. One SELECT per process (per TTL) replaces that.
+// ---------------------------------------------------------------------------
+
+const SNAPSHOT_TTL_MS = 10 * 60 * 1000;
+
+let snapshot: { books: Book[]; at: number } | null = null;
+let inflight: Promise<Book[]> | null = null;
+
+async function loadBooks(): Promise<Book[]> {
+  const now = Date.now();
+  if (snapshot && now - snapshot.at < SNAPSHOT_TTL_MS) return snapshot.books;
+  if (inflight) return inflight;
+  inflight = (async () => {
+    try {
+      const db = getClient();
+      const result = await db.execute('SELECT * FROM books');
+      const books = result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+      snapshot = { books, at: Date.now() };
+      return books;
+    } catch (err) {
+      // Serve the last good copy rather than failing a revalidation.
+      if (snapshot) return snapshot.books;
+      throw err;
+    } finally {
+      inflight = null;
+    }
+  })();
+  return inflight;
+}
+
+const isoDay = (d: Date) => d.toISOString().slice(0, 10);
+
+// SQLite orders NULL before every value ascending, and last descending.
+function cmpAsc(a: string | null, b: string | null): number {
+  if (a === null && b === null) return 0;
+  if (a === null) return -1;
+  if (b === null) return 1;
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+const cmpDesc = (a: string | null, b: string | null) => -cmpAsc(a, b);
+
+const hasGenre = (b: Book, genre: string) =>
+  b.genres.some((g) => g.toLowerCase() === genre.toLowerCase());
+const genresContain = (b: Book, text: string) =>
+  JSON.stringify(b.genres).toLowerCase().includes(text.toLowerCase());
+const authorsContain = (b: Book, text: string) =>
+  JSON.stringify(b.authors).toLowerCase().includes(text.toLowerCase());
+const complete = (b: Book) => b.coverUrl != null && b.description != null;
+
+function isUpcomingOrRecent(pd: string | null, today: string): boolean {
+  return pd !== null && pd >= today;
+}
+
 export async function getBookBySlug(slug: string): Promise<Book | null> {
-  const db = getClient();
-  const result = await db.execute({
-    sql: 'SELECT * FROM books WHERE slug = ? LIMIT 1',
-    args: [slug],
-  });
-  if (!result.rows.length) return null;
-  return rowToBook(result.rows[0] as Record<string, unknown>);
+  const books = await loadBooks();
+  return books.find((b) => b.slug === slug) ?? null;
+}
+
+function genreVisible(b: Book, oneYearAgo: string, currentYear: string): boolean {
+  const pd = b.publishedDate;
+  return pd === null || pd >= oneYearAgo || (pd.length === 4 && pd >= currentYear);
 }
 
 export async function getBooksByGenre(genre: string, limit = 24, offset = 0): Promise<Book[]> {
-  const db = getClient();
-  const today = new Date().toISOString().slice(0, 10);
-  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const books = await loadBooks();
+  const today = isoDay(new Date());
+  const oneYearAgo = isoDay(new Date(Date.now() - 365 * 24 * 60 * 60 * 1000));
   const currentYear = new Date().getFullYear().toString();
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE genres LIKE ?
-        AND (
-          published_date IS NULL
-          OR published_date >= ?
-          OR (LENGTH(published_date) = 4 AND published_date >= ?)
-        )
-      ORDER BY
-        CASE WHEN published_date IS NULL OR published_date >= ? THEN 0 ELSE 1 END ASC,
-        CASE WHEN published_date >= ? THEN published_date END ASC,
-        published_date DESC
-      LIMIT ? OFFSET ?`,
-    args: [`%"${genre}"%`, oneYearAgo, currentYear, today, today, limit, offset],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  return books
+    .filter((b) => hasGenre(b, genre) && genreVisible(b, oneYearAgo, currentYear))
+    .sort((a, b) => {
+      const ga = a.publishedDate === null || a.publishedDate >= today ? 0 : 1;
+      const gb = b.publishedDate === null || b.publishedDate >= today ? 0 : 1;
+      if (ga !== gb) return ga - gb;
+      const ka = isUpcomingOrRecent(a.publishedDate, today) ? a.publishedDate : null;
+      const kb = isUpcomingOrRecent(b.publishedDate, today) ? b.publishedDate : null;
+      const k = cmpAsc(ka, kb);
+      return k !== 0 ? k : cmpDesc(a.publishedDate, b.publishedDate);
+    })
+    .slice(offset, offset + limit);
 }
 
 export async function getBooksByAuthorSlug(authorSlug: string, limit = 24): Promise<Book[]> {
-  const db = getClient();
-  const result = await db.execute({
-    sql: `SELECT * FROM books WHERE authors LIKE ? ORDER BY published_date DESC LIMIT ?`,
-    args: [`%${authorSlug.replace(/-/g, '%')}%`, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = new RegExp(authorSlug.split('-').map(escape).join('.*'), 'i');
+  return books
+    .filter((b) => pattern.test(JSON.stringify(b.authors)))
+    .sort((a, b) => cmpDesc(a.publishedDate, b.publishedDate))
+    .slice(0, limit);
 }
 
 export async function getBooksByAuthorName(authorName: string, limit = 36): Promise<Book[]> {
-  const db = getClient();
-  const like = `%${authorName}%`;
-  const today = new Date().toISOString().slice(0, 10);
-  const result = await db.execute({
-    sql: `SELECT * FROM books WHERE authors LIKE ?
-      ORDER BY
-        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
-        CASE WHEN published_date >= ? THEN published_date END ASC,
-        published_date DESC
-      LIMIT ?`,
-    args: [like, today, today, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  const today = isoDay(new Date());
+  return books
+    .filter((b) => authorsContain(b, authorName))
+    .sort((a, b) => {
+      const ga = isUpcomingOrRecent(a.publishedDate, today) ? 0 : 1;
+      const gb = isUpcomingOrRecent(b.publishedDate, today) ? 0 : 1;
+      if (ga !== gb) return ga - gb;
+      const ka = isUpcomingOrRecent(a.publishedDate, today) ? a.publishedDate : null;
+      const kb = isUpcomingOrRecent(b.publishedDate, today) ? b.publishedDate : null;
+      const k = cmpAsc(ka, kb);
+      return k !== 0 ? k : cmpDesc(a.publishedDate, b.publishedDate);
+    })
+    .slice(0, limit);
 }
 
 export async function getUpcomingBooks(limit = 18): Promise<Book[]> {
-  const db = getClient();
-  const today = new Date().toISOString().slice(0, 10);
-  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE (published_date >= ? OR (published_date >= ? AND published_date < ?))
-         OR (LENGTH(published_date) = 4 AND CAST(published_date AS INTEGER) >= 2025)
-      ORDER BY
-        CASE WHEN published_date >= ? THEN 0 ELSE 1 END ASC,
-        published_date ASC
-      LIMIT ?`,
-    args: [today, oneYearAgo, today, today, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  const today = isoDay(new Date());
+  const oneYearAgo = isoDay(new Date(Date.now() - 365 * 24 * 60 * 60 * 1000));
+  return books
+    .filter((b) => {
+      const pd = b.publishedDate;
+      if (pd === null) return false;
+      if (pd >= today || (pd >= oneYearAgo && pd < today)) return true;
+      return pd.length === 4 && (parseInt(pd, 10) || 0) >= 2025;
+    })
+    .sort((a, b) => {
+      const ga = isUpcomingOrRecent(a.publishedDate, today) ? 0 : 1;
+      const gb = isUpcomingOrRecent(b.publishedDate, today) ? 0 : 1;
+      return ga !== gb ? ga - gb : cmpAsc(a.publishedDate, b.publishedDate);
+    })
+    .slice(0, limit);
 }
 
 export async function getAllBooks(limit = 1000): Promise<Book[]> {
-  const db = getClient();
-  const result = await db.execute({
-    sql: 'SELECT * FROM books ORDER BY published_date DESC LIMIT ?',
-    args: [limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  return [...books].sort((a, b) => cmpDesc(a.publishedDate, b.publishedDate)).slice(0, limit);
 }
 
 export async function getBooksByYear(year: number, limit = 200): Promise<Book[]> {
-  const db = getClient();
+  const books = await loadBooks();
   const prefix = `${year}-`;
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE published_date LIKE ? OR published_date = ?
-      ORDER BY published_date ASC
-      LIMIT ?`,
-    args: [`${prefix}%`, String(year), limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  return books
+    .filter((b) => b.publishedDate !== null && (b.publishedDate.startsWith(prefix) || b.publishedDate === String(year)))
+    .sort((a, b) => cmpAsc(a.publishedDate, b.publishedDate))
+    .slice(0, limit);
 }
 
 export async function searchBooks(query: string, limit = 24): Promise<Book[]> {
-  const db = getClient();
-  const like = `%${query}%`;
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE title LIKE ? OR authors LIKE ? OR description LIKE ?
-      ORDER BY published_date DESC
-      LIMIT ?`,
-    args: [like, like, like, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  const q = query.toLowerCase();
+  return books
+    .filter(
+      (b) =>
+        b.title.toLowerCase().includes(q) ||
+        JSON.stringify(b.authors).toLowerCase().includes(q) ||
+        (b.description !== null && b.description.toLowerCase().includes(q)),
+    )
+    .sort((a, b) => cmpDesc(a.publishedDate, b.publishedDate))
+    .slice(0, limit);
 }
 
 export async function getRelatedBooks(book: Book, limit = 6): Promise<Book[]> {
-  const db = getClient();
+  const books = await loadBooks();
   const genre = book.genres[0] ?? 'fiction';
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE id != ? AND genres LIKE ?
-      ORDER BY RANDOM()
-      LIMIT ?`,
-    args: [book.id, `%"${genre}"%`, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const pool = books.filter((b) => b.id !== book.id && hasGenre(b, genre));
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, limit);
 }
 
 export async function getSmartRelatedBooks(book: Book, limit = 6): Promise<{
   byAuthor: Book[];
   byGenre: Book[];
 }> {
-  const db = getClient();
+  const books = await loadBooks();
   const genre = book.genres[0] ?? 'fiction';
   const author = book.authors[0];
 
-  const [authorResult, genreResult] = await Promise.all([
-    author
-      ? db.execute({
-          sql: `SELECT * FROM books
-            WHERE id != ? AND authors LIKE ?
-            ORDER BY
-              CASE WHEN cover_url IS NOT NULL AND description IS NOT NULL THEN 0 ELSE 1 END ASC,
-              published_date DESC
-            LIMIT ?`,
-          args: [book.id, `%${author}%`, limit],
+  const byAuthor = author
+    ? books
+        .filter((b) => b.id !== book.id && authorsContain(b, author))
+        .sort((a, b) => {
+          const ca = complete(a) ? 0 : 1;
+          const cb = complete(b) ? 0 : 1;
+          return ca !== cb ? ca - cb : cmpDesc(a.publishedDate, b.publishedDate);
         })
-      : Promise.resolve({ rows: [] }),
-    db.execute({
-      sql: `SELECT * FROM books
-        WHERE id != ? AND genres LIKE ?
-          AND (? IS NULL OR authors NOT LIKE ?)
-          AND cover_url IS NOT NULL
-          AND description IS NOT NULL
-        ORDER BY published_date DESC
-        LIMIT ?`,
-      args: [book.id, `%"${genre}"%`, author ?? null, author ? `%${author}%` : null, limit],
-    }),
-  ]);
+        .slice(0, limit)
+    : [];
 
-  return {
-    byAuthor: authorResult.rows.map((r) => rowToBook(r as Record<string, unknown>)),
-    byGenre: genreResult.rows.map((r) => rowToBook(r as Record<string, unknown>)),
-  };
+  const byGenre = books
+    .filter(
+      (b) =>
+        b.id !== book.id &&
+        hasGenre(b, genre) &&
+        (!author || !authorsContain(b, author)) &&
+        complete(b),
+    )
+    .sort((a, b) => cmpDesc(a.publishedDate, b.publishedDate))
+    .slice(0, limit);
+
+  return { byAuthor, byGenre };
 }
 
 export async function getReleasingThisWeek(): Promise<Book[]> {
-  const db = getClient();
-  const today = new Date().toISOString().slice(0, 10);
-  const nextWeek = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE published_date >= ? AND published_date <= ?
-      ORDER BY published_date ASC
-      LIMIT 12`,
-    args: [today, nextWeek],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const books = await loadBooks();
+  const today = isoDay(new Date());
+  const nextWeek = isoDay(new Date(Date.now() + 7 * 24 * 60 * 60 * 1000));
+  return books
+    .filter((b) => b.publishedDate !== null && b.publishedDate >= today && b.publishedDate <= nextWeek)
+    .sort((a, b) => cmpAsc(a.publishedDate, b.publishedDate))
+    .slice(0, 12);
 }
 
 export async function getRecentAndUpcomingBooks(): Promise<{
@@ -278,32 +319,21 @@ export async function getRecentAndUpcomingBooks(): Promise<{
   thisWeek: Book[];
   comingSoon: Book[];
 }> {
-  const db = getClient();
+  const books = await loadBooks();
   const now = new Date();
-  const today = now.toISOString().slice(0, 10);
-  const past14 = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const next7 = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const next60 = new Date(now.getTime() + 60 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const today = isoDay(now);
+  const past14 = isoDay(new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000));
+  const next7 = isoDay(new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000));
+  const next60 = isoDay(new Date(now.getTime() + 60 * 24 * 60 * 60 * 1000));
 
-  const [recentResult, upcomingResult] = await Promise.all([
-    db.execute({
-      sql: `SELECT * FROM books
-        WHERE published_date >= ? AND published_date < ?
-        ORDER BY published_date DESC
-        LIMIT 40`,
-      args: [past14, today],
-    }),
-    db.execute({
-      sql: `SELECT * FROM books
-        WHERE published_date >= ? AND published_date <= ?
-        ORDER BY published_date ASC
-        LIMIT 60`,
-      args: [today, next60],
-    }),
-  ]);
-
-  const recent = recentResult.rows.map((r) => rowToBook(r as Record<string, unknown>));
-  const upcoming = upcomingResult.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  const recent = books
+    .filter((b) => b.publishedDate !== null && b.publishedDate >= past14 && b.publishedDate < today)
+    .sort((a, b) => cmpDesc(a.publishedDate, b.publishedDate))
+    .slice(0, 40);
+  const upcoming = books
+    .filter((b) => b.publishedDate !== null && b.publishedDate >= today && b.publishedDate <= next60)
+    .sort((a, b) => cmpAsc(a.publishedDate, b.publishedDate))
+    .slice(0, 60);
 
   return {
     justReleased: recent,
@@ -313,35 +343,28 @@ export async function getRecentAndUpcomingBooks(): Promise<{
 }
 
 export async function getBooksByMonth(year: number, month: number): Promise<Book[]> {
-  const db = getClient();
+  const books = await loadBooks();
   const prefix = `${year}-${String(month).padStart(2, '0')}`;
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE published_date LIKE ?
-      ORDER BY published_date ASC
-      LIMIT 200`,
-    args: [`${prefix}%`],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  return books
+    .filter((b) => b.publishedDate !== null && b.publishedDate.startsWith(prefix))
+    .sort((a, b) => cmpAsc(a.publishedDate, b.publishedDate))
+    .slice(0, 200);
 }
 
 export async function getPublishedMonths(): Promise<Array<{ year: number; month: number; count: number }>> {
-  const db = getClient();
-  const result = await db.execute(`
-    SELECT
-      CAST(SUBSTR(published_date, 1, 4) AS INTEGER) AS year,
-      CAST(SUBSTR(published_date, 6, 2) AS INTEGER) AS month,
-      COUNT(*) AS count
-    FROM books
-    WHERE LENGTH(published_date) >= 7
-    GROUP BY year, month
-    ORDER BY year, month
-  `);
-  return result.rows.map((r) => ({
-    year: Number((r as Record<string, unknown>).year),
-    month: Number((r as Record<string, unknown>).month),
-    count: Number((r as Record<string, unknown>).count),
-  }));
+  const books = await loadBooks();
+  const counts = new Map<string, { year: number; month: number; count: number }>();
+  for (const b of books) {
+    const pd = b.publishedDate;
+    if (pd === null || pd.length < 7) continue;
+    const year = parseInt(pd.slice(0, 4), 10) || 0;
+    const month = parseInt(pd.slice(5, 7), 10) || 0;
+    const key = `${year}-${month}`;
+    const entry = counts.get(key);
+    if (entry) entry.count += 1;
+    else counts.set(key, { year, month, count: 1 });
+  }
+  return [...counts.values()].sort((a, b) => a.year - b.year || a.month - b.month);
 }
 
 export async function cleanupPlaceholderBooks(): Promise<number> {
@@ -393,19 +416,19 @@ export async function cleanupPlaceholderBooks(): Promise<number> {
 }
 
 export async function getBestBooksByGenreYear(genre: string, year: number, limit = 36): Promise<Book[]> {
-  const db = getClient();
+  const books = await loadBooks();
   const prefix = `${year}-`;
-  const result = await db.execute({
-    sql: `SELECT * FROM books
-      WHERE genres LIKE ? AND published_date LIKE ?
-      ORDER BY
-        CASE WHEN cover_url IS NOT NULL AND description IS NOT NULL THEN 0 ELSE 1 END ASC,
-        CASE WHEN cover_url IS NOT NULL THEN 0 ELSE 1 END ASC,
-        published_date ASC
-      LIMIT ?`,
-    args: [`%${genre}%`, `${prefix}%`, limit],
-  });
-  return result.rows.map((r) => rowToBook(r as Record<string, unknown>));
+  return books
+    .filter((b) => genresContain(b, genre) && b.publishedDate !== null && b.publishedDate.startsWith(prefix))
+    .sort((a, b) => {
+      const ca = complete(a) ? 0 : 1;
+      const cb = complete(b) ? 0 : 1;
+      if (ca !== cb) return ca - cb;
+      const va = a.coverUrl != null ? 0 : 1;
+      const vb = b.coverUrl != null ? 0 : 1;
+      return va !== vb ? va - vb : cmpAsc(a.publishedDate, b.publishedDate);
+    })
+    .slice(0, limit);
 }
 
 export async function getAllAuthors(): Promise<Array<{ name: string; bookCount: number }>> {
@@ -430,18 +453,8 @@ export async function getBookCount(): Promise<number> {
 }
 
 export async function getBookCountByGenre(genre: string): Promise<number> {
-  const db = getClient();
-  const oneYearAgo = new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const books = await loadBooks();
+  const oneYearAgo = isoDay(new Date(Date.now() - 365 * 24 * 60 * 60 * 1000));
   const currentYear = new Date().getFullYear().toString();
-  const result = await db.execute({
-    sql: `SELECT COUNT(*) as count FROM books
-      WHERE genres LIKE ?
-        AND (
-          published_date IS NULL
-          OR published_date >= ?
-          OR (LENGTH(published_date) = 4 AND published_date >= ?)
-        )`,
-    args: [`%"${genre}"%`, oneYearAgo, currentYear],
-  });
-  return Number((result.rows[0] as Record<string, unknown>).count);
+  return books.filter((b) => hasGenre(b, genre) && genreVisible(b, oneYearAgo, currentYear)).length;
 }
