@@ -8,6 +8,7 @@ import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import covers from '@/lib/book-covers.json';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import { rolloutSlice } from '@/lib/rollout';
 
 function getCoverUrl(title: string, author: string): string | null {
   const key = `${title}|||${author}`;
@@ -22,7 +23,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return ALL_BOOKS_LIKE_SLUGS.map((slug) => ({ slug }));
+  return rolloutSlice(ALL_BOOKS_LIKE_SLUGS).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -6,6 +6,7 @@ import { SERIES, getSeriesBySlug } from '@/lib/series';
 import { getReadingOrder, getReadingOrderBooksWithUrls, ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import NewsletterSignup from '@/components/NewsletterSignup';
+import { rolloutSlice } from '@/lib/rollout';
 
 export const revalidate = 2592000;
 
@@ -14,7 +15,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return ALL_READING_ORDER_SLUGS.map((slug) => ({ slug }));
+  return rolloutSlice(ALL_READING_ORDER_SLUGS).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

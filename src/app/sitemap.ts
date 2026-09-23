@@ -5,6 +5,7 @@ import { SERIES } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
 import { authorSlug } from '@/lib/utils';
+import { rolloutSlice } from '@/lib/rollout';
 
 const BASE = 'https://bookreleaseradar.com';
 
@@ -45,20 +46,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const currentYear = new Date().getFullYear();
   const seriesUrls: MetadataRoute.Sitemap = [
     { url: `${BASE}/series`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    ...SERIES.map((s) => ({
+    ...rolloutSlice(SERIES).map((s) => ({
       url: `${BASE}/series/${s.slug}`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 0.85,
     })),
-    ...ALL_READING_ORDER_SLUGS.map((slug) => ({
+    ...rolloutSlice(ALL_READING_ORDER_SLUGS).map((slug) => ({
       url: `${BASE}/series/${slug}/reading-order`,
       priority: 0.5,
     })),
     { url: `${BASE}/books-like`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.82 },
     { url: `${BASE}/releases/${currentYear}`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.85 },
     { url: `${BASE}/releases/${currentYear + 1}`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    ...ALL_BOOKS_LIKE_SLUGS.map((slug) => ({
+    ...rolloutSlice(ALL_BOOKS_LIKE_SLUGS).map((slug) => ({
       url: `${BASE}/books-like/${slug}`,
       priority: 0.5,
     })),
