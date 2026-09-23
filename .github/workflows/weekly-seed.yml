@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * 1'  # Every Monday at 6am UTC
   workflow_dispatch:       # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   seed:
     runs-on: ubuntu-latest
@@ -19,6 +22,7 @@ jobs:
       - run: npm ci
 
       - name: Seed genre books
+        continue-on-error: true
         env:
           GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
@@ -27,11 +31,32 @@ jobs:
         run: npx tsx src/scripts/seed.ts
 
       - name: Seed series books (Open Library, no quota)
+        continue-on-error: true
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
           NEXT_PUBLIC_AMAZON_TAG: bookreleaseradar-20
         run: npx tsx src/scripts/seed-series-ol.ts
 
-      # ISR revalidate=86400 means new books surface within 24h automatically.
-      # No redeploy needed — Turso update is enough.
+      # Pages no longer read Turso at request/build time (see src/lib/db.ts) —
+      # they read src/data/books.json, committed here. This is what keeps the
+      # site on Turso's free tier: a few hundred row reads a week from this
+      # export instead of thousands of unindexed reads on every page build.
+      - name: Export books.json from Turso
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: npx tsx src/scripts/export-books-json.ts
+
+      - name: Commit updated books.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/books.json
+          git diff --cached --quiet || git commit -m "Weekly book data refresh"
+          git push
+
+      # Vercel isn't connected to this GitHub repo (deploys are manual via
+      # `vercel --prod`), so a push here does NOT publish the new data by
+      # itself — someone still has to redeploy. Connect the repo in the
+      # Vercel dashboard (Project Settings > Git) to make this automatic.

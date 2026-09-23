@@ -101,37 +101,35 @@ export async function upsertBook(book: Book) {
 // ---------------------------------------------------------------------------
 // In-memory read layer
 //
-// Every page-facing read is answered from one snapshot of the `books` table
-// (a few hundred rows). The old per-page SQL used unindexed LIKE scans, so each
-// page re-read the whole table several times and a full build burned through
-// the Turso row-read quota. One SELECT per process (per TTL) replaces that.
+// Every page-facing read is answered from books.json, a snapshot of the
+// `books` table committed to the repo (see src/scripts/export-books-json.ts).
+// Builds and page renders never query Turso — Turso is only read/written by
+// the weekly seed job. That's what keeps this on the free tier: a few
+// hundred row reads a week from the seed script, instead of thousands of
+// unindexed LIKE-scan reads on every build and ISR revalidation.
 // ---------------------------------------------------------------------------
 
-const SNAPSHOT_TTL_MS = 10 * 60 * 1000;
-
-let snapshot: { books: Book[]; at: number } | null = null;
-let inflight: Promise<Book[]> | null = null;
+let cachedBooks: Book[] | null = null;
 
 async function loadBooks(): Promise<Book[]> {
-  const now = Date.now();
-  if (snapshot && now - snapshot.at < SNAPSHOT_TTL_MS) return snapshot.books;
-  if (inflight) return inflight;
-  inflight = (async () => {
-    try {
-      const db = getClient();
-      const result = await db.execute('SELECT * FROM books');
-      const books = result.rows.map((r) => rowToBook(r as Record<string, unknown>));
-      snapshot = { books, at: Date.now() };
-      return books;
-    } catch (err) {
-      // Serve the last good copy rather than failing a revalidation.
-      if (snapshot) return snapshot.books;
-      throw err;
-    } finally {
-      inflight = null;
-    }
-  })();
-  return inflight;
+  if (cachedBooks) return cachedBooks;
+  const data = (await import('@/data/books.json')).default as Array<{
+    id: string;
+    isbn: string | null;
+    slug: string;
+    title: string;
+    authors: string[];
+    publishedDate: string | null;
+    description: string | null;
+    coverUrl: string | null;
+    genres: string[];
+    pageCount: number | null;
+    publisher: string | null;
+    amazonUrl: string;
+    googleUrl: string | null;
+  }>;
+  cachedBooks = data as Book[];
+  return cachedBooks;
 }
 
 const isoDay = (d: Date) => d.toISOString().slice(0, 10);
@@ -432,12 +430,10 @@ export async function getBestBooksByGenreYear(genre: string, year: number, limit
 }
 
 export async function getAllAuthors(): Promise<Array<{ name: string; bookCount: number }>> {
-  const db = getClient();
-  const result = await db.execute('SELECT authors FROM books');
+  const books = await loadBooks();
   const counts = new Map<string, number>();
-  for (const row of result.rows) {
-    const authors: string[] = JSON.parse((row as Record<string, unknown>).authors as string);
-    for (const a of authors) {
+  for (const b of books) {
+    for (const a of b.authors) {
       if (a) counts.set(a, (counts.get(a) ?? 0) + 1);
     }
   }
