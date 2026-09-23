@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, BookOpen } from 'lucide-react';
 import { RECOMMENDATIONS } from '@/lib/recommendations';
+import { rolloutSlice } from '@/lib/rollout';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 2592000;
@@ -43371,7 +43372,7 @@ export default function BooksLikeIndexPage() {
 
         {/* Recommendation cards */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {RECOMMENDATIONS.map((entry) => (
+          {rolloutSlice(RECOMMENDATIONS).map((entry) => (
             <Link
               key={entry.slug}
               href={`/books-like/${entry.slug}`}

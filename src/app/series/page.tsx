@@ -4,6 +4,7 @@ import { ChevronRight, BookOpen, List, Heart } from 'lucide-react';
 import { SERIES } from '@/lib/series';
 import { ALL_READING_ORDER_SLUGS } from '@/lib/reading-orders';
 import { ALL_BOOKS_LIKE_SLUGS } from '@/lib/recommendations';
+import { rolloutSlice } from '@/lib/rollout';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
 export const revalidate = 86400;
@@ -83,7 +84,7 @@ export default function SeriesIndexPage() {
         name: 'What book series can I track on BookReleaseRadar?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `BookReleaseRadar tracks ${SERIES.length} popular series including ACOTAR, Fourth Wing, Bridgerton, Six of Crows, Kingkiller Chronicle, Outlander, The Stormlight Archive, Red Rising, and more. Each series page shows upcoming release dates and pre-order links.`,
+          text: `BookReleaseRadar tracks ${rolloutSlice(SERIES).length} popular series including ACOTAR, Fourth Wing, Bridgerton, Six of Crows, Kingkiller Chronicle, Outlander, The Stormlight Archive, Red Rising, and more. Each series page shows upcoming release dates and pre-order links.`,
         },
       },
       {
@@ -125,7 +126,7 @@ export default function SeriesIndexPage() {
 
         {/* Series grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {SERIES.map((series) => (
+          {rolloutSlice(SERIES).map((series) => (
             <div
               key={series.slug}
               className="group flex flex-col p-5 rounded-xl border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/50 hover:bg-[var(--surface-raised)] transition-all"
