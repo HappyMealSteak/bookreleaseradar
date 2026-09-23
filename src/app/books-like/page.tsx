@@ -21623,7 +21623,7 @@ export const metadata: Metadata = {
     'reading recommendations',
     'what to read next',
     'book recommendations fantasy romance',
-  ],
+  ].slice(0, 2000),
 };
 
 const breadcrumbJsonLd = {
@@ -43343,7 +43343,7 @@ const faqJsonLd = {
       name: 'What should I read if I liked Breath Eyes Memory by Edwidge Danticat?',
       acceptedAnswer: { '@type': 'Answer', text: "Books like Breath Eyes Memory include The Dew Breaker by Edwidge Danticat, Krik? Krak! by Edwidge Danticat, Homegoing by Yaa Gyasi, Sing Unburied Sing by Jesmyn Ward, The Woman Warrior by Maxine Hong Kingston, and The Joy Luck Club by Amy Tan. Our full guide covers 8 picks for fans of Danticat's debut novel." },
     },
-  ],
+  ].slice(0, 1500),
 };
 
 export default function BooksLikeIndexPage() {
